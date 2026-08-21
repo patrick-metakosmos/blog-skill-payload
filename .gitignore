@@ -1,0 +1,19 @@
+# credenciais — NUNCA versionar
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# dumps/backups pessoais de recuperação
+backups/
+
+# rascunhos e revisões em andamento
+output/
+
+# handoffs redundantes (o repo git é o handoff agora)
+*.zip
+
+# arquivos de sistema
+desktop.ini
+Thumbs.db

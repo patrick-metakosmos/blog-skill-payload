@@ -1,0 +1,66 @@
+[
+  {
+    "id": 4039,
+    "slug": "mk-thumb-1",
+    "score": 4,
+    "use_category": "hero",
+    "theme_tags": ["3d", "ecommerce", "calcados", "visualizador", "produto-em-tela"],
+    "best_use": "Hero generico de produto 3D em tela de desktop (tenis). Bom para Pilar 1 e 3, visualizacao de produto, calcados."
+  },
+  {
+    "id": 4172,
+    "slug": "mk-thumb-2-2",
+    "score": 2,
+    "use_category": "conceitual",
+    "theme_tags": ["3d-retro", "humor", "contraste", "meme", "anos-90"],
+    "best_use": "Imagem ironica de 3D scanner anos 90 (Windows 95, low-poly moto, erros). USAR SO em contexto de contraste antes/depois ou humor sobre 3D antigo. EVITAR como hero de Pillar Page seria de moda/beleza/provador."
+  },
+  {
+    "id": 4349,
+    "slug": "thumb-04-03",
+    "score": 5,
+    "use_category": "hero",
+    "theme_tags": ["ar", "3d", "moveis", "automotivo", "ambiente-real", "visualizador"],
+    "best_use": "Hero ideal para Pilar 3 (Visualizador 3D + AR). Mostra picape, cadeira e cadeira gamer projetados via AR em ambientes reais. Forte para artigos de AR e visualizacao espacial."
+  },
+  {
+    "id": 4347,
+    "slug": "mk-thumb-10-2",
+    "score": 4,
+    "use_category": "infografico",
+    "theme_tags": ["kpi", "metricas", "conversao", "devolucoes", "ticket-medio"],
+    "best_use": "Card de KPIs com bordas neon (+94% conversao, -28% devolucoes, +32% ticket medio). Bom para secao de resultados/dados em qualquer pilar. Reclassificado de hero para infografico."
+  },
+  {
+    "id": 4341,
+    "slug": "mk-thumb-4-4",
+    "score": 3,
+    "use_category": "inline",
+    "theme_tags": ["fooh", "absorventes", "publicidade-retro", "mili", "contraste"],
+    "best_use": "Contraste de publicidade vintage (Tampax anos 80) vs FOOH moderno (Mili). Especifico para Pilar 4 FOOH ou artigos sobre evolucao da publicidade. Nao usar como hero generico."
+  },
+  {
+    "id": 4352,
+    "slug": "thumb-05-03",
+    "score": 4,
+    "use_category": "hero",
+    "theme_tags": ["3d", "ecommerce", "moveis", "gamer", "produto-em-tela"],
+    "best_use": "Hero generico de produto 3D em tela de notebook (cadeira gamer). Bom para Pilar 1 e 3, visualizacao de produto, moveis e gaming."
+  },
+  {
+    "id": 212,
+    "slug": "thumb-1",
+    "score": 3,
+    "use_category": "thumbnail-video",
+    "theme_tags": ["bill-gates", "internet-anos-90", "adocao-tecnologia", "ceticismo"],
+    "best_use": "Thumb de video sobre ceticismo com internet nos anos 90 (analogia de curva de adocao de tecnologia). Usar em artigos sobre 'por que adotar agora'. Nao e hero de produto."
+  },
+  {
+    "id": 218,
+    "slug": "thumb-1-1",
+    "score": 2,
+    "use_category": "thumbnail-video",
+    "theme_tags": ["bill-gates", "internet-anos-90", "adocao-tecnologia", "duplicata"],
+    "best_use": "Duplicata quase identica da thumb-1 (Bill Gates internet anos 90). Preferir a thumb-1 (id 212). Mantida com score menor por ser redundante."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 4039,
+    "slug": "mk-thumb-1",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2026/01/MK-THUMB-1.jpg",
+    "auto_category": "hero",
+    "score_heuristic": 5,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\00_4039.jpg"
+  },
+  {
+    "id": 4172,
+    "slug": "mk-thumb-2-2",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2026/01/MK-THUMB-2.jpg",
+    "auto_category": "hero",
+    "score_heuristic": 5,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\01_4172.jpg"
+  },
+  {
+    "id": 4349,
+    "slug": "thumb-04-03",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2026/03/thumb-04.03.png",
+    "auto_category": "hero",
+    "score_heuristic": 5,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\02_4349.png"
+  },
+  {
+    "id": 4347,
+    "slug": "mk-thumb-10-2",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2026/03/MK-THUMB-10.png",
+    "auto_category": "hero",
+    "score_heuristic": 5,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\03_4347.png"
+  },
+  {
+    "id": 4341,
+    "slug": "mk-thumb-4-4",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2026/03/MK-THUMB-4.jpg",
+    "auto_category": "hero",
+    "score_heuristic": 5,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\04_4341.jpg"
+  },
+  {
+    "id": 4352,
+    "slug": "thumb-05-03",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2026/03/thumb-05.03.jpg",
+    "auto_category": "hero",
+    "score_heuristic": 5,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\05_4352.jpg"
+  },
+  {
+    "id": 212,
+    "slug": "thumb-1",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2023/01/thumb-1.jpg",
+    "auto_category": "hero",
+    "score_heuristic": 4,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\06_212.jpg"
+  },
+  {
+    "id": 218,
+    "slug": "thumb-1-1",
+    "url": "https://metakosmos.com.br/wp-content/uploads/2023/01/thumb-1-1.jpg",
+    "auto_category": "hero",
+    "score_heuristic": 4,
+    "local_file": "C:\\Users\\patri\\OneDrive\\Área de Trabalho\\blog mK\\references\\_eval_media\\07_218.jpg"
+  }
+]
