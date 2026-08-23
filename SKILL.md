@@ -298,6 +298,17 @@ Os modos Pautar/Gerar/Reescrever/Humanizar/Auditar seguem a mesma lógica da ski
 8. Cria o post via `POST /api/posts?locale=pt-BR&draft=true` com `_status:"draft"`, SEO (`metaTitle`/`metaDescription`/`noIndex`), categoria, tags.
 9. Reporta ID e URL do editor.
 
+### Depois de publicar — manter as listas atualizadas (OBRIGATÓRIO, sem perguntar)
+Ao final de cada publicação (rascunho ou live), rode nesta ordem — são chamadas leves
+e paginadas contra a API do Payload, não precisam de agendamento externo:
+```bash
+python scripts/status_backlog.py       # cruza BACKLOG-EDITORIAL.md com o que existe no Payload
+python scripts/sync_payload_lists.py   # atualiza blog-links.md (artigos) e mkases.md (mKases)
+python scripts/sync_payload_media.py   # só se mídia nova foi enviada nesta sessão
+```
+Se estiver publicando **vários artigos em lote na mesma sessão**, rode os três só ao
+final do lote (não a cada artigo individual) para evitar chamadas redundantes.
+
 ### Comandos
 ```bash
 python scripts/payload_publish.py --list                    # lista slugs em output/ (inclui Postado/)
