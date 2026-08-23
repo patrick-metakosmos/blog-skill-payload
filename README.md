@@ -8,7 +8,7 @@ vivem nesta pasta.
 
 1. Clone este repositório em qualquer pasta local:
    ```
-   git clone <URL-DESTE-REPO> "blog mK Payload"
+   git clone https://github.com/patrick-metakosmos/blog-skill-payload.git "blog mK Payload"
    ```
 2. Copie `.env.example` para `.env` e preencha com o **seu próprio** login do Payload
    (nunca reutilize a senha de outra pessoa, e nunca commite o `.env`).
