@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **44** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **46** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -10,6 +10,7 @@ Total: **44** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `ar-moveis-eletrodomesticos-online` | Como usar AR para vender móveis e eletrodomésticos online: o guia para transform | /blog/ar-moveis-eletrodomesticos-online |
 | `ar-reduz-abandono-carrinho-ecommerce` | Como a Realidade Aumentada reduz o abandono de carrinho | /blog/ar-reduz-abandono-carrinho-ecommerce |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
+| `como-aumentar-taxa-conversao-ecommerce` | Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce  | /blog/como-aumentar-taxa-conversao-ecommerce |
 | `como-funciona-provador-virtual-ia` | Como funciona um provador virtual com IA: guia 2026 | /blog/como-funciona-provador-virtual-ia |
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
@@ -18,6 +19,7 @@ Total: **44** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce` | Immersive Commerce: o Guia Completo para Líderes em E-commerce | /blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce |
 | `immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou` | Immersive Commerce vs. E-commerce tradicional: por que a era da foto estática ac | /blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou |
 | `implementacao-visualizador-3d-ecommerce` | Visualizador 3D para E-commerce: Guia de Implementação | /blog/implementacao-visualizador-3d-ecommerce |
+| `inovacao-no-varejo` | Inovação no varejo: o que separa piloto bonito de resultado no caixa | /blog/inovacao-no-varejo |
 | `inteligencia-artificial-ecommerce` | Inteligência Artificial e-commerce: os usos que já dão resultado em 2026 | /blog/inteligencia-artificial-ecommerce |
 | `kpis-ecommerce` | KPIs e-commerce: os 11 indicadores que dizem se a operação vai bem | /blog/kpis-ecommerce |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
