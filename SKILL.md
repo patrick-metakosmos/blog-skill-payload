@@ -4,14 +4,14 @@ version: 1.0.0
 description: |
   Gerador e reescritor de artigos de blog metaKosmos para o **Payload CMS** (Lexical), com voz autenticada, anti-IA integrado, GEO/AEO otimizado e self-audit.
   Clone da skill blog-mk (WordPress/Gutenberg), adaptado ao Payload: o corpo é escrito em HTML semântico simples e convertido para Lexical na publicação. A skill blog-mk original permanece intocada para o legado WP.
-  5 modos: Pautar, Gerar, Reescrever, Humanizar, Auditar + Publicar. Detecção automática por contexto.
-  Fluxo em 9 passos: input → pesquisa → pauta → escrita em chunks 1000w → integração → auditoria → revisão editorial → HTML semântico final → entrega.
-  Output: 3 documentos — (1) Pauta .md, (2) Artigo .html (HTML semântico → Lexical), (3) Ficha de Metadados .md.
+  5 modos: Pautar, Gerar, Reescrever, Humanizar, Auditar + Publicar + LinkedIn. Detecção automática por contexto.
+  Fluxo em 10 passos: input → pesquisa → pauta → escrita em chunks 1000w → integração → auditoria → revisão editorial → HTML semântico final → entrega → publicação (artigo AO VIVO + post no LinkedIn).
+  Output: 3 documentos — (1) Pauta .md, (2) Artigo .html (HTML semântico → Lexical), (3) Ficha de Metadados .md — mais (4) linkedin.md, gerado automático no passo 10.
   Regras: min 2000 palavras, parágrafos 35-40 palavras, FAQ 10+ perguntas, links verificados. SEM componentes visuais (Payload é plano).
   Keyword-alvo exata na abertura do H1. Todo artigo cita o State of Immersive & Agentic Commerce 2026 e tem CTA para /estudo.
 tools-necessários:
   - Read (arquivos de referência)
-  - Create File (3 arquivos de output)
+  - Create File (4 arquivos de output)
   - WebFetch (Google Docs, se usuário fornecer URL)
   - WebSearch (pesquisa de dados/fontes externas quando necessário)
 ---
@@ -28,14 +28,15 @@ Esta é a variante **Payload** da skill de blog. O CMS do metakosmos.com.br migr
 
 Tudo que é **editorial** (voz, anti-IA, GEO/AEO, mKases, links, tamanho, FAQ) é **idêntico** à skill original e vive nos mesmos arquivos de referência.
 
-**Cada execução produz 3 documentos dentro de uma pasta dedicada por artigo:**
+**Cada execução produz 4 documentos dentro de uma pasta dedicada por artigo:**
 
 ```
 output/
 └── [slug-do-artigo]/
     ├── pauta.md
     ├── artigo.html      (HTML semântico → convertido para Lexical)
-    └── metadados.md
+    ├── metadados.md
+    └── linkedin.md      (4º documento, automático no passo 10)
 ```
 
 | # | Documento | Caminho | Conteúdo |
@@ -43,6 +44,7 @@ output/
 | 1 | **Pauta Completa** | `output/[slug]/pauta.md` | Briefing editorial completo (Modo Pautar) |
 | 2 | **Artigo Payload** | `output/[slug]/artigo.html` | **HTML semântico simples** (h1/h2/h3, p, strong, ul/li, a, img, hr). Mínimo 2000 palavras, parágrafos 35-40 palavras, FAQ 10+. SEM cards/colunas/botões/cores/`style=`. Convertido para Lexical na publicação. SEM sumário/ToC (Payload gera). |
 | 3 | **Ficha de Metadados** | `output/[slug]/metadados.md` | SEO (Título SEO, Meta Description, Slug, Pilar, Categoria, Tags), checklist pré-publicação, self-audit, instruções para o editor |
+| 4 | **Post de LinkedIn** | `output/[slug]/linkedin.md` | Teaser da página da metaKosmos: gancho, `Leia completo em:` + link com UTM, 3-4 blocos, hashtags. 900-1.400 caracteres. Gerado e **publicado ao vivo** no passo 10, depois do artigo subir |
 
 ---
 
@@ -62,6 +64,7 @@ references/style-dna.md           — Trechos reais do blog (âncora de voz)
 references/blog-patterns.md       — Padrões estruturais + estrutura GEO/AEO
 references/anti-ia-rules.md       — 25 padrões proibidos + checklist unificado 30 itens
 references/output-payload.md      — Formato do artigo (HTML semântico) + mapeamento p/ Lexical  ← ESPECÍFICO DESTA SKILL
+references/linkedin-post.md       — Regras do post de LinkedIn (estrutura, tamanho, UTM, checklist)  ← MODO LINKEDIN
 references/concorrentes.md        — Mapa competitivo (JAMAIS linkar concorrentes)
 references/processo-pauta.md      — Template e fluxo de criação de pauta
 references/sitemap-urls.md        — Todas as URLs verificadas do site (sitemaps)
@@ -170,7 +173,7 @@ Todo artigo cita o **State of Immersive & Agentic Commerce 2026** e manda tráfe
 
 ---
 
-## Fluxo de Criação (9 passos)
+## Fluxo de Criação (10 passos)
 
 Igual à blog-mk, com o passo de formatação final adaptado:
 
@@ -191,7 +194,33 @@ Igual à blog-mk, com o passo de formatação final adaptado:
    - `<h1>` no topo (vira título); hero = 1ª `<img>` **horizontal** do catálogo (vira featuredImage); sem ToC.
    - Imagens distribuídas (1 a cada 2-3 seções), SÓ nomes de `media-payload.md`; links com UTMs.
    - Rodar a **auditoria de formato + anti-IA programática** (abaixo) e corrigir.
-9. **Entrega** — os 3 documentos + Completion Summary.
+9. **Entrega** — Pauta, Artigo e Metadados + Completion Summary.
+10. **Publicação (automática, sem perguntar) — NESTA ORDEM:**
+    ```bash
+    # a) artigo AO VIVO no blog (padrão do usuário desde 02/09/2026)
+    python scripts/payload_publish.py <slug> --status published
+
+    # b) escrever output/[slug]/linkedin.md conforme references/linkedin-post.md
+
+    # c) post AO VIVO na página da metaKosmos (o link já está no ar por causa do passo a)
+    python scripts/linkedin_publish.py <slug>
+
+    # d) manter as listas em dia
+    python scripts/status_backlog.py
+    python scripts/sync_payload_lists.py
+    ```
+    **A ordem importa.** Publicar o artigo primeiro é o que faz o link do LinkedIn nascer
+    funcionando. Invertida, todo post nasce em 404. Por isso o `linkedin_publish.py` roda
+    aqui **sem** `--skip-link-check`: a verificação de HTTP 200 agora vale como conferência
+    real de que o artigo subiu antes do post sair.
+    - **Ambos saem ao vivo e públicos**, sem etapa de revisão humana. Decisão do usuário,
+      tomada com os riscos na mesa. Isso torna a auditoria do passo 8.5 a **única** rede
+      de proteção antes do público: nenhum bloqueador dela pode ser relevado.
+    - **Rodar o LinkedIn UMA vez.** Ele não deduplica. O primeiro disparo bem-sucedido grava
+      `output/[slug]/.linkedin-posted.json` e a trava recusa os seguintes, mas não conte
+      com ela para consertar descuido: ela existe para o re-run acidental.
+    - Se a validação do LinkedIn reprovar, corrigir o `linkedin.md` e rodar de novo sem
+      `--force` (nada foi postado, não há duplicata a temer).
 
 ### Auditoria de formato (passo 8.5 — OBRIGATÓRIO, cada item BLOQUEADOR)
 
@@ -251,7 +280,7 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 - Carregar todas as referências antes de escrever (incluindo `output-payload.md` e `estudo-indice.md`).
 - **Keyword-alvo exata abrindo o H1**, no 1º parágrafo e em um H2/FAQ.
 - **Citar o estudo com link para o PDF + CTA para `/estudo`**, ambos com UTM.
-- Gerar os 3 documentos (Pauta + Artigo + Metadados).
+- Gerar os 4 documentos (Pauta + Artigo + Metadados + LinkedIn).
 - Artigo em `artigo.html` como **HTML semântico simples**.
 - Mínimo 2000 palavras; parágrafos 35-40 palavras; FAQ 10+ perguntas.
 - Mínimo 2 mKases com métricas reais; 6-8 links internos verificados com UTMs.
@@ -277,12 +306,13 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 | Texto de artigo + "limpar"/"humanizar" | **Humanizar** |
 | Texto de artigo + "avaliar"/"auditar"/"score" | **Auditar** |
 | "publica [slug]" / "sobe pro Payload" / "manda pro site" + slug em `output/` | **Publicar** |
+| "post do LinkedIn" / "gera o LinkedIn de [slug]" / "posta no LinkedIn" | **LinkedIn** |
 
 Os modos Pautar/Gerar/Reescrever/Humanizar/Auditar seguem a mesma lógica da skill blog-mk (mesmos passos e critérios editoriais), com a única diferença de que o Documento 2 é **HTML semântico** (não Gutenberg). Consultar a skill original para os detalhes de cada modo; as regras de conteúdo são idênticas.
 
 ---
 
-## Modo Publicar (envia para o Payload como rascunho)
+## Modo Publicar (envia para o Payload, ao vivo por padrão)
 
 ### Quando usar
 "publica [slug]", "sobe o artigo pro Payload", "manda pro site", com o artigo já em `output/[slug]/` (mín. `artigo.html` + `metadados.md`).
@@ -314,8 +344,8 @@ final do lote (não a cada artigo individual) para evitar chamadas redundantes.
 python scripts/payload_publish.py --list                    # lista slugs em output/ (inclui Postado/)
 python scripts/payload_publish.py <slug> --dry-run          # converte e salva o Lexical, SEM API
 python scripts/payload_publish.py <slug> --probe            # testa login + coleções
-python scripts/payload_publish.py <slug>                    # cria rascunho (default)
-python scripts/payload_publish.py <slug> --status published # publica direto (cuidado!)
+python scripts/payload_publish.py <slug>                    # cria rascunho (default do script)
+python scripts/payload_publish.py <slug> --status published # AO VIVO (é o que a skill usa)
 ```
 
 ### Requisitos (`.env` em `blog mK Payload/.env`)
@@ -327,13 +357,113 @@ PAYLOAD_PASSWORD=...
 ```
 
 ### Padrões fixos
-- **Status default = draft** — sempre rascunho para revisão humana (regra do usuário: testar/conferir em 1 antes de qualquer massa).
+- **Status: AO VIVO por padrão** (`--status published`), desde 02/09/2026, a pedido do usuário.
+  O flag `--status draft` continua existindo para quando o artigo precisar de revisão antes.
+  O default do *script* continua `draft` de propósito: quem decide publicar ao vivo é a skill,
+  passando o flag, e não um script rodado sem querer.
+  Consequência: **não existe mais revisão humana entre a geração e o público.** A auditoria
+  do passo 8.5 vira a única rede, e cada bloqueador dela passa a valer por uma revisão.
+  A regra de "testar em 1 antes de qualquer massa" continua valendo para publicação em lote.
 - **Autor:** por padrão sem autor (posts do Payload aceitam `author: null`). Ajustar se o time definir um autor fixo.
 - **Categoria por pilar** (mapa em `PILAR_TO_CATEGORY_SLUG`): 1→immersive-commerce, 2→provador-virtual, 3→visualizador-3d-ar, 6→mkcases-tag.
 - **featuredImage** só é definida se a hero existir na Media; senão, definir no admin.
 
 ### i18n PT/EN/ES
 O post é criado em `pt-BR`. Para EN/ES, os campos localizados são salvos **um locale por vez**: após criar, `PATCH /api/posts/<id>?locale=en` (e `es`) com as traduções. (Passo de tradução ainda a automatizar — ver Pendências.)
+
+---
+
+## Modo LinkedIn (gera o post e publica na página da metaKosmos)
+
+### Quando usar
+**Geração e publicação rodam sozinhas no passo 10** do fluxo, ao fim de todo artigo novo,
+sem perguntar. O post entra ao vivo na página da metaKosmos na hora.
+
+Sob demanda também: "gera o post de LinkedIn de [slug]", "posta no LinkedIn",
+"reposta com --force". Pressupõe o artigo já em `output/[slug]/`.
+
+### O que faz
+1. Lê `artigo.html` e `metadados.md` do slug e escreve **`output/[slug]/linkedin.md`** (4º documento, gerado sob demanda).
+2. Segue **`references/linkedin-post.md`** à risca: gancho de até 100 caracteres, linha
+   `Leia completo em: <url>` imediatamente depois, corpo em 3 ou 4 blocos com pelo
+   menos um número, e 3 a 5 hashtags.
+   **Alvo de 900 a 1.400 caracteres (~150 a 230 palavras), teto de 1.800.**
+   Atenção: a medida é em **caracteres**, não em palavras.
+   O post é **teaser, não resumo**: abre a lacuna e para. Se ele responder a pergunta que
+   levantou, o leitor não tem motivo para clicar. Convencer é trabalho do artigo.
+3. `scripts/linkedin_publish.py` valida (bloqueadores) e dispara um **webhook do Make**,
+   que posta pelo módulo **LinkedIn v2 › Create a Company Text Post** (`CreateTextShare`),
+   `visibility=PUBLIC`, `feedDistribution=MAIN_FEED`.
+
+### Por que Make e não API da LinkedIn direto
+Postar em página de empresa pela API exige o produto **Community Management API**
+(app próprio, aprovação manual da LinkedIn, token de 60 dias para renovar). O Make já é
+parceiro aprovado, a conexão LinkedIn da metaKosmos já existe na conta e o módulo v2 não
+tem limite de caracteres (o v1, `ActionCreateCompanyShare`, trava em 700 e **não serve**).
+Custo de manutenção zero. Se um dia a LinkedIn aprovar um app próprio, o ponto de troca é
+só a função `post_to_make()`.
+
+### Comandos
+```bash
+python scripts/linkedin_publish.py --list                    # slugs com linkedin.md pronto
+python scripts/linkedin_publish.py <slug> --check            # só valida, não envia
+python scripts/linkedin_publish.py <slug> --dry-run          # valida e mostra o corpo
+python scripts/linkedin_publish.py <slug>                    # POSTA na página
+python scripts/linkedin_publish.py <slug> --skip-link-check  # pula o HTTP na URL
+```
+
+### Bloqueadores automáticos (o script recusa postar)
+Tamanho fora de 500 a 1.800 caracteres · gancho acima de 100 caracteres · a linha
+`Leia completo em:` fora da linha 3 · número de URLs diferente de 1 · UTM faltando ou
+errado · em dash · abertura ou frase-conclusão proibida · `**` de markdown · emoji ·
+valor monetário · nenhum número no corpo · hashtags fora de 3 a 5.
+
+Avisos, que **não** bloqueiam: URL respondendo 404 (o artigo pode entrar no ar depois),
+vocabulário de IA, anáfora staccato, gancho em pergunta.
+
+### Padrões fixos
+- **Gerar E postar, ambos automáticos** no fim de todo artigo (passo 10), sem perguntar.
+  Ao contrário do blog, que sobe como rascunho, o LinkedIn não tem rascunho por API: o post
+  nasce ao vivo e público na página. O usuário optou por isso sabendo do risco (02/09/2026).
+- **Uma vez por slug.** O LinkedIn não deduplica, então o primeiro disparo bem-sucedido
+  grava `output/[slug]/.linkedin-posted.json` e a trava recusa os próximos. `--force`
+  contorna, e só deve ser usado se o usuário pedir repost explicitamente.
+- **Se algo der errado depois do post**, o conserto é no LinkedIn (apagar o post na página),
+  não no script. Apagar o marcador sem apagar o post gera duplicata no próximo disparo.
+- **Um link por post**, sempre com `utm_source=linkedin-organico&utm_medium=organic-social`.
+- **O artigo não precisa estar no ar** para o post sair. O script avisa se a URL responde
+  404 e posta assim mesmo, por decisão do usuário: o artigo entra no ar em algum momento e
+  o link passa a funcionar sozinho. Só vale publicar o artigo no mesmo dia, para encurtar
+  a janela em que o clique cai em 404.
+- **Sem valor monetário**, igual ao blog.
+
+### Requisitos (`.env`)
+```
+LINKEDIN_WEBHOOK_URL=https://hook.us1.make.com/xxxxxxxx
+# opcionais: LINKEDIN_ORG_URN, LINKEDIN_LINK_PREFIX, LINKEDIN_MAX_CHARS, LINKEDIN_MIN_CHARS
+```
+
+### Cenário do Make (já criado em 02/09/2026)
+
+| Item | Valor |
+|---|---|
+| Cenário | `[mK] Blog -> LinkedIn (pagina metaKosmos)` — ID **4901009** |
+| Organização / Time | 704086 / 279448 (`[MKO] @metakosmoslab` / My Team) |
+| Webhook | ID 2811924 — a URL vive em `LINKEDIN_WEBHOOK_URL` no `.env`, **nunca aqui** (quem tem a URL posta na página) |
+| Módulo 2 | `linkedin:CreateTextShare` v2, `content={{1.content}}`, `type=text`, `visibility=PUBLIC`, `feedDistribution=MAIN_FEED` |
+| Estado | **inativo**, com dois campos pendentes de configuração manual |
+
+Pendências de uma vez só, no Make:
+1. **Reconectar o LinkedIn.** A conexão `[MKL] metaKosmos (Patrick)` (ID 4397662, tipo
+   `linkedin-openid`, aceita pelo módulo v2) **expirou em 06/08/2026**. Precisa dos escopos
+   `w_organization_social` e `rw_organization_admin`, e o usuário conectado precisa ser
+   **admin da página** da metaKosmos.
+2. **Escolher a Company** no dropdown do módulo 2 (campo `organization`, ficou vazio porque
+   é preenchido por RPC autenticado).
+3. **Ativar** o cenário.
+
+Se preferir fixar a página pelo `.env` em vez do dropdown, setar `LINKEDIN_ORG_URN=urn:li:organization:<id>`
+e mapear `organization` para `{{1.organization}}` no módulo.
 
 ---
 
@@ -365,6 +495,7 @@ O post é criado em `pt-BR`. Para EN/ES, os campos localizados são salvos **um 
 | Modo:          [Pautar/Gerar/Reescrever/Hum/Aud]  |
 | 📂 Pasta:      output/[slug]/                      |
 | 📋 pauta.md  📝 artigo.html  📊 metadados.md       |
+| 💼 linkedin.md ([N] caracteres)                    |
 +----------------------------------------------------+
 | Palavras: [N] | FAQ: [N] | mKases: [N]            |
 | Keyword no H1: [exata/FALHA] | 1º parágrafo: [ok] |
@@ -374,6 +505,8 @@ O post é criado em `pt-BR`. Para EN/ES, os campos localizados são salvos **um 
 | Anti-IA: em dash [0] | conclusão [0] | staccato OK |
 | GEO/AEO: [Conforme / pendências]                  |
 +----------------------------------------------------+
-| PRÓXIMO: python scripts/payload_publish.py [slug]  |
+| ARTIGO:   AO VIVO em /blog/[slug] | ID [N]        |
+| LINKEDIN: POSTADO em [data/hora]  | link 200 [ok] |
+| Listas sincronizadas: backlog + links             |
 +====================================================+
 ```

@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **44** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **59** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -9,17 +9,26 @@ Total: **44** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `ai-shooting-moda-ia` | AI Shooting para moda: o fim do ensaio caro e travado | /blog/ai-shooting-moda-ia |
 | `ar-moveis-eletrodomesticos-online` | Como usar AR para vender móveis e eletrodomésticos online: o guia para transform | /blog/ar-moveis-eletrodomesticos-online |
 | `ar-reduz-abandono-carrinho-ecommerce` | Como a Realidade Aumentada reduz o abandono de carrinho | /blog/ar-reduz-abandono-carrinho-ecommerce |
+| `aumentar-confianca-compra-online` | Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em c | /blog/aumentar-confianca-compra-online |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
+| `como-aumentar-taxa-conversao-ecommerce` | Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce  | /blog/como-aumentar-taxa-conversao-ecommerce |
 | `como-funciona-provador-virtual-ia` | Como funciona um provador virtual com IA: guia 2026 | /blog/como-funciona-provador-virtual-ia |
+| `como-reduzir-abandono-carrinho` | Como reduzir abandono de carrinho: as causas que frete grátis não resolve | /blog/como-reduzir-abandono-carrinho |
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
+| `custo-de-aquisicao-cliente-online` | Custo de aquisição de cliente: como calcular e como derrubar | /blog/custo-de-aquisicao-cliente-online |
+| `dashboard-ecommerce` | Dashboard e-commerce: o que medir e como ler | /blog/dashboard-ecommerce |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
+| `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |
 | `immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce` | Immersive Commerce: o Guia Completo para Líderes em E-commerce | /blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce |
 | `immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou` | Immersive Commerce vs. E-commerce tradicional: por que a era da foto estática ac | /blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou |
 | `implementacao-visualizador-3d-ecommerce` | Visualizador 3D para E-commerce: Guia de Implementação | /blog/implementacao-visualizador-3d-ecommerce |
+| `inovacao-no-varejo` | Inovação no varejo: o que separa piloto bonito de resultado no caixa | /blog/inovacao-no-varejo |
 | `inteligencia-artificial-ecommerce` | Inteligência Artificial e-commerce: os usos que já dão resultado em 2026 | /blog/inteligencia-artificial-ecommerce |
 | `kpis-ecommerce` | KPIs e-commerce: os 11 indicadores que dizem se a operação vai bem | /blog/kpis-ecommerce |
+| `live-shopping-tendencias-brasil` | Live shopping tendências Brasil: o tamanho real da oportunidade até 2030 | /blog/live-shopping-tendencias-brasil |
+| `llms-txt-dinamico-catalogo` | llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real | /blog/llms-txt-dinamico-catalogo |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
@@ -30,16 +39,22 @@ Total: **44** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `mk-shop-the-look-ia-look-completo-ecommerce` | mK Shop the Look: IA que monta look completo no e-commerce | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
 | `mk-skin-ai-diagnostico-pele-ia-ecommerce` | mK Skin AI: diagnóstico de pele com IA por selfie | /blog/mk-skin-ai-diagnostico-pele-ia-ecommerce |
 | `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
+| `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
 | `paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou` | Páginas de Produto Imersivas: O Futuro do E-commerce Já Começou | /blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou |
+| `por-que-ecommerce-nao-converte` | Por que e-commerce não converte: o diagnóstico que ninguém faz antes de mexer no | /blog/por-que-ecommerce-nao-converte |
 | `provador-virtual-e-realidade-aumentada-o-futuro-do-varejo` | Provador Virtual e Realidade Aumentada: O Futuro do Varejo | /blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo |
 | `provador-virtual-ecommerce-guia-completo` | Provador Virtual para E-commerce: como funciona, quanto custa e por que as maior | /blog/provador-virtual-ecommerce-guia-completo |
 | `provador-virtual-ecommerce-moda` | Provador virtual no e-commerce de moda: como transformar os 98 que vão embora em | /blog/provador-virtual-ecommerce-moda |
+| `provador-virtual-ia-generativa-ecommerce` | Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce | /blog/provador-virtual-ia-generativa-ecommerce |
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
 | `realidade-aumentada-no-e-commerce` | Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315% | /blog/realidade-aumentada-no-e-commerce |
 | `roi-provador-virtual` | ROI do Provador Virtual: dados reais de marcas brasileiras | /blog/roi-provador-virtual |
 | `taxa-de-conversao-ecommerce` | Taxa de conversão e-commerce: o guia completo para 2026 | /blog/taxa-de-conversao-ecommerce |
+| `tecnologia-para-ecommerce` | Tecnologia para e-commerce: o stack que sustenta conversão em 2026 | /blog/tecnologia-para-ecommerce |
 | `tendencias-immersive-commerce-2026-2027` | Tendências de Immersive Commerce 2026: o que vem aí | /blog/tendencias-immersive-commerce-2026-2027 |
+| `ticket-medio-ecommerce` | Ticket médio e-commerce: como crescer sem dar desconto | /blog/ticket-medio-ecommerce |
+| `ver-movel-em-casa-antes-de-comprar` | Ver móvel em casa antes de comprar: como a AR responde se cabe no espaço | /blog/ver-movel-em-casa-antes-de-comprar |
 | `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA — A Nova Fronteira do Storytelling de Marcas | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
 | `videos-ia-campanhas-publicitarias` | WooW! Videos: Como Usar Videos IA para Campanhas de Grandes Marcas | /blog/videos-ia-campanhas-publicitarias |
