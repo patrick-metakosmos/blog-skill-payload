@@ -106,13 +106,19 @@ def main():
     for ln in linhas:
         m = LINHA.match(ln)
         if not m:
-            # injeta a coluna Status no cabecalho da tabela do calendario
+            # injeta a coluna Status no cabecalho da tabela do calendario.
+            # Corta tudo depois de "| Funil |" antes de escrever: sem isso o
+            # script ACRESCENTA um trio Status/Publicado/Slug a cada execucao,
+            # e a tabela cresce 3 colunas por rodada (bug ate 02/09/2026).
             if not cab_feito and ln.startswith('| # | Data | Pilar | Origem |'):
-                saida.append(ln.replace('| Funil |', '| Funil | Status | Publicado em | Slug |'))
+                corte = ln.index('| Funil |') + len('| Funil |')
+                saida.append(ln[:corte] + ' Status | Publicado em | Slug |')
+                n_colunas = saida[-1].count('|') - 1
                 cab_feito = True
                 continue
+            # separador reconstruido a partir da largura real do cabecalho
             if cab_feito and re.match(r'^\|[-\s|]+\|$', ln) and '---' in ln:
-                saida.append(ln.rstrip('|') + '---|---|---|')
+                saida.append('|' + '---|' * n_colunas)
                 continue
             saida.append(ln)
             continue
@@ -139,7 +145,15 @@ def main():
         marca = {'publicado': '✅ publicado', 'rascunho': '🟡 rascunho',
                  'a fazer': '⬜ a fazer',
                  'sobreposicao': '⚠️ termo já citado em outro post'}[status]
-        saida.append(ln.rstrip() + ' %s | %s | %s |' % (marca, pub or '—', slug or '—'))
+        # Reconstroi a linha a partir das 10 colunas de origem (ate Funil) e
+        # descarta qualquer trio Status/Publicado/Slug de rodadas anteriores.
+        # `resto` traz Vol | KD | Funil e, num arquivo ja poluido, os trios
+        # antigos depois deles.
+        campos = resto.split('|')
+        vol, kd, funil = (campos + ['', '', ''])[:3]
+        linha_base = '| %s |%s|%s|%s|%s|%s| `%s` |%s|%s|%s|' % (
+            num, data, pilar, origem, titulo, car, kw, vol, kd, funil)
+        saida.append(linha_base + ' %s | %s | %s |' % (marca, pub or '—', slug or '—'))
 
         csv_rows.append({
             'n': num.strip(), 'data_prevista': data.strip(), 'pilar': pilar.strip(),

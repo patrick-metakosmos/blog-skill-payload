@@ -24,6 +24,10 @@ vivem nesta pasta.
 
 ## Atualizar
 
+**Ver [`ATUALIZAR.md`](ATUALIZAR.md)** — tem um bloco pronto para colar no Claude Code,
+que cuida do pull, do ponteiro e do `.env` de uma vez.
+
+
 Como o clone É a pasta base, `git pull` já atualiza scripts, referências e o backlog
 editorial para todo mundo. Ao terminar um artigo, marque a linha correspondente no
 `Pautas e Palavras Cahve/BACKLOG-EDITORIAL.md` e dê `git add` + `git commit` + `git push`
