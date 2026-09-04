@@ -62,7 +62,9 @@ PILAR_TO_CATEGORY_SLUG = {
     1: "immersive-commerce",
     2: "provador-virtual",
     3: "visualizador-3d-ar",
+    5: "guias",            # confirmado por precedente: kpis-ecommerce, taxa-de-conversao-ecommerce etc. usam 'guias'
     6: "mkcases-tag",
+    7: "futuro-ecommerce",  # confirmado por precedente: agentic-commerce-ia-compra-pelo-consumidor usa 'futuro-ecommerce'
 }
 # Nome da categoria (metadados) -> slug (fallback quando slugify não bate):
 CATEGORY_NAME_TO_SLUG = {
@@ -376,28 +378,76 @@ def _iter_tags(node, tag):
 # metadados.md
 # =====================================================================
 def parse_metadados(md_path):
+    """Extrai os campos de metadados.md tolerando os 3 formatos observados
+    entre gerações (tabela markdown, `**Label:** valor` na mesma linha, e
+    `**Label:**` numa linha com o valor na linha seguinte, às vezes com
+    sufixo tipo ' (≤60c)' ou ' (Payload)' colado ao label)."""
     text = md_path.read_text(encoding="utf-8")
 
-    def extract(pattern, default=None):
-        m = re.search(pattern, text, re.MULTILINE)
-        return m.group(1).strip() if m else default
+    SUFFIX = r"(?:\s*\([^)\n]*\))?"  # ex.: " (≤60c)", " (Payload)", " sugeridas" tratado à parte
 
-    def clean_size(s):
-        return re.sub(r"\s*\(\d+\s*caracteres?\)\s*$", "", s).strip() if s else s
+    def clean_value(s):
+        if not s:
+            return s
+        s = s.strip()
+        # nota final em itálico: "*(mapa ...)*"
+        s = re.sub(r"\s*\*\([^)]*\)\*\s*$", "", s)
+        # anotações coladas ao valor: "(53 caracteres)", "(≤60 ✓)", "58/60", "51/60"
+        s = re.sub(r"\s*\(\s*\d+\s*(?:c|caracteres?)?\s*(?:≤\s*\d+\s*)?[✓✔]?\s*\)\s*$", "", s)
+        s = re.sub(r"\s*\d+\s*/\s*\d+\s*$", "", s)
+        return s.strip().strip("`*").strip()
 
-    title_seo = clean_size(extract(r"\*\*Título SEO:\*\*\s*(.+)"))
-    meta_desc = clean_size(extract(r"\*\*Meta Description:\*\*\s*(.+)"))
-    slug = extract(r"\*\*Slug:\*\*\s*(\S+)")
-    cat = extract(r"\*\*Categoria:\*\*\s*(.+)")
-    pilar_str = extract(r"\*\*Pilar:\*\*\s*(\d+)")
-    pilar = int(pilar_str) if pilar_str else None
-    tags_str = extract(r"\*\*Tags:\*\*\s*(.+)")
-    tags = [t.strip() for t in (tags_str or "").split(",") if t.strip()]
+    def find_field(label):
+        lbl = re.escape(label)
+        # 1) linha de tabela: | **Label...** | valor | ... |
+        m = re.search(rf"\|\s*\*\*{lbl}{SUFFIX}\*\*\s*\|\s*(.+?)\s*\|", text)
+        if m:
+            return clean_value(m.group(1))
+        # 2) colon na mesma linha: **Label...:** valor
+        m = re.search(rf"\*\*{lbl}{SUFFIX}:\*\*[ \t]*(\S.*)$", text, re.MULTILINE)
+        if m:
+            return clean_value(m.group(1))
+        # 3) colon em linha própria, valor na linha seguinte (às vezes entre `crases`)
+        m = re.search(rf"\*\*{lbl}{SUFFIX}:\*\*\s*\n+\s*(.+)", text)
+        if m:
+            return clean_value(m.group(1).splitlines()[0])
+        return None
+
+    def parse_tags():
+        # 1) bloco de bullets logo após "**Tags[ sugeridas]:**" ou heading "## Tags sugeridas"
+        m = re.search(
+            r"(?:\*\*Tags(?:\s+sugeridas)?:\*\*|#+\s*Tags(?:\s+sugeridas)?\s*)\n+"
+            r"((?:[ \t]*[-*][ \t]+.+\n)+)",
+            text, re.IGNORECASE)
+        if m:
+            items = [re.sub(r"^[ \t]*[-*][ \t]+", "", ln).strip().strip("`")
+                     for ln in m.group(1).splitlines() if ln.strip()]
+            if items:
+                return items
+        # 2) linha de tabela: | **Tags sugeridas** | a, b, c | ... |
+        m = re.search(r"\|\s*\*\*Tags(?:\s+sugeridas)?\*\*\s*\|\s*(.+?)\s*\|", text, re.IGNORECASE)
+        if m:
+            return [t.strip().strip("`") for t in re.split(r"[,;]", m.group(1)) if t.strip()]
+        # 3) mesma linha: **Tags:** a, b, c  (ou "Tags sugeridas:")
+        m = re.search(r"\*\*Tags(?:\s+sugeridas)?:\*\*\s*(.+)", text, re.IGNORECASE)
+        if m:
+            return [t.strip().strip("`") for t in re.split(r"[,;]", m.group(1)) if t.strip()]
+        return []
+
+    title_seo = find_field("Título SEO") or ""
+    meta_desc = find_field("Meta Description") or ""
+    slug = (find_field("Slug") or "").strip("`")
+    cat = find_field("Categoria") or ""
+    pilar_raw = find_field("Pilar") or ""
+    m_pilar = re.search(r"\d+", pilar_raw)
+    pilar = int(m_pilar.group(0)) if m_pilar else None
+    tags = parse_tags()
+
     return {
-        "title_seo": title_seo or "",
-        "meta_description": meta_desc or "",
-        "slug": slug or "",
-        "category_name": cat or "",
+        "title_seo": title_seo,
+        "meta_description": meta_desc,
+        "slug": slug,
+        "category_name": cat,
         "pilar": pilar,
         "tags": tags,
     }
@@ -580,7 +630,8 @@ def find_article_dir(slug):
     return None
 
 
-def publish(slug, status="draft", dry_run=False, emit_json=None, probe=False, locale="pt-BR", update_id=None):
+def publish(slug, status="draft", dry_run=False, emit_json=None, probe=False, locale="pt-BR", update_id=None,
+            publish_at=None):
     article_dir = find_article_dir(slug)
     if article_dir is None:
         log(f"artigo.html não encontrado para slug '{slug}' em output/ (nem em Postado/)", "err")
@@ -674,6 +725,10 @@ def publish(slug, status="draft", dry_run=False, emit_json=None, probe=False, lo
     }
     if featured_id:
         payload["featuredImage"] = featured_id
+    if publish_at:
+        payload["publishedAt"] = publish_at
+        log(f"publishedAt definido para {publish_at} (post fica como '{status}' até alguém publicar manualmente; "
+            f"esta instância do Payload NÃO tem fila de scheduled-publish configurada, então nada vai ao ar sozinho)", "warn")
 
     if update_id:
         draft_q = "" if status == "published" else "&draft=true"
@@ -718,6 +773,9 @@ def main():
     p.add_argument("--probe", action="store_true", help="Testa auth e coleções")
     p.add_argument("--locale", default="pt-BR")
     p.add_argument("--update", type=int, metavar="ID", help="atualiza post existente (PATCH rascunho)")
+    p.add_argument("--publish-at", metavar="ISO8601",
+                   help="define o campo publishedAt (ex.: 2026-09-02T09:00:00.000Z) sem mudar o _status; "
+                        "uso editorial (data-alvo visível no admin), NÃO agenda publicação automática")
     p.add_argument("--list", action="store_true")
     args = p.parse_args()
 
@@ -734,7 +792,8 @@ def main():
     if not args.slug:
         p.error("slug é obrigatório (ou use --list)")
     publish(args.slug, status=args.status, dry_run=args.dry_run,
-            emit_json=args.emit_json, probe=args.probe, locale=args.locale, update_id=args.update)
+            emit_json=args.emit_json, probe=args.probe, locale=args.locale, update_id=args.update,
+            publish_at=args.publish_at)
 
 
 if __name__ == "__main__":
