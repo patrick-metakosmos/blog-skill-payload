@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **56** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **59** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -16,6 +16,7 @@ Total: **56** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `como-reduzir-abandono-carrinho` | Como reduzir abandono de carrinho: as causas que frete grátis não resolve | /blog/como-reduzir-abandono-carrinho |
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
+| `custo-de-aquisicao-cliente-online` | Custo de aquisição de cliente: como calcular e como derrubar | /blog/custo-de-aquisicao-cliente-online |
 | `dashboard-ecommerce` | Dashboard e-commerce: o que medir e como ler | /blog/dashboard-ecommerce |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
@@ -27,6 +28,7 @@ Total: **56** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `inteligencia-artificial-ecommerce` | Inteligência Artificial e-commerce: os usos que já dão resultado em 2026 | /blog/inteligencia-artificial-ecommerce |
 | `kpis-ecommerce` | KPIs e-commerce: os 11 indicadores que dizem se a operação vai bem | /blog/kpis-ecommerce |
 | `live-shopping-tendencias-brasil` | Live shopping tendências Brasil: o tamanho real da oportunidade até 2030 | /blog/live-shopping-tendencias-brasil |
+| `llms-txt-dinamico-catalogo` | llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real | /blog/llms-txt-dinamico-catalogo |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
@@ -52,6 +54,7 @@ Total: **56** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `tecnologia-para-ecommerce` | Tecnologia para e-commerce: o stack que sustenta conversão em 2026 | /blog/tecnologia-para-ecommerce |
 | `tendencias-immersive-commerce-2026-2027` | Tendências de Immersive Commerce 2026: o que vem aí | /blog/tendencias-immersive-commerce-2026-2027 |
 | `ticket-medio-ecommerce` | Ticket médio e-commerce: como crescer sem dar desconto | /blog/ticket-medio-ecommerce |
+| `ver-movel-em-casa-antes-de-comprar` | Ver móvel em casa antes de comprar: como a AR responde se cabe no espaço | /blog/ver-movel-em-casa-antes-de-comprar |
 | `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA — A Nova Fronteira do Storytelling de Marcas | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
 | `videos-ia-campanhas-publicitarias` | WooW! Videos: Como Usar Videos IA para Campanhas de Grandes Marcas | /blog/videos-ia-campanhas-publicitarias |
