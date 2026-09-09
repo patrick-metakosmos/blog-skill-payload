@@ -17,3 +17,4 @@ output/
 # arquivos de sistema
 desktop.ini
 Thumbs.db
+logs/
