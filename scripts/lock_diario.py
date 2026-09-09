@@ -83,17 +83,38 @@ def post_criado_hoje(auth):
     return [(d.get("id"), d.get("slug"), d.get("_status")) for d in r.get("docs", [])]
 
 
+def puxar(*extra):
+    """pull --rebase com autostash: o trabalho local em andamento de quem estiver
+    nesta máquina é guardado e devolvido, nunca descartado."""
+    return git("-c", "rebase.autoStash=true", "pull", "--rebase", "origin", "main", *extra)
+
+
 def escrever_e_pushar(dados, mensagem):
     LOCKS.mkdir(exist_ok=True)
     p = lock_path()
-    p.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
     rel = f"locks/{p.name}"
+    antes = git("rev-parse", "HEAD").stdout.strip()
+    p.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
     git("add", "--", rel, check=True)
     r = git("commit", "-m", mensagem, "--", rel)
     if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
         raise RuntimeError(f"commit do lock falhou: {(r.stdout + r.stderr)[:300]}")
     push = git("push", "origin", "main")
-    return push.returncode == 0, (push.stdout + push.stderr).strip()
+    if push.returncode == 0:
+        return True, (push.stdout + push.stderr).strip()
+
+    # Perdemos a corrida. Desfaz SÓ o nosso commit e SÓ o arquivo de lock.
+    # Nada de reset --hard aqui: a árvore de trabalho pode ter artigo em
+    # andamento de quem usa esta máquina.
+    if antes:
+        git("reset", "--soft", antes)
+    git("restore", "--staged", "--", rel)
+    if git("cat-file", "-e", f"HEAD:{rel}").returncode == 0:
+        git("checkout", "--", rel)   # o lock já era versionado: volta como estava
+    else:
+        p.unlink(missing_ok=True)    # o arquivo era nosso, criado agora
+    puxar()
+    return False, (push.stdout + push.stderr).strip()
 
 
 def acquire(args):
@@ -101,7 +122,7 @@ def acquire(args):
     git("fetch", "origin", "main", "--quiet")
     atras = git("rev-list", "--count", "HEAD..origin/main").stdout.strip()
     if atras and atras != "0":
-        r = git("pull", "--rebase", "origin", "main")
+        r = puxar()
         if r.returncode != 0:
             print("[X] nao consegui alinhar com o origin (rebase falhou). Resolva a mao:")
             print((r.stdout + r.stderr)[:500])
@@ -153,8 +174,6 @@ def acquire(args):
         return 1
     if not ok:
         print("[=] outra maquina cravou o lock primeiro (push rejeitado). Saindo.")
-        git("reset", "--hard", "origin/main")
-        git("pull", "--rebase", "origin", "main")
         return 1
     print(f"[OK] lock de {hoje()} adquirido por {maquina()}. Pode gerar o artigo.")
     return 0
@@ -162,7 +181,7 @@ def acquire(args):
 
 def finish(args):
     git("fetch", "origin", "main", "--quiet")
-    git("pull", "--rebase", "origin", "main")
+    puxar()
     atual = ler_lock_remoto() or {"dia": hoje(), "maquina": maquina()}
     atual.update({
         "status": args.status,
