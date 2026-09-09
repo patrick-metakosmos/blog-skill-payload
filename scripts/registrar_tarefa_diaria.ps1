@@ -9,6 +9,10 @@
 
     StartWhenAvailable: se o PC estiver desligado as 7h, a tarefa roda assim que ligar.
     Roda so no usuario logado (precisa da sessao do Claude Code autenticada).
+
+    -Hora aceita mais de um horario. Util para repescagem: se a outra maquina
+    pegou o lock e travou, a rodada mais tarde assume (ver --stale-hours em
+    lock_diario.py). A trava garante que so sai 1 artigo por dia de qualquer jeito.
 #>
 param(
     [string]$Hora = "07:00",
@@ -29,7 +33,9 @@ if ($Remover) {
 if (-not (Test-Path $cmd)) { throw "Nao achei $cmd" }
 
 $action  = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$cmd`"" -WorkingDirectory $base
-$trigger = New-ScheduledTaskTrigger -Daily -At $Hora
+$horas = @($Hora -split '[,;]' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+if ($horas.Count -eq 0) { throw "Nenhum horario valido em -Hora '$Hora'" }
+$trigger = @($horas | ForEach-Object { New-ScheduledTaskTrigger -Daily -At ([datetime]::Parse($_)) })
 $settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `
     -DontStopIfGoingOnBatteries `
@@ -42,7 +48,7 @@ Register-ScheduledTask -TaskName $Nome -Action $action -Trigger $trigger -Settin
     -Force | Out-Null
 
 $t = Get-ScheduledTaskInfo -TaskName $Nome
-Write-Output "Tarefa '$Nome' registrada para $Hora todo dia."
+Write-Output "Tarefa '$Nome' registrada para $($horas -join ', ') todo dia."
 Write-Output "Proxima execucao: $($t.NextRunTime)"
 Write-Output "Rodar agora:   Start-ScheduledTask -TaskName '$Nome'"
 Write-Output "Log do dia:    $base\logs\artigo-diario-<AAAA-MM-DD>.log"
