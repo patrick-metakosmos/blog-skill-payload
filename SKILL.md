@@ -8,7 +8,7 @@ description: |
   Fluxo em 10 passos: input → pesquisa → pauta → escrita em chunks 1000w → integração → auditoria → revisão editorial → HTML semântico final → entrega → publicação (artigo AO VIVO + post no LinkedIn).
   Output: 3 documentos — (1) Pauta .md, (2) Artigo .html (HTML semântico → Lexical), (3) Ficha de Metadados .md — mais (4) linkedin.md, gerado automático no passo 10.
   Regras: min 2000 palavras, parágrafos 35-40 palavras, FAQ 10+ perguntas, links verificados. SEM componentes visuais (Payload é plano).
-  Keyword-alvo exata na abertura do H1. Todo artigo cita o State of Immersive & Agentic Commerce 2026 e tem CTA para /estudo.
+  Keyword-alvo exata na abertura do H1. Todo artigo cita o State of Immersive & Agentic Commerce 2026 e linka /estudo (nunca o PDF). Zero imagem-logo.
 tools-necessários:
   - Read (arquivos de referência)
   - Create File (4 arquivos de output)
@@ -106,8 +106,9 @@ Todo artigo cita o **State of Immersive & Agentic Commerce 2026** e manda tráfe
 - **Mínimo 1 dado do estudo citado no corpo**, com o número, o recorte e a fonte quando houver.
   Puxar de `references/estudo-indice.md` (139 trechos com estatística já extraídos) e **conferir
   no arquivo completo pelo número de linha antes de publicar** — a extração é automática.
-- **O dado citado leva link para o PDF público** do estudo:
-  `https://metakosmos.com.br/api/media/file/State%20of%20Immersive%20%26%20Agentic%20Commerce%202026%20powered%20by%20mK.pdf?prefix=prod%2Fsite`
+- **O dado citado leva link para a página do estudo:** `https://metakosmos.com.br/estudo`.
+  **NUNCA linkar o PDF direto** (`/api/media/file/State%20of%20Immersive...`). O PDF pula a captura
+  de lead e entrega o ativo de graça. Todo caminho para o estudo passa pela página de cadastro.
 - **Mínimo 1 CTA para o estudo**, apontando para `https://metakosmos.com.br/estudo`
   (página com captura de lead). O CTA do estudo é **adicional** ao CTA final de contato, não substitui.
 - **UTMs obrigatórios** nos dois links, conforme `utm-tracking.md`:
@@ -230,14 +231,16 @@ Igual à blog-mk, com o passo de formatação final adaptado:
 0c. **Botão isolado:** nenhum link para `form.respondi.app` no meio de frase. O link do formulário
     está sozinho num `<p>`, o parágrafo anterior chama o clique, e há no máximo 1 no artigo inteiro.
 0b. **Estudo citado:** há ≥1 dado do State of Immersive & Agentic Commerce 2026 no corpo, com link
-    para o PDF (UTM `cta-inline`), e ≥1 CTA para `/estudo` (UTM `cta-final`). Dado conferido na linha
-    de origem do arquivo completo.
+    para `/estudo` (UTM `cta-inline`), e ≥1 CTA para `/estudo` (UTM `cta-final`). **Zero links para o
+    PDF direto.** Dado conferido na linha de origem do arquivo completo.
+0d. **Zero imagem-logo:** nenhuma imagem do artigo (hero ou corpo) é logo de marca, grade de logos
+    de clientes ou lockup institucional. Checar nome do arquivo e alt no catálogo.
 
 **Formato Payload:**
 1. **Sem tags proibidas:** nenhum `<div>` de card/coluna, `style=` (nem font-size), classe `wp-block-*`, `<button>`, comentário `<!-- wp:* -->`. Buscar e remover.
 2. **HTML bem-formado:** cada `<p>`, `<h2>`, `<ul>`, `<li>`, `<a>`, `<blockquote>` aberto tem fechamento. `<img>`/`<hr>` self-closing ou simples.
 3. **1 único `<h1>`** no topo; nenhum outro `<h1>` no corpo.
-4. **Imagens no catálogo:** todo `<img>` tem `alt` e um `src` cujo nome existe em `media-payload.md` (o publicador remove os que não existem). Hero horizontal.
+4. **Imagens no catálogo:** todo `<img>` tem `alt` e um `src` cujo nome existe em `media-payload.md` (o publicador remove os que não existem). Hero horizontal. **Nenhuma delas é logo** (ver regra abaixo).
 5. **Granularidade e ênfase:** há h3/h4 (não só h2); há ≥2 caixas `<blockquote>`; nenhuma seção com >3 parágrafos sem heading/lista/caixa/imagem.
 
 **Anti-IA programática (contagens duras — iguais à blog-mk):**
@@ -262,6 +265,11 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 - **Parafrasear a keyword-alvo no `<h1>`** ou trocá-la por sinônimo. Ela entra exata e na abertura.
 - **Escrever complemento de título que apenas repete a keyword** ("X: sobre X").
 - **Entregar artigo sem citação do estudo** ou sem CTA para `/estudo`.
+- **Linkar o PDF direto do estudo** (`/api/media/file/State%20of%20Immersive...`). O estudo só é
+  acessado pela página de captura `/estudo`. Vale para citação no corpo, CTA e qualquer menção.
+- **Usar logo como imagem do artigo**, em hero ou corpo: logo de marca cliente, grade de logos,
+  lockup institucional, assinatura. Logo não ilustra nem prova nada, e no hero vira card vazio no
+  feed do blog. No lugar, usar imagem do produto, da tela, do case ou do conceito.
 - **Colocar link do `form.respondi.app` no meio de um parágrafo.** O tema vira botão rosa e o
   resultado fica quebrado. Botão sempre sozinho, chamado pelo parágrafo anterior.
 - **Inventar número e atribuir ao estudo.** Todo dado sai do `estudo-indice.md` e é conferido na origem.
@@ -279,7 +287,9 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 ### SEMPRE
 - Carregar todas as referências antes de escrever (incluindo `output-payload.md` e `estudo-indice.md`).
 - **Keyword-alvo exata abrindo o H1**, no 1º parágrafo e em um H2/FAQ.
-- **Citar o estudo com link para o PDF + CTA para `/estudo`**, ambos com UTM.
+- **Citar o estudo linkando `/estudo` no corpo (UTM `cta-inline`) + CTA para `/estudo`** (UTM `cta-final`).
+- **Escolher imagem que mostra a coisa acontecendo**: produto, tela da solução, resultado do case.
+  Para citar marca cliente, usar a imagem do case dela, nunca o logo.
 - Gerar os 4 documentos (Pauta + Artigo + Metadados + LinkedIn).
 - Artigo em `artigo.html` como **HTML semântico simples**.
 - Mínimo 2000 palavras; parágrafos 35-40 palavras; FAQ 10+ perguntas.

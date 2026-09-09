@@ -7,6 +7,8 @@ Gerado automaticamente de `FINAL - The State of Immersive & Agentic Commerce 202
 **Link público do estudo (PDF):**
 
     https://metakosmos.com.br/api/media/file/State%20of%20Immersive%20%26%20Agentic%20Commerce%202026%20powered%20by%20mK.pdf?prefix=prod%2Fsite
+    >> USO INTERNO / CONFERÊNCIA APENAS. NUNCA publicar este link em artigo, LinkedIn ou e-mail.
+    >> Todo link publicado do estudo aponta para https://metakosmos.com.br/estudo (captura de lead).
 
 **Página do estudo (captura de lead):** `https://metakosmos.com.br/estudo`
 

@@ -48,10 +48,21 @@ nomes = set(re.findall(r"^\|\s*`([^`]+)`", cat, re.M))
 imgs = re.findall(r'<img\s+src="([^"]+)"\s+alt="([^"]*)"', html)
 todas = re.findall(r"<img", html)
 print("\n[IMAGENS] %d encontradas, %d com src+alt" % (len(todas), len(imgs)))
+alt_cat = dict(re.findall(r"^\|\s*`([^`]+)`.*?\|\s*([^|]*?)\s*\|\s*$", cat, re.M))
 for src, alt in imgs:
     ok = src in nomes
     print("  %-70s %s%s" % (src, "no catalogo" if ok else "<<< FORA DO CATALOGO",
                             "" if alt.strip() else "  <<< SEM ALT"))
+
+# R1 (BLOQUEADOR): nenhuma imagem do artigo pode ser logo de marca.
+# "catálogo" contém "logo" e não conta; alt descritivo tipo "com o logo X" também não.
+_fp = re.compile(r"cat[aá]logo|com o logo|com logo|proje[cç]", re.I)
+def _eh_logo(nome, texto_alt):
+    return bool(re.search(r"logo", _fp.sub("", nome or ""), re.I)
+                or re.search(r"logo", _fp.sub("", texto_alt or ""), re.I))
+logos = [src for src, alt in imgs if _eh_logo(src, alt) or _eh_logo(src, alt_cat.get(src, ""))]
+print("  imagem-logo: %d (limite 0) %s" % (
+    len(logos), "OK" if not logos else "<<< FALHA " + str(logos)))
 
 # --- ANTI-IA PROGRAMATICA ---
 texto = strip_tags(html)
@@ -112,6 +123,14 @@ sem_utm = [l for l in links if "utm_source" not in l]
 print("  sem UTM: %d %s" % (len(sem_utm), "OK" if not sem_utm else str(sem_utm)))
 internos = [l for l in links if not l.startswith("http")]
 print("  internos: %d | externos: %d" % (len(internos), len(links) - len(internos)))
+
+# R2 (BLOQUEADOR): o estudo só é linkado pela página de captura, nunca pelo PDF.
+pdf = [l for l in links if "api/media/file/State" in l or "State%20of%20Immersive" in l]
+print("  link direto do PDF do estudo: %d (limite 0) %s" % (
+    len(pdf), "OK" if not pdf else "<<< FALHA " + str(pdf)))
+estudo = [l for l in links if "/estudo" in l]
+print("  links para /estudo: %d (piso 2: citação inline + CTA final) %s" % (
+    len(estudo), "OK" if len(estudo) >= 2 else "<<< FALHA"))
 for l in sorted(set(links)):
     print("    %s" % l.split("?")[0])
 

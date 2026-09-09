@@ -7,6 +7,13 @@ Total: **804** mídias. Gerado por `scripts/sync_payload_media.py`.
 Só use nomes que aparecem aqui. **Todas as imagens renderizam full-width** (o tema não flutua imagem em coluna).
 Para hero/featured, prefira uma imagem **horizontal**.
 
+**PROIBIDO usar logo como imagem de artigo** (hero ou corpo): logo de marca cliente
+(`*-logo.*`, `logo-*`), grade de logos (`metakosmos-clientes-logos-*`), lockup ou assinatura
+institucional. Logo não ilustra nada e, no hero, vira card vazio na listagem do blog. Ao citar uma
+marca cliente, use a imagem do case dela (produto, tela da solução, resultado) e linke o nome para
+`/mkases/[slug]/`. Atenção: `catálogo` contém "logo" e não é logo (ex:
+`provadorvirtual-mkf-catalogo-blusa-bege.webp` é válida).
+
 | filename | orient | dims | KB | alt |
 |---|---|---|---|---|
 | `0206-13.gif` | vertical | 240x518 | 2063 | Aneethun galeria |
