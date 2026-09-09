@@ -94,6 +94,33 @@ powershell -File scripts\registrar_tarefa_diaria.ps1 -Remover        # desligar
 O histórico fica em `locks/` no próprio repo: um JSON por dia, com máquina, horário,
 slug e URL publicada.
 
+## O backlog se atualiza sozinho nas duas máquinas
+
+Ao publicar, o pipeline roda `commit_listas.py`, que regenera as listas a partir da API
+do Payload e commita:
+
+```
+Pautas e Palavras Cahve/BACKLOG-EDITORIAL.md    a pauta do dia vira "publicado"
+Pautas e Palavras Cahve/backlog.csv
+references/blog-links.md                        artigos disponíveis para link interno
+references/mkases.md
+```
+
+No trigger diário isso já vem embutido no `--finish` do lock. Publicando à mão, a skill
+roda no fim da publicação. Se quiser forçar:
+
+```powershell
+python scripts\commit_listas.py --slug <slug>       # + --com-midia se subiu mídia nova
+python scripts\commit_listas.py --dry-run           # ver o que mudaria, sem commitar
+```
+
+Como as listas são 100% derivadas do Payload, push rejeitado não vira conflito: o script
+se realinha com o remoto, regenera e commita de novo. Trabalho local não commitado nunca
+é descartado.
+
+**A máquina puxa o backlog no começo de cada rodada** (o `--acquire` faz `pull --rebase`
+com autostash), então ninguém precisa lembrar de dar `git pull` antes de trabalhar.
+
 ## O que ainda depende de cada máquina
 
 - **A sessão do Claude Code precisa estar logada.** Se a autenticação expirar, a tarefa

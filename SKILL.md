@@ -206,9 +206,8 @@ Igual à blog-mk, com o passo de formatação final adaptado:
     # c) post AO VIVO na página da metaKosmos (o link já está no ar por causa do passo a)
     python scripts/linkedin_publish.py <slug>
 
-    # d) manter as listas em dia
-    python scripts/status_backlog.py
-    python scripts/sync_payload_lists.py
+    # d) manter as listas em dia E mandar para o GitHub (regenera + commita + push)
+    python scripts/commit_listas.py --slug <slug>
     ```
     **A ordem importa.** Publicar o artigo primeiro é o que faz o link do LinkedIn nascer
     funcionando. Invertida, todo post nasce em 404. Por isso o `linkedin_publish.py` roda
@@ -298,6 +297,8 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 - Storytelling sensorial da Lara; 1 "Spoiler:", parênteses coloquiais, 1 frase-parágrafo isolada.
 - Rodar auditoria de formato + anti-IA programática antes da entrega.
 - Metadados SEO vão no Documento 3 (não no artigo).
+- **Commitar as listas ao terminar:** `python scripts/commit_listas.py --slug <slug>`. O
+  backlog no GitHub é a fila compartilhada entre as máquinas que rodam o pipeline.
 
 ### PARAR quando
 - Tema fora dos 7 pilares sem confirmação.
@@ -338,16 +339,23 @@ Os modos Pautar/Gerar/Reescrever/Humanizar/Auditar seguem a mesma lógica da ski
 8. Cria o post via `POST /api/posts?locale=pt-BR&draft=true` com `_status:"draft"`, SEO (`metaTitle`/`metaDescription`/`noIndex`), categoria, tags.
 9. Reporta ID e URL do editor.
 
-### Depois de publicar — manter as listas atualizadas (OBRIGATÓRIO, sem perguntar)
-Ao final de cada publicação (rascunho ou live), rode nesta ordem — são chamadas leves
-e paginadas contra a API do Payload, não precisam de agendamento externo:
+### Depois de publicar — commitar as listas (OBRIGATÓRIO, sem perguntar)
+Ao final de cada publicação (rascunho ou live), um comando só:
 ```bash
-python scripts/status_backlog.py       # cruza BACKLOG-EDITORIAL.md com o que existe no Payload
-python scripts/sync_payload_lists.py   # atualiza blog-links.md (artigos) e mkases.md (mKases)
-python scripts/sync_payload_media.py   # só se mídia nova foi enviada nesta sessão
+python scripts/commit_listas.py --slug <slug>     # + --com-midia se subiu mídia nova
 ```
-Se estiver publicando **vários artigos em lote na mesma sessão**, rode os três só ao
-final do lote (não a cada artigo individual) para evitar chamadas redundantes.
+Ele regenera `BACKLOG-EDITORIAL.md`, `backlog.csv`, `blog-links.md` e `mkases.md` a
+partir da API do Payload, commita **só esses arquivos** e dá push. Sem isso, a outra
+máquina do rodízio continua vendo a pauta como "a fazer" e reescreve o mesmo artigo.
+
+O commit é obrigatório porque o pipeline roda em mais de uma máquina: o backlog no
+GitHub é a fila compartilhada. Se o push for rejeitado, o script se realinha, regenera
+e tenta de novo — as listas saem do Payload, então não existe conflito real de conteúdo.
+
+Por baixo ele chama `status_backlog.py`, `sync_payload_lists.py` e, com `--com-midia`,
+`sync_payload_media.py`. Rodar esses três à mão só faz sentido para conferir algo sem
+publicar. Publicando **vários artigos em lote**, chame o `commit_listas.py` uma vez ao
+final do lote, não a cada artigo.
 
 ### Comandos
 ```bash

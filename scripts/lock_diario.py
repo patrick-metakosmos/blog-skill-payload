@@ -12,6 +12,7 @@ escrito o artigo do dia à mão).
 Uso (dentro do artigo_diario.cmd):
     python scripts/lock_diario.py --acquire      # exit 0 = pode rodar, 1 = já feito/perdeu
     python scripts/lock_diario.py --finish --status done --slug <slug> --url <url>
+      (com --status done, ja commita o backlog atualizado via commit_listas.py)
     python scripts/lock_diario.py --show         # só mostra o estado de hoje
 
 Opções úteis:
@@ -203,6 +204,16 @@ def finish(args):
         print(f"[!] nao consegui publicar o resultado do lock: {saida[:200]}")
         return 1
     print(f"[OK] lock de hoje marcado como '{args.status}'")
+
+    # Artigo no ar: manda o backlog atualizado junto, para a outra maquina nao
+    # reescrever a mesma pauta amanha. Import local: commit_listas importa daqui.
+    if args.status == "done" and not args.sem_listas:
+        import commit_listas
+        sys.argv = ["commit_listas.py"] + (["--slug", args.slug] if args.slug else [])
+        rc = commit_listas.main()
+        if rc != 0:
+            print("[!] o lock foi gravado, mas as listas nao subiram. Rode:")
+            print("    python scripts/commit_listas.py --slug <slug>")
     return 0
 
 
@@ -224,6 +235,8 @@ def main():
     ap.add_argument("--dia", default=None)
     ap.add_argument("--stale-hours", type=float, default=3.0)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--sem-listas", action="store_true",
+                    help="com --finish: nao commitar o backlog junto")
     a = ap.parse_args()
     if a.acquire:
         return acquire(a)
