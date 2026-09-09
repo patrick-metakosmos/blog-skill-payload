@@ -1,10 +1,6 @@
 {
   "dia": "2026-09-09",
-  "status": "done",
+  "status": "running",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-09-09T14:04:27",
-  "fim": "2026-09-09T14:05:21",
-  "slug": "jornada-consumidor-digital",
-  "url": "https://metakosmos.com.br/blog/jornada-consumidor-digital",
-  "nota": "teste da trava; artigo do dia ja existia"
+  "inicio": "2026-09-09T14:06:31"
 }
