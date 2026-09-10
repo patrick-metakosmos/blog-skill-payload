@@ -8,7 +8,7 @@ description: |
   Fluxo em 10 passos: input → pesquisa → pauta → escrita em chunks 1000w → integração → auditoria → revisão editorial → HTML semântico final → entrega → publicação (artigo AO VIVO + post no LinkedIn).
   Output: 3 documentos — (1) Pauta .md, (2) Artigo .html (HTML semântico → Lexical), (3) Ficha de Metadados .md — mais (4) linkedin.md, gerado automático no passo 10.
   Regras: min 2000 palavras, parágrafos 35-40 palavras, FAQ 10+ perguntas, links verificados. SEM componentes visuais (Payload é plano).
-  Keyword-alvo exata na abertura do H1. Todo artigo cita o State of Immersive & Agentic Commerce 2026 e tem CTA para /estudo.
+  Keyword-alvo exata na abertura do H1. Todo artigo cita o State of Immersive & Agentic Commerce 2026 e linka /estudo (nunca o PDF). Zero imagem-logo.
 tools-necessários:
   - Read (arquivos de referência)
   - Create File (4 arquivos de output)
@@ -106,8 +106,9 @@ Todo artigo cita o **State of Immersive & Agentic Commerce 2026** e manda tráfe
 - **Mínimo 1 dado do estudo citado no corpo**, com o número, o recorte e a fonte quando houver.
   Puxar de `references/estudo-indice.md` (139 trechos com estatística já extraídos) e **conferir
   no arquivo completo pelo número de linha antes de publicar** — a extração é automática.
-- **O dado citado leva link para o PDF público** do estudo:
-  `https://metakosmos.com.br/api/media/file/State%20of%20Immersive%20%26%20Agentic%20Commerce%202026%20powered%20by%20mK.pdf?prefix=prod%2Fsite`
+- **O dado citado leva link para a página do estudo:** `https://metakosmos.com.br/estudo`.
+  **NUNCA linkar o PDF direto** (`/api/media/file/State%20of%20Immersive...`). O PDF pula a captura
+  de lead e entrega o ativo de graça. Todo caminho para o estudo passa pela página de cadastro.
 - **Mínimo 1 CTA para o estudo**, apontando para `https://metakosmos.com.br/estudo`
   (página com captura de lead). O CTA do estudo é **adicional** ao CTA final de contato, não substitui.
 - **UTMs obrigatórios** nos dois links, conforme `utm-tracking.md`:
@@ -205,9 +206,8 @@ Igual à blog-mk, com o passo de formatação final adaptado:
     # c) post AO VIVO na página da metaKosmos (o link já está no ar por causa do passo a)
     python scripts/linkedin_publish.py <slug>
 
-    # d) manter as listas em dia
-    python scripts/status_backlog.py
-    python scripts/sync_payload_lists.py
+    # d) manter as listas em dia E mandar para o GitHub (regenera + commita + push)
+    python scripts/commit_listas.py --slug <slug>
     ```
     **A ordem importa.** Publicar o artigo primeiro é o que faz o link do LinkedIn nascer
     funcionando. Invertida, todo post nasce em 404. Por isso o `linkedin_publish.py` roda
@@ -230,14 +230,16 @@ Igual à blog-mk, com o passo de formatação final adaptado:
 0c. **Botão isolado:** nenhum link para `form.respondi.app` no meio de frase. O link do formulário
     está sozinho num `<p>`, o parágrafo anterior chama o clique, e há no máximo 1 no artigo inteiro.
 0b. **Estudo citado:** há ≥1 dado do State of Immersive & Agentic Commerce 2026 no corpo, com link
-    para o PDF (UTM `cta-inline`), e ≥1 CTA para `/estudo` (UTM `cta-final`). Dado conferido na linha
-    de origem do arquivo completo.
+    para `/estudo` (UTM `cta-inline`), e ≥1 CTA para `/estudo` (UTM `cta-final`). **Zero links para o
+    PDF direto.** Dado conferido na linha de origem do arquivo completo.
+0d. **Zero imagem-logo:** nenhuma imagem do artigo (hero ou corpo) é logo de marca, grade de logos
+    de clientes ou lockup institucional. Checar nome do arquivo e alt no catálogo.
 
 **Formato Payload:**
 1. **Sem tags proibidas:** nenhum `<div>` de card/coluna, `style=` (nem font-size), classe `wp-block-*`, `<button>`, comentário `<!-- wp:* -->`. Buscar e remover.
 2. **HTML bem-formado:** cada `<p>`, `<h2>`, `<ul>`, `<li>`, `<a>`, `<blockquote>` aberto tem fechamento. `<img>`/`<hr>` self-closing ou simples.
 3. **1 único `<h1>`** no topo; nenhum outro `<h1>` no corpo.
-4. **Imagens no catálogo:** todo `<img>` tem `alt` e um `src` cujo nome existe em `media-payload.md` (o publicador remove os que não existem). Hero horizontal.
+4. **Imagens no catálogo:** todo `<img>` tem `alt` e um `src` cujo nome existe em `media-payload.md` (o publicador remove os que não existem). Hero horizontal. **Nenhuma delas é logo** (ver regra abaixo).
 5. **Granularidade e ênfase:** há h3/h4 (não só h2); há ≥2 caixas `<blockquote>`; nenhuma seção com >3 parágrafos sem heading/lista/caixa/imagem.
 
 **Anti-IA programática (contagens duras — iguais à blog-mk):**
@@ -262,6 +264,11 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 - **Parafrasear a keyword-alvo no `<h1>`** ou trocá-la por sinônimo. Ela entra exata e na abertura.
 - **Escrever complemento de título que apenas repete a keyword** ("X: sobre X").
 - **Entregar artigo sem citação do estudo** ou sem CTA para `/estudo`.
+- **Linkar o PDF direto do estudo** (`/api/media/file/State%20of%20Immersive...`). O estudo só é
+  acessado pela página de captura `/estudo`. Vale para citação no corpo, CTA e qualquer menção.
+- **Usar logo como imagem do artigo**, em hero ou corpo: logo de marca cliente, grade de logos,
+  lockup institucional, assinatura. Logo não ilustra nem prova nada, e no hero vira card vazio no
+  feed do blog. No lugar, usar imagem do produto, da tela, do case ou do conceito.
 - **Colocar link do `form.respondi.app` no meio de um parágrafo.** O tema vira botão rosa e o
   resultado fica quebrado. Botão sempre sozinho, chamado pelo parágrafo anterior.
 - **Inventar número e atribuir ao estudo.** Todo dado sai do `estudo-indice.md` e é conferido na origem.
@@ -279,7 +286,9 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 ### SEMPRE
 - Carregar todas as referências antes de escrever (incluindo `output-payload.md` e `estudo-indice.md`).
 - **Keyword-alvo exata abrindo o H1**, no 1º parágrafo e em um H2/FAQ.
-- **Citar o estudo com link para o PDF + CTA para `/estudo`**, ambos com UTM.
+- **Citar o estudo linkando `/estudo` no corpo (UTM `cta-inline`) + CTA para `/estudo`** (UTM `cta-final`).
+- **Escolher imagem que mostra a coisa acontecendo**: produto, tela da solução, resultado do case.
+  Para citar marca cliente, usar a imagem do case dela, nunca o logo.
 - Gerar os 4 documentos (Pauta + Artigo + Metadados + LinkedIn).
 - Artigo em `artigo.html` como **HTML semântico simples**.
 - Mínimo 2000 palavras; parágrafos 35-40 palavras; FAQ 10+ perguntas.
@@ -288,6 +297,8 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 - Storytelling sensorial da Lara; 1 "Spoiler:", parênteses coloquiais, 1 frase-parágrafo isolada.
 - Rodar auditoria de formato + anti-IA programática antes da entrega.
 - Metadados SEO vão no Documento 3 (não no artigo).
+- **Commitar as listas ao terminar:** `python scripts/commit_listas.py --slug <slug>`. O
+  backlog no GitHub é a fila compartilhada entre as máquinas que rodam o pipeline.
 
 ### PARAR quando
 - Tema fora dos 7 pilares sem confirmação.
@@ -328,16 +339,23 @@ Os modos Pautar/Gerar/Reescrever/Humanizar/Auditar seguem a mesma lógica da ski
 8. Cria o post via `POST /api/posts?locale=pt-BR&draft=true` com `_status:"draft"`, SEO (`metaTitle`/`metaDescription`/`noIndex`), categoria, tags.
 9. Reporta ID e URL do editor.
 
-### Depois de publicar — manter as listas atualizadas (OBRIGATÓRIO, sem perguntar)
-Ao final de cada publicação (rascunho ou live), rode nesta ordem — são chamadas leves
-e paginadas contra a API do Payload, não precisam de agendamento externo:
+### Depois de publicar — commitar as listas (OBRIGATÓRIO, sem perguntar)
+Ao final de cada publicação (rascunho ou live), um comando só:
 ```bash
-python scripts/status_backlog.py       # cruza BACKLOG-EDITORIAL.md com o que existe no Payload
-python scripts/sync_payload_lists.py   # atualiza blog-links.md (artigos) e mkases.md (mKases)
-python scripts/sync_payload_media.py   # só se mídia nova foi enviada nesta sessão
+python scripts/commit_listas.py --slug <slug>     # + --com-midia se subiu mídia nova
 ```
-Se estiver publicando **vários artigos em lote na mesma sessão**, rode os três só ao
-final do lote (não a cada artigo individual) para evitar chamadas redundantes.
+Ele regenera `BACKLOG-EDITORIAL.md`, `backlog.csv`, `blog-links.md` e `mkases.md` a
+partir da API do Payload, commita **só esses arquivos** e dá push. Sem isso, a outra
+máquina do rodízio continua vendo a pauta como "a fazer" e reescreve o mesmo artigo.
+
+O commit é obrigatório porque o pipeline roda em mais de uma máquina: o backlog no
+GitHub é a fila compartilhada. Se o push for rejeitado, o script se realinha, regenera
+e tenta de novo — as listas saem do Payload, então não existe conflito real de conteúdo.
+
+Por baixo ele chama `status_backlog.py`, `sync_payload_lists.py` e, com `--com-midia`,
+`sync_payload_media.py`. Rodar esses três à mão só faz sentido para conferir algo sem
+publicar. Publicando **vários artigos em lote**, chame o `commit_listas.py` uma vez ao
+final do lote, não a cada artigo.
 
 ### Comandos
 ```bash

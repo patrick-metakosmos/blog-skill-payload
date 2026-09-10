@@ -54,7 +54,7 @@ Taxonomia oficial de UTMs para rastreamento orgânico. Todo link publicado em ar
 | `pilar5-performance-ecommerce` | P5 — Performance do E-commerce |
 | `pilar6-mkases-cases` | P6 — Dados, Cases e Prova Social |
 | `pilar7-futuro-ecommerce` | P7 — Futuro do E-commerce |
-| `state-of-immersive-2026` | Relatório proprietário |
+| `state-of-immersive-agentic-commerce-2026` | Relatório proprietário (valor canônico) |
 | `lancamento-mk-fashion-plus` | Campanha mK Fashion+ |
 | `lancamento-shop-the-look` | Campanha mK Shop The Look |
 | `glossario-immersive` | Glossário (ativo GEO/AEO) |
@@ -115,10 +115,19 @@ https://form.respondi.app/L4NmIy24?utm_source=blog&utm_medium=cta-banner&utm_cam
 https://metakosmos.com.br/mk-fashion-plus/demo/?utm_source=blog&utm_medium=cta-inline&utm_campaign=pilar2-provador-virtual&utm_content=cta-demo-mk-fashion
 ```
 
-**CTA download State of IC:**
+**CTA e citação do State of Immersive & Agentic Commerce 2026:**
 ```
-https://metakosmos.com.br/state-of-immersive-2026/?utm_source=blog&utm_medium=cta-final&utm_campaign=state-of-immersive-2026&utm_content=cta-state-of-immersive
+https://metakosmos.com.br/estudo?utm_source=blog&utm_medium=cta-final&utm_campaign=state-of-immersive-agentic-commerce-2026
 ```
+Citação do dado no corpo do artigo (mesmo destino, medium diferente):
+```
+https://metakosmos.com.br/estudo?utm_source=blog&utm_medium=cta-inline&utm_campaign=state-of-immersive-agentic-commerce-2026
+```
+
+**REGRA DURA:** o único destino válido para o estudo é `https://metakosmos.com.br/estudo`, a página
+de cadastro que captura o lead. **Nunca** linkar o arquivo direto
+(`https://metakosmos.com.br/api/media/file/State%20of%20Immersive%20%26%20Agentic%20Commerce%202026%20powered%20by%20mK.pdf?prefix=prod%2Fsite`)
+nem a URL legada `/state-of-immersive-2026/`. O PDF direto entrega o ativo sem capturar nada.
 
 ---
 
