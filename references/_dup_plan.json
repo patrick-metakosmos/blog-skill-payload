@@ -1,0 +1,2014 @@
+{
+ "auto": [
+  {
+   "manter": {
+    "id": 843,
+    "filename": "img artigo-1.png",
+    "usos": [
+     "posts:ticket-medio-ecommerce"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 842,
+     "filename": "img artigo.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 717,
+    "filename": "logo-innerhaus.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 723,
+     "filename": "logo-innerhaus-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 683,
+    "filename": "logo-avon.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 697,
+     "filename": "logo-avon-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 685,
+    "filename": "logo-stanley1913.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 695,
+     "filename": "logo-stanley1913-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 669,
+    "filename": "logo-heineken.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 679,
+     "filename": "logo-heineken-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 667,
+    "filename": "logo-villagemall.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 670,
+     "filename": "logo-villagemall-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 653,
+    "filename": "logo-globo.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 662,
+     "filename": "logo-globo-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 587,
+    "filename": "depoimento-gm-paulo-luciano-lopes-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 649,
+     "filename": "depoimento-gm-paulo-luciano-lopes-retrato-2.webp",
+     "usos": []
+    },
+    {
+     "id": 266,
+     "filename": "Paulo-Luciano-Lopes-GM.jpeg.webp",
+     "usos": []
+    },
+    {
+     "id": 22,
+     "filename": "Paulo-Luciano-Lopes-GM.jpeg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 624,
+    "filename": "logo-bioextratus.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 636,
+     "filename": "logo-bioextratus-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 607,
+    "filename": "logo-freeco.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 615,
+     "filename": "logo-freeco-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 605,
+    "filename": "metakosmos-reel-from-good-to-woow-colagem.webp",
+    "usos": [
+     "posts:mk-3d-ads-publicidade-interativa-dailymotion"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 188,
+     "filename": "MK-REEL-THUMB.jpg.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 592,
+    "filename": "depoimento-bioextratus-cliente-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 198,
+     "filename": "1517230516118.jpeg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 590,
+    "filename": "metakosmos-homepage-lider-immersive-commerce.webp",
+    "usos": [
+     "posts:metakosmos-immersive-commerce-lider-brasil-2026"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 52,
+     "filename": "site-mk.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 589,
+    "filename": "metakosmos-agente-ia-whatsapp-vendas-rcmotors.webp",
+    "usos": [
+     "posts:agentic-commerce-ia-compra-pelo-consumidor",
+     "posts:inteligencia-artificial-ecommerce",
+     "posts:tendencias-immersive-commerce-2026-2027"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 59,
+     "filename": "Screenshot-2026-01-26-160847.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 584,
+    "filename": "depoimento-stanley-mariana-camargo-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 189,
+     "filename": "mariana-camargo-stanley.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 575,
+    "filename": "metakosmos-thumb-exemplos-video-ia-adioqueda-stanley.webp",
+    "usos": [
+     "posts:mk-labs-creative-house-projetos-imersivos"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 35,
+     "filename": "MK-THUMB.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 566,
+    "filename": "metakosmos-cases-reais-colagem-clientes.webp",
+    "usos": [
+     "posts:ar-reduz-abandono-carrinho-ecommerce",
+     "posts:aumentar-confianca-compra-online",
+     "posts:immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce",
+     "posts:metakosmos-immersive-commerce-lider-brasil-2026",
+     "posts:mk-labs-creative-house-projetos-imersivos",
+     "posts:paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou",
+     "posts:provador-virtual-e-realidade-aumentada-o-futuro-do-varejo",
+     "posts:realidade-aumentada-ecommerce-venda-mais-devolva-menos",
+     "posts:ver-movel-em-casa-antes-de-comprar"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 74,
+     "filename": "Cases-Reais.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 560,
+    "filename": "provadorvirtual-fueleyewear-prove-em-voce-powered-mk.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 56,
+     "filename": "Screenshot-2026-01-26-160455.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 559,
+    "filename": "flexform-cadeira-dot-black-red-produto.gif",
+    "usos": [
+     "posts:custo-de-aquisicao-cliente-online",
+     "posts:dashboard-ecommerce"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 33,
+     "filename": "post-mk2.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 547,
+    "filename": "videoviral-duolingo-mascote-marcos-turisticos.webp",
+    "usos": [
+     "posts:mk-labs-creative-house-projetos-imersivos",
+     "posts:videos-publicitarios-com-ia-guia-completo-para-marcas"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 37,
+     "filename": "Duolingo.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 546,
+    "filename": "metakosmos-capa-state-immersive-commerce-2026.webp",
+    "usos": [
+     "posts:como-aumentar-faturamento-ecommerce",
+     "posts:como-vender-mais-online",
+     "posts:inovacao-no-varejo",
+     "posts:kpis-ecommerce",
+     "posts:llms-txt-dinamico-catalogo",
+     "posts:otimizacao-para-chatgpt",
+     "posts:provador-virtual-ecommerce-moda",
+     "posts:tendencias-immersive-commerce-2026-2027"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 328,
+     "filename": "state-of-immersive-commerce-capa.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 537,
+    "filename": "mk3dshop-osklen-tenis-monitor-mockup.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 53,
+     "filename": "MK-THUMB-1.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 535,
+    "filename": "mkbeauty-mascavo-provador-virtual-comentarios-3.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 307,
+     "filename": "IMG_5383.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 534,
+    "filename": "positivo-notebook-visao-explodida-componentes.webp",
+    "usos": [
+     "posts:experiencia-imersiva-3d-reposicionamento-positivo-ces-2026"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 348,
+     "filename": "image-6.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 526,
+    "filename": "metakosmos-equipe-retrato-lari.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 186,
+     "filename": "Lari.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 524,
+    "filename": "gregory-produto-vestido-bordo-pagina.gif",
+    "usos": [
+     "posts:como-reduzir-abandono-carrinho",
+     "posts:custo-de-aquisicao-cliente-online",
+     "posts:dashboard-ecommerce",
+     "posts:live-shopping-tendencias-brasil",
+     "posts:por-que-ecommerce-nao-converte",
+     "posts:ticket-medio-ecommerce"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 326,
+     "filename": "gregory.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 510,
+    "filename": "osklen-tenis-trail-trkk-produto.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 503,
+     "filename": "osklen-tenis-trail-trkk-produto-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 45,
+    "filename": "Modelo-SaaS_-investimento-que-cresce-com-o-resultado.jpg",
+    "usos": [
+     "posts:objecoes-provador-virtual"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 509,
+     "filename": "provadorvirtual-relogio-ar-pulso-celular.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 501,
+    "filename": "metakosmos-post-poc-cadeiras-neon-3d.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 43,
+     "filename": "O-que-acontece-depois-da-validacao-do-POC.jpg",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 492,
+    "filename": "provadorvirtual-osklen-shop-the-look-vestido.webp",
+    "usos": [
+     "posts:marketing-imersivo-varejo-moda",
+     "posts:mk-shop-the-look-ia-look-completo-ecommerce"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 499,
+     "filename": "provadorvirtual-osklen-shop-the-look-vestido-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 494,
+    "filename": "mkbeauty-karenbachini-base-facial-cosmos-provador-3.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 490,
+     "filename": "mkbeauty-karenbachini-base-facial-cosmos-provador-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 493,
+    "filename": "mkbeauty-adcos-provador-virtual-tonalidade.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 489,
+     "filename": "mkbeauty-adcos-provador-virtual-tonalidade-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 487,
+    "filename": "provadorvirtual-oculos-antes-depois-ia.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 64,
+     "filename": "2.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 476,
+    "filename": "stanley-totem-digital-praia-calor.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 484,
+     "filename": "stanley-totem-digital-praia-calor-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 475,
+    "filename": "mk3dshop-mitsubishi-eclipse-cross-portas-3d.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 481,
+     "filename": "mk3dshop-mitsubishi-eclipse-cross-portas-3d-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 474,
+    "filename": "fooh-bioextratus-pistache-gigante-predio.webp",
+    "usos": [
+     "posts:como-vender-mais-online"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 479,
+     "filename": "fooh-bioextratus-pistache-gigante-predio-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 472,
+    "filename": "fueleyewear-streetflow-campanha-oculos.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 67,
+     "filename": "1.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 471,
+    "filename": "mk3dshop-virtual-sofa-ar-ambiente-sala.webp",
+    "usos": [
+     "posts:ver-movel-em-casa-antes-de-comprar"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 72,
+     "filename": "Realidade-Aumentada-sofda.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 470,
+    "filename": "mkbeauty-tablet-demo-boca-rosa-provador-ar.webp",
+    "usos": [
+     "posts:olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual",
+     "posts:otimizacao-para-chatgpt"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 31,
+     "filename": "mk.png",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 469,
+    "filename": "mascavo-selfie-resultado-cabelo.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 465,
+     "filename": "mascavo-selfie-resultado-cabelo-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 468,
+    "filename": "loreal-inoa-outdoor-predio-rio-lapa.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 464,
+     "filename": "loreal-inoa-outdoor-predio-rio-lapa-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 460,
+    "filename": "anasol-linha-protetor-solar-todo-santo-dia.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 466,
+     "filename": "anasol-linha-protetor-solar-todo-santo-dia-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 120,
+    "filename": "2026-05-mkases-francis.gif",
+    "usos": [
+     "mkases:francis"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 462,
+     "filename": "mkbeauty-francis-filtro-flores-ar.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 450,
+    "filename": "ufc-totem-digital-rua-avenida-paulista.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 456,
+     "filename": "ufc-totem-digital-rua-avenida-paulista-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 449,
+    "filename": "fooh-serasa-personagem-metro-estacao.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 454,
+     "filename": "fooh-serasa-personagem-metro-estacao-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 448,
+    "filename": "heineken-tela-ativacao-ponto-de-venda.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 453,
+     "filename": "heineken-tela-ativacao-ponto-de-venda-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 446,
+    "filename": "videoviral-globo-notificacoes-ar-estatua-paulista.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 452,
+     "filename": "videoviral-globo-notificacoes-ar-estatua-paulista-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 445,
+    "filename": "mkbeauty-avon-ai-grade-tons-pele-diversidade.webp",
+    "usos": [
+     "posts:objecoes-provador-virtual"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 451,
+     "filename": "mkbeauty-avon-ai-grade-tons-pele-diversidade-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 433,
+    "filename": "fooh-mercadopago-balao-cartao-ponte-estaiada.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 441,
+     "filename": "fooh-mercadopago-balao-cartao-ponte-estaiada-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 440,
+    "filename": "innerhaus-predio-arquitetura-curva-filmagem.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 432,
+     "filename": "innerhaus-predio-arquitetura-curva-filmagem-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 437,
+    "filename": "aneethun-evento-expo-center-norte.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 431,
+     "filename": "aneethun-evento-expo-center-norte-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 430,
+    "filename": "bioextratus-arcos-lapa-predio-moderno.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 427,
+     "filename": "bioextratus-arcos-lapa-predio-moderno-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 423,
+    "filename": "mkbeauty-boca-rosa-stick-pele-multifuncional-live.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 425,
+     "filename": "mkbeauty-boca-rosa-stick-pele-multifuncional-live-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 419,
+    "filename": "videoviral-hidrabene-serum-clareamento-ar-rua-historica.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 421,
+     "filename": "videoviral-hidrabene-serum-clareamento-ar-rua-historica-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 416,
+    "filename": "mkbeauty-bioextratus-provador-virtual-cor-cabelo.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 417,
+     "filename": "mkbeauty-bioextratus-provador-virtual-cor-cabelo-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 413,
+    "filename": "fooh-freeco-produto-vista-aerea-salvador-farol-barra.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 415,
+     "filename": "fooh-freeco-produto-vista-aerea-salvador-farol-barra-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 396,
+    "filename": "betnacional-dirigivel-praia-copacabana.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 399,
+     "filename": "betnacional-dirigivel-praia-copacabana-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 394,
+    "filename": "ilha-pura-vista-aerea-predios-residenciais.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 388,
+     "filename": "ilha-pura-vista-aerea-predios-residenciais-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 139,
+    "filename": "2026-05-mkases-a-identificar-0402.gif",
+    "usos": [
+     "mkases:case-mkase-0402"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 393,
+     "filename": "terraco-lounge-vista-cidade-guarda-sois-amarelos.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 374,
+    "filename": "westin-fooh-drones-banner-ativacao.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 376,
+     "filename": "westin-fooh-drones-banner-ativacao-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 375,
+    "filename": "wap-av-paulista-vista-aerea-ativacao.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 373,
+     "filename": "wap-av-paulista-vista-aerea-ativacao-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 366,
+    "filename": "expresso-villagemall-vagao-fachada-shopping.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 371,
+     "filename": "expresso-villagemall-vagao-fachada-shopping-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 360,
+    "filename": "avon-batom-liquido-matte-glitter-effect.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 362,
+     "filename": "avon-batom-liquido-matte-glitter-effect-2.webp",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 268,
+    "filename": "mitsubishi-portas.gif",
+    "usos": [
+     "mkases:mitsubishi"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 98,
+     "filename": "2026-05-mkases-mitsubishi.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 242,
+    "filename": "gif-capa-skala.gif",
+    "usos": [
+     "mkases:skala"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 85,
+     "filename": "2026-05-mkases-skala.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 227,
+    "filename": "ufc.gif",
+    "usos": [
+     "mkases:ufc"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 79,
+     "filename": "2026-05-mkases-ufc.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 225,
+    "filename": "serasa-gif.gif",
+    "usos": [
+     "mkases:serasa"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 87,
+     "filename": "2026-05-mkases-serasa.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 221,
+    "filename": "mercadopago-gif.gif",
+    "usos": [
+     "mkases:mercado-pago"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 100,
+     "filename": "2026-05-mkases-mercado-pago.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 216,
+    "filename": "innerhaus-gif.gif",
+    "usos": [
+     "mkases:innerhaus"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 110,
+     "filename": "2026-05-mkases-innerhaus.gif",
+     "usos": []
+    }
+   ]
+  },
+  {
+   "manter": {
+    "id": 207,
+    "filename": "stanley-gif.gif",
+    "usos": [
+     "mkases:stanley"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 83,
+     "filename": "2026-05-mkases-stanley.gif",
+     "usos": []
+    }
+   ]
+  }
+ ],
+ "revisar": [
+  {
+   "manter": {
+    "id": 729,
+    "filename": "metakosmos-tarja-cores-marca-heineken-case.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 191,
+     "filename": "tarja-1024x576.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 721,
+    "filename": "mkbeauty-boca-rosa-tweets-provador-virtual-26.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 295,
+     "filename": "Captura-de-tela-2024-06-25-213735.png.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 246,
+    "filename": "wap-logo-branca.png.webp",
+    "usos": [
+     "mkases:wap-fooh"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 250,
+     "filename": "villagemall-gif.gif",
+     "usos": [
+      "mkases:village-mall"
+     ]
+    },
+    {
+     "id": 711,
+     "filename": "logo-wap.webp",
+     "usos": []
+    },
+    {
+     "id": 77,
+     "filename": "2026-05-mkases-village-mall.gif",
+     "usos": []
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 710,
+    "filename": "depoimento-tales-pinho-cliente-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 179,
+     "filename": "TALES-PINHO.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 705,
+    "filename": "mkbeauty-boca-rosa-tweets-provador-virtual-24.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 299,
+     "filename": "Captura-de-tela-2024-06-25-213855.png.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 699,
+    "filename": "mkbeauty-boca-rosa-tweets-provador-virtual-20.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 285,
+     "filename": "Captura-de-tela-2024-06-25-210208.png.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 692,
+    "filename": "depoimento-david-cliente-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 163,
+     "filename": "david.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 672,
+    "filename": "depoimento-anderson-cliente-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 178,
+     "filename": "Anderson.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 8,
+    "filename": "Stephanie-Tardin-Loreal.jpeg",
+    "usos": [
+     "posts:mk-3d-ads-publicidade-interativa-dailymotion"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 666,
+     "filename": "depoimento-loreal-stephanie-tardin-retrato.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 665,
+    "filename": "metakosmos-equipe-retrato-patrick.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 182,
+     "filename": "patrick.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 663,
+    "filename": "metakosmos-equipe-retrato-ian.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 162,
+     "filename": "ian.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 652,
+    "filename": "depoimento-hapvida-cliente-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 192,
+     "filename": "1658781431346.jpeg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 651,
+    "filename": "metakosmos-selo-woow-place-to-work.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 161,
+     "filename": "WOOW-PLACE-TO-WORK-OPT-2-1024x1024.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 650,
+    "filename": "depoimento-mitsubishi-victor-bay-lima-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 271,
+     "filename": "Victor-Bay-Lima-Mitsubishi.jpeg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 648,
+    "filename": "metakosmos-parceria-nexxas-diagrama.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 187,
+     "filename": "nexxas-1024x1024.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 647,
+    "filename": "depoimento-igor-marinho-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 177,
+     "filename": "igor-marinho.jpg.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 629,
+    "filename": "depoimento-cissa-muller-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 184,
+     "filename": "Cissa-Muller.png.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 262,
+    "filename": "toymania_sem_fundo.png",
+    "usos": [
+     "mkases:toymania-3d-ar"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 621,
+     "filename": "logo-toymania.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 611,
+    "filename": "mk3dshop-oculos-ar-produto-flutuante-casaco.webp",
+    "usos": [
+     "posts:ar-moveis-eletrodomesticos-online",
+     "posts:paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou",
+     "posts:provador-virtual-e-realidade-aumentada-o-futuro-do-varejo",
+     "posts:realidade-aumentada-no-e-commerce",
+     "posts:your-3d-everywhere"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 54,
+     "filename": "DBNjH9hRmIewv1lYpTkccQyIc.webp",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 604,
+    "filename": "metakosmos-mk3dads-exemplo-dailymotion-gucci.webp",
+    "usos": [
+     "posts:mk-3d-ads-publicidade-interativa-dailymotion"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 334,
+     "filename": "MK-MK-3D-ADS_2.png",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 577,
+    "filename": "depoimento-anasol-cliente-retrato.webp",
+    "usos": []
+   },
+   "apagar": [
+    {
+     "id": 200,
+     "filename": "1722547537856.jpeg",
+     "usos": []
+    }
+   ],
+   "motivo": "imagens pequenas/planas (logo) - conferir a olho"
+  },
+  {
+   "manter": {
+    "id": 316,
+    "filename": "menor.gif",
+    "usos": [
+     "mkases:karen-bachini-provador-virtual"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 127,
+     "filename": "2026-05-mkases-a-identificar-menor.gif",
+     "usos": [
+      "mkases:case-mkase-menor"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 313,
+    "filename": "gifao.gif",
+    "usos": [
+     "mkases:adcos-provador-virtual"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 128,
+     "filename": "2026-05-mkases-a-identificar-gifao.gif",
+     "usos": [
+      "mkases:case-mkase-gifao"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 312,
+    "filename": "03111.gif",
+    "usos": [
+     "mkases:bio-extratus-provador-virtual-2"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 144,
+     "filename": "2026-05-mkases-a-identificar-03111.gif",
+     "usos": [
+      "mkases:case-mkase-03111"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 306,
+    "filename": "mascavo-gif-1.gif",
+    "usos": [
+     "mkases:provador-virtual-realidade-aumentada-mascavo"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 102,
+     "filename": "2026-05-mkases-mascavo.gif",
+     "usos": [
+      "mkases:mascavo",
+      "posts:live-shopping-tendencias-brasil"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 281,
+    "filename": "mk-TINT-boca-rosa.gif",
+    "usos": [
+     "mkases:boca-rosa"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 146,
+     "filename": "2026-05-mkases-boca-rosa-mk-tint.gif",
+     "usos": [
+      "mkases:boca-rosa-mk-tint",
+      "posts:tecnologia-para-ecommerce"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 280,
+    "filename": "osklen-shop-the-look-gif.gif",
+    "usos": [
+     "mkases:osklen-stl"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 91,
+     "filename": "2026-05-mkases-osklen-shop-the-look.gif",
+     "usos": [
+      "mkases:osklen-shop-the-look"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 253,
+    "filename": "osklen-1.gif",
+    "usos": [
+     "mkases:osklen-mk3d"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 93,
+     "filename": "2026-05-mkases-osklen.gif",
+     "usos": [
+      "mkases:osklen"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 252,
+    "filename": "AVON-AI-3.gif",
+    "usos": [
+     "mkases:avon-ai"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 153,
+     "filename": "2026-05-mkases-avon-ai.gif",
+     "usos": [
+      "mkases:avon",
+      "posts:tecnologia-para-ecommerce"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 251,
+    "filename": "20-1024x576.png",
+    "usos": [
+     "mkases:village-mall"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 78,
+     "filename": "2026-05-mkases-brand-multiplan.png",
+     "usos": [
+      "clients:village-mall"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 249,
+    "filename": "lorealfooh-gif.gif",
+    "usos": [
+     "mkases:loreal-professionnel"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 106,
+     "filename": "2026-05-mkases-loreal-fooh.gif",
+     "usos": [
+      "mkases:l-oreal-fooh"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 248,
+    "filename": "5-1-1024x576.png",
+    "usos": [
+     "mkases:avon-3d",
+     "mkases:avon-ai",
+     "mkases:avon-renew"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 154,
+     "filename": "2026-05-mkases-brand-avon.png",
+     "usos": [
+      "clients:avon",
+      "mkases:avon"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 247,
+    "filename": "1.gif",
+    "usos": [
+     "mkases:avon-3d"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 145,
+     "filename": "2026-05-mkases-a-identificar-1.gif",
+     "usos": [
+      "mkases:case-mkase-1"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 244,
+    "filename": "04291.gif",
+    "usos": [
+     "mkases:wap-fooh"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 136,
+     "filename": "2026-05-mkases-a-identificar-04291.gif",
+     "usos": [
+      "mkases:case-mkase-04291"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 240,
+    "filename": "0813.gif",
+    "usos": [
+     "mkases:the-westin"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 135,
+     "filename": "2026-05-mkases-a-identificar-0813.gif",
+     "usos": [
+      "mkases:case-mkase-0813"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 236,
+    "filename": "0417.gif",
+    "usos": [
+     "mkases:ilha-pura-fake-out-of-home"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 138,
+     "filename": "2026-05-mkases-a-identificar-0417.gif",
+     "usos": [
+      "mkases:case-mkase-0417"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 234,
+    "filename": "03271.gif",
+    "usos": [
+     "mkases:hidrabene-fooh"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 140,
+     "filename": "2026-05-mkases-a-identificar-03271.gif",
+     "usos": [
+      "mkases:case-mkase-03271"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 232,
+    "filename": "anasol.gif",
+    "usos": [
+     "mkases:anasol-fooh-videos-ia-filtros-ar"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 155,
+     "filename": "2026-05-mkases-anasol.gif",
+     "usos": [
+      "mkases:anasol"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 230,
+    "filename": "0316.gif",
+    "usos": [
+     "mkases:chikas-bio-extratus-fake-out-of-home"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 142,
+     "filename": "2026-05-mkases-a-identificar-0316.gif",
+     "usos": [
+      "mkases:case-mkase-0316"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 223,
+    "filename": "loreal-iNOA-gif.gif",
+    "usos": [
+     "mkases:loreal-inoa"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 105,
+     "filename": "2026-05-mkases-loreal-inoa.gif",
+     "usos": [
+      "mkases:l-oreal-inoa"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 218,
+    "filename": "ANEETHUN.gif",
+    "usos": [
+     "mkases:aneethun-fooh"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 157,
+     "filename": "2026-05-mkases-aneethun.gif",
+     "usos": [
+      "mkases:aneethun-marca"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 217,
+    "filename": "innerhaus-1.png",
+    "usos": [
+     "mkases:innerhaus"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 111,
+     "filename": "2026-05-mkases-brand-innerhaus-1.png",
+     "usos": [
+      "clients:innerhaus"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 215,
+    "filename": "bio-extratus-logo.png",
+    "usos": [
+     "mkases:bio-extratus-videos"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 150,
+     "filename": "2026-05-mkases-brand-bio-extratus-logo.png",
+     "usos": [
+      "clients:bio-extratus",
+      "mkases:bio-extratus-fooh"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 214,
+    "filename": "bioextratus-fooh-gif.gif",
+    "usos": [
+     "mkases:bio-extratus-videos"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 149,
+     "filename": "2026-05-mkases-bioextratus-fooh.gif",
+     "usos": [
+      "mkases:bio-extratus-fooh"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 213,
+    "filename": "FreeCo_logo_white_transparente.png",
+    "usos": [
+     "mkases:freeco-fooh"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 119,
+     "filename": "2026-05-mkases-brand-freeco-logo-white-transparente.png",
+     "usos": [
+      "clients:freeco",
+      "mkases:freeco"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 212,
+    "filename": "FREECO.gif",
+    "usos": [
+     "mkases:freeco-fooh"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 118,
+     "filename": "2026-05-mkases-freeco.gif",
+     "usos": [
+      "mkases:freeco"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 209,
+    "filename": "heineken-14-logo-black-and-white-scaled.png",
+    "usos": [
+     "mkases:heineken-3d"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 113,
+     "filename": "2026-05-mkases-brand-heineken-14-logo-black-and-white-scaled.png",
+     "usos": [
+      "clients:heineken",
+      "mkases:heineken"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 208,
+    "filename": "stanley_logo_white_transparent.png",
+    "usos": [
+     "mkases:stanley"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 84,
+     "filename": "2026-05-mkases-brand-stanley-logo-white-transparent.png",
+     "usos": [
+      "clients:stanley"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 206,
+    "filename": "globo.png",
+    "usos": [
+     "mkases:globo-fake-out-of-home"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 115,
+     "filename": "2026-05-mkases-brand-globo.png",
+     "usos": [
+      "clients:globo",
+      "mkases:globo"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 205,
+    "filename": "GLOBO.gif",
+    "usos": [
+     "mkases:globo-fake-out-of-home"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 114,
+     "filename": "2026-05-mkases-globo.gif",
+     "usos": [
+      "mkases:globo"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 203,
+    "filename": "betnacional.gif",
+    "usos": [
+     "mkases:betnacional"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 151,
+     "filename": "2026-05-mkases-bet-nacional.gif",
+     "usos": [
+      "mkases:bet-nacional"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  },
+  {
+   "manter": {
+    "id": 190,
+    "filename": "heineken.gif",
+    "usos": [
+     "mkases:heineken-3d"
+    ]
+   },
+   "apagar": [
+    {
+     "id": 112,
+     "filename": "2026-05-mkases-heineken.gif",
+     "usos": [
+      "mkases:heineken"
+     ]
+    }
+   ],
+   "motivo": "mais de um em uso"
+  }
+ ]
+}

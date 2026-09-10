@@ -1947,6 +1947,17 @@
     "url": "/api/media/file/Cases-Reais.jpg?prefix=prod%2Fsite"
   },
   {
+    "id": 844,
+    "filename": "ChatGPT Image 8 de set. de 2026, 08_52_27.png",
+    "alt": "confiança no e-commerce",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 2043788,
+    "url": "/api/media/file/ChatGPT%20Image%208%20de%20set.%20de%202026%2C%2008_52_27.png?prefix=prod%2Fsite"
+  },
+  {
     "id": 233,
     "filename": "ChatGPT-Image-2-de-mar.-de-2026-11_42_53-1-1024x683.png",
     "alt": "Anasol logo",
@@ -3586,6 +3597,17 @@
     "url": "/api/media/file/Gemini_Generated_Image_bhmfi1bhmfi1bhmf-scaled.png?prefix=prod%2Fsite"
   },
   {
+    "id": 809,
+    "filename": "Gemini_Generated_Image_usmkn5usmkn5usmk.jpg",
+    "alt": "Carrinho abandonado",
+    "width": 2744,
+    "height": 1568,
+    "orient": "horizontal",
+    "mime": "image/jpeg",
+    "filesize": 3033900,
+    "url": "/api/media/file/Gemini_Generated_Image_usmkn5usmkn5usmk.jpg?prefix=prod%2Fsite"
+  },
+  {
     "id": 242,
     "filename": "gif-capa-skala.gif",
     "alt": "Skala GIF",
@@ -4026,6 +4048,28 @@
     "url": "/api/media/file/image.png?prefix=prod%2Fsite"
   },
   {
+    "id": 843,
+    "filename": "img artigo-1.png",
+    "alt": "aumento de ticket médio",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 2005728,
+    "url": "/api/media/file/img%20artigo-1.png?prefix=prod%2Fsite"
+  },
+  {
+    "id": 842,
+    "filename": "img artigo.png",
+    "alt": "aumento de ticket médio",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 2005728,
+    "url": "/api/media/file/img%20artigo.png?prefix=prod%2Fsite"
+  },
+  {
     "id": 307,
     "filename": "IMG_5383.jpg",
     "alt": "Mascavo galeria",
@@ -4222,6 +4266,17 @@
     "mime": "image/webp",
     "filesize": 5368,
     "url": "/api/media/file/Leonardo.jpg.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 845,
+    "filename": "live commerce.png",
+    "alt": "live commerce",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 2009078,
+    "url": "/api/media/file/live%20commerce.png?prefix=prod%2Fsite"
   },
   {
     "id": 718,
@@ -5093,6 +5148,17 @@
     "url": "/api/media/file/mercadopago-gif.gif?prefix=prod%2Fsite"
   },
   {
+    "id": 849,
+    "filename": "metakosmos-agente-ia-robo-humanoide-mulher-laptop.webp",
+    "alt": "Robô humanoide sentado ao lado de mulher que trabalha no laptop, metáfora de agente de IA colaborando",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 108158,
+    "url": "/api/media/file/metakosmos-agente-ia-robo-humanoide-mulher-laptop.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 589,
     "filename": "metakosmos-agente-ia-whatsapp-vendas-rcmotors.webp",
     "alt": "Mockup institucional da mK: conversa no WhatsApp com Laura, agente de IA de vendas para a Concessionária RC Motors",
@@ -5102,6 +5168,17 @@
     "mime": "image/webp",
     "filesize": 7258,
     "url": "/api/media/file/metakosmos-agente-ia-whatsapp-vendas-rcmotors.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 850,
+    "filename": "metakosmos-agentes-ia-executivo-icones-laptop.webp",
+    "alt": "Executivo tocando o ícone de AI Agents sobre o laptop, cercado de ícones de dados e carrinho",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 66760,
+    "url": "/api/media/file/metakosmos-agentes-ia-executivo-icones-laptop.webp?prefix=prod%2Fsite"
   },
   {
     "id": 586,
@@ -5115,6 +5192,105 @@
     "url": "/api/media/file/metakosmos-agentes-ia-hero-mockup-flexform.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 851,
+    "filename": "metakosmos-agentes-ia-trafego-fluxo-decisao-320-porcento.webp",
+    "alt": "Celular com recomendação de notebooks por IA e fluxo de decisão do agente, com alta de 320% no tráfego",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 126322,
+    "url": "/api/media/file/metakosmos-agentes-ia-trafego-fluxo-decisao-320-porcento.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 852,
+    "filename": "metakosmos-agentic-commerce-busca-carros-assistente-ia.webp",
+    "alt": "Busca de carros usados feita por assistente de IA com resultados de marketplace em cards",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 122154,
+    "url": "/api/media/file/metakosmos-agentic-commerce-busca-carros-assistente-ia.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 853,
+    "filename": "metakosmos-agentic-commerce-chat-ia-etapas-compra-celular.webp",
+    "alt": "Celular com chat de IA sugerindo produtos e checklist das etapas da compra concluídas pelo agente",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 55588,
+    "url": "/api/media/file/metakosmos-agentic-commerce-chat-ia-etapas-compra-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 854,
+    "filename": "metakosmos-agentic-commerce-picape-rede-dados-celular.webp",
+    "alt": "Picape sobre malha de dados em neon azul com celular exibindo configurador, conceito de commerce conectado",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 157350,
+    "url": "/api/media/file/metakosmos-agentic-commerce-picape-rede-dados-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 855,
+    "filename": "metakosmos-agentic-commerce-recompra-vs-descoberta-40-ticket.webp",
+    "alt": "Comparativo de agentic commerce: recompra assistida por IA com +40% de valor do pedido versus cliente indecisa na gôndola",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 129316,
+    "url": "/api/media/file/metakosmos-agentic-commerce-recompra-vs-descoberta-40-ticket.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 856,
+    "filename": "metakosmos-app-microdramas-quatro-telas-verticais.webp",
+    "alt": "Quatro telas verticais de app de microdramas com catálogo, feed e reprodução em tela cheia",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 159948,
+    "url": "/api/media/file/metakosmos-app-microdramas-quatro-telas-verticais.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 857,
+    "filename": "metakosmos-assistente-voz-compras-mulher-sofa-celular.webp",
+    "alt": "Mulher no sofá conversando por voz com o assistente de compras no celular, que sugere produtos",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 77550,
+    "url": "/api/media/file/metakosmos-assistente-voz-compras-mulher-sofa-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 858,
+    "filename": "metakosmos-assistentes-ia-tres-celulares-voz-inbox.webp",
+    "alt": "Três celulares lado a lado com assistente de IA, comandos de voz e caixa de entrada priorizada",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 116556,
+    "url": "/api/media/file/metakosmos-assistentes-ia-tres-celulares-voz-inbox.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 859,
+    "filename": "metakosmos-auditoria-conteudo-dashboard-performance-artigos.webp",
+    "alt": "Analista diante de dois monitores com dashboard de performance de artigos e plano de otimização",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 66538,
+    "url": "/api/media/file/metakosmos-auditoria-conteudo-dashboard-performance-artigos.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 801,
     "filename": "metakosmos-bastidores-producao-fooh-storyboard.webp",
     "alt": "Bastidores da produção de FOOH da mK: storyboards e renderização final de lata gigante atingindo um prédio, em monitores duplos",
@@ -5124,6 +5300,39 @@
     "mime": "image/webp",
     "filesize": 94210,
     "url": "/api/media/file/metakosmos-bastidores-producao-fooh-storyboard.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 860,
+    "filename": "metakosmos-busca-visual-moda-celular-shop-by-style.webp",
+    "alt": "Celular sobre bancada exibindo busca de moda com filtros de estilo e vitrine shop by style",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 64808,
+    "url": "/api/media/file/metakosmos-busca-visual-moda-celular-shop-by-style.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 861,
+    "filename": "metakosmos-buscador-ia-apps-conectados-carrinho.webp",
+    "alt": "Celular com modo de IA em buscador conectando apps de música, design e compras para montar o carrinho",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 38448,
+    "url": "/api/media/file/metakosmos-buscador-ia-apps-conectados-carrinho.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 862,
+    "filename": "metakosmos-capa-artigo-ticket-medio-sem-desconto.webp",
+    "alt": "Capa de artigo sobre ticket médio no e-commerce com carrinho de produtos e gráfico de crescimento",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 132398,
+    "url": "/api/media/file/metakosmos-capa-artigo-ticket-medio-sem-desconto.webp?prefix=prod%2Fsite"
   },
   {
     "id": 645,
@@ -5148,6 +5357,17 @@
     "url": "/api/media/file/metakosmos-capa-state-immersive-commerce-2026.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 863,
+    "filename": "metakosmos-carrinho-abandonado-celular-botao-comprar.webp",
+    "alt": "Celular com carrinho de compras e botão comprar, dedo prestes a tocar a tela",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 29774,
+    "url": "/api/media/file/metakosmos-carrinho-abandonado-celular-botao-comprar.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 566,
     "filename": "metakosmos-cases-reais-colagem-clientes.webp",
     "alt": "Colagem institucional da mK 'Cases Reais' com cadeira Flexform, configurador 3D da Chevrolet e óculos Fuel Eyewear",
@@ -5159,6 +5379,39 @@
     "url": "/api/media/file/metakosmos-cases-reais-colagem-clientes.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 864,
+    "filename": "metakosmos-chatgpt-anuncio-patrocinado-interface-conceito.webp",
+    "alt": "Conceito de anúncio patrocinado dentro da interface de chat de IA, com pergunta sobre destinos de viagem",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 47572,
+    "url": "/api/media/file/metakosmos-chatgpt-anuncio-patrocinado-interface-conceito.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 865,
+    "filename": "metakosmos-cliente-certeza-compra-celular-sofa.webp",
+    "alt": "Homem sorrindo satisfeito ao olhar o celular no sofá, representando a certeza na compra",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 40590,
+    "url": "/api/media/file/metakosmos-cliente-certeza-compra-celular-sofa.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 866,
+    "filename": "metakosmos-cliente-duvida-compra-celular-sofa.webp",
+    "alt": "Homem com a mão no queixo em dúvida diante do celular no sofá, representando hesitação na compra",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 46848,
+    "url": "/api/media/file/metakosmos-cliente-duvida-compra-celular-sofa.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 610,
     "filename": "metakosmos-clientes-logos-phygitech-brasil.webp",
     "alt": "Grade institucional da mK com logos de marcas clientes: L'Oréal, Globo, UFC, Chevrolet, Osklen, Coca-Cola, Boca Rosa, Mitsubishi, entre outras",
@@ -5168,6 +5421,28 @@
     "mime": "image/webp",
     "filesize": 34702,
     "url": "/api/media/file/metakosmos-clientes-logos-phygitech-brasil.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 867,
+    "filename": "metakosmos-comparativo-pdp-tradicional-vs-ar-poltrona.webp",
+    "alt": "Dois monitores comparando PDP tradicional de poltrona e PDP com visualização em realidade aumentada",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 48914,
+    "url": "/api/media/file/metakosmos-comparativo-pdp-tradicional-vs-ar-poltrona.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 868,
+    "filename": "metakosmos-compra-online-cartao-credito-laptop-promocao.webp",
+    "alt": "Mão segurando cartão de crédito diante de laptop com loja online em promoção",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 49490,
+    "url": "/api/media/file/metakosmos-compra-online-cartao-credito-laptop-promocao.webp?prefix=prod%2Fsite"
   },
   {
     "id": 807,
@@ -5192,6 +5467,17 @@
     "url": "/api/media/file/metakosmos-dashboard-analytics-grafico-abstrato.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 869,
+    "filename": "metakosmos-dashboard-analytics-ia-telas-flutuantes-mouse.webp",
+    "alt": "Mãos no mouse e no laptop com painéis de analytics flutuantes e dashboard analisado por IA",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 82302,
+    "url": "/api/media/file/metakosmos-dashboard-analytics-ia-telas-flutuantes-mouse.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 731,
     "filename": "metakosmos-dashboard-analytics-monitor-escritorio.webp",
     "alt": "Foto stock de monitor exibindo dashboard de analytics com gráficos, em ambiente de escritório claro",
@@ -5203,6 +5489,17 @@
     "url": "/api/media/file/metakosmos-dashboard-analytics-monitor-escritorio.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 870,
+    "filename": "metakosmos-dashboard-ecommerce-zoom-conversao-receita.webp",
+    "alt": "Laptop com dashboard de e-commerce em destaque: sessões, pedidos, receita e taxa de conversão",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 66470,
+    "url": "/api/media/file/metakosmos-dashboard-ecommerce-zoom-conversao-receita.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 561,
     "filename": "metakosmos-dashboard-producao-tradicional-vs-ia.webp",
     "alt": "Dashboard institucional da mK comparando produção tradicional manual vs. produção com IA híbrida",
@@ -5212,6 +5509,17 @@
     "mime": "image/webp",
     "filesize": 68962,
     "url": "/api/media/file/metakosmos-dashboard-producao-tradicional-vs-ia.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 871,
+    "filename": "metakosmos-devolucao-ecommerce-caixa-etiqueta-moletom.webp",
+    "alt": "Mãos colocando um moletom em caixa de papelão ao lado da etiqueta de devolução",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 170536,
+    "url": "/api/media/file/metakosmos-devolucao-ecommerce-caixa-etiqueta-moletom.webp?prefix=prod%2Fsite"
   },
   {
     "id": 518,
@@ -5258,6 +5566,72 @@
     "url": "/api/media/file/metakosmos-equipe-retrato-patrick.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 872,
+    "filename": "metakosmos-executivo-alivio-resultado-grafico-crescimento.webp",
+    "alt": "Executivo aliviado diante do laptop à noite, com relatório impresso mostrando gráfico de crescimento",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 36318,
+    "url": "/api/media/file/metakosmos-executivo-alivio-resultado-grafico-crescimento.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 873,
+    "filename": "metakosmos-executivo-frustracao-grafico-queda-laptop.webp",
+    "alt": "Executivo frustrado com a mão na testa diante do laptop, com relatório mostrando gráfico de queda",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 32338,
+    "url": "/api/media/file/metakosmos-executivo-frustracao-grafico-queda-laptop.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 874,
+    "filename": "metakosmos-fundo-dados-graficos-neon-escuro-vertical.webp",
+    "alt": "Fundo escuro vertical com gráficos de linha, rosca e barras em neon, com espaço livre para texto",
+    "width": 1086,
+    "height": 1448,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 15874,
+    "url": "/api/media/file/metakosmos-fundo-dados-graficos-neon-escuro-vertical.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 875,
+    "filename": "metakosmos-fundo-neutro-gradiente-roxo-azul-moldura-neon.webp",
+    "alt": "Fundo neutro em gradiente roxo e azul com moldura em neon, para uso como base de arte",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 14888,
+    "url": "/api/media/file/metakosmos-fundo-neutro-gradiente-roxo-azul-moldura-neon.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 876,
+    "filename": "metakosmos-hero-immersive-commerce-holograma-tenis-celular.webp",
+    "alt": "Imagem hero de immersive commerce: mulher segura o celular do qual sai o holograma de um tênis",
+    "width": 2000,
+    "height": 1333,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 68572,
+    "url": "/api/media/file/metakosmos-hero-immersive-commerce-holograma-tenis-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 877,
+    "filename": "metakosmos-hesitacao-compra-online-homem-cartao-carteira.webp",
+    "alt": "Homem em dúvida tirando o cartão da carteira diante de tablet com página de produto de tênis",
+    "width": 2000,
+    "height": 1116,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 173228,
+    "url": "/api/media/file/metakosmos-hesitacao-compra-online-homem-cartao-carteira.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 590,
     "filename": "metakosmos-homepage-lider-immersive-commerce.webp",
     "alt": "Screenshot da homepage institucional da mK: 'Líder no Brasil em Immersive Commerce', com estatísticas de sessões e conversão",
@@ -5289,6 +5663,39 @@
     "mime": "image/webp",
     "filesize": 40214,
     "url": "/api/media/file/metakosmos-infografico-interacoes-virtuais-3d.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 878,
+    "filename": "metakosmos-live-commerce-reels-celular-vitrine-produtos-2.webp",
+    "alt": "Celular na mão com vídeo de live commerce e vitrine de produtos de beleza integrada ao reels",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 87050,
+    "url": "/api/media/file/metakosmos-live-commerce-reels-celular-vitrine-produtos-2.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 879,
+    "filename": "metakosmos-live-commerce-reels-celular-vitrine-produtos.webp",
+    "alt": "Celular exibindo vídeo de live commerce em reels com vitrine de três produtos de beleza",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 71854,
+    "url": "/api/media/file/metakosmos-live-commerce-reels-celular-vitrine-produtos.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 880,
+    "filename": "metakosmos-loja-conceito-totens-digitais-provador-retire.webp",
+    "alt": "Loja conceito minimalista com totens digitais de provador, retirada e escaneamento de produtos",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 86526,
+    "url": "/api/media/file/metakosmos-loja-conceito-totens-digitais-provador-retire.webp?prefix=prod%2Fsite"
   },
   {
     "id": 602,
@@ -5335,6 +5742,17 @@
     "url": "/api/media/file/metakosmos-mk3dshop-colagem-vr-ar-qrcode-flexform.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 881,
+    "filename": "metakosmos-palco-forum-ecommerce-brasil-pdp-que-converte.webp",
+    "alt": "Palestra em palco do Fórum E-commerce Brasil com telão comparando PDP limitada e PDP que converte",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 130314,
+    "url": "/api/media/file/metakosmos-palco-forum-ecommerce-brasil-pdp-que-converte.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 648,
     "filename": "metakosmos-parceria-nexxas-diagrama.webp",
     "alt": "Diagrama institucional da parceria entre mK e Nexxas, mostrando módulo de Immersive Commerce integrado ao ERP",
@@ -5344,6 +5762,50 @@
     "mime": "image/webp",
     "filesize": 21430,
     "url": "/api/media/file/metakosmos-parceria-nexxas-diagrama.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 882,
+    "filename": "metakosmos-parede-quadros-galeria-contraste-bege-azul.webp",
+    "alt": "Parede de galeria com quadros de fotos em ambiente bege e quadros de arte em ambiente azul",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 170734,
+    "url": "/api/media/file/metakosmos-parede-quadros-galeria-contraste-bege-azul.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 883,
+    "filename": "metakosmos-phygital-espelho-inteligente-loja-vendedora-cliente.webp",
+    "alt": "Espelho inteligente em loja de moda mostrando a ficha do produto enquanto a vendedora atende a cliente",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 61242,
+    "url": "/api/media/file/metakosmos-phygital-espelho-inteligente-loja-vendedora-cliente.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 884,
+    "filename": "metakosmos-phygital-gravacao-conteudo-loja-moda-camera.webp",
+    "alt": "Duas criadoras gravando conteúdo de moda dentro da loja com câmera em tripé, conceito phygital",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 122864,
+    "url": "/api/media/file/metakosmos-phygital-gravacao-conteudo-loja-moda-camera.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 885,
+    "filename": "metakosmos-phygital-loja-cards-produtos-ar-precos.webp",
+    "alt": "Loja escura com cards de produtos e preços flutuando em realidade aumentada, indicando o provador",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 92640,
+    "url": "/api/media/file/metakosmos-phygital-loja-cards-produtos-ar-precos.webp?prefix=prod%2Fsite"
   },
   {
     "id": 438,
@@ -5456,6 +5918,28 @@
     "url": "/api/media/file/metakosmos-post-roi-esperado-grafico-crescimento.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 886,
+    "filename": "metakosmos-producao-video-claquete-monitor-edicao.webp",
+    "alt": "Claquete de cinema em primeiro plano diante de monitor com timeline de edição de vídeo",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 48350,
+    "url": "/api/media/file/metakosmos-producao-video-claquete-monitor-edicao.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 887,
+    "filename": "metakosmos-producao-video-ia-estudio-cinema-dados.webp",
+    "alt": "Estúdio de cinema com câmera, claquete e núcleo de dados em vermelho, conceito de produção de vídeo com IA",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 196164,
+    "url": "/api/media/file/metakosmos-producao-video-ia-estudio-cinema-dados.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 605,
     "filename": "metakosmos-reel-from-good-to-woow-colagem.webp",
     "alt": "Miniatura institucional 'From good to WooW!' da mK, colagem com vários cases de clientes (FOOH, provador virtual, visualizador 3D)",
@@ -5498,6 +5982,17 @@
     "mime": "image/webp",
     "filesize": 89118,
     "url": "/api/media/file/metakosmos-render-3d-flexform-behindscenes.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 888,
+    "filename": "metakosmos-reuniao-executiva-dashboard-tablet-apresentacao.webp",
+    "alt": "Reunião executiva com apresentação de dashboard de resultados em tablet",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 58232,
+    "url": "/api/media/file/metakosmos-reuniao-executiva-dashboard-tablet-apresentacao.webp?prefix=prod%2Fsite"
   },
   {
     "id": 651,
@@ -5588,6 +6083,28 @@
     "url": "/api/media/file/metakosmos-tarja-cores-marca-heineken-case.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 889,
+    "filename": "metakosmos-template-numero-destaque-celular-dashboard-roxo.webp",
+    "alt": "Celular na horizontal com moldura de dashboard vazia em roxo, com espaço livre para número em destaque",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 25040,
+    "url": "/api/media/file/metakosmos-template-numero-destaque-celular-dashboard-roxo.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 890,
+    "filename": "metakosmos-tendencia-futuro-skyline-noturno-wireframe.webp",
+    "alt": "Homem de costas observando skyline noturno com prédios projetados em wireframe digital",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 122848,
+    "url": "/api/media/file/metakosmos-tendencia-futuro-skyline-noturno-wireframe.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 575,
     "filename": "metakosmos-thumb-exemplos-video-ia-adioqueda-stanley.webp",
     "alt": "Miniatura institucional da mK reunindo exemplos de vídeos IA: comparação Adiós Queda antes/depois, rosto gerado por IA com batom roxo, e copo Stanley em cenário de frio",
@@ -5619,6 +6136,39 @@
     "mime": "image/webp",
     "filesize": 73838,
     "url": "/api/media/file/metakosmos-thumb-videos-com-ia-exemplos.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 891,
+    "filename": "metakosmos-ticket-medio-carrinho-complete-o-look-celular.webp",
+    "alt": "Celular com carrinho de compras e seção complete o look sugerindo relógio, tênis e óculos",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 48742,
+    "url": "/api/media/file/metakosmos-ticket-medio-carrinho-complete-o-look-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 892,
+    "filename": "metakosmos-ticket-medio-carrinho-produtos-laptop-grafico.webp",
+    "alt": "Carrinho de compras com produtos ao lado de laptop com catálogo e gráfico de crescimento do ticket médio",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 124642,
+    "url": "/api/media/file/metakosmos-ticket-medio-carrinho-produtos-laptop-grafico.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 893,
+    "filename": "metakosmos-vitrine-holograma-bolsa-rua-noite.webp",
+    "alt": "Vitrine de rua à noite exibindo o holograma de uma bolsa em luz roxa enquanto uma pedestre observa",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 63876,
+    "url": "/api/media/file/metakosmos-vitrine-holograma-bolsa-rua-noite.webp?prefix=prod%2Fsite"
   },
   {
     "id": 506,
@@ -6127,17 +6677,6 @@
     "url": "/api/media/file/mk3dshop-gm-configurador-3d-exterior.webp?prefix=prod%2Fsite"
   },
   {
-    "id": 809,
-    "filename": "mk3dshop-hero-tenis-holograma-celular-mulher.webp",
-    "alt": "mK 3D Shop (visualizador 3D): imagem hero com tênis preto em holograma flutuando sobre celular, mulher ao fundo",
-    "width": 2000,
-    "height": 1333,
-    "orient": "horizontal",
-    "mime": "image/webp",
-    "filesize": 66182,
-    "url": "/api/media/file/mk3dshop-hero-tenis-holograma-celular-mulher.webp?prefix=prod%2Fsite"
-  },
-  {
     "id": 495,
     "filename": "mk3dshop-mitsubishi-eclipse-cross-cores-3d.webp",
     "alt": "mK 3D Shop (visualizador 3D): configurador do Mitsubishi Eclipse Cross com seleção de versão, cores e acessórios",
@@ -6268,6 +6807,28 @@
     "mime": "image/webp",
     "filesize": 24422,
     "url": "/api/media/file/mk3dshop-positivo-notebook-3d-ver-ambiente.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 894,
+    "filename": "mk3dshop-qrcode-vitrine-colecao-ar-rua-celular.webp",
+    "alt": "Vitrine de rua com QR code para ver a coleção em realidade aumentada e pedestre apontando o celular",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 157820,
+    "url": "/api/media/file/mk3dshop-qrcode-vitrine-colecao-ar-rua-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 895,
+    "filename": "mk3dshop-qrcode-vitrine-flores-ar-celular-rua.webp",
+    "alt": "Realidade aumentada em vitrine: pedestre aponta o celular para o QR code e vê flores gigantes em AR sobre a loja",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 135154,
+    "url": "/api/media/file/mk3dshop-qrcode-vitrine-flores-ar-celular-rua.webp?prefix=prod%2Fsite"
   },
   {
     "id": 798,
@@ -6886,6 +7447,17 @@
     "url": "/api/media/file/mkbeauty-francis-filtro-flores-ar.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 896,
+    "filename": "mkbeauty-holograma-analise-facial-dashboards-loja.webp",
+    "alt": "Holograma de rosto com dashboards de análise de pele em loja de beleza, equipe avaliando o produto",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 165790,
+    "url": "/api/media/file/mkbeauty-holograma-analise-facial-dashboards-loja.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 555,
     "filename": "mkbeauty-infografico-case-boca-rosa-tint-resultados.webp",
     "alt": "mK Beauty (provador virtual de beleza): infográfico do case Boca Rosa com o provador Tint, resultados de +1.7M maquiagens testadas e +R$5M de faturamento na live",
@@ -6930,6 +7502,28 @@
     "url": "/api/media/file/mkbeauty-karenbachini-base-facial-cosmos-provador.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 897,
+    "filename": "mkbeauty-loja-luxo-espelhos-inteligentes-analise-facial.webp",
+    "alt": "Loja de beleza de luxo com espelhos inteligentes e telão de análise facial por IA durante o atendimento",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 162896,
+    "url": "/api/media/file/mkbeauty-loja-luxo-espelhos-inteligentes-analise-facial.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 898,
+    "filename": "mkbeauty-loja-luxo-scanner-facial-consultoria-balcao.webp",
+    "alt": "Loja de beleza de luxo com scanner facial no balcão e consultoras atendendo clientes",
+    "width": 1456,
+    "height": 819,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 121016,
+    "url": "/api/media/file/mkbeauty-loja-luxo-scanner-facial-consultoria-balcao.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 403,
     "filename": "mkbeauty-loreal-ar-antes-depois-cabelo-absolut-repair.webp",
     "alt": "mK Beauty (provador virtual de beleza): filtro de realidade aumentada da L'Oréal Professionnel comparando antes e depois do tratamento Absolut Repair Molecular no cabelo",
@@ -6950,6 +7544,17 @@
     "mime": "image/webp",
     "filesize": 520792,
     "url": "/api/media/file/mkbeauty-loreal-inoa-diacolor-filtro-interativo.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 899,
+    "filename": "mkbeauty-loreal-openai-provador-maquiagem-laptop.webp",
+    "alt": "Consumidora testando provador de maquiagem no laptop diante do telão da parceria entre marca de beleza e IA",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 86760,
+    "url": "/api/media/file/mkbeauty-loreal-openai-provador-maquiagem-laptop.webp?prefix=prod%2Fsite"
   },
   {
     "id": 536,
@@ -7073,6 +7678,28 @@
     "url": "/api/media/file/mkbeauty-tablet-demo-boca-rosa-provador-ar.webp?prefix=prod%2Fsite"
   },
   {
+    "id": 847,
+    "filename": "MKPROOF_DASHBOARD_GERAL_1.png",
+    "alt": "dashboard kpis",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 1725722,
+    "url": "/api/media/file/MKPROOF_DASHBOARD_GERAL_1.png?prefix=prod%2Fsite"
+  },
+  {
+    "id": 846,
+    "filename": "MKPROOF_REUNIAO_1.png",
+    "alt": "dashboard",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 1751364,
+    "url": "/api/media/file/MKPROOF_REUNIAO_1.png?prefix=prod%2Fsite"
+  },
+  {
     "id": 505,
     "filename": "mktourvirtual-conviva-apartamento-3d-2.webp",
     "alt": "mK Tour Virtual: tour 3D de apartamento da CONVIVA Imobiliária mostrando cozinha integrada e escada interna, com menu de ambientes navegáveis",
@@ -7126,6 +7753,17 @@
     "mime": "image/webp",
     "filesize": 1070346,
     "url": "/api/media/file/mkvr-ativacao-vr-re-energiza-evento.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 900,
+    "filename": "mkvr-compra-imersiva-colete-headset-sala-estar.webp",
+    "alt": "Mulher com headset de realidade virtual escolhendo um colete em vitrine imersiva na sala de estar",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 159722,
+    "url": "/api/media/file/mkvr-compra-imersiva-colete-headset-sala-estar.webp?prefix=prod%2Fsite"
   },
   {
     "id": 443,
@@ -7557,6 +8195,72 @@
     "url": "/api/media/file/provador-selfie.png?prefix=prod%2Fsite"
   },
   {
+    "id": 901,
+    "filename": "provadorvirtual-antes-depois-moletom-terracota-still-modelo.webp",
+    "alt": "Antes e depois: moletom terracota em foto still de catálogo e o mesmo moletom vestido por um modelo",
+    "width": 1536,
+    "height": 1024,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 58918,
+    "url": "/api/media/file/provadorvirtual-antes-depois-moletom-terracota-still-modelo.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 902,
+    "filename": "provadorvirtual-conceito-3d-manequins-cards-roupas-celular.webp",
+    "alt": "Ilustração 3D em neon com manequins e cards de roupas ao redor de um celular, conceito de provador virtual",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 76340,
+    "url": "/api/media/file/provadorvirtual-conceito-3d-manequins-cards-roupas-celular.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 903,
+    "filename": "provadorvirtual-eora-oculos-luar-close-modelo-praia.webp",
+    "alt": "Close da modelo usando o óculos Luar da EORA na praia, resultado do provador virtual",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 53224,
+    "url": "/api/media/file/provadorvirtual-eora-oculos-luar-close-modelo-praia.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 904,
+    "filename": "provadorvirtual-eora-oculos-luar-modelo-praia-quiosque.webp",
+    "alt": "Provador virtual de óculos: modelo usando o óculos Luar da EORA em quiosque de praia, com preço e botão de compra",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 77630,
+    "url": "/api/media/file/provadorvirtual-eora-oculos-luar-modelo-praia-quiosque.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 905,
+    "filename": "provadorvirtual-eora-oculos-luar-pdp-produto-modelo.webp",
+    "alt": "PDP de óculos da EORA com a foto do produto acima e o resultado do provador virtual na modelo abaixo",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 39272,
+    "url": "/api/media/file/provadorvirtual-eora-oculos-luar-pdp-produto-modelo.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 906,
+    "filename": "provadorvirtual-eora-oculos-luar-tryon-modelo-praia.webp",
+    "alt": "Provador virtual de óculos: site da EORA com o modelo Luar aplicado por try-on em foto de praia",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 55658,
+    "url": "/api/media/file/provadorvirtual-eora-oculos-luar-tryon-modelo-praia.webp?prefix=prod%2Fsite"
+  },
+  {
     "id": 560,
     "filename": "provadorvirtual-fueleyewear-prove-em-voce-powered-mk.webp",
     "alt": "Provador virtual (mK Fashion/AI Shooting): pop-up de produto da Fuel Eyewear com botão 'Prove em você', selo 'Powered by mK'",
@@ -7588,6 +8292,39 @@
     "mime": "image/webp",
     "filesize": 297004,
     "url": "/api/media/file/provadorvirtual-gregory-moda-produto.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 907,
+    "filename": "provadorvirtual-live-tryon-camisa-masculina-pdp.webp",
+    "alt": "Live try-on sobre PDP de camisa masculina, com modelo experimentando a peça em vídeo",
+    "width": 2000,
+    "height": 1500,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 178988,
+    "url": "/api/media/file/provadorvirtual-live-tryon-camisa-masculina-pdp.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 908,
+    "filename": "provadorvirtual-live-tryon-monitor-vestido-verde-sala-2.webp",
+    "alt": "Live try-on em monitor de sala: cliente vê a si mesma com um vestido verde e opções de cor",
+    "width": 1024,
+    "height": 572,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 38802,
+    "url": "/api/media/file/provadorvirtual-live-tryon-monitor-vestido-verde-sala-2.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 909,
+    "filename": "provadorvirtual-live-tryon-monitor-vestido-verde-sala.webp",
+    "alt": "Live try-on em monitor: cliente na sala vê a si mesma vestindo um vestido verde em tempo real",
+    "width": 1672,
+    "height": 941,
+    "orient": "horizontal",
+    "mime": "image/webp",
+    "filesize": 86514,
+    "url": "/api/media/file/provadorvirtual-live-tryon-monitor-vestido-verde-sala.webp?prefix=prod%2Fsite"
   },
   {
     "id": 746,
@@ -7632,6 +8369,28 @@
     "mime": "image/webp",
     "filesize": 15536,
     "url": "/api/media/file/provadorvirtual-mkf-catalogo-blusa-bege.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 910,
+    "filename": "provadorvirtual-mkf-celular-mao-selfie-espelho-polo-verde-2.webp",
+    "alt": "Provador virtual (mK Fashion): celular na mão com o resultado do provador em selfie de espelho, look de polo verde",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 65092,
+    "url": "/api/media/file/provadorvirtual-mkf-celular-mao-selfie-espelho-polo-verde-2.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 911,
+    "filename": "provadorvirtual-mkf-celular-mao-selfie-espelho-polo-verde.webp",
+    "alt": "Provador virtual (mK Fashion): celular na mão exibindo look de polo verde gerado sobre selfie de espelho",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 65438,
+    "url": "/api/media/file/provadorvirtual-mkf-celular-mao-selfie-espelho-polo-verde.webp?prefix=prod%2Fsite"
   },
   {
     "id": 756,
@@ -7720,6 +8479,39 @@
     "mime": "image/webp",
     "filesize": 75520,
     "url": "/api/media/file/provadorvirtual-mkf-gemeo-digital-espelho-vestido.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 912,
+    "filename": "provadorvirtual-mkf-gregory-pdp-botao-provador-virtual.webp",
+    "alt": "Provador virtual (mK Fashion): PDP da Gregory com modelo de blazer preto e botão Provador virtual em destaque",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 46798,
+    "url": "/api/media/file/provadorvirtual-mkf-gregory-pdp-botao-provador-virtual.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 913,
+    "filename": "provadorvirtual-mkf-gregory-tryon-terno-risca-giz-marinho-2.webp",
+    "alt": "Provador virtual (mK Fashion): tela da Gregory com look de terno risca de giz marinho no provador virtual, selo Powered by mK",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 36404,
+    "url": "/api/media/file/provadorvirtual-mkf-gregory-tryon-terno-risca-giz-marinho-2.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 914,
+    "filename": "provadorvirtual-mkf-gregory-tryon-terno-risca-giz-marinho.webp",
+    "alt": "Provador virtual (mK Fashion): PDP da Gregory com modelo em terno risca de giz marinho gerado pelo try-on, selo Powered by mK",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 34224,
+    "url": "/api/media/file/provadorvirtual-mkf-gregory-tryon-terno-risca-giz-marinho.webp?prefix=prod%2Fsite"
   },
   {
     "id": 734,
@@ -7841,6 +8633,17 @@
     "mime": "image/webp",
     "filesize": 78528,
     "url": "/api/media/file/provadorvirtual-mkf-sustentavel-roupa-linho-verde.webp?prefix=prod%2Fsite"
+  },
+  {
+    "id": 915,
+    "filename": "provadorvirtual-mkf-tela-selfie-foto-enviada-gerada-ia.webp",
+    "alt": "Provador virtual (mK Fashion): tela do provador comparando a foto enviada pela cliente e a foto gerada pela IA com o look",
+    "width": 1080,
+    "height": 1350,
+    "orient": "vertical",
+    "mime": "image/webp",
+    "filesize": 43092,
+    "url": "/api/media/file/provadorvirtual-mkf-tela-selfie-foto-enviada-gerada-ia.webp?prefix=prod%2Fsite"
   },
   {
     "id": 745,
@@ -8094,6 +8897,17 @@
     "mime": "image/jpeg",
     "filesize": 624163,
     "url": "/api/media/file/ROI-esperado_-o-que-projetos-bem-implementados-entregam.jpg?prefix=prod%2Fsite"
+  },
+  {
+    "id": 848,
+    "filename": "sapato3d.png",
+    "alt": "sapato visualizador 3d",
+    "width": 984,
+    "height": 646,
+    "orient": "horizontal",
+    "mime": "image/png",
+    "filesize": 399504,
+    "url": "/api/media/file/sapato3d.png?prefix=prod%2Fsite"
   },
   {
     "id": 55,

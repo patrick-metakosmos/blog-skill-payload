@@ -1,18 +1,11 @@
 # Catálogo da Media do Payload (fonte de imagens reais)
 
-Total: **804** mídias. Gerado por `scripts/sync_payload_media.py`.
+Total: **878** mídias. Gerado por `scripts/sync_payload_media.py`.
 
 **Como usar:** no `artigo.html`, referencie a imagem pelo NOME DE ARQUIVO exato da coluna `filename`
 (ex: `<img src="mK3DShop-Flexform.gif" alt="...">`). O publicador resolve o ID na Media.
 Só use nomes que aparecem aqui. **Todas as imagens renderizam full-width** (o tema não flutua imagem em coluna).
 Para hero/featured, prefira uma imagem **horizontal**.
-
-**PROIBIDO usar logo como imagem de artigo** (hero ou corpo): logo de marca cliente
-(`*-logo.*`, `logo-*`), grade de logos (`metakosmos-clientes-logos-*`), lockup ou assinatura
-institucional. Logo não ilustra nada e, no hero, vira card vazio na listagem do blog. Ao citar uma
-marca cliente, use a imagem do case dela (produto, tela da solução, resultado) e linke o nome para
-`/mkases/[slug]/`. Atenção: `catálogo` contém "logo" e não é logo (ex:
-`provadorvirtual-mkf-catalogo-blusa-bege.webp` é válida).
 
 | filename | orient | dims | KB | alt |
 |---|---|---|---|---|
@@ -193,6 +186,7 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `Captura-de-tela-2025-09-18-203150.png` | quadrada | 1007x889 | 399 | Mascavo galeria |
 | `carina-azevedo.jpg.webp` | quadrada | 500x500 | 7 | carina azevedo.jpg |
 | `Cases-Reais.jpg` | horizontal | 1920x1080 | 153 | Cases Reais |
+| `ChatGPT Image 8 de set. de 2026, 08_52_27.png` | horizontal | 1672x941 | 1995 | confiança no e-commerce |
 | `ChatGPT-Image-2-de-mar.-de-2026-11_42_53-1-1024x683.png` | horizontal | 1024x683 | 138 | Anasol logo |
 | `ChatGPT-Image-27-de-mar.-de-2026-17_19_34.png` | horizontal | 1536x1024 | 139 | Hidrabene logo |
 | `Cissa-Muller.png.webp` | quadrada | 820x820 | 29 | Cissa Muller.png |
@@ -342,6 +336,7 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `fueleyewear-streetflow-campanha-oculos.webp` | horizontal | 1920x1080 | 111 | Peça de campanha Street Flow da Fuel Eyewear, modelo usando óculos escuros com f |
 | `Gabriela.png.webp` | quadrada | 1080x1080 | 27 | Gabriela.png |
 | `Gemini_Generated_Image_bhmfi1bhmfi1bhmf-scaled.png` | vertical | 1621x2048 | 3750 | Gemini Generated Image bhmfi1bhmfi1bhmf scaled |
+| `Gemini_Generated_Image_usmkn5usmkn5usmk.jpg` | horizontal | 2744x1568 | 2962 | Carrinho abandonado |
 | `gif-capa-skala.gif` | vertical | 320x568 | 4119 | Skala GIF |
 | `gifao.gif` | vertical | 240x472 | 1532 | Adcos GIF |
 | `globo-webapp-ar-scan-poster-conteudo.webp` | vertical | 166x360 | 479 | App de realidade aumentada da Globo sendo usado para escanear pôster e desbloque |
@@ -382,6 +377,8 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `image-9.png` | horizontal | 1857x863 | 178 | image 9 |
 | `image.gif` | vertical | 300x534 | 12042 | image |
 | `image.png` | horizontal | 1597x605 | 131 | image |
+| `img artigo-1.png` | horizontal | 1536x1024 | 1958 | aumento de ticket médio |
+| `img artigo.png` | horizontal | 1536x1024 | 1958 | aumento de ticket médio |
 | `IMG_5383.jpg` | vertical | 1170x2532 | 329 | Mascavo galeria |
 | `IMG_5384.jpeg` | vertical | 1170x1687 | 330 | Mascavo galeria |
 | `IMG_5385.jpeg` | quadrada | 1131x1279 | 246 | Mascavo galeria |
@@ -400,6 +397,7 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `KAREN-BACHINI-1-1024x1024.png` | quadrada | 1024x1024 | 2 | Karen Bachini logo |
 | `Lari.jpg` | horizontal | 1578x1342 | 585 | Lari |
 | `Leonardo.jpg.webp` | quadrada | 500x500 | 5 | Leonardo.jpg |
+| `live commerce.png` | horizontal | 1672x941 | 1961 | live commerce |
 | `logo-adcos.webp` | quadrada | 1024x1024 | 4 | Logo da marca Adcos |
 | `logo-anasol-2.webp` | horizontal | 1024x683 | 49 | Logo da marca Anasol: sol estilizado sobre ondas |
 | `logo-anasol.webp` | horizontal | 1536x1024 | 118 | Logo da marca Anasol: sol estilizado sobre ondas |
@@ -479,29 +477,66 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `menor.gif` | vertical | 240x518 | 1027 | Karen Bachini GIF |
 | `mercado-pago.png` | vertical | 415x744 | 109 | Mercado Pago logo |
 | `mercadopago-gif.gif` | vertical | 240x426 | 3912 | Mercado Pago GIF |
+| `metakosmos-agente-ia-robo-humanoide-mulher-laptop.webp` | horizontal | 1672x941 | 105 | Robô humanoide sentado ao lado de mulher que trabalha no laptop, metáfora de age |
 | `metakosmos-agente-ia-whatsapp-vendas-rcmotors.webp` | horizontal | 1345x744 | 7 | Mockup institucional da mK: conversa no WhatsApp com Laura, agente de IA de vend |
+| `metakosmos-agentes-ia-executivo-icones-laptop.webp` | horizontal | 1672x941 | 65 | Executivo tocando o ícone de AI Agents sobre o laptop, cercado de ícones de dado |
 | `metakosmos-agentes-ia-hero-mockup-flexform.webp` | vertical | 602x766 | 30 | Mockup institucional 'mK Agentes IA' mostrando página de produto Flexform em des |
+| `metakosmos-agentes-ia-trafego-fluxo-decisao-320-porcento.webp` | horizontal | 1672x941 | 123 | Celular com recomendação de notebooks por IA e fluxo de decisão do agente, com a |
+| `metakosmos-agentic-commerce-busca-carros-assistente-ia.webp` | horizontal | 1672x941 | 119 | Busca de carros usados feita por assistente de IA com resultados de marketplace  |
+| `metakosmos-agentic-commerce-chat-ia-etapas-compra-celular.webp` | horizontal | 1536x1024 | 54 | Celular com chat de IA sugerindo produtos e checklist das etapas da compra concl |
+| `metakosmos-agentic-commerce-picape-rede-dados-celular.webp` | horizontal | 1672x941 | 153 | Picape sobre malha de dados em neon azul com celular exibindo configurador, conc |
+| `metakosmos-agentic-commerce-recompra-vs-descoberta-40-ticket.webp` | horizontal | 1672x941 | 126 | Comparativo de agentic commerce: recompra assistida por IA com +40% de valor do  |
+| `metakosmos-app-microdramas-quatro-telas-verticais.webp` | horizontal | 1672x941 | 156 | Quatro telas verticais de app de microdramas com catálogo, feed e reprodução em  |
+| `metakosmos-assistente-voz-compras-mulher-sofa-celular.webp` | horizontal | 1536x1024 | 75 | Mulher no sofá conversando por voz com o assistente de compras no celular, que s |
+| `metakosmos-assistentes-ia-tres-celulares-voz-inbox.webp` | horizontal | 1672x941 | 113 | Três celulares lado a lado com assistente de IA, comandos de voz e caixa de entr |
+| `metakosmos-auditoria-conteudo-dashboard-performance-artigos.webp` | horizontal | 1536x1024 | 64 | Analista diante de dois monitores com dashboard de performance de artigos e plan |
 | `metakosmos-bastidores-producao-fooh-storyboard.webp` | horizontal | 1536x1024 | 92 | Bastidores da produção de FOOH da mK: storyboards e renderização final de lata g |
+| `metakosmos-busca-visual-moda-celular-shop-by-style.webp` | horizontal | 1672x941 | 63 | Celular sobre bancada exibindo busca de moda com filtros de estilo e vitrine sho |
+| `metakosmos-buscador-ia-apps-conectados-carrinho.webp` | horizontal | 1672x941 | 37 | Celular com modo de IA em buscador conectando apps de música, design e compras p |
+| `metakosmos-capa-artigo-ticket-medio-sem-desconto.webp` | horizontal | 1672x941 | 129 | Capa de artigo sobre ticket médio no e-commerce com carrinho de produtos e gráfi |
 | `metakosmos-capa-post-generica.webp` | horizontal | 1920x1080 | 16 | Capa de post institucional da mK |
 | `metakosmos-capa-state-immersive-commerce-2026.webp` | horizontal | 1275x717 | 50 | Capa do estudo 'The State of Immersive Commerce 2026', produzido pela mK, com il |
+| `metakosmos-carrinho-abandonado-celular-botao-comprar.webp` | horizontal | 1536x1024 | 29 | Celular com carrinho de compras e botão comprar, dedo prestes a tocar a tela |
 | `metakosmos-cases-reais-colagem-clientes.webp` | horizontal | 1920x1080 | 56 | Colagem institucional da mK 'Cases Reais' com cadeira Flexform, configurador 3D  |
+| `metakosmos-chatgpt-anuncio-patrocinado-interface-conceito.webp` | horizontal | 1672x941 | 46 | Conceito de anúncio patrocinado dentro da interface de chat de IA, com pergunta  |
+| `metakosmos-cliente-certeza-compra-celular-sofa.webp` | horizontal | 1672x941 | 39 | Homem sorrindo satisfeito ao olhar o celular no sofá, representando a certeza na |
+| `metakosmos-cliente-duvida-compra-celular-sofa.webp` | horizontal | 1536x1024 | 45 | Homem com a mão no queixo em dúvida diante do celular no sofá, representando hes |
 | `metakosmos-clientes-logos-phygitech-brasil.webp` | horizontal | 1046x625 | 33 | Grade institucional da mK com logos de marcas clientes: L'Oréal, Globo, UFC, Che |
+| `metakosmos-comparativo-pdp-tradicional-vs-ar-poltrona.webp` | horizontal | 1536x1024 | 47 | Dois monitores comparando PDP tradicional de poltrona e PDP com visualização em  |
+| `metakosmos-compra-online-cartao-credito-laptop-promocao.webp` | horizontal | 1672x941 | 48 | Mão segurando cartão de crédito diante de laptop com loja online em promoção |
 | `metakosmos-conceito-immersive-commerce-loja-digital.webp` | horizontal | 1536x1024 | 173 | Conceito institucional de Immersive Commerce da mK: loja física transformando-se |
 | `metakosmos-dashboard-analytics-grafico-abstrato.webp` | vertical | 1086x1448 | 15 | Ilustração abstrata institucional de dashboard com gráficos de linha, barras e d |
+| `metakosmos-dashboard-analytics-ia-telas-flutuantes-mouse.webp` | horizontal | 1672x941 | 80 | Mãos no mouse e no laptop com painéis de analytics flutuantes e dashboard analis |
 | `metakosmos-dashboard-analytics-monitor-escritorio.webp` | vertical | 1122x1402 | 23 | Foto stock de monitor exibindo dashboard de analytics com gráficos, em ambiente  |
+| `metakosmos-dashboard-ecommerce-zoom-conversao-receita.webp` | horizontal | 1536x1024 | 64 | Laptop com dashboard de e-commerce em destaque: sessões, pedidos, receita e taxa |
 | `metakosmos-dashboard-producao-tradicional-vs-ia.webp` | horizontal | 1083x607 | 67 | Dashboard institucional da mK comparando produção tradicional manual vs. produçã |
+| `metakosmos-devolucao-ecommerce-caixa-etiqueta-moletom.webp` | horizontal | 1536x1024 | 166 | Mãos colocando um moletom em caixa de papelão ao lado da etiqueta de devolução |
 | `metakosmos-equipe-retrato-borba.webp` | quadrada | 1265x1253 | 37 | Retrato em preto e branco de integrante da equipe mK, Borba |
 | `metakosmos-equipe-retrato-ian.webp` | quadrada | 710x710 | 16 | Retrato institucional de integrante da equipe mK, Ian, falando em evento |
 | `metakosmos-equipe-retrato-lari.webp` | horizontal | 1578x1342 | 47 | Retrato em preto e branco de integrante da equipe mK, Lari |
 | `metakosmos-equipe-retrato-patrick.webp` | quadrada | 710x710 | 15 | Retrato institucional de integrante da equipe mK, Patrick |
+| `metakosmos-executivo-alivio-resultado-grafico-crescimento.webp` | horizontal | 1536x1024 | 35 | Executivo aliviado diante do laptop à noite, com relatório impresso mostrando gr |
+| `metakosmos-executivo-frustracao-grafico-queda-laptop.webp` | horizontal | 1536x1024 | 31 | Executivo frustrado com a mão na testa diante do laptop, com relatório mostrando |
+| `metakosmos-fundo-dados-graficos-neon-escuro-vertical.webp` | vertical | 1086x1448 | 15 | Fundo escuro vertical com gráficos de linha, rosca e barras em neon, com espaço  |
+| `metakosmos-fundo-neutro-gradiente-roxo-azul-moldura-neon.webp` | horizontal | 1536x1024 | 14 | Fundo neutro em gradiente roxo e azul com moldura em neon, para uso como base de |
+| `metakosmos-hero-immersive-commerce-holograma-tenis-celular.webp` | horizontal | 2000x1333 | 66 | Imagem hero de immersive commerce: mulher segura o celular do qual sai o hologra |
+| `metakosmos-hesitacao-compra-online-homem-cartao-carteira.webp` | horizontal | 2000x1116 | 169 | Homem em dúvida tirando o cartão da carteira diante de tablet com página de prod |
 | `metakosmos-homepage-lider-immersive-commerce.webp` | horizontal | 1319x604 | 41 | Screenshot da homepage institucional da mK: 'Líder no Brasil em Immersive Commer |
 | `metakosmos-infografico-87-marcas-revolucao-3d.webp` | horizontal | 1045x581 | 38 | Infográfico institucional da mK: 87% das marcas ainda estão dormindo para a (r)e |
 | `metakosmos-infografico-interacoes-virtuais-3d.webp` | horizontal | 1043x585 | 39 | Infográfico institucional da mK sobre interações virtuais se tornando cada vez m |
+| `metakosmos-live-commerce-reels-celular-vitrine-produtos-2.webp` | horizontal | 1672x941 | 85 | Celular na mão com vídeo de live commerce e vitrine de produtos de beleza integr |
+| `metakosmos-live-commerce-reels-celular-vitrine-produtos.webp` | horizontal | 1536x1024 | 70 | Celular exibindo vídeo de live commerce em reels com vitrine de três produtos de |
+| `metakosmos-loja-conceito-totens-digitais-provador-retire.webp` | horizontal | 1536x1024 | 84 | Loja conceito minimalista com totens digitais de provador, retirada e escaneamen |
 | `metakosmos-metricas-resultados-conversao-devolucao.webp` | horizontal | 1080x231 | 18 | Cards institucionais da mK com métricas de resultado: +94% de aumento nas conver |
 | `metakosmos-mk3dads-exemplo-dailymotion-gucci.webp` | horizontal | 518x410 | 15 | Exemplo institucional 'mK 3D Ads' da mK: anúncio em vídeo da Gucci no player Dai |
 | `metakosmos-mk3dads-exemplo-dailymotion-mockups.webp` | horizontal | 518x410 | 13 | Exemplo institucional 'mK 3D Ads' da mK: mockups de anúncios em vídeo em diferen |
 | `metakosmos-mk3dshop-colagem-vr-ar-qrcode-flexform.webp` | horizontal | 1920x1080 | 23 | mK 3D Shop: colagem institucional mostrando óculos VR, controles, QR code e app  |
+| `metakosmos-palco-forum-ecommerce-brasil-pdp-que-converte.webp` | horizontal | 1672x941 | 127 | Palestra em palco do Fórum E-commerce Brasil com telão comparando PDP limitada e |
 | `metakosmos-parceria-nexxas-diagrama.webp` | quadrada | 1024x1024 | 20 | Diagrama institucional da parceria entre mK e Nexxas, mostrando módulo de Immers |
+| `metakosmos-parede-quadros-galeria-contraste-bege-azul.webp` | horizontal | 1672x941 | 166 | Parede de galeria com quadros de fotos em ambiente bege e quadros de arte em amb |
+| `metakosmos-phygital-espelho-inteligente-loja-vendedora-cliente.webp` | horizontal | 1672x941 | 59 | Espelho inteligente em loja de moda mostrando a ficha do produto enquanto a vend |
+| `metakosmos-phygital-gravacao-conteudo-loja-moda-camera.webp` | horizontal | 1672x941 | 119 | Duas criadoras gravando conteúdo de moda dentro da loja com câmera em tripé, con |
+| `metakosmos-phygital-loja-cards-produtos-ar-precos.webp` | horizontal | 1536x1024 | 90 | Loja escura com cards de produtos e preços flutuando em realidade aumentada, ind |
 | `metakosmos-post-conceito-fooh-estatuas-paulista.webp` | vertical | 1583x2000 | 179 | Post institucional da mK explicando o conceito de FOOH (Fake Out Of Home), com e |
 | `metakosmos-post-custo-poc-visualizador3d-balanca.webp` | horizontal | 1920x1080 | 74 | Capa institucional da mK sobre o custo de implementar um POC de Visualizador 3D, |
 | `metakosmos-post-especificacoes-notebook-tecnico.webp` | horizontal | 1856x853 | 56 | Página de especificações técnicas de notebook (sistema operacional, processador, |
@@ -512,10 +547,13 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `metakosmos-post-poc-scanner-perfume-analise.webp` | horizontal | 1920x1080 | 78 | Capa institucional da mK sobre por que toda implementação começa com um POC, ilu |
 | `metakosmos-post-roi-dial-medidor-3d.webp` | horizontal | 1920x1080 | 70 | Ilustração 3D institucional da mK de um medidor giratório com a palavra ROI, ind |
 | `metakosmos-post-roi-esperado-grafico-crescimento.webp` | horizontal | 1920x1080 | 37 | Capa institucional da mK sobre ROI esperado de projetos bem implementados, gráfi |
+| `metakosmos-producao-video-claquete-monitor-edicao.webp` | horizontal | 1672x941 | 47 | Claquete de cinema em primeiro plano diante de monitor com timeline de edição de |
+| `metakosmos-producao-video-ia-estudio-cinema-dados.webp` | horizontal | 1672x941 | 191 | Estúdio de cinema com câmera, claquete e núcleo de dados em vermelho, conceito d |
 | `metakosmos-reel-from-good-to-woow-colagem.webp` | horizontal | 1920x1080 | 73 | Miniatura institucional 'From good to WooW!' da mK, colagem com vários cases de  |
 | `metakosmos-render-3d-dinossauro-modelagem.webp` | horizontal | 2000x926 | 44 | Renderização 3D institucional da mK de um dinossauro (velociraptor), demonstrand |
 | `metakosmos-render-3d-flexform-behindscenes-2.webp` | horizontal | 1024x572 | 51 | Bastidores da produção 3D da mK: renderização da cadeira Flexform no software Pr |
 | `metakosmos-render-3d-flexform-behindscenes.webp` | horizontal | 1920x1080 | 87 | Bastidores da produção 3D da mK: renderização da cadeira Flexform no software Pr |
+| `metakosmos-reuniao-executiva-dashboard-tablet-apresentacao.webp` | horizontal | 1536x1024 | 56 | Reunião executiva com apresentação de dashboard de resultados em tablet |
 | `metakosmos-selo-woow-place-to-work.webp` | quadrada | 1024x1024 | 20 | Selo institucional da mK 'WOOW! Place To Work Certified' (paródia do selo Great  |
 | `metakosmos-servico-exemplos-video-ia-personagens.webp` | horizontal | 1082x605 | 84 | Miniatura institucional da mK com exemplos de vídeos gerados por IA: mascote ani |
 | `metakosmos-servico-filtros-ar-press-kits-pdv.webp` | quadrada | 189x189 | 528 | Miniatura institucional da mK para o serviço de Filtros AR para Press Kits e PDV |
@@ -524,9 +562,14 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `metakosmos-slide-scott-galloway-atencao-petroleo.webp` | horizontal | 1049x583 | 33 | Slide institucional da mK com citação de Scott Galloway: 'Atenção é o novo petró |
 | `metakosmos-storyboard-producao-video-viral-dinossauro.webp` | horizontal | 1084x607 | 126 | Bastidores da mK: storyboard e renderização final de vídeo viral/CGI mostrando d |
 | `metakosmos-tarja-cores-marca-heineken-case.webp` | horizontal | 1024x576 | 2 | Tarja com as cores da identidade visual da mK, usada como divisor no case Heinek |
+| `metakosmos-template-numero-destaque-celular-dashboard-roxo.webp` | horizontal | 1536x1024 | 24 | Celular na horizontal com moldura de dashboard vazia em roxo, com espaço livre p |
+| `metakosmos-tendencia-futuro-skyline-noturno-wireframe.webp` | horizontal | 1536x1024 | 119 | Homem de costas observando skyline noturno com prédios projetados em wireframe d |
 | `metakosmos-thumb-exemplos-video-ia-adioqueda-stanley.webp` | horizontal | 1920x1080 | 101 | Miniatura institucional da mK reunindo exemplos de vídeos IA: comparação Adiós Q |
 | `metakosmos-thumb-scanner-3d-retro-humor.webp` | horizontal | 1920x1080 | 145 | Thumbnail institucional da mK com software de scanner 3D estilo retrô/Windows an |
 | `metakosmos-thumb-videos-com-ia-exemplos.webp` | horizontal | 1920x1080 | 72 | Miniatura institucional 'Vídeos com IA' da mK reunindo exemplos: retrato feminin |
+| `metakosmos-ticket-medio-carrinho-complete-o-look-celular.webp` | horizontal | 1536x1024 | 47 | Celular com carrinho de compras e seção complete o look sugerindo relógio, tênis |
+| `metakosmos-ticket-medio-carrinho-produtos-laptop-grafico.webp` | horizontal | 1672x941 | 121 | Carrinho de compras com produtos ao lado de laptop com catálogo e gráfico de cre |
+| `metakosmos-vitrine-holograma-bolsa-rua-noite.webp` | horizontal | 1536x1024 | 62 | Vitrine de rua à noite exibindo o holograma de uma bolsa em luz roxa enquanto um |
 | `metakosmos-woow-ingredients-metodologia.webp` | horizontal | 800x436 | 576 | Slide institucional da mK explicando os '5 WooW! Ingredients', metodologia criat |
 | `metricas.png` | horizontal | 1080x231 | 52 | metricas |
 | `mili-mulher-produtos-absorventes-still-museu.webp` | vertical | 720x1280 | 45 | Produtos de absorventes Mili Mulher empilhados sobre gramado, com o Museu Oscar  |
@@ -573,7 +616,6 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `mk3dshop-gm-configurador-3d-exterior-4.webp` | horizontal | 426x320 | 705 | mK 3D Shop (visualizador 3D): configurador 3D de veículo da General Motors, alte |
 | `mk3dshop-gm-configurador-3d-exterior-5.webp` | horizontal | 272x128 | 369 | mK 3D Shop (visualizador 3D): configurador 3D de veículo da General Motors, alte |
 | `mk3dshop-gm-configurador-3d-exterior.webp` | horizontal | 682x320 | 691 | mK 3D Shop (visualizador 3D): configurador 3D de veículo da General Motors, alte |
-| `mk3dshop-hero-tenis-holograma-celular-mulher.webp` | horizontal | 2000x1333 | 64 | mK 3D Shop (visualizador 3D): imagem hero com tênis preto em holograma flutuando |
 | `mk3dshop-mitsubishi-eclipse-cross-cores-3d.webp` | horizontal | 920x500 | 1217 | mK 3D Shop (visualizador 3D): configurador do Mitsubishi Eclipse Cross com seleç |
 | `mk3dshop-mitsubishi-eclipse-cross-interior-3d-ar.webp` | horizontal | 986x536 | 1140 | mK 3D Shop (visualizador 3D): configurador do Mitsubishi Eclipse Cross mostrando |
 | `mk3dshop-mitsubishi-eclipse-cross-portas-3d-2.webp` | horizontal | 1206x656 | 924 | mK 3D Shop (visualizador 3D): configurador do Mitsubishi Eclipse Cross vermelho, |
@@ -586,6 +628,8 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `mk3dshop-osklen-tenis-trail-realidade-aumentada.webp` | horizontal | 1915x907 | 30 | mK 3D Shop (visualizador 3D): tênis Trail Trkk da Osklen com selo de Realidade A |
 | `mk3dshop-perfume-ar-celular-cozinha.webp` | horizontal | 1536x1024 | 46 | mK 3D Shop (visualizador 3D): frasco de perfume dourado exibido via realidade au |
 | `mk3dshop-positivo-notebook-3d-ver-ambiente.webp` | horizontal | 1858x817 | 23 | mK 3D Shop (visualizador 3D): notebook Positivo em visualização 3D interativa co |
+| `mk3dshop-qrcode-vitrine-colecao-ar-rua-celular.webp` | horizontal | 1672x941 | 154 | Vitrine de rua com QR code para ver a coleção em realidade aumentada e pedestre  |
+| `mk3dshop-qrcode-vitrine-flores-ar-celular-rua.webp` | horizontal | 1672x941 | 131 | Realidade aumentada em vitrine: pedestre aponta o celular para o QR code e vê fl |
 | `mk3dshop-relogio-configurador-cor-pulseira.webp` | horizontal | 1536x1024 | 84 | mK 3D Shop (visualizador 3D): configurador de smartwatch comparando cor e pulsei |
 | `mk3dshop-relogio-holograma-ar-rua-noite.webp` | horizontal | 1536x1024 | 77 | mK 3D Shop (visualizador 3D): mulher tocando holograma de relógio flutuante numa |
 | `mk3dshop-sofa-hologram-ar-sala-estar.webp` | horizontal | 1536x1024 | 145 | mK 3D Shop (visualizador 3D): sofá com efeito de holograma/wireframe sendo posic |
@@ -642,12 +686,16 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `mkbeauty-espelho-magico-pdv-maquiagem.webp` | quadrada | 198x198 | 373 | mK Beauty (provador virtual de beleza): Espelho Mágico para PDV, celular exibind |
 | `mkbeauty-filtro-ar-jogo-barreira-cutanea.webp` | vertical | 454x808 | 33 | mK Beauty (provador virtual de beleza): filtro de realidade aumentada gamificado |
 | `mkbeauty-francis-filtro-flores-ar.webp` | vertical | 320x568 | 789 | mK Beauty (provador virtual de beleza): filtro de realidade aumentada com moldur |
+| `mkbeauty-holograma-analise-facial-dashboards-loja.webp` | horizontal | 1672x941 | 161 | Holograma de rosto com dashboards de análise de pele em loja de beleza, equipe a |
 | `mkbeauty-infografico-case-boca-rosa-tint-resultados.webp` | vertical | 1125x2000 | 162 | mK Beauty (provador virtual de beleza): infográfico do case Boca Rosa com o prov |
 | `mkbeauty-karenbachini-base-facial-cosmos-provador-2.webp` | vertical | 240x518 | 388 | mK Beauty (provador virtual de beleza): página de produto Base Facial Cosmos da  |
 | `mkbeauty-karenbachini-base-facial-cosmos-provador-3.webp` | vertical | 240x518 | 388 | mK Beauty (provador virtual de beleza): página de produto Base Facial Cosmos da  |
 | `mkbeauty-karenbachini-base-facial-cosmos-provador.webp` | vertical | 240x518 | 625 | mK Beauty (provador virtual de beleza): página de produto Base Facial Cosmos da  |
+| `mkbeauty-loja-luxo-espelhos-inteligentes-analise-facial.webp` | horizontal | 1672x941 | 159 | Loja de beleza de luxo com espelhos inteligentes e telão de análise facial por I |
+| `mkbeauty-loja-luxo-scanner-facial-consultoria-balcao.webp` | horizontal | 1456x819 | 118 | Loja de beleza de luxo com scanner facial no balcão e consultoras atendendo clie |
 | `mkbeauty-loreal-ar-antes-depois-cabelo-absolut-repair.webp` | vertical | 480x853 | 1731 | mK Beauty (provador virtual de beleza): filtro de realidade aumentada da L'Oréal |
 | `mkbeauty-loreal-inoa-diacolor-filtro-interativo.webp` | vertical | 240x410 | 508 | mK Beauty (provador virtual de beleza): filtro interativo da L'Oréal Professionn |
+| `mkbeauty-loreal-openai-provador-maquiagem-laptop.webp` | horizontal | 1672x941 | 84 | Consumidora testando provador de maquiagem no laptop diante do telão da parceria |
 | `mkbeauty-mascavo-provador-virtual-comentarios-2.webp` | vertical | 1170x1687 | 132 | mK Beauty (provador virtual de beleza): comentários de clientes no Instagram da  |
 | `mkbeauty-mascavo-provador-virtual-comentarios-3.webp` | vertical | 924x2000 | 119 | mK Beauty (provador virtual de beleza): comentários de clientes no Instagram da  |
 | `mkbeauty-mascavo-provador-virtual-comentarios.webp` | quadrada | 1007x889 | 82 | mK Beauty (provador virtual de beleza): post do Instagram da Mascavo mostrando p |
@@ -659,11 +707,14 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `mkbeauty-provador-blush-selecao-tonalidade.webp` | horizontal | 1916x896 | 80 | mK Beauty (provador virtual de beleza): widget de provador virtual com blush em  |
 | `mkbeauty-selfie-antes-provador.webp` | quadrada | 1254x1254 | 88 | mK Beauty (provador virtual de beleza): selfie de mulher usada como referência p |
 | `mkbeauty-tablet-demo-boca-rosa-provador-ar.webp` | horizontal | 1920x1080 | 80 | mK Beauty (provador virtual de beleza): demonstração em tablet do provador virtu |
+| `MKPROOF_DASHBOARD_GERAL_1.png` | horizontal | 1536x1024 | 1685 | dashboard kpis |
+| `MKPROOF_REUNIAO_1.png` | horizontal | 1536x1024 | 1710 | dashboard |
 | `mktourvirtual-conviva-apartamento-3d-2.webp` | horizontal | 235x112 | 410 | mK Tour Virtual: tour 3D de apartamento da CONVIVA Imobiliária mostrando cozinha |
 | `mktourvirtual-conviva-apartamento-3d.webp` | horizontal | 672x320 | 1809 | mK Tour Virtual: tour 3D de apartamento da CONVIVA Imobiliária mostrando cozinha |
 | `mkvr-ambiente-metaverso-skyline-futurista.webp` | quadrada | 240x240 | 342 | mK VR (ativação em realidade virtual/metaverso): interface flutuante sobre skyli |
 | `mkvr-ativacao-vr-criancas-curitiba-mkase.webp` | horizontal | 1040x584 | 1677 | mK VR (ativação em realidade virtual/metaverso): crianças usando óculos de reali |
 | `mkvr-ativacao-vr-re-energiza-evento.webp` | vertical | 462x822 | 1045 | mK VR (ativação em realidade virtual/metaverso): participante usando óculos de r |
+| `mkvr-compra-imersiva-colete-headset-sala-estar.webp` | horizontal | 1672x941 | 155 | Mulher com headset de realidade virtual escolhendo um colete em vitrine imersiva |
 | `mkvr-fertgroup-ambiente-virtual-laboratorio.webp` | quadrada | 240x240 | 798 | mK VR (ativação em realidade virtual/metaverso): ambiente virtual em laboratório |
 | `Modelo-SaaS_-investimento-que-cresce-com-o-resultado.jpg` | horizontal | 1920x1080 | 712 | Modelo SaaS  investimento que cresce com o resultado |
 | `Monica-Marien-Grupo-S2.png` | quadrada | 342x342 | 38 | Monica Marien Grupo S2 |
@@ -703,13 +754,24 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `post-mk1.gif` | horizontal | 426x320 | 1903 | post mk1 |
 | `post-mk2.gif` | horizontal | 426x320 | 216 | post mk2 |
 | `provador-selfie.png` | quadrada | 1254x1254 | 742 | provador selfie |
+| `provadorvirtual-antes-depois-moletom-terracota-still-modelo.webp` | horizontal | 1536x1024 | 57 | Antes e depois: moletom terracota em foto still de catálogo e o mesmo moletom ve |
+| `provadorvirtual-conceito-3d-manequins-cards-roupas-celular.webp` | horizontal | 1672x941 | 74 | Ilustração 3D em neon com manequins e cards de roupas ao redor de um celular, co |
+| `provadorvirtual-eora-oculos-luar-close-modelo-praia.webp` | vertical | 1080x1350 | 51 | Close da modelo usando o óculos Luar da EORA na praia, resultado do provador vir |
+| `provadorvirtual-eora-oculos-luar-modelo-praia-quiosque.webp` | vertical | 1080x1350 | 75 | Provador virtual de óculos: modelo usando o óculos Luar da EORA em quiosque de p |
+| `provadorvirtual-eora-oculos-luar-pdp-produto-modelo.webp` | vertical | 1080x1350 | 38 | PDP de óculos da EORA com a foto do produto acima e o resultado do provador virt |
+| `provadorvirtual-eora-oculos-luar-tryon-modelo-praia.webp` | vertical | 1080x1350 | 54 | Provador virtual de óculos: site da EORA com o modelo Luar aplicado por try-on e |
 | `provadorvirtual-fueleyewear-prove-em-voce-powered-mk.webp` | horizontal | 1896x864 | 25 | Provador virtual (mK Fashion/AI Shooting): pop-up de produto da Fuel Eyewear com |
 | `provadorvirtual-fueleyewear-prove-em-voce.webp` | horizontal | 1920x1080 | 21 | Provador virtual (mK Fashion/AI Shooting): óculos de sol Fuel Eyewear com botão  |
 | `provadorvirtual-gregory-moda-produto.webp` | vertical | 240x518 | 290 | Provador virtual (mK Fashion): página de produto da Gregory com selo 'Provador v |
+| `provadorvirtual-live-tryon-camisa-masculina-pdp.webp` | horizontal | 2000x1500 | 174 | Live try-on sobre PDP de camisa masculina, com modelo experimentando a peça em v |
+| `provadorvirtual-live-tryon-monitor-vestido-verde-sala-2.webp` | horizontal | 1024x572 | 37 | Live try-on em monitor de sala: cliente vê a si mesma com um vestido verde e opç |
+| `provadorvirtual-live-tryon-monitor-vestido-verde-sala.webp` | horizontal | 1672x941 | 84 | Live try-on em monitor: cliente na sala vê a si mesma vestindo um vestido verde  |
 | `provadorvirtual-mkf-analisando-foto-celular-espelho.webp` | vertical | 1080x1350 | 43 | Provador virtual (mK Fashion): celular exibindo tela 'Analisando sua foto...' do |
 | `provadorvirtual-mkf-antes-depois-look-mulher.webp` | vertical | 1080x1350 | 55 | Provador virtual (mK Fashion): comparação antes e depois do look de uma mulher,  |
 | `provadorvirtual-mkf-arara-mao-escolhendo-roupa.webp` | vertical | 1080x1350 | 83 | Provador virtual (mK Fashion): mão escolhendo peça de roupa em arara de loja |
 | `provadorvirtual-mkf-catalogo-blusa-bege.webp` | vertical | 1080x1350 | 15 | Provador virtual (mK Fashion): still de catálogo de moda, blusa bege em still de |
+| `provadorvirtual-mkf-celular-mao-selfie-espelho-polo-verde-2.webp` | vertical | 1080x1350 | 63 | Provador virtual (mK Fashion): celular na mão com o resultado do provador em sel |
+| `provadorvirtual-mkf-celular-mao-selfie-espelho-polo-verde.webp` | vertical | 1080x1350 | 63 | Provador virtual (mK Fashion): celular na mão exibindo look de polo verde gerado |
 | `provadorvirtual-mkf-celular-reflexo-outfit-diferente.webp` | vertical | 1080x1350 | 52 | Provador virtual (mK Fashion): mulher olhando celular que mostra seu reflexo ves |
 | `provadorvirtual-mkf-certeza-cliente-sorrindo-loja.webp` | vertical | 1080x1350 | 60 | Provador virtual (mK Fashion): cliente sorrindo e escolhendo roupa em araras de  |
 | `provadorvirtual-mkf-corpos-diversos-grupo-modelos.webp` | vertical | 1122x1402 | 53 | Provador virtual (mK Fashion): grupo de modelos com corpos e etnias diversas ves |
@@ -718,6 +780,9 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `provadorvirtual-mkf-espelho-selfie-conjunto-branco.webp` | vertical | 1080x1350 | 35 | Provador virtual (mK Fashion): mulher se fotografando no espelho vestindo conjun |
 | `provadorvirtual-mkf-futuro-loja-conceito-luxo.webp` | vertical | 1080x1350 | 81 | Provador virtual (mK Fashion): interior conceitual de loja de luxo futurista com |
 | `provadorvirtual-mkf-gemeo-digital-espelho-vestido.webp` | vertical | 1080x1350 | 73 | Provador virtual (mK Fashion): mulher em frente a espelho com reflexo mostrando  |
+| `provadorvirtual-mkf-gregory-pdp-botao-provador-virtual.webp` | vertical | 1080x1350 | 45 | Provador virtual (mK Fashion): PDP da Gregory com modelo de blazer preto e botão |
+| `provadorvirtual-mkf-gregory-tryon-terno-risca-giz-marinho-2.webp` | vertical | 1080x1350 | 35 | Provador virtual (mK Fashion): tela da Gregory com look de terno risca de giz ma |
+| `provadorvirtual-mkf-gregory-tryon-terno-risca-giz-marinho.webp` | vertical | 1080x1350 | 33 | Provador virtual (mK Fashion): PDP da Gregory com modelo em terno risca de giz m |
 | `provadorvirtual-mkf-hero-homem-terno-celular.webp` | vertical | 1080x1350 | 20 | Provador virtual (mK Fashion): imagem hero com homem de terno azul-marinho segur |
 | `provadorvirtual-mkf-hesitacao-carrinho-finalizar-compra.webp` | vertical | 1080x1350 | 68 | Provador virtual (mK Fashion): celular exibindo carrinho de compras com bolsa, d |
 | `provadorvirtual-mkf-loja-interior-boutique.webp` | vertical | 1122x1402 | 104 | Provador virtual (mK Fashion): interior de loja/boutique de roupas com araras, p |
@@ -729,6 +794,7 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `provadorvirtual-mkf-powered-by-mk-selfie-comprar.webp` | vertical | 1080x1350 | 37 | Provador virtual (mK Fashion): celular com app 'Powered by mK' mostrando selfie  |
 | `provadorvirtual-mkf-seguranca-selfie-verificacao-celular.webp` | vertical | 1080x1350 | 54 | Provador virtual (mK Fashion): celular exibindo selfie com efeito de verificação |
 | `provadorvirtual-mkf-sustentavel-roupa-linho-verde.webp` | vertical | 1080x1350 | 76 | Provador virtual (mK Fashion): robe de linho verde pendurado ao lado de planta,  |
+| `provadorvirtual-mkf-tela-selfie-foto-enviada-gerada-ia.webp` | vertical | 1080x1350 | 42 | Provador virtual (mK Fashion): tela do provador comparando a foto enviada pela c |
 | `provadorvirtual-mkf-vendedora-loja-celular.webp` | vertical | 1122x1402 | 60 | Provador virtual (mK Fashion): vendedora conferindo celular dentro de loja de ro |
 | `provadorvirtual-mkpv-conjunto-fitness-configurador.webp` | horizontal | 1536x1024 | 25 | Provador virtual (mK Fashion): mulher com conjunto fitness preto e painel hologr |
 | `provadorvirtual-mkpv-homem-camisa-configurador-cor.webp` | horizontal | 1536x1024 | 39 | Provador virtual (mK Fashion): homem de camisa azul com painel de configuração d |
@@ -752,6 +818,7 @@ marca cliente, use a imagem do case dela (produto, tela da solução, resultado)
 | `render-1024x576.jpg` | horizontal | 1920x1080 | 811 | render 1024x576 |
 | `render-cadeira.jpg` | horizontal | 1024x572 | 101 | render cadeira |
 | `ROI-esperado_-o-que-projetos-bem-implementados-entregam.jpg` | horizontal | 1920x1080 | 609 | ROI esperado  o que projetos bem implementados entregam |
+| `sapato3d.png` | horizontal | 984x646 | 390 | sapato visualizador 3d |
 | `Screenshot-2026-01-26-160429.png` | horizontal | 1915x907 | 396 | Screenshot 2026 01 26 160429 |
 | `Screenshot-2026-01-26-160455.png` | horizontal | 1896x864 | 166 | Screenshot 2026 01 26 160455 |
 | `Screenshot-2026-01-26-160529.png` | horizontal | 1819x789 | 398 | Screenshot 2026 01 26 160529 |
