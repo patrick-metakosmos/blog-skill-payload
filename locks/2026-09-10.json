@@ -1,8 +1,6 @@
 {
   "dia": "2026-09-10",
-  "status": "failed",
-  "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-09-10T11:00:06",
-  "fim": "2026-09-10T11:36:07",
-  "nota": "CLI morto por falta de stdin sob o Agendador (corrigido com < NUL)"
+  "status": "running",
+  "maquina": "DESKTOP-58GE0DO (Adm)",
+  "inicio": "2026-09-10T14:00:13"
 }
