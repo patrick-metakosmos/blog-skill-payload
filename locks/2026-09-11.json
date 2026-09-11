@@ -1,6 +1,9 @@
 {
   "dia": "2026-09-11",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-09-11T11:00:11"
+  "inicio": "2026-09-11T11:00:11",
+  "fim": "2026-09-11T11:16:16",
+  "slug": "dados-ecommerce-brasil-2026",
+  "url": "https://metakosmos.com.br/blog/dados-ecommerce-brasil-2026"
 }
