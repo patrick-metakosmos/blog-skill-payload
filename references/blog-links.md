@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **60** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **62** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -18,6 +18,7 @@ Total: **60** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
 | `comprar-sapato-online-sem-errar-tamanho` | Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca p | /blog/comprar-sapato-online-sem-errar-tamanho |
 | `custo-de-aquisicao-cliente-online` | Custo de aquisição de cliente: como calcular e como derrubar | /blog/custo-de-aquisicao-cliente-online |
+| `dados-ecommerce-brasil-2026` | Dados e-commerce Brasil 2026: os dados que vão mudar sua estratégia | /blog/dados-ecommerce-brasil-2026 |
 | `dashboard-ecommerce` | Dashboard e-commerce: o que medir e como ler | /blog/dashboard-ecommerce |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
@@ -39,6 +40,7 @@ Total: **60** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House de projetos imersivos | /blog/mk-labs-creative-house-projetos-imersivos |
 | `mk-shop-the-look-ia-look-completo-ecommerce` | mK Shop the Look: IA que monta look completo no e-commerce | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
 | `mk-skin-ai-diagnostico-pele-ia-ecommerce` | mK Skin AI: diagnóstico de pele com IA por selfie | /blog/mk-skin-ai-diagnostico-pele-ia-ecommerce |
+| `objecoes-provador-virtual` | Provador virtual: a imagem vai ficar fiel à peça? Quanto custa ter um provador v | /blog/objecoes-provador-virtual |
 | `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
 | `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
 | `paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou` | Páginas de Produto Imersivas: O Futuro do E-commerce Já Começou | /blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou |
