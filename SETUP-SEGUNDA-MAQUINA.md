@@ -72,7 +72,18 @@ powershell -ExecutionPolicy Bypass -File scripts\registrar_tarefa_diaria.ps1 -Ho
 ```powershell
 python scripts\lock_diario.py --show        # mostra o lock de hoje
 Get-ScheduledTask -TaskName "Blog mK - artigo diario"
+scripts\artigo_diario.cmd teste             # teste de fumaça: NÃO publica
 ```
+
+O modo `teste` usa **a mesma chamada do CLI** da produção, só troca o prompt por
+um que prova as duas permissões que o artigo precisa. Não pega a trava, não
+publica, não posta. O resultado sai em `logs\teste-permissoes-<data>.log` e
+precisa mostrar `PERMISSAO-COMANDO: OK` e `PERMISSAO-ARQUIVO: OK`. Rode sempre
+que mexer no `.cmd`, no prompt ou no CLI: foi exatamente o teste que faltou
+antes das falhas de 10/09 e 11/09.
+
+O prompt da produção mora em `scripts\prompt_artigo_diario.md`. Para mudar o que
+o agente faz de manhã, edite esse arquivo, nunca a linha do CLI no `.cmd`.
 
 Para um teste de verdade (gera e publica um artigo ao vivo):
 

@@ -83,9 +83,17 @@ FAÇA NESTA ORDEM:
    local está desatualizado, o terceiro confirma zero violações das duas regras
    novas nos posts publicados.
 
+   Depois rode o teste de fumaça do trigger, que usa a MESMA chamada do CLI da
+   produção mas com um prompt que só prova as permissões (não pega a trava, não
+   publica, não posta):
+     scripts\artigo_diario.cmd teste
+   e me mostre o arquivo logs\teste-permissoes-<data-de-hoje>.log. Precisa ter
+   "PERMISSAO-COMANDO: OK" e "PERMISSAO-ARQUIVO: OK". Se vier FALHOU, a tarefa
+   diária desta máquina vai falhar também: pare e me avise.
+
    NÃO rode nenhum destes durante a instalação, porque publicam ao vivo e são
-   irreversíveis: Start-ScheduledTask, scripts\artigo_diario.cmd,
-   payload_publish.py sem --dry-run, linkedin_publish.py.
+   irreversíveis: Start-ScheduledTask, scripts\artigo_diario.cmd SEM o argumento
+   "teste", payload_publish.py sem --dry-run, linkedin_publish.py.
 
 9. Leia SETUP-SEGUNDA-MAQUINA.md e o SKILL.md do repositório e me faça um resumo
    curto do que muda na minha rotina, destacando:
