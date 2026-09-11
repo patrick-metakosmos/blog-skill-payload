@@ -138,5 +138,10 @@ com autostash), então ninguém precisa lembrar de dar `git pull` antes de traba
   falha e o log registra; o lock é marcado `failed` e a outra máquina assume no horário dela.
 - **A tarefa roda com o usuário logado.** PC desligado às 7h roda quando ligar
   (`StartWhenAvailable`), mas se ficar desligado o dia todo, a outra máquina cobre.
+- **Não abre janela nenhuma.** A tarefa usa `conhost --headless` (desde 11/09/2026).
+  Antes abria um cmd em branco na tela, e fechar essa janela matava o artigo no meio.
+  Para acompanhar, leia o log do dia em `logs`. Para interromper de propósito:
+  `Stop-ScheduledTask -TaskName "Blog mK - artigo diario"`. Tarefa registrada antes
+  dessa data ainda abre janela: rode o `registrar_tarefa_diaria.ps1` de novo.
 - **Publica ao vivo, sem revisão humana.** A auditoria bloqueadora do passo 8.5 é a única
   rede antes do público. Nenhum bloqueador pode ser relevado.
