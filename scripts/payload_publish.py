@@ -424,13 +424,18 @@ def parse_metadados(md_path):
                      for ln in m.group(1).splitlines() if ln.strip()]
             if items:
                 return items
-        # 2) linha de tabela: | **Tags sugeridas** | a, b, c | ... |
-        m = re.search(r"\|\s*\*\*Tags(?:\s+sugeridas)?\*\*\s*\|\s*(.+?)\s*\|", text, re.IGNORECASE)
+        # 2) mesma linha: **Tags:** a, b, c  (ou "Tags sugeridas:")
+        #    Vem ANTES da tabela: é o campo explícito. Com a ordem invertida, uma
+        #    linha de resumo tipo "| **Tags sugeridas** | 8 tags |" virava a tag
+        #    "8 tags" no post publicado (achado no artigo diário de 11/09/2026).
+        m = re.search(r"\*\*Tags(?:\s+sugeridas)?:\*\*[ \t]*(\S.*)", text, re.IGNORECASE)
         if m:
             return [t.strip().strip("`") for t in re.split(r"[,;]", m.group(1)) if t.strip()]
-        # 3) mesma linha: **Tags:** a, b, c  (ou "Tags sugeridas:")
-        m = re.search(r"\*\*Tags(?:\s+sugeridas)?:\*\*\s*(.+)", text, re.IGNORECASE)
-        if m:
+        # 3) linha de tabela: | **Tags sugeridas** | a, b, c | ... |
+        #    Só vale se for lista de tags de verdade, não contagem/resumo
+        #    ("8 tags", "8, listadas no campo do topo").
+        m = re.search(r"\|\s*\*\*Tags(?:\s+sugeridas)?\*\*\s*\|\s*(.+?)\s*\|", text, re.IGNORECASE)
+        if m and not re.match(r"^\s*\d+\b", m.group(1)):
             return [t.strip().strip("`") for t in re.split(r"[,;]", m.group(1)) if t.strip()]
         return []
 
