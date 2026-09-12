@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **62** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **63** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -53,6 +53,7 @@ Total: **62** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
 | `realidade-aumentada-no-e-commerce` | Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315% | /blog/realidade-aumentada-no-e-commerce |
 | `roi-provador-virtual` | ROI do Provador Virtual: dados reais de marcas brasileiras | /blog/roi-provador-virtual |
+| `tabela-de-medidas-roupas-online` | Tabela de medidas roupas online: por que ela falha e o que a substitui | /blog/tabela-de-medidas-roupas-online |
 | `taxa-de-conversao-ecommerce` | Taxa de conversão e-commerce: o guia completo para 2026 | /blog/taxa-de-conversao-ecommerce |
 | `tecnologia-para-ecommerce` | Tecnologia para e-commerce: o stack que sustenta conversão em 2026 | /blog/tecnologia-para-ecommerce |
 | `tendencias-immersive-commerce-2026-2027` | Tendências de Immersive Commerce 2026: o que vem aí | /blog/tendencias-immersive-commerce-2026-2027 |
