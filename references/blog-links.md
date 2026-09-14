@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **64** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **65** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -10,6 +10,7 @@ Total: **64** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `ar-moveis-eletrodomesticos-online` | Como usar AR para vender móveis e eletrodomésticos online: o guia para transform | /blog/ar-moveis-eletrodomesticos-online |
 | `ar-reduz-abandono-carrinho-ecommerce` | Como a Realidade Aumentada reduz o abandono de carrinho | /blog/ar-reduz-abandono-carrinho-ecommerce |
 | `aumentar-confianca-compra-online` | Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em c | /blog/aumentar-confianca-compra-online |
+| `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
 | `como-aumentar-taxa-conversao-ecommerce` | Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce  | /blog/como-aumentar-taxa-conversao-ecommerce |
 | `como-funciona-provador-virtual-ia` | Como funciona um provador virtual com IA: guia 2026 | /blog/como-funciona-provador-virtual-ia |
