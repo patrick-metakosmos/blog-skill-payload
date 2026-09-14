@@ -1,6 +1,9 @@
 {
   "dia": "2026-09-13",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-09-13T22:17:47"
+  "inicio": "2026-09-13T22:17:47",
+  "fim": "2026-09-13T22:31:49",
+  "slug": "escalar-ecommerce",
+  "url": "https://metakosmos.com.br/blog/escalar-ecommerce"
 }
