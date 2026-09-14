@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **63** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **64** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -20,6 +20,7 @@ Total: **63** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `custo-de-aquisicao-cliente-online` | Custo de aquisição de cliente: como calcular e como derrubar | /blog/custo-de-aquisicao-cliente-online |
 | `dados-ecommerce-brasil-2026` | Dados e-commerce Brasil 2026: os dados que vão mudar sua estratégia | /blog/dados-ecommerce-brasil-2026 |
 | `dashboard-ecommerce` | Dashboard e-commerce: o que medir e como ler | /blog/dashboard-ecommerce |
+| `escalar-ecommerce` | Escalar e-commerce: crescer sem escalar o custo na mesma proporção | /blog/escalar-ecommerce |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
 | `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |

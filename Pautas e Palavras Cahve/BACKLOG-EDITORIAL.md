@@ -73,7 +73,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 25 | qui 10/09/26 | P1 | KW | Jornada do consumidor digital: onde a dúvida entra e derruba a venda | **68** | `jornada do consumidor digital` | 4200 | Média | Topo | ✅ publicado | 2026-09-09 | jornada-consumidor-digital |
 | 26 | sex 11/09/26 | P1 | Pauta | Dados e-commerce Brasil 2026: os dados que vão mudar sua estratégia <br>_Pauta P1-4 pronta_ | **67** | `dados e-commerce Brasil 2026` | 1400 | Média | Meio | ✅ publicado | 2026-09-11 | dados-ecommerce-brasil-2026 |
 | 27 | sáb 12/09/26 | P2 | KW | Tabela de medidas roupas online: por que ela falha e o que a substitui | **70** | `tabela de medidas roupas online` | 4200 | Média | Topo | ✅ publicado | 2026-09-12 | tabela-de-medidas-roupas-online |
-| 28 | dom 13/09/26 | P5 | KW | Escalar e-commerce: crescer sem escalar o custo na mesma proporção | **66** | `escalar e-commerce` | 3200 | Média | Topo | ⬜ a fazer | — | — |
+| 28 | dom 13/09/26 | P5 | KW | Escalar e-commerce: crescer sem escalar o custo na mesma proporção | **66** | `escalar e-commerce` | 3200 | Média | Topo | ✅ publicado | 2026-09-14 | escalar-ecommerce |
 | 29 | seg 14/09/26 | P5 | KW | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar humano | **83** | `automação de marketing e-commerce` | 3800 | Média | Meio | ⬜ a fazer | — | — |
 | 30 | ter 15/09/26 | P4 | KW | Conteúdo que viraliza redes sociais: O que faz um conteúdo viralizar nas redes | **78** | `conteúdo que viraliza redes sociais` | 3600 | Média | Topo | ⬜ a fazer | — | — |
 | 31 | qua 16/09/26 | P4 | KW | Reels para marcas: estratégia de formato | 40 | `Reels para marcas estratégia` | 2600 | Baixa | Topo | ⬜ a fazer | — | — |
