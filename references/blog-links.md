@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **65** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **66** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -18,6 +18,7 @@ Total: **65** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
 | `comprar-sapato-online-sem-errar-tamanho` | Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca p | /blog/comprar-sapato-online-sem-errar-tamanho |
+| `conteudo-que-viraliza-redes-sociais` | Conteúdo que viraliza redes sociais: os gatilhos por trás de milhões de views or | /blog/conteudo-que-viraliza-redes-sociais |
 | `custo-de-aquisicao-cliente-online` | Custo de aquisição de cliente: como calcular e como derrubar | /blog/custo-de-aquisicao-cliente-online |
 | `dados-ecommerce-brasil-2026` | Dados e-commerce Brasil 2026: os dados que vão mudar sua estratégia | /blog/dados-ecommerce-brasil-2026 |
 | `dashboard-ecommerce` | Dashboard e-commerce: o que medir e como ler | /blog/dashboard-ecommerce |
