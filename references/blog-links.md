@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **66** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **67** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -55,6 +55,7 @@ Total: **66** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
 | `realidade-aumentada-no-e-commerce` | Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315% | /blog/realidade-aumentada-no-e-commerce |
+| `reels-para-marcas-estrategia` | Reels para marcas: estratégia de formato para prender em 3 segundos e vender dep | /blog/reels-para-marcas-estrategia |
 | `roi-provador-virtual` | ROI do Provador Virtual: dados reais de marcas brasileiras | /blog/roi-provador-virtual |
 | `tabela-de-medidas-roupas-online` | Tabela de medidas roupas online: por que ela falha e o que a substitui | /blog/tabela-de-medidas-roupas-online |
 | `taxa-de-conversao-ecommerce` | Taxa de conversão e-commerce: o guia completo para 2026 | /blog/taxa-de-conversao-ecommerce |
