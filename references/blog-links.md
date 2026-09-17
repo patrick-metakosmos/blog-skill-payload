@@ -43,7 +43,6 @@ Total: **67** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House de projetos imersivos | /blog/mk-labs-creative-house-projetos-imersivos |
 | `mk-shop-the-look-ia-look-completo-ecommerce` | mK Shop the Look: IA que monta look completo no e-commerce | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
 | `mk-skin-ai-diagnostico-pele-ia-ecommerce` | mK Skin AI: diagnóstico de pele com IA por selfie | /blog/mk-skin-ai-diagnostico-pele-ia-ecommerce |
-| `objecoes-provador-virtual` | Provador virtual: a imagem vai ficar fiel à peça? Quanto custa ter um provador v | /blog/objecoes-provador-virtual |
 | `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
 | `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
 | `paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou` | Páginas de Produto Imersivas: O Futuro do E-commerce Já Começou | /blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou |
@@ -53,6 +52,7 @@ Total: **67** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `provador-virtual-ecommerce-moda` | Provador virtual no e-commerce de moda: como transformar os 98 que vão embora em | /blog/provador-virtual-ecommerce-moda |
 | `provador-virtual-ia-generativa-ecommerce` | Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce | /blog/provador-virtual-ia-generativa-ecommerce |
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
+| `quanto-tempo-implementar-provador-virtual` | Quanto tempo leva para implementar provador virtual: o cronograma real de catálo | /blog/quanto-tempo-implementar-provador-virtual |
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
 | `realidade-aumentada-no-e-commerce` | Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315% | /blog/realidade-aumentada-no-e-commerce |
 | `reels-para-marcas-estrategia` | Reels para marcas: estratégia de formato para prender em 3 segundos e vender dep | /blog/reels-para-marcas-estrategia |
