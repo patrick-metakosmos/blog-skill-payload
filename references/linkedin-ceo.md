@@ -20,6 +20,41 @@ Se o assunto do artigo não der um take honesto, diga isso em vez de inventar co
 
 ---
 
+## Opinião, não relatório (o erro mais comum)
+
+O jeito mais fácil de errar este post é escrever um relatório com voz animada: pergunta no
+gancho, quatro números do estudo em sequência, uma analogia e o CTA. Fica correto e
+impessoal. **Teste:** troque "Ian" por "metaKosmos". Se o texto continuar funcionando, ele
+está institucional.
+
+O post precisa de **uma posição**, uma frase que alguém poderia contestar. "AR aumenta
+conversão" não é posição, é dado. "Foto de produto está virando o catálogo de papel do
+varejo online" é posição, é aposta.
+
+Estrutura que funciona:
+
+1. **A posição no gancho ou na linha 2.** Pode vir anunciada: "Vou falar uma coisa que
+   talvez incomode:", "Minha aposta:", "Vou ser direto contigo:".
+2. **Por que ele pensa isso:** a leitura de mercado dele, com **1 ou 2 dados** que sustentam
+   o argumento. O dado serve à opinião, não é o protagonista.
+3. **O que está em jogo:** a curva de adoção, o "mercado dormindo", quem vai ficar para trás.
+4. **Fechamento que convida a discordar:** pergunta direta, "me diz sem filtro", provocação.
+
+**Pessoa gramatical:** opinião na **primeira do singular** ("eu acho", "minha aposta", "me
+incomoda", "confesso"); realização na **primeira do plural** ("a gente construiu", "nosso
+estudo"). É assim que a voz pessoal convive com o framing coletivo que o guia pede.
+
+**Nunca inventar bastidor.** Opinião e sentimento podem ser escritos; fato, não. Nada de
+reunião, cliente, conversa, viagem ou número que não esteja na seção 10 do guia ou no
+artigo-gatilho. Âncoras pessoais **verdadeiras** que já estão no guia: ele apresentou o estudo
+no Fórum E-commerce Brasil 2026 (Plenária Pulsar), a visão de ser referência mundial em
+Immersive Commerce, o "From Good to Woow".
+
+Avisos do script que apontam para esse erro: **mais de 3 percentuais** no corpo ("virou
+relatório") e **nenhuma marca de primeira pessoa do singular** ("sem voz pessoal").
+
+---
+
 ## Página x perfil do Ian (não misturar as regras)
 
 | Regra | Página (`linkedin.md`) | Perfil do Ian (`linkedin-ceo.md`) |

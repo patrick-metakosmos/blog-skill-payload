@@ -571,6 +571,19 @@ def validate_ceo(body, header, env, skip_link_check=False):
     if MONEY_RE.search(body):
         warnings.append("Valor em R$ no post. Tamanho de mercado pode; preco e investimento nunca.")
 
+    # --- opiniao, nao relatorio (o que reprovou a primeira amostra: 7 numeros e quase
+    # nenhum "eu"). Avisos, porque voz nao se mede por regex; mas os dois pegam o padrao.
+    pcts = re.findall(r"\d+(?:[.,]\d+)?\s?%", body_sem_url)
+    if len(pcts) > 3:
+        warnings.append(
+            f"{len(pcts)} percentuais no corpo. Virou relatorio: o dado serve a opiniao, 1 ou 2 bastam."
+        )
+    if not re.search(r"\b(eu|me|meu|minha|meus|minhas|comigo|acho|acredito|aposto|confesso)\b", flat):
+        warnings.append(
+            "Nenhuma marca de primeira pessoa do singular. Opiniao do Ian vai em 'eu'; "
+            "realizacao em 'a gente'."
+        )
+
     # --- hashtags: 0 a 5, so na ultima linha ---
     todas = re.findall(r"(?<![\w&])#\w+", body)
     ultima = re.findall(r"(?<![\w&])#\w+", lines[-1]) if lines else []
