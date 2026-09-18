@@ -22,7 +22,7 @@ Leia o arquivo completo `BASE\SKILL.md` e siga-o à risca. Ele contém o fluxo d
 
 Depois, carregue as referências obrigatórias em `BASE\references\`:
 
-`estudo-indice.md` (sempre), `manual-redacao.md`, `geo-aeo.md`, `pilares-conteudo.md`, `utm-tracking.md`, `mkases.md`, `style-dna.md`, `blog-patterns.md`, `anti-ia-rules.md`, `output-payload.md`, `concorrentes.md`, `processo-pauta.md`, `sitemap-urls.md`, `media-payload.md`, `[mK] Brand Book.txt`. No Modo LinkedIn, carregar também `linkedin-post.md`.
+`estudo-indice.md` (sempre), `manual-redacao.md`, `geo-aeo.md`, `pilares-conteudo.md`, `utm-tracking.md`, `mkases.md`, `style-dna.md`, `blog-patterns.md`, `anti-ia-rules.md`, `output-payload.md`, `concorrentes.md`, `processo-pauta.md`, `sitemap-urls.md`, `media-payload.md`, `[mK] Brand Book.txt`. No Modo LinkedIn, carregar também `linkedin-post.md`, `linkedin-ceo.md` e o guia `Tom de Voz — Ian Borges Guia para Automação LinkedIn.md`.
 
 **Nunca** carregue `FINAL - The State of Immersive & Agentic Commerce 2026 powered by mK.md` inteiro (9,2 MB, linhas de até 1 milhão de caracteres). Localize a seção pelo `estudo-indice.md` e leia só aquele trecho por número de linha.
 
@@ -63,6 +63,7 @@ Aplicam-se por cima do que estiver escrito nas referências antigas, que ainda s
 - **Commitar o backlog ao terminar um artigo**, sempre e sem perguntar: `python scripts/commit_listas.py --slug <slug>`. O pipeline roda em mais de uma maquina (Patrick e estagiaria) e o `BACKLOG-EDITORIAL.md` no GitHub e a fila compartilhada; sem o commit, a outra maquina reescreve a mesma pauta. No trigger diario isso ja vem embutido no `lock_diario.py --finish --status done`.
 - **Nunca usar logo como imagem do artigo** (hero ou corpo): logo de marca cliente, grade de logos institucional, lockup, assinatura. Logo não ilustra nem prova nada e, no hero, vira card vazio na listagem do blog. Para citar marca cliente, usar a imagem do case dela (produto, tela, resultado) e linkar o nome para `/mkases/[slug]/`. Regra aplicada retroativamente em 09/09/2026 (`scripts/fix_blog_rules.py`).
 - **Nunca linkar o PDF direto do estudo** (`/api/media/file/State%20of%20Immersive...`). O único destino publicável é a página de captura `https://metakosmos.com.br/estudo`, com UTM (`cta-inline` na citação do corpo, `cta-final` no CTA). O PDF direto entrega o ativo sem capturar o lead. Regra aplicada retroativamente em 09/09/2026.
+- **Post pessoal do CEO (Ian Borges) no fim do fluxo**, depois do post da página: `linkedin-ceo.md` na voz do guia do Ian, disparado com `linkedin_publish.py <slug> --perfil ceo`. É o take dele, nunca resumo do artigo. Código de saída 3 = perfil ainda não configurado no Make (falta o Ian autorizar a conexão dele): não é falha, seguir.
 - **Publicar automaticamente AO VIVO** ao terminar um artigo, sem perguntar: `payload_publish.py <slug> --status published` (mudou de rascunho para ao vivo em 02/09/2026). Publicar como rascunho só se o usuário pedir. Não há mais revisão humana antes do público, então nenhum bloqueador da auditoria do passo 8.5 pode ser relevado.
 - **Sem valores monetários** de preço ou piso de investimento no corpo. Sustente o argumento por redução percentual e ROI. Se um número for indispensável, sinalize no metadados e ofereça reinserir.
 - **O piso da skill é duro** e prevalece sobre pedido menor: 2000+ palavras de corpo, sempre.

@@ -2,35 +2,56 @@
 """
 linkedin_publish.py - Modo LinkedIn da skill blog-mk-payload
 
-Le output/[slug]/linkedin.md, valida contra as regras de references/linkedin-post.md
-e dispara o post na pagina da metaKosmos atraves de um webhook do Make.
+Dois destinos, cada um com arquivo, regras, trava e cenario do Make proprios:
+
+  pagina (padrao)  output/[slug]/linkedin.md      -> pagina da metaKosmos
+                   regras: references/linkedin-post.md
+                   Make: Webhook -> LinkedIn v2 "Create a Company Text Post" (CreateTextShare)
+
+  ceo              output/[slug]/linkedin-ceo.md  -> perfil pessoal do Ian Borges (CEO)
+                   regras: references/linkedin-ceo.md (voz: guia de tom do Ian)
+                   Make: Webhook -> LinkedIn v2 "Create a User Text Post" (CreatePost),
+                   mais o comentario com o link, conforme LINKEDIN_CEO_LINK
+
+Os destinos sao independentes de proposito: se a conexao do Ian no Make expirar, so o
+post dele para. O da pagina usa outra conexao e continua saindo.
 
 Por que webhook do Make e nao API da LinkedIn direto:
 a LinkedIn exige o produto "Community Management API" (aprovacao manual, app proprio,
 token de 60 dias) para postar em pagina de empresa. O Make ja e parceiro aprovado e a
 conexao LinkedIn da metaKosmos ja existe na conta, entao o custo de manutencao e zero.
-O cenario do Make e: Webhook -> LinkedIn v2 "Create a Company Text Post" (CreateTextShare),
-visibility=PUBLIC, feedDistribution=MAIN_FEED.
 
 Uso:
-    python scripts/linkedin_publish.py --list                 # slugs com linkedin.md pronto
-    python scripts/linkedin_publish.py <slug> --check         # so valida, nao envia
-    python scripts/linkedin_publish.py <slug> --dry-run       # valida e mostra o payload
-    python scripts/linkedin_publish.py <slug>                 # valida e POSTA no LinkedIn
+    python scripts/linkedin_publish.py --list [--perfil ceo]   # slugs com o arquivo pronto
+    python scripts/linkedin_publish.py <slug> --check          # so valida, nao envia
+    python scripts/linkedin_publish.py <slug> --dry-run        # valida e mostra o payload
+    python scripts/linkedin_publish.py <slug>                  # valida e POSTA na pagina
+    python scripts/linkedin_publish.py <slug> --perfil ceo     # valida e POSTA no perfil do Ian
     python scripts/linkedin_publish.py <slug> --skip-link-check
-    python scripts/linkedin_publish.py <slug> --force         # reposta (a trava recusa por padrao)
+    python scripts/linkedin_publish.py <slug> --force          # reposta (a trava recusa por padrao)
+
+Codigos de saida:
+    0  ok: postado, ou validacao passou em --check / --dry-run
+    1  erro: validacao reprovou, trava de duplicidade, webhook falhou
+    3  destino nao configurado (webhook vazio no .env). NAO e falha: o destino ainda nao
+       existe e o fluxo segue. Hoje vale para o perfil do CEO ate o Ian autorizar a
+       conexao dele no Make.
 
 O post e automatico no passo 10 do fluxo. Como o LinkedIn nao deduplica, o primeiro
-disparo bem-sucedido grava output/[slug]/.linkedin-posted.json e qualquer disparo
-seguinte para nesse marcador ate alguem passar --force.
+disparo bem-sucedido grava um marcador por destino (.linkedin-posted.json na pagina,
+.linkedin-ceo-posted.json no perfil do Ian) e qualquer disparo seguinte para nesse
+marcador ate alguem passar --force.
 
 .env (em "blog mK Payload/.env"):
-    LINKEDIN_WEBHOOK_URL=https://hook.us1.make.com/xxxxxxxx
+    LINKEDIN_WEBHOOK_URL=https://hook.us1.make.com/xxxxxxxx       # pagina
+    LINKEDIN_CEO_WEBHOOK_URL=https://hook.us1.make.com/yyyyyyyy   # perfil do Ian
     # opcionais:
     # LINKEDIN_ORG_URN=urn:li:organization:123456   (se o cenario nao fixar a pagina)
     # LINKEDIN_LINK_PREFIX=Leia completo em:
     # LINKEDIN_MAX_CHARS=1800
     # LINKEDIN_MIN_CHARS=500
+    # LINKEDIN_CEO_LINK=comentario        (comentario | corpo | nenhum)
+    # LINKEDIN_CEO_COMMENT_PREFIX=Artigo completo aqui:
 
 No Windows, rodar com PYTHONIOENCODING=utf-8 para os acentos nao quebrarem.
 """
@@ -64,6 +85,33 @@ REQUIRED_UTMS = {
     "utm_content": None,
 }
 
+# Um destino = um arquivo, um marcador e um webhook. Nunca compartilham nada.
+PERFIS = {
+    "pagina": {
+        "arquivo": "linkedin.md",
+        "marcador": ".linkedin-posted.json",
+        "webhook_env": "LINKEDIN_WEBHOOK_URL",
+        "nome": "pagina da metaKosmos",
+    },
+    "ceo": {
+        "arquivo": "linkedin-ceo.md",
+        "marcador": ".linkedin-ceo-posted.json",
+        "webhook_env": "LINKEDIN_CEO_WEBHOOK_URL",
+        "nome": "perfil do Ian Borges (CEO)",
+    },
+}
+EXIT_NAO_CONFIGURADO = 3
+
+# --- perfil do CEO: numeros do guia de tom do Ian, secao 6 ---
+CEO_MIN_CHARS = 800
+CEO_MAX_CHARS = 1800
+CEO_IDEAL = (1200, 1500)
+CEO_HOOK_WARN = 140
+CEO_LINK_MODES = ("comentario", "corpo", "nenhum")
+CEO_DEFAULT_COMMENT_PREFIX = "Artigo completo aqui:"
+# Separa, no GA4, o clique do perfil do Ian do clique da pagina (utm_content=[slug]).
+CEO_UTM_CONTENT_PREFIX = "ian-"
+
 EM_DASH = "—"
 EN_DASH = "–"
 
@@ -75,6 +123,27 @@ FORBIDDEN_OPENERS = [
     "em um mundo cada vez mais", "no cenario atual", "pense num", "pense em",
 ]
 
+# No perfil do Ian so as frases de conclusao sao proibidas: "Imagina so..." e
+# assinatura dele (guia, secao 4), entao as aberturas da pagina nao valem la.
+CONCLUSION_OPENERS = [
+    "em conclusao", "para concluir", "concluindo", "em resumo", "resumindo",
+    "em suma", "por fim", "para finalizar", "em ultima analise", "em sintese",
+]
+
+# Guia do Ian, secao 6: nunca palavrao. Comparado sem acento e por palavra inteira.
+PALAVROES = [
+    "porra", "caralho", "merda", "foda", "foda-se", "fodase", "puta", "puto",
+    "cacete", "bosta", "pqp", "vsf", "fdp",
+]
+
+# Guia do Ian, secao 6: linguagem datada que expira. Bloqueia o que sempre envelhece;
+# so avisa no que pode ser figurado ("o varejo de ontem").
+TEMPO_BLOQUEADO = [
+    "essa semana", "esta semana", "semana passada", "semana que vem",
+    "proxima semana", "mes passado", "este mes", "esse mes",
+]
+TEMPO_AVISO = ["ontem", "anteontem", "hoje cedo", "hoje de manha"]
+
 AI_WORDS = [
     "adicionalmente", "panorama", "alavancar", "sinergia", "holistico",
     "multifacetado", "intrincado", "disruptivo", "revolucionario", "transformador",
@@ -82,6 +151,7 @@ AI_WORDS = [
 
 MONEY_RE = re.compile(r"R\$\s?\d|US\$\s?\d")
 URL_RE = re.compile(r"https?://[^\s<>\"']+")
+NUMBER_RE = re.compile(r"\d+([.,]\d+)?\s?%|\b\d{2,}\b")
 EMOJI_RE = re.compile(
     "["
     "\U0001F300-\U0001FAFF"
@@ -122,19 +192,19 @@ def load_env():
     return env
 
 
-def find_article_dir(slug):
+def find_article_dir(slug, arquivo="linkedin.md"):
     """output/[slug] e tambem output/<Arquivo>/[slug] (mesma logica do payload_publish)."""
     direct = OUTPUT_DIR / slug
-    if (direct / "linkedin.md").exists():
+    if (direct / arquivo).exists():
         return direct
     for sub in ("Postado", "Arquivado", "Drafts"):
         cand = OUTPUT_DIR / sub / slug
-        if (cand / "linkedin.md").exists():
+        if (cand / arquivo).exists():
             return cand
     return None
 
 
-def list_slugs():
+def list_slugs(arquivo="linkedin.md"):
     found = []
     if not OUTPUT_DIR.exists():
         return found
@@ -143,7 +213,7 @@ def list_slugs():
         if not root.exists():
             continue
         for d in sorted(root.iterdir()):
-            if d.is_dir() and (d / "linkedin.md").exists():
+            if d.is_dir() and (d / arquivo).exists():
                 rel = d.relative_to(OUTPUT_DIR)
                 found.append(str(rel).replace("\\", "/"))
     return found
@@ -181,13 +251,13 @@ def parse_linkedin_md(path):
 # Trava de duplicidade
 # =====================================================================
 # O post e automatico (passo 10 do fluxo) e o LinkedIn nao deduplica nada:
-# dois disparos = dois posts na pagina. O marcador abaixo e a unica coisa
-# entre um re-run distraido e um post repetido em producao.
-MARKER_NAME = ".linkedin-posted.json"
+# dois disparos = dois posts. O marcador abaixo e a unica coisa entre um re-run
+# distraido e um post repetido em producao. Um marcador por destino.
+MARKER_NAME = PERFIS["pagina"]["marcador"]
 
 
-def read_marker(art_dir):
-    path = art_dir / MARKER_NAME
+def read_marker(art_dir, nome=MARKER_NAME):
+    path = art_dir / nome
     if not path.exists():
         return None
     try:
@@ -196,9 +266,10 @@ def read_marker(art_dir):
         return {"posted_at": "desconhecido"}
 
 
-def write_marker(art_dir, info, response):
-    path = art_dir / MARKER_NAME
+def write_marker(art_dir, info, response, nome=MARKER_NAME, perfil="pagina"):
+    path = art_dir / nome
     data = {
+        "perfil": perfil,
         "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "url": info.get("url", ""),
         "chars": info.get("chars", 0),
@@ -221,7 +292,7 @@ def check_url_live(url, timeout=15):
 
 
 def validate(body, env, skip_link_check=False):
-    """Retorna (errors, warnings, info). errors sao bloqueadores."""
+    """Pagina da metaKosmos. Retorna (errors, warnings, info). errors sao bloqueadores."""
     errors, warnings, info = [], [], {}
     prefix = env.get("LINKEDIN_LINK_PREFIX", DEFAULT_LINK_PREFIX)
     max_chars = int(env.get("LINKEDIN_MAX_CHARS", DEFAULT_MAX_CHARS))
@@ -330,7 +401,7 @@ def validate(body, env, skip_link_check=False):
     body_sem_url = body
     for u in urls:
         body_sem_url = body_sem_url.replace(u, "")
-    if not re.search(r"\d+([.,]\d+)?\s?%|\b\d{2,}\b", body_sem_url):
+    if not NUMBER_RE.search(body_sem_url):
         errors.append("Nenhum numero no corpo. O post precisa de pelo menos 1 dado do estudo.")
 
     # --- hashtags ---
@@ -366,14 +437,161 @@ def validate(body, env, skip_link_check=False):
     return errors, warnings, info
 
 
-def post_to_make(env, slug, body, info, timeout=60):
-    webhook = env.get("LINKEDIN_WEBHOOK_URL", "").strip()
-    if not webhook:
-        raise SystemExit(
-            "[X] LINKEDIN_WEBHOOK_URL nao esta no .env. "
-            "Crie o cenario no Make (Webhook -> LinkedIn Create a Company Text Post) "
-            "e cole a URL do webhook."
+def _check_ceo_link(url, errors, warnings, info, skip_link_check):
+    """UTMs do link do Ian: taxonomia padrao + utm_content com prefixo ian-."""
+    info["url"] = url
+    for key, expected in (("utm_source", "linkedin-organico"), ("utm_medium", "organic-social")):
+        if f"{key}={expected}" not in url:
+            errors.append(f"Link sem {key}={expected}.")
+    if "utm_campaign=" not in url:
+        errors.append("Link sem utm_campaign.")
+    m = re.search(r"utm_content=([^&\s]+)", url)
+    if not m:
+        errors.append("Link sem utm_content.")
+    elif not m.group(1).startswith(CEO_UTM_CONTENT_PREFIX):
+        errors.append(
+            f"utm_content={m.group(1)} tem que comecar com '{CEO_UTM_CONTENT_PREFIX}'. "
+            "Sem o prefixo, o clique do perfil do Ian se mistura com o da pagina no GA4."
         )
+    if not skip_link_check:
+        status, err = check_url_live(url)
+        info["url_status"] = status
+        if err:
+            warnings.append(f"Nao consegui verificar o link ({err}).")
+        elif status != 200:
+            warnings.append(f"Link respondeu {status}. O artigo ainda nao esta no ar.")
+
+
+def validate_ceo(body, header, env, skip_link_check=False):
+    """Perfil pessoal do Ian Borges. Regras do guia de tom dele (secoes 6, 7 e 13)."""
+    errors, warnings, info = [], [], {}
+    lines = body.split("\n")
+    n = len(body)
+    info["chars"] = n
+    info["lines"] = len(lines)
+
+    modo = env.get("LINKEDIN_CEO_LINK", "comentario").strip().lower()
+    if modo not in CEO_LINK_MODES:
+        errors.append(f'LINKEDIN_CEO_LINK="{modo}" invalido. Use: {", ".join(CEO_LINK_MODES)}.')
+        modo = "comentario"
+    info["link_mode"] = modo
+    info["comment"] = ""
+
+    # --- tamanho (guia: 800 a 1.800, ideal 1.200 a 1.500) ---
+    if n < CEO_MIN_CHARS or n > CEO_MAX_CHARS:
+        errors.append(
+            f"Post com {n} caracteres. O guia do Ian pede entre {CEO_MIN_CHARS} e {CEO_MAX_CHARS}."
+        )
+    elif not (CEO_IDEAL[0] <= n <= CEO_IDEAL[1]):
+        warnings.append(
+            f"Post com {n} caracteres. O ponto ideal de engajamento e {CEO_IDEAL[0]} a {CEO_IDEAL[1]}."
+        )
+
+    # --- gancho (pergunta e permitida no perfil do Ian) ---
+    hook = lines[0].strip() if lines else ""
+    info["hook"] = hook
+    if not hook:
+        errors.append("Primeira linha (gancho) vazia.")
+    elif hook.startswith("#"):
+        errors.append("Gancho comeca com hashtag.")
+    elif len(hook) > CEO_HOOK_WARN:
+        warnings.append(
+            f"Gancho com {len(hook)} caracteres. No celular o 'ver mais' corta antes de ~{CEO_HOOK_WARN}."
+        )
+
+    # --- link, conforme o modo ---
+    urls = URL_RE.findall(body)
+    flat = strip_accents(body)
+    link_hdr = header.get("link", "").strip()
+    if modo == "comentario":
+        if urls:
+            errors.append(
+                f"{len(urls)} URL(s) no corpo. No modo comentario o link vai so no primeiro comentario."
+            )
+        if not link_hdr:
+            errors.append('Falta o campo "**Link:**" no cabecalho. E ele que vai no comentario.')
+        else:
+            _check_ceo_link(link_hdr, errors, warnings, info, skip_link_check)
+            prefix = env.get("LINKEDIN_CEO_COMMENT_PREFIX", CEO_DEFAULT_COMMENT_PREFIX)
+            info["comment"] = f"{prefix} {link_hdr}"
+        if "coment" not in flat:
+            warnings.append("O corpo nao avisa que o link esta nos comentarios. Ninguem vai procurar.")
+    elif modo == "corpo":
+        if len(urls) != 1:
+            errors.append(f"{len(urls)} URLs no corpo. No modo corpo e exatamente 1.")
+        if urls:
+            _check_ceo_link(urls[0].rstrip(".,)"), errors, warnings, info, skip_link_check)
+    else:  # nenhum
+        if urls:
+            errors.append(f"{len(urls)} URL(s) no corpo. No modo nenhum o post nao leva link.")
+
+    # --- escrita (guia, secao 6) ---
+    if EM_DASH in body:
+        errors.append(f"{body.count(EM_DASH)} em dash no post. O guia do Ian proibe.")
+    if EN_DASH in body:
+        warnings.append(f"{body.count(EN_DASH)} en dash no post. Confira se e proposital.")
+    for opener in CONCLUSION_OPENERS:
+        for i, line in enumerate(lines):
+            if strip_accents(line.strip()).startswith(opener):
+                errors.append(f'Linha {i + 1} abre com frase de conclusao: "{opener}".')
+    for p in PALAVROES:
+        if re.search(rf"(?<![\w-]){re.escape(p)}(?![\w-])", flat):
+            errors.append(f'Palavrao: "{p}". O guia proibe; troque por intensidade na frase.')
+    if re.search(r"\bobrigada\b", flat):
+        errors.append('"obrigada" na voz do Ian. O certo e "obrigado".')
+    for t in TEMPO_BLOQUEADO:
+        if re.search(rf"\b{t}\b", flat):
+            errors.append(f'Tempo relativo "{t}". Envelhece: ancore num evento nomeado.')
+    for t in TEMPO_AVISO:
+        if re.search(rf"\b{t}\b", flat):
+            warnings.append(f'"{t}" pode envelhecer. Confira se nao da para ancorar num evento.')
+    for w in AI_WORDS:
+        if re.search(rf"\b{w}", flat):
+            warnings.append(f'Vocabulario de IA: "{w}".')
+
+    # --- formato ---
+    if "**" in body:
+        errors.append("Markdown de negrito (**) no post. O LinkedIn nao renderiza.")
+    for i, line in enumerate(lines):
+        if line.strip().startswith(("- ", "* ")):
+            warnings.append(f"Linha {i + 1} usa bullet markdown. Prefira paragrafo curto.")
+    emojis = EMOJI_RE.findall(body)
+    if emojis:
+        errors.append(
+            f"{len(emojis)} emoji grafico ({''.join(emojis[:5])}). "
+            "O Ian so usa emoticon de caractere, tipo ;) e :)."
+        )
+
+    # --- dado (guia, secao 7: nunca afirmar sem dado) ---
+    body_sem_url = body
+    for u in urls:
+        body_sem_url = body_sem_url.replace(u, "")
+    if not NUMBER_RE.search(body_sem_url):
+        errors.append("Nenhum numero no corpo. O Ian nunca afirma sem dado, case ou cenario concreto.")
+    if MONEY_RE.search(body):
+        warnings.append("Valor em R$ no post. Tamanho de mercado pode; preco e investimento nunca.")
+
+    # --- hashtags: 0 a 5, so na ultima linha ---
+    todas = re.findall(r"(?<![\w&])#\w+", body)
+    ultima = re.findall(r"(?<![\w&])#\w+", lines[-1]) if lines else []
+    info["hashtags"] = ultima
+    if len(todas) != len(ultima):
+        errors.append("Hashtag fora da ultima linha. O guia pede todas no final.")
+    if len(ultima) > 5:
+        errors.append(f"{len(ultima)} hashtags. O maximo do guia e 5.")
+    for t in ultima:
+        if strip_accents(t) != t.lower():
+            errors.append(f"Hashtag com acento: {t}.")
+
+    # --- fechamento: CTA, provocacao ou pergunta (so aviso, CTA e dificil de detectar) ---
+    texto = [l for l in lines if l.strip() and not re.fullmatch(r"(\s*#\w+)+\s*", l)]
+    if texto and "?" not in texto[-1]:
+        warnings.append("A ultima linha de texto nao e pergunta. Confira se fecha com CTA ou provocacao.")
+
+    return errors, warnings, info
+
+
+def post_to_make(webhook, perfil, slug, body, info, env, timeout=60):
     payload = {
         "slug": slug,
         "content": body,
@@ -382,9 +600,13 @@ def post_to_make(env, slug, body, info, timeout=60):
         "chars": info.get("chars", 0),
         "visibility": "PUBLIC",
     }
-    org = env.get("LINKEDIN_ORG_URN", "").strip()
-    if org:
-        payload["organization"] = org
+    if perfil == "pagina":
+        org = env.get("LINKEDIN_ORG_URN", "").strip()
+        if org:
+            payload["organization"] = org
+    else:
+        payload["link_mode"] = info.get("link_mode", "")
+        payload["comment"] = info.get("comment", "")
 
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     req = urllib.request.Request(
@@ -397,41 +619,54 @@ def post_to_make(env, slug, body, info, timeout=60):
         return r.status, r.read().decode("utf-8", "replace").strip()
 
 
-def run(slug, check_only=False, dry_run=False, skip_link_check=False, force=False):
-    art_dir = find_article_dir(slug)
+def run(slug, perfil="pagina", check_only=False, dry_run=False, skip_link_check=False, force=False):
+    cfg = PERFIS[perfil]
+    art_dir = find_article_dir(slug, cfg["arquivo"])
     if not art_dir:
-        log(f"Nao achei output/{slug}/linkedin.md", "err")
-        avail = list_slugs()
+        log(f"Nao achei output/{slug}/{cfg['arquivo']}", "err")
+        avail = list_slugs(cfg["arquivo"])
         if avail:
             log("Disponiveis: " + ", ".join(avail))
         return 1
 
     # Trava antes de qualquer coisa: se ja postou, so segue com --force.
-    marker = read_marker(art_dir)
+    marker = read_marker(art_dir, cfg["marcador"])
     if marker and not (check_only or dry_run or force):
-        log(f"Este slug JA foi postado em {marker.get('posted_at')}.", "err")
-        log(f"Marcador: {art_dir / MARKER_NAME}", "info")
-        log("O LinkedIn nao deduplica: postar de novo cria um segundo post na pagina.", "info")
+        log(f"Este slug JA foi postado no {cfg['nome']} em {marker.get('posted_at')}.", "err")
+        log(f"Marcador: {art_dir / cfg['marcador']}", "info")
+        log("O LinkedIn nao deduplica: postar de novo cria um segundo post.", "info")
         log("Se for mesmo para repostar, rode com --force.", "info")
         return 1
 
     env = load_env()
-    header, body = parse_linkedin_md(art_dir / "linkedin.md")
+    header, body = parse_linkedin_md(art_dir / cfg["arquivo"])
     if not body.strip():
-        log("linkedin.md sem corpo (nada depois do ---).", "err")
+        log(f"{cfg['arquivo']} sem corpo (nada depois do ---).", "err")
         return 1
 
-    errors, warnings, info = validate(body, env, skip_link_check=skip_link_check)
+    if perfil == "ceo":
+        errors, warnings, info = validate_ceo(body, header, env, skip_link_check=skip_link_check)
+    else:
+        errors, warnings, info = validate(body, env, skip_link_check=skip_link_check)
 
     print()
     print("=" * 60)
-    print(f"LinkedIn - {slug}")
+    print(f"LinkedIn - {slug} - {cfg['nome']}")
     print("=" * 60)
     palavras = len(body.split())
-    print(f"Caracteres : {info.get('chars')}  (alvo 900-1400, teto 1800)")
-    print(f"Palavras   : {palavras}  (alvo ~150-230)")
-    print(f"Gancho     : {info.get('hook', '')[:80]}")
-    print(f"URL        : {info.get('url', '(nenhuma)')}")
+    if perfil == "ceo":
+        print(f"Caracteres : {info.get('chars')}  (guia: {CEO_MIN_CHARS}-{CEO_MAX_CHARS}, "
+              f"ideal {CEO_IDEAL[0]}-{CEO_IDEAL[1]})")
+        print(f"Palavras   : {palavras}")
+        print(f"Gancho     : {info.get('hook', '')[:80]}")
+        print(f"Link       : modo {info.get('link_mode')} -> {info.get('url', '(nenhum)')}")
+        if info.get("comment"):
+            print(f"Comentario : {info['comment'][:80]}...")
+    else:
+        print(f"Caracteres : {info.get('chars')}  (alvo 900-1400, teto 1800)")
+        print(f"Palavras   : {palavras}  (alvo ~150-230)")
+        print(f"Gancho     : {info.get('hook', '')[:80]}")
+        print(f"URL        : {info.get('url', '(nenhuma)')}")
     if "url_status" in info:
         print(f"HTTP       : {info['url_status']}")
     print(f"Hashtags   : {' '.join(info.get('hashtags', [])) or '(nenhuma)'}")
@@ -445,7 +680,7 @@ def run(slug, check_only=False, dry_run=False, skip_link_check=False, force=Fals
 
     if errors:
         print()
-        log(f"{len(errors)} bloqueador(es). Corrija o linkedin.md antes de postar.", "err")
+        log(f"{len(errors)} bloqueador(es). Corrija o {cfg['arquivo']} antes de postar.", "err")
         return 1
 
     log("Validacao passou.", "ok")
@@ -458,19 +693,37 @@ def run(slug, check_only=False, dry_run=False, skip_link_check=False, force=Fals
         print("--- corpo que seria enviado ---")
         print(body)
         print("--- fim ---")
+        if info.get("comment"):
+            print()
+            print("--- primeiro comentario ---")
+            print(info["comment"])
+            print("--- fim ---")
         print()
         log("dry-run: nada foi enviado ao Make.", "ok")
         return 0
 
+    webhook = env.get(cfg["webhook_env"], "").strip()
+    if not webhook:
+        if perfil == "ceo":
+            log(f"{cfg['nome']} ainda nao configurado: {cfg['webhook_env']} vazio no .env.", "warn")
+            log("Nada foi postado. Isso NAO e falha: o post do Ian passa a sair quando o", "info")
+            log("cenario dele existir no Make (depende de o Ian autorizar a conexao).", "info")
+            return EXIT_NAO_CONFIGURADO
+        raise SystemExit(
+            f"[X] {cfg['webhook_env']} nao esta no .env. "
+            "Crie o cenario no Make (Webhook -> LinkedIn Create a Company Text Post) "
+            "e cole a URL do webhook."
+        )
+
     if force and marker:
         log(f"--force: repostando um slug ja postado em {marker.get('posted_at')}.", "warn")
 
-    status, resp = post_to_make(env, slug, body, info)
+    status, resp = post_to_make(webhook, perfil, slug, body, info, env)
     if 200 <= status < 300:
-        saved = write_marker(art_dir, info, resp)
+        saved = write_marker(art_dir, info, resp, cfg["marcador"], perfil)
         log(f"Enviado ao Make (HTTP {status}). Resposta: {resp[:200]}", "ok")
         log(f"Marcador gravado ({saved['posted_at']}). Novo disparo so com --force.", "ok")
-        log("Confira a execucao no Make e o post na pagina da metaKosmos.", "info")
+        log(f"Confira a execucao no Make e o post no {cfg['nome']}.", "info")
         return 0
     log(f"Webhook respondeu HTTP {status}: {resp[:300]}", "err")
     return 1
@@ -478,10 +731,12 @@ def run(slug, check_only=False, dry_run=False, skip_link_check=False, force=Fals
 
 def main():
     ap = argparse.ArgumentParser(
-        description="Posta o linkedin.md de um artigo na pagina da metaKosmos via Make."
+        description="Posta o post de LinkedIn de um artigo (pagina da metaKosmos ou perfil do CEO) via Make."
     )
     ap.add_argument("slug", nargs="?", help="slug do artigo em output/")
-    ap.add_argument("--list", action="store_true", help="lista slugs com linkedin.md pronto")
+    ap.add_argument("--perfil", choices=sorted(PERFIS), default="pagina",
+                    help="destino: pagina (padrao) ou ceo (perfil pessoal do Ian Borges)")
+    ap.add_argument("--list", action="store_true", help="lista slugs com o arquivo do destino pronto")
     ap.add_argument("--check", action="store_true", help="so valida, nao envia")
     ap.add_argument("--dry-run", action="store_true", help="valida e mostra o corpo, nao envia")
     ap.add_argument("--skip-link-check", action="store_true", help="nao bate HTTP na URL do artigo")
@@ -489,9 +744,9 @@ def main():
     args = ap.parse_args()
 
     if args.list:
-        slugs = list_slugs()
+        slugs = list_slugs(PERFIS[args.perfil]["arquivo"])
         if not slugs:
-            log("Nenhum linkedin.md em output/.", "warn")
+            log(f"Nenhum {PERFIS[args.perfil]['arquivo']} em output/.", "warn")
             return 0
         for s in slugs:
             print(s)
@@ -503,6 +758,7 @@ def main():
 
     return run(
         args.slug,
+        perfil=args.perfil,
         check_only=args.check,
         dry_run=args.dry_run,
         skip_link_check=args.skip_link_check,

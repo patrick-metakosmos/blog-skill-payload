@@ -6,7 +6,7 @@ description: |
   Clone da skill blog-mk (WordPress/Gutenberg), adaptado ao Payload: o corpo é escrito em HTML semântico simples e convertido para Lexical na publicação. A skill blog-mk original permanece intocada para o legado WP.
   5 modos: Pautar, Gerar, Reescrever, Humanizar, Auditar + Publicar + LinkedIn. Detecção automática por contexto.
   Fluxo em 10 passos: input → pesquisa → pauta → escrita em chunks 1000w → integração → auditoria → revisão editorial → HTML semântico final → entrega → publicação (artigo AO VIVO + post no LinkedIn).
-  Output: 3 documentos — (1) Pauta .md, (2) Artigo .html (HTML semântico → Lexical), (3) Ficha de Metadados .md — mais (4) linkedin.md, gerado automático no passo 10.
+  Output: 3 documentos — (1) Pauta .md, (2) Artigo .html (HTML semântico → Lexical), (3) Ficha de Metadados .md — mais (4) linkedin.md (página) e (5) linkedin-ceo.md (perfil do CEO), gerados automático no passo 10.
   Regras: min 2000 palavras, parágrafos 35-40 palavras, FAQ 10+ perguntas, links verificados. SEM componentes visuais (Payload é plano).
   Keyword-alvo exata na abertura do H1. Todo artigo cita o State of Immersive & Agentic Commerce 2026 e linka /estudo (nunca o PDF). Zero imagem-logo.
 tools-necessários:
@@ -65,6 +65,8 @@ references/blog-patterns.md       — Padrões estruturais + estrutura GEO/AEO
 references/anti-ia-rules.md       — 25 padrões proibidos + checklist unificado 30 itens
 references/output-payload.md      — Formato do artigo (HTML semântico) + mapeamento p/ Lexical  ← ESPECÍFICO DESTA SKILL
 references/linkedin-post.md       — Regras do post de LinkedIn (estrutura, tamanho, UTM, checklist)  ← MODO LINKEDIN
+references/linkedin-ceo.md        — Regras do post no perfil pessoal do CEO (Ian Borges)  ← MODO LINKEDIN
+references/Tom de Voz — Ian Borges Guia para Automação LinkedIn.md — Voz do Ian  ← MODO LINKEDIN (carregar completo)
 references/concorrentes.md        — Mapa competitivo (JAMAIS linkar concorrentes)
 references/processo-pauta.md      — Template e fluxo de criação de pauta
 references/sitemap-urls.md        — Todas as URLs verificadas do site (sitemaps)
@@ -206,7 +208,13 @@ Igual à blog-mk, com o passo de formatação final adaptado:
     # c) post AO VIVO na página da metaKosmos (o link já está no ar por causa do passo a)
     python scripts/linkedin_publish.py <slug>
 
-    # d) manter as listas em dia E mandar para o GitHub (regenera + commita + push)
+    # d) escrever output/[slug]/linkedin-ceo.md conforme references/linkedin-ceo.md,
+    #    na voz do guia de tom do Ian Borges (CEO). É o take dele, não resumo do artigo.
+
+    # e) post no perfil pessoal do Ian. Saída 3 = perfil ainda não configurado: seguir.
+    python scripts/linkedin_publish.py <slug> --perfil ceo
+
+    # f) manter as listas em dia E mandar para o GitHub (regenera + commita + push)
     python scripts/commit_listas.py --slug <slug>
     ```
     **A ordem importa.** Publicar o artigo primeiro é o que faz o link do LinkedIn nascer
@@ -412,6 +420,24 @@ Sob demanda também: "gera o post de LinkedIn de [slug]", "posta no LinkedIn",
 3. `scripts/linkedin_publish.py` valida (bloqueadores) e dispara um **webhook do Make**,
    que posta pelo módulo **LinkedIn v2 › Create a Company Text Post** (`CreateTextShare`),
    `visibility=PUBLIC`, `feedDistribution=MAIN_FEED`.
+
+### Perfil pessoal do CEO (Ian Borges)
+
+Segundo post do passo 10, **depois** do post da página. Regras em
+`references/linkedin-ceo.md`; a voz vem inteira do guia
+`references/Tom de Voz — Ian Borges Guia para Automação LinkedIn.md` (carregar completo, é curto).
+
+- **Não é resumo do artigo nem o texto da página em primeira pessoa.** É o take do Ian:
+  leitura de mercado, visão de futuro, dado que valida, convite. O artigo é só o gatilho.
+- Arquivo `output/[slug]/linkedin-ceo.md`, trava própria `.linkedin-ceo-posted.json`,
+  webhook próprio `LINKEDIN_CEO_WEBHOOK_URL`. Um destino nunca bloqueia nem libera o outro.
+- Link no **primeiro comentário** por padrão (`LINKEDIN_CEO_LINK=comentario`), com
+  `utm_content=ian-[slug]` para separar no GA4 o clique do perfil do clique da página.
+- `python scripts/linkedin_publish.py <slug> --perfil ceo [--dry-run | --check]`.
+- **Código de saída 3 = perfil do CEO ainda não configurado** (sem webhook no `.env`).
+  Não é falha: o fluxo segue, e o post do Ian passa a sair quando o cenário dele existir.
+- **Pendente, e só o Ian pode fazer:** autorizar no Make uma conexão LinkedIn logado na
+  conta dele, com a permissão `w_member_social`. A conexão da página não serve para isso.
 
 ### Por que Make e não API da LinkedIn direto
 Postar em página de empresa pela API exige o produto **Community Management API**

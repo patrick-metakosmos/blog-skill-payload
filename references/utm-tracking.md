@@ -64,6 +64,7 @@ Taxonomia oficial de UTMs para rastreamento orgânico. Todo link publicado em ar
 | Valor | O que rastreia |
 |-------|---------------|
 | `[slug-do-artigo]` | Artigo de origem do clique |
+| `ian-[slug-do-artigo]` | Post do perfil pessoal do Ian Borges (CEO) no LinkedIn |
 | `cta-fale-mentor` | CTA "Fale com um Mentor metaKosmos" |
 | `cta-demo-mk-fashion` | CTA demo mK Fashion+ |
 | `cta-demo-mk-beauty` | CTA demo mK Beauty |
