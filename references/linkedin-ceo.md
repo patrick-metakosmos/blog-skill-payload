@@ -44,6 +44,12 @@ Estrutura que funciona:
 incomoda", "confesso"); realização na **primeira do plural** ("a gente construiu", "nosso
 estudo"). É assim que a voz pessoal convive com o framing coletivo que o guia pede.
 
+**De onde vem a opinião: `ian-repertorio.md`.** São as convicções, histórias e o jeito de
+argumentar que ele mostra em falas públicas gravadas. Carregue sempre. A posição do post
+deve sair de uma convicção de lá (seção 1), e a âncora pessoal, de uma história de lá
+(seção 2). Respeite as seções 5 e 6 do repertório: o que não passa do palco para o
+LinkedIn e os números que ainda não estão liberados.
+
 **Nunca inventar bastidor.** Opinião e sentimento podem ser escritos; fato, não. Nada de
 reunião, cliente, conversa, viagem ou número que não esteja na seção 10 do guia ou no
 artigo-gatilho. Âncoras pessoais **verdadeiras** que já estão no guia: ele apresentou o estudo

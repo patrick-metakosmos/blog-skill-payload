@@ -67,6 +67,7 @@ references/output-payload.md      — Formato do artigo (HTML semântico) + mape
 references/linkedin-post.md       — Regras do post de LinkedIn (estrutura, tamanho, UTM, checklist)  ← MODO LINKEDIN
 references/linkedin-ceo.md        — Regras do post no perfil pessoal do CEO (Ian Borges)  ← MODO LINKEDIN
 references/Tom de Voz — Ian Borges Guia para Automação LinkedIn.md — Voz do Ian  ← MODO LINKEDIN (carregar completo)
+references/ian-repertorio.md      — Convicções e histórias reais do Ian (de falas gravadas)  ← MODO LINKEDIN
 references/concorrentes.md        — Mapa competitivo (JAMAIS linkar concorrentes)
 references/processo-pauta.md      — Template e fluxo de criação de pauta
 references/sitemap-urls.md        — Todas as URLs verificadas do site (sitemaps)

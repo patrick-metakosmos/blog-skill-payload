@@ -22,7 +22,7 @@ Leia o arquivo completo `BASE\SKILL.md` e siga-o à risca. Ele contém o fluxo d
 
 Depois, carregue as referências obrigatórias em `BASE\references\`:
 
-`estudo-indice.md` (sempre), `manual-redacao.md`, `geo-aeo.md`, `pilares-conteudo.md`, `utm-tracking.md`, `mkases.md`, `style-dna.md`, `blog-patterns.md`, `anti-ia-rules.md`, `output-payload.md`, `concorrentes.md`, `processo-pauta.md`, `sitemap-urls.md`, `media-payload.md`, `[mK] Brand Book.txt`. No Modo LinkedIn, carregar também `linkedin-post.md`, `linkedin-ceo.md` e o guia `Tom de Voz — Ian Borges Guia para Automação LinkedIn.md`.
+`estudo-indice.md` (sempre), `manual-redacao.md`, `geo-aeo.md`, `pilares-conteudo.md`, `utm-tracking.md`, `mkases.md`, `style-dna.md`, `blog-patterns.md`, `anti-ia-rules.md`, `output-payload.md`, `concorrentes.md`, `processo-pauta.md`, `sitemap-urls.md`, `media-payload.md`, `[mK] Brand Book.txt`. No Modo LinkedIn, carregar também `linkedin-post.md`, `linkedin-ceo.md`, o guia `Tom de Voz — Ian Borges Guia para Automação LinkedIn.md` e o repertório `ian-repertorio.md`.
 
 **Nunca** carregue `FINAL - The State of Immersive & Agentic Commerce 2026 powered by mK.md` inteiro (9,2 MB, linhas de até 1 milhão de caracteres). Localize a seção pelo `estudo-indice.md` e leia só aquele trecho por número de linha.
 
