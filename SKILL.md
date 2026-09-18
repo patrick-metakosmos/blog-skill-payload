@@ -432,13 +432,16 @@ Segundo post do passo 10, **depois** do post da página. Regras em
   leitura de mercado, visão de futuro, dado que valida, convite. O artigo é só o gatilho.
 - Arquivo `output/[slug]/linkedin-ceo.md`, trava própria `.linkedin-ceo-posted.json`,
   webhook próprio `LINKEDIN_CEO_WEBHOOK_URL`. Um destino nunca bloqueia nem libera o outro.
-- Link no **primeiro comentário** por padrão (`LINKEDIN_CEO_LINK=comentario`), com
+- Link **no próprio texto** por padrão (`LINKEDIN_CEO_LINK=corpo`), com
   `utm_content=ian-[slug]` para separar no GA4 o clique do perfil do clique da página.
+  Comentário automático não funciona em perfil pessoal (403 de acesso de parceiro do
+  LinkedIn, testado em 18/09/2026); o script bloqueia post que promete "link nos comentários".
 - `python scripts/linkedin_publish.py <slug> --perfil ceo [--dry-run | --check]`.
 - **Código de saída 3 = perfil do CEO ainda não configurado** (sem webhook no `.env`).
   Não é falha: o fluxo segue, e o post do Ian passa a sair quando o cenário dele existir.
-- **Pendente, e só o Ian pode fazer:** autorizar no Make uma conexão LinkedIn logado na
-  conta dele, com a permissão `w_member_social`. A conexão da página não serve para isso.
+- **Ativo desde 18/09/2026:** cenário Make 4928134, com a conexão do próprio Ian
+  (`w_member_social`). O webhook precisa estar no `.env` de cada máquina; sem ele, a saída
+  é 3 e o post do Ian não sai naquela máquina.
 
 ### Por que Make e não API da LinkedIn direto
 Postar em página de empresa pela API exige o produto **Community Management API**

@@ -11,7 +11,7 @@ Dois destinos, cada um com arquivo, regras, trava e cenario do Make proprios:
   ceo              output/[slug]/linkedin-ceo.md  -> perfil pessoal do Ian Borges (CEO)
                    regras: references/linkedin-ceo.md (voz: guia de tom do Ian)
                    Make: Webhook -> LinkedIn v2 "Create a User Text Post" (CreatePost),
-                   mais o comentario com o link, conforme LINKEDIN_CEO_LINK
+                   cenario 4928134. Link no proprio texto (LINKEDIN_CEO_LINK=corpo).
 
 Os destinos sao independentes de proposito: se a conexao do Ian no Make expirar, so o
 post dele para. O da pagina usa outra conexao e continua saindo.
@@ -50,7 +50,9 @@ marcador ate alguem passar --force.
     # LINKEDIN_LINK_PREFIX=Leia completo em:
     # LINKEDIN_MAX_CHARS=1800
     # LINKEDIN_MIN_CHARS=500
-    # LINKEDIN_CEO_LINK=comentario        (comentario | corpo | nenhum)
+    # LINKEDIN_CEO_LINK=corpo             (corpo | nenhum | comentario*)
+    #   * comentario: o Make nao consegue comentar em perfil pessoal (403
+    #     partnerApiSocialActions); so serve se alguem comentar a mao como o Ian.
     # LINKEDIN_CEO_COMMENT_PREFIX=Artigo completo aqui:
 
 No Windows, rodar com PYTHONIOENCODING=utf-8 para os acentos nao quebrarem.
@@ -470,7 +472,10 @@ def validate_ceo(body, header, env, skip_link_check=False):
     info["chars"] = n
     info["lines"] = len(lines)
 
-    modo = env.get("LINKEDIN_CEO_LINK", "comentario").strip().lower()
+    # Padrao "corpo": comentar em perfil pessoal pela API exige acesso de parceiro do
+    # LinkedIn que o Make nao tem (403 partnerApiSocialActions.CREATE, teste de 18/09/2026).
+    # O padrao mora no codigo, nao no .env, para as duas maquinas se comportarem igual.
+    modo = env.get("LINKEDIN_CEO_LINK", "corpo").strip().lower()
     if modo not in CEO_LINK_MODES:
         errors.append(f'LINKEDIN_CEO_LINK="{modo}" invalido. Use: {", ".join(CEO_LINK_MODES)}.')
         modo = "comentario"
@@ -519,6 +524,12 @@ def validate_ceo(body, header, env, skip_link_check=False):
     elif modo == "corpo":
         if len(urls) != 1:
             errors.append(f"{len(urls)} URLs no corpo. No modo corpo e exatamente 1.")
+        # O erro do primeiro post real: prometeu "link nos comentarios" e nao havia comentario.
+        if "nos comentarios" in flat:
+            errors.append(
+                "O post fala em link nos comentarios, mas no modo corpo nao ha comentario: "
+                "o link esta no proprio texto."
+            )
         if urls:
             _check_ceo_link(urls[0].rstrip(".,)"), errors, warnings, info, skip_link_check)
     else:  # nenhum
