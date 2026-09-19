@@ -78,7 +78,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 30 | ter 15/09/26 | P4 | KW | Conteúdo que viraliza redes sociais: O que faz um conteúdo viralizar nas redes | **78** | `conteúdo que viraliza redes sociais` | 3600 | Média | Topo | ✅ publicado | 2026-09-15 | conteudo-que-viraliza-redes-sociais |
 | 31 | qua 16/09/26 | P4 | KW | Reels para marcas: estratégia de formato | 40 | `Reels para marcas estratégia` | 2600 | Baixa | Topo | ✅ publicado | 2026-09-16 | reels-para-marcas-estrategia |
 | 32 | qui 17/09/26 | P3 | KW | Como visualizar produto em casa antes de comprar: o passo a passo da AR pelo celular | **84** | `como visualizar produto em casa antes de comprar` | 2800 | Baixa | Topo | ✅ publicado | 2026-09-18 | como-visualizar-produto-em-casa-antes-de-comprar |
-| 33 | sex 18/09/26 | P1 | KW | Experiência de compra online melhorar: as alavancas que movem conversão | **71** | `experiência de compra online melhorar` | 3800 | Média | Topo | ⬜ a fazer | — | — |
+| 33 | sex 18/09/26 | P1 | KW | Experiência de compra online melhorar: as alavancas que movem conversão | **71** | `experiência de compra online melhorar` | 3800 | Média | Topo | ✅ publicado | 2026-09-19 | experiencia-de-compra-online-melhorar |
 | 34 | sáb 19/09/26 | P5 | KW | CRO e-commerce: o método de otimização de conversão | 51 | `CRO e-commerce` | 2900 | Média | Meio | ⬜ a fazer | — | — |
 | 35 | dom 20/09/26 | P7 | KW | SEO para IA generativa: o que muda quando quem lê é a máquina | **61** | `SEO para IA generativa` | 2200 | Baixa | Topo | ⬜ a fazer | — | — |
 | 36 | seg 21/09/26 | P7 | KW | Assistente virtual compras: o que ele já resolve e onde ainda trava | **67** | `assistente virtual compras` | 2200 | Baixa | Topo | ⬜ a fazer | — | — |
