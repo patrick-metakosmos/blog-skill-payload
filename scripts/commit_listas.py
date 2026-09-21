@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
 commit_listas.py — depois de publicar um artigo, regenera as listas derivadas do
-Payload e manda para o GitHub, para as duas máquinas verem o mesmo backlog.
+Payload e commita, para a pauta de amanhã não repetir a de hoje.
+
+**Modo atual: máquina única (desde 21/09/2026).** O commit é local: o repositório no
+GitHub foi arquivado. Antes, o push existia para as duas máquinas verem o mesmo backlog.
+Se voltar a ter mais de uma máquina, ligue `USAR_REMOTO` em `lock_diario.py`: o push e o
+realinhamento voltam a acontecer aqui também.
 
 O que entra no commit (só o que mudou de fato):
     Pautas e Palavras Cahve/BACKLOG-EDITORIAL.md   <- status_backlog.py
@@ -16,9 +21,9 @@ Uso:
     python scripts/commit_listas.py --com-midia         # se subiu mídia nova na sessão
     python scripts/commit_listas.py --dry-run           # regenera e mostra, não commita
 
-Push rejeitado não vira conflito: como as listas são 100% derivadas do Payload, o
-script se realinha com o remoto, REGENERA e commita de novo (até 3 tentativas).
-Nunca faz reset --hard: artigo em andamento na máquina não é tocado.
+Com remoto ligado, push rejeitado não vira conflito: como as listas são 100% derivadas do
+Payload, o script se realinha, REGENERA e commita de novo (até 3 tentativas). Nunca faz
+reset --hard: artigo em andamento na máquina não é tocado.
 """
 import argparse
 import subprocess
@@ -27,7 +32,7 @@ from pathlib import Path
 
 SKILL = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SKILL / "scripts"))
-from lock_diario import git, puxar  # noqa: E402
+from lock_diario import git, puxar, USAR_REMOTO  # noqa: E402
 
 PASTA_PAUTAS = "Pautas e Palavras Cahve"
 LISTAS = [
@@ -84,13 +89,14 @@ def main():
     paths = list(LISTAS) + ([LISTA_MIDIA] if a.com_midia else [])
 
     for tentativa in range(1, a.tentativas + 1):
-        # 1) partir sempre do estado mais novo do remoto
-        git("fetch", "origin", "main", "--quiet")
-        r = puxar()
-        if r.returncode != 0:
-            print("[X] nao consegui alinhar com o origin:")
-            print((r.stdout + r.stderr)[:400])
-            return 1
+        # 1) partir sempre do estado mais novo do remoto (só no modo multi-máquina)
+        if USAR_REMOTO:
+            git("fetch", "origin", "main", "--quiet")
+            r = puxar()
+            if r.returncode != 0:
+                print("[X] nao consegui alinhar com o origin:")
+                print((r.stdout + r.stderr)[:400])
+                return 1
 
         # 2) regenerar as listas a partir do Payload
         placar = regenerar(a.com_midia)
@@ -118,6 +124,10 @@ def main():
         if c.returncode != 0 and "nothing to commit" not in (c.stdout + c.stderr):
             print(f"[X] commit falhou: {(c.stdout + c.stderr)[:300]}")
             return 1
+
+        if not USAR_REMOTO:
+            print(f"[OK] listas commitadas (local). {placar}")
+            return 0
 
         push = git("push", "origin", "main")
         if push.returncode == 0:

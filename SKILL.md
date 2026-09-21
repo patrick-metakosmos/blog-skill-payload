@@ -357,9 +357,11 @@ Ele regenera `BACKLOG-EDITORIAL.md`, `backlog.csv`, `blog-links.md` e `mkases.md
 partir da API do Payload, commita **só esses arquivos** e dá push. Sem isso, a outra
 máquina do rodízio continua vendo a pauta como "a fazer" e reescreve o mesmo artigo.
 
-O commit é obrigatório porque o pipeline roda em mais de uma máquina: o backlog no
-GitHub é a fila compartilhada. Se o push for rejeitado, o script se realinha, regenera
-e tenta de novo — as listas saem do Payload, então não existe conflito real de conteúdo.
+Desde 21/09/2026 a operação é de **máquina única** e o repositório no GitHub está
+arquivado, então o commit é local: ele serve para o `BACKLOG-EDITORIAL.md` ficar em dia e
+a pauta de amanhã não repetir a de hoje. A lógica de push e realinhamento continua no
+código, desligada por `USAR_REMOTO` em `lock_diario.py`, para o caso de voltar a existir
+mais de uma máquina.
 
 Por baixo ele chama `status_backlog.py`, `sync_payload_lists.py` e, com `--com-midia`,
 `sync_payload_media.py`. Rodar esses três à mão só faz sentido para conferir algo sem

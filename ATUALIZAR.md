@@ -1,3 +1,7 @@
+> **Documento histórico (21/09/2026).** Este bloco servia para sincronizar a máquina da
+> estagiária. Não há mais segunda máquina, e o repositório está arquivado: o `git pull`
+> deixou de fazer parte da rotina. Fica como referência de como atualizar um clone.
+
 # Atualizar esta skill na sua máquina
 
 O `git pull` sozinho não basta: o arquivo ponteiro vive fora do repositório

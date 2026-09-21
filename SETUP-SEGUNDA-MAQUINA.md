@@ -1,3 +1,8 @@
+> **Documento histórico (21/09/2026).** A segunda máquina saiu de operação, o acesso da
+> estagiária foi removido e o repositório no GitHub foi arquivado. A trava passou a ser
+> local (`USAR_REMOTO = False` em `lock_diario.py`). Este guia fica aqui porque descreve
+> a montagem inteira, inclusive a trava distribuída, se um dia voltar a ter equipe.
+
 # Instalar o artigo diário numa segunda máquina
 
 O trigger diário roda em quantas máquinas você quiser. Só sai **um artigo por dia**,
