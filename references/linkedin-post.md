@@ -11,6 +11,14 @@ Publicação: `scripts/linkedin_publish.py` → webhook do Make → módulo
 **LinkedIn v2 › Create a Company Text Post** (`CreateTextShare`), `visibility=PUBLIC`,
 `feedDistribution=MAIN_FEED`.
 
+**Imagem: a capa do artigo, em cartão de link (desde 21/09/2026).** Post feito pela API
+não ganha o preview que o LinkedIn monta quando alguém cola um link no site: até essa data
+os posts saíam só com texto. Agora o script busca no Payload o título, a meta description
+e a `featuredImage`, converte a capa de WebP para JPEG (o LinkedIn não aceita WebP) e manda
+junto. O cenário 4901009 tem um roteador: com capa, usa o tipo `ARTICLE` (cartão com
+imagem, título e link com UTM); sem capa, sai só texto, como antes. Falha na capa **nunca**
+derruba o post. Não precisa escrever nada diferente no `linkedin.md`.
+
 ---
 
 ## Arquivo de saída

@@ -626,6 +626,67 @@ def validate_ceo(body, header, env, skip_link_check=False, slug=""):
     return errors, warnings, info
 
 
+CAPA_MAX_LARGURA = 1200
+CAPA_QUALIDADE = 85
+
+
+def buscar_capa(slug, env):
+    """Capa do artigo para o cartao do link no post da pagina.
+
+    Post feito pela API do LinkedIn NAO ganha o cartao automatico que o site monta quando
+    alguem cola um link: sem mandar titulo + imagem explicitamente, sai so texto (foi o
+    que aconteceu ate 21/09/2026). Daqui sai o que o modulo precisa: titulo, descricao e
+    a capa convertida para JPEG, porque o Payload guarda em WebP e o LinkedIn nao aceita.
+
+    Nunca derruba o post: qualquer falha devolve {} e o post sai so com texto."""
+    import base64
+    import io as _io
+    try:
+        import payload_publish as pp
+        from PIL import Image
+    except ImportError as e:
+        return {"_aviso": f"capa: dependencia ausente ({e}); post sai sem imagem"}
+    try:
+        auth = pp.payload_login(env)
+    except SystemExit:
+        return {"_aviso": "capa: login no Payload falhou; post sai sem imagem"}
+    code, resp = pp.http("GET", f"{auth['api']}/api/posts?where[slug][equals]={slug}&depth=1&limit=1",
+                         token=auth["token"], scheme=auth["scheme"])
+    docs = resp.get("docs") if isinstance(resp, dict) else None
+    if code != 200 or not docs:
+        return {"_aviso": f"capa: post '{slug}' nao encontrado no Payload (HTTP {code}); post sai sem imagem"}
+    doc = docs[0]
+    seo = doc.get("seo") or {}
+    img = doc.get("featuredImage") or {}
+    capa = {
+        "title": (doc.get("title") or seo.get("metaTitle") or slug)[:400],
+        "description": (seo.get("metaDescription") or doc.get("excerpt") or "")[:4000],
+    }
+    if not isinstance(img, dict) or not img.get("url"):
+        capa["_aviso"] = "capa: artigo sem featuredImage no Payload; post sai sem imagem"
+        return capa
+    src = img["url"] if img["url"].startswith("http") else auth["api"] + img["url"]
+    try:
+        req = urllib.request.Request(src, headers={"User-Agent": USER_AGENT,
+                                                   "Authorization": f"{auth['scheme']} {auth['token']}"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            bruto = r.read()
+        im = Image.open(_io.BytesIO(bruto)).convert("RGB")
+        if im.width > CAPA_MAX_LARGURA:
+            im = im.resize((CAPA_MAX_LARGURA, round(im.height * CAPA_MAX_LARGURA / im.width)),
+                           Image.LANCZOS)
+        buf = _io.BytesIO()
+        im.save(buf, "JPEG", quality=CAPA_QUALIDADE, optimize=True)
+    except Exception as e:  # imagem quebrada nao pode custar o post do dia
+        capa["_aviso"] = f"capa: nao consegui baixar/converter a imagem ({e}); post sai sem imagem"
+        return capa
+    capa["thumb_name"] = Path(img.get("filename") or slug).stem + ".jpg"
+    capa["thumb_b64"] = base64.b64encode(buf.getvalue()).decode("ascii")
+    capa["thumb_alt"] = (img.get("alt") or "")[:4000]
+    capa["_resumo"] = f"{capa['thumb_name']} {im.width}x{im.height}, {len(buf.getvalue()) // 1024} KB"
+    return capa
+
+
 def post_to_make(webhook, perfil, slug, body, info, env, timeout=60):
     payload = {
         "slug": slug,
@@ -639,6 +700,14 @@ def post_to_make(webhook, perfil, slug, body, info, env, timeout=60):
         org = env.get("LINKEDIN_ORG_URN", "").strip()
         if org:
             payload["organization"] = org
+        # Cartao do link. O cenario (4901009) tem um roteador: com thumb_b64 vai para o
+        # modulo com imagem (tipo ARTICLE); sem ele, para o modulo so texto de antes. Sem
+        # capa, os campos NAO sao enviados (nem vazios), para o filtro "existe" nao depender
+        # de como o Make trata string vazia.
+        capa = info.get("capa") or {}
+        if capa.get("thumb_b64"):
+            for k in ("title", "description", "thumb_name", "thumb_b64", "thumb_alt"):
+                payload[k] = capa.get(k, "")
     else:
         payload["link_mode"] = info.get("link_mode", "")
         payload["comment"] = info.get("comment", "")
@@ -722,6 +791,14 @@ def run(slug, perfil="pagina", check_only=False, dry_run=False, skip_link_check=
 
     if check_only:
         return 0
+
+    if perfil == "pagina":
+        capa = buscar_capa(slug, env)
+        info["capa"] = capa
+        if capa.get("thumb_b64"):
+            log(f"Capa para o cartao do link: {capa['_resumo']}", "ok")
+        else:
+            log(capa.get("_aviso", "capa: sem imagem; post sai so com texto"), "warn")
 
     if dry_run:
         print()

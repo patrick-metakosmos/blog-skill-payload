@@ -169,7 +169,7 @@ no próprio texto; no cabeçalho, serve de referência para quem revisar.
 
 | Modo | O que faz | Quando usar |
 |---|---|---|
-| `corpo` (padrão) | exatamente 1 URL no corpo, com UTM; o LinkedIn mostra o preview com a imagem do artigo | todo dia, automático |
+| `corpo` (padrão) | exatamente 1 URL no corpo, com UTM, clicável. **Não gera cartão com imagem**: post feito pela API não ganha o preview automático que o site monta (verificado em 21/09/2026). A imagem do post do Ian vai ser foto dele, ver "Imagem" abaixo | todo dia, automático |
 | `nenhum` | sem URL em lugar nenhum | post de pura opinião; o link já está na página |
 | `comentario` | corpo sem URL; o link vai num comentário **feito à mão**, logado como o Ian | só se alguém comentar todo dia; não é automático |
 
@@ -183,6 +183,13 @@ alcance orgânico, em troca de preview com imagem e clique rastreável.
 
 O padrão mora no código (`linkedin_publish.py`), não no `.env`, para as duas máquinas se
 comportarem igual. `LINKEDIN_CEO_LINK` no `.env` só existe para exceção.
+
+**Imagem (pendente, 21/09/2026):** hoje o post do Ian sai só com texto. Decisão do
+Patrick: a imagem dele tem que ser **pessoal** (foto real dele, de palco, evento ou
+trabalho), nunca a capa do artigo, que já está no post da página. Aguardando o banco de
+fotos aprovadas. Quando chegar: módulo `linkedin:ShareImage` no cenário 4928134, a foto
+escolhida pelo assunto do dia e sujeita à trava anti-repetição, e sem foto disponível o
+post sai só com texto, como hoje.
 
 **UTM:** mesma taxonomia de `utm-tracking.md`, com `utm_content=ian-[slug]`. O prefixo
 `ian-` é o que separa, no GA4, o clique que veio do perfil do Ian do clique que veio da
