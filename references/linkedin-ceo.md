@@ -51,7 +51,8 @@ LinkedIn e os números que ainda não estão liberados.
 
 **Nunca inventar bastidor, nunca contar bastidor de cliente.** Opinião e sentimento podem
 ser escritos; fato, não. Nada de reunião, cliente, conversa, viagem ou número que não esteja
-na seção 10 do guia ou no artigo-gatilho. Desde 21/09/2026 parte do repertório vem de
+na seção 10 do guia, na lista de **liberados** da seção 6 do `ian-repertorio.md` ou no
+artigo-gatilho. Desde 21/09/2026 parte do repertório vem de
 **reuniões comerciais privadas** (marcadas com `[RC]`): de lá sai a convicção e o jeito de
 argumentar, **nunca** nome de marca, dor, verba, preço, cronograma ou concorrente, nem em
 versão anonimizada do tipo "conversando com um varejista". A regra completa está no topo do
@@ -211,7 +212,8 @@ fechamento sem pergunta.
 
 O que o script **não** consegue checar, e é seu trabalho, pelo checklist da seção 13 do
 guia: se é take original e não resumo, se soa como o Ian e não como IA, se o dado citado
-está na seção 10 do guia ou no próprio artigo. **Nunca inventar dado.**
+está na seção 10 do guia, nos liberados da seção 6 do repertório ou no próprio artigo.
+**Nunca inventar dado.**
 
 ---
 

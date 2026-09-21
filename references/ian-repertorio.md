@@ -318,10 +318,37 @@ Isto é mais duro que o resto da seção, porque envolve terceiro. Nada de:
 
 ---
 
-## 6. Números que ele cita no palco, mas que NÃO estão liberados
+## 6. Números que ele cita
 
-Só entram em post depois que alguém do time confirmar a fonte. Até lá, use a seção 10 do
-guia ou o artigo do dia.
+### Liberados (decisão do Patrick em 21/09/2026: "se ele fala, são dados")
+
+Podem entrar no post como leitura de mercado dele, do jeito que ele fala, com a faixa
+inteira quando ele dá faixa ("entre 1% e 3%", não "3%"). Três cuidados que continuam:
+nunca atribuir o número a um cliente ("na marca X a devolução é..."), nunca converter em
+R$, e o limite de 1 ou 2 dados por post continua valendo.
+
+- Conversão de e-commerce **entre 1% e 3%**: de cada 100 pessoas que entram no site, **98
+  vão embora sem comprar**. É o número do "não vendo milagre". [RC, FX]
+- Devolução na moda **entre 20% e 30%**. [RC, BF]
+- Recuperação de carrinho com **teto entre 20% e 30%**; com personalização, a meta dele é
+  **40%**. [RC]
+- Produção de imagem com IA **70% a 90% mais barata** que a tradicional. [RC]
+- ROI do imersivo **costuma ficar no dobro do ROAS** da campanha. [RC]
+- **Média de 3 provas por usuário** no provador. [RC]
+- **70% dos acessos em mobile.** [RC, LX, BF]
+- **Pinduoduo**: mais de **600 milhões de usuários mensais ativos**, crescendo mais que a
+  Alibaba, e "quase ninguém conhece". [RC]
+
+Também liberado, porque bate com a seção 10 do guia: **13% das marcas "já acordaram"** (é o
+outro lado dos 87% que ainda não usam), Nielsen com **28x de lembrança e 3x de intenção de
+compra**, ROI de campanha imersiva **até 8x**, provador de beleza com **até 315%** de
+conversão e **NPS 98**.
+
+### Ainda travados
+
+Estes são resultado de caso com nome de marca, ou mudam de uma fala para outra (65 ou 60
+trilhões, 45 ou 60 modelos de óculos). Número que varia na boca dele não dá para escrever
+sem escolher um lado.
 
 - ROI de até 40x no visualizador ("cada R$ 1 vende 40"); ROAS "muitas vezes acima de 15". [LX, FX, AS, BF]
 - +775% de CTR no FOOH da Chevrolet; +168% de CTR e +118% de visualização completa. [FH, BF]
@@ -329,32 +356,14 @@ guia ou o artigo do dia.
 - Pistache da Bio Extratus com 14 a 15 milhões de visualizações. [FH]
 - Vídeo de IA da Bio Extratus com mais de 4 milhões de views e mais de 90% de comentários
   positivos. [IA]
-- Taxa de conversão média do e-commerce de 1%. [FX]
-- 70% da internet trafegada em mobile. [LX, BF]
 - Geração Z e Alfa como 50% dos consumidores em 5 anos; 56% dão mais valor à roupa do
   avatar. [LX, BF]
 - Digitalização 3D "dividida por 100" em custo. [BF]
 - Economia "figital" de 65 trilhões até 2030 "segundo o Citi" (em outra fala, 60). [BF, IA]
 - Cerca de 4 empresas de realidade estendida para varejo no Brasil e 50 no mundo. [BF]
-- ChatGPT triplicando a produtividade; devolução de 20% na moda. [BF]
+- ChatGPT triplicando a produtividade. [BF]
 - Mais de 500 profissionais de moda ouvidos; mais de 150 artistas 3D; ecossistema de 30
   ferramentas de IA. [AS, LX, IA]
-- Conversão de e-commerce entre 1% e 3%, ou seja, 98 em cada 100 visitantes saem sem
-  comprar. É o número que sustenta o "não vendo milagre", e o mais fácil de confirmar por
-  fonte pública antes de usar. [RC]
-- Devolução de 20% a 30% na moda. [RC, BF]
-- Teto de recuperação de carrinho entre 20% e 30%, com meta de chegar a 40% com
-  personalização. [RC]
-- Redução de 70% a 90% do custo comparado a produção tradicional de imagem. [RC]
-- ROI do imersivo costumando ficar no dobro do ROAS da campanha. [RC]
-- Média de 3 provas por usuário no provador; 70% dos acessos em mobile. [RC]
-- Pinduoduo com mais de 600 milhões de usuários mensais ativos, crescendo mais que a
-  Alibaba. [RC]
-
-Liberado porque bate com a seção 10 do guia: **13% das marcas "já acordaram"** (é o outro
-lado dos 87% que ainda não usam), Nielsen com **28x de lembrança e 3x de intenção de
-compra**, ROI de campanha imersiva **até 8x**, provador de beleza com **até 315%** de
-conversão e **NPS 98**.
 
 ---
 
