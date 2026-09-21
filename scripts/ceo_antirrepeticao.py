@@ -55,6 +55,22 @@ FRASES_ASSINATURA = {
     "kodak-blockbuster": r"kodak|blockbuster",
     "curva-de-adocao": r"curva de adocao|early adopter",
     "from-good-to-woow": r"from good to woow|espalhar mais woow",
+    # tijolos novos, vindos do repertorio de reuniao (21/09/2026). Entram aqui no mesmo dia
+    # em que entram no repertorio, de proposito: material novo vira molde novo se ninguem
+    # contar quantas vezes ja foi usado.
+    "noventa-e-oito": r"\b98\b",
+    "nao-vendo-milagre": r"milagre",
+    "foto-de-corpo-inteiro": r"corpo inteiro",
+    "virou-commodity": r"commodit",
+    "conta-de-padaria": r"conta de padaria",
+    "peca-de-lego": r"\blego\b",
+    "oceano-azul": r"oceano azul",
+    "tempo-morto": r"tempo morto|segundos de carregamento",
+    "cerebro-de-marca": r"cerebro de marca",
+    "cara-de-ia": r"cara de ia",
+    "nao-fazer-nada": r"nao fazer nada",
+    "shopee-rede-social": r"shopee|pinduoduo",
+    "ferramenta-de-prateleira": r"prateleira",
 }
 
 # Quantos posts um tijolo precisa esperar para voltar.

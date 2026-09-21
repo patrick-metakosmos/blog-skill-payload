@@ -14,6 +14,11 @@ output/
 # handoffs redundantes (o repo git é o handoff agora)
 *.zip
 
+# transcricoes de reuniao com cliente (privadas, uma sob NDA). O que pode ser usado ja foi
+# destilado em references/ian-repertorio.md; o bruto nao entra no versionamento.
+references/*Calls*.txt
+references/transcricoes-reunioes/
+
 # arquivos de sistema
 desktop.ini
 Thumbs.db

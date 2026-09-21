@@ -49,9 +49,13 @@ deve sair de uma convicção de lá (seção 1), e a âncora pessoal, de uma his
 (seção 2). Respeite as seções 5 e 6 do repertório: o que não passa do palco para o
 LinkedIn e os números que ainda não estão liberados.
 
-**Nunca inventar bastidor.** Opinião e sentimento podem ser escritos; fato, não. Nada de
-reunião, cliente, conversa, viagem ou número que não esteja na seção 10 do guia ou no
-artigo-gatilho. Âncoras pessoais **verdadeiras** que já estão no guia: ele apresentou o estudo
+**Nunca inventar bastidor, nunca contar bastidor de cliente.** Opinião e sentimento podem
+ser escritos; fato, não. Nada de reunião, cliente, conversa, viagem ou número que não esteja
+na seção 10 do guia ou no artigo-gatilho. Desde 21/09/2026 parte do repertório vem de
+**reuniões comerciais privadas** (marcadas com `[RC]`): de lá sai a convicção e o jeito de
+argumentar, **nunca** nome de marca, dor, verba, preço, cronograma ou concorrente, nem em
+versão anonimizada do tipo "conversando com um varejista". A regra completa está no topo do
+`ian-repertorio.md`, e ela vale por cima de qualquer boa ideia de post. Âncoras pessoais **verdadeiras** que já estão no guia: ele apresentou o estudo
 no Fórum E-commerce Brasil 2026 (Plenária Pulsar), a visão de ser referência mundial em
 Immersive Commerce, o "From Good to Woow".
 
@@ -102,6 +106,8 @@ validação, então ignorar isso só faz você reescrever o post depois.
 | `bastidor` | Abre com uma história verdadeira do repertório (seção 2) e o aprendizado que ficou |
 | `contra-a-corrente` | Começa concordando com o senso comum e vira a mesa no meio do post |
 | `pergunta-direta` | Abre perguntando ao leitor e responde com a leitura de mercado dele, sem enrolar |
+| `concessao` | Entrega um ponto que joga contra o próprio interesse dele ("isso virou commodity", "essa parte a gente ainda não resolve") e só então defende a posição. É o movimento mais característico dele em conversa de verdade |
+| `teste-do-leitor` | Pede ao leitor que confira uma coisa agora, no próprio celular ou no próprio site, e usa o que ele vai encontrar como argumento |
 
 Se nenhuma servir ao assunto do dia, invente uma e registre: o campo é livre, o script só
 cobra que não repita as duas últimas.
