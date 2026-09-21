@@ -31,14 +31,13 @@ O post precisa de **uma posição**, uma frase que alguém poderia contestar. "A
 conversão" não é posição, é dado. "Foto de produto está virando o catálogo de papel do
 varejo online" é posição, é aposta.
 
-Estrutura que funciona:
+O post precisa ter, em alguma ordem: **a posição**, **por que ele pensa isso** (1 ou 2 dados,
+nunca mais), **o que está em jogo** e **um fechamento que convida a discordar**.
 
-1. **A posição no gancho ou na linha 2.** Pode vir anunciada: "Vou falar uma coisa que
-   talvez incomode:", "Minha aposta:", "Vou ser direto contigo:".
-2. **Por que ele pensa isso:** a leitura de mercado dele, com **1 ou 2 dados** que sustentam
-   o argumento. O dado serve à opinião, não é o protagonista.
-3. **O que está em jogo:** a curva de adoção, o "mercado dormindo", quem vai ficar para trás.
-4. **Fechamento que convida a discordar:** pergunta direta, "me diz sem filtro", provocação.
+A ordem e a forma de entrar mudam todo dia: escolha uma das estruturas da seção
+"Não virar molde" e declare qual no cabeçalho. E **não anuncie a opinião com carimbo**
+("Minha aposta:", "Vou ser direto contigo:", "Vou falar uma coisa que talvez incomode:").
+Essas fórmulas queimaram nos primeiros posts, e o script bloqueia quem repetir.
 
 **Pessoa gramatical:** opinião na **primeira do singular** ("eu acho", "minha aposta", "me
 incomoda", "confesso"); realização na **primeira do plural** ("a gente construiu", "nosso
@@ -58,6 +57,58 @@ Immersive Commerce, o "From Good to Woow".
 
 Avisos do script que apontam para esse erro: **mais de 3 percentuais** no corpo ("virou
 relatório") e **nenhuma marca de primeira pessoa do singular** ("sem voz pessoal").
+
+---
+
+## Não virar molde (rotação obrigatória)
+
+Os 4 primeiros posts saíram com a mesma cara. Medindo: a âncora da L'Oréal em **4 de 4**;
+"nove em cada 10 dormindo", "minha aposta" e "me diz sem filtro" em **3 de 4**; três
+aberturas com "Vou ser direto contigo" ou "Vou falar uma coisa". A similaridade global era
+baixa (0,01 a 0,09), então **filtro de "texto parecido" não resolve**: a repetição está nos
+tijolos, não no texto. Daí o orçamento por tijolo.
+
+**Antes de escrever, rode:**
+
+```bash
+python scripts/linkedin_publish.py --perfil ceo --historico
+```
+
+Ele lista o que está **queimado hoje**: frases-assinatura, convicções, âncoras, estruturas,
+aberturas e fechamentos recentes. O que estiver lá não pode aparecer. O script bloqueia na
+validação, então ignorar isso só faz você reescrever o post depois.
+
+**Prazo de cada tijolo** (em posts, não em dias):
+
+| Tijolo | Só volta depois de |
+|---|---|
+| Frase-assinatura (L'Oréal, "água limpa", "nove em cada 10", "minha aposta"...) | 4 posts |
+| Convicção do repertório | 4 posts |
+| Âncora (história da seção 2 do repertório) | 6 posts |
+| Estrutura | 2 posts |
+| Abertura (6 primeiras palavras) | 8 posts |
+| Forma de entrar (2 primeiras palavras) | 3 posts |
+| Fechamento (5 primeiras palavras da última linha) | 5 posts |
+
+**Catálogo de estruturas.** Declare o id escolhido no cabeçalho, em `**Estrutura:**`:
+
+| id | Como o post entra e se desenvolve |
+|---|---|
+| `objecao` | Abre com a objeção que o mercado repete ("já testei e não deu certo", "isso é para 2030") e desmonta com leitura e dado |
+| `cena` | Abre descrevendo uma cena concreta (alguém com o celular na mão, um comprador na loja) e tira a conclusão de negócio |
+| `numero-sozinho` | Abre com um dado seco numa linha só, depois explica por que ele muda a decisão de quem lê |
+| `antes-depois` | Contrasta como era e como é numa categoria específica, sem recorrer à curva de adoção do e-commerce |
+| `erro-comum` | Aponta um erro que ele vê as marcas cometendo e entrega o conserto |
+| `bastidor` | Abre com uma história verdadeira do repertório (seção 2) e o aprendizado que ficou |
+| `contra-a-corrente` | Começa concordando com o senso comum e vira a mesa no meio do post |
+| `pergunta-direta` | Abre perguntando ao leitor e responde com a leitura de mercado dele, sem enrolar |
+
+Se nenhuma servir ao assunto do dia, invente uma e registre: o campo é livre, o script só
+cobra que não repita as duas últimas.
+
+**Convicção e âncora saem do repertório, por rotação.** Ele tem mais de 20 convicções e não
+são só as marcadas com estrela. Se a convicção óbvia para o assunto estiver queimada, use
+outra que também sustente o argumento, ou mude o ângulo do post.
 
 ---
 
@@ -94,6 +145,9 @@ Formato (o script lê o corpo depois do primeiro `---` isolado):
 **Link:** https://metakosmos.com.br/blog/[slug]?utm_source=linkedin-organico&utm_medium=organic-social&utm_campaign=[pilarN-tema]&utm_content=ian-[slug]
 **Registro:** Educacional | Vendas | Networking | Social   (seção 8 do guia)
 **Ângulo:** Visionário/Urgência | Transparência/Bastidor | Dados/Autoridade   (seção 12)
+**Convicção:** [id ou frase curta da convicção do repertório que sustenta o post]
+**Âncora:** [história do repertório usada, ou vazio se o post não usa nenhuma]
+**Estrutura:** [id do catálogo em "Não virar molde"]
 
 ---
 [texto do post, exatamente como vai para o LinkedIn]
@@ -138,6 +192,11 @@ conclusão ("em resumo", "por fim"...) · palavrão · "obrigada" (na voz do Ian
 "obrigado") · tempo relativo que envelhece ("essa semana", "semana passada", "mês
 passado") · `**` de markdown · emoji gráfico · nenhum número no corpo · hashtag fora da
 última linha · mais de 5 hashtags · hashtag com acento.
+
+**Bloqueadores de repetição** (prazos na seção "Não virar molde"): frase-assinatura, abertura,
+forma de entrar, fechamento, convicção, âncora ou estrutura repetidos antes do prazo · falta
+do campo `**Convicção:**` ou `**Estrutura:**` no cabeçalho. O histórico fica em
+`references/ceo-historico.json` e é atualizado sozinho a cada post publicado.
 
 **Avisos:** tamanho fora do ideal de 1.200 a 1.500 · gancho acima de 140 caracteres (o
 "ver mais" corta antes no celular) · corpo sem avisar do link nos comentários · valor em

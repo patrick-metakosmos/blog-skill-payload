@@ -67,6 +67,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+import ceo_antirrepeticao as anti   # orcamento de frases/estruturas do post do CEO
+
 # === Config ===
 SKILL_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = SKILL_DIR / "output"
@@ -464,8 +466,9 @@ def _check_ceo_link(url, errors, warnings, info, skip_link_check):
             warnings.append(f"Link respondeu {status}. O artigo ainda nao esta no ar.")
 
 
-def validate_ceo(body, header, env, skip_link_check=False):
-    """Perfil pessoal do Ian Borges. Regras do guia de tom dele (secoes 6, 7 e 13)."""
+def validate_ceo(body, header, env, skip_link_check=False, slug=""):
+    """Perfil pessoal do Ian Borges. Regras do guia de tom dele (secoes 6, 7 e 13),
+    mais o orcamento anti-repeticao de ceo_antirrepeticao.py."""
     errors, warnings, info = [], [], {}
     lines = body.split("\n")
     n = len(body)
@@ -612,6 +615,14 @@ def validate_ceo(body, header, env, skip_link_check=False):
     if texto and "?" not in texto[-1]:
         warnings.append("A ultima linha de texto nao e pergunta. Confira se fecha com CTA ou provocacao.")
 
+    # --- anti-repeticao: frase-assinatura, abertura, fechamento, conviccao, ancora,
+    # estrutura. Os 4 primeiros posts provaram que so voz e regra de formato nao
+    # impedem o molde: sem orcamento, todo dia sai o mesmo post com outro assunto.
+    err_rep, warn_rep, entrada = anti.checar(body, header, slug)
+    errors.extend(err_rep)
+    warnings.extend(warn_rep)
+    info["anti"] = entrada
+
     return errors, warnings, info
 
 
@@ -669,7 +680,7 @@ def run(slug, perfil="pagina", check_only=False, dry_run=False, skip_link_check=
         return 1
 
     if perfil == "ceo":
-        errors, warnings, info = validate_ceo(body, header, env, skip_link_check=skip_link_check)
+        errors, warnings, info = validate_ceo(body, header, env, skip_link_check=skip_link_check, slug=slug)
     else:
         errors, warnings, info = validate(body, env, skip_link_check=skip_link_check)
 
@@ -745,6 +756,9 @@ def run(slug, perfil="pagina", check_only=False, dry_run=False, skip_link_check=
     status, resp = post_to_make(webhook, perfil, slug, body, info, env)
     if 200 <= status < 300:
         saved = write_marker(art_dir, info, resp, cfg["marcador"], perfil)
+        if perfil == "ceo" and info.get("anti"):
+            n = anti.registrar(info["anti"], body)
+            log(f"Historico anti-repeticao atualizado ({n} posts).", "ok")
         log(f"Enviado ao Make (HTTP {status}). Resposta: {resp[:200]}", "ok")
         log(f"Marcador gravado ({saved['posted_at']}). Novo disparo so com --force.", "ok")
         log(f"Confira a execucao no Make e o post no {cfg['nome']}.", "info")
@@ -765,7 +779,13 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="valida e mostra o corpo, nao envia")
     ap.add_argument("--skip-link-check", action="store_true", help="nao bate HTTP na URL do artigo")
     ap.add_argument("--force", action="store_true", help="reposta um slug que ja foi postado")
+    ap.add_argument("--historico", action="store_true",
+                    help="perfil ceo: mostra o que esta queimado hoje (frases, conviccoes, aberturas)")
     args = ap.parse_args()
+
+    if args.historico:
+        print(anti.relatorio())
+        return 0
 
     if args.list:
         slugs = list_slugs(PERFIS[args.perfil]["arquivo"])
