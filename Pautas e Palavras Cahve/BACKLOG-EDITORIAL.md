@@ -81,7 +81,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 33 | sex 18/09/26 | P1 | KW | Experiência de compra online melhorar: as alavancas que movem conversão | **71** | `experiência de compra online melhorar` | 3800 | Média | Topo | ✅ publicado | 2026-09-19 | experiencia-de-compra-online-melhorar |
 | 34 | sáb 19/09/26 | P5 | KW | CRO e-commerce: o método de otimização de conversão | 51 | `CRO e-commerce` | 2900 | Média | Meio | ✅ publicado | 2026-09-20 | cro-ecommerce |
 | 35 | dom 20/09/26 | P7 | KW | SEO para IA generativa: o que muda quando quem lê é a máquina | **61** | `SEO para IA generativa` | 2200 | Baixa | Topo | ✅ publicado | 2026-09-21 | seo-para-ia-generativa |
-| 36 | seg 21/09/26 | P7 | KW | Assistente virtual compras: o que ele já resolve e onde ainda trava | **67** | `assistente virtual compras` | 2200 | Baixa | Topo | ⬜ a fazer | — | — |
+| 36 | seg 21/09/26 | P7 | KW | Assistente virtual compras: o que ele já resolve e onde ainda trava | **67** | `assistente virtual compras` | 2200 | Baixa | Topo | ✅ publicado | 2026-09-22 | assistente-virtual-compras |
 | 37 | ter 22/09/26 | P1 | KW | Transformação digital varejo: por onde começar sem queimar orçamento | **68** | `transformação digital varejo` | 8400 | Alta | Topo | ⬜ a fazer | — | — |
 | 38 | qua 23/09/26 | P5 | KW | Margem de lucro e-commerce: onde ela é perdida | 46 | `margem de lucro e-commerce` | 2800 | Média | Meio | ⬜ a fazer | — | — |
 | 39 | qui 24/09/26 | P4 | KW | Como fazer vídeo viral para marcas: o método por trás do acaso | **62** | `como fazer vídeo viral para marcas` | 2400 | Baixa | Topo | ⬜ a fazer | — | — |

@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **71** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **72** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -9,6 +9,7 @@ Total: **71** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `ai-shooting-moda-ia` | AI Shooting para moda: o fim do ensaio caro e travado | /blog/ai-shooting-moda-ia |
 | `ar-moveis-eletrodomesticos-online` | Como usar AR para vender móveis e eletrodomésticos online: o guia para transform | /blog/ar-moveis-eletrodomesticos-online |
 | `ar-reduz-abandono-carrinho-ecommerce` | Como a Realidade Aumentada reduz o abandono de carrinho | /blog/ar-reduz-abandono-carrinho-ecommerce |
+| `assistente-virtual-compras` | Assistente virtual compras: o que ele já resolve e onde ainda trava | /blog/assistente-virtual-compras |
 | `aumentar-confianca-compra-online` | Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em c | /blog/aumentar-confianca-compra-online |
 | `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
