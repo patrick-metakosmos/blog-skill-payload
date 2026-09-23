@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **72** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **73** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -67,6 +67,7 @@ Total: **72** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `tecnologia-para-ecommerce` | Tecnologia para e-commerce: o stack que sustenta conversão em 2026 | /blog/tecnologia-para-ecommerce |
 | `tendencias-immersive-commerce-2026-2027` | Tendências de Immersive Commerce 2026: o que vem aí | /blog/tendencias-immersive-commerce-2026-2027 |
 | `ticket-medio-ecommerce` | Ticket médio e-commerce: como crescer sem dar desconto | /blog/ticket-medio-ecommerce |
+| `transformacao-digital-varejo` | Transformação digital varejo: por onde começar sem queimar orçamento | /blog/transformacao-digital-varejo |
 | `ver-movel-em-casa-antes-de-comprar` | Ver móvel em casa antes de comprar: como a AR responde se cabe no espaço | /blog/ver-movel-em-casa-antes-de-comprar |
 | `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA — A Nova Fronteira do Storytelling de Marcas | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
