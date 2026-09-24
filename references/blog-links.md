@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **73** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **74** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -38,6 +38,7 @@ Total: **73** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `jornada-consumidor-digital` | Jornada do consumidor digital: onde a dúvida entra e derruba a venda | /blog/jornada-consumidor-digital |
 | `live-shopping-tendencias-brasil` | Live shopping tendências Brasil: o tamanho real da oportunidade até 2030 | /blog/live-shopping-tendencias-brasil |
 | `llms-txt-dinamico-catalogo` | llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real | /blog/llms-txt-dinamico-catalogo |
+| `margem-de-lucro-ecommerce` | Margem de lucro e-commerce: onde ela é perdida | /blog/margem-de-lucro-ecommerce |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
