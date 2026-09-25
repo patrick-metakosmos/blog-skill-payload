@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **74** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **76** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -14,6 +14,7 @@ Total: **74** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
 | `como-aumentar-taxa-conversao-ecommerce` | Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce  | /blog/como-aumentar-taxa-conversao-ecommerce |
+| `como-fazer-video-viral-para-marcas` | Como fazer vídeo viral para marcas: o método por trás do acaso | /blog/como-fazer-video-viral-para-marcas |
 | `como-funciona-provador-virtual-ia` | Como funciona um provador virtual com IA: guia 2026 | /blog/como-funciona-provador-virtual-ia |
 | `como-reduzir-abandono-carrinho` | Como reduzir abandono de carrinho: as causas que frete grátis não resolve | /blog/como-reduzir-abandono-carrinho |
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
@@ -56,6 +57,7 @@ Total: **74** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `provador-virtual-ecommerce-guia-completo` | Provador Virtual para E-commerce: como funciona, quanto custa e por que as maior | /blog/provador-virtual-ecommerce-guia-completo |
 | `provador-virtual-ecommerce-moda` | Provador virtual no e-commerce de moda: como transformar os 98 que vão embora em | /blog/provador-virtual-ecommerce-moda |
 | `provador-virtual-ia-generativa-ecommerce` | Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce | /blog/provador-virtual-ia-generativa-ecommerce |
+| `provador-virtual-plus-size` | Provador virtual plus size: por que inclusão corporal decide a adoção antes da a | /blog/provador-virtual-plus-size |
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
 | `quanto-tempo-implementar-provador-virtual` | Quanto tempo leva para implementar provador virtual: o cronograma real de catálo | /blog/quanto-tempo-implementar-provador-virtual |
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
