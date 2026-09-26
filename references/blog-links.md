@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **76** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **77** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -20,6 +20,7 @@ Total: **76** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
 | `como-visualizar-produto-em-casa-antes-de-comprar` | Como visualizar produto em casa antes de comprar: o passo a passo da AR pelo cel | /blog/como-visualizar-produto-em-casa-antes-de-comprar |
+| `comprar-roupa-online-sem-errar-tamanho` | Comprar roupa online sem errar tamanho: o que fazer quando a tabela de medidas m | /blog/comprar-roupa-online-sem-errar-tamanho |
 | `comprar-sapato-online-sem-errar-tamanho` | Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca p | /blog/comprar-sapato-online-sem-errar-tamanho |
 | `conteudo-que-viraliza-redes-sociais` | Conteúdo que viraliza redes sociais: os gatilhos por trás de milhões de views or | /blog/conteudo-que-viraliza-redes-sociais |
 | `cro-ecommerce` | CRO e-commerce: o método de otimização de conversão | /blog/cro-ecommerce |
