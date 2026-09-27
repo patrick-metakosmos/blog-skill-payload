@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **77** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **78** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -63,6 +63,7 @@ Total: **77** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `quanto-tempo-implementar-provador-virtual` | Quanto tempo leva para implementar provador virtual: o cronograma real de catálo | /blog/quanto-tempo-implementar-provador-virtual |
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
 | `realidade-aumentada-no-e-commerce` | Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315% | /blog/realidade-aumentada-no-e-commerce |
+| `realidade-aumentada-para-decoracao` | Realidade aumentada para decoração: projetar móvel, tapete e luminária na sua sa | /blog/realidade-aumentada-para-decoracao |
 | `reels-para-marcas-estrategia` | Reels para marcas: estratégia de formato para prender em 3 segundos e vender dep | /blog/reels-para-marcas-estrategia |
 | `roi-provador-virtual` | ROI do Provador Virtual: dados reais de marcas brasileiras | /blog/roi-provador-virtual |
 | `seo-para-ia-generativa` | SEO para IA generativa: o que muda quando quem lê é a máquina | /blog/seo-para-ia-generativa |
