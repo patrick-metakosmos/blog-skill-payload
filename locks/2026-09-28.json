@@ -1,6 +1,9 @@
 {
   "dia": "2026-09-28",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-09-28T07:00:04"
+  "inicio": "2026-09-28T07:00:04",
+  "fim": "2026-09-28T07:20:01",
+  "slug": "geracao-z-comportamento-de-compra",
+  "url": "https://metakosmos.com.br/blog/geracao-z-comportamento-de-compra"
 }
