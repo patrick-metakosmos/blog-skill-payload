@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **78** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **79** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -32,6 +32,7 @@ Total: **78** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
 | `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |
+| `geracao-z-comportamento-de-compra` | Geração Z comportamento de compra: como esse consumidor compra | /blog/geracao-z-comportamento-de-compra |
 | `immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce` | Immersive Commerce: o Guia Completo para Líderes em E-commerce | /blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce |
 | `immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou` | Immersive Commerce vs. E-commerce tradicional: por que a era da foto estática ac | /blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou |
 | `implementacao-visualizador-3d-ecommerce` | Visualizador 3D para E-commerce: Guia de Implementação | /blog/implementacao-visualizador-3d-ecommerce |
