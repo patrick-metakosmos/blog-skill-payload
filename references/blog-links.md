@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **80** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **81** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -22,6 +22,7 @@ Total: **80** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `como-visualizar-produto-em-casa-antes-de-comprar` | Como visualizar produto em casa antes de comprar: o passo a passo da AR pelo cel | /blog/como-visualizar-produto-em-casa-antes-de-comprar |
 | `comprar-roupa-online-sem-errar-tamanho` | Comprar roupa online sem errar tamanho: o que fazer quando a tabela de medidas m | /blog/comprar-roupa-online-sem-errar-tamanho |
 | `comprar-sapato-online-sem-errar-tamanho` | Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca p | /blog/comprar-sapato-online-sem-errar-tamanho |
+| `conteudo-para-tiktok-marcas` | Conteúdo para TikTok marcas: o que produzir por mês para sair da bolha de seguid | /blog/conteudo-para-tiktok-marcas |
 | `conteudo-que-viraliza-redes-sociais` | Conteúdo que viraliza redes sociais: os gatilhos por trás de milhões de views or | /blog/conteudo-que-viraliza-redes-sociais |
 | `cro-ecommerce` | CRO e-commerce: o método de otimização de conversão | /blog/cro-ecommerce |
 | `custo-de-aquisicao-cliente-online` | Custo de aquisição de cliente: como calcular e como derrubar | /blog/custo-de-aquisicao-cliente-online |
