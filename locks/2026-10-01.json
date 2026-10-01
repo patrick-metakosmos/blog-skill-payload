@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-01",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-01T08:34:34"
+  "inicio": "2026-10-01T08:34:34",
+  "fim": "2026-10-01T08:50:08",
+  "slug": "experiencia-do-cliente-online",
+  "url": "https://metakosmos.com.br/blog/experiencia-do-cliente-online"
 }
