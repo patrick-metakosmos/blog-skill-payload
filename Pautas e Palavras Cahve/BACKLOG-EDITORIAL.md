@@ -90,7 +90,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 42 | dom 27/09/26 | P6 | KW | Geração Z comportamento de compra: como esse consumidor compra | **62** | `geração Z comportamento de compra` | 2800 | Média | Topo | ✅ publicado | 2026-09-28 | geracao-z-comportamento-de-compra |
 | 43 | seg 28/09/26 | P4 | KW | Experiência de Marca Brand Experience: como a marca vira experiência e não anúncio | **82** | `Experiência de Marca Brand Experience` | 3800 | Média | Topo | ✅ publicado | 2026-09-29 | experiencia-de-marca-brand-experience |
 | 44 | ter 29/09/26 | P4 | KW | Conteúdo para TikTok marcas: o que marcas devem produzir | 56 | `conteúdo para TikTok marcas` | 3800 | Média | Topo | ✅ publicado | 2026-09-30 | conteudo-para-tiktok-marcas |
-| 45 | qua 30/09/26 | P1 | KW | Experiência do cliente online: o que o consumidor sente antes de comprar | **72** | `experiência do cliente online` | 7800 | Alta | Topo | ⬜ a fazer | — | — |
+| 45 | qua 30/09/26 | P1 | KW | Experiência do cliente online: o que o consumidor sente antes de comprar | **72** | `experiência do cliente online` | 7800 | Alta | Topo | ✅ publicado | 2026-10-01 | experiencia-do-cliente-online |
 | 46 | qui 01/10/26 | P2 | KW | Como escolher maquiagem online: o método para não errar o tom de base | **69** | `como escolher maquiagem online` | 3400 | Média | Topo | ⬜ a fazer | — | — |
 | 47 | sex 02/10/26 | P7 | KW | Inteligência artificial no varejo: onde a IA já opera e onde ainda é promessa | **77** | `inteligência artificial no varejo` | 6200 | Alta | Topo | ⬜ a fazer | — | — |
 | 48 | sáb 03/10/26 | P5 | KW | Funil de conversão e-commerce: onde o dinheiro vaza | 51 | `funil de conversão e-commerce` | 1900 | Baixa | Meio | ⬜ a fazer | — | — |
