@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **82** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **83** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -14,6 +14,7 @@ Total: **82** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
 | `como-aumentar-taxa-conversao-ecommerce` | Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce  | /blog/como-aumentar-taxa-conversao-ecommerce |
+| `como-escolher-maquiagem-online` | Como escolher maquiagem online: o método para não errar o tom de base | /blog/como-escolher-maquiagem-online |
 | `como-fazer-video-viral-para-marcas` | Como fazer vídeo viral para marcas: o método por trás do acaso | /blog/como-fazer-video-viral-para-marcas |
 | `como-funciona-provador-virtual-ia` | Como funciona um provador virtual com IA: guia 2026 | /blog/como-funciona-provador-virtual-ia |
 | `como-reduzir-abandono-carrinho` | Como reduzir abandono de carrinho: as causas que frete grátis não resolve | /blog/como-reduzir-abandono-carrinho |
