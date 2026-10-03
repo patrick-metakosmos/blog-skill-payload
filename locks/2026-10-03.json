@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-03",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-03T07:00:03"
+  "inicio": "2026-10-03T07:00:03",
+  "fim": "2026-10-03T07:13:36",
+  "slug": "inteligencia-artificial-no-varejo",
+  "url": "https://metakosmos.com.br/blog/inteligencia-artificial-no-varejo"
 }
