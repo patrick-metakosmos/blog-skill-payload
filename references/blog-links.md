@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **83** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **84** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -42,6 +42,7 @@ Total: **83** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `implementacao-visualizador-3d-ecommerce` | Visualizador 3D para E-commerce: Guia de Implementação | /blog/implementacao-visualizador-3d-ecommerce |
 | `inovacao-no-varejo` | Inovação no varejo: o que separa piloto bonito de resultado no caixa | /blog/inovacao-no-varejo |
 | `inteligencia-artificial-ecommerce` | Inteligência Artificial e-commerce: os usos que já dão resultado em 2026 | /blog/inteligencia-artificial-ecommerce |
+| `inteligencia-artificial-no-varejo` | Inteligência artificial no varejo: onde a IA já opera e onde ainda é promessa | /blog/inteligencia-artificial-no-varejo |
 | `jornada-consumidor-digital` | Jornada do consumidor digital: onde a dúvida entra e derruba a venda | /blog/jornada-consumidor-digital |
 | `live-shopping-tendencias-brasil` | Live shopping tendências Brasil: o tamanho real da oportunidade até 2030 | /blog/live-shopping-tendencias-brasil |
 | `llms-txt-dinamico-catalogo` | llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real | /blog/llms-txt-dinamico-catalogo |
