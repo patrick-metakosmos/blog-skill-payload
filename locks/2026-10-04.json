@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-04",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-04T07:00:03"
+  "inicio": "2026-10-04T07:00:03",
+  "fim": "2026-10-04T07:13:27",
+  "slug": "funil-de-conversao-ecommerce",
+  "url": "https://metakosmos.com.br/blog/funil-de-conversao-ecommerce"
 }
