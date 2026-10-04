@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **84** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **85** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -35,6 +35,7 @@ Total: **84** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `experiencia-do-cliente-online` | Experiência do cliente online: o que o consumidor sente antes de comprar | /blog/experiencia-do-cliente-online |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
+| `funil-de-conversao-ecommerce` | Funil de conversão e-commerce: onde o dinheiro vaza | /blog/funil-de-conversao-ecommerce |
 | `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |
 | `geracao-z-comportamento-de-compra` | Geração Z comportamento de compra: como esse consumidor compra | /blog/geracao-z-comportamento-de-compra |
 | `immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce` | Immersive Commerce: o Guia Completo para Líderes em E-commerce | /blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce |

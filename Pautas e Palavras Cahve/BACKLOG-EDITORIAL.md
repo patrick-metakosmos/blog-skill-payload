@@ -93,7 +93,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 45 | qua 30/09/26 | P1 | KW | Experiência do cliente online: o que o consumidor sente antes de comprar | **72** | `experiência do cliente online` | 7800 | Alta | Topo | ✅ publicado | 2026-10-01 | experiencia-do-cliente-online |
 | 46 | qui 01/10/26 | P2 | KW | Como escolher maquiagem online: o método para não errar o tom de base | **69** | `como escolher maquiagem online` | 3400 | Média | Topo | ✅ publicado | 2026-10-02 | como-escolher-maquiagem-online |
 | 47 | sex 02/10/26 | P7 | KW | Inteligência artificial no varejo: onde a IA já opera e onde ainda é promessa | **77** | `inteligência artificial no varejo` | 6200 | Alta | Topo | ✅ publicado | 2026-10-03 | inteligencia-artificial-no-varejo |
-| 48 | sáb 03/10/26 | P5 | KW | Funil de conversão e-commerce: onde o dinheiro vaza | 51 | `funil de conversão e-commerce` | 1900 | Baixa | Meio | ⬜ a fazer | — | — |
+| 48 | sáb 03/10/26 | P5 | KW | Funil de conversão e-commerce: onde o dinheiro vaza | 51 | `funil de conversão e-commerce` | 1900 | Baixa | Meio | ✅ publicado | 2026-10-04 | funil-de-conversao-ecommerce |
 | 49 | dom 04/10/26 | P7 | KW | Aparecer nas respostas do ChatGPT: o que a sua marca precisa publicar | **69** | `aparecer nas respostas do ChatGPT` | 1900 | Baixa | Topo | ⬜ a fazer | — | — |
 | 50 | seg 05/10/26 | P5 | KW | Checkout otimização: os pontos de atrito que derrubam a venda no fim | **68** | `checkout otimização` | 1800 | Baixa | Meio | ⬜ a fazer | — | — |
 | 51 | ter 06/10/26 | P7 | Tend | Digital Product Passport: a etiqueta digital que a UE torna obrigatória em 2027 <br>_T05 · urgência ALTA · gap 100x_ | **79** | `Digital Product Passport` | 1500 | Muito Baixa | Topo | ⬜ a fazer | — | — |
