@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-05",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-05T09:30:30"
+  "inicio": "2026-10-05T09:30:30",
+  "fim": "2026-10-05T09:45:49",
+  "slug": "aparecer-nas-respostas-do-chatgpt",
+  "url": "https://metakosmos.com.br/blog/aparecer-nas-respostas-do-chatgpt"
 }
