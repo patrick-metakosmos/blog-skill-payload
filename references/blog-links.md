@@ -1,12 +1,13 @@
 # Artigos publicados no blog (Payload)
 
-Total: **85** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **86** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
 | `abandono-carrinho-ecommerce-lacuna-imaginacao` | Abandono de carrinho: por que 98 de 100 não compram | /blog/abandono-carrinho-ecommerce-lacuna-imaginacao |
 | `agentic-commerce-ia-compra-pelo-consumidor` | Agentic Commerce: quando a IA compra pelo consumidor e o que muda para sua marca | /blog/agentic-commerce-ia-compra-pelo-consumidor |
 | `ai-shooting-moda-ia` | AI Shooting para moda: o fim do ensaio caro e travado | /blog/ai-shooting-moda-ia |
+| `aparecer-nas-respostas-do-chatgpt` | Aparecer nas respostas do ChatGPT: o que a sua marca precisa publicar | /blog/aparecer-nas-respostas-do-chatgpt |
 | `ar-moveis-eletrodomesticos-online` | Como usar AR para vender móveis e eletrodomésticos online: o guia para transform | /blog/ar-moveis-eletrodomesticos-online |
 | `ar-reduz-abandono-carrinho-ecommerce` | Como a Realidade Aumentada reduz o abandono de carrinho | /blog/ar-reduz-abandono-carrinho-ecommerce |
 | `assistente-virtual-compras` | Assistente virtual compras: o que ele já resolve e onde ainda trava | /blog/assistente-virtual-compras |
