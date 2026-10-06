@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-06",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-06T07:00:03"
+  "inicio": "2026-10-06T07:00:03",
+  "fim": "2026-10-06T07:12:30",
+  "slug": "checkout-otimizacao",
+  "url": "https://metakosmos.com.br/blog/checkout-otimizacao"
 }
