@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-07",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-07T07:00:03"
+  "inicio": "2026-10-07T07:00:03",
+  "fim": "2026-10-07T07:13:47",
+  "slug": "digital-product-passport",
+  "url": "https://metakosmos.com.br/blog/digital-product-passport"
 }
