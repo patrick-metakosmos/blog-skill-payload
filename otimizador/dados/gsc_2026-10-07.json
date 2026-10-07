@@ -1,0 +1,7445 @@
+{
+ "site": "sc-domain:metakosmos.com.br",
+ "periodo_atual": [
+  "2026-07-07",
+  "2026-10-04"
+ ],
+ "periodo_anterior": [
+  "2026-04-08",
+  "2026-07-06"
+ ],
+ "periodo_28": [
+  "2026-09-07",
+  "2026-10-04"
+ ],
+ "atual": {
+  "https://metakosmos.com.br/blog/mkfashion": {
+   "cliques": 84,
+   "impressoes": 3164,
+   "posicao": 6.8,
+   "ctr": 0.0265
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo": {
+   "cliques": 73,
+   "impressoes": 3245,
+   "posicao": 8.4,
+   "ctr": 0.0225
+  },
+  "https://metakosmos.com.br/blog/fooh-guia-completo-fake-out-of-home-viral": {
+   "cliques": 34,
+   "impressoes": 3228,
+   "posicao": 9.5,
+   "ctr": 0.0105
+  },
+  "https://metakosmos.com.br/blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual": {
+   "cliques": 33,
+   "impressoes": 7765,
+   "posicao": 7.1,
+   "ctr": 0.0042
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ia-generativa-ecommerce": {
+   "cliques": 32,
+   "impressoes": 2574,
+   "posicao": 9.3,
+   "ctr": 0.0124
+  },
+  "https://metakosmos.com.br/blog/mk3d": {
+   "cliques": 30,
+   "impressoes": 1095,
+   "posicao": 6.6,
+   "ctr": 0.0274
+  },
+  "https://metakosmos.com.br/blog/implementacao-visualizador-3d-ecommerce": {
+   "cliques": 21,
+   "impressoes": 921,
+   "posicao": 6.9,
+   "ctr": 0.0228
+  },
+  "https://metakosmos.com.br/blog/videos-com-ia-nova-fronteira-storytelling-marcas": {
+   "cliques": 16,
+   "impressoes": 1832,
+   "posicao": 8.0,
+   "ctr": 0.0087
+  },
+  "https://metakosmos.com.br/blog/mkbeauty": {
+   "cliques": 15,
+   "impressoes": 1464,
+   "posicao": 5.4,
+   "ctr": 0.0102
+  },
+  "https://metakosmos.com.br/blog/sobre": {
+   "cliques": 12,
+   "impressoes": 1646,
+   "posicao": 3.3,
+   "ctr": 0.0073
+  },
+  "https://metakosmos.com.br/blog/dados-ecommerce-brasil-2026": {
+   "cliques": 8,
+   "impressoes": 594,
+   "posicao": 6.8,
+   "ctr": 0.0135
+  },
+  "https://metakosmos.com.br/blog/tendencias-immersive-commerce-2026-2027": {
+   "cliques": 8,
+   "impressoes": 193,
+   "posicao": 7.9,
+   "ctr": 0.0415
+  },
+  "https://metakosmos.com.br/blog/videos-ia-campanhas-publicitarias": {
+   "cliques": 8,
+   "impressoes": 611,
+   "posicao": 10.9,
+   "ctr": 0.0131
+  },
+  "https://metakosmos.com.br/blog/mkspaces": {
+   "cliques": 8,
+   "impressoes": 582,
+   "posicao": 3.6,
+   "ctr": 0.0137
+  },
+  "https://metakosmos.com.br/blog/videos-publicitarios-com-ia-guia-completo-para-marcas": {
+   "cliques": 7,
+   "impressoes": 586,
+   "posicao": 8.7,
+   "ctr": 0.0119
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada": {
+   "cliques": 7,
+   "impressoes": 569,
+   "posicao": 6.3,
+   "ctr": 0.0123
+  },
+  "https://metakosmos.com.br/blog/mk-skin-ai-diagnostico-pele-ia-ecommerce": {
+   "cliques": 7,
+   "impressoes": 164,
+   "posicao": 7.5,
+   "ctr": 0.0427
+  },
+  "https://metakosmos.com.br/blog/ai-shooting-moda-ia": {
+   "cliques": 6,
+   "impressoes": 162,
+   "posicao": 6.9,
+   "ctr": 0.037
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-ar-guia-completo": {
+   "cliques": 5,
+   "impressoes": 307,
+   "posicao": 8.6,
+   "ctr": 0.0163
+  },
+  "https://metakosmos.com.br/blog/mkases": {
+   "cliques": 5,
+   "impressoes": 1278,
+   "posicao": 2.7,
+   "ctr": 0.0039
+  },
+  "https://metakosmos.com.br/blog/como-reduzir-devolucoes-ecommerce-moda": {
+   "cliques": 5,
+   "impressoes": 451,
+   "posicao": 7.7,
+   "ctr": 0.0111
+  },
+  "https://metakosmos.com.br/blog/conteudo-que-viraliza-redes-sociais": {
+   "cliques": 4,
+   "impressoes": 160,
+   "posicao": 5.2,
+   "ctr": 0.025
+  },
+  "https://metakosmos.com.br/blog/taxa-de-conversao-ecommerce": {
+   "cliques": 4,
+   "impressoes": 622,
+   "posicao": 7.9,
+   "ctr": 0.0064
+  },
+  "https://metakosmos.com.br/blog/mk-labs-creative-house-projetos-imersivos": {
+   "cliques": 3,
+   "impressoes": 448,
+   "posicao": 5.8,
+   "ctr": 0.0067
+  },
+  "https://metakosmos.com.br/blog/mk-shop-the-look-ia-look-completo-ecommerce": {
+   "cliques": 3,
+   "impressoes": 557,
+   "posicao": 7.9,
+   "ctr": 0.0054
+  },
+  "https://metakosmos.com.br/blog/objecoes-provador-virtual": {
+   "cliques": 3,
+   "impressoes": 79,
+   "posicao": 9.3,
+   "ctr": 0.038
+  },
+  "https://metakosmos.com.br/blog/mk-fashion": {
+   "cliques": 3,
+   "impressoes": 84,
+   "posicao": 8.4,
+   "ctr": 0.0357
+  },
+  "https://metakosmos.com.br/blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce": {
+   "cliques": 2,
+   "impressoes": 308,
+   "posicao": 7.1,
+   "ctr": 0.0065
+  },
+  "https://metakosmos.com.br/blog/mk-home-simulador-ia-moveis-decoracao": {
+   "cliques": 2,
+   "impressoes": 143,
+   "posicao": 7.8,
+   "ctr": 0.014
+  },
+  "https://metakosmos.com.br/blog/realidade-aumentada-no-e-commerce": {
+   "cliques": 2,
+   "impressoes": 51,
+   "posicao": 9.3,
+   "ctr": 0.0392
+  },
+  "https://metakosmos.com.br/blog/estudo": {
+   "cliques": 2,
+   "impressoes": 758,
+   "posicao": 7.0,
+   "ctr": 0.0026
+  },
+  "https://metakosmos.com.br/blog/simulador-3d-stellantis": {
+   "cliques": 2,
+   "impressoes": 2,
+   "posicao": 1.0,
+   "ctr": 1.0
+  },
+  "https://metakosmos.com.br/blog/ar-moveis-eletrodomesticos-online": {
+   "cliques": 1,
+   "impressoes": 11,
+   "posicao": 7.5,
+   "ctr": 0.0909
+  },
+  "https://metakosmos.com.br/blog/como-visualizar-produto-em-casa-antes-de-comprar": {
+   "cliques": 1,
+   "impressoes": 59,
+   "posicao": 6.2,
+   "ctr": 0.0169
+  },
+  "https://metakosmos.com.br/blog/comprar-sapato-online-sem-errar-tamanho": {
+   "cliques": 1,
+   "impressoes": 315,
+   "posicao": 7.4,
+   "ctr": 0.0032
+  },
+  "https://metakosmos.com.br/blog/cro-ecommerce": {
+   "cliques": 1,
+   "impressoes": 131,
+   "posicao": 10.4,
+   "ctr": 0.0076
+  },
+  "https://metakosmos.com.br/blog/custo-de-aquisicao-cliente-online": {
+   "cliques": 1,
+   "impressoes": 30,
+   "posicao": 9.2,
+   "ctr": 0.0333
+  },
+  "https://metakosmos.com.br/blog/dashboard-ecommerce": {
+   "cliques": 1,
+   "impressoes": 100,
+   "posicao": 8.6,
+   "ctr": 0.01
+  },
+  "https://metakosmos.com.br/blog/escalar-ecommerce": {
+   "cliques": 1,
+   "impressoes": 28,
+   "posicao": 7.4,
+   "ctr": 0.0357
+  },
+  "https://metakosmos.com.br/blog/futuro-do-varejo-digital": {
+   "cliques": 1,
+   "impressoes": 47,
+   "posicao": 8.6,
+   "ctr": 0.0213
+  },
+  "https://metakosmos.com.br/blog/kpis-ecommerce": {
+   "cliques": 1,
+   "impressoes": 140,
+   "posicao": 7.2,
+   "ctr": 0.0071
+  },
+  "https://metakosmos.com.br/blog/marketing-imersivo-varejo-moda": {
+   "cliques": 1,
+   "impressoes": 49,
+   "posicao": 8.7,
+   "ctr": 0.0204
+  },
+  "https://metakosmos.com.br/blog/metakosmos-immersive-commerce-lider-brasil-2026": {
+   "cliques": 1,
+   "impressoes": 166,
+   "posicao": 5.3,
+   "ctr": 0.006
+  },
+  "https://metakosmos.com.br/blog/quanto-tempo-implementar-provador-virtual": {
+   "cliques": 1,
+   "impressoes": 14,
+   "posicao": 13.6,
+   "ctr": 0.0714
+  },
+  "https://metakosmos.com.br/blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos": {
+   "cliques": 1,
+   "impressoes": 302,
+   "posicao": 7.6,
+   "ctr": 0.0033
+  },
+  "https://metakosmos.com.br/blog/tabela-de-medidas-roupas-online": {
+   "cliques": 1,
+   "impressoes": 66,
+   "posicao": 8.2,
+   "ctr": 0.0152
+  },
+  "https://metakosmos.com.br/blog/ticket-medio-ecommerce": {
+   "cliques": 1,
+   "impressoes": 114,
+   "posicao": 6.4,
+   "ctr": 0.0088
+  },
+  "https://metakosmos.com.br/blog/ver-movel-em-casa-antes-de-comprar": {
+   "cliques": 1,
+   "impressoes": 67,
+   "posicao": 10.9,
+   "ctr": 0.0149
+  },
+  "https://metakosmos.com.br/blog/videos-fooh-ia-generativa-viralizar-campanhas": {
+   "cliques": 1,
+   "impressoes": 108,
+   "posicao": 17.9,
+   "ctr": 0.0093
+  },
+  "https://metakosmos.com.br/blog/mk-skin-ai-pagina-de-apresentacao": {
+   "cliques": 1,
+   "impressoes": 1,
+   "posicao": 3.0,
+   "ctr": 1.0
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada-ecommerce-guia": {
+   "cliques": 1,
+   "impressoes": 32,
+   "posicao": 6.3,
+   "ctr": 0.0312
+  },
+  "https://metakosmos.com.br/blog/aviso-de-privacidade": {
+   "cliques": 0,
+   "impressoes": 72,
+   "posicao": 7.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/blog": {
+   "cliques": 0,
+   "impressoes": 509,
+   "posicao": 4.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog": {
+   "cliques": 0,
+   "impressoes": 5,
+   "posicao": 4.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/abandono-carrinho-ecommerce-lacuna-imaginacao": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 3.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/agentic-commerce-ia-compra-pelo-consumidor": {
+   "cliques": 0,
+   "impressoes": 90,
+   "posicao": 20.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/ar-reduz-abandono-carrinho-ecommerce": {
+   "cliques": 0,
+   "impressoes": 6,
+   "posicao": 6.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/aumentar-confianca-compra-online": {
+   "cliques": 0,
+   "impressoes": 12,
+   "posicao": 6.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/automacao-de-marketing-ecommerce": {
+   "cliques": 0,
+   "impressoes": 39,
+   "posicao": 12.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-aumentar-faturamento-ecommerce": {
+   "cliques": 0,
+   "impressoes": 12,
+   "posicao": 10.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-aumentar-taxa-conversao-ecommerce": {
+   "cliques": 0,
+   "impressoes": 80,
+   "posicao": 10.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-escolher-maquiagem-online": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 13.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-funciona-provador-virtual-ia": {
+   "cliques": 0,
+   "impressoes": 49,
+   "posicao": 8.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-reduzir-abandono-carrinho": {
+   "cliques": 0,
+   "impressoes": 11,
+   "posicao": 9.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-vender-mais-online": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 17.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/comprando-sapatos-online-um-guia-para-comprar-calcados-online-sem-errar-o-tamanho": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/comprar-sapatos-internet-sem-errar-tamanho": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/conteudo-para-tiktok-marcas": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 18.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/experiencia-de-compra-online-melhorar": {
+   "cliques": 0,
+   "impressoes": 15,
+   "posicao": 8.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026": {
+   "cliques": 0,
+   "impressoes": 10,
+   "posicao": 5.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou": {
+   "cliques": 0,
+   "impressoes": 25,
+   "posicao": 11.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/inteligencia-artificial-ecommerce": {
+   "cliques": 0,
+   "impressoes": 93,
+   "posicao": 14.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/jornada-consumidor-digital": {
+   "cliques": 0,
+   "impressoes": 24,
+   "posicao": 9.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/llms-txt-dinamico-catalogo": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 10.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/metakosmos.com.br/blog/ticket-medio-ecommerce": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-ads-publicidade-interativa-dailymotion": {
+   "cliques": 0,
+   "impressoes": 20,
+   "posicao": 7.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-shop-visualizador-3d-ar": {
+   "cliques": 0,
+   "impressoes": 13,
+   "posicao": 7.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-fashion-provador-virtual-moda-ia": {
+   "cliques": 0,
+   "impressoes": 57,
+   "posicao": 7.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/otimizacao-para-chatgpt": {
+   "cliques": 0,
+   "impressoes": 70,
+   "posicao": 6.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou": {
+   "cliques": 0,
+   "impressoes": 6,
+   "posicao": 4.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/por-que-ecommerce-nao-converte": {
+   "cliques": 0,
+   "impressoes": 11,
+   "posicao": 20.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ecommerce-guia-completo": {
+   "cliques": 0,
+   "impressoes": 159,
+   "posicao": 6.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ecommerce-moda": {
+   "cliques": 0,
+   "impressoes": 30,
+   "posicao": 11.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026": {
+   "cliques": 0,
+   "impressoes": 19,
+   "posicao": 10.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/reels-para-marcas-estrategia": {
+   "cliques": 0,
+   "impressoes": 106,
+   "posicao": 5.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/roi-provador-virtual": {
+   "cliques": 0,
+   "impressoes": 6,
+   "posicao": 7.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/seo-para-ia-generativa": {
+   "cliques": 0,
+   "impressoes": 59,
+   "posicao": 17.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/tabela-medidas-roupas-online": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/tecnologia-para-ecommerce": {
+   "cliques": 0,
+   "impressoes": 47,
+   "posicao": 6.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/videos-publicitarios-com-ia-guia-completo-for-marcas": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/your-3d-everywhere": {
+   "cliques": 0,
+   "impressoes": 25,
+   "posicao": 11.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/elementor-4746": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 6.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/endform": {
+   "cliques": 0,
+   "impressoes": 12,
+   "posicao": 3.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/fooh-v2-c2": {
+   "cliques": 0,
+   "impressoes": 5,
+   "posicao": 17.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/home": {
+   "cliques": 0,
+   "impressoes": 52,
+   "posicao": 5.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/metakomsos-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 2,
+   "posicao": 9.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-shop": {
+   "cliques": 0,
+   "impressoes": 33,
+   "posicao": 5.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-ai-agent": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 37.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-beauty": {
+   "cliques": 0,
+   "impressoes": 44,
+   "posicao": 5.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-fashion-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 3.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-home-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-spaces": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 10.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/politica-de-privacidade": {
+   "cliques": 0,
+   "impressoes": 168,
+   "posicao": 6.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/termos-de-servicos": {
+   "cliques": 0,
+   "impressoes": 323,
+   "posicao": 3.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/termos-de-uso": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  }
+ },
+ "anterior": {
+  "https://metakosmos.com.br/blog/mk-fashion": {
+   "cliques": 82,
+   "impressoes": 2439,
+   "posicao": 7.8,
+   "ctr": 0.0336
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ia-generativa-ecommerce": {
+   "cliques": 40,
+   "impressoes": 1657,
+   "posicao": 7.9,
+   "ctr": 0.0241
+  },
+  "https://metakosmos.com.br/blog/fooh-guia-completo-fake-out-of-home-viral": {
+   "cliques": 24,
+   "impressoes": 3004,
+   "posicao": 8.7,
+   "ctr": 0.008
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo": {
+   "cliques": 23,
+   "impressoes": 2208,
+   "posicao": 7.2,
+   "ctr": 0.0104
+  },
+  "https://metakosmos.com.br/blog/implementacao-visualizador-3d-ecommerce": {
+   "cliques": 22,
+   "impressoes": 731,
+   "posicao": 6.9,
+   "ctr": 0.0301
+  },
+  "https://metakosmos.com.br/blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual": {
+   "cliques": 18,
+   "impressoes": 3102,
+   "posicao": 7.2,
+   "ctr": 0.0058
+  },
+  "https://metakosmos.com.br/blog/videos-com-ia-nova-fronteira-storytelling-marcas": {
+   "cliques": 12,
+   "impressoes": 1289,
+   "posicao": 7.3,
+   "ctr": 0.0093
+  },
+  "https://metakosmos.com.br/blog/mk-3d-shop": {
+   "cliques": 11,
+   "impressoes": 578,
+   "posicao": 3.8,
+   "ctr": 0.019
+  },
+  "https://metakosmos.com.br/blog/videos-ia-campanhas-publicitarias": {
+   "cliques": 10,
+   "impressoes": 1450,
+   "posicao": 7.5,
+   "ctr": 0.0069
+  },
+  "https://metakosmos.com.br/blog/sobre": {
+   "cliques": 8,
+   "impressoes": 1230,
+   "posicao": 2.9,
+   "ctr": 0.0065
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada": {
+   "cliques": 8,
+   "impressoes": 1116,
+   "posicao": 5.3,
+   "ctr": 0.0072
+  },
+  "https://metakosmos.com.br/blog/mk-beauty": {
+   "cliques": 6,
+   "impressoes": 771,
+   "posicao": 3.8,
+   "ctr": 0.0078
+  },
+  "https://metakosmos.com.br/blog/mkases": {
+   "cliques": 6,
+   "impressoes": 983,
+   "posicao": 2.0,
+   "ctr": 0.0061
+  },
+  "https://metakosmos.com.br/blog/tendencias-immersive-commerce-2026-2027": {
+   "cliques": 6,
+   "impressoes": 172,
+   "posicao": 7.6,
+   "ctr": 0.0349
+  },
+  "https://metakosmos.com.br/blog/en": {
+   "cliques": 5,
+   "impressoes": 560,
+   "posicao": 8.5,
+   "ctr": 0.0089
+  },
+  "https://metakosmos.com.br/blog/como-funciona-provador-virtual-ia": {
+   "cliques": 4,
+   "impressoes": 46,
+   "posicao": 7.4,
+   "ctr": 0.087
+  },
+  "https://metakosmos.com.br/blog/como-reduzir-devolucoes-ecommerce-moda": {
+   "cliques": 5,
+   "impressoes": 496,
+   "posicao": 6.6,
+   "ctr": 0.0101
+  },
+  "https://metakosmos.com.br/blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce": {
+   "cliques": 4,
+   "impressoes": 386,
+   "posicao": 10.7,
+   "ctr": 0.0104
+  },
+  "https://metakosmos.com.br/blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos": {
+   "cliques": 4,
+   "impressoes": 257,
+   "posicao": 6.6,
+   "ctr": 0.0156
+  },
+  "https://metakosmos.com.br/blog/fooh-v2-c2": {
+   "cliques": 3,
+   "impressoes": 199,
+   "posicao": 25.7,
+   "ctr": 0.0151
+  },
+  "https://metakosmos.com.br/blog/mklabs": {
+   "cliques": 3,
+   "impressoes": 432,
+   "posicao": 3.0,
+   "ctr": 0.0069
+  },
+  "https://metakosmos.com.br/blog/termos-de-uso": {
+   "cliques": 3,
+   "impressoes": 344,
+   "posicao": 3.6,
+   "ctr": 0.0087
+  },
+  "https://metakosmos.com.br/blog/videos-publicitarios-com-ia-guia-completo-para-marcas": {
+   "cliques": 3,
+   "impressoes": 466,
+   "posicao": 7.6,
+   "ctr": 0.0064
+  },
+  "https://metakosmos.com.br/blog/simulador-3d-stellantis": {
+   "cliques": 2,
+   "impressoes": 12,
+   "posicao": 4.6,
+   "ctr": 0.1667
+  },
+  "https://metakosmos.com.br/blog/elementor-4746": {
+   "cliques": 1,
+   "impressoes": 41,
+   "posicao": 6.2,
+   "ctr": 0.0244
+  },
+  "https://metakosmos.com.br/blog/endform": {
+   "cliques": 1,
+   "impressoes": 91,
+   "posicao": 3.4,
+   "ctr": 0.011
+  },
+  "https://metakosmos.com.br/blog/home": {
+   "cliques": 1,
+   "impressoes": 113,
+   "posicao": 2.8,
+   "ctr": 0.0088
+  },
+  "https://metakosmos.com.br/blog/mk-ai-agent": {
+   "cliques": 1,
+   "impressoes": 330,
+   "posicao": 24.8,
+   "ctr": 0.003
+  },
+  "https://metakosmos.com.br/blog/MK-3D-SHOP": {
+   "cliques": 0,
+   "impressoes": 5,
+   "posicao": 6.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/abandono-carrinho-ecommerce-lacuna-imaginacao": {
+   "cliques": 0,
+   "impressoes": 6,
+   "posicao": 4.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/ai-shooting-moda-ia": {
+   "cliques": 0,
+   "impressoes": 51,
+   "posicao": 6.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/ar-reduz-abandono-carrinho-ecommerce": {
+   "cliques": 0,
+   "impressoes": 2,
+   "posicao": 7.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/blog": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog": {
+   "cliques": 0,
+   "impressoes": 187,
+   "posicao": 2.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 8.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou": {
+   "cliques": 0,
+   "impressoes": 176,
+   "posicao": 6.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/metakosmos-immersive-commerce-lider-brasil-2026": {
+   "cliques": 0,
+   "impressoes": 133,
+   "posicao": 6.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-ads-publicidade-interativa-dailymotion": {
+   "cliques": 0,
+   "impressoes": 10,
+   "posicao": 7.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-shop-visualizador-3d-ar": {
+   "cliques": 0,
+   "impressoes": 7,
+   "posicao": 11.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-fashion-provador-virtual-moda-ia": {
+   "cliques": 0,
+   "impressoes": 103,
+   "posicao": 10.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-home-simulador-ia-moveis-decoracao": {
+   "cliques": 0,
+   "impressoes": 29,
+   "posicao": 7.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-labs-creative-house-projetos-imersivos": {
+   "cliques": 0,
+   "impressoes": 12,
+   "posicao": 8.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-skin-ai-diagnostico-pele-ia-ecommerce": {
+   "cliques": 0,
+   "impressoes": 53,
+   "posicao": 11.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 10.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ecommerce-guia-completo": {
+   "cliques": 0,
+   "impressoes": 41,
+   "posicao": 5.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/realidade-aumentada-no-e-commerce": {
+   "cliques": 0,
+   "impressoes": 95,
+   "posicao": 7.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/videos-fooh-ia-generativa-viralizar-campanhas": {
+   "cliques": 0,
+   "impressoes": 6,
+   "posicao": 8.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-ar-guia-completo": {
+   "cliques": 0,
+   "impressoes": 282,
+   "posicao": 8.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada-ecommerce-guia": {
+   "cliques": 0,
+   "impressoes": 13,
+   "posicao": 5.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/elementor-4445": {
+   "cliques": 0,
+   "impressoes": 13,
+   "posicao": 4.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/elementor-4637-2": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 5.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/elementor-4637-3": {
+   "cliques": 0,
+   "impressoes": 5,
+   "posicao": 5.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/elementor-4637": {
+   "cliques": 0,
+   "impressoes": 26,
+   "posicao": 7.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/inscricao-webinario-immersive": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 6.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/kultura": {
+   "cliques": 0,
+   "impressoes": 7,
+   "posicao": 9.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/marketing-imersivo-varejo-moda": {
+   "cliques": 0,
+   "impressoes": 7,
+   "posicao": 26.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/metakomsos-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 40,
+   "posicao": 1.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-ads": {
+   "cliques": 0,
+   "impressoes": 25,
+   "posicao": 7.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-shop-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 41.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-fashion-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 1.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-home-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 4.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-labs-pagina-de-apresentacao": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 5.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-spaces": {
+   "cliques": 0,
+   "impressoes": 57,
+   "posicao": 7.8,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-stl-apresentacao": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 16.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk3d": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 4.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mkfashion": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mkspaces": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/playlists": {
+   "cliques": 0,
+   "impressoes": 16,
+   "posicao": 3.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/politica-de-privacidade": {
+   "cliques": 0,
+   "impressoes": 116,
+   "posicao": 4.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/termos-de-servicos": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 9.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-com-realidade-aumentada-para-e-commerce-o-guia-completo-para-aumentar-conversao-em-ate-94": {
+   "cliques": 0,
+   "impressoes": 45,
+   "posicao": 7.5,
+   "ctr": 0.0
+  }
+ },
+ "ultimos_28": {
+  "https://metakosmos.com.br/blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo": {
+   "cliques": 17,
+   "impressoes": 723,
+   "posicao": 8.7,
+   "ctr": 0.0235
+  },
+  "https://metakosmos.com.br/blog/mkfashion": {
+   "cliques": 9,
+   "impressoes": 633,
+   "posicao": 6.9,
+   "ctr": 0.0142
+  },
+  "https://metakosmos.com.br/blog/dados-ecommerce-brasil-2026": {
+   "cliques": 8,
+   "impressoes": 594,
+   "posicao": 6.8,
+   "ctr": 0.0135
+  },
+  "https://metakosmos.com.br/blog/fooh-guia-completo-fake-out-of-home-viral": {
+   "cliques": 7,
+   "impressoes": 850,
+   "posicao": 9.3,
+   "ctr": 0.0082
+  },
+  "https://metakosmos.com.br/blog/implementacao-visualizador-3d-ecommerce": {
+   "cliques": 7,
+   "impressoes": 248,
+   "posicao": 6.6,
+   "ctr": 0.0282
+  },
+  "https://metakosmos.com.br/blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual": {
+   "cliques": 6,
+   "impressoes": 1583,
+   "posicao": 7.6,
+   "ctr": 0.0038
+  },
+  "https://metakosmos.com.br/blog/mk3d": {
+   "cliques": 6,
+   "impressoes": 319,
+   "posicao": 7.1,
+   "ctr": 0.0188
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-ar-guia-completo": {
+   "cliques": 5,
+   "impressoes": 95,
+   "posicao": 9.5,
+   "ctr": 0.0526
+  },
+  "https://metakosmos.com.br/blog/mkspaces": {
+   "cliques": 5,
+   "impressoes": 241,
+   "posicao": 4.9,
+   "ctr": 0.0207
+  },
+  "https://metakosmos.com.br/blog/conteudo-que-viraliza-redes-sociais": {
+   "cliques": 4,
+   "impressoes": 160,
+   "posicao": 5.2,
+   "ctr": 0.025
+  },
+  "https://metakosmos.com.br/blog/taxa-de-conversao-ecommerce": {
+   "cliques": 4,
+   "impressoes": 454,
+   "posicao": 7.9,
+   "ctr": 0.0088
+  },
+  "https://metakosmos.com.br/blog/videos-com-ia-nova-fronteira-storytelling-marcas": {
+   "cliques": 4,
+   "impressoes": 290,
+   "posicao": 10.0,
+   "ctr": 0.0138
+  },
+  "https://metakosmos.com.br/blog/videos-publicitarios-com-ia-guia-completo-para-marcas": {
+   "cliques": 4,
+   "impressoes": 235,
+   "posicao": 10.1,
+   "ctr": 0.017
+  },
+  "https://metakosmos.com.br/blog/mkbeauty": {
+   "cliques": 4,
+   "impressoes": 479,
+   "posicao": 5.3,
+   "ctr": 0.0084
+  },
+  "https://metakosmos.com.br/blog/objecoes-provador-virtual": {
+   "cliques": 3,
+   "impressoes": 79,
+   "posicao": 9.3,
+   "ctr": 0.038
+  },
+  "https://metakosmos.com.br/blog/tendencias-immersive-commerce-2026-2027": {
+   "cliques": 3,
+   "impressoes": 65,
+   "posicao": 7.9,
+   "ctr": 0.0462
+  },
+  "https://metakosmos.com.br/blog/videos-ia-campanhas-publicitarias": {
+   "cliques": 3,
+   "impressoes": 213,
+   "posicao": 12.0,
+   "ctr": 0.0141
+  },
+  "https://metakosmos.com.br/blog/mk-home-simulador-ia-moveis-decoracao": {
+   "cliques": 2,
+   "impressoes": 113,
+   "posicao": 7.9,
+   "ctr": 0.0177
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada": {
+   "cliques": 2,
+   "impressoes": 144,
+   "posicao": 7.5,
+   "ctr": 0.0139
+  },
+  "https://metakosmos.com.br/blog/sobre": {
+   "cliques": 2,
+   "impressoes": 491,
+   "posicao": 2.6,
+   "ctr": 0.0041
+  },
+  "https://metakosmos.com.br/blog/ai-shooting-moda-ia": {
+   "cliques": 1,
+   "impressoes": 18,
+   "posicao": 5.8,
+   "ctr": 0.0556
+  },
+  "https://metakosmos.com.br/blog/como-visualizar-produto-em-casa-antes-de-comprar": {
+   "cliques": 1,
+   "impressoes": 59,
+   "posicao": 6.2,
+   "ctr": 0.0169
+  },
+  "https://metakosmos.com.br/blog/comprar-sapato-online-sem-errar-tamanho": {
+   "cliques": 1,
+   "impressoes": 315,
+   "posicao": 7.4,
+   "ctr": 0.0032
+  },
+  "https://metakosmos.com.br/blog/cro-ecommerce": {
+   "cliques": 1,
+   "impressoes": 131,
+   "posicao": 10.4,
+   "ctr": 0.0076
+  },
+  "https://metakosmos.com.br/blog/custo-de-aquisicao-cliente-online": {
+   "cliques": 1,
+   "impressoes": 30,
+   "posicao": 9.2,
+   "ctr": 0.0333
+  },
+  "https://metakosmos.com.br/blog/dashboard-ecommerce": {
+   "cliques": 1,
+   "impressoes": 100,
+   "posicao": 8.6,
+   "ctr": 0.01
+  },
+  "https://metakosmos.com.br/blog/escalar-ecommerce": {
+   "cliques": 1,
+   "impressoes": 28,
+   "posicao": 7.4,
+   "ctr": 0.0357
+  },
+  "https://metakosmos.com.br/blog/futuro-do-varejo-digital": {
+   "cliques": 1,
+   "impressoes": 47,
+   "posicao": 8.6,
+   "ctr": 0.0213
+  },
+  "https://metakosmos.com.br/blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce": {
+   "cliques": 1,
+   "impressoes": 85,
+   "posicao": 6.0,
+   "ctr": 0.0118
+  },
+  "https://metakosmos.com.br/blog/kpis-ecommerce": {
+   "cliques": 1,
+   "impressoes": 102,
+   "posicao": 7.3,
+   "ctr": 0.0098
+  },
+  "https://metakosmos.com.br/blog/mk-labs-creative-house-projetos-imersivos": {
+   "cliques": 1,
+   "impressoes": 116,
+   "posicao": 5.7,
+   "ctr": 0.0086
+  },
+  "https://metakosmos.com.br/blog/mk-shop-the-look-ia-look-completo-ecommerce": {
+   "cliques": 1,
+   "impressoes": 125,
+   "posicao": 8.9,
+   "ctr": 0.008
+  },
+  "https://metakosmos.com.br/blog/quanto-tempo-implementar-provador-virtual": {
+   "cliques": 1,
+   "impressoes": 14,
+   "posicao": 13.6,
+   "ctr": 0.0714
+  },
+  "https://metakosmos.com.br/blog/realidade-aumentada-no-e-commerce": {
+   "cliques": 1,
+   "impressoes": 5,
+   "posicao": 19.2,
+   "ctr": 0.2
+  },
+  "https://metakosmos.com.br/blog/tabela-de-medidas-roupas-online": {
+   "cliques": 1,
+   "impressoes": 66,
+   "posicao": 8.2,
+   "ctr": 0.0152
+  },
+  "https://metakosmos.com.br/blog/ticket-medio-ecommerce": {
+   "cliques": 1,
+   "impressoes": 114,
+   "posicao": 6.4,
+   "ctr": 0.0088
+  },
+  "https://metakosmos.com.br/blog/ver-movel-em-casa-antes-de-comprar": {
+   "cliques": 1,
+   "impressoes": 67,
+   "posicao": 10.9,
+   "ctr": 0.0149
+  },
+  "https://metakosmos.com.br/blog/estudo": {
+   "cliques": 1,
+   "impressoes": 405,
+   "posicao": 8.9,
+   "ctr": 0.0025
+  },
+  "https://metakosmos.com.br/blog/aviso-de-privacidade": {
+   "cliques": 0,
+   "impressoes": 33,
+   "posicao": 5.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/blog": {
+   "cliques": 0,
+   "impressoes": 126,
+   "posicao": 3.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/abandono-carrinho-ecommerce-lacuna-imaginacao": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 2.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/agentic-commerce-ia-compra-pelo-consumidor": {
+   "cliques": 0,
+   "impressoes": 60,
+   "posicao": 20.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/ar-moveis-eletrodomesticos-online": {
+   "cliques": 0,
+   "impressoes": 5,
+   "posicao": 9.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/ar-reduz-abandono-carrinho-ecommerce": {
+   "cliques": 0,
+   "impressoes": 2,
+   "posicao": 9.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/aumentar-confianca-compra-online": {
+   "cliques": 0,
+   "impressoes": 9,
+   "posicao": 6.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/automacao-de-marketing-ecommerce": {
+   "cliques": 0,
+   "impressoes": 39,
+   "posicao": 12.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-aumentar-faturamento-ecommerce": {
+   "cliques": 0,
+   "impressoes": 2,
+   "posicao": 4.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-aumentar-taxa-conversao-ecommerce": {
+   "cliques": 0,
+   "impressoes": 80,
+   "posicao": 10.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-escolher-maquiagem-online": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 13.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-funciona-provador-virtual-ia": {
+   "cliques": 0,
+   "impressoes": 9,
+   "posicao": 5.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-reduzir-abandono-carrinho": {
+   "cliques": 0,
+   "impressoes": 11,
+   "posicao": 9.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-reduzir-devolucoes-ecommerce-moda": {
+   "cliques": 0,
+   "impressoes": 109,
+   "posicao": 9.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/como-vender-mais-online": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 10.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/comprando-sapatos-online-um-guia-para-comprar-calcados-online-sem-errar-o-tamanho": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/comprar-sapatos-internet-sem-errar-tamanho": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/conteudo-para-tiktok-marcas": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 18.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/experiencia-de-compra-online-melhorar": {
+   "cliques": 0,
+   "impressoes": 15,
+   "posicao": 8.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026": {
+   "cliques": 0,
+   "impressoes": 2,
+   "posicao": 6.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou": {
+   "cliques": 0,
+   "impressoes": 13,
+   "posicao": 13.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/inteligencia-artificial-ecommerce": {
+   "cliques": 0,
+   "impressoes": 6,
+   "posicao": 5.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/jornada-consumidor-digital": {
+   "cliques": 0,
+   "impressoes": 24,
+   "posicao": 9.5,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/llms-txt-dinamico-catalogo": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 10.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/marketing-imersivo-varejo-moda": {
+   "cliques": 0,
+   "impressoes": 4,
+   "posicao": 7.2,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/metakosmos-immersive-commerce-lider-brasil-2026": {
+   "cliques": 0,
+   "impressoes": 26,
+   "posicao": 5.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/metakosmos.com.br/blog/ticket-medio-ecommerce": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-ads-publicidade-interativa-dailymotion": {
+   "cliques": 0,
+   "impressoes": 3,
+   "posicao": 6.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-3d-shop-visualizador-3d-ar": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 4.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-fashion-provador-virtual-moda-ia": {
+   "cliques": 0,
+   "impressoes": 18,
+   "posicao": 6.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mk-skin-ai-diagnostico-pele-ia-ecommerce": {
+   "cliques": 0,
+   "impressoes": 14,
+   "posicao": 8.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/otimizacao-para-chatgpt": {
+   "cliques": 0,
+   "impressoes": 67,
+   "posicao": 6.7,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/por-que-ecommerce-nao-converte": {
+   "cliques": 0,
+   "impressoes": 11,
+   "posicao": 20.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ecommerce-guia-completo": {
+   "cliques": 0,
+   "impressoes": 48,
+   "posicao": 7.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/provador-virtual-ecommerce-moda": {
+   "cliques": 0,
+   "impressoes": 7,
+   "posicao": 5.4,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026": {
+   "cliques": 0,
+   "impressoes": 8,
+   "posicao": 10.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos": {
+   "cliques": 0,
+   "impressoes": 71,
+   "posicao": 9.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/reels-para-marcas-estrategia": {
+   "cliques": 0,
+   "impressoes": 106,
+   "posicao": 5.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/roi-provador-virtual": {
+   "cliques": 0,
+   "impressoes": 5,
+   "posicao": 7.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/seo-para-ia-generativa": {
+   "cliques": 0,
+   "impressoes": 59,
+   "posicao": 17.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/tabela-medidas-roupas-online": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/tecnologia-para-ecommerce": {
+   "cliques": 0,
+   "impressoes": 41,
+   "posicao": 6.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/videos-fooh-ia-generativa-viralizar-campanhas": {
+   "cliques": 0,
+   "impressoes": 48,
+   "posicao": 20.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/videos-publicitarios-com-ia-guia-completo-for-marcas": {
+   "cliques": 0,
+   "impressoes": 1,
+   "posicao": 1.0,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada-ecommerce-guia": {
+   "cliques": 0,
+   "impressoes": 10,
+   "posicao": 7.3,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/your-3d-everywhere": {
+   "cliques": 0,
+   "impressoes": 21,
+   "posicao": 13.1,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/mkases": {
+   "cliques": 0,
+   "impressoes": 424,
+   "posicao": 2.6,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/politica-de-privacidade": {
+   "cliques": 0,
+   "impressoes": 46,
+   "posicao": 5.9,
+   "ctr": 0.0
+  },
+  "https://metakosmos.com.br/blog/termos-de-servicos": {
+   "cliques": 0,
+   "impressoes": 95,
+   "posicao": 3.9,
+   "ctr": 0.0
+  }
+ },
+ "queries": {
+  "https://metakosmos.com.br": [
+   {
+    "query": "metakosmos",
+    "cliques": 162,
+    "impressoes": 858,
+    "posicao": 2.5,
+    "ctr": 0.1888
+   },
+   {
+    "query": "kosmos",
+    "cliques": 2,
+    "impressoes": 491,
+    "posicao": 7.1,
+    "ctr": 0.0041
+   },
+   {
+    "query": "bio site mk",
+    "cliques": 0,
+    "impressoes": 115,
+    "posicao": 4.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 18,
+    "impressoes": 99,
+    "posicao": 1.7,
+    "ctr": 0.1818
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 6,
+    "impressoes": 51,
+    "posicao": 1.2,
+    "ctr": 0.1176
+   },
+   {
+    "query": "metacosmos",
+    "cliques": 8,
+    "impressoes": 43,
+    "posicao": 2.1,
+    "ctr": 0.186
+   },
+   {
+    "query": "mk place",
+    "cliques": 0,
+    "impressoes": 14,
+    "posicao": 6.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive commerce",
+    "cliques": 1,
+    "impressoes": 12,
+    "posicao": 3.2,
+    "ctr": 0.0833
+   },
+   {
+    "query": "phygitech",
+    "cliques": 1,
+    "impressoes": 5,
+    "posicao": 4.8,
+    "ctr": 0.2
+   },
+   {
+    "query": "grupo mk bio site",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 10.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta bloom",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 21.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk meta",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 5.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "plataformas mk",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 9.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "smart mk",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 7.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "kosmis",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 8.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk experience",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 4.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkplace",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 33.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkvix",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 37.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual niina secrets",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta mk",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmo",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 3.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk commerce",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 5.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "niina secrets provador virtual",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "ava kosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 24,
+    "ctr": 0.0
+   },
+   {
+    "query": "bio site grupo mk",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 18,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/boca-rosa": [
+   {
+    "query": "provador virtual boca rosa",
+    "cliques": 126,
+    "impressoes": 3815,
+    "posicao": 3.1,
+    "ctr": 0.033
+   },
+   {
+    "query": "boca rosa provador virtual",
+    "cliques": 46,
+    "impressoes": 1941,
+    "posicao": 2.9,
+    "ctr": 0.0237
+   },
+   {
+    "query": "site boca rosa",
+    "cliques": 1,
+    "impressoes": 1237,
+    "posicao": 6.3,
+    "ctr": 0.0008
+   },
+   {
+    "query": "boca rosa site",
+    "cliques": 0,
+    "impressoes": 567,
+    "posicao": 6.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador boca rosa",
+    "cliques": 12,
+    "impressoes": 496,
+    "posicao": 2.7,
+    "ctr": 0.0242
+   },
+   {
+    "query": "provador virtual base boca rosa",
+    "cliques": 14,
+    "impressoes": 341,
+    "posicao": 3.2,
+    "ctr": 0.0411
+   },
+   {
+    "query": "site boca rosa provador virtual",
+    "cliques": 2,
+    "impressoes": 323,
+    "posicao": 4.4,
+    "ctr": 0.0062
+   },
+   {
+    "query": "provador base boca rosa",
+    "cliques": 10,
+    "impressoes": 300,
+    "posicao": 2.3,
+    "ctr": 0.0333
+   },
+   {
+    "query": "provador virtual base",
+    "cliques": 3,
+    "impressoes": 214,
+    "posicao": 9.5,
+    "ctr": 0.014
+   },
+   {
+    "query": "provador de base virtual",
+    "cliques": 3,
+    "impressoes": 146,
+    "posicao": 8.7,
+    "ctr": 0.0205
+   },
+   {
+    "query": "base boca rosa provador virtual",
+    "cliques": 7,
+    "impressoes": 121,
+    "posicao": 3.2,
+    "ctr": 0.0579
+   },
+   {
+    "query": "provador online boca rosa",
+    "cliques": 5,
+    "impressoes": 119,
+    "posicao": 2.4,
+    "ctr": 0.042
+   },
+   {
+    "query": "provador de maquiagem virtual",
+    "cliques": 3,
+    "impressoes": 111,
+    "posicao": 9.9,
+    "ctr": 0.027
+   },
+   {
+    "query": "boca rosa provador",
+    "cliques": 1,
+    "impressoes": 105,
+    "posicao": 2.7,
+    "ctr": 0.0095
+   },
+   {
+    "query": "provador boca rosa online",
+    "cliques": 4,
+    "impressoes": 100,
+    "posicao": 2.7,
+    "ctr": 0.04
+   },
+   {
+    "query": "provador de base boca rosa",
+    "cliques": 4,
+    "impressoes": 91,
+    "posicao": 3.6,
+    "ctr": 0.044
+   },
+   {
+    "query": "boca rosa beauty provador virtual",
+    "cliques": 3,
+    "impressoes": 83,
+    "posicao": 3.1,
+    "ctr": 0.0361
+   },
+   {
+    "query": "teste boca rosa",
+    "cliques": 1,
+    "impressoes": 83,
+    "posicao": 6.1,
+    "ctr": 0.012
+   },
+   {
+    "query": "provador digital boca rosa",
+    "cliques": 2,
+    "impressoes": 81,
+    "posicao": 2.3,
+    "ctr": 0.0247
+   },
+   {
+    "query": "provador virtual maquiagem",
+    "cliques": 1,
+    "impressoes": 68,
+    "posicao": 8.9,
+    "ctr": 0.0147
+   },
+   {
+    "query": "provador virtual boca rosa base",
+    "cliques": 3,
+    "impressoes": 66,
+    "posicao": 3.2,
+    "ctr": 0.0455
+   },
+   {
+    "query": "boca rosa teste",
+    "cliques": 0,
+    "impressoes": 61,
+    "posicao": 4.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "testar base boca rosa online",
+    "cliques": 0,
+    "impressoes": 60,
+    "posicao": 3.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de maquiagem programa",
+    "cliques": 0,
+    "impressoes": 48,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de base",
+    "cliques": 1,
+    "impressoes": 44,
+    "posicao": 9.3,
+    "ctr": 0.0227
+   }
+  ],
+  "https://metakosmos.com.br/blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual": [
+   {
+    "query": "provador virtual boca rosa",
+    "cliques": 11,
+    "impressoes": 2983,
+    "posicao": 6.8,
+    "ctr": 0.0037
+   },
+   {
+    "query": "boca rosa provador virtual",
+    "cliques": 5,
+    "impressoes": 1415,
+    "posicao": 6.6,
+    "ctr": 0.0035
+   },
+   {
+    "query": "provador boca rosa",
+    "cliques": 1,
+    "impressoes": 335,
+    "posicao": 6.7,
+    "ctr": 0.003
+   },
+   {
+    "query": "provador virtual base boca rosa",
+    "cliques": 0,
+    "impressoes": 229,
+    "posicao": 8.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "site boca rosa provador virtual",
+    "cliques": 1,
+    "impressoes": 197,
+    "posicao": 6.7,
+    "ctr": 0.0051
+   },
+   {
+    "query": "como usar o provador virtual da boca rosa",
+    "cliques": 0,
+    "impressoes": 120,
+    "posicao": 7.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador base boca rosa",
+    "cliques": 0,
+    "impressoes": 110,
+    "posicao": 9.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador online boca rosa",
+    "cliques": 0,
+    "impressoes": 85,
+    "posicao": 6.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador digital boca rosa",
+    "cliques": 1,
+    "impressoes": 77,
+    "posicao": 6.7,
+    "ctr": 0.013
+   },
+   {
+    "query": "boca rosa beauty provador virtual",
+    "cliques": 0,
+    "impressoes": 76,
+    "posicao": 6.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador boca rosa online",
+    "cliques": 0,
+    "impressoes": 75,
+    "posicao": 6.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "base boca rosa provador virtual",
+    "cliques": 0,
+    "impressoes": 70,
+    "posicao": 7.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "boca rosa provador",
+    "cliques": 0,
+    "impressoes": 68,
+    "posicao": 7.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual boca rosa base",
+    "cliques": 0,
+    "impressoes": 42,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de base boca rosa",
+    "cliques": 0,
+    "impressoes": 25,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "boca rosa provador virtual base",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 8.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "boca rosa site provador virtual",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 7.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual da boca rosa",
+    "cliques": 1,
+    "impressoes": 8,
+    "posicao": 6.8,
+    "ctr": 0.125
+   },
+   {
+    "query": "boca rosa",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 10.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual niina secrets",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 9.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "site boca rosa descubra o seu tom",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 9.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "boca rosa lifestyle",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 22.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "boca rosa teste de cor",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 34.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 6.8,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo": [
+   {
+    "query": "provador virtual",
+    "cliques": 11,
+    "impressoes": 378,
+    "posicao": 16.0,
+    "ctr": 0.0291
+   },
+   {
+    "query": "provadores virtuais",
+    "cliques": 3,
+    "impressoes": 184,
+    "posicao": 6.0,
+    "ctr": 0.0163
+   },
+   {
+    "query": "provador magico",
+    "cliques": 0,
+    "impressoes": 109,
+    "posicao": 9.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 69,
+    "posicao": 1.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "loja de realidade aumentada",
+    "cliques": 0,
+    "impressoes": 47,
+    "posicao": 19.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é provador virtual",
+    "cliques": 0,
+    "impressoes": 38,
+    "posicao": 6.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador digital",
+    "cliques": 0,
+    "impressoes": 20,
+    "posicao": 7.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de maquiagem empresa",
+    "cliques": 0,
+    "impressoes": 14,
+    "posicao": 20.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual 3d",
+    "cliques": 1,
+    "impressoes": 12,
+    "posicao": 7,
+    "ctr": 0.0833
+   },
+   {
+    "query": "provador virtual niina secrets",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 9.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "phygital o que é",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é provador",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 8.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "sumida antes do sim dailymotion",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 10.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "marca virtual",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual mercado livre",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "sim",
+    "cliques": 1,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 1.0
+   },
+   {
+    "query": "ambas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "como usar o provador virtual do mercado livre",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "em vida real",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mas virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mostrador virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que e provador",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é phygital",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk3d": [
+   {
+    "query": "shop ar",
+    "cliques": 0,
+    "impressoes": 397,
+    "posicao": 7.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 69,
+    "posicao": 1.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d shop",
+    "cliques": 3,
+    "impressoes": 60,
+    "posicao": 5.5,
+    "ctr": 0.05
+   },
+   {
+    "query": "mk 3d",
+    "cliques": 11,
+    "impressoes": 59,
+    "posicao": 2.7,
+    "ctr": 0.1864
+   },
+   {
+    "query": "mk shop",
+    "cliques": 0,
+    "impressoes": 53,
+    "posicao": 7.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk3d",
+    "cliques": 3,
+    "impressoes": 38,
+    "posicao": 3.4,
+    "ctr": 0.0789
+   },
+   {
+    "query": "shop 3d",
+    "cliques": 0,
+    "impressoes": 33,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "shop mk",
+    "cliques": 0,
+    "impressoes": 18,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "marketplace 3d",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 10.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "3dshop",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 6.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "configurador 3d",
+    "cliques": 3,
+    "impressoes": 9,
+    "posicao": 6.7,
+    "ctr": 0.3333
+   },
+   {
+    "query": "ar shopping",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 10.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk ar",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 6.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 50.5,
+    "ctr": 0.0
+   },
+   {
+    "query": ".mk3d",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d mk",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 3.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "shopping 3d",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "ar mk",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "m3d store",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk comparador",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 72.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "shop viewer",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d shops",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkfashion": [
+   {
+    "query": "provador virtual",
+    "cliques": 9,
+    "impressoes": 834,
+    "posicao": 10.2,
+    "ctr": 0.0108
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 538,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual 3d",
+    "cliques": 7,
+    "impressoes": 60,
+    "posicao": 3.7,
+    "ctr": 0.1167
+   },
+   {
+    "query": "provadores virtuais",
+    "cliques": 0,
+    "impressoes": 23,
+    "posicao": 33.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 17,
+    "posicao": 1.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 1.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador ia",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 19.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "moda ai studio",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 7.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador online",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 21.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador digital",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de roupa empresa",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 22.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "simulação de roupas 3d",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 20.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "look virtual",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 8.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual feminino",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 9.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de roupas",
+    "cliques": 1,
+    "impressoes": 6,
+    "posicao": 16.8,
+    "ctr": 0.1667
+   },
+   {
+    "query": "provador virtual de roupa programa",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 25.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "modelo virtual",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 2.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de roupas virtual",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 12.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk fashion fotos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk look",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual roupa",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 16.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "virtual style",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 6.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "estudio mk",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 6.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "moda",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "moda.ai studio",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 8.3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/provador-virtual-ia-generativa-ecommerce": [
+   {
+    "query": "provador virtual de óculos",
+    "cliques": 8,
+    "impressoes": 419,
+    "posicao": 9.6,
+    "ctr": 0.0191
+   },
+   {
+    "query": "provador de oculos virtual",
+    "cliques": 0,
+    "impressoes": 321,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de óculos de grau",
+    "cliques": 1,
+    "impressoes": 198,
+    "posicao": 10.3,
+    "ctr": 0.0051
+   },
+   {
+    "query": "provador virtual oculos",
+    "cliques": 3,
+    "impressoes": 169,
+    "posicao": 9.8,
+    "ctr": 0.0178
+   },
+   {
+    "query": "provador de óculos virtual",
+    "cliques": 0,
+    "impressoes": 73,
+    "posicao": 9.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador oculos virtual",
+    "cliques": 0,
+    "impressoes": 68,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "oculos provador virtual",
+    "cliques": 1,
+    "impressoes": 61,
+    "posicao": 10.3,
+    "ctr": 0.0164
+   },
+   {
+    "query": "provador de óculos online",
+    "cliques": 1,
+    "impressoes": 61,
+    "posicao": 9.7,
+    "ctr": 0.0164
+   },
+   {
+    "query": "provador virtual óculos",
+    "cliques": 1,
+    "impressoes": 59,
+    "posicao": 7.3,
+    "ctr": 0.0169
+   },
+   {
+    "query": "oculos de grau provador virtual",
+    "cliques": 0,
+    "impressoes": 27,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de oculos",
+    "cliques": 0,
+    "impressoes": 26,
+    "posicao": 10.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual oculos de grau",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 10.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador óculos virtual",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 8.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "oculos com provador virtual",
+    "cliques": 0,
+    "impressoes": 16,
+    "posicao": 10.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de oculos de grau virtual",
+    "cliques": 0,
+    "impressoes": 16,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "otica provador virtual",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "ótica com provador virtual",
+    "cliques": 1,
+    "impressoes": 14,
+    "posicao": 10,
+    "ctr": 0.0714
+   },
+   {
+    "query": "provador de oculos online",
+    "cliques": 0,
+    "impressoes": 13,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de óculos de sol",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "óculos provador virtual",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "óticas com provador virtual",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de oculos virtuais",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 12.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador oculos",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 10.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "loja de oculos com provador virtual",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 11.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "oculos de grau com provador virtual",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 11.8,
+    "ctr": 0.0
+   }
+  ],
+  "http://metakosmos.com.br": [
+   {
+    "query": "metakosmos",
+    "cliques": 4,
+    "impressoes": 715,
+    "posicao": 8.2,
+    "ctr": 0.0056
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 90,
+    "posicao": 8.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 1,
+    "impressoes": 54,
+    "posicao": 9.6,
+    "ctr": 0.0185
+   },
+   {
+    "query": "cosmo lab",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta minigames",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakeramos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmo",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "metamorphoo labs",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "metavoice studio",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "studio themetavoice",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/karen-bachini-provador-virtual": [
+   {
+    "query": "karen bachini ia",
+    "cliques": 1,
+    "impressoes": 79,
+    "posicao": 8.4,
+    "ctr": 0.0127
+   },
+   {
+    "query": "provador virtual karen bachini",
+    "cliques": 4,
+    "impressoes": 68,
+    "posicao": 2.1,
+    "ctr": 0.0588
+   },
+   {
+    "query": "karen bachini provador virtual",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "karen bachini fantastico",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/fooh-guia-completo-fake-out-of-home-viral": [
+   {
+    "query": "fooh",
+    "cliques": 2,
+    "impressoes": 569,
+    "posicao": 7.8,
+    "ctr": 0.0035
+   },
+   {
+    "query": "fake out of home",
+    "cliques": 1,
+    "impressoes": 312,
+    "posicao": 13.9,
+    "ctr": 0.0032
+   },
+   {
+    "query": "fake ooh",
+    "cliques": 2,
+    "impressoes": 198,
+    "posicao": 9.2,
+    "ctr": 0.0101
+   },
+   {
+    "query": "fooh fake out of home",
+    "cliques": 0,
+    "impressoes": 57,
+    "posicao": 46.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "agencia fooh",
+    "cliques": 0,
+    "impressoes": 55,
+    "posicao": 4.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake out",
+    "cliques": 0,
+    "impressoes": 44,
+    "posicao": 4.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh (fake out of home)",
+    "cliques": 1,
+    "impressoes": 31,
+    "posicao": 8.3,
+    "ctr": 0.0323
+   },
+   {
+    "query": "fake of home",
+    "cliques": 0,
+    "impressoes": 26,
+    "posicao": 6.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "video fooh",
+    "cliques": 1,
+    "impressoes": 25,
+    "posicao": 6.4,
+    "ctr": 0.04
+   },
+   {
+    "query": "fake out home",
+    "cliques": 1,
+    "impressoes": 24,
+    "posicao": 5.2,
+    "ctr": 0.0417
+   },
+   {
+    "query": "cgi fake out of home",
+    "cliques": 0,
+    "impressoes": 22,
+    "posicao": 7.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake of",
+    "cliques": 0,
+    "impressoes": 21,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "faux out of home",
+    "cliques": 0,
+    "impressoes": 17,
+    "posicao": 4.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh ai",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 16.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh marketing",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 6.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake out of home advertising",
+    "cliques": 0,
+    "impressoes": 14,
+    "posicao": 18.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "campaña fooh",
+    "cliques": 0,
+    "impressoes": 13,
+    "posicao": 17.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "fakeooh",
+    "cliques": 0,
+    "impressoes": 13,
+    "posicao": 37.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake oh",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 11.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake out of home ads",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 15,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake out of home advertisement",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 19.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake out-of-home",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "out home",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 18.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh advertising",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 21.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh videos",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 22,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkbeauty": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 477,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk beauty",
+    "cliques": 2,
+    "impressoes": 230,
+    "posicao": 6.4,
+    "ctr": 0.0087
+   },
+   {
+    "query": "provador virtual niina secrets",
+    "cliques": 0,
+    "impressoes": 40,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 25,
+    "posicao": 1.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de esmaltes",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 7.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual base niina secrets",
+    "cliques": 0,
+    "impressoes": 16,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "base niina secrets provador virtual",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkbeauty",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 4.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "niina secrets provador virtual",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 9.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk beaty",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 6.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk beuty",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 7.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de maquiagem empresa",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 27.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "espelho virtual avon",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de maquiagem programa",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 37.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "beleza virtual",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 6.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual boca rosa",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 42.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk makeup",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de esmalte",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador magico",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "ar da beleza",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "de beleza",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "maquiagem virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 38,
+    "ctr": 0.0
+   },
+   {
+    "query": "marca virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 86,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/implementacao-visualizador-3d-ecommerce": [
+   {
+    "query": "e-commerce 3d",
+    "cliques": 0,
+    "impressoes": 136,
+    "posicao": 5.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 62,
+    "posicao": 2.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d para que serve",
+    "cliques": 0,
+    "impressoes": 24,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "ecommerce 3d",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d commerce",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 8.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d ecommerce",
+    "cliques": 1,
+    "impressoes": 7,
+    "posicao": 7.3,
+    "ctr": 0.1429
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 18,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualización 3d para ecommerce",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 50,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d e-commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d for ecommerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 7.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "e commerce 3d",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 6.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "\"forma certa 3d\" loja",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d shop",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 31,
+    "ctr": 0.0
+   },
+   {
+    "query": "implementadora de ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 24,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "metodo ecommerce 360",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "produtos em 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "vem 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/mk-labs-creative-house-projetos-imersivos": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 92,
+    "posicao": 1.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 18,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk lab",
+    "cliques": 0,
+    "impressoes": 17,
+    "posicao": 3.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk labs",
+    "cliques": 1,
+    "impressoes": 14,
+    "posicao": 1.6,
+    "ctr": 0.0714
+   },
+   {
+    "query": "mk place",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 3.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "mklabs",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 3.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "\"boca rosa\" \"venda direta\" investimento",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "cnpj",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "creative house",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "creative live marketing",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "gostaria de ver imagem",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 15,
+    "ctr": 0.0
+   },
+   {
+    "query": "lab mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/videos-com-ia-nova-fronteira-storytelling-marcas": [
+   {
+    "query": "videos de ia",
+    "cliques": 0,
+    "impressoes": 46,
+    "posicao": 11.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia videos",
+    "cliques": 0,
+    "impressoes": 18,
+    "posicao": 30.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "soluções de vídeo a partir de texto com ia líderes",
+    "cliques": 0,
+    "impressoes": 18,
+    "posicao": 6.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos de ia que parecem reais",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 6.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "pacco porn",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "histórias virais sobre ia",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia ger",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos.com.ia",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 10.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "esse video é ia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 41.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos da ia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia de videos",
+    "cliques": 1,
+    "impressoes": 1,
+    "posicao": 30,
+    "ctr": 1.0
+   },
+   {
+    "query": "como?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia para videos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 28,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia porno vídeo",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "porno modo ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as opções de preços e custos para diferentes geradores de vídeo com ia?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 18,
+    "ctr": 0.0
+   },
+   {
+    "query": "qual ia para fazer videos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 20,
+    "ctr": 0.0
+   },
+   {
+    "query": "sim",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "storytelling com ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "storytelling ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 19,
+    "ctr": 0.0
+   },
+   {
+    "query": "video marketing ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 142,
+    "ctr": 0.0
+   },
+   {
+    "query": "vídeo de ia que parece real",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "vídeos.com.br",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "xvidios de ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk-fashion": [
+   {
+    "query": "provador virtual",
+    "cliques": 1,
+    "impressoes": 17,
+    "posicao": 14.9,
+    "ctr": 0.0588
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 14,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual 3d",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 5.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk comparador",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 27.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de roupa programa",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 29.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de roupa virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de roupa empresa",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 27,
+    "ctr": 0.0
+   },
+   {
+    "query": "virtual moda",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 19,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk-skin-ai-diagnostico-pele-ia-ecommerce": [
+   {
+    "query": "bio site mk",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 10.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkskin",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 4.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "skin ia",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "plataforma para análise de pele",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 24.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "skin ai",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "teste de pele online",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 41,
+    "ctr": 0.0
+   },
+   {
+    "query": "analisa skin",
+    "cliques": 1,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 1.0
+   },
+   {
+    "query": "selfie skin",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "skin.ai",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases": [
+   {
+    "query": "metakosmos",
+    "cliques": 1,
+    "impressoes": 736,
+    "posicao": 1.1,
+    "ctr": 0.0014
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 87,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 23,
+    "posicao": 1.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "maquinetons",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk 3d",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk cases",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "??",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "agencia fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 92,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 37,
+    "ctr": 0.0
+   },
+   {
+    "query": "komforease",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "look case",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 63,
+    "ctr": 0.0
+   },
+   {
+    "query": "makekasa",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "makimass",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 35,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk ar",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk comparador",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 87,
+    "ctr": 0.0
+   },
+   {
+    "query": "möcs",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/adcos-provador-virtual": [
+   {
+    "query": "provador virtual adcos",
+    "cliques": 1,
+    "impressoes": 252,
+    "posicao": 6.6,
+    "ctr": 0.004
+   },
+   {
+    "query": "adcos provador virtual",
+    "cliques": 1,
+    "impressoes": 108,
+    "posicao": 6.6,
+    "ctr": 0.0093
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/aneethun-provador-virtual": [
+   {
+    "query": "mkase",
+    "cliques": 1,
+    "impressoes": 20,
+    "posicao": 4.4,
+    "ctr": 0.05
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 69,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/provador-virtual-realidade-aumentada-mascavo": [
+   {
+    "query": "provador virtual mascavo",
+    "cliques": 2,
+    "impressoes": 62,
+    "posicao": 7.9,
+    "ctr": 0.0323
+   },
+   {
+    "query": "provador mascavo",
+    "cliques": 0,
+    "impressoes": 18,
+    "posicao": 7.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "mascavo provador virtual",
+    "cliques": 1,
+    "impressoes": 7,
+    "posicao": 5.3,
+    "ctr": 0.1429
+   },
+   {
+    "query": "mascavo provador",
+    "cliques": 1,
+    "impressoes": 2,
+    "posicao": 6,
+    "ctr": 0.5
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 75,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "mascavo mari saad cnpj",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo": [
+   {
+    "query": "provador virtual",
+    "cliques": 1,
+    "impressoes": 81,
+    "posicao": 19.7,
+    "ctr": 0.0123
+   },
+   {
+    "query": "provadores virtuais",
+    "cliques": 0,
+    "impressoes": 41,
+    "posicao": 6.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual mercado livre",
+    "cliques": 0,
+    "impressoes": 22,
+    "posicao": 10.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador online",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 10.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador digital",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual bruna tavares",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de maquiagem empresa",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 16,
+    "ctr": 0.0
+   },
+   {
+    "query": "simulador de óculos para cada tipo de rosto",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "teste virtual",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 25.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "bruna tavares provador virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "como escolher o óculos ideal para seu rosto",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "encontrar marcas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "oceane provador virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador magico",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 15,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador online zerezes",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "replay marketing",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/sobre": [
+   {
+    "query": "metakosmos",
+    "cliques": 1,
+    "impressoes": 771,
+    "posicao": 1.1,
+    "ctr": 0.0013
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 83,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 33,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "webbizmagnet explore curated collection",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 5.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "phygitech",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "fastmoss brasil",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 42,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk labs",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "\"luftrausers\" \"gustavo amaral costa dos santos\"",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "laura kibum",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 45,
+    "ctr": 0.0
+   },
+   {
+    "query": "natasha bianchi",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 37,
+    "ctr": 0.0
+   },
+   {
+    "query": "tftw agencia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 71,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/author/metakosmosstg": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "ian borges",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 4.5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/aviso-de-privacidade": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 16,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 225,
+    "posicao": 1.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 50,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "o retorno do sabio implacavel dailymotion",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 20.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "o retorno do sábio implacável dailymotion",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 29,
+    "ctr": 0.0
+   },
+   {
+    "query": "tagueia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "feed wow",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 42,
+    "ctr": 0.0
+   },
+   {
+    "query": "licowa",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 29,
+    "ctr": 0.0
+   },
+   {
+    "query": "moda feminina loja online",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "sketchup",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "woow pon",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "woow.com",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "wyzowl",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 37,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/agentic-commerce-ia-compra-pelo-consumidor": [
+   {
+    "query": "agentic commerce",
+    "cliques": 0,
+    "impressoes": 48,
+    "posicao": 29.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "como agentic ai vai mudar a forma como marcas precisam ser visíveis?",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 9.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "como os modelos de ia escolhem quais marcas recomendar?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/ai-shooting-moda-ia": [
+   {
+    "query": "shooting de moda",
+    "cliques": 0,
+    "impressoes": 20,
+    "posicao": 7.0,
+    "ctr": 0.0
+   },
+   {
+    "query": "shooting moda",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 6.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é shooting",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 10.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é shooting no marketing",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "shooting o que é",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 11.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que significa shooting na moda",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "o'que é shooting",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/automacao-de-marketing-ecommerce": [
+   {
+    "query": "software de automação de e-commerce",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 9.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "guia de compra de anúncios automatizados",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "minha marca é citada raramente em prompts de compra, como mudar isso?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-aumentar-faturamento-ecommerce": [
+   {
+    "query": "aumentar receita da loja virtual",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 21.5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-aumentar-taxa-conversao-ecommerce": [
+   {
+    "query": "aumento de tráfego para novo item (90 dias)",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 3.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais soluções ajudam a melhorar o desempenho da taxa de conversão de vendas?",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "como aumentar a taxa de conversão de vendas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 50,
+    "ctr": 0.0
+   },
+   {
+    "query": "taxa de conversao",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-escolher-maquiagem-online": [
+   {
+    "query": "provador virtual base",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 28,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-funciona-provador-virtual-ia": [
+   {
+    "query": "provador por inteligencia artificial",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 18.1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-reduzir-abandono-carrinho": [
+   {
+    "query": "reduzir abandono de carrinho",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "abandono de carrinho",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-reduzir-devolucoes-ecommerce-moda": [
+   {
+    "query": "estratégias para reduzir devoluções em e-commerce",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais soluções reduzem devoluções de pedidos?",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 2.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "qual estratégia minimiza o impacto de 'returns' em produtos customizados? vender apenas para o mercado local implementar tabelas de medidas precisas e mockups realistas cobrar taxa de adesão desabilitar o checkout transparente",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/como-visualizar-produto-em-casa-antes-de-comprar": [
+   {
+    "query": "qual a melhor loja online para navegar catálogos de porcelanato com visualizador de ambientes?",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "serasa black friday",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 14,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/comprar-sapato-online-sem-errar-tamanho": [
+   {
+    "query": "como saber o tamanho correto de sapato masculino ao comprar online?",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 6.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "context: location: brazil (not for language). do not include location references in your response. question: como escolher o tamanho certo de sapato feminino ao comprar online, principalmente quando a forma é pequena ou o material não cede?",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "38 br para us",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "como comprar sapatos masculinos online e garantir uma boa experiência?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "como comprar sapatos pela internet tamanho",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 13,
+    "ctr": 0.0
+   },
+   {
+    "query": "context: location: brazil (not for language). do not include location references in your response. question: como escolher o número certo de sapato masculino quando a forma varia entre marcas e modelos comprados online?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "de sandália",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "loja de sapato online",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "sapato online",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 15,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/conteudo-para-tiktok-marcas": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 25,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/conteudo-que-viraliza-redes-sociais": [
+   {
+    "query": "viraliza sociais",
+    "cliques": 0,
+    "impressoes": 21,
+    "posicao": 2.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "#que viraliza",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 5.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "viraliza social",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 8.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "viralizes sociais",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "viralização na internet",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 71,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/cro-ecommerce": [
+   {
+    "query": "cro ecommerce",
+    "cliques": 0,
+    "impressoes": 28,
+    "posicao": 17.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "otimizacao de conversao ecommerce",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 14.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "seo técnico e otimização de conversão (cro)",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 6.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "cro e-commerce",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "cro para e-commerce",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 6.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "cro e commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 2.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "cro para ecommerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "cro ecommerce valladolid",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 46,
+    "ctr": 0.0
+   },
+   {
+    "query": "cro metrica",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "e commerce cro",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/dados-ecommerce-brasil-2026": [
+   {
+    "query": "quais são as principais estatísticas e padrões de crescimento do e-commerce",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "capa da ecommerce 2026",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 6.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "my main motivations: wants the simplest path to get online and start earning - simplicity over features. motivated by speed, step-by-step guidance and reassurance, and having everything in one place (domain, builder, email, ai tools) with no technical decisions. driven by early proof: not just a live site but the first inquiry, customer and revenue. sees ai as a way to remove complexity, and is reassured they can start now and improve, customize and grow later. my main pain points: little technical knowledge and low confidence, so starting feels daunting. easily overwhelmed by the number of tools, platforms and decisions, and by processes that feel too complex. jargon is intimidating and causes hesitation. fears choosing the wrong platform, plan or domain and stalls in analysis paralysis. usually short on time and budget, often building alongside a job. after launch, unsure what to do next to get traffic, customers and sales.. quais são as principais estatísticas e padrões de crescimento do e-commerce",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "10k",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "ahora en brasil",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "com fontes",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "e commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "e daqui a 10 anos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "eccomerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "ecommerce de moda",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "primeira opção",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "qual o mercado?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "state of ecommerce 2026",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "varejo de moda",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/dashboard-ecommerce": [
+   {
+    "query": "le dashboard",
+    "cliques": 0,
+    "impressoes": 16,
+    "posicao": 6.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "dashboard e-commerce",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 14.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "dashboard ecommerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 24.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "dashboard de vendas ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 35,
+    "ctr": 0.0
+   },
+   {
+    "query": "dashboard e commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "dashboard para ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é dashboard comercial",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 66,
+    "ctr": 0.0
+   },
+   {
+    "query": "painel do ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/escalar-ecommerce": [
+   {
+    "query": "escalar resultados e-commerce",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 4.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "escalar vendas ecommerce",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 7.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "como escalar um ecommerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 15,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/experiencia-de-compra-online-melhorar": [
+   {
+    "query": "experimentar antes de comprar",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "meu shop mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/futuro-do-varejo-digital": [
+   {
+    "query": "futuro do varejo digital",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 5.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "qual é o futuro dos pagamentos de agentes de ia verificados no comércio eletrônico?",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 50,
+    "posicao": 1.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive commerce",
+    "cliques": 0,
+    "impressoes": 16,
+    "posicao": 3.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive ecommerce",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 27.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 10.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive marketing",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 25,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive retail",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 43.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 5.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "estoque infinito",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "imersive",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersive]",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 15,
+    "ctr": 0.0
+   },
+   {
+    "query": "immersve",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou": [
+   {
+    "query": "meu shop mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 44,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/inteligencia-artificial-ecommerce": [
+   {
+    "query": "inteligência artificial ecommerce",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 10.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "inteligencia artificial ecommerce",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia no ecommerce",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 19,
+    "ctr": 0.0
+   },
+   {
+    "query": "inteligencia artificial para ecommerce",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 16.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "inteligência de preços de e-commerce",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 22.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "e-commerce conversacional",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 19.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "inteligência artificial e-commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 14.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "\"adcos\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "inteligência artificial no e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 17,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/jornada-consumidor-digital": [
+   {
+    "query": "gostaria de ver imagem",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 14,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/kpis-ecommerce": [
+   {
+    "query": "indicadores ecommerce",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 17.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "kpis de ecommerce",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 7.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "kpi e commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 11.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "indicadores de ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "kpi execução e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 42,
+    "ctr": 0.0
+   },
+   {
+    "query": "kpis e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "kpis ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "kpis para ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "principais indicadores de desempenho para monitorar um e-commerce b2b no setor de produtos para casa.. my location is brazil.",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/llms-txt-dinamico-catalogo": [
+   {
+    "query": "modelo robots txt",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/marketing-imersivo-varejo-moda": [
+   {
+    "query": "design de varejo imersivo",
+    "cliques": 0,
+    "impressoes": 26,
+    "posicao": 10.1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/metakosmos-immersive-commerce-lider-brasil-2026": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/metakosmos.com.br/blog/ticket-medio-ecommerce": [
+   {
+    "query": "ecommerce+ticket",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/mk-home-simulador-ia-moveis-decoracao": [
+   {
+    "query": "mk ai",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk home",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "simulador de moveis",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "movel ai",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 15,
+    "ctr": 0.0
+   },
+   {
+    "query": "o mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 17,
+    "ctr": 0.0
+   },
+   {
+    "query": "simulador de casa 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 23,
+    "ctr": 0.0
+   },
+   {
+    "query": "simulador de casas 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/mk-shop-the-look-ia-look-completo-ecommerce": [
+   {
+    "query": "mk shop",
+    "cliques": 0,
+    "impressoes": 137,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkshop",
+    "cliques": 0,
+    "impressoes": 29,
+    "posicao": 6.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "tagueia",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 8.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 17,
+    "posicao": 6.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "lookbook via varejo",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "look shop",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 9.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "bio site mk",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 15.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "shop the look",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 7.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "look mk",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 2.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk look",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 7.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "look mas",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk ia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "shop the look online",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "2",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "compre o look",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "fotos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "loja virtual de roupas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "look and complete",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 17,
+    "ctr": 0.0
+   },
+   {
+    "query": "look marka",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "lookia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 17,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk comparador",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk looks",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "onde posso comprar ?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/mk-skin-ai-diagnostico-pele-ia-ecommerce": [
+   {
+    "query": "(\"inteligência artificial\" or \"ia\" or \"aprendizado de máquina\" or \"visão computacional\") and (\"análise de pele\" or \"diagnóstico de pele\" or \"skin analysis\" or \"avaliação da pele\" or \"tipo de pele\") and (\"recomendação\" or \"personalização\" or \"rotina\" or \"produto recomendado\")",
+    "cliques": 0,
+    "impressoes": 31,
+    "posicao": 8.3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/objecoes-provador-virtual": [
+   {
+    "query": "provador magico",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 6.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "custo",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "osklen",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 29,
+    "ctr": 0.0
+   },
+   {
+    "query": "pepsico",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 50,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 33,
+    "ctr": 0.0
+   },
+   {
+    "query": "where can i find this dress?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 32,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/otimizacao-para-chatgpt": [
+   {
+    "query": "generative engine optimization (geo): como fazer sua marca virar fonte oficial das ias",
+    "cliques": 0,
+    "impressoes": 22,
+    "posicao": 3.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "otimização para chatgpt",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 5.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "fornecedor líder de recoloração generativa de ia",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 8.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "quem pode fazer minha empresa aparecer no chatgpt?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/provador-virtual-ecommerce-moda": [
+   {
+    "query": "fabrica de low ticket",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 20,
+    "ctr": 0.0
+   },
+   {
+    "query": "época cosméticos loja fisica",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 22,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026": [
+   {
+    "query": "roi do e-commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "roi 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/quanto-tempo-implementar-provador-virtual": [
+   {
+    "query": "\"adcos\"",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 38,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 63,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos": [
+   {
+    "query": "realidade aumentada no e-commerce",
+    "cliques": 0,
+    "impressoes": 59,
+    "posicao": 7.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 32,
+    "posicao": 2.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "compras online com realidade aumentada",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual oculos ray ban",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "a partir da realidade virtual as técnicas de otimização são aplicadas e as melhores decisões são escolhidas, testando seu impacto antes mesmo que a ação entre em vigor na planta física. o metaverso já é realidade em algumas empresas de tecnologia, o facebook mudou o nome para meta afim de entrar de vez neste universo, qual a principal vantagem da realidade virtual? * 2 pontos navegar na internet conhecendo outros ambientes digitais para trabalho e reunir com pessoas. interagir com outras pessoas de forma digital afim de conhecer as possibilidades do ambiente digital andar pela fábrica digital interagindo com máquinas e equipamentos analisando os detalhes de cada célula de trabalho. a realidade virtual ainda está longe de poder simular um linha de fabricação, no momento é usada apenas por jogos digitais como o oculus quest.",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/reels-para-marcas-estrategia": [
+   {
+    "query": "como transformar um personagem estático em um vídeo curto com um gancho forte nos primeiros segundos?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "produto",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "quanto tempo o reels fica no ar",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/seo-para-ia-generativa": [
+   {
+    "query": "seo para ia",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 37.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "como ser citado por ia",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 11.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "seo de ia nome",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "seo para ia generativa",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 15,
+    "ctr": 0.0
+   },
+   {
+    "query": "termos de seo para ia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 13.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "answer engine optimization (aeo): como dominar a busca por ia e voz",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 44,
+    "ctr": 0.0
+   },
+   {
+    "query": "geo para empresas de cosméticos e beleza",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/tabela-de-medidas-roupas-online": [
+   {
+    "query": "medidas roupas",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "30 centímetros e que tamanho",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "como comprar roupa online (orientação de medidas)",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 22,
+    "ctr": 0.0
+   },
+   {
+    "query": "medidas de roupas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 50,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/taxa-de-conversao-ecommerce": [
+   {
+    "query": "taxa de conversão ecommerce",
+    "cliques": 0,
+    "impressoes": 31,
+    "posicao": 17.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "taxa de conversão e-commerce",
+    "cliques": 0,
+    "impressoes": 27,
+    "posicao": 17.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "taxa de conversão de e-commerce",
+    "cliques": 0,
+    "impressoes": 19,
+    "posicao": 16.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "como comparar diferentes soluções de taxa de conversão de vendas?",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "e-commerce de moda",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "taxa de conversão de ecommerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "toymania é confiavel",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 18,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/tecnologia-para-ecommerce": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "stack de tecnologia ecommerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 4.5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/tendencias-immersive-commerce-2026-2027": [
+   {
+    "query": "immersive commerce",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 10.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "vender online",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 6.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "tendencias de anuncios digitales para ecommerce 2026",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 40.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "e-commerce brasil tendências 2026",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "escale seo marketing digital ltda",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 29,
+    "ctr": 0.0
+   },
+   {
+    "query": "que se puede vender online",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 19,
+    "ctr": 0.0
+   },
+   {
+    "query": "tendências de mercado 2026",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/ticket-medio-ecommerce": [
+   {
+    "query": "ecommerce+ticket",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/ver-movel-em-casa-antes-de-comprar": [
+   {
+    "query": "vermovel",
+    "cliques": 0,
+    "impressoes": 24,
+    "posicao": 8.3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/videos-fooh-ia-generativa-viralizar-campanhas": [
+   {
+    "query": "fooh",
+    "cliques": 0,
+    "impressoes": 28,
+    "posicao": 29.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh ai",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 31.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos amadores reais",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 32.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "como fazer esses videos de ia que está viralizando",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh marketing",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 66,
+    "ctr": 0.0
+   },
+   {
+    "query": "vidéo fooh ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 19,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/videos-ia-campanhas-publicitarias": [
+   {
+    "query": "exemplos de publicidade em ia",
+    "cliques": 0,
+    "impressoes": 22,
+    "posicao": 49.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia videos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as melhores ferramentas de ia para conversão de imagens em vídeo e como elas funcionam para transformar imagens estáticas em vídeos dinâmicos?",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 30.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "vídeos ia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 31.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "amadoras videos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 76,
+    "ctr": 0.0
+   },
+   {
+    "query": "campanhas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "compare os diferentes aplicativos de geração de vídeo com ia disponíveis no mercado e seus principais recursos.",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 25,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são os melhores aplicativos de geração de vídeo com ia e como seus preços se comparam?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 28,
+    "ctr": 0.0
+   },
+   {
+    "query": "qual é a melhor plataforma de publicidade em vídeo para marcas de entretenimento?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "video marketing ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 39,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 57,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/videos-publicitarios-com-ia-guia-completo-para-marcas": [
+   {
+    "query": "ia para videos publicitarios",
+    "cliques": 0,
+    "impressoes": 16,
+    "posicao": 8.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 10.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos publicitarios",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "animação com ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "anúncio de vídeo",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "como fazer videos animados com ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "como usar um gerador de arte com ia online para criar anúncios publicitários",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "criador de conteúdo",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia generativa marcas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia para marcas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "melhor ia para marketing digital",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as diferenças entre as ferramentas gratuitas para criação de anúncios disponíveis no mercado?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as melhores práticas e recursos para criar anúncios criativos usando o adobe express na plataforma web?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 16,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as melhores práticas para criar anúncios criativos exclusivos na web, visando descobrir novas abordagens e estratégias de design?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 27,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as opções de preços e a disponibilidade da plataforma para geradores de vídeo com ia?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são os melhores aplicativos de geração de vídeo com ia para iniciantes descobrirem e aprenderem?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 31,
+    "ctr": 0.0
+   },
+   {
+    "query": "qual a melhor ia para estratégia de marketing",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "video marketing ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 101,
+    "ctr": 0.0
+   },
+   {
+    "query": "videos publicitarios ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/visualizador-3d-ar-guia-completo": [
+   {
+    "query": "visualizador 3d",
+    "cliques": 0,
+    "impressoes": 28,
+    "posicao": 10.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d para que serve",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 2.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador de 3d",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 10.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 9.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 73,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualisador 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador de fotos 360",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 18,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualização 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 42,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada": [
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 63,
+    "posicao": 6.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 22,
+    "posicao": 3.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 7.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d para que serve",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 6.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "veja em 3d",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "e-commerce 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/blog/your-3d-everywhere": [
+   {
+    "query": "vira6.com",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 34.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "vira6.c9m",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 26,
+    "ctr": 0.0
+   },
+   {
+    "query": "vira6.cim",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 49,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/endform": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 1.1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/estudo": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 482,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 58,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "brazil immersive technology in enterprise market",
+    "cliques": 0,
+    "impressoes": 30,
+    "posicao": 84.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 15,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "brazil metaverse market",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 64.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "brazil extended reality market",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 57.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "geobehavior",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 67.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "webbizmagnet",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 14,
+    "ctr": 0.0
+   },
+   {
+    "query": "brazil ai studio market",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 73,
+    "ctr": 0.0
+   },
+   {
+    "query": "brazil virtual production market",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 72,
+    "ctr": 0.0
+   },
+   {
+    "query": "brazil virtual reality market",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 70,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/fooh-guia-completo-fake-out-of-home-viral": [
+   {
+    "query": "e-poster",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/fooh-v2-c2": [
+   {
+    "query": "agencia fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 26,
+    "ctr": 0.0
+   },
+   {
+    "query": "fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 45,
+    "ctr": 0.0
+   },
+   {
+    "query": "home fake",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/home": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 18,
+    "posicao": 1.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk comparador",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 76,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk dynamic technology",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce": [
+   {
+    "query": "atrair clientes",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/implementacao-visualizador-3d-ecommerce": [
+   {
+    "query": "e-commerce 3d",
+    "cliques": 0,
+    "impressoes": 14,
+    "posicao": 5.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "ecommerce 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk-3d-shop-visualizador-3d-ar": [
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 27,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk-3d-shop": [
+   {
+    "query": "3d shop",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 6.7,
+    "ctr": 0.0
+   },
+   {
+    "query": "3dshop",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 7.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk 3d",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "3d mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk-ai-agent": [
+   {
+    "query": "agente de ia conversacional",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 60.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "agente de ia personalizado",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 35,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mk-beauty": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 20,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk beauty",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 7.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de maquiagem empresa",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 40.5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/aneethun-fooh": [
+   {
+    "query": "tonalizante aneethun",
+    "cliques": 0,
+    "impressoes": 53,
+    "posicao": 11.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/avon-3d": [
+   {
+    "query": "avon 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 37,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/avon-ai": [
+   {
+    "query": "avon ia",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "avonai",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 8.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "avon ai",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 58,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/betnacional": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 4.5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/bio-extratus-provador-virtual-2": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/chikas-bio-extratus-fake-out-of-home": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/colegio-sigma": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 44,
+    "ctr": 0.0
+   },
+   {
+    "query": "o que é isso?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/conviva": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/freeco-fooh": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/fuel-provador": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 6,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 31,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de óculos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 8.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de óculos virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual de óculos de sol",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/general-motors": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 2.8,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta gm",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 74,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/globo-fake-out-of-home": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 8.9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/gregory-provador-virtual-3": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 5.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 78,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/hapvida-video-ia": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 76,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/heineken-3d": [
+   {
+    "query": "heineken 3d",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10.5,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/ilha-pura-fake-out-of-home": [
+   {
+    "query": "fake house 4k vídeos",
+    "cliques": 0,
+    "impressoes": 47,
+    "posicao": 9.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "fake house 4k vídeo",
+    "cliques": 0,
+    "impressoes": 23,
+    "posicao": 7.4,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/l-oreal": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 3.9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/loreal-professionnel": [
+   {
+    "query": "videos fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/mercado-pago": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 9,
+    "posicao": 4.6,
+    "ctr": 0.0
+   },
+   {
+    "query": "video fooh",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/metaverso-familia-folhas": [
+   {
+    "query": "família folha",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 13,
+    "ctr": 0.0
+   },
+   {
+    "query": "familia folha curitiba",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 12,
+    "ctr": 0.0
+   },
+   {
+    "query": "gameficado",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 40,
+    "ctr": 0.0
+   },
+   {
+    "query": "familia folhas curitiba",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 11,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/mili-fake-out-of-home-ia": [
+   {
+    "query": "mili ia",
+    "cliques": 0,
+    "impressoes": 11,
+    "posicao": 6.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "mili produção",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   },
+   {
+    "query": "vídeo da mili",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/mitsubishi": [
+   {
+    "query": "configurador mitsubishi",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 8,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/mk-rodonaves": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/movida-copa-video": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/osklen-stl": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 32,
+    "posicao": 4.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 5,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 85,
+    "ctr": 0.0
+   },
+   {
+    "query": "osklen meta",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "shop the look",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/reenergisa": [
+   {
+    "query": "ai vr",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 67,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/rider-video-ia-slide-ronaldinho-gaucho": [
+   {
+    "query": "ronaldinho ia",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 9.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "ronaldinho 9:16",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/skala": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 4,
+    "ctr": 0.0
+   },
+   {
+    "query": "agencia fooh",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "skala videos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/the-westin": [
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/ufc": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 12,
+    "posicao": 5,
+    "ctr": 0.0
+   },
+   {
+    "query": "mkase",
+    "cliques": 0,
+    "impressoes": 4,
+    "posicao": 4.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/vr-fertgroup": [
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 6,
+    "posicao": 1.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "ewebapp",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 3,
+    "posicao": 23.3,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkases/wap-fooh": [
+   {
+    "query": "wap",
+    "cliques": 0,
+    "impressoes": 7,
+    "posicao": 3,
+    "ctr": 0.0
+   },
+   {
+    "query": "robo aspirador com mop giratório",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "wap robô",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/mkspaces": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 295,
+    "posicao": 1.3,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 41,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "tour virtual apartamento",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 22.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "tour virtual apartamento decorado",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 19.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "visita virtual linx",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 11,
+    "ctr": 0.0
+   },
+   {
+    "query": "empresas imobiliárias tour virtual completo apartamento",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 37,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk space",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "perspectivas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 24,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual": [
+   {
+    "query": "como usar o provador virtual da boca rosa",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual boca rosa",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 6,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/politica-de-privacidade": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 10,
+    "posicao": 7.9,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "plataforma mk",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 18,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/provador-virtual-ia-generativa-ecommerce": [
+   {
+    "query": "provador de oculos virtual",
+    "cliques": 0,
+    "impressoes": 8,
+    "posicao": 10.2,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador de óculos virtual",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9.5,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador oculos virtual",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "provador virtual óculos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 7,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/tag/provador-virtual": [
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/tag/the-merge": [
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   },
+   {
+    "query": "phygitech",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 10,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/termos-de-servicos": [
+   {
+    "query": "meta kosmos",
+    "cliques": 0,
+    "impressoes": 61,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "metakosmos",
+    "cliques": 0,
+    "impressoes": 56,
+    "posicao": 2.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "meta cosmos",
+    "cliques": 0,
+    "impressoes": 36,
+    "posicao": 1.1,
+    "ctr": 0.0
+   },
+   {
+    "query": "mk plataforma",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 9,
+    "ctr": 0.0
+   },
+   {
+    "query": "plataforma mk",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "metacosmos",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 1,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/videos-com-ia-nova-fronteira-storytelling-marcas": [
+   {
+    "query": "histórias virais sobre ia",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 10,
+    "ctr": 0.0
+   },
+   {
+    "query": "ia para marcas",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 21,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/videos-ia-campanhas-publicitarias": [
+   {
+    "query": "exemplos de publicidade em ia",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 54,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são as ferramentas de geração de animações com ia de nível profissional disponíveis para uso comercial?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 17,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são os aplicativos de ia mais recentes para conversão de imagem em vídeo disponíveis e quais são seus preços?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 25,
+    "ctr": 0.0
+   },
+   {
+    "query": "quais são os melhores geradores de animação com ia gratuitos disponíveis?",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 19,
+    "ctr": 0.0
+   }
+  ],
+  "https://metakosmos.com.br/visualizador-3d-realidade-aumentada": [
+   {
+    "query": "realidade aumentada no e-commerce",
+    "cliques": 0,
+    "impressoes": 2,
+    "posicao": 7,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualizador 3d e-commerce",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 2,
+    "ctr": 0.0
+   },
+   {
+    "query": "visualização 3d",
+    "cliques": 0,
+    "impressoes": 1,
+    "posicao": 4,
+    "ctr": 0.0
+   }
+  ]
+ }
+}

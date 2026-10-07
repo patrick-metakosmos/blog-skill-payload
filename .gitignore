@@ -1,5 +1,6 @@
 # credenciais — NUNCA versionar
 .env
+credenciais/
 
 # python
 __pycache__/
@@ -23,3 +24,6 @@ references/transcricoes-reunioes/
 desktop.ini
 Thumbs.db
 logs/
+
+# fotos pessoais do Ian (curadoria de 22/09/2026). Backup e o OneDrive, nao o git.
+fotos-ian/
