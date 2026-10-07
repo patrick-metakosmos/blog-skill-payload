@@ -4,7 +4,8 @@ import re, sys, os, io
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 slug = sys.argv[1]
-path = os.path.join(BASE, "output", slug, "artigo.html")
+# aceita também o caminho de um artigo.html (o otimizador trabalha em otimizador/trabalho/<slug>/)
+path = slug if slug.endswith(".html") else os.path.join(BASE, "output", slug, "artigo.html")
 html = io.open(path, encoding="utf-8").read()
 
 def strip_tags(s):
