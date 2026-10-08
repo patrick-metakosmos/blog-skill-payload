@@ -19,7 +19,10 @@ Uso:
     python scripts/otimizador/medir.py --dry-run  # só mostra
 """
 import argparse
+import sys
 from datetime import date, datetime, timedelta
+
+from google.auth.exceptions import RefreshError
 
 from coleta_gsc import ATRASO, por_pagina, propriedade
 from google_api import sessao_gsc
@@ -50,7 +53,13 @@ def main():
         return
 
     s, env = sessao_gsc()
-    site = propriedade(s, env)
+    try:
+        site = propriedade(s, env)
+    except RefreshError:
+        # plano B (login do Patrick no GSC): o Workspace da mK expira o login em horas.
+        # O rodar_medicao.ps1 reconhece o código 3, abre o login e tenta de novo.
+        print("[X] login do Search Console expirou: refazer o login e rodar de novo")
+        sys.exit(3)
     ultimo_dia = date.today() - timedelta(days=ATRASO)
     vazio = {"cliques": 0, "impressoes": 0, "ctr": 0.0, "posicao": 0.0}
 

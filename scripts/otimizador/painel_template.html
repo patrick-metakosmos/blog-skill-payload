@@ -1,0 +1,288 @@
+<title>Otimizador do Blog mK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+<link rel="stylesheet" href="painel.css">
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <img src="assets/logo-mk-white.png" alt="metaKosmos">
+      <span class="when" id="atualizado"></span>
+    </div>
+    <h1>Otimizador do Blog</h1>
+    <p class="lede">A cada 15 dias, o otimizador lê o <strong>Google Search Console</strong> e o <strong>GA4</strong>, escolhe os artigos do blog com mais espaço para crescer, reescreve o que precisa e mede o resultado. Este painel mostra onde o blog está e o que cada ciclo mudou.</p>
+    <div class="status" id="status"></div>
+  </header>
+
+  <section class="sec" aria-labelledby="h-kpi">
+    <div class="sec-head">
+      <span class="section-label">Últimos 90 dias</span>
+      <h2 id="h-kpi">O blog hoje</h2>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <p class="foot-note" id="kpi-nota"></p>
+  </section>
+
+  <section class="sec" aria-labelledby="h-sem">
+    <div class="sec-head">
+      <span class="section-label">Search Console · semana a semana desde a migração para o Payload</span>
+      <h2 id="h-sem">O blog semana a semana</h2>
+      <p class="section-subtitle">Cada barra é uma semana completa. Depois do pico de julho, quando o Google indexou o blog novo, o volume se acomodou. É sobre essa base que os ciclos de otimização trabalham, e os primeiros resultados aparecem nas semanas depois de 07/10.</p>
+    </div>
+    <div class="grid2">
+      <div class="card"><div><div class="chart-title">Impressões no Google</div><div class="chart-sub">Quantas vezes um artigo apareceu numa busca</div></div><svg id="ch-imp" role="img" aria-label="Impressões semanais do blog"></svg></div>
+      <div class="card"><div><div class="chart-title">Cliques</div><div class="chart-sub">Quantas pessoas entraram no blog pela busca</div></div><svg id="ch-cli" role="img" aria-label="Cliques semanais do blog"></svg></div>
+    </div>
+    <details><summary>Ver tabela</summary><div class="tbl-wrap"><table id="tb-sem"></table></div></details>
+  </section>
+
+  <section class="sec" aria-labelledby="h-mapa">
+    <div class="sec-head">
+      <span class="section-label">Onde está a oportunidade</span>
+      <h2 id="h-mapa">Mapa dos artigos</h2>
+      <p class="section-subtitle">Cada ponto é um artigo. Quanto mais alto, mais vezes ele aparece no Google; quanto mais à esquerda, melhor a posição. A faixa marcada (posição 5 a 20) é onde subir poucas posições muda o volume de cliques.</p>
+    </div>
+    <div class="card">
+      <div class="legend" id="lg-mapa"></div>
+      <svg id="ch-mapa" role="img" aria-label="Artigos por posição média e impressões"></svg>
+    </div>
+    <details><summary>Ver tabela</summary><div class="tbl-wrap"><table id="tb-mapa"></table></div></details>
+  </section>
+
+  <section class="sec" aria-labelledby="h-ciclo">
+    <div class="sec-head">
+      <span class="section-label" id="ciclo-eyebrow"></span>
+      <h2 id="h-ciclo">O que mudou neste ciclo</h2>
+      <p class="section-subtitle" id="ciclo-lede"></p>
+    </div>
+    <div class="arts" id="arts"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-achados">
+    <div class="sec-head">
+      <span class="section-label">Diagnóstico do primeiro ciclo</span>
+      <h2 id="h-achados">O que os dados mostraram</h2>
+    </div>
+    <div class="finds" id="finds"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-metodo">
+    <div class="sec-head">
+      <span class="section-label">Processo 1.1.2 · Otimização de artigo existente</span>
+      <h2 id="h-metodo">Como o otimizador trabalha</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><h3>Mede o ciclo anterior</h3><p>Compara janelas iguais antes e depois de cada otimização e marca Melhorou, Estável ou Piorou no Log.</p></div>
+      <div class="step"><span class="n">2</span><h3>Escolhe os artigos</h3><p>Até 3 Quick Wins (posição 5 a 20), 2 Decadentes (queda forte) e 2 CTR Baixo. Descarta quem canibalizaria outra página da mK.</p></div>
+      <div class="step"><span class="n">3</span><h3>Reescreve e publica</h3><p>Cobre as buscas reais e o que os concorrentes cobrem, cita o estudo da mK e só publica com a auditoria da skill zerada e backup salvo.</p></div>
+      <div class="step"><span class="n">4</span><h3>Registra tudo</h3><p>Inventário e Log no Drive da mK: o antes, o que foi feito, o depois e como reverter cada mudança.</p></div>
+    </div>
+    <div class="card">
+      <div class="chart-title">Linha do tempo</div>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <footer id="fontes"></footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script id="dados" type="application/json">__DADOS__</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('dados').textContent);
+const NS = 'http://www.w3.org/2000/svg';
+const nf = new Intl.NumberFormat('pt-BR');
+const nf1 = new Intl.NumberFormat('pt-BR',{maximumFractionDigits:1,minimumFractionDigits:1});
+const pct = v => new Intl.NumberFormat('pt-BR',{style:'percent',maximumFractionDigits:1,minimumFractionDigits:1}).format(v);
+const compact = v => v >= 10000 ? nf1.format(v/1000).replace(',0','') + ' mil' : nf.format(v);
+const dBR = iso => { const [y,m,d] = iso.slice(0,10).split('-'); return `${d}/${m}`; };
+const dBRy = iso => { const [y,m,d] = iso.slice(0,10).split('-'); return `${d}/${m}/${y}`; };
+const el = (tag, attrs={}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const tip = document.getElementById('tip');
+function showTip(html, evt){ tip.innerHTML = html; tip.hidden = false; moveTip(evt); }
+function moveTip(evt){
+  let x, y;
+  if (evt.clientX !== undefined && evt.type.startsWith('mouse')) { x = evt.clientX; y = evt.clientY; }
+  else { const r = evt.target.getBoundingClientRect(); x = r.left + r.width/2; y = r.top; }
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(window.innerWidth - w - 12, Math.max(12, x + 14)) + 'px';
+  tip.style.top = Math.max(12, y - h - 12) + 'px';
+}
+function hideTip(){ tip.hidden = true; }
+function hover(node, html){
+  node.setAttribute('tabindex','0');
+  node.addEventListener('mouseenter', e => showTip(html, e));
+  node.addEventListener('mousemove', moveTip);
+  node.addEventListener('mouseleave', hideTip);
+  node.addEventListener('focus', e => showTip(html, e));
+  node.addEventListener('blur', hideTip);
+}
+
+/* topo */
+document.getElementById('atualizado').textContent = 'Atualizado em ' + D.gerado_em;
+const ult = D.ciclos[D.ciclos.length-1];
+const st = document.getElementById('status');
+const nOt = D.otimizados.length;
+const medidos = D.otimizados.filter(o => o.resultado).length;
+st.innerHTML = `<span class="pill accent">Ciclo ${ult.ciclo}: ${nOt} artigos otimizados</span>`
+  + (D.medicao && medidos < nOt ? `<span class="pill"><span class="ring"></span>Medição automática em ${dBRy(D.medicao)}</span>` : '')
+  + `<span class="pill">Ciclo a cada 15 dias</span>`;
+
+/* KPIs */
+const K = D.kpis;
+const delta = (a, b) => b ? (a/b - 1) : null;
+const dImp = delta(K.impressoes, K.impressoes_ant), dCli = delta(K.cliques, K.cliques_ant);
+const kp = [
+  ['Impressões no Google', compact(K.impressoes), dImp !== null ? `<b>${dImp>=0?'+':''}${Math.round(dImp*100)}%</b> vs. 90 dias anteriores` : ''],
+  ['Cliques da busca', nf.format(K.cliques), dCli !== null ? `<b>${dCli>=0?'+':''}${Math.round(dCli*100)}%</b> vs. 90 dias anteriores` : ''],
+  ['CTR', pct(K.ctr), 'de cada 100 que veem, quantos clicam'],
+  ['Posição média', nf1.format(K.posicao), 'ponderada pelas impressões'],
+  ['Artigos no Google', `${K.artigos_no_google}<small> / ${K.artigos}</small>`, 'apareceram em alguma busca'],
+  ['Leads vindos do blog', nf.format(K.leads_blog), 'sessões que entraram por um artigo (GA4)'],
+];
+document.getElementById('kpis').innerHTML = kp.map(([l,v,d]) => `<div class="kpi"><span class="section-label">${l}</span><span class="v">${v}</span><span class="d">${d}</span></div>`).join('');
+document.getElementById('kpi-nota').textContent = `Período: ${dBRy(K.periodo[0])} a ${dBRy(K.periodo[1])}. A comparação soma as URLs antigas do WordPress (mesmo slug na raiz do site) para não perder o histórico de antes da migração.`;
+
+/* colunas semanais */
+function colunas(svgId, campo){
+  const S = D.semanas, svg = document.getElementById(svgId);
+  const W = 520, H = 230, m = {l:44, r:8, t:14, b:30};
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const max = Math.max(...S.map(s => s[campo]));
+  const passo = niceStep(max/4), top = Math.ceil(max/passo)*passo;
+  const y = v => m.t + (H-m.t-m.b) * (1 - v/top);
+  for (let v = 0; v <= top; v += passo) {
+    el('line', {x1:m.l, x2:W-m.r, y1:y(v), y2:y(v), stroke: css('--mark-grid'), 'stroke-width':1}, svg);
+    const t = el('text', {x:m.l-8, y:y(v)+4, 'text-anchor':'end'}, svg); t.textContent = compact(v);
+  }
+  const band = (W-m.l-m.r)/S.length, bw = Math.min(24, band-2);
+  S.forEach((s,i) => {
+    const x = m.l + i*band + (band-bw)/2, h = y(0)-y(s[campo]);
+    const g = el('g', {}, svg);
+    el('rect', {x:m.l+i*band, y:m.t, width:band, height:H-m.t-m.b, fill:'transparent'}, g);
+    const r = 4, top_ = y(s[campo]);
+    const path = h > r ? `M${x},${y(0)} V${top_+r} Q${x},${top_} ${x+r},${top_} H${x+bw-r} Q${x+bw},${top_} ${x+bw},${top_+r} V${y(0)} Z`
+                        : `M${x},${y(0)} V${top_} H${x+bw} V${y(0)} Z`;
+    const isLast = i === S.length-1;
+    el('path', {d:path, fill: isLast ? css('--mark-otim') : css('--mark-eleg')}, g);
+    if (i % 2 === 0 || isLast) { const t = el('text', {x:x+bw/2, y:H-10, 'text-anchor':'middle'}, svg); t.textContent = dBR(s.semana); }
+    if (isLast) { const t = el('text', {x:x+bw/2, y:top_-6, 'text-anchor':'middle', style:`fill:${css('--color-white')};font-weight:700`}, svg); t.textContent = compact(s[campo]); }
+    g.setAttribute('aria-label', `Semana de ${dBR(s.semana)}: ${nf.format(s[campo])}`);
+    hover(g, `<b>Semana de ${dBRy(s.semana)}</b><br>${nf.format(s.impressoes)} impressões<br>${nf.format(s.cliques)} cliques`);
+  });
+}
+function niceStep(raw){ const p = Math.pow(10, Math.floor(Math.log10(raw||1))); for (const k of [1,2,2.5,5,10]) if (k*p >= raw) return k*p; return 10*p; }
+colunas('ch-imp','impressoes'); colunas('ch-cli','cliques');
+document.getElementById('tb-sem').innerHTML = '<tr><th>Semana</th><th class="n">Impressões</th><th class="n">Cliques</th><th class="n">CTR</th></tr>'
+  + D.semanas.map(s => `<tr><td>${dBRy(s.semana)}</td><td class="n">${nf.format(s.impressoes)}</td><td class="n">${nf.format(s.cliques)}</td><td class="n">${pct(s.impressoes? s.cliques/s.impressoes:0)}</td></tr>`).join('');
+
+/* mapa */
+const GR = {
+  otimizado:{nome:'Otimizados no ciclo', cor:'--mark-otim'},
+  descartado:{nome:'Descartados (outra página da mK já vence a busca)', cor:'--mark-desc'},
+  elegivel:{nome:'Elegíveis', cor:'--mark-eleg'},
+  novo:{nome:'Novos (menos de 90 dias no ar)', cor:'--mark-novo'},
+};
+document.getElementById('lg-mapa').innerHTML = Object.values(GR).map(g => `<span><i class="sw" style="background:var(${g.cor})"></i>${g.nome}</span>`).join('');
+(function(){
+  const P = D.pontos, svg = document.getElementById('ch-mapa');
+  const W = 1000, H = 440, m = {l:56, r:24, t:16, b:44};
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const XMAX = 25;
+  const x = p => m.l + (W-m.l-m.r) * (Math.min(p, XMAX) - 1) / (XMAX - 1);
+  const ymin = 10, ymax = Math.pow(10, Math.ceil(Math.log10(Math.max(...P.map(p=>p.impressoes)))));
+  const y = v => m.t + (H-m.t-m.b) * (1 - (Math.log10(Math.max(v,ymin)) - Math.log10(ymin)) / (Math.log10(ymax) - Math.log10(ymin)));
+  el('rect', {x:x(5), y:m.t, width:x(20)-x(5), height:H-m.t-m.b, fill:'rgba(0,217,126,0.06)'}, svg);
+  const zt = el('text', {x:(x(5)+x(20))/2, y:H-m.b-10, 'text-anchor':'middle', style:`fill:${css('--color-text-secondary')};font-weight:700;letter-spacing:.08em`}, svg); zt.textContent = 'ZONA DE QUICK WIN';
+  for (let v = ymin; v <= ymax; v *= 10) {
+    el('line', {x1:m.l, x2:W-m.r, y1:y(v), y2:y(v), stroke:css('--mark-grid'), 'stroke-width':1}, svg);
+    const t = el('text', {x:m.l-10, y:y(v)+4, 'text-anchor':'end'}, svg); t.textContent = compact(v);
+  }
+  [1,5,10,15,20,25].forEach(p => {
+    el('line', {x1:x(p), x2:x(p), y1:H-m.b, y2:H-m.b+5, stroke:css('--color-border-hover')}, svg);
+    const t = el('text', {x:x(p), y:H-m.b+20, 'text-anchor':'middle'}, svg); t.textContent = p === 25 ? '25+' : p;
+  });
+  const xl = el('text', {x:(m.l+W-m.r)/2, y:H-6, 'text-anchor':'middle'}, svg); xl.textContent = 'Posição média no Google (1 = topo)';
+  const yl = el('text', {x:14, y:(m.t+H-m.b)/2, 'text-anchor':'middle', transform:`rotate(-90 14 ${(m.t+H-m.b)/2})`}, svg); yl.textContent = 'Impressões em 90 dias (escala log)';
+  const ordem = ['novo','elegivel','descartado','otimizado'];
+  [...P].sort((a,b) => ordem.indexOf(a.grupo) - ordem.indexOf(b.grupo)).forEach(p => {
+    const cx = x(p.posicao), cy = y(p.impressoes), destaque = p.grupo === 'otimizado' || p.grupo === 'descartado';
+    const g = el('g', {}, svg);
+    el('circle', {cx, cy, r:12, fill:'transparent'}, g);
+    el('circle', {cx, cy, r: destaque ? 6 : 4.5, fill:css(GR[p.grupo].cor), stroke:css('--color-surface-card'), 'stroke-width':2}, g);
+    g.setAttribute('aria-label', `${p.titulo}: posição ${nf1.format(p.posicao)}, ${nf.format(p.impressoes)} impressões`);
+    hover(g, `<b>${p.titulo}</b><br>Posição ${nf1.format(p.posicao)} · ${nf.format(p.impressoes)} impressões · ${nf.format(p.cliques)} cliques<br><span style="color:var(${'--color-text-secondary'})">${GR[p.grupo].nome}</span>${p.nota ? '<br>' + p.nota : ''}`);
+  });
+  // rótulos só dos destacados; quem colide desce e ganha uma linha fina até o ponto
+  const curto = s => { if (s.length <= 40) return s; const c = s.slice(0, 40); return c.slice(0, c.lastIndexOf(' ')) + '…'; };
+  const rotulos = P.filter(p => p.grupo === 'otimizado' || p.grupo === 'descartado').map(p => {
+    const nome = (D.otimizados.find(o => o.slug === p.slug) || {}).titulo_depois || p.titulo;
+    return {p, txt: curto(nome.split(':')[0]), cx: x(p.posicao), cy: y(p.impressoes)};
+  }).sort((a, b) => a.cy - b.cy);
+  const ocupados = [];
+  rotulos.forEach(r => {
+    const w = r.txt.length * 6.1, h = 14, lx = r.cx + 14;
+    let ly = r.cy;
+    const bate = yy => ocupados.some(o => lx < o.x + o.w && lx + w > o.x && Math.abs(yy - o.y) < h);
+    while (bate(ly)) ly += h;
+    ocupados.push({x: lx, y: ly, w});
+    if (Math.abs(ly - r.cy) > 1) el('line', {x1:r.cx + 6, y1:r.cy, x2:lx - 3, y2:ly - 4, stroke:css('--color-border-hover'), 'stroke-width':1}, svg);
+    const t = el('text', {x:lx, y:ly, style:`fill:${css('--color-white')}`}, svg);
+    t.textContent = r.txt;
+  });
+  document.getElementById('tb-mapa').innerHTML = '<tr><th>Artigo</th><th>Grupo</th><th class="n">Posição</th><th class="n">Impressões</th><th class="n">Cliques</th></tr>'
+    + [...P].sort((a,b) => b.impressoes - a.impressoes).map(p => `<tr><td>${p.titulo}</td><td>${GR[p.grupo].nome.split(' (')[0]}</td><td class="n">${nf1.format(p.posicao)}</td><td class="n">${nf.format(p.impressoes)}</td><td class="n">${nf.format(p.cliques)}</td></tr>`).join('');
+})();
+
+/* ciclo */
+document.getElementById('ciclo-eyebrow').textContent = `Ciclo ${ult.ciclo} · aplicado em ${dBRy(ult.data)}`;
+document.getElementById('ciclo-lede').textContent = `${nOt} artigos reescritos e publicados. O "antes" é a média dos 28 dias anteriores à seleção; o "depois" entra aqui quando a medição rodar.`;
+document.getElementById('arts').innerHTML = D.otimizados.map(o => {
+  const a = o.antes, au = o.auditoria, maxW = Math.max(3000, au.depois.palavras);
+  const res = o.resultado
+    ? `<div class="res done">${o.resultado}${o.proximo ? ' · ' + o.proximo : ''}</div>`
+    : `<div class="res">Depois: medição em ${D.medicao ? dBRy(D.medicao) : 'breve'}</div>`;
+  return `<article class="art">
+    <div class="art-top"><span class="chip"><i style="background:var(${o.balde === 'Decadente' ? '--mark-desc' : '--mark-otim'})"></i>${o.balde}</span><span class="qnote">no ar desde ${o.data ? dBRy(o.data) : '-'}</span></div>
+    <div style="display:flex;flex-direction:column;gap:4px"><span class="novo">${o.titulo_depois}</span><span class="velho">${o.titulo_antes}</span></div>
+    <div class="mets">
+      <div class="met"><span class="k">Posição</span><span class="val">${nf1.format(a.posicao)}</span></div>
+      <div class="met"><span class="k">Impressões</span><span class="val">${nf.format(a.impressoes)}</span></div>
+      <div class="met"><span class="k">Cliques</span><span class="val">${nf.format(a.cliques)}</span></div>
+      <div class="met"><span class="k">CTR</span><span class="val">${pct(a.ctr)}</span></div>
+    </div>
+    ${res}
+    <div class="qual">
+      <span class="section-label">Padrão editorial da mK</span>
+      <div class="qrow"><span>Antes</span><div class="bar"><i class="b0" style="width:${au.antes.palavras/maxW*100}%"></i><span class="goal" style="left:${2000/maxW*100}%"></span></div><span>${nf.format(au.antes.palavras)} pal.</span></div>
+      <div class="qrow"><span>Depois</span><div class="bar"><i class="b1" style="width:${au.depois.palavras/maxW*100}%"></i><span class="goal" style="left:${2000/maxW*100}%"></span></div><span>${nf.format(au.depois.palavras)} pal.</span></div>
+      <span class="qnote">Apontamentos da auditoria editorial: <b>${au.antes.falhas}</b> antes, <b>${au.depois.falhas}</b> depois. O traço marca o piso de 2.000 palavras.</span>
+    </div>
+    <span class="qnote">Motivo da seleção: ${o.motivo}</span>
+  </article>`;
+}).join('');
+
+/* achados */
+const pontosOt = D.pontos.filter(p => p.grupo !== 'novo');
+const ctrMed = K.ctr;
+const desc = D.pontos.filter(p => p.grupo === 'descartado');
+document.getElementById('finds').innerHTML = [
+  [pct(ctrMed), 'O problema é o clique, não a posição', 'Quase todos os artigos com volume estão entre a 7ª e a 10ª posição, com CTR abaixo de 2,5%. Por isso todo ciclo reescreve título e descrição que aparecem no Google.'],
+  [nf.format(K.leads_blog), 'Os leads vêm dos artigos de produto', 'Os artigos de maior tráfego (como o de FOOH) tinham dezenas de sessões e nenhum lead. Os leads entraram pelos artigos de mK Skin, mK Fashion e mK 3D Shop. Os artigos otimizados ganharam CTA isolado.'],
+  [String(desc.length), 'Artigos descartados por canibalização', 'O otimizador recusou artigos que pareciam boa oportunidade porque outra página da mK já vence a mesma busca (o case da Boca Rosa e a página do mK Fashion). Empurrar o artigo tiraria tráfego da própria mK.'],
+].map(([big,t,p]) => `<div class="find"><span class="big">${big}</span><h3>${t}</h3><p>${p}</p></div>`).join('');
+
+/* linha do tempo */
+const tl = [
+  {when: dBRy(ult.data), what:`Ciclo ${ult.ciclo}: ${nOt} artigos selecionados, reescritos e publicados`, done:true},
+];
+if (D.medicao) tl.push({when: dBRy(D.medicao), what:'Medição automática do ciclo: o "depois" de cada artigo entra no Log e neste painel', done: medidos === nOt && nOt > 0});
+tl.push({when:'A cada 15 dias', what:'Próximo ciclo: mede o anterior, escolhe novos artigos e repete', done:false});
+document.getElementById('timeline').innerHTML = tl.map(t => `<div class="tl ${t.done?'done':''}"><span class="when">${t.when}</span><span class="what">${t.what}</span></div>`).join('');
+
+document.getElementById('fontes').innerHTML = `<span>Fontes: Google Search Console (propriedade metakosmos.com.br), GA4 (metakosmos.com.br), Payload CMS e as planilhas Inventário de Artigos e Log de Otimizações no Drive da mK.</span><span>Painel gerado em ${D.gerado_em}. Os números mudam a cada atualização do painel.</span>`;
+})();
+</script>

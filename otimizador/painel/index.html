@@ -1,0 +1,288 @@
+<title>Otimizador do Blog mK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+<link rel="stylesheet" href="painel.css">
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <img src="assets/logo-mk-white.png" alt="metaKosmos">
+      <span class="when" id="atualizado"></span>
+    </div>
+    <h1>Otimizador do Blog</h1>
+    <p class="lede">A cada 15 dias, o otimizador lê o <strong>Google Search Console</strong> e o <strong>GA4</strong>, escolhe os artigos do blog com mais espaço para crescer, reescreve o que precisa e mede o resultado. Este painel mostra onde o blog está e o que cada ciclo mudou.</p>
+    <div class="status" id="status"></div>
+  </header>
+
+  <section class="sec" aria-labelledby="h-kpi">
+    <div class="sec-head">
+      <span class="section-label">Últimos 90 dias</span>
+      <h2 id="h-kpi">O blog hoje</h2>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <p class="foot-note" id="kpi-nota"></p>
+  </section>
+
+  <section class="sec" aria-labelledby="h-sem">
+    <div class="sec-head">
+      <span class="section-label">Search Console · semana a semana desde a migração para o Payload</span>
+      <h2 id="h-sem">O blog semana a semana</h2>
+      <p class="section-subtitle">Cada barra é uma semana completa. Depois do pico de julho, quando o Google indexou o blog novo, o volume se acomodou. É sobre essa base que os ciclos de otimização trabalham, e os primeiros resultados aparecem nas semanas depois de 07/10.</p>
+    </div>
+    <div class="grid2">
+      <div class="card"><div><div class="chart-title">Impressões no Google</div><div class="chart-sub">Quantas vezes um artigo apareceu numa busca</div></div><svg id="ch-imp" role="img" aria-label="Impressões semanais do blog"></svg></div>
+      <div class="card"><div><div class="chart-title">Cliques</div><div class="chart-sub">Quantas pessoas entraram no blog pela busca</div></div><svg id="ch-cli" role="img" aria-label="Cliques semanais do blog"></svg></div>
+    </div>
+    <details><summary>Ver tabela</summary><div class="tbl-wrap"><table id="tb-sem"></table></div></details>
+  </section>
+
+  <section class="sec" aria-labelledby="h-mapa">
+    <div class="sec-head">
+      <span class="section-label">Onde está a oportunidade</span>
+      <h2 id="h-mapa">Mapa dos artigos</h2>
+      <p class="section-subtitle">Cada ponto é um artigo. Quanto mais alto, mais vezes ele aparece no Google; quanto mais à esquerda, melhor a posição. A faixa marcada (posição 5 a 20) é onde subir poucas posições muda o volume de cliques.</p>
+    </div>
+    <div class="card">
+      <div class="legend" id="lg-mapa"></div>
+      <svg id="ch-mapa" role="img" aria-label="Artigos por posição média e impressões"></svg>
+    </div>
+    <details><summary>Ver tabela</summary><div class="tbl-wrap"><table id="tb-mapa"></table></div></details>
+  </section>
+
+  <section class="sec" aria-labelledby="h-ciclo">
+    <div class="sec-head">
+      <span class="section-label" id="ciclo-eyebrow"></span>
+      <h2 id="h-ciclo">O que mudou neste ciclo</h2>
+      <p class="section-subtitle" id="ciclo-lede"></p>
+    </div>
+    <div class="arts" id="arts"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-achados">
+    <div class="sec-head">
+      <span class="section-label">Diagnóstico do primeiro ciclo</span>
+      <h2 id="h-achados">O que os dados mostraram</h2>
+    </div>
+    <div class="finds" id="finds"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-metodo">
+    <div class="sec-head">
+      <span class="section-label">Processo 1.1.2 · Otimização de artigo existente</span>
+      <h2 id="h-metodo">Como o otimizador trabalha</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><h3>Mede o ciclo anterior</h3><p>Compara janelas iguais antes e depois de cada otimização e marca Melhorou, Estável ou Piorou no Log.</p></div>
+      <div class="step"><span class="n">2</span><h3>Escolhe os artigos</h3><p>Até 3 Quick Wins (posição 5 a 20), 2 Decadentes (queda forte) e 2 CTR Baixo. Descarta quem canibalizaria outra página da mK.</p></div>
+      <div class="step"><span class="n">3</span><h3>Reescreve e publica</h3><p>Cobre as buscas reais e o que os concorrentes cobrem, cita o estudo da mK e só publica com a auditoria da skill zerada e backup salvo.</p></div>
+      <div class="step"><span class="n">4</span><h3>Registra tudo</h3><p>Inventário e Log no Drive da mK: o antes, o que foi feito, o depois e como reverter cada mudança.</p></div>
+    </div>
+    <div class="card">
+      <div class="chart-title">Linha do tempo</div>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <footer id="fontes"></footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script id="dados" type="application/json">{"gerado_em": "08/10/2026 09:44", "kpis": {"impressoes": 28255, "impressoes_ant": 17418, "cliques": 307, "cliques_ant": 183, "ctr": 0.010865333569279774, "posicao": 8.117338524155016, "artigos_no_google": 71, "artigos": 88, "leads_blog": 10, "views_blog": 1374, "periodo": ["2026-07-07", "2026-10-04"], "periodo_ant": ["2026-04-08", "2026-07-06"]}, "semanas": [{"semana": "2026-06-22", "cliques": 0, "impressoes": 6, "dias": 7}, {"semana": "2026-06-29", "cliques": 1, "impressoes": 206, "dias": 7}, {"semana": "2026-07-06", "cliques": 17, "impressoes": 1596, "dias": 7}, {"semana": "2026-07-13", "cliques": 19, "impressoes": 2877, "dias": 7}, {"semana": "2026-07-20", "cliques": 34, "impressoes": 4222, "dias": 7}, {"semana": "2026-07-27", "cliques": 32, "impressoes": 3073, "dias": 7}, {"semana": "2026-08-03", "cliques": 26, "impressoes": 2360, "dias": 7}, {"semana": "2026-08-10", "cliques": 19, "impressoes": 2677, "dias": 7}, {"semana": "2026-08-17", "cliques": 18, "impressoes": 1830, "dias": 7}, {"semana": "2026-08-24", "cliques": 23, "impressoes": 1792, "dias": 7}, {"semana": "2026-08-31", "cliques": 13, "impressoes": 2301, "dias": 7}, {"semana": "2026-09-07", "cliques": 23, "impressoes": 2475, "dias": 7}, {"semana": "2026-09-14", "cliques": 24, "impressoes": 2548, "dias": 7}, {"semana": "2026-09-21", "cliques": 27, "impressoes": 2073, "dias": 7}, {"semana": "2026-09-28", "cliques": 22, "impressoes": 1778, "dias": 7}], "otimizados": [{"slug": "videos-ia-campanhas-publicitarias", "url": "https://metakosmos.com.br/blog/videos-ia-campanhas-publicitarias", "ciclo": "2026-S41", "balde": "Decadente", "motivo": "impressões caíram 58% (1450 → 611), posição 7.5 → 10.9 (cliques baixos demais para medir)", "titulo_antes": "WooW! Videos: Como Usar Videos IA para Campanhas de Grandes Marcas", "titulo_depois": "Vídeos com IA para campanhas publicitárias: exemplos de marcas brasileiras e como planejar a sua", "meta_title": "Vídeos com IA para campanhas publicitárias: exemplos reais", "data": "2026-10-07", "antes": {"posicao": 12.0, "cliques": 3, "impressoes": 213, "ctr": 0.0141}, "gsc_90d": {"cliques": 8, "impressoes": 611, "posicao": 10.9, "ctr": 0.0131}, "resultado": "", "proximo": "", "auditoria": {"antes": {"falhas": 12, "palavras": 2155}, "depois": {"falhas": 0, "palavras": 2775}}, "buscas": ["exemplos de publicidade em ia", "ia videos", "quais são as melhores ferramentas de ia para conversão de imagens em vídeo e como elas funcionam para transformar imagens estáticas em vídeos dinâmicos?"]}, {"slug": "visualizador-3d-realidade-aumentada", "url": "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada", "ciclo": "2026-S41", "balde": "Decadente", "motivo": "impressões caíram 49% (1116 → 569), posição 5.3 → 6.3 (cliques baixos demais para medir)", "titulo_antes": "Visualizador 3D com Realidade Aumentada: Tecnologia 100% Pensada para Converter Vendas", "titulo_depois": "Visualizador 3D com realidade aumentada: como ver o produto no seu espaço antes de comprar", "meta_title": "Visualizador 3D com realidade aumentada: veja no seu espaço", "data": "2026-10-07", "antes": {"posicao": 7.5, "cliques": 2, "impressoes": 144, "ctr": 0.0139}, "gsc_90d": {"cliques": 7, "impressoes": 569, "posicao": 6.3, "ctr": 0.0123}, "resultado": "", "proximo": "", "auditoria": {"antes": {"falhas": 13, "palavras": 1691}, "depois": {"falhas": 0, "palavras": 2451}}, "buscas": ["visualizador 3d e-commerce", "metakosmos", "visualizador 3d"]}, {"slug": "fooh-guia-completo-fake-out-of-home-viral", "url": "https://metakosmos.com.br/blog/fooh-guia-completo-fake-out-of-home-viral", "ciclo": "2026-S41", "balde": "Quick Win", "motivo": "3228 impressões na posição 9.5 (CTR 1.1%)", "titulo_antes": "FOOH: o que é Fake Out of Home e como viralizar sua marca", "titulo_depois": "FOOH (Fake Out of Home): o que é, exemplos e como fazer um vídeo que viraliza", "meta_title": "FOOH (Fake Out of Home): o que é, exemplos e como fazer", "data": "2026-10-07", "antes": {"posicao": 9.3, "cliques": 7, "impressoes": 850, "ctr": 0.0082}, "gsc_90d": {"cliques": 34, "impressoes": 3228, "posicao": 9.5, "ctr": 0.0105}, "resultado": "", "proximo": "", "auditoria": {"antes": {"falhas": 16, "palavras": 1786}, "depois": {"falhas": 0, "palavras": 2634}}, "buscas": ["fooh", "fake out of home", "fake ooh"]}, {"slug": "videos-com-ia-nova-fronteira-storytelling-marcas", "url": "https://metakosmos.com.br/blog/videos-com-ia-nova-fronteira-storytelling-marcas", "ciclo": "2026-S41", "balde": "Quick Win", "motivo": "1832 impressões na posição 8.0 (CTR 0.9%)", "titulo_antes": "Vídeos com IA — A Nova Fronteira do Storytelling de Marcas", "titulo_depois": "Vídeos com IA: o que são, exemplos de marcas e como fazer parecer real", "meta_title": "Vídeos com IA: exemplos de marcas e como fazer parecer real", "data": "2026-10-07", "antes": {"posicao": 10.0, "cliques": 4, "impressoes": 290, "ctr": 0.0138}, "gsc_90d": {"cliques": 16, "impressoes": 1832, "posicao": 8.0, "ctr": 0.0087}, "resultado": "", "proximo": "", "auditoria": {"antes": {"falhas": 5, "palavras": 1755}, "depois": {"falhas": 0, "palavras": 2821}}, "buscas": ["videos de ia", "ia videos", "soluções de vídeo a partir de texto com ia líderes"]}, {"slug": "implementacao-visualizador-3d-ecommerce", "url": "https://metakosmos.com.br/blog/implementacao-visualizador-3d-ecommerce", "ciclo": "2026-S41", "balde": "Quick Win", "motivo": "921 impressões na posição 6.9 (CTR 2.3%)", "titulo_antes": "Visualizador 3D para E-commerce: Guia de Implementação", "titulo_depois": "Visualizador 3D para e-commerce: para que serve e como implementar na sua loja", "meta_title": "Visualizador 3D para e-commerce: o que é e como implementar", "data": "2026-10-07", "antes": {"posicao": 6.6, "cliques": 7, "impressoes": 248, "ctr": 0.0282}, "gsc_90d": {"cliques": 21, "impressoes": 921, "posicao": 6.9, "ctr": 0.0228}, "resultado": "", "proximo": "", "auditoria": {"antes": {"falhas": 15, "palavras": 1984}, "depois": {"falhas": 0, "palavras": 2520}}, "buscas": ["e-commerce 3d", "visualizador 3d e-commerce", "visualizador 3d para que serve"]}], "pontos": [{"slug": "como-escolher-maquiagem-online", "titulo": "Como escolher maquiagem online: o método para não errar o tom de base", "grupo": "novo", "posicao": 13.0, "impressoes": 4, "cliques": 0, "nota": ""}, {"slug": "conteudo-para-tiktok-marcas", "titulo": "Conteúdo para TikTok marcas: o que produzir por mês para sair da bolha de seguidores", "grupo": "novo", "posicao": 18.1, "impressoes": 8, "cliques": 0, "nota": ""}, {"slug": "seo-para-ia-generativa", "titulo": "SEO para IA generativa: o que muda quando quem lê é a máquina", "grupo": "novo", "posicao": 17.1, "impressoes": 59, "cliques": 0, "nota": ""}, {"slug": "cro-ecommerce", "titulo": "CRO e-commerce: o método de otimização de conversão", "grupo": "novo", "posicao": 10.4, "impressoes": 131, "cliques": 1, "nota": ""}, {"slug": "experiencia-de-compra-online-melhorar", "titulo": "Experiência de compra online melhorar: as alavancas que movem conversão", "grupo": "novo", "posicao": 8.7, "impressoes": 15, "cliques": 0, "nota": ""}, {"slug": "como-visualizar-produto-em-casa-antes-de-comprar", "titulo": "Como visualizar produto em casa antes de comprar: o passo a passo da AR pelo celular", "grupo": "novo", "posicao": 6.2, "impressoes": 59, "cliques": 1, "nota": ""}, {"slug": "quanto-tempo-implementar-provador-virtual", "titulo": "Quanto tempo leva para implementar provador virtual: o cronograma real de catálogo e go-live", "grupo": "novo", "posicao": 13.6, "impressoes": 14, "cliques": 1, "nota": ""}, {"slug": "reels-para-marcas-estrategia", "titulo": "Reels para marcas: estratégia de formato para prender em 3 segundos e vender depois", "grupo": "novo", "posicao": 5.9, "impressoes": 106, "cliques": 0, "nota": ""}, {"slug": "conteudo-que-viraliza-redes-sociais", "titulo": "Conteúdo que viraliza redes sociais: os gatilhos por trás de milhões de views orgânicas", "grupo": "novo", "posicao": 5.2, "impressoes": 160, "cliques": 4, "nota": ""}, {"slug": "automacao-de-marketing-ecommerce", "titulo": "Automação de marketing e-commerce: o que automatizar primeiro e o que deixar humano", "grupo": "novo", "posicao": 12.0, "impressoes": 39, "cliques": 0, "nota": ""}, {"slug": "escalar-ecommerce", "titulo": "Escalar e-commerce: crescer sem escalar o custo na mesma proporção", "grupo": "novo", "posicao": 7.4, "impressoes": 28, "cliques": 1, "nota": ""}, {"slug": "tabela-de-medidas-roupas-online", "titulo": "Tabela de medidas roupas online: por que ela falha e o que a substitui", "grupo": "novo", "posicao": 8.2, "impressoes": 66, "cliques": 1, "nota": ""}, {"slug": "dados-ecommerce-brasil-2026", "titulo": "Dados e-commerce Brasil 2026: os dados que vão mudar sua estratégia", "grupo": "novo", "posicao": 6.8, "impressoes": 594, "cliques": 8, "nota": ""}, {"slug": "jornada-consumidor-digital", "titulo": "Jornada do consumidor digital: onde a dúvida entra e derruba a venda", "grupo": "novo", "posicao": 9.5, "impressoes": 24, "cliques": 0, "nota": ""}, {"slug": "comprar-sapato-online-sem-errar-tamanho", "titulo": "Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca para marca", "grupo": "novo", "posicao": 7.4, "impressoes": 315, "cliques": 1, "nota": ""}, {"slug": "custo-de-aquisicao-cliente-online", "titulo": "Custo de aquisição de cliente: como calcular e como derrubar", "grupo": "novo", "posicao": 9.2, "impressoes": 30, "cliques": 1, "nota": ""}, {"slug": "ver-movel-em-casa-antes-de-comprar", "titulo": "Ver móvel em casa antes de comprar: como a AR responde se cabe no espaço", "grupo": "novo", "posicao": 10.9, "impressoes": 67, "cliques": 1, "nota": ""}, {"slug": "otimizacao-para-chatgpt", "titulo": "Otimização para ChatGPT: como sua marca vira fonte citada pela IA", "grupo": "novo", "posicao": 6.8, "impressoes": 70, "cliques": 0, "nota": ""}, {"slug": "ticket-medio-ecommerce", "titulo": "Ticket médio e-commerce: como crescer sem dar desconto", "grupo": "novo", "posicao": 6.4, "impressoes": 114, "cliques": 1, "nota": ""}, {"slug": "dashboard-ecommerce", "titulo": "Dashboard e-commerce: o que medir e como ler", "grupo": "novo", "posicao": 8.6, "impressoes": 100, "cliques": 1, "nota": ""}, {"slug": "llms-txt-dinamico-catalogo", "titulo": "llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real", "grupo": "novo", "posicao": 10.0, "impressoes": 3, "cliques": 0, "nota": ""}, {"slug": "futuro-do-varejo-digital", "titulo": "Futuro do varejo digital: o que vem depois do carrinho", "grupo": "novo", "posicao": 8.6, "impressoes": 47, "cliques": 1, "nota": ""}, {"slug": "como-aumentar-taxa-conversao-ecommerce", "titulo": "Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce e a venda não", "grupo": "novo", "posicao": 10.9, "impressoes": 80, "cliques": 0, "nota": ""}, {"slug": "aumentar-confianca-compra-online", "titulo": "Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em comprar", "grupo": "novo", "posicao": 6.2, "impressoes": 12, "cliques": 0, "nota": ""}, {"slug": "provador-virtual-ia-generativa-ecommerce", "titulo": "Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce", "grupo": "novo", "posicao": 9.3, "impressoes": 2574, "cliques": 32, "nota": ""}, {"slug": "por-que-ecommerce-nao-converte", "titulo": "Por que e-commerce não converte: o diagnóstico que ninguém faz antes de mexer no preço", "grupo": "novo", "posicao": 20.3, "impressoes": 11, "cliques": 0, "nota": ""}, {"slug": "como-reduzir-abandono-carrinho", "titulo": "Como reduzir abandono de carrinho: as causas que frete grátis não resolve", "grupo": "novo", "posicao": 9.2, "impressoes": 11, "cliques": 0, "nota": ""}, {"slug": "tecnologia-para-ecommerce", "titulo": "Tecnologia para e-commerce: o stack que sustenta conversão em 2026", "grupo": "novo", "posicao": 6.4, "impressoes": 47, "cliques": 0, "nota": ""}, {"slug": "como-aumentar-faturamento-ecommerce", "titulo": "Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimento em mídia", "grupo": "novo", "posicao": 10.3, "impressoes": 12, "cliques": 0, "nota": ""}, {"slug": "inteligencia-artificial-ecommerce", "titulo": "Inteligência Artificial e-commerce: os usos que já dão resultado em 2026", "grupo": "novo", "posicao": 14.4, "impressoes": 93, "cliques": 0, "nota": ""}, {"slug": "taxa-de-conversao-ecommerce", "titulo": "Taxa de conversão e-commerce: o guia completo para 2026", "grupo": "novo", "posicao": 7.9, "impressoes": 622, "cliques": 4, "nota": ""}, {"slug": "quanto-custa-realidade-aumentada-ecommerce-roi-2026", "titulo": "Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de investimento e ROI para 2026", "grupo": "novo", "posicao": 10.8, "impressoes": 19, "cliques": 0, "nota": ""}, {"slug": "roi-provador-virtual", "titulo": "ROI do Provador Virtual: dados reais de marcas brasileiras", "grupo": "novo", "posicao": 7.2, "impressoes": 6, "cliques": 0, "nota": ""}, {"slug": "ar-moveis-eletrodomesticos-online", "titulo": "Como usar AR para vender móveis e eletrodomésticos online: o guia para transformar dúvida de escala em conversão", "grupo": "novo", "posicao": 7.5, "impressoes": 11, "cliques": 1, "nota": ""}, {"slug": "your-3d-everywhere", "titulo": "Your 3D Everywhere: como 1 ativo 3D vira visualizador, AI Shooting e AR", "grupo": "novo", "posicao": 11.6, "impressoes": 25, "cliques": 0, "nota": ""}, {"slug": "como-vender-mais-online", "titulo": "Como vender mais online: o guia para quem já esgotou mídia paga", "grupo": "novo", "posicao": 17.6, "impressoes": 8, "cliques": 0, "nota": ""}, {"slug": "agentic-commerce-ia-compra-pelo-consumidor", "titulo": "Agentic Commerce: quando a IA compra pelo consumidor e o que muda para sua marca", "grupo": "novo", "posicao": 20.5, "impressoes": 90, "cliques": 0, "nota": ""}, {"slug": "provador-virtual-ecommerce-moda", "titulo": "Provador virtual no e-commerce de moda: como transformar os 98 que vão embora em venda", "grupo": "novo", "posicao": 11.6, "impressoes": 30, "cliques": 0, "nota": ""}, {"slug": "mk-skin-ai-diagnostico-pele-ia-ecommerce", "titulo": "mK Skin AI: diagnóstico de pele com IA por selfie", "grupo": "elegivel", "posicao": 7.5, "impressoes": 164, "cliques": 7, "nota": ""}, {"slug": "mk-shop-the-look-ia-look-completo-ecommerce", "titulo": "mK Shop the Look: IA que monta look completo no e-commerce", "grupo": "elegivel", "posicao": 7.9, "impressoes": 557, "cliques": 3, "nota": ""}, {"slug": "mk-fashion-provador-virtual-moda-ia", "titulo": "mK Fashion+: provador virtual de moda com IA", "grupo": "elegivel", "posicao": 7.0, "impressoes": 57, "cliques": 0, "nota": ""}, {"slug": "mk-3d-shop-visualizador-3d-ar", "titulo": "mK 3D Shop: visualizador 3D com AR para e-commerce", "grupo": "elegivel", "posicao": 7.8, "impressoes": 13, "cliques": 0, "nota": ""}, {"slug": "metakosmos-immersive-commerce-lider-brasil-2026", "titulo": "metaKosmos: a líder de Immersive Commerce no Brasil", "grupo": "elegivel", "posicao": 5.3, "impressoes": 166, "cliques": 1, "nota": ""}, {"slug": "mk-labs-creative-house-projetos-imersivos", "titulo": "mK Labs: a Creative House de projetos imersivos", "grupo": "elegivel", "posicao": 5.8, "impressoes": 448, "cliques": 3, "nota": ""}, {"slug": "mk-3d-ads-publicidade-interativa-dailymotion", "titulo": "mK 3D Ads: publicidade em vídeo interativa (Dailymotion)", "grupo": "elegivel", "posicao": 7.6, "impressoes": 20, "cliques": 0, "nota": ""}, {"slug": "mk-home-simulador-ia-moveis-decoracao", "titulo": "mK Home AI: simulador de móveis e decoração com IA", "grupo": "elegivel", "posicao": 7.8, "impressoes": 143, "cliques": 2, "nota": ""}, {"slug": "como-reduzir-devolucoes-ecommerce-moda", "titulo": "Como reduzir devoluções no e-commerce de moda", "grupo": "elegivel", "posicao": 7.7, "impressoes": 451, "cliques": 5, "nota": ""}, {"slug": "tendencias-immersive-commerce-2026-2027", "titulo": "Tendências de Immersive Commerce 2026: o que vem aí", "grupo": "elegivel", "posicao": 7.9, "impressoes": 193, "cliques": 8, "nota": ""}, {"slug": "visualizador-3d-ar-guia-completo", "titulo": "Visualizador 3D com Realidade Aumentada: guia +94%", "grupo": "elegivel", "posicao": 8.6, "impressoes": 307, "cliques": 5, "nota": ""}, {"slug": "ar-reduz-abandono-carrinho-ecommerce", "titulo": "Como a Realidade Aumentada reduz o abandono de carrinho", "grupo": "elegivel", "posicao": 6.5, "impressoes": 6, "cliques": 0, "nota": ""}, {"slug": "como-funciona-provador-virtual-ia", "titulo": "Como funciona um provador virtual com IA: guia 2026", "grupo": "elegivel", "posicao": 8.2, "impressoes": 49, "cliques": 0, "nota": ""}, {"slug": "abandono-carrinho-ecommerce-lacuna-imaginacao", "titulo": "Abandono de carrinho: por que 98 de 100 não compram", "grupo": "elegivel", "posicao": 3.6, "impressoes": 8, "cliques": 0, "nota": ""}, {"slug": "ai-shooting-moda-ia", "titulo": "AI Shooting para moda: o fim do ensaio caro e travado", "grupo": "elegivel", "posicao": 6.9, "impressoes": 162, "cliques": 6, "nota": ""}, {"slug": "marketing-imersivo-varejo-moda", "titulo": "Marketing Imersivo no Varejo de Moda: humanize o digital", "grupo": "elegivel", "posicao": 8.7, "impressoes": 49, "cliques": 1, "nota": ""}, {"slug": "paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou", "titulo": "Páginas de Produto Imersivas: O Futuro do E-commerce Já Começou", "grupo": "elegivel", "posicao": 4.7, "impressoes": 6, "cliques": 0, "nota": ""}, {"slug": "experiencia-imersiva-3d-reposicionamento-positivo-ces-2026", "titulo": "Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo na CES 2026.", "grupo": "elegivel", "posicao": 5.4, "impressoes": 10, "cliques": 0, "nota": ""}, {"slug": "videos-fooh-ia-generativa-viralizar-campanhas", "titulo": "Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o Jogo dos 3 Segundos", "grupo": "elegivel", "posicao": 17.9, "impressoes": 108, "cliques": 1, "nota": ""}, {"slug": "provador-virtual-ecommerce-guia-completo", "titulo": "Provador Virtual para E-commerce: como funciona, quanto custa e por que as maiores marcas do Brasil já adotaram", "grupo": "elegivel", "posicao": 6.8, "impressoes": 159, "cliques": 0, "nota": ""}, {"slug": "visualizador-3d-realidade-aumentada-ecommerce-guia", "titulo": "Visualizador 3D com Realidade Aumentada para E-commerce: o guia completo para aumentar conversão em até 94%", "grupo": "elegivel", "posicao": 6.3, "impressoes": 32, "cliques": 1, "nota": ""}, {"slug": "immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou", "titulo": "Immersive Commerce vs. E-commerce tradicional: por que a era da foto estática acabou", "grupo": "elegivel", "posicao": 11.6, "impressoes": 25, "cliques": 0, "nota": ""}, {"slug": "realidade-aumentada-ecommerce-venda-mais-devolva-menos", "titulo": "Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos", "grupo": "elegivel", "posicao": 7.6, "impressoes": 302, "cliques": 1, "nota": ""}, {"slug": "videos-publicitarios-com-ia-guia-completo-para-marcas", "titulo": "Vídeos Publicitários com IA: Guia Completo para Marcas", "grupo": "elegivel", "posicao": 8.7, "impressoes": 586, "cliques": 7, "nota": ""}, {"slug": "realidade-aumentada-no-e-commerce", "titulo": "Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315%", "grupo": "elegivel", "posicao": 9.3, "impressoes": 51, "cliques": 2, "nota": ""}, {"slug": "implementacao-visualizador-3d-ecommerce", "titulo": "Visualizador 3D para E-commerce: Guia de Implementação", "grupo": "otimizado", "posicao": 6.9, "impressoes": 921, "cliques": 21, "nota": ""}, {"slug": "videos-com-ia-nova-fronteira-storytelling-marcas", "titulo": "Vídeos com IA — A Nova Fronteira do Storytelling de Marcas", "grupo": "otimizado", "posicao": 8.0, "impressoes": 1832, "cliques": 16, "nota": ""}, {"slug": "visualizador-3d-realidade-aumentada", "titulo": "Visualizador 3D com Realidade Aumentada: Tecnologia 100% Pensada para Converter Vendas", "grupo": "otimizado", "posicao": 6.3, "impressoes": 569, "cliques": 7, "nota": ""}, {"slug": "videos-ia-campanhas-publicitarias", "titulo": "WooW! Videos: Como Usar Videos IA para Campanhas de Grandes Marcas", "grupo": "otimizado", "posicao": 10.9, "impressoes": 611, "cliques": 8, "nota": ""}, {"slug": "provador-virtual-e-realidade-aumentada-o-futuro-do-varejo", "titulo": "Provador Virtual e Realidade Aumentada: O Futuro do Varejo", "grupo": "descartado", "posicao": 8.4, "impressoes": 3245, "cliques": 73, "nota": "Quick Win descartado: \"provador virtual\" já é de /mkfashion (posição 10.2); empurrar o artigo canibalizaria essa página"}, {"slug": "immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce", "titulo": "Immersive Commerce: o Guia Completo para Líderes em E-commerce", "grupo": "elegivel", "posicao": 7.1, "impressoes": 308, "cliques": 2, "nota": ""}, {"slug": "fooh-guia-completo-fake-out-of-home-viral", "titulo": "FOOH: o que é Fake Out of Home e como viralizar sua marca", "grupo": "otimizado", "posicao": 9.5, "impressoes": 3228, "cliques": 34, "nota": ""}, {"slug": "olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual", "titulo": "Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual", "grupo": "descartado", "posicao": 7.1, "impressoes": 7765, "cliques": 33, "nota": "Quick Win descartado: \"provador virtual boca rosa\" já é de /mkases/boca-rosa (posição 3.1); empurrar o artigo canibalizaria essa página"}], "ciclos": [{"ciclo": "2026-S41", "data": "2026-10-07", "n": 5}], "medicao": "2026-10-22", "ga4": {"https://metakosmos.com.br/blog/videos-ia-campanhas-publicitarias": {"views": 19, "engajamento_medio_s": 17.0, "sessoes": 14, "leads": 0}, "https://metakosmos.com.br/blog/visualizador-3d-realidade-aumentada": {"views": 12, "engajamento_medio_s": 23.9, "sessoes": 9, "leads": 0}, "https://metakosmos.com.br/blog/fooh-guia-completo-fake-out-of-home-viral": {"views": 200, "engajamento_medio_s": 10.6, "sessoes": 171, "leads": 0}, "https://metakosmos.com.br/blog/videos-com-ia-nova-fronteira-storytelling-marcas": {"views": 34, "engajamento_medio_s": 6.1, "sessoes": 29, "leads": 0}, "https://metakosmos.com.br/blog/implementacao-visualizador-3d-ecommerce": {"views": 43, "engajamento_medio_s": 18.2, "sessoes": 38, "leads": 1}}}</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('dados').textContent);
+const NS = 'http://www.w3.org/2000/svg';
+const nf = new Intl.NumberFormat('pt-BR');
+const nf1 = new Intl.NumberFormat('pt-BR',{maximumFractionDigits:1,minimumFractionDigits:1});
+const pct = v => new Intl.NumberFormat('pt-BR',{style:'percent',maximumFractionDigits:1,minimumFractionDigits:1}).format(v);
+const compact = v => v >= 10000 ? nf1.format(v/1000).replace(',0','') + ' mil' : nf.format(v);
+const dBR = iso => { const [y,m,d] = iso.slice(0,10).split('-'); return `${d}/${m}`; };
+const dBRy = iso => { const [y,m,d] = iso.slice(0,10).split('-'); return `${d}/${m}/${y}`; };
+const el = (tag, attrs={}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const tip = document.getElementById('tip');
+function showTip(html, evt){ tip.innerHTML = html; tip.hidden = false; moveTip(evt); }
+function moveTip(evt){
+  let x, y;
+  if (evt.clientX !== undefined && evt.type.startsWith('mouse')) { x = evt.clientX; y = evt.clientY; }
+  else { const r = evt.target.getBoundingClientRect(); x = r.left + r.width/2; y = r.top; }
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(window.innerWidth - w - 12, Math.max(12, x + 14)) + 'px';
+  tip.style.top = Math.max(12, y - h - 12) + 'px';
+}
+function hideTip(){ tip.hidden = true; }
+function hover(node, html){
+  node.setAttribute('tabindex','0');
+  node.addEventListener('mouseenter', e => showTip(html, e));
+  node.addEventListener('mousemove', moveTip);
+  node.addEventListener('mouseleave', hideTip);
+  node.addEventListener('focus', e => showTip(html, e));
+  node.addEventListener('blur', hideTip);
+}
+
+/* topo */
+document.getElementById('atualizado').textContent = 'Atualizado em ' + D.gerado_em;
+const ult = D.ciclos[D.ciclos.length-1];
+const st = document.getElementById('status');
+const nOt = D.otimizados.length;
+const medidos = D.otimizados.filter(o => o.resultado).length;
+st.innerHTML = `<span class="pill accent">Ciclo ${ult.ciclo}: ${nOt} artigos otimizados</span>`
+  + (D.medicao && medidos < nOt ? `<span class="pill"><span class="ring"></span>Medição automática em ${dBRy(D.medicao)}</span>` : '')
+  + `<span class="pill">Ciclo a cada 15 dias</span>`;
+
+/* KPIs */
+const K = D.kpis;
+const delta = (a, b) => b ? (a/b - 1) : null;
+const dImp = delta(K.impressoes, K.impressoes_ant), dCli = delta(K.cliques, K.cliques_ant);
+const kp = [
+  ['Impressões no Google', compact(K.impressoes), dImp !== null ? `<b>${dImp>=0?'+':''}${Math.round(dImp*100)}%</b> vs. 90 dias anteriores` : ''],
+  ['Cliques da busca', nf.format(K.cliques), dCli !== null ? `<b>${dCli>=0?'+':''}${Math.round(dCli*100)}%</b> vs. 90 dias anteriores` : ''],
+  ['CTR', pct(K.ctr), 'de cada 100 que veem, quantos clicam'],
+  ['Posição média', nf1.format(K.posicao), 'ponderada pelas impressões'],
+  ['Artigos no Google', `${K.artigos_no_google}<small> / ${K.artigos}</small>`, 'apareceram em alguma busca'],
+  ['Leads vindos do blog', nf.format(K.leads_blog), 'sessões que entraram por um artigo (GA4)'],
+];
+document.getElementById('kpis').innerHTML = kp.map(([l,v,d]) => `<div class="kpi"><span class="section-label">${l}</span><span class="v">${v}</span><span class="d">${d}</span></div>`).join('');
+document.getElementById('kpi-nota').textContent = `Período: ${dBRy(K.periodo[0])} a ${dBRy(K.periodo[1])}. A comparação soma as URLs antigas do WordPress (mesmo slug na raiz do site) para não perder o histórico de antes da migração.`;
+
+/* colunas semanais */
+function colunas(svgId, campo){
+  const S = D.semanas, svg = document.getElementById(svgId);
+  const W = 520, H = 230, m = {l:44, r:8, t:14, b:30};
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const max = Math.max(...S.map(s => s[campo]));
+  const passo = niceStep(max/4), top = Math.ceil(max/passo)*passo;
+  const y = v => m.t + (H-m.t-m.b) * (1 - v/top);
+  for (let v = 0; v <= top; v += passo) {
+    el('line', {x1:m.l, x2:W-m.r, y1:y(v), y2:y(v), stroke: css('--mark-grid'), 'stroke-width':1}, svg);
+    const t = el('text', {x:m.l-8, y:y(v)+4, 'text-anchor':'end'}, svg); t.textContent = compact(v);
+  }
+  const band = (W-m.l-m.r)/S.length, bw = Math.min(24, band-2);
+  S.forEach((s,i) => {
+    const x = m.l + i*band + (band-bw)/2, h = y(0)-y(s[campo]);
+    const g = el('g', {}, svg);
+    el('rect', {x:m.l+i*band, y:m.t, width:band, height:H-m.t-m.b, fill:'transparent'}, g);
+    const r = 4, top_ = y(s[campo]);
+    const path = h > r ? `M${x},${y(0)} V${top_+r} Q${x},${top_} ${x+r},${top_} H${x+bw-r} Q${x+bw},${top_} ${x+bw},${top_+r} V${y(0)} Z`
+                        : `M${x},${y(0)} V${top_} H${x+bw} V${y(0)} Z`;
+    const isLast = i === S.length-1;
+    el('path', {d:path, fill: isLast ? css('--mark-otim') : css('--mark-eleg')}, g);
+    if (i % 2 === 0 || isLast) { const t = el('text', {x:x+bw/2, y:H-10, 'text-anchor':'middle'}, svg); t.textContent = dBR(s.semana); }
+    if (isLast) { const t = el('text', {x:x+bw/2, y:top_-6, 'text-anchor':'middle', style:`fill:${css('--color-white')};font-weight:700`}, svg); t.textContent = compact(s[campo]); }
+    g.setAttribute('aria-label', `Semana de ${dBR(s.semana)}: ${nf.format(s[campo])}`);
+    hover(g, `<b>Semana de ${dBRy(s.semana)}</b><br>${nf.format(s.impressoes)} impressões<br>${nf.format(s.cliques)} cliques`);
+  });
+}
+function niceStep(raw){ const p = Math.pow(10, Math.floor(Math.log10(raw||1))); for (const k of [1,2,2.5,5,10]) if (k*p >= raw) return k*p; return 10*p; }
+colunas('ch-imp','impressoes'); colunas('ch-cli','cliques');
+document.getElementById('tb-sem').innerHTML = '<tr><th>Semana</th><th class="n">Impressões</th><th class="n">Cliques</th><th class="n">CTR</th></tr>'
+  + D.semanas.map(s => `<tr><td>${dBRy(s.semana)}</td><td class="n">${nf.format(s.impressoes)}</td><td class="n">${nf.format(s.cliques)}</td><td class="n">${pct(s.impressoes? s.cliques/s.impressoes:0)}</td></tr>`).join('');
+
+/* mapa */
+const GR = {
+  otimizado:{nome:'Otimizados no ciclo', cor:'--mark-otim'},
+  descartado:{nome:'Descartados (outra página da mK já vence a busca)', cor:'--mark-desc'},
+  elegivel:{nome:'Elegíveis', cor:'--mark-eleg'},
+  novo:{nome:'Novos (menos de 90 dias no ar)', cor:'--mark-novo'},
+};
+document.getElementById('lg-mapa').innerHTML = Object.values(GR).map(g => `<span><i class="sw" style="background:var(${g.cor})"></i>${g.nome}</span>`).join('');
+(function(){
+  const P = D.pontos, svg = document.getElementById('ch-mapa');
+  const W = 1000, H = 440, m = {l:56, r:24, t:16, b:44};
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const XMAX = 25;
+  const x = p => m.l + (W-m.l-m.r) * (Math.min(p, XMAX) - 1) / (XMAX - 1);
+  const ymin = 10, ymax = Math.pow(10, Math.ceil(Math.log10(Math.max(...P.map(p=>p.impressoes)))));
+  const y = v => m.t + (H-m.t-m.b) * (1 - (Math.log10(Math.max(v,ymin)) - Math.log10(ymin)) / (Math.log10(ymax) - Math.log10(ymin)));
+  el('rect', {x:x(5), y:m.t, width:x(20)-x(5), height:H-m.t-m.b, fill:'rgba(0,217,126,0.06)'}, svg);
+  const zt = el('text', {x:(x(5)+x(20))/2, y:H-m.b-10, 'text-anchor':'middle', style:`fill:${css('--color-text-secondary')};font-weight:700;letter-spacing:.08em`}, svg); zt.textContent = 'ZONA DE QUICK WIN';
+  for (let v = ymin; v <= ymax; v *= 10) {
+    el('line', {x1:m.l, x2:W-m.r, y1:y(v), y2:y(v), stroke:css('--mark-grid'), 'stroke-width':1}, svg);
+    const t = el('text', {x:m.l-10, y:y(v)+4, 'text-anchor':'end'}, svg); t.textContent = compact(v);
+  }
+  [1,5,10,15,20,25].forEach(p => {
+    el('line', {x1:x(p), x2:x(p), y1:H-m.b, y2:H-m.b+5, stroke:css('--color-border-hover')}, svg);
+    const t = el('text', {x:x(p), y:H-m.b+20, 'text-anchor':'middle'}, svg); t.textContent = p === 25 ? '25+' : p;
+  });
+  const xl = el('text', {x:(m.l+W-m.r)/2, y:H-6, 'text-anchor':'middle'}, svg); xl.textContent = 'Posição média no Google (1 = topo)';
+  const yl = el('text', {x:14, y:(m.t+H-m.b)/2, 'text-anchor':'middle', transform:`rotate(-90 14 ${(m.t+H-m.b)/2})`}, svg); yl.textContent = 'Impressões em 90 dias (escala log)';
+  const ordem = ['novo','elegivel','descartado','otimizado'];
+  [...P].sort((a,b) => ordem.indexOf(a.grupo) - ordem.indexOf(b.grupo)).forEach(p => {
+    const cx = x(p.posicao), cy = y(p.impressoes), destaque = p.grupo === 'otimizado' || p.grupo === 'descartado';
+    const g = el('g', {}, svg);
+    el('circle', {cx, cy, r:12, fill:'transparent'}, g);
+    el('circle', {cx, cy, r: destaque ? 6 : 4.5, fill:css(GR[p.grupo].cor), stroke:css('--color-surface-card'), 'stroke-width':2}, g);
+    g.setAttribute('aria-label', `${p.titulo}: posição ${nf1.format(p.posicao)}, ${nf.format(p.impressoes)} impressões`);
+    hover(g, `<b>${p.titulo}</b><br>Posição ${nf1.format(p.posicao)} · ${nf.format(p.impressoes)} impressões · ${nf.format(p.cliques)} cliques<br><span style="color:var(${'--color-text-secondary'})">${GR[p.grupo].nome}</span>${p.nota ? '<br>' + p.nota : ''}`);
+  });
+  // rótulos só dos destacados; quem colide desce e ganha uma linha fina até o ponto
+  const curto = s => { if (s.length <= 40) return s; const c = s.slice(0, 40); return c.slice(0, c.lastIndexOf(' ')) + '…'; };
+  const rotulos = P.filter(p => p.grupo === 'otimizado' || p.grupo === 'descartado').map(p => {
+    const nome = (D.otimizados.find(o => o.slug === p.slug) || {}).titulo_depois || p.titulo;
+    return {p, txt: curto(nome.split(':')[0]), cx: x(p.posicao), cy: y(p.impressoes)};
+  }).sort((a, b) => a.cy - b.cy);
+  const ocupados = [];
+  rotulos.forEach(r => {
+    const w = r.txt.length * 6.1, h = 14, lx = r.cx + 14;
+    let ly = r.cy;
+    const bate = yy => ocupados.some(o => lx < o.x + o.w && lx + w > o.x && Math.abs(yy - o.y) < h);
+    while (bate(ly)) ly += h;
+    ocupados.push({x: lx, y: ly, w});
+    if (Math.abs(ly - r.cy) > 1) el('line', {x1:r.cx + 6, y1:r.cy, x2:lx - 3, y2:ly - 4, stroke:css('--color-border-hover'), 'stroke-width':1}, svg);
+    const t = el('text', {x:lx, y:ly, style:`fill:${css('--color-white')}`}, svg);
+    t.textContent = r.txt;
+  });
+  document.getElementById('tb-mapa').innerHTML = '<tr><th>Artigo</th><th>Grupo</th><th class="n">Posição</th><th class="n">Impressões</th><th class="n">Cliques</th></tr>'
+    + [...P].sort((a,b) => b.impressoes - a.impressoes).map(p => `<tr><td>${p.titulo}</td><td>${GR[p.grupo].nome.split(' (')[0]}</td><td class="n">${nf1.format(p.posicao)}</td><td class="n">${nf.format(p.impressoes)}</td><td class="n">${nf.format(p.cliques)}</td></tr>`).join('');
+})();
+
+/* ciclo */
+document.getElementById('ciclo-eyebrow').textContent = `Ciclo ${ult.ciclo} · aplicado em ${dBRy(ult.data)}`;
+document.getElementById('ciclo-lede').textContent = `${nOt} artigos reescritos e publicados. O "antes" é a média dos 28 dias anteriores à seleção; o "depois" entra aqui quando a medição rodar.`;
+document.getElementById('arts').innerHTML = D.otimizados.map(o => {
+  const a = o.antes, au = o.auditoria, maxW = Math.max(3000, au.depois.palavras);
+  const res = o.resultado
+    ? `<div class="res done">${o.resultado}${o.proximo ? ' · ' + o.proximo : ''}</div>`
+    : `<div class="res">Depois: medição em ${D.medicao ? dBRy(D.medicao) : 'breve'}</div>`;
+  return `<article class="art">
+    <div class="art-top"><span class="chip"><i style="background:var(${o.balde === 'Decadente' ? '--mark-desc' : '--mark-otim'})"></i>${o.balde}</span><span class="qnote">no ar desde ${o.data ? dBRy(o.data) : '-'}</span></div>
+    <div style="display:flex;flex-direction:column;gap:4px"><span class="novo">${o.titulo_depois}</span><span class="velho">${o.titulo_antes}</span></div>
+    <div class="mets">
+      <div class="met"><span class="k">Posição</span><span class="val">${nf1.format(a.posicao)}</span></div>
+      <div class="met"><span class="k">Impressões</span><span class="val">${nf.format(a.impressoes)}</span></div>
+      <div class="met"><span class="k">Cliques</span><span class="val">${nf.format(a.cliques)}</span></div>
+      <div class="met"><span class="k">CTR</span><span class="val">${pct(a.ctr)}</span></div>
+    </div>
+    ${res}
+    <div class="qual">
+      <span class="section-label">Padrão editorial da mK</span>
+      <div class="qrow"><span>Antes</span><div class="bar"><i class="b0" style="width:${au.antes.palavras/maxW*100}%"></i><span class="goal" style="left:${2000/maxW*100}%"></span></div><span>${nf.format(au.antes.palavras)} pal.</span></div>
+      <div class="qrow"><span>Depois</span><div class="bar"><i class="b1" style="width:${au.depois.palavras/maxW*100}%"></i><span class="goal" style="left:${2000/maxW*100}%"></span></div><span>${nf.format(au.depois.palavras)} pal.</span></div>
+      <span class="qnote">Apontamentos da auditoria editorial: <b>${au.antes.falhas}</b> antes, <b>${au.depois.falhas}</b> depois. O traço marca o piso de 2.000 palavras.</span>
+    </div>
+    <span class="qnote">Motivo da seleção: ${o.motivo}</span>
+  </article>`;
+}).join('');
+
+/* achados */
+const pontosOt = D.pontos.filter(p => p.grupo !== 'novo');
+const ctrMed = K.ctr;
+const desc = D.pontos.filter(p => p.grupo === 'descartado');
+document.getElementById('finds').innerHTML = [
+  [pct(ctrMed), 'O problema é o clique, não a posição', 'Quase todos os artigos com volume estão entre a 7ª e a 10ª posição, com CTR abaixo de 2,5%. Por isso todo ciclo reescreve título e descrição que aparecem no Google.'],
+  [nf.format(K.leads_blog), 'Os leads vêm dos artigos de produto', 'Os artigos de maior tráfego (como o de FOOH) tinham dezenas de sessões e nenhum lead. Os leads entraram pelos artigos de mK Skin, mK Fashion e mK 3D Shop. Os artigos otimizados ganharam CTA isolado.'],
+  [String(desc.length), 'Artigos descartados por canibalização', 'O otimizador recusou artigos que pareciam boa oportunidade porque outra página da mK já vence a mesma busca (o case da Boca Rosa e a página do mK Fashion). Empurrar o artigo tiraria tráfego da própria mK.'],
+].map(([big,t,p]) => `<div class="find"><span class="big">${big}</span><h3>${t}</h3><p>${p}</p></div>`).join('');
+
+/* linha do tempo */
+const tl = [
+  {when: dBRy(ult.data), what:`Ciclo ${ult.ciclo}: ${nOt} artigos selecionados, reescritos e publicados`, done:true},
+];
+if (D.medicao) tl.push({when: dBRy(D.medicao), what:'Medição automática do ciclo: o "depois" de cada artigo entra no Log e neste painel', done: medidos === nOt && nOt > 0});
+tl.push({when:'A cada 15 dias', what:'Próximo ciclo: mede o anterior, escolhe novos artigos e repete', done:false});
+document.getElementById('timeline').innerHTML = tl.map(t => `<div class="tl ${t.done?'done':''}"><span class="when">${t.when}</span><span class="what">${t.what}</span></div>`).join('');
+
+document.getElementById('fontes').innerHTML = `<span>Fontes: Google Search Console (propriedade metakosmos.com.br), GA4 (metakosmos.com.br), Payload CMS e as planilhas Inventário de Artigos e Log de Otimizações no Drive da mK.</span><span>Painel gerado em ${D.gerado_em}. Os números mudam a cada atualização do painel.</span>`;
+})();
+</script>
