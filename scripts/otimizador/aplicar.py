@@ -60,6 +60,8 @@ def normalizar(no):
     filhos = []
     for f in no.get("children", []):
         n = normalizar(f)
+        if n["t"] == "text" and n["x"] == "":
+            continue  # nó vazio não aparece na página (e o conversor nem o gera)
         if n["t"] == "text" and filhos and filhos[-1]["t"] == "text" and filhos[-1]["f"] == n["f"]:
             filhos[-1]["x"] += n["x"]
         else:

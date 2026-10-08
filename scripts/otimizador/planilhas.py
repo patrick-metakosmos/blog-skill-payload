@@ -101,16 +101,23 @@ class Planilhas:
         self._formatar(self.id_log, self.aba_log, COLUNAS_LOG, ["CTR (antes)", "CTR (depois)"])
         return len(novas)
 
-    def atualizar_log(self, url, ciclo, campos):
-        """Preenche campos de uma linha do Log (ex.: 'O que foi feito', os 'depois')."""
-        cab, linhas = self._ler(self.id_log, ABA_LOG)
+    def atualizar_inventario(self, url, campos):
+        """Atualiza campos da linha do artigo no Inventário (localizada pela URL)."""
+        return self._atualizar_linha(self.id_inv, ABA_INVENTARIO, campos,
+                                     lambda l: l.get("Slug/URL") == url)
+
+    def _atualizar_linha(self, planilha, aba, campos, achar):
+        cab, linhas = self._ler(planilha, aba)
         for i, l in enumerate(linhas, start=2):
-            if l["URL do artigo"] == url and l["Ciclo"] == ciclo:
-                dados = []
-                for nome, valor in campos.items():
-                    col = chr(ord("A") + cab.index(nome))
-                    dados.append({"range": f"'{ABA_LOG}'!{col}{i}", "values": [[valor]]})
-                checar(self.s.post(f"{API}/{self.id_log}/values:batchUpdate",
-                                   json={"valueInputOption": "USER_ENTERED", "data": dados}), "atualizar log")
+            if achar(l):
+                dados = [{"range": f"'{aba}'!{chr(ord('A') + cab.index(nome))}{i}", "values": [[valor]]}
+                         for nome, valor in campos.items()]
+                checar(self.s.post(f"{API}/{planilha}/values:batchUpdate",
+                                   json={"valueInputOption": "RAW", "data": dados}), f"atualizar {aba}")
                 return True
         return False
+
+    def atualizar_log(self, url, ciclo, campos):
+        """Preenche campos de uma linha do Log (ex.: 'O que foi feito', os 'depois')."""
+        return self._atualizar_linha(self.id_log, ABA_LOG, campos,
+                                     lambda l: l["URL do artigo"] == url and l["Ciclo"] == ciclo)
