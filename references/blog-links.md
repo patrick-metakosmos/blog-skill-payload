@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **88** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **89** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -37,13 +37,13 @@ Total: **88** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `experiencia-de-marca-brand-experience` | Experiência de Marca Brand Experience: como a marca vira experiência e não anúnc | /blog/experiencia-de-marca-brand-experience |
 | `experiencia-do-cliente-online` | Experiência do cliente online: o que o consumidor sente antes de comprar | /blog/experiencia-do-cliente-online |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
-| `fooh-guia-completo-fake-out-of-home-viral` | FOOH: o que é Fake Out of Home e como viralizar sua marca | /blog/fooh-guia-completo-fake-out-of-home-viral |
+| `fooh-guia-completo-fake-out-of-home-viral` | FOOH (Fake Out of Home): o que é, exemplos e como fazer um vídeo que viraliza | /blog/fooh-guia-completo-fake-out-of-home-viral |
 | `funil-de-conversao-ecommerce` | Funil de conversão e-commerce: onde o dinheiro vaza | /blog/funil-de-conversao-ecommerce |
 | `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |
 | `geracao-z-comportamento-de-compra` | Geração Z comportamento de compra: como esse consumidor compra | /blog/geracao-z-comportamento-de-compra |
 | `immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce` | Immersive Commerce: o Guia Completo para Líderes em E-commerce | /blog/immersive-commerce-guia-completo-comercio-imersivo-lideres-ecommerce |
 | `immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou` | Immersive Commerce vs. E-commerce tradicional: por que a era da foto estática ac | /blog/immersive-commerce-vs-e-commerce-tradicional-por-que-a-era-da-foto-estatica-acabou |
-| `implementacao-visualizador-3d-ecommerce` | Visualizador 3D para E-commerce: Guia de Implementação | /blog/implementacao-visualizador-3d-ecommerce |
+| `implementacao-visualizador-3d-ecommerce` | Visualizador 3D para e-commerce: para que serve e como implementar na sua loja | /blog/implementacao-visualizador-3d-ecommerce |
 | `inovacao-no-varejo` | Inovação no varejo: o que separa piloto bonito de resultado no caixa | /blog/inovacao-no-varejo |
 | `inteligencia-artificial-ecommerce` | Inteligência Artificial e-commerce: os usos que já dão resultado em 2026 | /blog/inteligencia-artificial-ecommerce |
 | `inteligencia-artificial-no-varejo` | Inteligência artificial no varejo: onde a IA já opera e onde ainda é promessa | /blog/inteligencia-artificial-no-varejo |
@@ -75,6 +75,7 @@ Total: **88** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `realidade-aumentada-no-e-commerce` | Realidade Aumentada no E-commerce: Como 3D Aumenta Vendas em até 315% | /blog/realidade-aumentada-no-e-commerce |
 | `realidade-aumentada-para-decoracao` | Realidade aumentada para decoração: projetar móvel, tapete e luminária na sua sa | /blog/realidade-aumentada-para-decoracao |
 | `reels-para-marcas-estrategia` | Reels para marcas: estratégia de formato para prender em 3 segundos e vender dep | /blog/reels-para-marcas-estrategia |
+| `roi-marketing-digital-ecommerce` | ROI marketing digital e-commerce: como medir sem se enganar com métrica de vaida | /blog/roi-marketing-digital-ecommerce |
 | `roi-provador-virtual` | ROI do Provador Virtual: dados reais de marcas brasileiras | /blog/roi-provador-virtual |
 | `seo-para-ia-generativa` | SEO para IA generativa: o que muda quando quem lê é a máquina | /blog/seo-para-ia-generativa |
 | `tabela-de-medidas-roupas-online` | Tabela de medidas roupas online: por que ela falha e o que a substitui | /blog/tabela-de-medidas-roupas-online |
@@ -84,11 +85,11 @@ Total: **88** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `ticket-medio-ecommerce` | Ticket médio e-commerce: como crescer sem dar desconto | /blog/ticket-medio-ecommerce |
 | `transformacao-digital-varejo` | Transformação digital varejo: por onde começar sem queimar orçamento | /blog/transformacao-digital-varejo |
 | `ver-movel-em-casa-antes-de-comprar` | Ver móvel em casa antes de comprar: como a AR responde se cabe no espaço | /blog/ver-movel-em-casa-antes-de-comprar |
-| `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA — A Nova Fronteira do Storytelling de Marcas | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
+| `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA: o que são, exemplos de marcas e como fazer parecer real | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
-| `videos-ia-campanhas-publicitarias` | WooW! Videos: Como Usar Videos IA para Campanhas de Grandes Marcas | /blog/videos-ia-campanhas-publicitarias |
+| `videos-ia-campanhas-publicitarias` | Vídeos com IA para campanhas publicitárias: exemplos de marcas brasileiras e com | /blog/videos-ia-campanhas-publicitarias |
 | `videos-publicitarios-com-ia-guia-completo-para-marcas` | Vídeos Publicitários com IA: Guia Completo para Marcas | /blog/videos-publicitarios-com-ia-guia-completo-para-marcas |
 | `visualizador-3d-ar-guia-completo` | Visualizador 3D com Realidade Aumentada: guia +94% | /blog/visualizador-3d-ar-guia-completo |
-| `visualizador-3d-realidade-aumentada` | Visualizador 3D com Realidade Aumentada: Tecnologia 100% Pensada para Converter  | /blog/visualizador-3d-realidade-aumentada |
+| `visualizador-3d-realidade-aumentada` | Visualizador 3D com realidade aumentada: como ver o produto no seu espaço antes  | /blog/visualizador-3d-realidade-aumentada |
 | `visualizador-3d-realidade-aumentada-ecommerce-guia` | Visualizador 3D com Realidade Aumentada para E-commerce: o guia completo para au | /blog/visualizador-3d-realidade-aumentada-ecommerce-guia |
 | `your-3d-everywhere` | Your 3D Everywhere: como 1 ativo 3D vira visualizador, AI Shooting e AR | /blog/your-3d-everywhere |
