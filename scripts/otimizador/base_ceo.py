@@ -68,6 +68,49 @@ linhas_precos = ["| Produto | Preço | Como escrever no blog |", "|---|---|---|"
 for nome, v in prod.items():
     linhas_precos.append(f"| **{nome}** | a partir de {v['a_partir_de']} {v['unidade']} | \"a partir de {v['a_partir_de']} {v['unidade']}\" |")
 
+def anexo_mkases():
+    arq = REF / "numeros-mkases.json"
+    if not arq.exists():
+        return ""
+    cases = json.loads(arq.read_text(encoding="utf-8"))["cases"]
+    linhas = ["| mKase | Números de destaque | Quando |", "|---|---|---|"]
+    n_com = 0
+    # número que aparece em 4+ cases é texto-padrão de página (28X, 3X, 94%...), não resultado do case
+    freq = {}
+    for c in cases:
+        for v in {n["valor"].lstrip("+").lower() for n in c["numeros"]}:
+            freq[v] = freq.get(v, 0) + 1
+    padrao = {v for v, k in freq.items() if k >= 4}
+
+    def nome(c):
+        base = c["titulo"].replace(" — mKase", "").replace("|", "·")
+        slug = c["slug"].replace("-", " ")
+        return f"{base} ({slug})"
+
+    for c in sorted(cases, key=lambda x: x["slug"]):
+        destaque = []
+        for n in c["numeros"]:
+            v = n["valor"].lstrip("+")
+            if n["tipo"] != "metrica" or v.lower() in padrao or n["frase"] != c["descricao"][:420]:
+                continue
+            if v not in destaque:
+                destaque.append(v)
+        if not destaque:
+            destaque = [n["valor"].lstrip("+") for n in c["numeros"]
+                        if n["tipo"] == "metrica" and n["valor"].lstrip("+").lower() not in padrao][:3]
+            destaque = list(dict.fromkeys(destaque))
+        if not destaque:
+            continue
+        n_com += 1
+        linhas.append(f"| [{nome(c)}]({c['url']}) | {' · '.join(destaque[:5])} | {c['data'] or '-'} |")
+    cab = f"## Anexo A. Números dos mKases do site"
+    intro = (f"Coletados em {date.today():%d/%m/%Y} das páginas públicas ({len(cases)} mKases lidos, {n_com} com números de resultado; "
+             f"os demais falam de prazo e escopo). Cada número tem a frase de origem em `references/numeros-mkases.json`.")
+    return "\n\n".join([cab, intro, "\n".join(linhas)])
+
+
+ANEXO_A = anexo_mkases()
+
 md = f"""# Base de números e preços do blog metaKosmos
 
 *Atualizada em {date.today():%d/%m/%Y}. Mantida pelo otimizador do blog; o auditor automático confere cada artigo contra esta base antes de publicar.*
@@ -110,7 +153,9 @@ Além disso, a página do mKase da Stanley diz "15 mil curtidas" e o estudo diz 
 
 - Cada número tem fonte (linha do estudo ou página do mKase) e status. Os de status pendente ou sem fonte geram aviso em qualquer artigo que os use.
 - Para incluir um número novo, ele é conferido na fonte e registrado na base antes de ir ao ar.
-- Arquivos: `references/numeros-oficiais.json` e `references/precos-aprovados.json`, na pasta da skill do blog.
+- Arquivos: `references/numeros-oficiais.json`, `references/numeros-mkases.json` e `references/precos-aprovados.json`, na pasta da skill do blog.
+
+{ANEXO_A}
 """
 SAIDA.write_text(md, encoding="utf-8")
 print(f"[OK] {SAIDA} ({len(md)} caracteres)")

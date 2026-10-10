@@ -72,4 +72,49 @@ Além disso, a página do mKase da Stanley diz "15 mil curtidas" e o estudo diz 
 
 - Cada número tem fonte (linha do estudo ou página do mKase) e status. Os de status pendente ou sem fonte geram aviso em qualquer artigo que os use.
 - Para incluir um número novo, ele é conferido na fonte e registrado na base antes de ir ao ar.
-- Arquivos: `references/numeros-oficiais.json` e `references/precos-aprovados.json`, na pasta da skill do blog.
+- Arquivos: `references/numeros-oficiais.json`, `references/numeros-mkases.json` e `references/precos-aprovados.json`, na pasta da skill do blog.
+
+## Anexo A. Números dos mKases do site
+
+Coletados em 10/10/2026 das páginas públicas (69 mKases lidos, 38 com números de resultado; os demais falam de prazo e escopo). Cada número tem a frase de origem em `references/numeros-mkases.json`.
+
+| mKase | Números de destaque | Quando |
+|---|---|---|
+| [Vídeos FOOH + video IA + Filtro ar (anasol fooh videos ia filtros ar)](https://metakosmos.com.br/mkases/anasol-fooh-videos-ia-filtros-ar) | 603 mil · 54,7 mil · 7.2 mil | março de 2025 |
+| [Provador Virtual (aneethun provador virtual)](https://metakosmos.com.br/mkases/aneethun-provador-virtual) | 70 mil | maio de 2026 |
+| [Vídeo 3D para linha de maquiagem (avon 3d)](https://metakosmos.com.br/mkases/avon-3d) | 94% | janeiro de 2025 |
+| [Filtro AR para Press-kit (avon renew)](https://metakosmos.com.br/mkases/avon-renew) | 20 mil · 4 mil | outubro de 2023 |
+| [Provador Virtual (bio extratus provador virtual 2)](https://metakosmos.com.br/mkases/bio-extratus-provador-virtual-2) | 1 milhão | março de 2026 |
+| [Vídeo FOOH IA para LANÇAMENTO de CAMPANHA CAPILAR (bio extratus video foo)](https://metakosmos.com.br/mkases/bio-extratus-video-foo) | 4 milhões | dezembro de 2025 |
+| [Vídeos FOOH, 3d e ia (bio extratus videos)](https://metakosmos.com.br/mkases/bio-extratus-videos) | 23 milhões · 14,8 milhões | novembro de 2024 |
+| [Provador Virtual em Realidade Aumentada (boca rosa)](https://metakosmos.com.br/mkases/boca-rosa) | 1.7 milhões | junho de 2024 |
+| [Vídeos FOOH + video IA (chikas bio extratus fake out of home)](https://metakosmos.com.br/mkases/chikas-bio-extratus-fake-out-of-home) | 7 milhões | março de 2025 |
+| [Vídeo IA para Campanha de Volta às Aulas (colegio sigma)](https://metakosmos.com.br/mkases/colegio-sigma) | 27 mil | dezembro de 2025 |
+| [Vídeos com IA para expansão de território de uso (copra video ia)](https://metakosmos.com.br/mkases/copra-video-ia) | 101 mil | março de 2025 |
+| [Campanha FOOH FreeCo nas três maiores capitais do Brasil (freeco fooh)](https://metakosmos.com.br/mkases/freeco-fooh) | 4,1 milhões · 1,9 milhão | janeiro de 2025 |
+| [Visualizador e configurador 3D (general motors)](https://metakosmos.com.br/mkases/general-motors) | 3X · 94% | setembro de 2024 |
+| [Vídeo FOOH (globo fake out of home)](https://metakosmos.com.br/mkases/globo-fake-out-of-home) | 50 milhões | fevereiro de 2025 |
+| [mK Fashion+ (gregory provador virtual 3)](https://metakosmos.com.br/mkases/gregory-provador-virtual-3) | 40% | janeiro de 2026 |
+| [Vídeos FOOH para Lançamento de Novas Unidades Hospitalares (hapvida fooh 2)](https://metakosmos.com.br/mkases/hapvida-fooh-2) | 110 mil · 142 mil | abril de 2025 |
+| [Vídeos FOOH para Lançamento de Campanha de Beleza (hidrabene fooh)](https://metakosmos.com.br/mkases/hidrabene-fooh) | 713 mil | abril de 2025 |
+| [Vídeo FOOH (innerhaus)](https://metakosmos.com.br/mkases/innerhaus) | 111 mil | janeiro de 2025 |
+| [Provador Virtual (karen bachini provador virtual)](https://metakosmos.com.br/mkases/karen-bachini-provador-virtual) | 100 mil · 63% · 129% | outubro de 2025 |
+| [Vídeo FOOH (loreal inoa)](https://metakosmos.com.br/mkases/loreal-inoa) | 8 milhões · 70% | fevereiro de 2025 |
+| [Vídeos FOOH e IA para apresentação das linhas Mili Mulher e Love & Care (mili fake out of home ia)](https://metakosmos.com.br/mkases/mili-fake-out-of-home-ia) | 121 mil | maio de 2025 |
+| [Visualizador e configurador 3D (mitsubishi)](https://metakosmos.com.br/mkases/mitsubishi) | 3X · 3 milhões | outubro de 2023 |
+| [Vídeo IA para campanha de Copa do Mundo (movida copa video)](https://metakosmos.com.br/mkases/movida-copa-video) | 5,5 milhões | novembro de 2025 |
+| [WebApp de Homenagem para o Dia das Mães (natura video kase webapp)](https://metakosmos.com.br/mkases/natura-video-kase-webapp) | 14 mil | maio de 2025 |
+| [Vídeo com IA para campanha de Natal (oba hortifruit video ia)](https://metakosmos.com.br/mkases/oba-hortifruit-video-ia) | 226 mil | outubro de 2025 |
+| [Vídeo FOOH (oscar calcados)](https://metakosmos.com.br/mkases/oscar-calcados) | 31,27% · 49,60% | novembro de 2024 |
+| [Vídeos FOOH (pecarara boasafra fooh)](https://metakosmos.com.br/mkases/pecarara-boasafra-fooh) | 4,9 milhões · 168% · 118% | agosto de 2024 |
+| [Vídeo FOOH para divulgação de corrida de rua da PRIO (prio fooh)](https://metakosmos.com.br/mkases/prio-fooh) | 16,5 mil | agosto de 2025 |
+| [Provador Virtual em Realidade Aumentada (provador virtual realidade aumentada mascavo)](https://metakosmos.com.br/mkases/provador-virtual-realidade-aumentada-mascavo) | 6 milhões | junho de 2025 |
+| [Ativação imersiva com Óculos VR e estilização de fotos com AI em evento (reenergisa)](https://metakosmos.com.br/mkases/reenergisa) | 3X | agosto de 2023 |
+| [Vídeo IA: slide Rider assinado por Ronaldinho Gaúcho (rider video ia slide ronaldinho gaucho)](https://metakosmos.com.br/mkases/rider-video-ia-slide-ronaldinho-gaucho) | 11 milhões | junho de 2026 |
+| [fAKE OUT OF HOME E PEÇA INSTITUCIONAL (sesc fake out of home)](https://metakosmos.com.br/mkases/sesc-fake-out-of-home) | 22 mil · 12 mil | abril de 2025 |
+| [Sequência de Vídeos 3D e FOOH para Lançamento (skala)](https://metakosmos.com.br/mkases/skala) | 7 milhões | agosto de 2024 |
+| [Vídeos FOOH + video IA (stanley)](https://metakosmos.com.br/mkases/stanley) | 1,1 milhão | março de 2025 |
+| [Vídeo FOOH (the westin)](https://metakosmos.com.br/mkases/the-westin) | 5,6 milhões | junho de 2025 |
+| [VÍDEO FOOH (ufc)](https://metakosmos.com.br/mkases/ufc) | 4 milhões | março de 2025 |
+| [Vídeo FOOH para o Natal (village mall)](https://metakosmos.com.br/mkases/village-mall) | 650 mil · 653 mil | dezembro de 2024 |
+| [Vídeo FOOH WAP ROBOT W4000 (wap fooh)](https://metakosmos.com.br/mkases/wap-fooh) | 1 milhão | maio de 2025 |

@@ -244,6 +244,13 @@ if os.path.exists(base_path):
     base = json.load(io.open(base_path, encoding="utf-8"))["numeros"]
     chave = lambda v: re.sub(r"[\s+]", "", v.lower()).replace("milhões", "mi").replace("milhão", "mi")
     conhecidos = {chave(n["valor"]): n for n in base}
+    # números dos mKases públicos do site (references/numeros-mkases.json, gerado por coleta_mkases.py)
+    mk_path = os.path.join(BASE, "references", "numeros-mkases.json")
+    if os.path.exists(mk_path):
+        for c in json.load(io.open(mk_path, encoding="utf-8"))["cases"]:
+            for n in c["numeros"]:
+                if n["tipo"] != "monetario":
+                    conhecidos.setdefault(chave(n["valor"]), {"valor": n["valor"], "status": "confirmado", "fonte": c["url"]})
     usados = [re.sub(r"\s+", " ", m).strip() for m in re.findall(
         r"(?<![\d\w])[+\-]?\d[\d.,]*\s?(?:%|x\b|X\b|milh[ãõ][eo]s?|\bmi\b|\bmil\b)", texto)]
     fora_base = sorted({u for u in usados if chave(u) not in conhecidos})

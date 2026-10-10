@@ -1,0 +1,37 @@
+{
+ "deck_id": "1gv6V7VbGQl-VwfPIF7Fd7qf-Y8XGJPwL3OJ3tb8c5o8",
+ "titulo": "[Mari Maria] mK Beauty · Análise de Performance do Provador Virtual · Jul-Out/26",
+ "cliente": "Mari Maria",
+ "produto": "mK Beauty",
+ "periodo": "28/07 a 07/10/2026",
+ "status_deck": "final (o próprio deck marca o cenário projetado como 'valores indicativos, a validar')",
+ "metricas": [
+  {"nome": "Total de provas (try-ons)", "valor": "598.737", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "funil nativo do provador, 28/07 a 07/10"},
+  {"nome": "Provas por usuária", "valor": "19,4", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adições ao carrinho (last click)", "valor": "17.412", "slide": 1, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "last click, atribuição mais restritiva que o cohort do GA4"},
+  {"nome": "CTR do provador", "valor": "8,15%", "slide": 3, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "usuários únicos ÷ itens vistos no GA4, conferido pela mK com o evento de abertura do botão, 'com dado próximo'"},
+  {"nome": "Aberturas únicas", "valor": "33.147", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Provas únicas", "valor": "30.820", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Itens adicionados ao carrinho nas páginas com Provador", "valor": "37.480", "slide": 4, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "todas as páginas com o provador, não só quem usou"},
+  {"nome": "Itens comprados nas páginas com Provador", "valor": "3.068", "slide": 4, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "projetados pela taxa de checkout do site (8,74%) nos dois períodos"},
+  {"nome": "Conversão do checkout nas páginas com Provador", "valor": "8,19%", "slide": 4, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons em agosto", "valor": "253.069", "slide": 7, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "média diária 8.164"},
+  {"nome": "Try-ons em setembro", "valor": "274.244", "slide": 7, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "média diária 9.141"},
+  {"nome": "Try-ons em julho (28 a 31)", "valor": "22.513", "slide": 7, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "só 28 a 31/07, início da operação"},
+  {"nome": "Try-ons em outubro (1 a 7)", "valor": "48.911", "slide": 7, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "só 1 a 7/10, média diária 6.987"},
+  {"nome": "Adições ao carrinho, cenário projetado (P1+P2)", "valor": "34.128", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "PROJETADO: aplica ao período 1 a participação do segmento observada em setembro; 'valores indicativos, a validar'. Conservador (dados reais): 25.767"},
+  {"nome": "Receita gerada pelo Provador, cenário projetado", "valor": "R$ 186.326,85", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "PROJETADO, 'a validar'. Conservador: R$ 134.122,21"},
+  {"nome": "Investimento no período", "valor": "R$ 7.718,00", "slide": 6, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "R$ 3.859,00 por período"},
+  {"nome": "ROI projetado", "valor": "24,14× (2.314%)", "slide": 1, "tipo": "roi", "sensibilidade": "sensivel", "observacao": "PROJETADO, 'a validar'. Conservador (só dados reais): 17,38× (1.638%)"},
+  {"nome": "Ticket médio das páginas com Provador", "valor": "R$ 62,43", "slide": 4, "tipo": "receita", "sensibilidade": "sensivel", "observacao": ""},
+  {"nome": "Receita das páginas com Provador", "valor": "R$ 191.520,02", "slide": 4, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "receita da marca, não do provador"},
+  {"nome": "Fee mensal usado no cenário alternativo", "valor": "R$ 20.000,00 por mês", "slide": 10, "tipo": "fee", "sensibilidade": "sensivel", "observacao": "Fee do contrato da mK com a cliente. NUNCA publicar. ROI nesse cenário: 4,66× (366%)"}
+ ],
+ "avisos": [
+  "O segmento Provador só é capturado de forma consistente no GA4 a partir de 03/09; por isso o deck divide em dois períodos (P1 28/07 a 02/09, P2 03/09 a 07/10) e dois cenários.",
+  "Cenário projetado: valores indicativos, a validar. O cenário conservador usa só dados reais de last click.",
+  "Julho cobre só 28 a 31/07 e outubro só 1 a 7/10 (períodos parciais).",
+  "A projeção de try-ons de outubro a fevereiro (slide 8) é indicativa e não considera sazonalidade."
+ ],
+ "destaque": "Em 28/07 a 07/10, o Provador gerou 598.737 provas (19,4 por usuária); no cenário conservador o retorno é de 17,38× e no projetado, 24,14×."
+}
