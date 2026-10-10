@@ -1,0 +1,194 @@
+{
+ "deck_id": "1uyxARn9lyx3UKW6fbzuYeDUcgbh21BBCHlERolIUjC8",
+ "titulo": "Analise de Performance",
+ "cliente": "metaKosmos (interno): não é relatório de cliente",
+ "produto": "mK Labs (comercial/pré-venda da mK; NÃO é performance de produto)",
+ "periodo": "Q3 de 2025 (jul a set/2025); projeção de metas para outubro",
+ "status_deck": "painel interno de pré-venda/SDR (sem marca de rascunho); tem erros de planilha visíveis (#DIV/0!)",
+ "metricas": [
+  {
+   "nome": "Agendamentos Q3 (alvo)",
+   "valor": "262",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": "painel geral de SDRs; dado comercial interno"
+  },
+  {
+   "nome": "Agendamentos Q3 (realizado)",
+   "valor": "193",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": "74% do alvo"
+  },
+  {
+   "nome": "Progresso dos agendamentos",
+   "valor": "74%",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "No show",
+   "valor": "45 (23%)",
+   "slide": 3,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": "funil pré-venda Q3, inbound + outbound"
+  },
+  {
+   "nome": "Reuniões realizadas",
+   "valor": "148 (77%)",
+   "slide": 3,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Reuniões qualificadas",
+   "valor": "144 (75%)",
+   "slide": 3,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Apresentação de propostas",
+   "valor": "31 (22%)",
+   "slide": 3,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Vendas (quantidade)",
+   "valor": "7 (5%)",
+   "slide": 3,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Valor em vendas Q3",
+   "valor": "R$ 324.006,00",
+   "slide": 3,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "o slide traz também '46.286,57' sem rótulo (provável ticket médio; não confirmado)"
+  },
+  {
+   "nome": "Outbound: leads iniciados para prospecção",
+   "valor": "657",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Outbound: ligações",
+   "valor": "6505",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Outbound: ligações atendidas",
+   "valor": "2466 (38%)",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Outbound: contatos significativos",
+   "valor": "305 (12%)",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Outbound: agendamentos",
+   "valor": "131 (43%)",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": "taxa como escrita no slide"
+  },
+  {
+   "nome": "Outbound: vendas",
+   "valor": "1 (1%), R$ 34.200,00",
+   "slide": 4,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Inbound: leads altos de marketing",
+   "valor": "210",
+   "slide": 5,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Inbound: leads qualificados altos (Tales)",
+   "valor": "82 (39%)",
+   "slide": 5,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Inbound: agendamento",
+   "valor": "62 (76%)",
+   "slide": 5,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Inbound: reuniões realizadas",
+   "valor": "56 (90%)",
+   "slide": 5,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Inbound: apresentação de proposta",
+   "valor": "22 (35%)",
+   "slide": 5,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Inbound: vendas",
+   "valor": "6 (11%), R$ 289.806,00",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Meta de vendas Q3 2025",
+   "valor": "R$ 2.565K, 67% da meta",
+   "slide": 20,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "contagem de slide aproximada (deck sem rodapé)"
+  }
+ ],
+ "avisos": [
+  "Este deck NÃO traz resultado de produto de cliente: é o funil comercial interno de pré-venda (SDR) da mK no Q3 de 2025, autoria Beatriz. Sem utilidade direta para números de performance do blog; tudo é dado interno/sensível.",
+  "Dados individuais por SDR (Allef, Anderson, André, Natalia, Tales) nos slides 6 a 19 e projeções de outubro NÃO foram extraídos por serem desempenho individual de pessoas e irrelevantes para o blog.",
+  "Slides finais (negócios ganhos por mês/tipo de contato/closer e ticket médio) vêm só como gráficos, sem valores no texto exportado.",
+  "A planilha exibe '#DIV/0!' em algumas taxas (slide de Natalia).",
+  "Numeração dos slides contada pela ordem do texto, sem rodapé numerado."
+ ],
+ "destaque": "Q3/2025: 193 agendamentos (74% do alvo de 262), 7 vendas somando R$ 324.006,00 e 67% da meta de vendas de R$ 2.565K; é um painel comercial interno, não performance de produto."
+}

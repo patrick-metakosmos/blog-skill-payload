@@ -1,0 +1,179 @@
+{
+ "deck_id": "14o8fCgFcPIkTa19B18dWYv3gbZO-L610Vx1K-dlR-tw",
+ "titulo": "[Amplifit] mK Fashion: Performance do Provador Virtual",
+ "cliente": "Amplifit",
+ "produto": "mK Fashion+",
+ "periodo": "POC de 28/07 a 16/08/2026 (20 dias)",
+ "status_deck": "versão anterior da POC (sem rótulo; números menores que o deck Jul_Ago_2026); POC",
+ "metricas": [
+  {
+   "nome": "Taxa de aprovação da experiência de try-on",
+   "valor": "91,4%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "200",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Em 20 dias de POC, com 89 produtos ativos."
+  },
+  {
+   "nome": "Experiência iniciada",
+   "valor": "243",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Sessões que abriram o Provador."
+  },
+  {
+   "nome": "Média diária de provas",
+   "valor": "10",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Provas finalizadas por dia."
+  },
+  {
+   "nome": "Duração / produtos ativos",
+   "valor": "20 dias · 89 produtos ativos",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de provas finalizadas",
+   "valor": "70,4%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Não confere com o par 200/243 do próprio slide; o deck Jul_Ago traz 78,7% (218/277)."
+  },
+  {
+   "nome": "Adições ao carrinho (last click)",
+   "valor": "27",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "21",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação (slide 4)",
+   "valor": "91,4%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 5 produtos mais testados (aberturas = provas)",
+   "valor": "mesmo ranking do deck Jul_Ago: 45, 22, 15, 14, 9",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "143",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De todos os usuários que interagiram com o Provador."
+  },
+  {
+   "nome": "Itens comprados pelo Provador",
+   "valor": "156",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "9,30% de conversão de checkout do Provador. Itens comprados (156) > adições ao carrinho (143): inconsistente. Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Conversão de checkout do Provador",
+   "valor": "9,30%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita gerada pelo Provador",
+   "valor": "R$ 5.680,00",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Ticket médio",
+   "valor": "R$ 36,41 por item",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova realizada",
+   "valor": "R$ 1,00",
+   "slide": 5,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Total investido no período",
+   "valor": "R$ 200,00",
+   "slide": 5,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "Potencial (R$ 1,00 por prova)."
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 28,40",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "28,40×",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI",
+   "valor": "2.740%",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Método: collector da mK, integrado ao Provador; sem cohort ou segmentação externa. POC de 20 dias com 89 produtos ativos.",
+  "Deck sem comparativo 'usou vs. não usou o provador' (existe só no deck Jul_Ago_2026).",
+  "Slide 5: 156 itens comprados > 143 adições ao carrinho; ticket em 'por item' (R$ 36,41), não por pedido.",
+  "Slide 3: taxa de provas finalizadas de 70,4% não confere com 200 provas / 243 experiências do próprio deck.",
+  "Slide 6: 'sustentam a transição da POC para uma fase comercial'.",
+  "O mesmo período de POC tem dois decks com números diferentes (200 vs. 218 provas); usar o Jul_Ago como mais recente, após confirmação."
+ ],
+ "destaque": "Em 20 dias de POC com 89 produtos, 200 provas finalizadas, 91,4% de aprovação e ROI de 2.740% (28,40×; R$ 5.680,00 sobre R$ 200,00 de investimento potencial)."
+}

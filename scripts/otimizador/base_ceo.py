@@ -11,6 +11,7 @@ Uso:
 Saída: otimizador/Base-de-numeros-e-precos-do-blog.md
 """
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -109,7 +110,61 @@ def anexo_mkases():
     return "\n\n".join([cab, intro, "\n".join(linhas)])
 
 
+def limpa(s, maximo):
+    """Corta no primeiro '(' ou ';' (detalhes do agente) e, se ainda passar do limite, na última palavra inteira."""
+    s = re.split(r"\s*[(;]", s or "")[0].strip(" ,.")
+    if len(s) > maximo:
+        s = s[:maximo].rsplit(" ", 1)[0]
+    return s
+
+
+def anexo_drive():
+    """Anexo B: performance dos provadores nos clientes (apresentações internas do Drive).
+    Só números de uso/conversão sem R$; valores em R$, ROI e fee ficam de fora de propósito."""
+    pasta = SKILL_DIR / "otimizador" / "dados" / "drive_decks"
+    if not pasta.exists():
+        return ""
+    prio = [("prova", 0), ("conversão", 1), ("conversao", 1), ("adiç", 2), ("adic", 2), ("aprova", 3),
+            ("diagnóstico", 3), ("ctr", 4), ("abertura", 5)]
+
+    def peso(nome):
+        n = nome.lower()
+        return min([p for k, p in prio if k in n] or [9])
+
+    linhas = ["| Cliente | Produto | Período | Números de uso (sem R$) | Estado do relatório |", "|---|---|---|---|---|"]
+    n = 0
+    for arq in sorted(pasta.glob("*.json")):
+        d = json.loads(arq.read_text(encoding="utf-8"))
+        mets = [m for m in d.get("metricas", []) if m["sensibilidade"] == "publicavel_com_aprovacao"
+                and m["tipo"] in ("uso", "conversao", "engajamento") and not m.get("observacao", "").lower().startswith("projet")]
+        if not mets:
+            continue
+        mets.sort(key=lambda m: (peso(m["nome"]), m.get("slide") or 99))
+        vistos, escolhidos = set(), []
+        for m in mets:
+            if m["nome"] in vistos:
+                continue
+            vistos.add(m["nome"])
+            escolhidos.append(f"{m['nome']}: {m['valor']}")
+            if len(escolhidos) == 4:
+                break
+        n += 1
+        estado = limpa(d.get("status_deck", ""), 28) or "-"
+        link = f"https://docs.google.com/presentation/d/{d['deck_id']}"
+        periodo = limpa(d.get("periodo", ""), 30)
+        linhas.append(f"| [{d['cliente']}]({link}) | {limpa(d.get('produto', ''), 20)} | {periodo} | "
+                      + " · ".join(escolhidos) + f" | {estado} |")
+    cab = "## Anexo B. Performance dos provadores nos clientes (USO INTERNO)"
+    aviso = ("**Estes números vêm de apresentações internas de performance do Drive e NÃO estão aprovados para o blog.** "
+             "Cada cliente precisa autorizar o uso, e os relatórios têm divergências de método entre versões e períodos: "
+             "a Mari Maria, por exemplo, tem duas versões do relatório com 648.457 e 598.737 provas para o mesmo período. "
+             "Valores em R$ (receita da marca, investimento, ROI, fee) ficam de fora deste anexo. "
+             "O auditor avisa quando um artigo repetir qualquer um destes números.")
+    return "\n\n".join([cab, aviso, "\n".join(linhas)]) if n else ""
+
+
 ANEXO_A = anexo_mkases()
+ANEXO_B = anexo_drive()
 
 md = f"""# Base de números e preços do blog metaKosmos
 
@@ -156,6 +211,8 @@ Além disso, a página do mKase da Stanley diz "15 mil curtidas" e o estudo diz 
 - Arquivos: `references/numeros-oficiais.json`, `references/numeros-mkases.json` e `references/precos-aprovados.json`, na pasta da skill do blog.
 
 {ANEXO_A}
+
+{ANEXO_B}
 """
 SAIDA.write_text(md, encoding="utf-8")
 print(f"[OK] {SAIDA} ({len(md)} caracteres)")

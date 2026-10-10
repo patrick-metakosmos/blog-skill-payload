@@ -1,0 +1,444 @@
+{
+ "deck_id": "1nnYQwiZEsqHNh3GDHWqO1duU7lzVFlokLr3kBLStuO8",
+ "titulo": "[Millu Shop] mkF+ Provador Virtual AI · Análise de Performance · Setembro/2026",
+ "cliente": "Millu (Millu Shop)",
+ "produto": "mK Fashion+",
+ "periodo": "POC 23/09 a 28/09/2026 (6 dias)",
+ "status_deck": "POC; sem indicação de status no título ou nos slides",
+ "metricas": [
+  {
+   "nome": "Uplift de conversão por sessão (usou vs. não usou)",
+   "valor": "+205,0%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "2,16% vs. 0,71%; 'cerca de 3 vezes mais'"
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "2.282",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Try-ons concluídos no período"
+  },
+  {
+   "nome": "Aprovação do Provador",
+   "valor": "97,6%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "207 gostaram em 212 feedbacks"
+  },
+  {
+   "nome": "Receita influenciada",
+   "valor": "R$ 36.037",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "68 pedidos de quem abriu o Provador"
+  },
+  {
+   "nome": "Duração da POC",
+   "valor": "6 dias (23/09 a 28/09/2026)",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "POC muito curta"
+  },
+  {
+   "nome": "Produtos ativos (média)",
+   "valor": "470",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "CTR",
+   "valor": "10,97%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Cliques no CTA ÷ visualizações de PDP com PV"
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "2.282",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho totais",
+   "valor": "1.014",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Influenciadas pelo Provador, leitura ampla. Slide 09 mostra 1.014 na coluna 'esteve em página com provador' e 936 na coluna 'abriu o provador'"
+  },
+  {
+   "nome": "Taxa de conclusão",
+   "valor": "70,8%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições diretas (last click)",
+   "valor": "185",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Last click, leitura restritiva"
+  },
+  {
+   "nome": "Pedidos influenciados pelo PV",
+   "valor": "68",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De usuários que abriram o Provador"
+  },
+  {
+   "nome": "Feedbacks",
+   "valor": "212",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "97,6%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "207 gostaram, 5 não gostaram"
+  },
+  {
+   "nome": "Média de provas por usuária",
+   "valor": "2,6",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "250",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 1 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Redondo Manu Rosê",
+   "valor": "43 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 2 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Quadrado Hosana Prata",
+   "valor": "24 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 3 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Gatinho Monza Roxo",
+   "valor": "25 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 4 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Retangular Mayla Oncinha",
+   "valor": "41 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 5 produto: Armação de Óculos de Grau Clipon 3 em 1 Feminino Oval Marselha Marrom",
+   "valor": "21 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 6 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Gatinho Kalliman Dourado com Preto Parafusado",
+   "valor": "25 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 7 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Gatinho Celina Transparente",
+   "valor": "23 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 8 produto: Armação de Óculos de Grau Clipon 2 em 1 Flávia Caramelo",
+   "valor": "39 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 9 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Redondo Manu Oncinha",
+   "valor": "22 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Top 10 produto: Armação de Óculos de Grau Clipon 2 em 1 Feminino Quadrado Alessia Dourado",
+   "valor": "23 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Valores não estão em ordem decrescente (ranking provavelmente por aberturas, não exibidas)"
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "1.014",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Influenciadas pelo Provador, leitura ampla"
+  },
+  {
+   "nome": "Receita influenciada pelo PV",
+   "valor": "R$ 36.037,00",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Soma da receita de usuários que abriram o Provador"
+  },
+  {
+   "nome": "Ticket médio",
+   "valor": "R$ 529,96",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Receita influenciada ÷ 68 pedidos"
+  },
+  {
+   "nome": "Total investido",
+   "valor": "R$ 2.282,00",
+   "slide": 7,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova realizada",
+   "valor": "R$ 1,00",
+   "slide": 7,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 15,79",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "15,79×",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI",
+   "valor": "1.479%",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de conversão por sessão: usou",
+   "valor": "2,16%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "vendas / sessões"
+  },
+  {
+   "nome": "Taxa de conversão por sessão: não usou",
+   "valor": "0,71%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+205,0%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: usou",
+   "valor": "29,78%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: não usou",
+   "valor": "5,29%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de adição ao carrinho",
+   "valor": "+463,4%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: todos",
+   "valor": "30.214",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Base de cálculo; tráfego do cliente"
+  },
+  {
+   "nome": "Sessões: abriu o provador",
+   "valor": "3.143",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: não abriu o provador",
+   "valor": "27.071",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: esteve em página com provador",
+   "valor": "12.178",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Vendas: todos",
+   "valor": "260",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Dado de vendas do cliente"
+  },
+  {
+   "nome": "Vendas: abriu o provador",
+   "valor": "68",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Vendas: não abriu o provador",
+   "valor": "192",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Vendas: esteve em página com provador",
+   "valor": "154",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: todos",
+   "valor": "2.367",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: abriu o provador",
+   "valor": "936",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: não abriu o provador",
+   "valor": "1.431",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: esteve em página com provador",
+   "valor": "1.014",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Leitura de negócio",
+   "valor": "ROI de 1.479%, R$ 36.037 em receita influenciada, 97,6% de aprovação em 6 dias",
+   "slide": 10,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Numeração de slide = número do rodapé de cada slide (a capa não tem número; o 1º slide numerado é o 01).",
+  "POC de apenas 6 dias: amostra curta (68 pedidos de quem abriu o Provador).",
+  "Receita é 'influenciada' (soma da receita de quem abriu o Provador), não incremental.",
+  "Adições totais de 1.014 coincidem com a coluna 'esteve em página com provador' (12.178 sessões) do slide 09, não com 'abriu o provador' (936); o slide 03 descreve 1.014 como 'influenciadas pelo Provador'.",
+  "Adições diretas por last click (185) são mais restritivas.",
+  "Slide de base de cálculo é 'complementar, não recorrente'.",
+  "Depoimentos (slide 05) são espontâneos, todos nota 10; não extraídos como métricas."
+ ],
+ "destaque": "POC validada em 6 dias: conversão por sessão +205,0% (2,16% vs. 0,71%), 97,6% de aprovação e R$ 36.037 em receita influenciada (ROI 1.479%)."
+}

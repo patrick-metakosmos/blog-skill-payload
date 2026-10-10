@@ -1,0 +1,204 @@
+{
+ "deck_id": "14FapvsVhRXZEB09WdY_99CF65_Zpmy7Lq3Erw2u05Vs",
+ "titulo": "[Shiseido] mK Beauty: Performance do Provador Virtual de Beleza",
+ "cliente": "Shiseido",
+ "produto": "mK Beauty",
+ "periodo": "01 Jun a 30 Ago 2026 (3 meses); capa datada 01/09/2026",
+ "status_deck": "v1 (capa 'LET'S GET PHYGITAL' datada 01/09/2026; metodo por produto, sem cohort; anterior aos outros dois decks)",
+ "metricas": [
+  {
+   "nome": "Provas virtuais realizadas",
+   "valor": "38.593",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'em 3 meses'"
+  },
+  {
+   "nome": "Usuarias unicas impactadas",
+   "valor": "11.068",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas por usuaria",
+   "valor": "3,61",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'uso recorrente'"
+  },
+  {
+   "nome": "Sessoes no Provador",
+   "valor": "15.221",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "sessoes iniciadas na experiencia"
+  },
+  {
+   "nome": "Usuarias que provaram",
+   "valor": "3.048",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adicoes ao carrinho (nativo do Provador)",
+   "valor": "1.685",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "registrada dentro da AR, antes do cruzamento com o GA4"
+  },
+  {
+   "nome": "Cliques em produto",
+   "valor": "496",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons Junho",
+   "valor": "1.017",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "mes de rampa: operacao plena a partir da ultima semana"
+  },
+  {
+   "nome": "Try-ons Julho",
+   "valor": "16.159",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons Agosto",
+   "valor": "21.417",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Tom mais provado: Light - BB For Sports",
+   "valor": "3.884 provas · 109 usuarias",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Tom: Medium - BB For Sports",
+   "valor": "3.797 provas · 100 usuarias",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Tom: Light Ivory - UV Protective",
+   "valor": "3.616 provas · 156 usuarias",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Tom: Fair Ivory - UV Protective",
+   "valor": "3.294 provas · 122 usuarias",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adicoes ao carrinho dos SKUs digitalizados (GA4)",
+   "valor": "6.879",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'25,2% das adicoes de toda a loja'; comparacao POR PRODUTO (SKUs digitalizados vs catalogo), nao por cohort"
+  },
+  {
+   "nome": "Participacao nas adicoes de toda a loja",
+   "valor": "25,2%",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens comprados (SKUs do Provador)",
+   "valor": "220",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'5,5% das compras de toda a loja'; inclui compras sem passar pelo Provador"
+  },
+  {
+   "nome": "Participacao nas compras de toda a loja",
+   "valor": "5,5%",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita gerada (SKUs digitalizados)",
+   "valor": "R$ 51.778,60",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "'3,7% da receita de toda a loja'; chamada de 'receita influenciada' na composicao do retorno"
+  },
+  {
+   "nome": "Participacao na receita de toda a loja",
+   "valor": "3,7%",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "percentual derivado de receita da marca; exige aprovacao"
+  },
+  {
+   "nome": "Ticket medio por item",
+   "valor": "R$ 235,36",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento no periodo",
+   "valor": "R$ 19.500,00",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno",
+   "valor": "2,66x / +166%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "receita total dos 3 SKUs / investimento; NAO isola a venda causada pelo Provador"
+  }
+ ],
+ "avisos": [
+  "O evento de clique do botao do Provador ainda nao esta ativo no GA4: a comparacao e por produto (3 SKUs) contra o catalogo total, nao por cohort de quem abriu o Provador.",
+  "Receita, itens e adicoes do slide 6 sao de TODAS as vendas dos 3 SKUs digitalizados, nao so de quem usou o Provador; o 'retorno' de 2,66x nao e atribuicao causal.",
+  "Junho e mes de rampa.",
+  "Proximo passo declarado: ativar o evento de clique do botao para leitura por cohort.",
+  "Cobertura de 3 SKUs da linha solar (BB For Sports FPS50+, Hydro BB Compact FPS50+, UV Protective FPS30)."
+ ],
+ "metricas_institucionais_nao_cliente": [],
+ "destaque": "38.593 provas e 11.068 usuarias unicas em tres meses, crescendo de 1.017 (junho) a 21.417 (agosto); os 3 SKUs digitalizados respondem por 3,7% da receita e 5,5% das compras da loja, com retorno de 2,66x.",
+ "nota_numeracao": "slide = numeral impresso no rodape do slide (a capa nao tem numero; posicao absoluta = rodape + 1). slide null = slide sem numero no rodape, descrito na observacao."
+}

@@ -1,0 +1,284 @@
+{
+ "deck_id": "1T66kJMyZyMW-vZPbUjTLth4Dj15la2cHWvIrxVEMuFE",
+ "titulo": "[Amplifit] mK Fashion: Performance do Provador Virtual - Jul_Ago_2026",
+ "cliente": "Amplifit",
+ "produto": "mK Fashion+",
+ "periodo": "POC de 28/07 a 16/08/2026 (20 dias)",
+ "status_deck": "versão mais completa/atualizada (dados maiores que o deck 'agosto/2026'; sem rótulo de versão no título); POC",
+ "metricas": [
+  {
+   "nome": "ROI do Provador no período",
+   "valor": "2.936%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "30,35× o investido; investimento 'potencial' (R$ 1,00 por prova em 20 dias de POC): não foi cobrança efetiva."
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "30,35× o investido",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Investimento potencial/hipotético."
+  },
+  {
+   "nome": "Receita influenciada",
+   "valor": "R$ 6.618,00",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "De quem provou o Provador."
+  },
+  {
+   "nome": "Investimento 'potencial'",
+   "valor": "R$ 218,00",
+   "slide": 1,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "R$ 1,00 por prova em 20 dias de POC (potencial, não cobrado)."
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "218",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Em 20 dias da POC."
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "88,9%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Duração / produtos ativos",
+   "valor": "20 dias · 89 produtos ativos",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Experiência iniciada",
+   "valor": "277",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas (funil)",
+   "valor": "218",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de provas finalizadas",
+   "valor": "78,7%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (last click)",
+   "valor": "29",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Atribuição last click, mais restritiva que a leitura financeira."
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "22",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Média diária de provas",
+   "valor": "10,9",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação (slide 4)",
+   "valor": "88,9%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Sinal de validação da experiência."
+  },
+  {
+   "nome": "Top 5 produtos mais testados (aberturas = provas)",
+   "valor": "1 Conjunto Feminino Top e Short Recortes com Bolsos Marinho: 45/45; 2 ... Esmeralda: 22/22; 3 Conjunto Feminino Top Run e Legging com Bolsos Recortes Croco: 15/15; 4 ... Top e Short Recortes com Bolsos Preto: 14/14; 5 ... Alta Compressão Apex Preto: 9/9",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "3.937",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De todos os usuários que interagiram com o Provador (leitura ampla)."
+  },
+  {
+   "nome": "Itens comprados pelo Provador",
+   "valor": "408",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Receita gerada pelo Provador",
+   "valor": "R$ 6.618,00",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova realizada",
+   "valor": "R$ 1,00",
+   "slide": 5,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Total investido no período",
+   "valor": "R$ 218,00",
+   "slide": 5,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "Potencial."
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 30,35",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador (slide 5)",
+   "valor": "30,35×",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI (slide 5)",
+   "valor": "2.936%",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão do Checkout (vendas / adições ao checkout): usou o provador",
+   "valor": "21,5%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão do Checkout: não usou o provador",
+   "valor": "18,1%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão do checkout",
+   "valor": "+18,7%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão de Vendas (vendas / sessões): usou o provador",
+   "valor": "2,5%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão de Vendas: não usou o provador",
+   "valor": "1,2%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão de vendas",
+   "valor": "+108,3%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Base pequena do segmento 'usou' (14 compras): margem de erro larga."
+  },
+  {
+   "nome": "Base da amostra: usou o provador",
+   "valor": "65 adicionaram · 14 compraram · 926 sessões",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "128 visitantes únicos; Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Base da amostra: não usou o provador",
+   "valor": "2.409 adicionaram · 437 compraram · 55.595 sessões",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Leitura de negócio: título",
+   "valor": "R$ 28,40 de retorno para cada R$ 1,00 'investido'",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Inconsistente com 30,35× do corpo do slide e do slide 5 (28,40 é o valor do deck 'agosto/2026')."
+  },
+  {
+   "nome": "Leitura de negócio: corpo",
+   "valor": "R$ 6.618,00 de receita sobre um investimento potencial de R$ 218,00, retorno de 30,35×; 88,9% de aprovação e 22 imagens baixadas",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Método: collector da mK, integrado ao Provador; sem cohort ou segmentação externa. POC de 20 dias com 89 produtos ativos.",
+  "Investimento é 'potencial' (R$ 1,00 por prova hipotético), não valor cobrado: o ROI não é de contrato.",
+  "Slide 5: 'usou o provador' tem base pequena (128 visitantes únicos, 65 adições ao carrinho, 14 compras); as taxas têm margem de erro larga e devem ser lidas com cautela, principalmente a de checkout (14 compras).",
+  "Slide 5: 3.937 adições / 408 itens (leitura ampla de financeiro) não são conciliáveis com os 65 adicionaram / 14 compraram do segmento 'usou o provador' (slide de conversão) nem com as 29 adições last click do funil.",
+  "Slide 6: título diz R$ 28,40 por R$ 1,00, corpo diz 30,35×: título remanescente do deck anterior.",
+  "Slide 6: 'os cinco produtos mais provados concentram mais da metade das provas': o top 5 do slide 4 soma 105 provas (45+22+15+14+9) para 218 provas finalizadas; conferência fora do slide, vale checar a afirmação.",
+  "Slides após o 6: alavancas de ROI e produtos complementares (AI Studio, Veels): institucional. Slides institucionais genéricos da mK após os slides do cliente (Veels/Video Commerce, AI Studio, alavancas de ROI) trazem claims sem fonte no slide (ex.: '+144% intenção de compra com vídeos', '+270% probabilidade de compra com avaliações', '78% preferem vídeos curtos', 'retorno de até 10x'). Não são dados do cliente; não usar como número de performance."
+ ],
+ "destaque": "POC de 20 dias com 89 produtos: 218 provas finalizadas, 88,9% de aprovação e R$ 6.618,00 de receita influenciada sobre investimento potencial de R$ 218,00 (30,35×, ROI 2.936%); sessões que usaram o provador converteram +108,3% mais em vendas (2,5% vs. 1,2%), com base pequena."
+}

@@ -1,0 +1,373 @@
+{
+ "deck_id": "1hPyUHYGHWYWzRRRMLQBmZySSTT1-v4S6Gn9kWE0o4yo",
+ "titulo": "[ÓTICA MORI] Performance do Provador Virtual: Setembro 2026",
+ "cliente": "Ótica Mori",
+ "produto": "mK Fashion+",
+ "periodo": "01/09 a 30/09/2026 (30 dias)",
+ "status_deck": "final (sem rótulo de versão; mês fechado; relatório executivo)",
+ "metricas": [
+  {
+   "nome": "ROI (retorno sobre o investimento)",
+   "valor": "3.252%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Calculado com receita influenciada e investimento em R$."
+  },
+  {
+   "nome": "Multiplicador do investimento",
+   "valor": "33,52× o investimento",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Cada R$ 1,00 investido retornou R$ 33,52 em receita influenciada."
+  },
+  {
+   "nome": "Receita influenciada (texto do slide 1)",
+   "valor": "R$ 30.233",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Sobre R$ 902 investidos no período."
+  },
+  {
+   "nome": "Investimento no período (texto do slide 1)",
+   "valor": "R$ 902",
+   "slide": 1,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+215,8%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "0,53% de quem concluiu a prova vs. 0,17% de quem não usou: 3,2 vezes mais conversão."
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "1.100",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 1 mostra 'R$ 0,82 por prova'."
+  },
+  {
+   "nome": "Custo por prova",
+   "valor": "R$ 0,82 por prova",
+   "slide": 1,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "95,7%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "110 likes em 115 feedbacks."
+  },
+  {
+   "nome": "Duração do período",
+   "valor": "30 dias",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Produtos ativos no Provador",
+   "valor": "3.332",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova",
+   "valor": "R$ 0,82",
+   "slide": 2,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "CTR (botão do Provador)",
+   "valor": "5,78%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas (funil)",
+   "valor": "1.100",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de conclusão",
+   "valor": "73,0%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Rodapé do slide: usuários que concluíram ao menos uma prova ÷ 1.373 experiências iniciadas."
+  },
+  {
+   "nome": "Experiências iniciadas",
+   "valor": "1.373",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Número aparece na nota de rodapé do slide 3."
+  },
+  {
+   "nome": "Adições ao carrinho de quem usou o PV",
+   "valor": "212",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Leitura ampla (quem concluiu a prova)."
+  },
+  {
+   "nome": "Adições ao carrinho diretas (last click)",
+   "valor": "40",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Atribuição last click, mais restritiva."
+  },
+  {
+   "nome": "Pedidos de quem usou o PV",
+   "valor": "11",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Feedbacks recebidos",
+   "valor": "115 (110 positivos e 5 negativos)",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação (slide 4)",
+   "valor": "95,7%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Com base nos feedbacks recebidos no período."
+  },
+  {
+   "nome": "Média de provas por usuário",
+   "valor": "2,0",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "87",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 10 produtos mais testados (provas finalizadas)",
+   "valor": "1 Miu Miu 53WV ZVN1O1: 39; 2 Ray Ban 7265 8320: 30; 3 Miu Miu 01XV VAU1O1: 17; 4 Montblanc 0444 O 001: 15; 5 Celine Triomphe 40194 U 53A (sol): 15; 6 Prada B15S 17N70R (sol): 13; 7 Burberry 2431 4164: 10; 8 Tiffany 2276 8440: 13; 9 Valentino 0034 O 002: 12; 10 Miu Miu 09XV VAU1O1: 12",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Ordem do ranking no slide tem inconsistência: #7 com 10 provas e #8 com 13."
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "212",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De quem usou o Provador e concluiu a prova."
+  },
+  {
+   "nome": "Receita influenciada pelo PV",
+   "valor": "R$ 30.233",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Soma da receita de usuários que concluíram a prova."
+  },
+  {
+   "nome": "Ticket médio (quem usou o PV)",
+   "valor": "R$ 2.748,42",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Receita influenciada dividida pelos 11 pedidos de quem concluiu a prova."
+  },
+  {
+   "nome": "Total investido no período",
+   "valor": "R$ 902",
+   "slide": 7,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova realizada",
+   "valor": "R$ 0,82",
+   "slide": 7,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 27,48",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "33,52×",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI",
+   "valor": "3.252%",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de conversão por sessão: concluiu a prova",
+   "valor": "0,53%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Vendas / sessões."
+  },
+  {
+   "nome": "Taxa de conversão por sessão: não usou o Provador",
+   "valor": "0,17%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Vendas / sessões."
+  },
+  {
+   "nome": "Uplift da taxa de conversão por sessão",
+   "valor": "+215,8%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: concluiu a prova",
+   "valor": "10,20%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Adições / sessões."
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: não usou o Provador",
+   "valor": "2,77%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Adições / sessões."
+  },
+  {
+   "nome": "Uplift da taxa de adição ao carrinho",
+   "valor": "+268,1%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: concluiu a prova",
+   "valor": "2.079",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Sessões: não usou o Provador",
+   "valor": "41.184",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Compras: concluiu a prova",
+   "valor": "11",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Compras: não usou o Provador",
+   "valor": "69",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Adições ao carrinho: concluiu a prova",
+   "valor": "212",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: não usou o Provador",
+   "valor": "1.141",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão 3,2 vezes maior / carrinho 3,7 vezes maior",
+   "valor": "3,2 vezes (0,53% vs. 0,17%) e 3,7 vezes (10,20% vs. 2,77%)",
+   "slide": 10,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Texto da leitura de negócio."
+  }
+ ],
+ "avisos": [
+  "Slide 9 é marcado como 'Slide complementar, não recorrente' (base de cálculo da conversão por segmento).",
+  "Leitura via Collector da mK, integrado ao Provador; sem cohort. As adições ao carrinho de quem usou o PV (212) são leitura ampla; as diretas (40) usam atribuição last click, mais restritiva.",
+  "'Receita influenciada' é a soma da receita de usuários que concluíram a prova; não é receita causal.",
+  "Taxa de conclusão de 73,0% é definida no rodapé por usuários que concluíram ao menos uma prova ÷ 1.373 experiências iniciadas; o slide traz 1.100 provas finalizadas (provas, não usuários): bases diferentes, não conferível só com o slide.",
+  "Base pequena do segmento 'concluiu a prova' em pedidos: apenas 11 compras, então o uplift de conversão repousa em poucos pedidos.",
+  "Slide 6 (top produtos): ordem do ranking tem item #8 (13) maior que #7 (10).",
+  "Depoimentos no slide 5: 'Bom', 'Quero experimentar outros', 'Amei a praticidade' (setembro/2026, produtos Tiffany/Fendi/Ray Ban).",
+  "Slides institucionais genéricos da mK após os slides do cliente (Veels/Video Commerce, AI Studio, alavancas de ROI) trazem claims sem fonte no slide (ex.: '+144% intenção de compra com vídeos', '+270% probabilidade de compra com avaliações', '78% preferem vídeos curtos', 'retorno de até 10x'). Não são dados do cliente; não usar como número de performance."
+ ],
+ "destaque": "Em 30 dias, cada R$ 1,00 investido no Provador retornou R$ 33,52 em receita influenciada (ROI 3.252%), com conversão por sessão 3,2 vezes maior (0,53% vs. 0,17%) e 95,7% de aprovação em 115 feedbacks."
+}

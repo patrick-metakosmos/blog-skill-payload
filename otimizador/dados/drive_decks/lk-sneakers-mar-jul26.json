@@ -1,0 +1,268 @@
+{
+ "deck_id": "1D4Gt9ApQtCv0x9R9hTWJ3oWMI_-XQXoDLaIDHVpkm4o",
+ "titulo": "[LK Sneakers] Performance do Provador Virtual",
+ "cliente": "LK Sneakers",
+ "produto": "mK Fashion+",
+ "periodo": "27/03 a 14/07/2026 (período 1: 27/03 a 08/06; período 2: 09/06 a 14/07)",
+ "status_deck": "sem indicação de status no título ou nos slides (aparenta final)",
+ "metricas": [
+  {
+   "nome": "Participação do PV na receita das páginas com PV (pós-integração)",
+   "valor": "16,72%",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Antes: 1,31%. Parte do avanço reflete a mudança de método (collector vs. last click)"
+  },
+  {
+   "nome": "Participação do PV na receita das páginas com PV (antes)",
+   "valor": "1,31%",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Média de provas por dia",
+   "valor": "25",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "+150% após o novo botão"
+  },
+  {
+   "nome": "Receita gerada pelo PV",
+   "valor": "R$ 81,5 mil",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Período pós-integração (09/06 a 14/07)"
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "82,29%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "158 likes em 192 feedbacks"
+  },
+  {
+   "nome": "Experiência iniciada: 27/03 a 08/06",
+   "valor": "1.346",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Experiência iniciada: 09/06 a 14/07",
+   "valor": "2.281",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas: 27/03 a 08/06",
+   "valor": "704",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas: 09/06 a 14/07",
+   "valor": "908",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de finalização: 27/03 a 08/06",
+   "valor": "52,3%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de finalização: 09/06 a 14/07",
+   "valor": "39,8%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Diluída pelo botão em destaque (mais experiências iniciadas)"
+  },
+  {
+   "nome": "Média de provas por dia: 27/03 a 08/06",
+   "valor": "10",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Média de provas por dia: 09/06 a 14/07",
+   "valor": "25",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas: 27/03 a 08/06",
+   "valor": "74",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas: 09/06 a 14/07",
+   "valor": "55",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Aumento da média diária de provas",
+   "valor": "+150%",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "10 para 25 provas por dia, vs. período 1"
+  },
+  {
+   "nome": "Feedbacks coletados",
+   "valor": "192",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Likes",
+   "valor": "158",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Deslikes",
+   "valor": "34",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "82,29%",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Compras estimadas do PV: 27/03 a 08/06",
+   "valor": "8",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "ESTIMADO: projeção da taxa de conversão do checkout sobre adições ao carrinho (checkout externo, collector não rastreia compra)"
+  },
+  {
+   "nome": "Compras estimadas do PV: 09/06 a 14/07",
+   "valor": "30",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "ESTIMADO (idem)"
+  },
+  {
+   "nome": "Receita gerada pelo PV: 27/03 a 08/06",
+   "valor": "R$ 20.724",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "ESTIMADA; last click"
+  },
+  {
+   "nome": "Receita gerada pelo PV: 09/06 a 14/07",
+   "valor": "R$ 81.535",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "ESTIMADA; captura via collector, mais abrangente"
+  },
+  {
+   "nome": "Investimento no período: 27/03 a 08/06",
+   "valor": "R$ 5.309",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento no período: 09/06 a 14/07",
+   "valor": "R$ 5.309",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "Mesmo valor nos dois períodos, que têm durações diferentes"
+  },
+  {
+   "nome": "% da receita das páginas cobertas: 27/03 a 08/06",
+   "valor": "1,31%",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "% da receita das páginas cobertas: 09/06 a 14/07",
+   "valor": "16,72%",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI: 27/03 a 08/06",
+   "valor": "290%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI: 09/06 a 14/07",
+   "valor": "1436%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "ESTIMADO; parte do avanço reflete o método de captura"
+  },
+  {
+   "nome": "Leitura de negócio: ROI",
+   "valor": "subiu de 290% para 1436% com o mesmo investimento",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Numeração de slide = número do rodapé de cada slide (a capa não tem número; o 1º slide numerado é o 01).",
+  "Dois períodos com métodos diferentes: período 1 só last click; período 2 via collector (mais abrangente). O deck admite que 'parte do avanço reflete o método, não apenas crescimento real'.",
+  "Checkout externo: o collector não rastreia a compra; compras e receita do PV são ESTIMADAS projetando a taxa de conversão do checkout sobre as adições ao carrinho.",
+  "Investimento de R$ 5.309 é idêntico nos dois períodos, embora o período 1 tenha ~74 dias e o 2 ~36 dias.",
+  "Aumento de provas/dia e de provas concluídas é descrito pelo deck como comportamental e real (efeito do botão em destaque).",
+  "Sem comparativo com/sem provador (conversão, ticket); só antes/depois da integração.",
+  "Slide 08 (Roadmap) sem números."
+ ],
+ "destaque": "Após o collector e o botão em destaque, a participação do Provador na receita das páginas cobertas foi de 1,31% para 16,72% e a média de provas por dia de 10 para 25 (+150%); ROI estimado de 290% para 1436%."
+}

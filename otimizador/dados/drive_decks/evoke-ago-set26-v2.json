@@ -1,0 +1,491 @@
+{
+ "deck_id": "1QYeZ1JvELpZUfkAil8G9CnFTCN3hOXLd_9UOMwZJGIk",
+ "titulo": "[Evoke] mKF+ · Análise de Performance · Ago-Set/26 (v2)",
+ "cliente": "Evoke Eyewear",
+ "produto": "mK Fashion+",
+ "periodo": "POC 05/08 a 04/09/2026 (31 dias)",
+ "status_deck": "v2 (capa: 'Análise de dados do Provador Virtual - versão 2')",
+ "metricas": [
+  {
+   "nome": "Taxa de aprovação da experiência de try-on",
+   "valor": "95,2%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "42 feedbacks: 40 likes contra 2 dislikes"
+  },
+  {
+   "nome": "Feedbacks",
+   "valor": "42",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Likes",
+   "valor": "40",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Dislikes",
+   "valor": "2",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+307,9%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "0,94% (concluiu a prova) vs. 0,23% (não usou): 4,1 vezes mais"
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "419",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de conclusão",
+   "valor": "75,9%",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Pessoas que concluíram ao menos uma prova sobre as 450 experiências iniciadas"
+  },
+  {
+   "nome": "Duração da POC",
+   "valor": "31 dias (05/08 a 04/09/2026)",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Experiências iniciadas",
+   "valor": "450",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova",
+   "valor": "R$ 1,00",
+   "slide": 2,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "CTR",
+   "valor": "7,89%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho de quem usou o PV",
+   "valor": "148",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho diretas (last click)",
+   "valor": "9",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Last click"
+  },
+  {
+   "nome": "Pedidos de quem usou o PV",
+   "valor": "7",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Medido pelo Collector (não projetado)"
+  },
+  {
+   "nome": "Média de provas por usuário",
+   "valor": "2,1",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "28",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 1 produto testado: ÓCULOS DE SOL LODOWN A11 BLACK MATTE SILVER BROWN GRADIENT",
+   "valor": "60 aberturas / 60 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 2 produto testado: ÓCULOS DE SOL LODOWN A01 BLACK SHINE GRAY TOTAL",
+   "valor": "44 aberturas / 44 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 3 produto testado: ÓCULOS DE SOL LODOWN A12 MATTE BLACK",
+   "valor": "40 aberturas / 40 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 4 produto testado: ÓCULOS DE SOL LOWRIDER A02 CRYSTAL BLACK SILVER PURPLE",
+   "valor": "39 aberturas / 31 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 5 produto testado: ÓCULOS DE SOL EVOKE NEW BOMBER BRA12B BLACK WOOD GOLD BROWN TOTAL",
+   "valor": "37 aberturas / 37 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 6 produto testado: ÓCULOS DE SOL AVALANCHE WD01 BLACK MATTE GUN RADICA BROWN",
+   "valor": "36 aberturas / 36 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 7 produto testado: Óculos de Sol Evoke Outlaw Big A21 Black Shine Turtle Brown",
+   "valor": "23 aberturas / 21 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 8 produto testado: ÓCULOS DE SOL AVALANCHE DIVE A01 BLACK SHINE BLACK GRAY GRADIENT",
+   "valor": "23 aberturas / 23 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 9 produto testado: ÓCULOS DE SOL AVALANCHE DIVE A10 BLACK WHITE SHINE BLACK GRAY GRADIENT",
+   "valor": "22 aberturas / 22 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 10 produto testado: Óculos de Sol Evoke X Henrique Fogaça The Mask HFA01 Black Shine",
+   "valor": "21 aberturas / 21 provas finalizadas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Concentração dos 10 produtos do topo",
+   "valor": "335 das 419 provas finalizadas (80,0%)",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 1 mais vendido (PDP com provador): ÓCULOS DE SOL AVALANCHE DIVE A10 BLACK WHITE SHINE BLACK GRAY GRADIENT",
+   "valor": "14 provas finalizadas / 3 pedidos / R$ 3.054",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 2 mais vendido (PDP com provador): ÓCULOS DE SOL LODOWN A01 BLACK SHINE GRAY TOTAL",
+   "valor": "30 provas finalizadas / 2 pedidos / R$ 1.796",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 3 mais vendido (PDP com provador): Óculos de Sol Evoke X Henrique Fogaça The Mask HFA01 Black Shine",
+   "valor": "14 provas finalizadas / 1 pedidos / R$ 1.118",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 4 mais vendido (PDP com provador): ÓCULOS DE SOL FUTURAH A05S MIDNIGHT BLUE SILVER LIGHT BLUE MIRROR",
+   "valor": "3 provas finalizadas / 1 pedidos / R$ 1.038",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 5 mais vendido (PDP com provador): ÓCULOS DE SOL AVALANCHE E02 CRYSTAL GREEN MATTE GOLD",
+   "valor": "0 provas finalizadas / 1 pedidos / R$ 1.038",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 6 mais vendido (PDP com provador): ÓCULOS DE SOL EVOKE NEW BOMBER BRA12B BLACK WOOD GOLD BROWN TOTAL",
+   "valor": "19 provas finalizadas / 1 pedidos / R$ 1.008",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 7 mais vendido (PDP com provador): Óculos de Sol Evoke Outlaw Big A21 Black Shine Turtle Brown",
+   "valor": "16 provas finalizadas / 1 pedidos / R$ 975",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 8 mais vendido (PDP com provador): ÓCULOS DE SOL LODOWN G02 CARAMEL BROWN TOTAL",
+   "valor": "7 provas finalizadas / 1 pedidos / R$ 948",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 9 mais vendido (PDP com provador): ÓCULOS DE SOL LODOWN A12 MATTE BLACK",
+   "valor": "28 provas finalizadas / 1 pedidos / R$ 898",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 10 mais vendido (PDP com provador): Óculos de Sol Evoke Snowstorm 09A Black Matte Black Green Total",
+   "valor": "0 provas finalizadas / 1 pedidos / R$ 755",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 11 mais vendido (PDP com provador): Evoke New The Code II BRA10A Black Matte White Gray Gradient - Sol - Tam 59 mm",
+   "valor": "2 provas finalizadas / 1 pedidos / R$ 588",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Top 12 mais vendido (PDP com provador): Óculos de Sol Evoke For You DS98 J21 Demi",
+   "valor": "0 provas finalizadas / 1 pedidos / R$ 455",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Recorte por PDP com provador: inclui pedidos de usuários sem prova finalizada; totais não coincidem com os demais slides. Slide 06 (1º com esse número: 'Produtos mais vendidos')"
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "148",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (2º com esse número: 'Efetividade financeira'; rodapé duplicado no deck). De quem usou o Provador e concluiu a prova"
+  },
+  {
+   "nome": "Receita influenciada pelo PV",
+   "valor": "R$ 6.686",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º). Soma da receita de sessões que concluíram a prova (7 pedidos)"
+  },
+  {
+   "nome": "Ticket médio (quem usou o PV)",
+   "valor": "R$ 955,20",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º). Receita influenciada ÷ 7 pedidos"
+  },
+  {
+   "nome": "Total investido no período",
+   "valor": "R$ 419",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º)"
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 15,96",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º)"
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "15,96×",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º)"
+  },
+  {
+   "nome": "ROI",
+   "valor": "1.496%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º)"
+  },
+  {
+   "nome": "Taxa de conversão por sessão: concluiu a prova",
+   "valor": "0,94%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "vendas / sessões"
+  },
+  {
+   "nome": "Taxa de conversão por sessão: não usou o provador",
+   "valor": "0,23%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+307,9%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: concluiu a prova",
+   "valor": "19,81%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: não usou o provador",
+   "valor": "4,62%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de adição ao carrinho",
+   "valor": "+329,2%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: concluiu a prova",
+   "valor": "747",
+   "slide": 8,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: não usou o provador",
+   "valor": "93.161",
+   "slide": 8,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Base de cálculo; tráfego do cliente"
+  },
+  {
+   "nome": "Vendas: concluiu a prova",
+   "valor": "7",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Vendas: não usou o provador",
+   "valor": "214",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Dado de vendas do cliente"
+  },
+  {
+   "nome": "Adições ao carrinho: concluiu a prova",
+   "valor": "148",
+   "slide": 8,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: não usou o provador",
+   "valor": "4.300",
+   "slide": 8,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita influenciada (leitura de negócio)",
+   "valor": "R$ 6.686 em 7 pedidos sobre R$ 419 investidos",
+   "slide": 9,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Numeração de slide = número do rodapé de cada slide (a capa não tem número; o 1º slide numerado é o 01). Neste deck dois slides têm o rodapé 06 (Produtos mais vendidos e Efetividade financeira), portanto a numeração real é 1-9 com um 06 duplicado e o último slide marcado 09.",
+  "É uma POC (31 dias). A própria leitura de negócio diz que sustenta evolução para fase comercial 'com base maior de pedidos para consolidar o retorno': base de apenas 7 pedidos de quem concluiu a prova.",
+  "Vendas e receita medidas pelo Collector (não projetadas), mas sobre amostra pequena (7 pedidos).",
+  "Slide de 'mais vendidos' usa recorte por PDP com provador (inclui pedidos sem prova finalizada), mais amplo que o recorte 'concluiu a prova' (7 pedidos, R$ 6.686); totais não coincidem entre slides.",
+  "Soma dos dois segmentos não fecha com o total do site (sessões fora dos recortes).",
+  "Apenas a v2 foi fornecida; v1 não está entre os decks desta tarefa."
+ ],
+ "destaque": "POC validada: 95,2% de aprovação e conversão por sessão 4,1 vezes maior (0,94% vs. 0,23%), R$ 6.686 em receita influenciada em 7 pedidos, ROI de 1.496%."
+}

@@ -1,0 +1,303 @@
+{
+ "deck_id": "1g5YoQNLfHr5Ps3TO5YPUcPdOaYgY6K47fN4CBVKSwEE",
+ "titulo": "[Coliseu] mK Fashion: Performance do Provador Virtual - JunAgo2026 - v2",
+ "cliente": "Coliseu Joalheria",
+ "produto": "mK Fashion+",
+ "periodo": "01/08 a 30/08/2026 (30 dias) no escopo; série mensal desde 24/06/2026 (junho 24/06 a 30/06)",
+ "status_deck": "v2 (corrigida em relação à v1)",
+ "metricas": [
+  {
+   "nome": "Uplift relativo (taxa de conversão páginas com PV vs. site)",
+   "valor": "+100%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "((0,40% − 0,20%) ÷ 0,20%) × 100; a taxa de conversão das páginas com PV dobrou frente à taxa geral do site."
+  },
+  {
+   "nome": "Taxa de conversão por itens vistos: site",
+   "valor": "0,20%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Itens vistos com compra ÷ itens vistos."
+  },
+  {
+   "nome": "Taxa de conversão por itens vistos: páginas com PV",
+   "valor": "0,40%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Duração / período",
+   "valor": "30 dias (01/08 a 30/08/2026)",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Produtos ativos",
+   "valor": "3.075",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preço por prova: até 5.000 try-ons",
+   "valor": "R$ 2,00 por prova finalizada",
+   "slide": 3,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Preço por prova: 5.001 a 10.000 try-ons",
+   "valor": "R$ 1,00 por prova finalizada",
+   "slide": 3,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Preço por prova: acima de 10.000 try-ons",
+   "valor": "R$ 0,70 por prova finalizada",
+   "slide": 3,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "Última faixa aplicada no período."
+  },
+  {
+   "nome": "Try-ons em junho",
+   "valor": "162 provas | 385 SKUs",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Apenas 7 dias (24/06 a 30/06)."
+  },
+  {
+   "nome": "Try-ons em julho",
+   "valor": "1.598 provas | 1014 SKUs",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Julho fechou com +629 SKUs."
+  },
+  {
+   "nome": "Try-ons em agosto",
+   "valor": "21.586 provas | 3.075 SKUs",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "+2.060 SKUs adicionados para a promoção; investimento em ações e campanhas promocionais em agosto ajuda a explicar o salto."
+  },
+  {
+   "nome": "Total de try-ons no período",
+   "valor": "23.346 provas",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI (cenário anterior: R$ 2,00 por prova)",
+   "valor": "178,91%",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "2,79× de retorno; R$ 120.411,00 sobre R$ 43.172,00 em 30 dias."
+  },
+  {
+   "nome": "Retorno em × (cenário anterior)",
+   "valor": "2,79 ×",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita (slides 5 e 6)",
+   "valor": "R$ 120.411,00",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Atribuída ao Provador no período."
+  },
+  {
+   "nome": "Investimento (cenário anterior)",
+   "valor": "R$ 43.172,00",
+   "slide": 5,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "21.586",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "96,32% de quem abriu o Provador."
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "97,3%",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Com base no feedback das usuárias."
+  },
+  {
+   "nome": "ROI (cenário proposto: R$ 0,70 por prova)",
+   "valor": "696,89%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "7,97× de retorno; R$ 120.411,00 sobre R$ 15.110,20 em 30 dias. CENÁRIO PROPOSTO/PROJETADO, não o custo vigente."
+  },
+  {
+   "nome": "Retorno em × (cenário proposto)",
+   "valor": "7,97×",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Cenário proposto (projetado)."
+  },
+  {
+   "nome": "Investimento (cenário proposto)",
+   "valor": "R$ 15.110,20",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "Cenário proposto (projetado)."
+  },
+  {
+   "nome": "Taxa de aprovação (slide 7)",
+   "valor": "97,3%",
+   "slide": 7,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Com base no feedback recebido no período."
+  },
+  {
+   "nome": "Top 10 produtos por aberturas (24/06 a 30/08/2026)",
+   "valor": "1 Michael Kors 0MK3042B 1014 51: 175; 2 Calvin Klein Jeans CKJ24630 618 54: 145; 3 Ray-Ban Hawkeye 0RX5398 8112 45: 135; 4 Calvin Klein Jeans CKJ24628 605 50: 117; 5 Relógio Seiko Prospex Diver's Solar SNE597P1: 107; 6 Carolina Herrera HER 0253 QHO 5217: 100; 7 Love Moschino MOL657/C/TN 3H2 4917 S: 97; 8 Versace 0VE3330 148 55: 92; 9 Michael Kors 0MK4151U 3950 53: 92; 10 Vogue 0VO5348 2855 51: 92",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Período do ranking (24/06 a 30/08) é diferente do escopo do deck (01/08 a 30/08)."
+  },
+  {
+   "nome": "Experiências iniciadas",
+   "valor": "22.410",
+   "slide": 11,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas (funil)",
+   "valor": "21.586",
+   "slide": 11,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de provas finalizadas",
+   "valor": "96,32%",
+   "slide": 11,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (last click)",
+   "valor": "672",
+   "slide": 11,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Atribuição direta e restritiva do funil nativo."
+  },
+  {
+   "nome": "Adições ao carrinho (todos que interagiram)",
+   "valor": "7.206",
+   "slide": 11,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Leitura ampla que sustenta a análise financeira."
+  },
+  {
+   "nome": "Média diária de provas",
+   "valor": "719,5",
+   "slide": 11,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho influenciadas",
+   "valor": "7.206",
+   "slide": 12,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De todos os usuários que interagiram com o Provador."
+  },
+  {
+   "nome": "Compras realizadas influenciadas",
+   "valor": "201",
+   "slide": 12,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "2,57% de conversão de checkout sobre as adições. Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Conversão de checkout sobre as adições",
+   "valor": "2,57%",
+   "slide": 12,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita influenciada pelo PV",
+   "valor": "R$ 120.411,00",
+   "slide": 12,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Ticket médio",
+   "valor": "R$ 599,06 por pedido",
+   "slide": 12,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Faixa de ROI (leitura de negócio)",
+   "valor": "entre 178,91% e 696,89%",
+   "slide": 13,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "'A depender do cenário de precificação aplicado' (R$ 2,00 vs. R$ 0,70 por prova)."
+  }
+ ],
+ "avisos": [
+  "Leitura via collector da mK, integrado ao Provador. As duas leituras de carrinho medem coisas diferentes: last click (672, atribuição direta e restritiva) vs. todos que interagiram (7.206, leitura ampla); é a leitura ampla que sustenta a análise financeira.",
+  "Dois cenários de preço: 'cenário anterior' R$ 2,00 por prova (ROI 178,91%) e 'cenário proposto' R$ 0,70 por prova (ROI 696,89%): o cenário proposto é uma projeção comercial, não custo efetivamente cobrado; a receita é a mesma nos dois.",
+  "Tabela de precificação (slide 3) é modelo vigente até agosto/2026, calculado sobre o total de provas do período (última faixa aplicada: acima de 10.000 try-ons). Informação comercial: não publicar.",
+  "Slide 13 (leitura de negócio) diz 'Em 68 dias', mas o escopo do deck (slide 2) e os slides de ROI dizem 30 dias (01/08 a 30/08): texto remanescente da v1; tratar como inconsistência.",
+  "Slide 4: SKUs de junho (385) + 629 (julho) = 1014, mas 1014 + 2.060 (agosto) não fecha com os 3.075 SKUs ativos do slide (diferença de 1 SKU).",
+  "Slide 4: junho tem apenas 7 dias; agosto concentra a promoção (+2.060 SKUs e campanhas): o salto de try-ons não é crescimento orgânico comparável.",
+  "Slide 8: depoimento de usuária com deficiência física (24/08/2026) sobre economia de tempo/inclusão: dado de cliente final, exigir autorização para uso.",
+  "Numeração de rodapé: roadmap aparece com número 10 (duplicado). Slides 9, 10 usam o número impresso.",
+  "Roadmap: AI Studio e Video Commerce, expansão de SKUs, integração WhatsApp & CRM, teste A/B.",
+  "Slides institucionais genéricos da mK após os slides do cliente (Veels/Video Commerce, AI Studio, alavancas de ROI) trazem claims sem fonte no slide (ex.: '+144% intenção de compra com vídeos', '+270% probabilidade de compra com avaliações', '78% preferem vídeos curtos', 'retorno de até 10x'). Não são dados do cliente; não usar como número de performance."
+ ],
+ "destaque": "Em agosto/2026 (30 dias), 21.586 provas finalizadas (96,32% de quem abriu), 97,3% de aprovação e R$ 120.411,00 de receita influenciada, com ROI de 178,91% (cenário R$ 2,00/prova) a 696,89% (cenário proposto R$ 0,70/prova); uplift relativo +100% (0,40% vs. 0,20%)."
+}

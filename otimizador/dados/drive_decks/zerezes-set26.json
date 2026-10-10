@@ -1,0 +1,436 @@
+{
+ "deck_id": "12F9MeBu8cFNPFN04jJL4OF_s1Y_7IqjeAY8Cy5Lmvp0",
+ "titulo": "[Zerezes] mKF+ · Análise de Performance do Provador Virtual · Set/26",
+ "cliente": "Zerezes",
+ "produto": "mK Fashion+",
+ "periodo": "01/09 a 30/09/2026 (30 dias)",
+ "status_deck": "sem indicação de status no título ou nos slides (aparenta final)",
+ "metricas": [
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+364,5%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "4,6 vezes mais"
+  },
+  {
+   "nome": "Conversão por sessão: concluiu a prova",
+   "valor": "1,44%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão por sessão: não usou o provador",
+   "valor": "0,31%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI do Provador",
+   "valor": "957%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Receita de quem concluiu a prova ÷ investimento; é receita INFLUENCIADA (não incremental)"
+  },
+  {
+   "nome": "Receita influenciada",
+   "valor": "R$ 75.880",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento no período",
+   "valor": "R$ 7.176,25",
+   "slide": 1,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "10,57×",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "5.741",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "97,0%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Produtos ativos",
+   "valor": "1.085",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slides 1 e 10 dizem 1.085; slide 2 diz 1.081 (divergência interna)"
+  },
+  {
+   "nome": "Produtos ativos (slide de escopo)",
+   "valor": "1.081",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Diverge de 1.085 nos slides 1 e 10"
+  },
+  {
+   "nome": "Período",
+   "valor": "01/09 a 30/09/2026 · 30 dias",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova",
+   "valor": "R$ 1,25",
+   "slide": 2,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "CTR",
+   "valor": "13,25%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de conclusão",
+   "valor": "62,7%",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Pessoas que concluíram ao menos uma prova sobre as 8.377 experiências iniciadas"
+  },
+  {
+   "nome": "Experiências iniciadas",
+   "valor": "8.377",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho de quem concluiu a prova",
+   "valor": "1.925",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho diretas (last click)",
+   "valor": "388",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Last click, mais restritiva"
+  },
+  {
+   "nome": "Pedidos de quem concluiu a prova",
+   "valor": "105",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Medido pelo Collector"
+  },
+  {
+   "nome": "Feedbacks",
+   "valor": "727",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Avaliações positivas",
+   "valor": "705",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Avaliações negativas",
+   "valor": "22",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "97,0%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Média de provas por usuário",
+   "valor": "2,2",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "862",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 1 produto: Cyn - Óculos de Grau - prata",
+   "valor": "118 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 2 produto: Emmi - Óculos de Grau - prata",
+   "valor": "91 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 3 produto: Lea - Óculos de Grau - tortoise clássico",
+   "valor": "95 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 4 produto: Zeq - Óculos de Grau - tortoise marfim",
+   "valor": "88 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 5 produto: Orth - Óculos de Grau - tortoise giorno",
+   "valor": "94 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 6 produto: Kei - Óculos de Grau - prata",
+   "valor": "81 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 7 produto: Zulli - Óculos de Grau - tortoise araçá",
+   "valor": "85 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 8 produto: Sora - Óculos de Grau - prata",
+   "valor": "78 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 9 produto: Lina - Óculos de Grau - carvalho bio",
+   "valor": "82 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Top 10 produto: Lena - Óculos de Grau - tortoise mello",
+   "valor": "68 provas finalizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide diz 'ranking ordenado por aberturas', mas a coluna mostra provas finalizadas e os valores não estão em ordem decrescente"
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "1.925",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita influenciada pelo PV",
+   "valor": "R$ 75.880",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Soma da receita de usuários que concluíram a prova"
+  },
+  {
+   "nome": "Ticket médio (quem usou o PV)",
+   "valor": "R$ 722,67",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Receita ÷ 105 pedidos"
+  },
+  {
+   "nome": "Total investido",
+   "valor": "R$ 7.176,25",
+   "slide": 7,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 13,22",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "10,57×",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI",
+   "valor": "957%",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+364,5%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de adição ao carrinho",
+   "valor": "+407,7%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: concluiu a prova",
+   "valor": "26,35%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: não usou o provador",
+   "valor": "5,19%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: concluiu a prova",
+   "valor": "7.306",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: não usou o provador",
+   "valor": "596.368",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Base de cálculo; tráfego do cliente"
+  },
+  {
+   "nome": "Vendas: concluiu a prova",
+   "valor": "105",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Vendas: não usou o provador",
+   "valor": "1.838",
+   "slide": 9,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Dado de vendas do cliente"
+  },
+  {
+   "nome": "Adições ao carrinho: concluiu a prova",
+   "valor": "1.925",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: não usou o provador",
+   "valor": "30.957",
+   "slide": 9,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Numeração de slide = número do rodapé de cada slide (a capa não tem número; o 1º slide numerado é o 01).",
+  "Receita é 'influenciada' (soma da receita de quem concluiu a prova), não incremental: o ROI de 957% não desconta o que seria vendido sem o provador.",
+  "Slide de base de cálculo é 'complementar, não recorrente'.",
+  "Adições diretas usam last click, mais restritiva.",
+  "Produtos ativos: 1.085 (slides 1 e 10) vs. 1.081 (slide 2).",
+  "Ranking de produtos diz ser ordenado por aberturas, mas exibe provas finalizadas fora de ordem.",
+  "Slide 05 traz depoimentos espontâneos com primeiros nomes e cor do produto (não extraídos como métricas)."
+ ],
+ "destaque": "Sessões que concluíram a prova converteram 4,6 vezes mais (1,44% vs. 0,31%, +364,5%), com 5.741 provas finalizadas, 97,0% de aprovação e ROI de 957% sobre R$ 7.176,25."
+}

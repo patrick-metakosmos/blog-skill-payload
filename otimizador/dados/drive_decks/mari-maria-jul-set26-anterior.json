@@ -1,0 +1,236 @@
+{
+ "deck_id": "18fbK9AYCRIxj2msVUQjvwPCwbcgdzmq5gKk4DbX0T08",
+ "titulo": "[Mari Maria] mK Beauty: Performance do Provador 28/07/26 a 30/09/26",
+ "cliente": "Mari Maria",
+ "produto": "mK Beauty",
+ "periodo": "28/07 a 30/09/2026 (funil e desempenho); cohort e ROI so de 03/09 a 30/09/2026",
+ "status_deck": "versao anterior (primeiro ciclo, 'primeiro report do Provador Virtual da Mari Maria'); superada pelo deck Jul-Out/26",
+ "metricas": [
+  {
+   "nome": "Retorno sobre o investimento",
+   "valor": "14,22x / ROI 1.322%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "ROI calculado so com a receita do cohort de 03/09 a 30/09"
+  },
+  {
+   "nome": "Receita influenciada",
+   "valor": "R$ 55.459,49",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "cohort 03/09 a 30/09"
+  },
+  {
+   "nome": "Investimento no periodo",
+   "valor": "R$ 3.900,00",
+   "slide": 1,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Total de provas",
+   "valor": "648.457",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "funil nativo 28/07 a 30/09"
+  },
+  {
+   "nome": "Provas por usuaria",
+   "valor": "23,3",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "media por usuaria que provou"
+  },
+  {
+   "nome": "Taxa de prova",
+   "valor": "92,45%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'das usuarias que abriram, provaram'"
+  },
+  {
+   "nome": "Usuarias que abriram",
+   "valor": "30.160",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "soma das usuarias unicas de cada dia"
+  },
+  {
+   "nome": "Usuarias que provaram",
+   "valor": "27.883",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "soma das usuarias unicas de cada dia"
+  },
+  {
+   "nome": "Add ao carrinho (last click)",
+   "valor": "16.027",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "last click, mais restritivo que o cohort"
+  },
+  {
+   "nome": "Try-ons Julho",
+   "valor": "24.933",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "parcial: 28/07 a 31/07"
+  },
+  {
+   "nome": "Try-ons Agosto",
+   "valor": "291.263",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons Setembro",
+   "valor": "332.261",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Total de try-ons",
+   "valor": "648.457 provas (28/07 a 30/09)",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Crescimento de setembro sobre agosto",
+   "valor": "+14,1%",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita dos 11 produtos com PV",
+   "valor": "R$ 169.736,89",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "28/07 a 30/09; filtro por item_id no GA4"
+  },
+  {
+   "nome": "Participacao na receita total do site (11 produtos com PV)",
+   "valor": "56,7%",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "percentual derivado de receita da marca; exige aprovacao"
+  },
+  {
+   "nome": "Itens adicionados ao carrinho (11 produtos com PV)",
+   "valor": "34.244",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens comprados (11 produtos com PV)",
+   "valor": "2.702",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversao do checkout",
+   "valor": "7,89%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "itens comprados / adicionados"
+  },
+  {
+   "nome": "Adicoes ao carrinho (PV) - cohort",
+   "valor": "17.847",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'46,02% das adicoes do site'; cohort GA4 03/09 a 30/09"
+  },
+  {
+   "nome": "Participacao nas adicoes do site",
+   "valor": "46,02%",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens comprados (PV) - cohort",
+   "valor": "2.641",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'34,82% dos itens comprados no site'"
+  },
+  {
+   "nome": "Participacao nos itens comprados do site",
+   "valor": "34,82%",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "derivado de vendas da marca; exige aprovacao"
+  },
+  {
+   "nome": "Receita influenciada (cohort)",
+   "valor": "R$ 55.459,49",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "'34,68% da receita do site'"
+  },
+  {
+   "nome": "Participacao na receita do site",
+   "valor": "34,68%",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "percentual derivado de receita da marca; exige aprovacao"
+  },
+  {
+   "nome": "Ticket medio por item",
+   "valor": "R$ 21,00",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno (cohort)",
+   "valor": "1.322% / 14,22x",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Primeiro report; operacao desde 28/07/2026 em 11 produtos de maquiagem.",
+  "Cohort do segmento 'Provador virtual' do GA4 so e consistente a partir de 03/09; cohort e ROI ficam restritos a 03/09 a 30/09.",
+  "O ROI usa a receita do cohort de 03/09 a 30/09 (28 dias) contra o 'investimento no periodo' de R$ 3.900; o deck nao explica se os R$ 3.900 cobrem so essa janela ou o periodo todo.",
+  "Adicoes do funil nativo sao last click (mais restritivas que o cohort).",
+  "Julho e parcial (28 a 31/07)."
+ ],
+ "metricas_institucionais_nao_cliente": [],
+ "destaque": "Retorno de 14,22x (ROI 1.322%) no primeiro ciclo: 648.457 provas, 92,45% das usuarias que abriram chegaram a provar, 23,3 provas por usuaria; cohort de 03/09 a 30/09 influenciou 34,68% da receita do site (R$ 55.459,49).",
+ "nota_numeracao": "slide = numeral impresso no rodape do slide (a capa nao tem numero; posicao absoluta = rodape + 1). slide null = slide sem numero no rodape, descrito na observacao."
+}

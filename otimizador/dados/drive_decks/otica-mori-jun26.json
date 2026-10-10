@@ -1,0 +1,194 @@
+{
+ "deck_id": "1tpPQUiPkcDgN_hrdUBE3QekzWDkPBXVU1s9ax2pAnJo",
+ "titulo": "[ÓTICA MORI] Performance do Provador Virtual: Junho 2026",
+ "cliente": "Ótica Mori",
+ "produto": "mK Fashion+",
+ "periodo": "01 a 11 de junho de 2026 (11 dias ativos; período parcial)",
+ "status_deck": "sem rótulo de versão; período parcial (11 dias) e atribuição por cohort GA4",
+ "metricas": [
+  {
+   "nome": "Participação na receita das páginas com PV",
+   "valor": "31,21%",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Percentual da receita das páginas cobertas; atribuição via cohort GA4; 11 dias ativos."
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "89,66%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "104 likes em 116 feedbacks."
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "303",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Média de 28 por dia."
+  },
+  {
+   "nome": "Conversão de checkout (cohort do Provador)",
+   "valor": "9,84%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Cohort GA4."
+  },
+  {
+   "nome": "Try-ons por dia",
+   "valor": "28",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Experiência iniciada",
+   "valor": "384",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas (funil)",
+   "valor": "303",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Add ao carrinho (cohort)",
+   "valor": "61",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Cohort GA4."
+  },
+  {
+   "nome": "Taxa de finalização (experiências iniciadas até prova finalizada)",
+   "valor": "78,91%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Texto do slide: das 384 experiências iniciadas, 78,91% chegam à prova finalizada."
+  },
+  {
+   "nome": "Funil de conversão: compras",
+   "valor": "6",
+   "slide": 4,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Funil de conversão: experiência iniciada / provas finalizadas / add ao carrinho",
+   "valor": "384 / 303 / 61",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Finalização e conversão de checkout",
+   "valor": "78,91% de finalização · 9,84% de conversão de checkout",
+   "slide": 4,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Feedbacks",
+   "valor": "116 avaliações (104 likes · 12 dislikes)",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação (slide 5)",
+   "valor": "89,66%",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Produtos ativos",
+   "valor": "3.317 modelos",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "96",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Add ao carrinho (PV, cohort)",
+   "valor": "61",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens comprados (PV)",
+   "valor": "6",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Ticket médio pdp PV",
+   "valor": "R$ 2.824,07",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento no período",
+   "valor": "R$ 1.000,00",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita gerada pelo PV",
+   "valor": "R$ 16.944,40",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno",
+   "valor": "16,94x · 1594%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Período parcial: apenas 11 dias ativos (01 a 11 de junho).",
+  "Receita atribuída via cohort de GA4 (evento do botão do Provador marca a usuária; jornada acompanhada do produto visto à compra, lida contra a base das páginas cobertas). Métricas de uso vêm dos eventos nativos do Provador.",
+  "O sistema de collector (amplia a captação e inclui confirmação de compra) entra em operação a partir de julho: a metodologia de junho NÃO é comparável à de setembro (collector) em conversão e receita.",
+  "Base muito pequena: 6 compras sustentam a receita e o ROI do slide 6.",
+  "Roadmap (slide 8): sistema de collector em julho e teste A/B do botão do Provador."
+ ],
+ "destaque": "Em apenas 11 dias ativos o Provador já concentrava 31,21% da receita das páginas cobertas, com 89,66% de aprovação e retorno de 16,94x (1594%) sobre R$ 1.000,00."
+}

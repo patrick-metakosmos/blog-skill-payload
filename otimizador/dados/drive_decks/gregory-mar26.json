@@ -1,0 +1,15 @@
+{
+ "deck_id": "1eGa7-1ORCtHzUiU8U8pwgd8YBcfuybjfO8C8Mi4MCI4",
+ "titulo": "[GREGORY] Performance do Provador Virtual: Março 2026",
+ "cliente": "Gregory",
+ "produto": "mK Fashion+ (não confirmado pelo deck; inferido do título 'Provador Virtual')",
+ "periodo": "01/03 a 26/03/2026 (só a capa traz texto)",
+ "status_deck": "indeterminado (nenhum texto além da capa)",
+ "metricas": [],
+ "avisos": [
+  "O deck abre, mas a leitura devolve apenas o texto da capa ('Análise de Performance · 01/03 a 26/03/2026') e 10 slides vazios; o export text/plain traz o mesmo conteúdo.",
+  "Provável que os slides sejam imagens (prints/gráficos), ilegíveis por extração de texto. Nenhuma métrica foi extraída; nada foi inventado.",
+  "Para extrair os números é necessário exportar os slides como imagem/PDF e ler visualmente, ou ter o dado-fonte."
+ ],
+ "destaque": "Sem dados legíveis: só a capa com o período 01/03 a 26/03/2026."
+}

@@ -1,0 +1,181 @@
+{
+ "deck_id": "17tcG8nxAm4JHQPdyDDSIAc0etRFWuoTJ0JPAWYNwuOs",
+ "titulo": "[OSKLEN] Performance e novas possibilidades: mK 3D e Shop The Look",
+ "cliente": "Osklen",
+ "produto": "mK 3D Shop (mK3D + Shop The Look); slides finais apresentam o provador com IA (mK Fashion+)",
+ "periodo": "mK3D: 05 de agosto a 25 janeiro (7 meses, ano não escrito no slide); Shop The Look: 28 de novembro a 26 de fevereiro; mapa de calor PDP: 3 meses",
+ "status_deck": "apresentação de resultados + roadmap/proposta (sem marca de rascunho); contém hipóteses e metas de teste misturadas com resultados",
+ "metricas": [
+  {
+   "nome": "Aberturas do visualizador (mK3D)",
+   "valor": "3.632",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'total de vezes que o mK3D foi inicializado'. Slide traz ícone de aviso sem texto"
+  },
+  {
+   "nome": "Taxa de adição ao carrinho (mK3D)",
+   "valor": "3,61%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'de produtos visualizados - enviados ao carrinho (checkouts/aberturas)'; deck chama de baixa (slide 5)"
+  },
+  {
+   "nome": "Aberturas do AR",
+   "valor": "1.286",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'35% dos usuários que visualizaram em 3D, interagiram com a Realidade Aumentada'"
+  },
+  {
+   "nome": "CTR do mK3D",
+   "valor": "~7%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'proporção de aberturas do mK3D em relação ao total de visualizações das páginas cobertas pelo mK3D'; slide 5 diz que o botão está 'pouco evidente'"
+  },
+  {
+   "nome": "Adições ao carrinho (mK3D)",
+   "valor": "131",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'quantidade de vezes em que produtos visualizados no 3D foram enviados para o carrinho'"
+  },
+  {
+   "nome": "Mapa de calor PDP: Desktop",
+   "valor": "1,39%",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "slide só traz 'Mapa de Calor - PDP, Período - 3 meses'; o texto não diz o que o percentual mede. NÃO usar sem conferir a imagem do slide"
+  },
+  {
+   "nome": "Mapa de calor PDP: Mobile",
+   "valor": "0,78%",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "idem; métrica não identificada no texto"
+  },
+  {
+   "nome": "Usuários do mK3D que ativaram o AR",
+   "valor": "35,4%",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'mais de 1 em cada 3 consumidores'"
+  },
+  {
+   "nome": "Conversão AR -> carrinho",
+   "valor": "10,2%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'mais de 1 em cada 10 consumidores que experimentaram o tênis em AR adicionaram ao carrinho'; base e período do cálculo não explicitados"
+  },
+  {
+   "nome": "Potencial de melhora de CTR e de adição ao carrinho",
+   "valor": "multiplicar por 3-5X",
+   "slide": 5,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "HIPÓTESE com base em benchmark de outros projetos da mK, NÃO é resultado medido"
+  },
+  {
+   "nome": "Aberturas do Shop The Look (STL)",
+   "valor": "46.173",
+   "slide": 13,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'total de vezes que o STL foi inicializado'; período 28 de novembro a 26 de fevereiro; slide com ícone de aviso sem texto"
+  },
+  {
+   "nome": "Taxa de adição ao carrinho (STL)",
+   "valor": "10%",
+   "slide": 13,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'10% de quem interage adiciona ao carrinho' (base é quem interage, não aberturas)"
+  },
+  {
+   "nome": "Usuários que sabem que o STL existe",
+   "valor": "20%",
+   "slide": 13,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'apenas 20% dos usuários chegam na segunda rolagem da página'; slide 14 reforça '80% não chega ao STL'"
+  },
+  {
+   "nome": "Adições ao carrinho (STL)",
+   "valor": "311",
+   "slide": 13,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "a legenda do slide diz 'produtos visualizados no 3D', provável cópia da legenda do slide 3; conferir se é do STL"
+  },
+  {
+   "nome": "Interações com botões do STL",
+   "valor": "2.919",
+   "slide": 13,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'total de interações com os botões do STL'"
+  },
+  {
+   "nome": "Usuários que não chegam ao STL",
+   "valor": "80%",
+   "slide": 14,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "inferência do deck a partir da rolagem; usada como insight"
+  },
+  {
+   "nome": "Alcance do STL por rolagem (hipótese): Desktop",
+   "valor": "em média 10% a 20% dos usuários",
+   "slide": 17,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "HIPÓTESE do deck sobre mapa de calor de rolagem"
+  },
+  {
+   "nome": "Alcance do STL por rolagem (hipótese): Mobile",
+   "valor": "melhor resultado observado < 5%",
+   "slide": 17,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "HIPÓTESE do deck"
+  },
+  {
+   "nome": "Aumento esperado de interações com o STL no mobile",
+   "valor": "até 30%",
+   "slide": 21,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "HIPÓTESE de teste de reposicionamento, NÃO é resultado"
+  },
+  {
+   "nome": "NPS do provador virtual com IA (Osklen)",
+   "valor": "96/100",
+   "slide": 30,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "slide intitulado 'NPS 96/100 e avaliações das clientes'; o texto não traz amostra, período nem metodologia (avaliações estão em imagem); verificar antes de usar. Refere-se ao provador com IA, não ao mK3D"
+  }
+ ],
+ "avisos": [
+  "Numeração dos slides contada pela ordem do texto exportado (o deck não tem rodapé numerado); conferir no original.",
+  "Ícones de aviso nos slides de 'Big numbers' do 3D (slide 3) e do STL (slide 13) sem texto; a ressalva pode estar em imagem. Conferir antes de publicar.",
+  "O ano do período do mK3D não está escrito ('05 de agosto a 25 janeiro (7 meses)'); STL 'de 28 de novembro a 26 de fevereiro'. Os períodos do 3D e do STL são diferentes.",
+  "O próprio deck classifica o CTR (~7%) e a taxa de adição ao carrinho (3,61%) como BAIXOS e com potencial de 3-5X (slide 5): o resultado atual não é um case de sucesso de conversão, é um diagnóstico com plano de melhoria.",
+  "Critérios de sucesso de testes A/B nos slides 7 e 8 são METAS/hipóteses, não resultados: botão com badge New (sucesso CTR 15%, inconclusivo 8-10%, falha < 8%); 'Prove em você' em AR (sucesso CTR > 10%, parcial 5-10%, falha < 5%).",
+  "Slides 27 em diante (provador com IA, AI Shooting, calçados, óculos, bolsas, joias, phygital, WhatsApp VIP) são demonstração de capacidade, sem números além do NPS 96/100.",
+  "Componentes do STL têm problemas de usabilidade documentados (slides 18 a 23) e itens do roadmap parte feitos, parte pausados/cancelados (slide 25).",
+  "Dados de cliente (Osklen): números de uso, porém exigem aprovação da marca; o deck não traz valores em R$."
+ ],
+ "destaque": "mK3D: 3.632 aberturas, 1.286 em AR (35%), 131 adições ao carrinho (3,61%) e conversão AR -> carrinho de 10,2%; Shop The Look: 46.173 aberturas, 10% de adição ao carrinho entre quem interage e 80% dos usuários sem chegar ao componente. O deck enquadra tudo como ponto de partida com potencial de 3-5X."
+}

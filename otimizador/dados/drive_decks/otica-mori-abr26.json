@@ -1,0 +1,14 @@
+{
+ "deck_id": "1WFdZM8uvN_P13k4plXBu3NeomOZUWZ5pa_DdCkcEVv8",
+ "titulo": "[ÓTICA MORI] Performance do Provador Virtual: Abril 2026",
+ "cliente": "Ótica Mori",
+ "produto": "mK Fashion+",
+ "periodo": "01/04 a 16/04 (2026; período parcial de 16 dias)",
+ "status_deck": "sem rótulo de versão; não foi possível extrair conteúdo (slides em imagem)",
+ "metricas": [],
+ "avisos": [
+  "Somente o título do primeiro slide veio como texto ('Análise de Performance · 01/04 a 16/04'). Os demais slides (cerca de 7 a 14, contagem pelos separadores) não têm texto extraível: conteúdo em imagens. read_file_content e download_file_content (text/plain) devolveram o mesmo resultado.",
+  "A taxa de conclusão de abril (59,24%) só aparece citada no deck de Maio (slide 3)."
+ ],
+ "destaque": "Sem destaque extraível (conteúdo em imagens)."
+}

@@ -1,0 +1,398 @@
+{
+ "deck_id": "1YP7tJrZzDd3qq5-MDZq4uTf9821bVHleirYVErexsS0",
+ "titulo": "[SIMPLE ORGANIC] Skin AI · Análise de Performance · Ago-Set/26",
+ "cliente": "Simple Organic",
+ "produto": "Skin AI",
+ "periodo": "capa: 01/09 a 27/09/2026; dados de uso 01/08 a 27/09/2026 (58 dias no ar); devolucao e ROI 01/07 a 27/09/2026 (89 dias)",
+ "status_deck": "sem marcacao de status; setembro parcial (corte em 27/09); segundo ciclo (compara com 'relatorio anterior')",
+ "metricas": [
+  {
+   "nome": "Taxa de devolucao dos itens vendidos via Skin AI",
+   "valor": "6,78%",
+   "slide": 1,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "01/07 a 27/09 (89 dias); dado de e-commerce da marca, validar com o cliente"
+  },
+  {
+   "nome": "Taxa de devolucao do e-commerce geral",
+   "valor": "7,45%",
+   "slide": 1,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "dado de e-commerce da marca, validar com o cliente"
+  },
+  {
+   "nome": "Diferenca na taxa de devolucao vs e-commerce geral",
+   "valor": "-9%",
+   "slide": 1,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "queda relativa; titulo do slide: 'Quem compra pelo Skin AI devolve menos'"
+  },
+  {
+   "nome": "Itens evitados de devolucao",
+   "valor": "54",
+   "slide": 1,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "em 89 dias; 603 esperados na taxa geral vs 549 reais (slide 7)"
+  },
+  {
+   "nome": "Diagnosticos concluidos",
+   "valor": "5.014",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'em 58 dias no ar (01/08 a 27/09)'"
+  },
+  {
+   "nome": "Adicoes ao carrinho direto da recomendacao",
+   "valor": "3.536",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Acessos a ferramenta - Agosto / Setembro* / Total",
+   "valor": "6.829 / 7.807 / 14.636",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "*Setembro ate 27/09"
+  },
+  {
+   "nome": "Diagnosticos concluidos - Agosto / Setembro* / Total",
+   "valor": "2.268 / 2.746 / 5.014",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Recomendacoes exibidas - Agosto / Setembro* / Total",
+   "valor": "2.458 / 2.839 / 5.297",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adicoes ao carrinho - Agosto / Setembro* / Total",
+   "valor": "1.441 / 2.095 / 3.536",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Acessos que viraram diagnostico completo (acumulado)",
+   "valor": "34,3%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "estavel frente ao corte anterior (34,4%) e abaixo dos 50,2% do ciclo anterior"
+  },
+  {
+   "nome": "Pico semanal de diagnosticos concluidos (semana de 07/09)",
+   "valor": "970",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "demais semanas so no grafico (valores nao aparecem no texto)"
+  },
+  {
+   "nome": "Acessos entre 14 e 17/09",
+   "valor": "quase 2.300 acessos em 4 dias",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'maior volume diario do periodo'"
+  },
+  {
+   "nome": "Funil: ferramenta aberta",
+   "valor": "14.636",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Funil: diagnostico concluido",
+   "valor": "5.014 (34,3%)",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Funil: recomendacao exibida",
+   "valor": "5.297 (105,6%)",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "acima de 100% porque a mesma sessao pode exibir a recomendacao mais de uma vez"
+  },
+  {
+   "nome": "Funil: adicao ao carrinho",
+   "valor": "3.536 (66,8%)",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Visitas a pagina de produto (PDP)",
+   "valor": "675",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adicoes ao carrinho para cada visita a PDP",
+   "valor": "5,2:1",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Mais adicionado pela recomendacao: Balm de Olhos",
+   "valor": "630",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "adicoes ao carrinho (rotulo do slide: 'mais adicionados pela recomendacao')"
+  },
+  {
+   "nome": "Mais adicionado: Ultra Serum Acido Hialuronico",
+   "valor": "465",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Mais adicionado: Solucao Exossomos + PDRN + Peptideos",
+   "valor": "401",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Mais adicionado: Ultra Serum Vitamina C",
+   "valor": "388",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens vendidos via Skin AI",
+   "valor": "8.095",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "volume de vendas da marca, 01/07 a 27/09; confirmar com o cliente"
+  },
+  {
+   "nome": "Itens vendidos no e-commerce geral",
+   "valor": "97.180",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "volume de vendas da marca; confirmar com o cliente"
+  },
+  {
+   "nome": "Devolucoes esperadas na taxa geral vs reais",
+   "valor": "603 vs 549",
+   "slide": 7,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "de 8.095 itens"
+  },
+  {
+   "nome": "Devolucoes no periodo (Skin AI)",
+   "valor": "-549",
+   "slide": 8,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens liquidos",
+   "valor": "7.546",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Ticket medio por item",
+   "valor": "R$ 80,83",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita liquida influenciada",
+   "valor": "R$ 609.943,18",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "inclui TODAS as vendas via canal Skin AI, liquidas de devolucao"
+  },
+  {
+   "nome": "Investimento no periodo",
+   "valor": "R$ 27.624,00",
+   "slide": 8,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "'investimento contratado'; 89 dias"
+  },
+  {
+   "nome": "Ponto de equilibrio por item",
+   "valor": "R$ 3,41",
+   "slide": 8,
+   "tipo": "outro",
+   "sensibilidade": "sensivel",
+   "observacao": "'o ticket precisaria cair 96% para nao se pagar'"
+  },
+  {
+   "nome": "Retorno sobre o investimento",
+   "valor": "22,1x",
+   "slide": 8,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao declarada no quiz: Firmeza",
+   "valor": "545",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "base de 5.014 diagnosticos concluidos"
+  },
+  {
+   "nome": "Preocupacao: Rugas",
+   "valor": "541",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Hiperpigmentacao",
+   "valor": "486",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Oleosidade",
+   "valor": "472",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Acne",
+   "valor": "455",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Olheiras",
+   "valor": "436",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Vermelhidao",
+   "valor": "435",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Hidratacao",
+   "valor": "427",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Preocupacao: Poros",
+   "valor": "406",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Score medio de severidade da IA: Oleosidade",
+   "valor": "62,6",
+   "slide": 10,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "quanto MENOR, mais grave; 'dado novo deste ciclo'"
+  },
+  {
+   "nome": "Score de severidade: Firmeza",
+   "valor": "65,2",
+   "slide": 10,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Score de severidade: Rugas",
+   "valor": "68,4",
+   "slide": 10,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Score de severidade: Vermelhidao",
+   "valor": "70,0",
+   "slide": 10,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Score de severidade: Hiperpigmentacao",
+   "valor": "99,9",
+   "slide": 10,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "condicao menos severa do catalogo (99,9 de 100)"
+  }
+ ],
+ "avisos": [
+  "Setembro e parcial: corte em 27/09, faltam os ultimos 3 dias do mes em qualquer comparacao com agosto.",
+  "O deck afirma que nenhum numero e estimado; onde o dado nao existe, isso e declarado (ex.: sem detalhe de camera negada / foto refeita neste ciclo).",
+  "Janelas diferentes: devolucao e ROI usam 89 dias (01/07 a 27/09) e uso usa 58 dias (01/08 a 27/09). O texto diz que a janela de devolucao comeca 'tres semanas antes' da de uso, mas 01/07 a 01/08 sao cerca de quatro semanas. Os 8.095 itens vendidos via Skin AI cobrem os 89 dias; as 3.536 adicoes ao carrinho cobrem so 58 dias.",
+  "Taxa de conclusao do diagnostico (34,3%) caiu frente aos 50,2% do ciclo anterior; o deck trata como ponto de atencao.",
+  "Recomendacoes exibidas (5.297) superam diagnosticos (5.014) porque a mesma sessao pode exibir mais de uma vez.",
+  "ROI de 22,1x = receita liquida de todos os itens vendidos pelo canal Skin AI / investimento; nao e incremental.",
+  "O rodape pula do 10 para o 12 (slide 11 ausente no texto); grafico semanal (slide 4) sem valores no texto alem do pico."
+ ],
+ "metricas_institucionais_nao_cliente": [],
+ "destaque": "Quem compra pelo Skin AI devolve menos que o e-commerce geral (6,78% vs 7,45%, -9%, 54 itens evitados em 89 dias), com 5.014 diagnosticos e 3.536 adicoes ao carrinho direto da recomendacao; retorno de 22,1x sobre R$ 27.624,00.",
+ "nota_numeracao": "slide = numeral impresso no rodape do slide (a capa nao tem numero; posicao absoluta = rodape + 1). slide null = slide sem numero no rodape, descrito na observacao."
+}

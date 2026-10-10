@@ -1,0 +1,48 @@
+{
+ "deck_id": "1X_TijJZq7xAtANME7aaiDNA_Inbc7EpmW1iJ14gKVGw",
+ "titulo": "[metaKosmos] Cases",
+ "cliente": "Prefeitura de Curitiba / Família Folhas (case 'Metaverso da Família Folhas')",
+ "produto": "mK Labs",
+ "periodo": "2023 (não escrito no texto; mês do meio ambiente; informado pelo solicitante)",
+ "status_deck": "deck institucional de case e retrospectiva (V1 do projeto)",
+ "metricas": [
+  {
+   "nome": "Personagens modelados em 3D da Família Folhas",
+   "valor": "7",
+   "slide": 18,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "escopo entregue, NÃO é resultado; slide ~18 (contagem aproximada)"
+  },
+  {
+   "nome": "Ambientes icônicos de Curitiba modelados",
+   "valor": "5",
+   "slide": 18,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "escopo entregue"
+  },
+  {
+   "nome": "Jogos e quizzes programados",
+   "valor": "3",
+   "slide": 18,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "escopo entregue"
+  },
+  {
+   "nome": "Eventos presenciais com óculos VR",
+   "valor": "2 eventos de 3 e 4 dias",
+   "slide": 18,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "escopo entregue"
+  }
+ ],
+ "avisos": [
+  "O deck NÃO traz números de resultado (visitas, tempo, alcance, ROI). Só traz entregáveis e aprendizados qualitativos: 'o que deu certo' e 'o que poderia ter sido melhor' (algumas crianças voltavam à fila para jogar de novo; instabilidades da plataforma Spatial).",
+  "Contexto: lançamento pelo prefeito Rafael Greca no mês do meio ambiente. Cliente é entidade pública.",
+  "Os slides são majoritariamente imagem; a numeração dos slides é aproximada."
+ ],
+ "destaque": "Case do Metaverso da Família Folhas (Curitiba): 7 personagens 3D, 5 ambientes e 3 jogos em Spatial com eventos presenciais com óculos VR; sem número de resultado no deck."
+}

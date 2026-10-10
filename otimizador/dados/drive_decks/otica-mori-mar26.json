@@ -1,0 +1,13 @@
+{
+ "deck_id": "11BaBtXTfdulKMvEArKX2U3QfT4iZitsS8V8yuIG8iEo",
+ "titulo": "[ÓTICA MORI] Performance do Provador Virtual",
+ "cliente": "Ótica Mori",
+ "produto": "mK Fashion+",
+ "periodo": "11/03 a 24/03/2026 (14 dias; período parcial)",
+ "status_deck": "sem rótulo de versão; não foi possível extrair conteúdo (slides em imagem)",
+ "metricas": [],
+ "avisos": [
+  "Somente o título do primeiro slide veio como texto ('Análise de Performance · 11/03 a 24/03/2026'). Os demais slides (cerca de 5 a 9, contagem pelos separadores) não têm texto extraível: conteúdo em imagens. read_file_content e download_file_content (text/plain) devolveram o mesmo resultado."
+ ],
+ "destaque": "Sem destaque extraível (conteúdo em imagens)."
+}

@@ -1,0 +1,283 @@
+{
+ "deck_id": "1Bc1qI0MniEpNbm1ZYKCPDMLd3VCtgLOX5VqcYqkiBCk",
+ "titulo": "[Shiseido] mK Beauty: Performance do Provador 03 a 23 Set 2026",
+ "cliente": "Shiseido",
+ "produto": "mK Beauty",
+ "periodo": "03 a 23 Set 2026 (21 dias desde a ativacao do evento de clique do botao); a capa traz 'Analise de Performance 03/07 a 23/09/2026' (provavel erro de digitacao, o corpo e o titulo dizem 03/09)",
+ "status_deck": "sem marcacao de status no titulo ou nos slides; e a versao mais nova da Shiseido e a primeira com cohort real do GA4",
+ "metricas": [
+  {
+   "nome": "Provas virtuais realizadas",
+   "valor": "11.768",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "21 dias desde a ativacao do evento de clique do botao"
+  },
+  {
+   "nome": "Usuarias unicas impactadas",
+   "valor": "3.044",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessoes iniciadas na experiencia (Sessoes no Provador)",
+   "valor": "4.062",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'10,66% de todas as sessoes do site'"
+  },
+  {
+   "nome": "Participacao das sessoes do Provador nas sessoes do site",
+   "valor": "10,66%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas por usuaria",
+   "valor": "3,87",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'uso recorrente da experiencia AR'"
+  },
+  {
+   "nome": "CTR do Provador",
+   "valor": "26,31%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Usuarias que provaram",
+   "valor": "801",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "dado nativo Pulpo AR, 03/09 a 23/09; diverge dos 3.044 do slide 1 (grandezas diferentes no deck)"
+  },
+  {
+   "nome": "Adicoes ao carrinho (funil nativo)",
+   "valor": "385",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "registrada dentro da propria experiencia AR, antes do cruzamento com o GA4; diverge dos 1.084 do cohort (slide 5/8)"
+  },
+  {
+   "nome": "Try-ons semana 1 (03-09)",
+   "valor": "4.172",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "rotulo como no slide"
+  },
+  {
+   "nome": "Try-ons semana 2 (10-16)",
+   "valor": "4.375",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons semana 3 (17-23)",
+   "valor": "3.221",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "queda frente a semana 2"
+  },
+  {
+   "nome": "Total de try-ons no periodo",
+   "valor": "11.768 provas",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "3 semanas completas desde a ativacao do evento"
+  },
+  {
+   "nome": "Taxa de adicao ao carrinho - ABRIU o Provador",
+   "valor": "20,55% (1.084 de 5.276 itens vistos)",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "metrica por ITENS (itens adicionados / itens vistos), nao por usuaria; cohort GA4 desde 03/09"
+  },
+  {
+   "nome": "Taxa de adicao ao carrinho - NAO ABRIU o Provador",
+   "valor": "10,38% (4.195 de 40.424 itens vistos)",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'Nao abriu' = total de usuarias menos o cohort do Provador"
+  },
+  {
+   "nome": "Uplift na taxa de adicao ao carrinho (abriu vs. nao abriu)",
+   "valor": "+98,0%",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "comparativo de cohorts, nao teste A/B; quem abre o Provador pode ja ter maior intencao"
+  },
+  {
+   "nome": "Itens vistos - abriu",
+   "valor": "5.276",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens vistos - nao abriu",
+   "valor": "40.424",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens adicionados ao carrinho - abriu",
+   "valor": "1.084",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens adicionados ao carrinho - nao abriu",
+   "valor": "4.195",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adicoes ao carrinho do cohort",
+   "valor": "1.084",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'20,53% das adicoes de toda a base'"
+  },
+  {
+   "nome": "Participacao do cohort nas adicoes de toda a base",
+   "valor": "20,53%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Itens comprados (cohort)",
+   "valor": "46",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'5,82% das compras de toda a base'; volume de vendas da marca, confirmar com o cliente"
+  },
+  {
+   "nome": "Participacao do cohort nas compras de toda a base",
+   "valor": "5,82%",
+   "slide": 8,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "derivado de vendas da marca; exige aprovacao"
+  },
+  {
+   "nome": "Receita gerada (cohort)",
+   "valor": "R$ 13.092,57",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "'4,97% da receita de toda a base'"
+  },
+  {
+   "nome": "Participacao do cohort na receita de toda a base",
+   "valor": "4,97%",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "percentual derivado de receita da marca; tratado como publicavel so com aprovacao explicita (nao e valor em R$)"
+  },
+  {
+   "nome": "Ticket medio por item",
+   "valor": "R$ 284,62",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento no periodo (21 dias)",
+   "valor": "R$ 4.550,00",
+   "slide": 8,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno",
+   "valor": "2,88x / +188%",
+   "slide": 8,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "receita do cohort / investimento; atribuicao por cohort, nao incremental"
+  }
+ ],
+ "avisos": [
+  "Primeira leitura por cohort real do GA4: o evento de clique do botao entrou no ar em 03/09/2026; a janela cobre so 21 dias (periodo curto).",
+  "O comparativo 'abriu x nao abriu' e por itens vistos/adicionados (nao por usuaria) e nao e experimento controlado.",
+  "Dados do Provador (Pulpo AR) e GA4 tem bases diferentes: 385 adicoes (nativo) vs 1.084 adicoes (GA4, itens); 801 usuarias que provaram vs 3.044 usuarias unicas.",
+  "Escopo: 3 SKUs digitalizados (BB For Sports FPS50+, Hydro BB Compact FPS50+, UV Protective Compact FPS30).",
+  "Capa traz '03/07 a 23/09/2026' enquanto titulo e slides dizem 03 a 23 Set (provavel erro).",
+  "O rodape pula do numero 06 para o 08 (nao ha slide 07 visivel no texto).",
+  "Apos o slide 9 o deck anexa material institucional (SkinAI, mK Veels, AI Studio) sem dados do cliente; ver campo metricas_institucionais_nao_cliente."
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {
+   "nome": "Intencao de compra com videos de demonstracao (mK Veels)",
+   "valor": "+144%",
+   "slide": null,
+   "observacao": "slide institucional sem numero no rodape; sem fonte citada no slide"
+  },
+  {
+   "nome": "Probabilidade de compra com avaliacoes/provas sociais",
+   "valor": "+270%",
+   "slide": null,
+   "observacao": "idem; sem fonte"
+  },
+  {
+   "nome": "Usuarios que preferem conteudo de produto em videos curtos",
+   "valor": "78%",
+   "slide": null,
+   "observacao": "idem; sem fonte"
+  },
+  {
+   "nome": "Retorno 'a cada um real investido, a solucao pode retornar ate 10x'",
+   "valor": "ate 10x",
+   "slide": null,
+   "observacao": "promessa comercial do Veels, nao e resultado medido"
+  },
+  {
+   "nome": "Views totais no Instagram, case 'campeao de engajamento da campanha R10' (AI Studio)",
+   "valor": "12 MILHOES",
+   "slide": null,
+   "observacao": "cliente do case nao identificado no texto; sem periodo"
+  },
+  {
+   "nome": "Prazo medio do AI Studio",
+   "valor": "7 a 15 dias uteis",
+   "slide": null,
+   "observacao": "apos aprovacao do briefing"
+  }
+ ],
+ "destaque": "Em 21 dias com cohort real, quem abriu o Provador adicionou ao carrinho quase o dobro (20,55% vs 10,38%, uplift de +98,0%), com 11.768 provas, 3.044 usuarias unicas e retorno medido de 2,88x.",
+ "nota_numeracao": "slide = numeral impresso no rodape do slide (a capa nao tem numero; posicao absoluta = rodape + 1). slide null = slide sem numero no rodape, descrito na observacao."
+}

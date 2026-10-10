@@ -265,6 +265,27 @@ if os.path.exists(base_path):
                  if f["frase"].lower() in texto.lower()]
     for f in sem_fonte:
         print("      <<< REVISAR alegação sem fonte no estudo: \"%s\" (%s)" % (f["frase"], f["motivo"]))
+    # números de apresentações INTERNAS de performance do Drive (references/numeros-drive-interno.json)
+    int_path = os.path.join(BASE, "references", "numeros-drive-interno.json")
+    if os.path.exists(int_path):
+        # compara pelos "tokens numéricos" (598.737, 8,15, 5.741), com ou sem unidade ao lado
+        def tokens(s):
+            ts = set()
+            for t in re.findall(r"\d[\d.,]*\d|\d", s):
+                dig = re.sub(r"\D", "", t)
+                if re.fullmatch(r"(19|20)\d\d", t):
+                    continue  # ano
+                if len(dig) >= 4 or re.search(r"\d,\d", t):
+                    ts.add(t)
+            return ts
+        internos_drive = {}
+        for n in json.load(io.open(int_path, encoding="utf-8"))["numeros"]:
+            for tk in tokens(n["valor"]):
+                internos_drive.setdefault(tk, n)
+        achados_int = sorted({"%s (%s, %s)" % (tk, internos_drive[tk]["cliente"], internos_drive[tk]["periodo"])
+                              for tk in tokens(texto) if tk in internos_drive})
+        if achados_int:
+            print("      <<< REVISAR número igual a dado INTERNO de cliente (precisa de aprovação): %s" % "; ".join(achados_int[:6]))
 
 # --- VOZ mK ---
 print("\n[VOZ mK]")

@@ -1,0 +1,250 @@
+{
+ "deck_id": "19WTltEJiKVRrXjfDClrnhvOtlpjCy50_oy-dJMsCXHg",
+ "titulo": "[COLISEU] Performance do Provador Virtual: Junho-Julho 2026",
+ "cliente": "Coliseu Joalheria",
+ "produto": "mK Fashion+",
+ "periodo": "24/06 a 01/08/2026 (39 dias)",
+ "status_deck": "sem rótulo de versão; primeiros dados ('consistente nos primeiros dados'); dado de 01/08 em verificação",
+ "metricas": [
+  {
+   "nome": "ROI",
+   "valor": "1.048%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "11,48× de retorno; R$ 52.509,00 sobre R$ 4.574,00 em 39 dias."
+  },
+  {
+   "nome": "Retorno em ×",
+   "valor": "11,48× de retorno",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita gerada",
+   "valor": "R$ 52.509",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Atribuída ao Provador no período."
+  },
+  {
+   "nome": "Investimento",
+   "valor": "R$ 4.574,00",
+   "slide": 1,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "2.287",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "71,6% de quem abriu o Provador."
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "88,18%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Sobre 533 feedbacks recebidos."
+  },
+  {
+   "nome": "Duração / produtos ativos",
+   "valor": "39 dias · 3.075 produtos ativos",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "O mesmo número de produtos ativos (3.075) dos decks de agosto é aplicado a todo o período."
+  },
+  {
+   "nome": "Experiência iniciada",
+   "valor": "3.193",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas (funil)",
+   "valor": "2.287",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de provas finalizadas",
+   "valor": "71,6%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (last click)",
+   "valor": "39",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (todos que interagiram)",
+   "valor": "979",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Leitura ampla que sustenta a análise financeira."
+  },
+  {
+   "nome": "Média diária de provas",
+   "valor": "59",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons em junho",
+   "valor": "162 (7 dias)",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons em julho",
+   "valor": "1.598 (31 dias)",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons em agosto",
+   "valor": "527 (1 dia)",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Dia 01/08: 527 provas para 491 aberturas (taxa acima de 100%): possível dupla contagem, em verificação pelo time técnico da mK."
+  },
+  {
+   "nome": "Total no período (try-ons)",
+   "valor": "2.287 provas",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Feedbacks / like / dislike",
+   "valor": "533 / 470 / 63",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de aprovação (slide 5)",
+   "valor": "88,18%",
+   "slide": 5,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Com base em 533 feedbacks."
+  },
+  {
+   "nome": "Adições ao carrinho",
+   "valor": "979",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De todos os usuários que interagiram com o Provador."
+  },
+  {
+   "nome": "Compras realizadas",
+   "valor": "116",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "11,80% de conversão de checkout sobre as adições. Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "Conversão de checkout sobre as adições",
+   "valor": "11,80%",
+   "slide": 6,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Receita gerada pelo Provador",
+   "valor": "R$ 52.509,00",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Ticket médio",
+   "valor": "R$ 452,66 por pedido",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova realizada",
+   "valor": "R$ 2,00",
+   "slide": 6,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Total investido no período",
+   "valor": "R$ 4.574,00",
+   "slide": 6,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 22,96",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "11,48×",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI (slide 6)",
+   "valor": "1.048%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Dado de 01/08/2026 (527 provas para 491 aberturas, taxa acima de 100%) indica possível dupla contagem e está em verificação pelo time técnico da mK (slide 4); ele entra no total de 2.287 provas e, portanto, nos cálculos de ROI e investimento.",
+  "O gráfico mensal compara períodos de duração diferente (junho 7 dias, julho 31 dias, agosto 1 dia).",
+  "Investimento calculado a R$ 2,00 por prova (cenário anterior da tabela de precificação).",
+  "Leitura via collector da mK; carrinho: leitura ampla (979) vs. last click (39).",
+  "Roadmap (slide 8): interatividade conversacional (camada conversacional de insights sobre os dados do Provador, com dashboard)."
+ ],
+ "destaque": "Em 39 dias (24/06 a 01/08), 2.287 provas finalizadas, R$ 52.509,00 de receita atribuída sobre R$ 4.574,00 investidos (ROI 1.048%, 11,48×) e 88,18% de aprovação em 533 feedbacks."
+}

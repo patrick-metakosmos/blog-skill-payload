@@ -1,0 +1,211 @@
+{
+ "deck_id": "1DJTXbUKcAgftIGgq9532XtmaNKh_yWyjStfcts9QVlQ",
+ "titulo": "RAM Dakota: Performance do Simulador de acessórios 3D",
+ "cliente": "Stellantis / RAM Dakota",
+ "produto": "mK 3D Shop",
+ "periodo": "11/03 a 10/06 · 2026 (76 dias ativos de 92)",
+ "status_deck": "relatório executivo sem marca de rascunho (aparenta final); deck declara lacunas de funil e próximo ciclo de reporte",
+ "metricas": [
+  {
+   "nome": "Aberturas do simulador 3D",
+   "valor": "478",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "também nos slides 3 e 7; 'em 76 dias ativos'"
+  },
+  {
+   "nome": "Aberturas em AR (participação)",
+   "valor": "17,8%",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "rótulo 'AR 17,8%'; slide 3 explica: 17,8% das aberturas usaram realidade aumentada"
+  },
+  {
+   "nome": "Aberturas em AR (quantidade)",
+   "valor": "85",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "no slide 1 é 'Aberturas em AR'; no slide 3 o mesmo 85 aparece como 'Sessões em AR' (rótulo inconsistente entre slides)"
+  },
+  {
+   "nome": "Acessórios por abertura",
+   "valor": "2,1",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Interações com acessórios no período",
+   "valor": "1.012",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "slide 3 rotula 'Interações com acessórios 1.012'"
+  },
+  {
+   "nome": "Duração média da sessão",
+   "valor": "5,9 min",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "ponderada pelo nº de sessões; slide 3 traz também 3,8 min pela média simples dos dias ativos"
+  },
+  {
+   "nome": "Duração média da sessão (média simples dos dias ativos)",
+   "valor": "3,8 min",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Dias com atividade",
+   "valor": "76 / 92",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Pico diário (11/03)",
+   "valor": "97",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "pico no dia do lançamento; deck pede confirmar ações de mídia de março para isolar o pico"
+  },
+  {
+   "nome": "Aberturas por mês - maior valor",
+   "valor": "230",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "o texto extraído do gráfico veio fora de ordem (valores 230, 117, 106, 25 e rótulos Mar (11 a 31), Abr, Mai, Jun (1 a 10)); a atribuição 230=Mar, 117=Abr, 106=Mai, 25=Jun é a leitura provável, CONFERIR no slide. Os quatro valores somam 478"
+  },
+  {
+   "nome": "Aberturas por mês - segundo valor",
+   "valor": "117",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "provável Abr; conferir no slide"
+  },
+  {
+   "nome": "Aberturas por mês - terceiro valor",
+   "valor": "106",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "provável Mai; conferir no slide"
+  },
+  {
+   "nome": "Aberturas por mês - quarto valor",
+   "valor": "25",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "provável Jun (1 a 10); conferir no slide"
+  },
+  {
+   "nome": "Duração média da sessão: queda ao longo do período",
+   "valor": "de 6,7 para 3,1 min",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Cor mais visualizada: Preto Absolut",
+   "valor": "178",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "visualizações de cor"
+  },
+  {
+   "nome": "Cor: Prata Knox",
+   "valor": "160",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Cor: Cinza Graphite",
+   "valor": "134",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Cor: Branco Glacier",
+   "valor": "102",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Cor: Terra Sunrise",
+   "valor": "77",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Acessório mais interagido: Extensor de caçamba",
+   "valor": "185",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "interações"
+  },
+  {
+   "nome": "Acessório: Rambar Cromado",
+   "valor": "138",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Acessório: Engate de reboque",
+   "valor": "133",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Acessório: Rambar Preto",
+   "valor": "107",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Acessório: Santo Antônio Preto",
+   "valor": "95",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Lacuna declarada (slides 2 e 6): sem as sessões totais do site no GA4 não há denominador; 'sem esse denominador, 478 aberturas não vira taxa'. Não existe taxa de ativação do botão 3D nem conversão pós-simulação neste deck.",
+  "Medição por eventos nativos do mK3D no GA4 (slide 2): 'comportamento observado, não estimado'.",
+  "Volume concentrado no lançamento (slide 7); pico de 97 em 11/03 e queda da duração média de 6,7 para 3,1 min.",
+  "Próximo ciclo de reporte deve fechar com taxa de ativação calculável (slide 6); depende de a Stellantis liberar acesso ao GA4 e de a mK instrumentar pageview e funil abertura 3D -> add-to-cart.",
+  "Contagem de cores e acessórios (slide 5) é 'preferências reveladas', insumo para mídia e sortimento, não vendas.",
+  "Dados de cliente (Stellantis): números de uso, porém exigem aprovação da marca para publicar."
+ ],
+ "destaque": "478 aberturas do simulador 3D em 76 dias ativos, 2,1 acessórios por abertura e 5,9 min por sessão, com 17,8% das aberturas em AR; o deck próprio diz que há engajamento profundo mas volume concentrado no lançamento e sem conversão mensurável ainda."
+}

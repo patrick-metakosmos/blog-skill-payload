@@ -1,0 +1,629 @@
+{
+ "deck_id": "13aEiSl7VmUgxQfbwILXFeaYNOKxm_APEgYwVjWrtPB8",
+ "titulo": "[Lathref] mKF · Análise de Performance do Provador Virtual · Set/26",
+ "cliente": "Lathref",
+ "produto": "mK Fashion+",
+ "periodo": "01/09 a 21/09/2026 (21 dias, parcial)",
+ "status_deck": "sem indicação de status no título ou nos slides (aparenta final)",
+ "metricas": [
+  {
+   "nome": "ROI do período",
+   "valor": "2.429%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "25,29×; R$ 36.519 de receita influenciada sobre R$ 1.444 investidos"
+  },
+  {
+   "nome": "Multiplicador",
+   "valor": "25,29×",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de conversão por sessão",
+   "valor": "+90,0%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "1,70% vs. 0,90% de quem não usou o PV"
+  },
+  {
+   "nome": "Uplift de adição ao carrinho",
+   "valor": "+192,3%",
+   "slide": 1,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "31,54% vs. 10,79% de quem não usou"
+  },
+  {
+   "nome": "Aprovação do Provador",
+   "valor": "93,4%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "270 likes em 289 feedbacks"
+  },
+  {
+   "nome": "Período",
+   "valor": "01/09 a 21/09/2026 · 21 dias",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Período PARCIAL (21 de 30 dias de setembro), apesar de 'Set/26' no título"
+  },
+  {
+   "nome": "Produtos ativos",
+   "valor": "293",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento por prova",
+   "valor": "R$ 0,80",
+   "slide": 2,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão por sessão: usou o provador",
+   "valor": "1,70%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "48 compras em 2.822 sessões"
+  },
+  {
+   "nome": "Conversão por sessão: não usou o provador",
+   "valor": "0,90%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "256 compras em 28.589 sessões"
+  },
+  {
+   "nome": "Uplift de conversão",
+   "valor": "+90,0%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "1,9 vez a conversão de quem não usou"
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: usou",
+   "valor": "31,54%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de adição ao carrinho: não usou",
+   "valor": "10,79%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Uplift de adição ao carrinho",
+   "valor": "+192,3%",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: abriu o provador",
+   "valor": "2.822",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Sessões: não abriu o provador",
+   "valor": "28.589",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Base de cálculo; tráfego do cliente"
+  },
+  {
+   "nome": "Compras: abriu o provador",
+   "valor": "48",
+   "slide": 4,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Compras: não abriu o provador",
+   "valor": "256",
+   "slide": 4,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Dado de vendas do cliente"
+  },
+  {
+   "nome": "Adições ao carrinho: abriu o provador",
+   "valor": "890",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho: não abriu o provador",
+   "valor": "3.085",
+   "slide": 4,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "CTR",
+   "valor": "3,24%",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Cliques no CTA ÷ visualizações de PDP com PV"
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "1.805",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Try-ons concluídos com imagem gerada"
+  },
+  {
+   "nome": "Taxa de conclusão",
+   "valor": "76,8%",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho totais",
+   "valor": "890",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Influenciadas pelo Provador, leitura ampla"
+  },
+  {
+   "nome": "Adições diretas (last click)",
+   "valor": "40",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Last click, leitura restritiva"
+  },
+  {
+   "nome": "Pedidos influenciados pelo PV",
+   "valor": "48",
+   "slide": 5,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De usuários que abriram o Provador"
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "93,4%",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "270 likes contra 19 dislikes em 289 feedbacks"
+  },
+  {
+   "nome": "Feedbacks",
+   "valor": "289",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Média de provas por usuário",
+   "valor": "3,0",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "324",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 1 produto testado: Za - Tortoise Classico",
+   "valor": "123 aberturas / 123 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 2 produto testado: Lee - Tortoise Camo",
+   "valor": "113 aberturas / 113 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 3 produto testado: Ocla - Tortoise Camel",
+   "valor": "110 aberturas / 110 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 4 produto testado: Ton - Tortoise Classico",
+   "valor": "71 aberturas / 71 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 5 produto testado: Izu - Tortoise Classico",
+   "valor": "54 aberturas / 54 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 6 produto testado: Anpa - Cristal",
+   "valor": "40 aberturas / 37 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 7 produto testado: Ocla - Preto",
+   "valor": "34 aberturas / 34 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 8 produto testado: San - Preto",
+   "valor": "31 aberturas / 31 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 9 produto testado: Za - Preto",
+   "valor": "29 aberturas / 29 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 10 produto testado: Keiko - Tortoise Classico",
+   "valor": "26 aberturas / 24 provas finalizadas",
+   "slide": 7,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "20 produtos mais comprados (total)",
+   "valor": "343 provas finalizadas, 31 pedidos, R$ 12.945 em receita",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Todos com PV ativo; Za e Lee Tortoise lideram vendas e provas"
+  },
+  {
+   "nome": "Top 1 mais comprado: Za - Tortoise Classico",
+   "valor": "72 provas / 5 pedidos / R$ 1.975",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 2 mais comprado: Lee - Tortoise Camo",
+   "valor": "68 provas / 4 pedidos / R$ 1.580",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 3 mais comprado: Izu - Tortoise Classico",
+   "valor": "43 provas / 2 pedidos / R$ 890",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 4 mais comprado: Lee - Preto",
+   "valor": "9 provas / 2 pedidos / R$ 790",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Nome repetido em outras linhas do slide (Za - Preto nas linhas 5 e 6; Lee - Preto nas linhas 4 e 19)"
+  },
+  {
+   "nome": "Top 5 mais comprado: Za - Preto",
+   "valor": "15 provas / 2 pedidos / R$ 790",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Nome repetido em outras linhas do slide (Za - Preto nas linhas 5 e 6; Lee - Preto nas linhas 4 e 19)"
+  },
+  {
+   "nome": "Top 6 mais comprado: Za - Preto",
+   "valor": "4 provas / 2 pedidos / R$ 790",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Nome repetido em outras linhas do slide (Za - Preto nas linhas 5 e 6; Lee - Preto nas linhas 4 e 19)"
+  },
+  {
+   "nome": "Top 7 mais comprado: Ed - Tortoise Classico",
+   "valor": "17 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 8 mais comprado: Izu - Tortoise Camo",
+   "valor": "6 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 9 mais comprado: Jo - Tortoise Cognac",
+   "valor": "13 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 10 mais comprado: John - Tortoise Cognac",
+   "valor": "7 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 11 mais comprado: Kan - Prata Com Tortoise Camel",
+   "valor": "8 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 12 mais comprado: Mac - Chumbo Com Tortoise Cognac",
+   "valor": "11 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 13 mais comprado: Nino - Ambar",
+   "valor": "10 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 14 mais comprado: Nino - Tortoise Manduri",
+   "valor": "21 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 15 mais comprado: Niro - Tortoise Classico",
+   "valor": "19 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 16 mais comprado: San - Tortoise Cognac",
+   "valor": "5 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 17 mais comprado: Sena - Tortoise Classico",
+   "valor": "3 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 18 mais comprado: Tea - Preto",
+   "valor": "4 provas / 1 pedidos / R$ 445",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Top 19 mais comprado: Lee - Preto",
+   "valor": "3 provas / 1 pedidos / R$ 395",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Nome repetido em outras linhas do slide (Za - Preto nas linhas 5 e 6; Lee - Preto nas linhas 4 e 19)"
+  },
+  {
+   "nome": "Top 20 mais comprado: Nian - Preto",
+   "valor": "5 provas / 1 pedidos / R$ 395",
+   "slide": 8,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho (efetividade financeira)",
+   "valor": "890",
+   "slide": 9,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "De todos os usuários que interagiram com o Provador"
+  },
+  {
+   "nome": "Receita influenciada pelo PV",
+   "valor": "R$ 36.519",
+   "slide": 9,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Soma da receita de usuários que abriram o Provador (48 pedidos)"
+  },
+  {
+   "nome": "Ticket médio (quem usou o PV)",
+   "valor": "R$ 760,82",
+   "slide": 9,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "vs. R$ 658,19 de quem não usou o Provador"
+  },
+  {
+   "nome": "Ticket médio (quem não usou o PV)",
+   "valor": "R$ 658,19",
+   "slide": 9,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Total investido",
+   "valor": "R$ 1.444",
+   "slide": 9,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 20,23",
+   "slide": 9,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI",
+   "valor": "2.429%",
+   "slide": 9,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: receita influenciada",
+   "valor": "R$ 36.519 (+239,4%; antes R$ 10.760)",
+   "slide": 11,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Comparação com a POC de 30/07 a 14/08/2026"
+  },
+  {
+   "nome": "Evolução: pedidos de quem usou o PV",
+   "valor": "48 (3,0×; antes 16)",
+   "slide": 11,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: ROI",
+   "valor": "2.429% (4,3×; antes 570%)",
+   "slide": 11,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: adições ao carrinho totais",
+   "valor": "890 (+75,2%; antes 508)",
+   "slide": 11,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: adições diretas (last click)",
+   "valor": "40 (3,3×; antes 12)",
+   "slide": 11,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: ticket médio (quem usou o PV)",
+   "valor": "R$ 760,82 (+13,1%; antes R$ 672,50)",
+   "slide": 11,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: taxa de aprovação",
+   "valor": "93,4% (+1,7 p.p.; antes 91,7%)",
+   "slide": 11,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Evolução: custo por prova",
+   "valor": "R$ 0,80 (-20%; antes R$ 1,00)",
+   "slide": 11,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  }
+ ],
+ "avisos": [
+  "Numeração de slide = número do rodapé de cada slide (a capa não tem número; o 1º slide numerado é o 01).",
+  "Período de 21 dias (01/09 a 21/09), parcial em relação ao mês de setembro apesar de 'Set/26' no título.",
+  "Receita é 'influenciada' (soma da receita de quem abriu o Provador), não incremental.",
+  "Adições diretas usam last click, mais restritiva que a leitura ampla de adições totais.",
+  "Slide de base de cálculo é 'complementar, não recorrente'.",
+  "Novidade do ciclo: leitura de conversão por segmento (usou vs. não usou), uplift +90,0%.",
+  "Comparação de evolução é contra POC de 16 dias com R$ 1,00 por prova; períodos de duração diferente (16 vs. 21 dias).",
+  "Tabela de 'mais comprados' repete nomes (Za - Preto e Lee - Preto aparecem mais de uma vez)."
+ ],
+ "destaque": "Quem usou o Provador converteu 1,70% das sessões contra 0,90% (+90,0%), com R$ 36.519 em receita influenciada, 93,4% de aprovação e ROI de 2.429%."
+}

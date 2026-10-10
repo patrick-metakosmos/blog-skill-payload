@@ -1,0 +1,72 @@
+{
+ "deck_id": "1IlXVJnS-PqcAhos9x6Ko5C_1bkCNHMK9bF9jZaZx-is",
+ "titulo": "[ÓTICA MORI] Performance do Provador Virtual: Maio 2026",
+ "cliente": "Ótica Mori",
+ "produto": "mK Fashion+",
+ "periodo": "Maio 2026 (datas exatas não aparecem no texto extraído)",
+ "status_deck": "sem rótulo de versão; extração parcial (conteúdo em imagens)",
+ "metricas": [
+  {
+   "nome": "Taxa de conclusão",
+   "valor": "67,11%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Texto: supera o benchmark da categoria óptica (30% a 50%); melhora de quase 8 pontos percentuais vs. abril (59,24%)."
+  },
+  {
+   "nome": "Taxa de conclusão de abril (comparativo)",
+   "valor": "59,24%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Benchmark da categoria óptica (taxa de conclusão)",
+   "valor": "30% a 50%",
+   "slide": 3,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Benchmark citado no slide, sem fonte indicada."
+  },
+  {
+   "nome": "Compras atribuídas ao provador virtual",
+   "valor": "17",
+   "slide": 4,
+   "tipo": "conversao",
+   "sensibilidade": "sensivel",
+   "observacao": "Título do slide: 'Nota sobre atribuição: como chegamos às 17 compras atribuídas'. Só o título está em texto; a explicação está em imagem. Contagem de pedidos/compras/sessões: não listada na regra de R$; marcado sensível por cautela (volume de negócio do cliente)."
+  },
+  {
+   "nome": "ROI",
+   "valor": "46,29×",
+   "slide": 5,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Citado na recomendação mK."
+  },
+  {
+   "nome": "Retorno por prova realizada",
+   "valor": "R$ 153,28",
+   "slide": 5,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Pacote contratual proposto",
+   "valor": "600 try-ons mensais",
+   "slide": 5,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "Recomendação de redimensionar o pacote (o teto contratual atual não consta em texto); teto atingido pelo segundo mês consecutivo antes do meio do período."
+  }
+ ],
+ "avisos": [
+  "Conteúdo quase todo em imagens: a leitura de texto do Drive devolveu apenas alguns blocos; gráficos, tabelas e KPIs dos slides não foram extraídos (download text/plain devolveu o mesmo texto). Números de uso do mês não estão disponíveis em texto. Slide = índice pela ordem do deck (sem numeração impressa no rodapé).",
+  "Slide 3 ('Leitura estratégica') cita 'cada try-on contratado': o provador opera com teto de try-ons contratados; o texto diz que o teto contratual foi atingido pelo segundo mês consecutivo, antes do meio do período disponível.",
+  "Slide 5: 'Oportunidade de expansão' e 'Recomendação mK' sugerem iniciar conversa de redimensionamento do pacote para 600 try-ons mensais: é conteúdo comercial/interno, não publicar."
+ ],
+ "destaque": "Maio consolidou a prova de valor: ROI de 46,29×, taxa de conclusão de 67,11% (acima do benchmark de 30% a 50% da categoria) e teto contratual atingido pelo segundo mês consecutivo."
+}

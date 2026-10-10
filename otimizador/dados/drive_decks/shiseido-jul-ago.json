@@ -1,0 +1,349 @@
+{
+ "deck_id": "1jMtny3v7txbsDDAtaeLmXt2_tZln7QejgOHd_WLIs9k",
+ "titulo": "[Shiseido] mK Beauty: Performance do Provador Julho-Agosto",
+ "cliente": "Shiseido",
+ "produto": "mK Beauty",
+ "periodo": "30 de junho a 30 de agosto de 2026 (62 dias, segundo o deck); o grafico mensal inclui junho (1.017 provas) e totaliza 38.593",
+ "status_deck": "sem marcacao de status; contem cenario projetado e ROI parcial; foi superado pelo deck 03-23 Set (cohort real)",
+ "metricas": [
+  {
+   "nome": "ROI potencial com atribuicao completa (cenario 10x)",
+   "valor": "+758%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "PROJETADO, cenario 10x; o proprio deck diz que o ROI medido hoje e parcial e subdimensionado"
+  },
+  {
+   "nome": "Total de provas",
+   "valor": "38.313",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'em 62 dias, com 3 produtos ativos'; diverge de 38.593 do slide 5 e do outro deck"
+  },
+  {
+   "nome": "Provas por usuaria",
+   "valor": "12,65",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'uso profundo e recorrente'; base provavel = provas unicas 3.029 (slide 4)"
+  },
+  {
+   "nome": "Participacao na receita das paginas cobertas pelo Provador",
+   "valor": "27,48%",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "percentual derivado de receita da marca, base last click; exige aprovacao"
+  },
+  {
+   "nome": "Adicoes ao carrinho pelo Provador (last click)",
+   "valor": "1.641",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "last click: so quem adicionou pelo proprio Provador; 'piso da influencia'"
+  },
+  {
+   "nome": "Taxa de conversao do carrinho do site (premissa de projecao)",
+   "valor": "2,58%",
+   "slide": 2,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "taxa do SITE aplicada as adicoes, nao medida no Provador"
+  },
+  {
+   "nome": "Itens comprados (projetado)",
+   "valor": "42",
+   "slide": 2,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "PROJETADO = 1.641 x 2,58%"
+  },
+  {
+   "nome": "Ticket medio por item",
+   "valor": "R$ 263,46",
+   "slide": 2,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "CTR do Provador",
+   "valor": "38,61%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Aberturas unicas",
+   "valor": "11.031",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas unicas",
+   "valor": "3.029",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "27,5% das aberturas"
+  },
+  {
+   "nome": "Provas unicas / aberturas unicas",
+   "valor": "27,5%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adicoes ao carrinho (last click) / provas unicas",
+   "valor": "54,2%",
+   "slide": 4,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "last click"
+  },
+  {
+   "nome": "Media de provas por dia",
+   "valor": "618 provas por dia",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "com apenas 3 produtos ativos"
+  },
+  {
+   "nome": "Try-ons Junho",
+   "valor": "1.017",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "mes de rampa: operacao plena na ultima semana"
+  },
+  {
+   "nome": "Try-ons Julho",
+   "valor": "16.159",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Try-ons Agosto",
+   "valor": "21.417",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Total de try-ons no periodo",
+   "valor": "38.593 provas",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "diverge de 38.313 (slides 1, 4, 9)"
+  },
+  {
+   "nome": "Crescimento de volume de julho para agosto",
+   "valor": "33%",
+   "slide": 5,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'sem nenhum produto novo no ar'"
+  },
+  {
+   "nome": "Produtos ativos",
+   "valor": "3 produtos",
+   "slide": 6,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "BB For Sports FPS50+ Light, Hydro BB Compact FPS50+ Light, UV Protective FPS30 Light Beige"
+  },
+  {
+   "nome": "Cobertura prevista a partir de outubro",
+   "valor": "+60 SKUs (2 produtos Synchro Skin)",
+   "slide": 6,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "PREVISTO / em digitalizacao; 'salto de 20x na cobertura de tons'"
+  },
+  {
+   "nome": "Receita das paginas com Provador",
+   "valor": "R$ 40.572,70",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "'universo coberto pelo Provador'"
+  },
+  {
+   "nome": "Receita influenciada pelo Provador (last click)",
+   "valor": "R$ 11.150,53",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "27,48% das paginas cobertas; last click"
+  },
+  {
+   "nome": "Investimento no periodo",
+   "valor": "R$ 13.000,00 (R$ 6.500,00 por mes)",
+   "slide": 7,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "ROI medido (parcial)",
+   "valor": "-14,23%",
+   "slide": 7,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "so a compra nascida dentro do Provador; deck diz 'nao e o resultado do Provador'"
+  },
+  {
+   "nome": "Receita influenciada estimada fora do last click",
+   "valor": ">R$110k",
+   "slide": 7,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "ESTIMATIVA (10x), nao medida"
+  },
+  {
+   "nome": "Cenario 1x (medido hoje, last click): receita / itens / ROI",
+   "valor": "R$ 11.150,53 / 42 itens / -14,23%",
+   "slide": 8,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "medido, last click"
+  },
+  {
+   "nome": "Cenario piso 5x: receita / itens / ROI",
+   "valor": "R$ 55.752,65 / 212 itens / +329%",
+   "slide": 8,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "PROJETADO; premissa: cohort captura 5x a 10x mais compras que o last click 'nas contas em que o evento esta ativo' (fonte nao mostrada)"
+  },
+  {
+   "nome": "Cenario cheio 10x: receita / itens / ROI",
+   "valor": "R$ 111.505,30 / 423 itens / +758%",
+   "slide": 8,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "PROJETADO, a validar com cohort"
+  },
+  {
+   "nome": "Fee mensal - 20.000 provas/mes",
+   "valor": "R$ 12.668",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "slide de proposta comercial 'Opcoes de Pacotes', sem numero no rodape (logo apos o slide 10); validade da proposta 10 dias; plano minimo de 6 meses"
+  },
+  {
+   "nome": "Fee mensal - 50.000 provas/mes",
+   "valor": "R$ 21.376",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "idem"
+  },
+  {
+   "nome": "Fee mensal - 100.000 provas/mes",
+   "valor": "R$ 42.752",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "idem"
+  },
+  {
+   "nome": "Plano anual (-30%) - 20.000 provas/mes",
+   "valor": "R$ 116.928 (R$ 9.744/mes)",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "idem; minimo 12 meses, renovacao automatica"
+  },
+  {
+   "nome": "Plano anual (-30%) - 50.000 provas/mes",
+   "valor": "R$ 179.558 (R$ 14.963/mes)",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "idem"
+  },
+  {
+   "nome": "Plano anual (-30%) - 100.000 provas/mes",
+   "valor": "R$ 359.115 (R$ 29.926/mes)",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "idem"
+  },
+  {
+   "nome": "Digitalizacao de produtos adicionais",
+   "valor": "R$ 200,00 por produto",
+   "slide": null,
+   "tipo": "fee",
+   "sensibilidade": "sensivel",
+   "observacao": "proposta inicial contempla 320 SKUs"
+  }
+ ],
+ "avisos": [
+  "ROI de -14,23% e PARCIAL: metodo last click, so conta quem adicionou ao carrinho dentro do Provador; o deck afirma que nao reflete o desempenho do Provador.",
+  "O evento de clique nos botoes do Provador 'nao foi instalado pela agencia no site da Shiseido' (texto do slide 3); sem ele nao ha cohort no GA4. Texto interno critica a agencia: nao reutilizar em publico.",
+  "Itens comprados (42) sao PROJETADOS pela taxa de conversao do carrinho do site (2,58%), nao medidos.",
+  "Cenarios 5x e 10x sao projecoes: premissa de que o cohort captura de 5x a 10x mais compras que o last click, baseada em outras contas (sem fonte no slide). +758% e cenario, nao resultado.",
+  "Inconsistencia interna: periodo declarado 30/06 a 30/08 e 38.313 provas (slides 1, 4, 9), mas o grafico mensal inclui junho e soma 38.593 (slide 5).",
+  "Junho e mes de rampa (Provador em operacao plena so na ultima semana do mes).",
+  "Escopo: apenas 3 produtos ativos (base e protetor solar com FPS); 60 SKUs entram em outubro (previsto).",
+  "Slide de pacotes e proposta comercial (precos de fee): confidencial, nao e performance.",
+  "Apos o slide de pacotes o deck anexa material institucional (SkinAI, mK Veels, AI Studio): ver campo metricas_institucionais_nao_cliente."
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {
+   "nome": "Intencao de compra com videos de demonstracao (mK Veels)",
+   "valor": "+144%",
+   "slide": null,
+   "observacao": "slide institucional sem numero no rodape; sem fonte citada no slide"
+  },
+  {
+   "nome": "Probabilidade de compra com avaliacoes/provas sociais",
+   "valor": "+270%",
+   "slide": null,
+   "observacao": "idem; sem fonte"
+  },
+  {
+   "nome": "Usuarios que preferem conteudo de produto em videos curtos",
+   "valor": "78%",
+   "slide": null,
+   "observacao": "idem; sem fonte"
+  },
+  {
+   "nome": "Retorno 'a cada um real investido, a solucao pode retornar ate 10x'",
+   "valor": "ate 10x",
+   "slide": null,
+   "observacao": "promessa comercial do Veels, nao e resultado medido"
+  },
+  {
+   "nome": "Views totais no Instagram, case 'campeao de engajamento da campanha R10' (AI Studio)",
+   "valor": "12 MILHOES",
+   "slide": null,
+   "observacao": "cliente do case nao identificado no texto; sem periodo"
+  },
+  {
+   "nome": "Prazo medio do AI Studio",
+   "valor": "7 a 15 dias uteis",
+   "slide": null,
+   "observacao": "apos aprovacao do briefing"
+  }
+ ],
+ "destaque": "Em dois meses e com apenas 3 produtos ativos, o Provador entregou 38.313 provas (12,65 por usuaria) e 27,48% da receita das paginas cobertas; o ROI medido e -14,23% (so last click) e o retorno projetado vai de +329% a +758%.",
+ "nota_numeracao": "slide = numeral impresso no rodape do slide (a capa nao tem numero; posicao absoluta = rodape + 1). slide null = slide sem numero no rodape, descrito na observacao."
+}

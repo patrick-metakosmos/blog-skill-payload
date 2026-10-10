@@ -1,0 +1,299 @@
+{
+ "deck_id": "15ukGxFqhM52bC0Qjhd70oCupE9pYf3aeMKyCyQYorNU",
+ "titulo": "[Lathref] mK Fashion: Performance do Provador Virtual - Jul_Ago_2026",
+ "cliente": "Lathref",
+ "produto": "mK Fashion+",
+ "periodo": "POC 30/07 a 14/08/2026 (16 dias); capa diz 30/07 a 16/08",
+ "status_deck": "relatório de POC; sem indicação de status no título ou nos slides",
+ "metricas": [
+  {
+   "nome": "ROI do Provador no período",
+   "valor": "570%",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "'5,70× o investido'. Investimento é PROJEÇÃO/potencial a R$ 1,00 por prova, não gasto real"
+  },
+  {
+   "nome": "Receita gerada",
+   "valor": "R$ 10.760,00",
+   "slide": 1,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Texto diz 'projetou' receita; investimento 'potencialmente investido'"
+  },
+  {
+   "nome": "Investimento potencial",
+   "valor": "R$ 1.606,00",
+   "slide": 1,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "R$ 1,00 por prova em 16 dias"
+  },
+  {
+   "nome": "Retorno por prova finalizada",
+   "valor": "R$ 6,70",
+   "slide": 1,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "1.606",
+   "slide": 1,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Em 16 dias da POC"
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "91,7%",
+   "slide": 1,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Entre as usuárias"
+  },
+  {
+   "nome": "Duração da POC",
+   "valor": "16 dias (30/07 a 14/08/2026)",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Capa diz 'Período da POC 30/07 a 16/08'; slides dizem 30/07 a 14/08"
+  },
+  {
+   "nome": "Produtos ativos",
+   "valor": "293",
+   "slide": 2,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho influenciadas pelo PV",
+   "valor": "508",
+   "slide": 3,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Jornada completa das sessões com Provador"
+  },
+  {
+   "nome": "Compras em páginas cobertas pelo PV",
+   "valor": "32",
+   "slide": 3,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Apenas páginas com provador. Diverge de 16 pedidos 'antes' citado no deck Set/26 (slide 11)"
+  },
+  {
+   "nome": "Receita gerada pelo Provador",
+   "valor": "R$ 10.760",
+   "slide": 3,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": ""
+  },
+  {
+   "nome": "Investimento no período",
+   "valor": "R$ 1.606",
+   "slide": 3,
+   "tipo": "investimento",
+   "sensibilidade": "sensivel",
+   "observacao": "Projeção a R$ 1,00 por prova"
+  },
+  {
+   "nome": "Retorno",
+   "valor": "6,70× · 570%",
+   "slide": 3,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "'Retorno = receita total do período ÷ investimento' (6,70×) vs. ROI 570% (5,70×): rótulos coexistem no deck"
+  },
+  {
+   "nome": "Experiências iniciadas",
+   "valor": "1.709",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Provas finalizadas",
+   "valor": "1.606",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Taxa de provas finalizadas",
+   "valor": "94,0%",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho influenciadas",
+   "valor": "508",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Adições ao carrinho diretas (last click)",
+   "valor": "12",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Last click, mais conservadora"
+  },
+  {
+   "nome": "CTR do botão do provador",
+   "valor": "21,6%",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Definição diferente do CTR do deck Set/26 (3,24%)"
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "91,7%",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 04 (2º com esse número: 'Aprovação e feedback')"
+  },
+  {
+   "nome": "Média de provas por usuário",
+   "valor": "3,3",
+   "slide": 4,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 04 (2º)"
+  },
+  {
+   "nome": "Imagens baixadas",
+   "valor": "168",
+   "slide": 4,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 04 (2º)"
+  },
+  {
+   "nome": "Top 1 produto testado: Za · Tortoise Classico",
+   "valor": "153 aberturas / 153 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 2 produto testado: Lee · Tortoise Camo",
+   "valor": "106 aberturas / 106 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 3 produto testado: Teo · Prata com Tortoise Camel",
+   "valor": "70 aberturas / 70 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 4 produto testado: Izu · Tortoise Classico",
+   "valor": "69 aberturas / 69 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 5 produto testado: Ocla · Tortoise Camel",
+   "valor": "64 aberturas / 64 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 6 produto testado: Ton · Tortoise Classico",
+   "valor": "57 aberturas / 56 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 7 produto testado: Anpa · Cristal",
+   "valor": "48 aberturas / 48 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Top 8 produto testado: San · Preto",
+   "valor": "48 aberturas / 48 provas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (1º: 'Portfólio testado')"
+  },
+  {
+   "nome": "Avaliação de usuária (depoimento)",
+   "valor": "10/10",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Depoimento 'Muito boa, pareceu muito real!!', Tortoise Nero, 01/08"
+  },
+  {
+   "nome": "ROI no período",
+   "valor": "570%",
+   "slide": 6,
+   "tipo": "roi",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º: 'Leitura de negócio'); 'retorno de 5,70×'"
+  },
+  {
+   "nome": "Receita gerada",
+   "valor": "R$ 10.760,00",
+   "slide": 6,
+   "tipo": "receita",
+   "sensibilidade": "sensivel",
+   "observacao": "Slide 06 (2º)"
+  },
+  {
+   "nome": "Taxa de aprovação",
+   "valor": "91,7%",
+   "slide": 6,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Slide 06 (2º)"
+  },
+  {
+   "nome": "Concentração dos 8 produtos mais testados",
+   "valor": "mais de um terço das provas realizadas",
+   "slide": 6,
+   "tipo": "uso",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "Texto do deck; slide 06 (2º)"
+  }
+ ],
+ "avisos": [
+  "Numeração de slide = número do rodapé de cada slide (a capa não tem número; o 1º slide numerado é o 01). Neste deck há rodapés repetidos: 04 (Funil e Aprovação) e 06 (Portfólio e Leitura de negócio); não há slide 05.",
+  "Investimento de R$ 1.606 é PROJEÇÃO ('potencialmente investido', R$ 1,00 por prova): o ROI de 570% usa esse custo hipotético.",
+  "Receita é a receita total de páginas cobertas pelo PV no período ('projetou'/'gerada'), sem recorte usou vs. não usou (esse recorte só aparece no deck de Set/26).",
+  "Adições diretas por last click (12) são mais conservadoras que as influenciadas (508).",
+  "Capa fala em 30/07 a 16/08, slides em 30/07 a 14/08.",
+  "Rótulos 5,70× (ROI) e 6,70× (retorno) coexistem: R$ 10.760 ÷ R$ 1.606 = 6,70×; ROI 570% = 5,70× de ganho líquido."
+ ],
+ "destaque": "Em 16 dias de POC o Provador projetou R$ 10.760 de receita sobre R$ 1.606 de investimento potencial (ROI 570%), com 1.606 provas finalizadas e 91,7% de aprovação."
+}

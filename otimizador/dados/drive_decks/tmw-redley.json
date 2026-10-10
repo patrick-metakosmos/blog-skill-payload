@@ -1,0 +1,57 @@
+{
+ "deck_id": "1hugeTjmdHsEoR3f2ZfnI64U_JE_TcroFcIJ-8N7UupI",
+ "titulo": "[TMW+Redley] Resultados",
+ "cliente": "Redley (TMW+)",
+ "produto": "mK Fashion+ (inferido: provador 3D/avatar com AR 'TMW+' de 2023-24; o deck não nomeia o produto atual)",
+ "periodo": "não escrito no texto; comparativo com 'médias de conversão das mesmas páginas de produto em 2023' (período informado pelo solicitante: 2023-24)",
+ "status_deck": "deck de resultados (sem marca de rascunho); gráficos principais estão em imagem e não vieram no texto",
+ "metricas": [
+  {
+   "nome": "Produtos phygitalizados",
+   "valor": "10 produtos (23 variações)",
+   "slide": 2,
+   "tipo": "outro",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Conversão (key metric)",
+   "valor": "+56%",
+   "slide": 7,
+   "tipo": "conversao",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'em comparação às médias de conversão das mesmas páginas de produto em 2023' (asterisco do slide): comparação com histórico, não grupo de controle"
+  },
+  {
+   "nome": "Tempo de interação dentro do TMW",
+   "valor": "1 min 37s",
+   "slide": 7,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "'maior engajamento'"
+  },
+  {
+   "nome": "Usuários que entraram no provador e interagiram com funcionalidades 'playfuls'",
+   "valor": "55%",
+   "slide": 7,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": ""
+  },
+  {
+   "nome": "Usuários que experimentaram AR",
+   "valor": "18%",
+   "slide": 7,
+   "tipo": "engajamento",
+   "sensibilidade": "publicavel_com_aprovacao",
+   "observacao": "base presumivelmente usuários que entraram no provador; o slide não explicita"
+  }
+ ],
+ "avisos": [
+  "Slides 5, 6 ('Resultados acumulados x médias passadas') e 8 ('Retorno sobre investimento') são só imagem/gráfico: NENHUM número de ROI, receita ou comparativo veio no texto. Se precisar deles, abrir o deck e ler os gráficos.",
+  "Pontos de atenção do próprio deck (slide 7): '% de retorno foi maior que médias de 2023' (retorno/devolução ou retorno do usuário? o texto é ambíguo), 'poucos compartilhamentos'.",
+  "Numeração dos slides contada pela ordem do texto (sem rodapé).",
+  "Dados de cliente (Redley): exigem aprovação."
+ ],
+ "destaque": "O deck destaca '+56% em conversão' (vs. média de 2023 das mesmas páginas de produto), com 1 min 37s de interação, 55% usando funcionalidades lúdicas e 18% experimentando AR."
+}
