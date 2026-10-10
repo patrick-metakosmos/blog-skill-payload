@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-10",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-10T11:00:03"
+  "inicio": "2026-10-10T11:00:03",
+  "fim": "2026-10-10T11:20:02",
+  "slug": "abcomm-relatorio-ecommerce",
+  "url": "https://metakosmos.com.br/blog/abcomm-relatorio-ecommerce"
 }
