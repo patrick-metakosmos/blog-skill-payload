@@ -1,3 +1,5 @@
+> **ATUALIZAÇÃO 10/2026 (decisão do Patrick): link INTERNO não leva UTM.** Tudo o que este arquivo diz sobre UTM em links internos de blog, mKases, `/estudo` e LPs está SUSPENSO: UTM em link interno reinicia a sessão no GA4 e apaga a origem real. UTM continua valendo para (1) o link do formulário `form.respondi.app` (outro domínio), (2) links que saem de fora do site para o blog (LinkedIn, e-mail, anúncios, redes sociais). Para medir qual artigo levou ao clique, usar evento no GTM/GA4.
+
 # UTM Tracking e Links Internos — metaKosmos
 
 Taxonomia oficial de UTMs para rastreamento orgânico. Todo link publicado em artigo deve carregar UTMs estruturados.

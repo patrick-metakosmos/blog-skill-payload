@@ -1,3 +1,5 @@
+> **ATUALIZAÇÃO 10/2026.** (1) R7 (fontes externas) agora é conferida pelo auditor: 1 a 2 links, zero reprova. (2) A base de números é `references/numeros-oficiais.json`: o que estiver lá com status "pendente" tem conflito entre fontes e não deve ser repetido até o Patrick decidir. (3) Intelligence Hub (Webflow Conf 13/09/2026): frescor importa (cerca de 50% das citações de IA têm menos de 13 semanas), por isso o otimizador tem o balde "Renovação" trimestral. (4) Nome de concorrente: proibido; comparar sem nome.
+
 # Regras de Escrita GEO/AEO — metaKosmos
 
 Complemento ao Manual de Redação. Em caso de conflito, prevalece a regra mais específica de GEO/AEO.

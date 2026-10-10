@@ -1,0 +1,19 @@
+{
+  "_leia": "Valores em R$ que podem aparecer no blog, SEMPRE no formato 'a partir de' e só depois de aprovados pelo Patrick. Hoje a lista está vazia: qualquer 'R$' no texto reprova no auditor (regra anterior: blog sem valores). Origem proposta (10/10/2026): menor valor por produto entre os 135 negócios ganhos (Estágio 'Fechamento') do Zoho CRM. Aguardando confirmação do Patrick: ver 'proposta_zoho'.",
+  "valores_aprovados": [],
+  "proposta_zoho": {
+    "data_da_consulta": "2026-10-10",
+    "criterio": "negócios com Stage = 'Fechamento' (único estágio de ganho com registros; 'Ganho' está vazio)",
+    "observacao": "O campo Amount do Zoho não diz se é valor de projeto, anual ou mensal, e mistura upsell/aditivo/permuta. Por isso nada foi aprovado ainda.",
+    "menor_por_produto": {
+      "mK Fashion+": {"menor": 2394, "negocio": "Nítido Moda Evangélica", "proximos": [6875, 7500, 12000, 15500, 16000]},
+      "mK Beauty": {"menor": 18840, "negocio": "Adcos | Upsell mKV", "menor_sem_upsell": 21955, "proximos": [24000, 34200, 41350, 57747]},
+      "mK 3D Shop": {"menor": 10000, "negocio": "Barão Distribuidor (Toymania e Fun)", "proximos": [42200, 92000, 172140, 280000, 460000]},
+      "MK3D Provador": {"menor": 12000, "negocio": "Fuel eyewear", "proximos": [138600]},
+      "mK Labs": {"menor": 10000, "negocio": "Hidrabene e Anasol (expansão)", "menor_sem_upsell": 12000, "proximos": [12000, 15000, 15180, 20000]},
+      "mK AI Studio": {"menor": 5400, "negocio": "Dumond (via Omni)", "proximos": [6396, 6600, 10000, 15000, 20000]},
+      "mK Home+": {"menor": 34950, "negocio": "Deluxecor Móveis", "proximos": []},
+      "mK Veels": {"menor": 4188, "negocio": "CNS Sapatos", "proximos": []}
+    }
+  }
+}

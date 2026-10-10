@@ -1,6 +1,6 @@
 # Mapa Competitivo — metaKosmos
 
-Referência para posicionamento nos artigos. JAMAIS linkar concorrentes. Usar para contextualizar diferenciais mK.
+Referência INTERNA para posicionamento. **Nunca citar o nome de concorrente nos artigos, nem linkar** (decisão de 10/2026). Pode comparar as vantagens dos produtos mK com "as soluções do mercado" ou "quem entrega só X", sem nome. O auditor (`audit_artigo.py`) reprova qualquer nome desta tabela que apareça no texto. Quando houver uns 10 cases, o Ian quer rever (comentário [f] do Intelligence Hub).
 
 ---
 

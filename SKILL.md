@@ -114,9 +114,7 @@ Todo artigo cita o **State of Immersive & Agentic Commerce 2026** e manda tráfe
   de lead e entrega o ativo de graça. Todo caminho para o estudo passa pela página de cadastro.
 - **Mínimo 1 CTA para o estudo**, apontando para `https://metakosmos.com.br/estudo`
   (página com captura de lead). O CTA do estudo é **adicional** ao CTA final de contato, não substitui.
-- **UTMs obrigatórios** nos dois links, conforme `utm-tracking.md`:
-  - citação no corpo → `utm_source=blog&utm_medium=cta-inline&utm_campaign=state-of-immersive-agentic-commerce-2026`
-  - CTA → `utm_source=blog&utm_medium=cta-final&utm_campaign=state-of-immersive-agentic-commerce-2026`
+- **Sem UTM nos dois links** (decisão de 10/2026, ver "Links e UTMs"): `https://metakosmos.com.br/estudo` puro, na citação do corpo e no CTA.
 - **Não inventar dado do estudo.** Se o índice não tiver número que sustente o argumento, buscar
   outra seção ou usar outro dado. Número sem origem no estudo é falha bloqueadora.
 
@@ -158,7 +156,9 @@ Todo artigo cita o **State of Immersive & Agentic Commerce 2026** e manda tráfe
 - Todo `<img>` com `alt` descritivo. Sem `style=`.
 
 ### Links e UTMs
-- Mínimo 6-8 links internos, todos verificados (`sitemap-urls.md` / `blog-links.md`), com UTMs completos (`utm-tracking.md`).
+- **Link interno NÃO leva UTM** (decisão de 10/2026). UTM em link interno reinicia a sessão no GA4 e apaga a origem real (o orgânico vira "blog / internal-link"). Vale para `/blog/...`, `/mkases/...`, `/estudo` e LPs. O link `form.respondi.app` é outro domínio e **mantém** o UTM (é como a origem chega ao formulário). Para saber qual artigo levou ao clique, o caminho é evento no GTM/GA4, não UTM. O auditor reprova link interno com `utm_`.
+- Mínimo 6-8 links internos, todos verificados (`sitemap-urls.md` / `blog-links.md`).
+- **1 a 2 fontes externas reconhecidas, com link visível** (Guia GEO/AEO R7, bloqueador): imprensa especializada, documentação oficial, pesquisa de instituto ou plataforma, órgão regulador. Nunca blog de concorrente nem página que você não abriu. **Abra a página e confirme que ela diz o que o texto afirma** antes de linkar. O auditor reprova 0 ou mais de 2 (o link do formulário não conta).
 - No HTML pode usar `&amp;` entre parâmetros (o conversor decodifica para `&`). Preferir **URLs relativas** no padrão Payload (`/mk3d`, `/blog/[slug]`, `/mkases/[slug]`) — atenção a slugs que mudaram do WP para o Payload.
 - Regra "first mention link": marca-cliente citada pela 1ª vez → `/mkases/[slug]`; solução mK citada pela 1ª vez → LP correspondente.
 - **O tema TRANSFORMA em botão rosa, sozinho, todo link para `form.respondi.app`.** Verificado em
@@ -196,13 +196,19 @@ Igual à blog-mk, com o passo de formatação final adaptado:
    - Estrutura granular **h2/h3/h4**; nenhuma seção com >3 parágrafos corridos.
    - Ênfase densa: **negrito/itálico/sublinhado** + **caixas `<blockquote>`** (2-4) para stats/callouts.
    - `<h1>` no topo (vira título); hero = 1ª `<img>` **horizontal** do catálogo (vira featuredImage); sem ToC.
-   - Imagens distribuídas (1 a cada 2-3 seções), SÓ nomes de `media-payload.md`; links com UTMs.
+   - Imagens distribuídas (1 a cada 2-3 seções), SÓ nomes de `media-payload.md`; links internos sem UTM.
    - Rodar a **auditoria de formato + anti-IA programática** (abaixo) e corrigir.
 9. **Entrega** — Pauta, Artigo e Metadados + Completion Summary.
 10. **Publicação (automática, sem perguntar) — NESTA ORDEM:**
     ```bash
     # a) artigo AO VIVO no blog (padrão do usuário desde 02/09/2026)
     python scripts/payload_publish.py <slug> --status published
+
+    # a2) links retroativos: Pillar Page do pilar + 2-3 artigos antigos passam a linkar o novo.
+    #     Só insere onde o termo já aparece em texto corrido; backup antes de gravar. Primeiro sem
+    #     --apply para ver o plano, depois com --apply. (--ancora X acrescenta variantes de âncora.)
+    python scripts/otimizador/links_retroativos.py <slug> --pilar <N>
+    python scripts/otimizador/links_retroativos.py <slug> --pilar <N> --apply
 
     # b) escrever output/[slug]/linkedin.md conforme references/linkedin-post.md
 
@@ -239,7 +245,7 @@ Igual à blog-mk, com o passo de formatação final adaptado:
 0c. **Botão isolado:** nenhum link para `form.respondi.app` no meio de frase. O link do formulário
     está sozinho num `<p>`, o parágrafo anterior chama o clique, e há no máximo 1 no artigo inteiro.
 0b. **Estudo citado:** há ≥1 dado do State of Immersive & Agentic Commerce 2026 no corpo, com link
-    para `/estudo` (UTM `cta-inline`), e ≥1 CTA para `/estudo` (UTM `cta-final`). **Zero links para o
+    para `/estudo`, e ≥1 CTA para `/estudo` (ambos sem UTM). **Zero links para o
     PDF direto.** Dado conferido na linha de origem do arquivo completo.
 0d. **Zero imagem-logo:** nenhuma imagem do artigo (hero ou corpo) é logo de marca, grade de logos
     de clientes ou lockup institucional. Checar nome do arquivo e alt no catálogo.
@@ -249,6 +255,13 @@ Igual à blog-mk, com o passo de formatação final adaptado:
 2. **HTML bem-formado:** cada `<p>`, `<h2>`, `<ul>`, `<li>`, `<a>`, `<blockquote>` aberto tem fechamento. `<img>`/`<hr>` self-closing ou simples.
 3. **1 único `<h1>`** no topo; nenhum outro `<h1>` no corpo.
 4. **Imagens no catálogo:** todo `<img>` tem `alt` e um `src` cujo nome existe em `media-payload.md` (o publicador remove os que não existem). Hero horizontal. **Nenhuma delas é logo** (ver regra abaixo).
+0e. **Fontes externas (R7):** 1 a 2 links para fonte externa reconhecida, conferida. Zero ou mais de 2 reprova.
+0f. **Link interno sem UTM:** nenhum `href` interno com `utm_`. O link do formulário mantém o UTM.
+0g. **Concorrentes:** nenhum nome de `references/concorrentes.md` no texto nem em link. Comparar vantagens dos produtos mK sem citar nome é permitido.
+0h. **Valores em R$:** só os que estiverem em `references/precos-aprovados.json` (formato "a partir de"). Hoje a lista está vazia: nenhum valor.
+0i. **GEO/AEO:** keyword nas primeiras 150 palavras e em um H2/H3; título SEO ≤60c abrindo pela keyword; meta description ≤155c (com número, aviso); "metaKosmos" ≥3 vezes. Avisos: H2 em forma de pergunta (≥30%), frases acima de 25 palavras (≤30%).
+0j. **Números:** todo número com unidade (%, x, mil, milhões) deve estar em `references/numeros-oficiais.json`. Fora da base ou com status "pendente" = aviso: conferir a fonte antes de publicar.
+
 5. **Granularidade e ênfase:** há h3/h4 (não só h2); há ≥2 caixas `<blockquote>`; nenhuma seção com >3 parágrafos sem heading/lista/caixa/imagem.
 
 **Anti-IA programática (contagens duras — iguais à blog-mk):**
@@ -290,18 +303,22 @@ Reportar contagens reais no documento de metadados. Corrigir e re-rodar antes de
 - Entregar Título SEO >60c ou Meta Description >155c.
 - Entregar artigo com menos de 2000 palavras ou FAQ com menos de 10 perguntas.
 - Inventar URLs ou cores; linkar concorrentes.
+- **Citar o NOME de concorrente** (decisão de 10/2026). Pode comparar as vantagens dos produtos mK com "as soluções do mercado", sem nome.
+- **Colocar UTM em link interno** (só o link do formulário leva).
+- **Publicar valor em R$** fora de `references/precos-aprovados.json`; usar número que não esteja em `references/numeros-oficiais.json` ou que esteja com status "pendente" sem decisão.
+- **Publicar sem revisão humana é a regra do dono** (decisão de 10/2026 mantida): por isso a auditoria é a única barreira e nenhum bloqueador dela pode ser relevado.
 - Referenciar imagem que não existe na Media do Payload sem sinalizar.
 
 ### SEMPRE
 - Carregar todas as referências antes de escrever (incluindo `output-payload.md` e `estudo-indice.md`).
 - **Keyword-alvo exata abrindo o H1**, no 1º parágrafo e em um H2/FAQ.
-- **Citar o estudo linkando `/estudo` no corpo (UTM `cta-inline`) + CTA para `/estudo`** (UTM `cta-final`).
+- **Citar o estudo linkando `/estudo` no corpo + CTA para `/estudo`** (sem UTM).
 - **Escolher imagem que mostra a coisa acontecendo**: produto, tela da solução, resultado do case.
   Para citar marca cliente, usar a imagem do case dela, nunca o logo.
 - Gerar os 4 documentos (Pauta + Artigo + Metadados + LinkedIn).
 - Artigo em `artigo.html` como **HTML semântico simples**.
 - Mínimo 2000 palavras; parágrafos 35-40 palavras; FAQ 10+ perguntas.
-- Mínimo 2 mKases com métricas reais; 6-8 links internos verificados com UTMs.
+- Mínimo 2 mKases com métricas reais; 6-8 links internos verificados, sem UTM; 1-2 fontes externas conferidas.
 - Responder a pergunta principal nos primeiros 150 palavras (GEO); "metaKosmos" associada a resultado ≥3 vezes.
 - Storytelling sensorial da Lara; 1 "Spoiler:", parênteses coloquiais, 1 frase-parágrafo isolada.
 - Rodar auditoria de formato + anti-IA programática antes da entrega.

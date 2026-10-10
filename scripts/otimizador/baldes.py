@@ -34,7 +34,10 @@ DADOS = SKILL_DIR / "otimizador" / "dados"
 CICLOS = SKILL_DIR / "otimizador" / "ciclos"
 INVENTARIO = SKILL_DIR / "otimizador" / "inventario.csv"
 
-COTAS = {"Quick Win": 3, "Decadente": 2, "CTR Baixo": 2}
+COTAS = {"Quick Win": 3, "Decadente": 2, "CTR Baixo": 2, "Renovação": 1}
+# Renovação: tráfego relevante + dado parado há muito tempo
+REN_DIAS = 90
+REN_MIN_CLIQUES = 10
 IDADE_MIN_DIAS = 90
 INTERVALO_DIAS = 28
 
@@ -148,6 +151,7 @@ def selecionar(hoje, inventario, gsc, ga4, log):
         else:
             elegiveis.append(url)
 
+    art_por_url = {a["Slug/URL"]: a for a in inventario}
     cands = {b: [] for b in COTAS}
     descartados = []
     for url in elegiveis:
@@ -186,8 +190,17 @@ def selecionar(hoje, inventario, gsc, ga4, log):
                                            f"{m['impressoes']} impressões na posição {m['posicao']} "
                                            f"(CTR {m['ctr']:.1%})"))
 
+        # Renovação (Intelligence Hub, "Citation Decay"): os artigos que mais trazem cliques
+        # não podem envelhecer. Sem atualização há REN_DIAS e com tráfego relevante, entram
+        # para renovar dados, ano e cases (a keyword e o slug não mudam).
+        atualizado = data_iso(art_por_url[url].get("Última atualização", ""))
+        if atualizado and (hoje - atualizado).days >= REN_DIAS and m["cliques"] >= REN_MIN_CLIQUES:
+            cands["Renovação"].append((m["cliques"], url,
+                                       f"{m['cliques']} cliques em 90 dias e sem atualização há "
+                                       f"{(hoje - atualizado).days} dias (renovação trimestral dos melhores artigos)"))
+
     escolhidos, usados = [], set()
-    for balde in ("Decadente", "CTR Baixo", "Quick Win"):
+    for balde in ("Decadente", "CTR Baixo", "Quick Win", "Renovação"):
         n = 0
         for _, url, motivo in sorted(cands[balde], key=lambda c: -c[0]):
             if n >= COTAS[balde]:

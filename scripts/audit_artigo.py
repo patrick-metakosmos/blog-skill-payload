@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Auditoria de formato + anti-IA do artigo.html (passo 8.5 da SKILL.md)."""
-import re, sys, os, io
+import re, sys, os, io, json, unicodedata
+from urllib.parse import urlparse
+from pathlib import Path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 slug = sys.argv[1]
@@ -120,10 +123,32 @@ for i, (q, a) in enumerate(zip(faq_qs, faq_paras), 1):
 # --- LINKS ---
 links = re.findall(r'href="([^"]+)"', html)
 print("\n[LINKS] %d totais" % len(links))
-sem_utm = [l for l in links if "utm_source" not in l]
-print("  sem UTM: %d %s" % (len(sem_utm), "OK" if not sem_utm else str(sem_utm)))
-internos = [l for l in links if not l.startswith("http")]
-print("  internos: %d | externos: %d" % (len(internos), len(links) - len(internos)))
+DOMINIOS_MK = ("metakosmos.com.br", "www.metakosmos.com.br")
+FORMULARIO = "form.respondi.app"
+
+def host_de(l):
+    return urlparse(l).netloc.lower() if l.startswith("http") else ""
+
+internos = [l for l in links if not l.startswith("http") or host_de(l) in DOMINIOS_MK]
+formularios = [l for l in links if host_de(l) == FORMULARIO]
+externos = [l for l in links if l.startswith("http") and host_de(l) not in DOMINIOS_MK and host_de(l) != FORMULARIO]
+print("  internos: %d | formulário: %d | fontes externas: %d" % (len(internos), len(formularios), len(externos)))
+
+# NOVA REGRA (10/2026): link interno NÃO leva UTM (reinicia a sessão no GA4 e apaga a origem real).
+# O link do formulário (outro domínio) mantém UTM: é como a origem chega no Respondi.
+internos_utm = [l for l in internos if "utm_" in l]
+print("  links internos com UTM: %d (limite 0) %s" % (len(internos_utm), "OK" if not internos_utm else "<<< FALHA"))
+for l in internos_utm[:6]:
+    print("      -> %s" % l[:110])
+if formularios:
+    sem = [l for l in formularios if "utm_source" not in l]
+    print("  link do formulário com UTM: %s" % ("OK" if not sem else "<<< FALHA (formulário sem utm_source)"))
+
+# R7 do Guia GEO/AEO (BLOQUEADOR): 1 a 2 fontes externas reconhecidas com link visível
+print("  fontes externas: %d (piso 1, teto 2) %s" % (
+    len(externos), "OK" if 1 <= len(externos) <= 2 else "<<< FALHA"))
+for l in externos:
+    print("      -> %s" % l[:110])
 
 # R2 (BLOQUEADOR): o estudo só é linkado pela página de captura, nunca pelo PDF.
 pdf = [l for l in links if "api/media/file/State" in l or "State%20of%20Immersive" in l]
@@ -134,6 +159,97 @@ print("  links para /estudo: %d (piso 2: citação inline + CTA final) %s" % (
     len(estudo), "OK" if len(estudo) >= 2 else "<<< FALHA"))
 for l in sorted(set(links)):
     print("    %s" % l.split("?")[0])
+
+# --- SEO / GEO / AEO (Guia GEO AEO, Orgânica abr/2026) ---
+def norm(s):
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", s.lower())).strip()
+
+print("\n[SEO/GEO]")
+kw = h1txt.split(":")[0].strip()
+kwn = norm(kw)
+print("  keyword (abertura do H1): %s" % kw)
+
+apos_h1 = html[html.index("</h1>") + 5:] if "</h1>" in html else html
+primeiras = norm(" ".join(strip_tags(apos_h1).split()[:150]))
+ok_kw = kwn in primeiras
+print("  keyword nas primeiras 150 palavras (resposta direta logo na abertura): %s" % ("OK" if ok_kw else "<<< FALHA"))
+h23 = [norm(strip_tags(h)) for h in re.findall(r"<h[23][^>]*>(.*?)</h[23]>", html, re.S)]
+ok_h = any(kwn in h for h in h23)
+print("  keyword em algum H2/H3 (ou pergunta do FAQ): %s" % ("OK" if ok_h else "<<< FALHA"))
+
+h2 = [strip_tags(h) for h in re.findall(r"<h2[^>]*>(.*?)</h2>", html, re.S)]
+interrog = re.compile(r"\?$|^(o que|como|por que|porque|quando|quanto|quantos?|qual|quais|onde|para que|quem)\b", re.I)
+h2_perg = [h for h in h2 if interrog.search(h.strip())]
+print("  H2 em forma de pergunta: %d de %d (meta >= 30%%) %s" % (
+    len(h2_perg), len(h2), "OK" if h2 and len(h2_perg) / len(h2) >= 0.3 else "<<< REVISAR"))
+
+todas = [f for f in re.split(r"(?<=[.!?])\s+", strip_tags(apos_h1)) if f.strip()]
+longas = [f for f in todas if len(f.split()) > 25]
+pct_l = len(longas) / len(todas) if todas else 0
+print("  frases acima de 25 palavras (Guia R2): %d de %d (%.0f%%; meta <= 30%%) %s" % (
+    len(longas), len(todas), pct_l * 100, "OK" if pct_l <= 0.30 else "<<< REVISAR"))
+
+menc = len(re.findall(r"meta[Kk]osmos", texto))
+print("  menções a metaKosmos: %d (piso 3) %s" % (menc, "OK" if menc >= 3 else "<<< FALHA"))
+
+# título SEO e meta description (seo.json do otimizador ou metadados.md do gerador)
+pasta_art = os.path.dirname(os.path.abspath(path))
+seo = None
+if os.path.exists(os.path.join(pasta_art, "seo.json")):
+    d = json.load(io.open(os.path.join(pasta_art, "seo.json"), encoding="utf-8"))
+    seo = (d.get("metaTitle", ""), d.get("metaDescription", ""))
+elif os.path.exists(os.path.join(pasta_art, "metadados.md")):
+    from payload_publish import parse_metadados
+    m = parse_metadados(Path(pasta_art) / "metadados.md")
+    seo = (m["title_seo"], m["meta_description"])
+if seo is None:
+    print("  título SEO / meta description: sem seo.json nem metadados.md ao lado do artigo <<< REVISAR")
+else:
+    ts, md = seo
+    print("  título SEO: %d caracteres (limite 60) %s" % (len(ts), "OK" if 0 < len(ts) <= 60 else "<<< FALHA"))
+    print("  título SEO abre pela keyword: %s" % ("OK" if norm(ts).startswith(kwn) else "<<< FALHA"))
+    print("  meta description: %d caracteres (limite 155) %s" % (len(md), "OK" if 0 < len(md) <= 155 else "<<< FALHA"))
+    print("  meta description com dado numérico (Guia): %s" % ("OK" if re.search(r"\d", md) else "<<< REVISAR"))
+
+# --- CONCORRENTES (regra 10/2026: nenhum nome; comparar vantagens sem citar) ---
+cc_path = os.path.join(BASE, "references", "concorrentes.md")
+nomes = sorted(set(re.findall(r"^\|\s*\*\*([^*|]+?)\*\*", io.open(cc_path, encoding="utf-8").read(), re.M)))
+alvo = norm(texto + " " + " ".join(links))
+achados = [n for n in nomes if re.search(r"\b" + re.escape(norm(n)) + r"\b", alvo)]
+print("\n[CONCORRENTES] %d nomes monitorados | citados no artigo: %d (limite 0) %s" % (
+    len(nomes), len(achados), "OK" if not achados else "<<< FALHA"))
+for n in achados:
+    print("      -> %s" % n)
+
+# --- PREÇOS (só valores aprovados em references/precos-aprovados.json; sem arquivo = nenhum) ---
+aprov_path = os.path.join(BASE, "references", "precos-aprovados.json")
+aprov = []
+if os.path.exists(aprov_path):
+    aprov = [norm(x) for x in json.load(io.open(aprov_path, encoding="utf-8")).get("valores_aprovados", [])]
+reais = re.findall(r"R\$\s?\d[\d.,]*(?:\s?(?:mil|mi|milh[ãa]o|milh[õo]es|k)\b)?", texto)
+fora = [r for r in reais if norm(r) not in aprov]
+print("[PREÇOS] valores em R$ no texto: %d | fora da lista aprovada: %d (limite 0) %s" % (
+    len(reais), len(fora), "OK" if not fora else "<<< FALHA"))
+for r in fora[:6]:
+    print("      -> %s" % r)
+
+# --- NÚMEROS: base única references/numeros-oficiais.json (aviso, não bloqueia) ---
+base_path = os.path.join(BASE, "references", "numeros-oficiais.json")
+if os.path.exists(base_path):
+    base = json.load(io.open(base_path, encoding="utf-8"))["numeros"]
+    chave = lambda v: re.sub(r"[\s+]", "", v.lower()).replace("milhões", "mi").replace("milhão", "mi")
+    conhecidos = {chave(n["valor"]): n for n in base}
+    usados = [re.sub(r"\s+", " ", m).strip() for m in re.findall(
+        r"(?<![\d\w])[+\-]?\d[\d.,]*\s?(?:%|x\b|X\b|milh[ãõ][eo]s?|\bmi\b|\bmil\b)", texto)]
+    fora_base = sorted({u for u in usados if chave(u) not in conhecidos})
+    pend = sorted({u for u in usados if chave(u) in conhecidos and conhecidos[chave(u)].get("status") != "confirmado"})
+    print("[NÚMEROS] %d números com unidade | fora da base: %d | com decisão pendente: %d" % (
+        len(usados), len(fora_base), len(pend)))
+    if fora_base:
+        print("      fora da base (conferir a fonte): %s" % ", ".join(fora_base[:18]))
+    if pend:
+        print("      <<< REVISAR pendentes: %s" % ", ".join(pend))
 
 # --- VOZ mK ---
 print("\n[VOZ mK]")

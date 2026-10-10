@@ -1,0 +1,265 @@
+{
+  "_leia": "Base única de números do blog (decisão de 10/10/2026: um número, uma fonte, o mesmo em todo lugar). O auditor (scripts/audit_artigo.py) compara os números com unidade (%, x, mil, milhões) de cada artigo com esta lista: número fora daqui = aviso 'conferir a fonte'; status 'pendente' = há conflito entre fontes e precisa de decisão do Patrick antes de ser usado. Para adicionar um número: conferir na linha do estudo ou na página do mKase, registrar 'fonte' e 'status: confirmado'. Formato de 'valor' = como aparece no texto.",
+  "numeros": [
+    {
+      "valor": "2,7 milhões",
+      "descricao": "GM/Chevrolet: pessoas alcançadas na 1ª semana",
+      "fonte": "Estudo, linha 1498; /mkases/general-motors",
+      "status": "confirmado"
+    },
+    {
+      "valor": "101%",
+      "descricao": "GM/Chevrolet: taxa de engajamento vs. anúncios convencionais",
+      "fonte": "Estudo, linha 1498",
+      "status": "confirmado"
+    },
+    {
+      "valor": "775%",
+      "descricao": "GM/Chevrolet: CTR vs. anúncios convencionais",
+      "fonte": "Estudo, linha 1498",
+      "status": "confirmado"
+    },
+    {
+      "valor": "20 milhões",
+      "descricao": "GM/Chevrolet: acessos aos carros nos sites (configuradores 3D)",
+      "fonte": "Estudo, linha 1498",
+      "status": "confirmado"
+    },
+    {
+      "valor": "23,3 milhões",
+      "descricao": "Bio Extratus: visualizações orgânicas da campanha inteira",
+      "fonte": "Estudo, linha 1506; /mkases/bio-extratus-videos",
+      "status": "confirmado"
+    },
+    {
+      "valor": "14,8 milhões",
+      "descricao": "Bio Extratus: visualizações só do FOOH",
+      "fonte": "Estudo, linha 1506",
+      "status": "confirmado"
+    },
+    {
+      "valor": "8 milhões",
+      "descricao": "L'Oréal Professionnel iNOA: visualizações do FOOH",
+      "fonte": "Estudo, linha 1514; /mkases/loreal-inoa",
+      "status": "confirmado"
+    },
+    {
+      "valor": "70%",
+      "descricao": "L'Oréal iNOA: interações vindas de não seguidores (mais de 70%)",
+      "fonte": "Estudo, linha 1514",
+      "status": "confirmado"
+    },
+    {
+      "valor": "4 milhões",
+      "descricao": "UFC: visualizações orgânicas (mais de 4 milhões)",
+      "fonte": "Estudo, linha 1522; /mkases/ufc",
+      "status": "confirmado"
+    },
+    {
+      "valor": "10 milhões",
+      "descricao": "TV Globo (Três Graças): views orgânicas no Instagram da Globo em 1 semana. O mKase soma 50 milhões contando todas as postagens",
+      "fonte": "Estudo, linha 1538",
+      "status": "confirmado"
+    },
+    {
+      "valor": "1,1 milhão",
+      "descricao": "Stanley: visualizações orgânicas",
+      "fonte": "Estudo, linha 1530",
+      "status": "confirmado"
+    },
+    {
+      "valor": "15 mil",
+      "descricao": "Stanley: o estudo diz 15 mil COMENTÁRIOS; a página do mKase diz 15 mil CURTIDAS",
+      "fonte": "Estudo, linha 1530 x /mkases/stanley",
+      "status": "pendente",
+      "decidir": "Qual é o correto? Corrigir a fonte errada."
+    },
+    {
+      "valor": "11 milhões",
+      "descricao": "Rider: visualizações do vídeo com IA",
+      "fonte": "/mkases/rider-video-ia-slide-ronaldinho-gaucho",
+      "status": "confirmado"
+    },
+    {
+      "valor": "5,5 milhões",
+      "descricao": "Movida: visualizações do vídeo com IA",
+      "fonte": "/mkases/movida-copa-video",
+      "status": "confirmado"
+    },
+    {
+      "valor": "226 mil",
+      "descricao": "Oba Hortifruti: visualizações",
+      "fonte": "/mkases/oba-hortifruit-video-ia",
+      "status": "confirmado"
+    },
+    {
+      "valor": "101 mil",
+      "descricao": "Copra: visualizações",
+      "fonte": "/mkases/copra-video-ia",
+      "status": "confirmado"
+    },
+    {
+      "valor": "52%",
+      "descricao": "Uso de tecnologias imersivas para ver o produto sem ir à loja",
+      "fonte": "Estudo, linha 186",
+      "status": "confirmado"
+    },
+    {
+      "valor": "39%",
+      "descricao": "Uso de tecnologias imersivas para ganhar confiança na compra",
+      "fonte": "Estudo, linha 186",
+      "status": "confirmado"
+    },
+    {
+      "valor": "94%",
+      "descricao": "Aumento de conversão com 3D/AR. Fonte primária encontrada: Shopify, 2022, 'conteúdo 3D' (changelog.shopify.com), em média",
+      "fonte": "Estudo, linhas 188 e 240; Shopify Changelog 11/05/2022",
+      "status": "confirmado",
+      "nota": "A Shopify diz 3D, não AR, e é de 2022. Usar 'até 94%' com essa ressalva."
+    },
+    {
+      "valor": "315%",
+      "descricao": "Aumento de conversão com 3D/AR. No estudo (linha 969) é 'resultado ESPERADO / potencial' de uma solução, não medido. O geo-aeo.md atribui ao mK Fashion+ numa linha e ao provador de beleza em outra; o manual atribui ao mK Beauty",
+      "fonte": "Estudo, linhas 969 e 1897",
+      "status": "pendente",
+      "decidir": "A qual produto/estudo pertence o +315%?"
+    },
+    {
+      "valor": "61%",
+      "descricao": "Consumidores que preferem marcas com experiências digitais interativas (pesquisa primária provável: Interactions, EUA)",
+      "fonte": "Estudo, linha 238",
+      "status": "confirmado"
+    },
+    {
+      "valor": "71%",
+      "descricao": "Consumidores que comprariam com mais frequência se houvesse AR (pesquisa primária provável: Interactions, EUA)",
+      "fonte": "Estudo, linha 238",
+      "status": "confirmado"
+    },
+    {
+      "valor": "-61%",
+      "descricao": "Redução de devoluções. No estudo (linha 969) é 'resultado ESPERADO / potencial'; na linha 2876 aparece num exemplo ilustrativo de 'uma marca de móveis'. Outras fontes dizem ~32% (manual do Drive e wireframe do Fashion) e até 60% (llms.txt)",
+      "fonte": "Estudo, linhas 969 e 2876",
+      "status": "pendente",
+      "decidir": "Qual número de devolução usar (e para qual produto)?"
+    },
+    {
+      "valor": "7x",
+      "descricao": "ROI de 7x no 1º mês em exemplo de 'uma marca de móveis' (estudo, linha 2876). O estudo também traz 'ROI entre 10-40x' como resultado esperado (linhas 969, 1200, 1250). 'Até 7x performance de mídia' em texto comercial da mK não tem fonte",
+      "fonte": "Estudo, linha 2876",
+      "status": "pendente",
+      "decidir": "Manter só o 7x do exemplo; o 'até 7x performance de mídia' precisa de fonte ou sai."
+    },
+    {
+      "valor": "28x",
+      "descricao": "Lembrança de marca com FOOH. O geo-aeo.md e o FOOH creditam à Nielsen; o documento de fóruns credita ao estudo State of IC. Nenhuma fonte primária da Nielsen foi encontrada (10/2026)",
+      "fonte": "sem fonte primária",
+      "status": "pendente",
+      "decidir": "Achar a fonte primária ou tirar o número."
+    },
+    {
+      "valor": "8x",
+      "descricao": "'Até 8x mais engajamento' com FOOH: texto comercial da mK, sem fonte",
+      "fonte": "sem fonte",
+      "status": "pendente",
+      "decidir": "Achar a fonte ou tirar o número."
+    },
+    {
+      "valor": "3x",
+      "descricao": "'Até 3x mais intenção de compra' com FOOH: texto comercial da mK, sem fonte",
+      "fonte": "sem fonte",
+      "status": "pendente",
+      "decidir": "Achar a fonte ou tirar o número."
+    },
+    {
+      "valor": "100 milhões",
+      "descricao": "Gartner: 100 milhões de consumidores comprando com AR. A fonte primária é de ABRIL/2019 e fala em 2020; o estudo da mK apresenta como projeção para 2026",
+      "fonte": "Gartner (comunicado de 01/04/2019, via Marketing Dive) x Estudo, linha 2271",
+      "status": "pendente",
+      "decidir": "Corrigir o estudo para 2019/2020 ou trocar por dado atual."
+    },
+    {
+      "valor": "44%",
+      "descricao": "Mais propensos a adicionar ao carrinho (estudo atribui a 'dados do commerce de 2025', sem fonte nomeada)",
+      "fonte": "Estudo, linha 2277",
+      "status": "confirmado",
+      "nota": "Citar como 'dado de mercado reunido no estudo'."
+    },
+    {
+      "valor": "65%",
+      "descricao": "Dado de AR do estudo, mesma ressalva do 44%",
+      "fonte": "Estudo, linha 2277",
+      "status": "confirmado",
+      "nota": "Citar como 'dado de mercado reunido no estudo'."
+    },
+    {
+      "valor": "40x",
+      "descricao": "ROI de 10 a 40x: 'resultado ESPERADO / potencial' no estudo (linhas 969, 1200, 1250); o intervalo '7x a 40x' mistura duas linhas do estudo",
+      "fonte": "Estudo, linhas 969/1200/1250",
+      "status": "pendente",
+      "decidir": "Usar 'ROI esperado de 10 a 40x' (com a palavra 'potencial') ou tirar."
+    },
+    {
+      "valor": "47,4%",
+      "descricao": "Penetração de AR/VR do Brasil na América Latina em 2025",
+      "fonte": "Estudo, linhas 491 e 639",
+      "status": "confirmado"
+    },
+    {
+      "valor": "30%",
+      "descricao": "Redução de 30% a 50% em produção de conteúdo visual com IA, 'casos de mercado' citados no capítulo da HumanHuman",
+      "fonte": "Estudo, linha 2584",
+      "status": "confirmado",
+      "nota": "Citar como dado de mercado do estudo, não como resultado da mK."
+    },
+    {
+      "valor": "50%",
+      "descricao": "Dois usos: (1) 'redução de 30% a 50%' (estudo, linha 2584, confirmado); (2) 'garantimos no mínimo 50% mais CTR' em texto comercial da mK, SEM fonte e com cara de garantia contratual",
+      "fonte": "Estudo, linha 2584 x texto comercial",
+      "status": "pendente",
+      "decidir": "O 'mínimo 50% mais CTR' pode ser prometido publicamente? Se sim, de onde vem; se não, sai do blog."
+    },
+    {
+      "valor": "27 mil",
+      "descricao": "Colégio Sigma: visualizações",
+      "fonte": "/mkases/colegio-sigma (conferido pelo agente de reescrita)",
+      "status": "confirmado"
+    },
+    {
+      "valor": "88%",
+      "descricao": "Empresas que usam IA regularmente em ao menos uma função (McKinsey, The State of AI 2025; definição de 2025 = uso 'regular')",
+      "fonte": "Estudo, linha 2557 (cita McKinsey)",
+      "status": "confirmado"
+    },
+    {
+      "valor": "93%",
+      "descricao": "Marcas e agências que dizem que IA acelera seus fluxos de trabalho (StackAdapt)",
+      "fonte": "Estudo, linha 2557 (cita StackAdapt)",
+      "status": "confirmado"
+    },
+    {
+      "valor": "54%",
+      "descricao": "iFood no BBB 26: mais pedidos na 1ª semana (dado do iFood citado no estudo)",
+      "fonte": "Estudo, linha 2674",
+      "status": "confirmado"
+    },
+    {
+      "valor": "20%",
+      "descricao": "Redução de 20% a 35% no CAC com mais eficiência de conversão e viralização orgânica",
+      "fonte": "Estudo, linha 1704",
+      "status": "confirmado"
+    },
+    {
+      "valor": "35%",
+      "descricao": "Redução de 20% a 35% no CAC (ver 20%)",
+      "fonte": "Estudo, linha 1704",
+      "status": "confirmado"
+    },
+    {
+      "valor": "100%",
+      "descricao": "Usado como rótulo ('100% IA', '100% generativa'), não como métrica",
+      "fonte": "n/a",
+      "status": "confirmado"
+    }
+  ]
+}
