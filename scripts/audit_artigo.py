@@ -227,8 +227,12 @@ aprov_path = os.path.join(BASE, "references", "precos-aprovados.json")
 aprov = []
 if os.path.exists(aprov_path):
     aprov = [norm(x) for x in json.load(io.open(aprov_path, encoding="utf-8")).get("valores_aprovados", [])]
-reais = re.findall(r"R\$\s?\d[\d.,]*(?:\s?(?:mil|mi|milh[ãa]o|milh[õo]es|k)\b)?", texto)
-fora = [r for r in reais if norm(r) not in aprov]
+reais, fora = [], []
+for m in re.finditer(r"R\$\s?\d[\d.,]*(?:\s?(?:mil|mi|milh[ãa]o|milh[õo]es|k)\b)?", texto):
+    reais.append(m.group(0))
+    antes = texto[max(0, m.start() - 20):m.start()].lower()
+    if norm(m.group(0)) not in aprov or "a partir de" not in antes:
+        fora.append(m.group(0) + ("" if "a partir de" in antes else " (sem 'a partir de')"))
 print("[PREÇOS] valores em R$ no texto: %d | fora da lista aprovada: %d (limite 0) %s" % (
     len(reais), len(fora), "OK" if not fora else "<<< FALHA"))
 for r in fora[:6]:
@@ -250,6 +254,10 @@ if os.path.exists(base_path):
         print("      fora da base (conferir a fonte): %s" % ", ".join(fora_base[:18]))
     if pend:
         print("      <<< REVISAR pendentes: %s" % ", ".join(pend))
+    sem_fonte = [f for f in json.load(io.open(base_path, encoding="utf-8")).get("frases_sem_fonte", [])
+                 if f["frase"].lower() in texto.lower()]
+    for f in sem_fonte:
+        print("      <<< REVISAR alegação sem fonte no estudo: \"%s\" (%s)" % (f["frase"], f["motivo"]))
 
 # --- VOZ mK ---
 print("\n[VOZ mK]")

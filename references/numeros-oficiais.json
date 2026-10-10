@@ -1,5 +1,5 @@
 {
-  "_leia": "Base única de números do blog (decisão de 10/10/2026: um número, uma fonte, o mesmo em todo lugar). O auditor (scripts/audit_artigo.py) compara os números com unidade (%, x, mil, milhões) de cada artigo com esta lista: número fora daqui = aviso 'conferir a fonte'; status 'pendente' = há conflito entre fontes e precisa de decisão do Patrick antes de ser usado. Para adicionar um número: conferir na linha do estudo ou na página do mKase, registrar 'fonte' e 'status: confirmado'. Formato de 'valor' = como aparece no texto.",
+  "_leia": "Base única de números do blog (um número, uma fonte, o mesmo em todo lugar). Regra de 10/10/2026: quando as fontes divergem, vale o ESTUDO (The State of Immersive & Agentic Commerce 2026). O auditor (scripts/audit_artigo.py) compara os números com unidade (%, x, mil, milhões) de cada artigo com esta lista: fora daqui = aviso 'conferir a fonte'; status diferente de 'confirmado' = aviso 'revisar'. 'frases_sem_fonte' são alegações comerciais que o estudo não sustenta: o auditor avisa quando aparecem. Para adicionar: conferir na linha do estudo ou na página do mKase, registrar 'fonte' e 'status: confirmado'.",
   "numeros": [
     {
       "valor": "2,7 milhões",
@@ -69,10 +69,9 @@
     },
     {
       "valor": "15 mil",
-      "descricao": "Stanley: o estudo diz 15 mil COMENTÁRIOS; a página do mKase diz 15 mil CURTIDAS",
-      "fonte": "Estudo, linha 1530 x /mkases/stanley",
-      "status": "pendente",
-      "decidir": "Qual é o correto? Corrigir a fonte errada."
+      "descricao": "Stanley: 15 mil COMENTÁRIOS (vale o estudo; a página do mKase diz 'curtidas' e deve ser corrigida)",
+      "fonte": "Estudo, linha 1530",
+      "status": "confirmado"
     },
     {
       "valor": "11 milhões",
@@ -119,10 +118,9 @@
     },
     {
       "valor": "315%",
-      "descricao": "Aumento de conversão com 3D/AR. No estudo (linha 969) é 'resultado ESPERADO / potencial' de uma solução, não medido. O geo-aeo.md atribui ao mK Fashion+ numa linha e ao provador de beleza em outra; o manual atribui ao mK Beauty",
+      "descricao": "3D/AR eleva a conversão em até +315%. No estudo é dado de potencial (linha 969: 'resultados esperados') e aparece como afirmação na linha 1897. Citar como 'até' e atribuir ao estudo, sem amarrar a um produto específico",
       "fonte": "Estudo, linhas 969 e 1897",
-      "status": "pendente",
-      "decidir": "A qual produto/estudo pertence o +315%?"
+      "status": "confirmado"
     },
     {
       "valor": "61%",
@@ -138,45 +136,39 @@
     },
     {
       "valor": "-61%",
-      "descricao": "Redução de devoluções. No estudo (linha 969) é 'resultado ESPERADO / potencial'; na linha 2876 aparece num exemplo ilustrativo de 'uma marca de móveis'. Outras fontes dizem ~32% (manual do Drive e wireframe do Fashion) e até 60% (llms.txt)",
+      "descricao": "Redução de devoluções de até 61% (estudo, linha 969 como potencial e linha 2876 num exemplo de 'uma marca de móveis'). Vale o estudo; ignorar ~32% e 60% das outras fontes",
       "fonte": "Estudo, linhas 969 e 2876",
-      "status": "pendente",
-      "decidir": "Qual número de devolução usar (e para qual produto)?"
+      "status": "confirmado"
     },
     {
       "valor": "7x",
-      "descricao": "ROI de 7x no 1º mês em exemplo de 'uma marca de móveis' (estudo, linha 2876). O estudo também traz 'ROI entre 10-40x' como resultado esperado (linhas 969, 1200, 1250). 'Até 7x performance de mídia' em texto comercial da mK não tem fonte",
-      "fonte": "Estudo, linha 2876",
-      "status": "pendente",
-      "decidir": "Manter só o 7x do exemplo; o 'até 7x performance de mídia' precisa de fonte ou sai."
+      "descricao": "ROI de 7x a 40x 'em projetos da mK' (estudo, linha 2947); 7x no 1º mês no exemplo da linha 2876",
+      "fonte": "Estudo, linhas 2876 e 2947",
+      "status": "confirmado"
     },
     {
       "valor": "28x",
-      "descricao": "Lembrança de marca com FOOH. O geo-aeo.md e o FOOH creditam à Nielsen; o documento de fóruns credita ao estudo State of IC. Nenhuma fonte primária da Nielsen foi encontrada (10/2026)",
-      "fonte": "sem fonte primária",
-      "status": "pendente",
-      "decidir": "Achar a fonte primária ou tirar o número."
+      "descricao": "Só no contexto de AR/3D em loja: 'o fará lembrar da sua marca 28X mais' (estudo, linha 2894). NÃO é dado de FOOH e o estudo não cita a Nielsen",
+      "fonte": "Estudo, linha 2894",
+      "status": "confirmado"
     },
     {
       "valor": "8x",
-      "descricao": "'Até 8x mais engajamento' com FOOH: texto comercial da mK, sem fonte",
-      "fonte": "sem fonte",
-      "status": "pendente",
-      "decidir": "Achar a fonte ou tirar o número."
+      "descricao": "'Até 8x mais engajamento' com FOOH: alegação comercial da mK, o estudo não traz",
+      "fonte": "sem fonte no estudo",
+      "status": "sem_fonte"
     },
     {
       "valor": "3x",
-      "descricao": "'Até 3x mais intenção de compra' com FOOH: texto comercial da mK, sem fonte",
-      "fonte": "sem fonte",
-      "status": "pendente",
-      "decidir": "Achar a fonte ou tirar o número."
+      "descricao": "'Até 3x mais intenção de compra' com FOOH: alegação comercial da mK, o estudo não traz (o estudo traz +144% e +94% de intenção, linhas 1364 e 1897)",
+      "fonte": "sem fonte no estudo",
+      "status": "sem_fonte"
     },
     {
       "valor": "100 milhões",
-      "descricao": "Gartner: 100 milhões de consumidores comprando com AR. A fonte primária é de ABRIL/2019 e fala em 2020; o estudo da mK apresenta como projeção para 2026",
-      "fonte": "Gartner (comunicado de 01/04/2019, via Marketing Dive) x Estudo, linha 2271",
-      "status": "pendente",
-      "decidir": "Corrigir o estudo para 2019/2020 ou trocar por dado atual."
+      "descricao": "Gartner: 100 milhões de consumidores comprando com AR. A fonte primária é de abril/2019 e fala em 2020. O estudo (linha 2271) apresenta como projeção para 2026. Os artigos seguem a fonte primária (que está linkada); o estudo precisa ser corrigido",
+      "fonte": "Gartner, comunicado de 01/04/2019 (via Marketing Dive) x Estudo, linha 2271",
+      "status": "pendente"
     },
     {
       "valor": "44%",
@@ -194,10 +186,9 @@
     },
     {
       "valor": "40x",
-      "descricao": "ROI de 10 a 40x: 'resultado ESPERADO / potencial' no estudo (linhas 969, 1200, 1250); o intervalo '7x a 40x' mistura duas linhas do estudo",
-      "fonte": "Estudo, linhas 969/1200/1250",
-      "status": "pendente",
-      "decidir": "Usar 'ROI esperado de 10 a 40x' (com a palavra 'potencial') ou tirar."
+      "descricao": "ROI de 7x a 40x em projetos da mK (linha 2947). Linhas 969/1200/1250 trazem 'ROI entre 10-40x' como resultado esperado",
+      "fonte": "Estudo, linhas 969, 1200, 1250 e 2947",
+      "status": "confirmado"
     },
     {
       "valor": "47,4%",
@@ -214,10 +205,9 @@
     },
     {
       "valor": "50%",
-      "descricao": "Dois usos: (1) 'redução de 30% a 50%' (estudo, linha 2584, confirmado); (2) 'garantimos no mínimo 50% mais CTR' em texto comercial da mK, SEM fonte e com cara de garantia contratual",
-      "fonte": "Estudo, linha 2584 x texto comercial",
-      "status": "pendente",
-      "decidir": "O 'mínimo 50% mais CTR' pode ser prometido publicamente? Se sim, de onde vem; se não, sai do blog."
+      "descricao": "Só como 'redução de 30% a 50% na produção de conteúdo' (estudo, linha 2584). A promessa 'no mínimo 50% mais CTR' está em frases_sem_fonte",
+      "fonte": "Estudo, linha 2584",
+      "status": "confirmado"
     },
     {
       "valor": "27 mil",
@@ -260,6 +250,20 @@
       "descricao": "Usado como rótulo ('100% IA', '100% generativa'), não como métrica",
       "fonte": "n/a",
       "status": "confirmado"
+    }
+  ],
+  "frases_sem_fonte": [
+    {
+      "frase": "no mínimo 50% mais CTR",
+      "motivo": "Soa como garantia pública e o estudo não traz. Decisão do CEO: manter, achar fonte ou tirar."
+    },
+    {
+      "frase": "7x mais performance de mídia",
+      "motivo": "Alegação comercial da mK; o estudo só traz ROI de 7x a 40x, que é outra métrica."
+    },
+    {
+      "frase": "28x mais lembrança de marca (Nielsen)",
+      "motivo": "O 28x do estudo é de AR em loja e não cita a Nielsen. Não usar como dado de FOOH."
     }
   ]
 }
