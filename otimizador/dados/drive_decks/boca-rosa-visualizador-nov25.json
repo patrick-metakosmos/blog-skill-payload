@@ -1,0 +1,19 @@
+{
+ "deck_id": "1aGdOG-dN6yJqoV5ugowXF1SF3Ps4T3Sc27EFrIn7tGA",
+ "titulo": "[BOCA ROSA] Metricas do Visualizador 3D",
+ "cliente": "Boca Rosa",
+ "produto": "mK 3D (Visualizador 3D/AR)",
+ "periodo": "29 de outubro a 10 de novembro (ano nao impresso; provavelmente 2025, 13 dias)",
+ "status_deck": "sem marcacao de versao; sem numeros de rodape (slide = posicao absoluta, capa = 1); slide 5 traz rotulo 'Outubro (01-31)' incompativel com a janela do deck e dois bullets com texto identico (copia); ultimo slide vazio",
+ "metricas": [
+  {"nome": "Aberturas do visualizador (mK3D inicializado)", "valor": "34", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "29/10 a 10/11; base muito pequena"},
+  {"nome": "Taxa de adicao ao carrinho (produtos visualizados enviados ao carrinho)", "valor": "11,8% (4 checkouts / 34 aberturas)", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Aberturas da Realidade Aumentada", "valor": "10 (29,4% das aberturas envolveram interacao com AR)", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "10 / 34; slide 5 descreve como 'adocao de quase 30%'"},
+  {"nome": "CTR (aberturas do mK3D / visualizacoes das paginas cobertas)", "valor": "1,31%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adicoes ao carrinho", "valor": "4", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Tempo medio de interacao com a marca via mK3D", "valor": "2:00", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Total de visualizacoes", "valor": "#32", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "rotulo '#32 Total de Visualizacoes'; fica menor que as 34 aberturas do slide 2 (nao reconciliado)"},
+  {"nome": "Produtos enviados ao checkout", "valor": "#4", "slide": 4, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "alinhado aos 4 checkouts do slide 2"}
+ ],
+ "notas": "Amostra minima (34 aberturas, 4 adicoes): qualquer taxa tem alto ruido e nao deve ser lida como tendencia. 'Total de visualizacoes' = 32 (slide 4) x 34 aberturas (slide 2): nao reconciliado. O slide 3 (Acessos por dispositivos) e so grafico/imagem: nenhum numero foi lido. O slide 5 repete o mesmo texto de adicao ao carrinho nos dois bullets (o segundo deveria falar de AR) e traz rotulo 'Outubro (01-31)' enquanto a janela do deck e 29/10 a 10/11; os numeros foram tomados como da janela do deck. Nenhum comparativo antes/depois e nenhum valor em R$ neste deck. Produto classificado como mK 3D porque o deck e do Visualizador 3D/AR; o titulo nao identifica produto de beleza."
+}

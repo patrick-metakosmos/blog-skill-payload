@@ -1,0 +1,17 @@
+{
+ "deck_id": "1z9x_WCaMLw9Nrj1vlfAknBUp5Om2hFs4PBd9KlMbH7Q",
+ "titulo": "[Bioextratus] Provador Virtual: Recap 2025 e novas possibilidades para 2026",
+ "cliente": "Bio Extratus",
+ "produto": "mK Hair (Provador Virtual de tonalizante)",
+ "periodo": "nov 2024 a fev de 2026 (como no slide de números; título diz 'Recap 2025')",
+ "status_deck": "sem marcação de versão no título; slides sem numeração impressa (slide = posição na ordem do deck, capa = 1); o texto cita 'Aneethun' e 'Boca Rosa' em slides copiados de outros decks",
+ "metricas": [
+  {"nome": "Usos do provador (usuários únicos provando pelo menos 1 produto)", "valor": "+20K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "nov 2024 a fev 2026"},
+  {"nome": "Provas virtuais", "valor": "+234K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "234K / 20K = ~11,7 provas por usuário (cálculo do analista, não consta no slide)"},
+  {"nome": "CTR do provador virtual", "valor": "8%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "insight #2: 'pouca visibilidade para o PV na PDP = 8% CTR'"},
+  {"nome": "Produtos enviados para o carrinho", "valor": "+5.8K", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Proposta de renegociação: fee mensal", "valor": "De R$ 11.277 por R$ 9.000 (redução de 20%)", "slide": 3, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "proposta comercial 2026; R$ 11.277 x 0,8 = R$ 9.021,60, ou seja, R$ 9.000 é arredondamento"},
+  {"nome": "Proposta de renegociação: plano de provas mensais", "valor": "De 35.000 para 50.000 provas/mês (+40%)", "slide": 3, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "indica plano contratado de 35.000 provas/mês; 50.000/35.000 = +42,9%, deck diz +40%"}
+ ],
+ "notas": "(1) Deck sem metricas de vendas, receita, ROI ou tempo de interacao. (2) Periodo longo (nov/2024 a fev/2026, ~16 meses) e usuarios unicos baixos. (3) Titulo diz 'Recap 2025' mas o periodo cobre novembro de 2024 a fevereiro de 2026. (4) Aumento de plano: deck diz '+40%' mas 35.000 para 50.000 e +42,9%; reducao do fee diz 20% mas 11.277 para 9.000 e -20,2%. (5) Erros de copia: slides citam 'Aneethun' (treinamento de saloes, UGC) e 'Boca Rosa' (eventos) em deck da Bio Extratus. (6) Slides de ideias (nova tech, PDP, PDV, midia, saloes, TikTok, eventos, mK Hair IA) sao propostas sem dados; slides em imagem nao lidos."
+}

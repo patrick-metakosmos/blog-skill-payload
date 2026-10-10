@@ -1,0 +1,31 @@
+{
+ "deck_id": "1qbHPq5677juNIx3OvZRn-U4DlQ6_0UWFSydfndlnz5k",
+ "titulo": "[BOCA ROSA] Provador Virtual: Analise de metricas Q3 (parcial) 2026",
+ "cliente": "Boca Rosa",
+ "produto": "mK Beauty",
+ "periodo": "Julho e Agosto 2026 (Q3 parcial). Funil nativo do Provador: 01/07 a 23/08. Cohort GA4 / CTR / ROI: 01/07 a 06/08 (GA4 com inconsistencia de captura a partir de 07/08)",
+ "status_deck": "versao parcial do Q3; leitura conservadora de GA4 ate 06/08; primeiro ciclo com evento do botao validado no GA4 (cohort real); a capa interna diz 'Julho e Agosto 2026'; apos o slide 7 o deck anexa material institucional do mK AI Studio (sem dados do cliente), com placeholders de template nao preenchidos ({{COR_FUNDO}} etc.)",
+ "metricas": [
+  {"nome": "Retorno sobre o investimento", "valor": "4,78x / ROI 378%", "slide": 1, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "01/07 a 06/08/2026; 'ante 3,46x (246%) no trimestre passado' (Q2, last click)"},
+  {"nome": "Retorno em R$ sobre o investimento", "valor": "R$ 295.653,78 sobre um investimento de R$ 78.195,00", "slide": 1, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "R$ 295.653,78 e a receita influenciada (R$ 373.848,78, slide 6) menos o investimento; nao e a mesma grandeza da 'receita influenciada'"},
+  {"nome": "CTR do provador", "valor": "69,40%", "slide": 1, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "engajamento com o botao, GA4, 01/07 a 06/08; depende de paginas vistas do GA4"},
+  {"nome": "Total de provas", "valor": "4.136.607", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "funil nativo do Provador, 01/07 a 23/08"},
+  {"nome": "Provas por usuaria", "valor": "12,3", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'uso recorrente do Provador'"},
+  {"nome": "Aberturas unicas", "valor": "535.856", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "01/07 a 23/08"},
+  {"nome": "Provas unicas", "valor": "358.241", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adicoes ao carrinho (last click)", "valor": "101.521", "slide": 3, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "atribuicao last click, mais restritiva que o cohort GA4 (48.945, em janela menor)"},
+  {"nome": "Try-ons Julho 2026", "valor": "2.641.112", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Agosto 2026 (parcial, ate 23/08)", "valor": "1.495.495", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "agosto parcial, ate o dia 23/08/2026"},
+  {"nome": "Receita das paginas com Provador", "valor": "R$ 1.335.368,32", "slide": 5, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "01/07 a 06/08"},
+  {"nome": "Itens adicionados ao carrinho nas paginas com PV", "valor": "188.848", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "01/07 a 06/08"},
+  {"nome": "Itens comprados nas paginas com PV", "valor": "33.412", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "01/07 a 06/08"},
+  {"nome": "Conversao do checkout das paginas com PV", "valor": "17,69%", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'base usada para estimar os itens efetivamente comprados atribuidos ao cohort'"},
+  {"nome": "Adicoes ao carrinho do cohort (PV)", "valor": "48.945", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "25,92% das adicoes das paginas com PV; 01/07 a 06/08"},
+  {"nome": "Compras influenciadas pelo PV", "valor": "9.354", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "28,00% das compras das paginas com PV"},
+  {"nome": "Participacao do PV na receita das paginas com PV", "valor": "27,99% (R$ 373.848,78)", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "o R$ 373.848,78 e a receita influenciada; percentual de 27,99% e publicavel so com aprovacao"},
+  {"nome": "Ticket medio por item", "valor": "R$ 39,97", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": ""},
+  {"nome": "Investimento no periodo", "valor": "R$ 78.195,00", "slide": 6, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "o deck nao detalha a janela do investimento alem de 'no periodo'"},
+  {"nome": "Retorno (cohort validado)", "valor": "378% - 4,78x", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "leitura 'conservadora' ate 06/08; compara com 246% (3,46x) do trimestre anterior"}
+ ],
+ "notas": "Slide = numeral de rodape 01-07 (capa sem numero). Divergencias: (1) o slide 1 diz que o ROI anterior foi 'no trimestre passado' (3,46x/246%) e o slide 7 diz 'no semestre passado (last click)'; o deck do Q2 e trimestral (abril a junho). (2) Janelas diferentes no mesmo slide: funil nativo ate 23/08 (4,13 milhoes de provas) vs GA4/CTR/ROI ate 06/08; nao somar nem comparar diretamente. (3) 'Retorno de R$ 295.653,78' no slide 1 e receita influenciada menos investimento (373.848,78 - 78.195,00); o slide 6 chama R$ 373.848,78 de 'receita influenciada'; as duas grandezas coexistem. (4) O ticket medio por item caiu de R$ 55,63 (Q2) para R$ 39,97 (Q3 parcial) e o CTR de 74,96% (Q2) para 69,40%: variacoes nao comentadas no deck. (5) O ROI de 378% usa cohort (todas as usuarias que clicaram no botao ao longo da jornada), metodo diferente do last click do Q2 (246%); por isso o 'avanco' de 246% para 378% mistura mudanca de metodo com desempenho. (6) O slide 4 traz um grafico de barras; os dois valores mensais foram lidos do texto do grafico. Slides de AI Studio (sem numero) nao trazem metricas do cliente; so 'Prazo medio 7-15 dias uteis'."
+}

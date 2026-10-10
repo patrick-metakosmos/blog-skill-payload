@@ -1,0 +1,27 @@
+{
+ "deck_id": "1rmpu68YKhw206XV1D4Cqv9psgb7-2-09thuxhFsNw7o",
+ "titulo": "[Marisa] AI Studio + Provador Virtual: analise das metricas",
+ "cliente": "Marisa",
+ "produto": "mK AI Studio + mK Fashion+ (Provador Virtual)",
+ "periodo": "POC de 22/06 a 21/08/2026; janelas antes x depois: Marco A 24/06-15/07 x 16/07-06/08; Marco B 09/07-30/07 x 31/07-21/08",
+ "status_deck": "sem marcacao de versao/rascunho no titulo; ordem dos slides no export esta embaralhada em relacao ao rodape (02, 01, 04, 03, 05, 06); sem marcacao de erro",
+ "metricas": [
+  {"nome": "Produtos na POC de AI Studio", "valor": "33 produtos, dos quais 19 tambem tem o Provador Virtual ativo", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "o grupo de 19 SKUs (grupo B) e a base de todas as comparacoes do deck"},
+  {"nome": "SKUs do Marco A (entrega de imagens em 16 de julho)", "valor": "16 SKUs", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "janela 24/06-15/07 (antes) x 16/07-06/08 (depois)"},
+  {"nome": "SKUs do Marco B (entrega de imagens em 31 de julho)", "valor": "3 SKUs", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "janela 09/07-30/07 (antes) x 31/07-21/08 (depois); o proprio deck alerta amostra pequena, ler com cautela"},
+  {"nome": "Page views (19 SKUs, antes x depois do AI Studio)", "valor": "23.425 -> 40.834 (+74,3%)", "slide": 1, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "soma dos 19 SKUs com Provador + AI Studio ativos; observacional, sem grupo de controle"},
+  {"nome": "Add-to-cart (19 SKUs, antes x depois)", "valor": "3.172 -> 7.249 (+128,5%)", "slide": 1, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "mesma base e janelas do page view"},
+  {"nome": "Vendas (19 SKUs, antes x depois)", "valor": "177 -> 184 (+4,0%)", "slide": 1, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "contagem de vendas, nao valor em R$; deck diz que o crescimento ocorreu 'mesmo com o catalogo testado se ampliando no periodo' (slide 6)"},
+  {"nome": "CTR do Provador (antes x depois)", "valor": "1,73% -> 1,58% (-0,15 p.p.)", "slide": 1, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "CTR = cliques no botao do provador / vezes que o botao foi exibido; deck trata a queda como esperada (o AI Studio nao visa aumentar CTR do provador)"},
+  {"nome": "Adicao ao carrinho entre quem viu o produto com provador (antes x depois)", "valor": "22,5% -> 25,7%", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "slide 6 descreve como 'subiu 3,1 p.p.'; base de calculo exata (sessoes? usuarios?) nao e detalhada no slide"},
+  {"nome": "Camisa Fem. Listrada Manga Longa Verde - page views", "valor": "1.827 -> 8.219 (+350%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "SKU em destaque, antes x depois da imagem do AI Studio"},
+  {"nome": "Camisa Fem. Listrada Manga Longa Verde - add-to-cart", "valor": "352 -> 1.931 (+449%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Macacao Fem. Longo Manga Curta Azul - page views", "valor": "954 -> 3.100 (+225%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Macacao Fem. Longo Manga Curta Azul - add-to-cart", "valor": "97 -> 708 (+630%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "maior variacao percentual de add-to-cart entre os 4 SKUs em destaque"},
+  {"nome": "Calca Masculina Sarja Slim - page views", "valor": "995 -> 4.618 (+364%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Calca Masculina Sarja Slim - add-to-cart", "valor": "108 -> 597 (+453%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Vestido Midi Recorte Canelado Marrom - page views", "valor": "2.156 -> 4.286 (+99%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Vestido Midi Recorte Canelado Marrom - add-to-cart", "valor": "207 -> 779 (+276%)", "slide": 4, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""}
+ ],
+ "notas": "Leitura observacional antes/depois sem grupo de controle (o deck diz isso no slide 2); Marco B tem so 3 SKUs. Divergencia interna: slide 5 mostra 22,5% -> 25,7% (diferenca de 3,2 p.p. pelos numeros impressos) e slide 6 diz 'subiu 3,1 p.p.' (provavel arredondamento de valores nao arredondados). O funil do slide 3 aparece como grafico de barras; so os numeros em texto foram lidos (nao ha dado extra em imagem). Os slides de produtos em destaque mostram apenas 4 dos 19 SKUs ('alguns dos 19'); os demais nao estao no deck. O CTR do Provador aqui (1,73%/1,58%, 19 SKUs, janelas de ~3 semanas) nao e comparavel ao CTR de 1,2% do deck de POC completo da Marisa (673 produtos, 61 dias). Nenhum valor em R$ neste deck. O ganho de vendas (+4,0%) e muito menor que o de page views e add-to-cart; evitar chamar o AI Studio de causa unica."
+}

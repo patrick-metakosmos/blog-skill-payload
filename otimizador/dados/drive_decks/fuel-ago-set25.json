@@ -1,0 +1,30 @@
+{
+ "deck_id": "1ZxU_F3RW2lsNOzbx9cZFSO-Y4zUyDOliogJcdu8AyZ8",
+ "titulo": "[FUEL] Métricas do Provador Virtual",
+ "cliente": "Fuel",
+ "produto": "mK Fashion+ (Provador Virtual AR/3D, óculos de sol)",
+ "periodo": "Agosto (1-31), Setembro (1-24) e Setembro (1-30). O deck não informa o ano; o deck irmão de Outubro traz 'Outubro/2025' no título, logo o ano é provavelmente 2025.",
+ "status_deck": "deck sem marcação de versão; contém duas leituras de setembro (parcial 1-24 e completa 1-30) e há rótulos de comparação incorretos (ver notas). Slides sem numeral impresso: numeração abaixo por posição (capa = 1).",
+ "metricas": [
+  {"nome":"Aberturas do PV, Agosto (1-31)","valor":"425","slide":2,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"total de vezes que o PV foi inicializado"},
+  {"nome":"Tempo médio de interação, Agosto","valor":"43s","slide":2,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Adições ao carrinho, Agosto","valor":"55","slide":2,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"quantidade de vezes em que produtos vistos no 3D foram enviados para o carrinho"},
+  {"nome":"CTR, Agosto","valor":"12,8%","slide":2,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":"usuários que abriram o PV / total de usuários das páginas cobertas"},
+  {"nome":"Top 5 mais provados, Agosto","valor":"#1 Óculos de Sol Storia 81 provas; #2 MC Cabelinho X1 63; #3 Whitefish 49; #4 Sou Rubro Negro 26; #5 Brook 27","slide":3,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"ranking fora de ordem no deck: #4 com 26 e #5 com 27 provas"},
+  {"nome":"Aberturas do PV, Setembro (1-24)","valor":"489","slide":4,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"leitura parcial do mês"},
+  {"nome":"Tempo médio de interação, Setembro (1-24)","valor":"1:25s","slide":4,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Provas virtuais com Realidade Aumentada, Setembro (1-24)","valor":"441","slide":4,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"CTR, Setembro (1-24)","valor":"16%","slide":4,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Adições ao carrinho, Setembro (1-24)","valor":"86","slide":4,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Top 5 mais provados, Setembro (1-24)","valor":"#1 Storia - Preto 82 provas; #2 MC Cabelinho X1 - Preto 79; #3 Leme 46; #4 Whitefish 34; #5 Vamos Flamengo 33","slide":5,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Aberturas do PV, Setembro (1-30)","valor":"563","slide":8,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"'+15% vs. agosto (489)': o 489 é o valor de setembro 1-24, não de agosto (agosto = 425)"},
+  {"nome":"Tempo médio de interação, Setembro (1-30)","valor":"1:58s","slide":8,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":"'+34% em relação a agosto (1:25s)': 1:25s é o valor de setembro 1-24; recalculando 118s vs 85s = +38,8%"},
+  {"nome":"Provas virtuais com Realidade Aumentada, Setembro (1-30)","valor":"555","slide":8,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"'98,6% das aberturas resultaram em uso do provador' (555/563 confere)"},
+  {"nome":"CTR, Setembro (1-30)","valor":"19,6%","slide":8,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Adições ao carrinho, Setembro (1-30)","valor":"99","slide":8,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"'17,5% das pessoas que provam acabam adicionando o produto ao carrinho' (99/555 = 17,8%; 99/563 = 17,6%)"},
+  {"nome":"Top 10 mais provados, Setembro (1-30)","valor":"#1 Storia - Preto 99; #2 MC Cabelinho X1 - Preto 88; #3 Leme 50; #4 Whitefish 38; #5 Vamos Flamengo 37; #6 ATOM - Prata 23; #7 Raça, amor e paixão 19; #8 Whistler 21; #9 Sou Rubro Negro 34; #10 Brook 11","slide":10,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"ordem de #6 a #9 inconsistente com as contagens (Sou Rubro Negro 34 listado em #9)"},
+  {"nome":"Top 10 produtos com mais checkouts enviados, Setembro (1-30)","valor":"#1 Storia - Preto 27 envios; #2 MC Cabelinho X1 - Preto 15; #3 Raça, amor e paixão 8; #4 Whitefish 8; #5 Vamos Flamengo 6; #6 Midas 5; #7 Ipanema 5; #8 Leme 5; #9 Botero 3; #10 Sou Rubro Negro 3","slide":11,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"soma dos 10 = 85 envios, abaixo dos 99 do total"},
+  {"nome":"Insight: engajamento crescente e produtos líderes","valor":"tempo médio de 1:58 min; modelos Storia e MC Cabelinho X1 lideram em testes e checkouts","slide":12,"tipo":"outro","sensibilidade":"publicavel_com_aprovacao","observacao":"leitura qualitativa do próprio deck"}
+ ],
+ "notas": "(1) Ano não explícito neste deck; inferido como 2025 pelo deck de Outubro (título 'Outubro/2025'), mas confirmar. (2) Rótulos de comparação errados no slide de setembro: '+15% vs. agosto (489)' usa o valor parcial de setembro (1-24) como se fosse agosto; agosto real = 425 aberturas, então 563 vs 425 = +32,5% (cálculo nosso, não está no deck). O mesmo vale para o tempo de interação ('+34% vs agosto (1:25s)'). (3) 'CTR' aqui é a proporção de usuários que abriram o PV sobre usuários das páginas cobertas (definição do deck), não clique/impressão. (4) Slide 'Acessos por dispositivos' (Setembro 1-30) existe apenas como imagem, sem texto: NÃO foi lido. (5) Nenhum valor em R$ no deck (sem receita, ROI ou investimento). (6) Não há comparativo usou vs. não usou. (7) 'Provas virtuais com AR' e 'aberturas' são contagens de eventos, não de usuários únicos."
+}

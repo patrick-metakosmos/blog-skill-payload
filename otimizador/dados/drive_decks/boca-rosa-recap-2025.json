@@ -1,0 +1,39 @@
+{
+ "deck_id": "1QQ6En8ula-cHx-G1pUIx8tt-Rx_LSc0QWO2EIQ4H_M0",
+ "titulo": "[BOCA ROSA] Provador Virtual: Recap 2025 e novas possibilidades para 2026",
+ "cliente": "Boca Rosa",
+ "produto": "mK Beauty (provador virtual) + visualizador 3D da esponja (mK 3D)",
+ "periodo": "Janeiro a Dezembro de 2025 (provador); Outubro a Dezembro de 2025 (visualizador 3D da esponja)",
+ "status_deck": "recap anual sem marcacao de status; slides de resultados 2 a 7, depois propostas comerciais (filtro TikTok, eventos, PDV, 3D, FOOH, caminhos criativos); sem numeral de rodape, slide = posicao absoluta (capa = 1)",
+ "metricas": [
+  {"nome": "Usos do provador", "valor": "+1.3M", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'com uma media de 13 produtos testados por usuaria'; o slide 5 fala em 'mais de 1 milhao de usuarias'"},
+  {"nome": "Provas virtuais", "valor": "+16.3MI", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'pico de 3.7M em novembro, destacando o forte engajamento nos ultimos dois meses de 2025'"},
+  {"nome": "CTR do provador virtual", "valor": "33%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "definicao nao dada neste slide (no deck da Karen Bachini: cliques do botao / visualizacoes das paginas com PV)"},
+  {"nome": "Engajamento: tempo medio de interacao via provador vs sessao no site", "valor": "+46,3% (4min35s vs 3min08s)", "slide": 2, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "tempo medio com o provador vs tempo medio por sessao no site; repetido no slide 5 como '+46% mais tempo investido pela usuaria'"},
+  {"nome": "Adicoes ao carrinho pelo provador", "valor": "+616K", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'itens enviados para o carrinho pelo PV', janeiro a dezembro de 2025"},
+  {"nome": "Itens vendidos pelo provador", "valor": "+84K", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "ESTIMADO 'ao espelhar a tx de conversao de 13,71% (itens comprados / total de adicoes ao carrinho) das paginas cobertas'; o 13,71% e 'media de janeiro a setembro de 2025'"},
+  {"nome": "Receita bruta total das paginas de produto com provador", "valor": "R$ 21MI", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "janeiro a dezembro de 2025"},
+  {"nome": "Receita estimada pelo provador", "valor": "R$ 4.8MI", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "estimativa; representa 'aproximadamente 23% da receita bruta do site' (23% e publicavel so com aprovacao)"},
+  {"nome": "Participacao da receita estimada do provador na receita bruta", "valor": "aproximadamente 23%", "slide": 3, "tipo": "receita", "sensibilidade": "publicavel_com_aprovacao", "observacao": "o slide 5 fala em '~25% das vendas totais vindas do provador virtual em 1 ano'"},
+  {"nome": "Ticket medio dos produtos com PV", "valor": "R$ 58,34", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": ""},
+  {"nome": "ROI do provador virtual", "valor": "676% (retorno 7x maior que o valor investido)", "slide": 4, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "janeiro a dezembro de 2025; o valor investido nao e mostrado no deck"},
+  {"nome": "Provas virtuais e usuarias (insight)", "valor": "mais de 16 milhoes de provas por mais de 1 milhao de usuarias; media de 13 produtos por usuaria", "slide": 5, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "Key Insight #1; o PV usado como catalogo interativo"},
+  {"nome": "Representatividade das vendas totais vindas do provador", "valor": "~25%", "slide": 5, "tipo": "receita", "sensibilidade": "publicavel_com_aprovacao", "observacao": "Key Insight #4; diverge do ~23% do slide 3"},
+  {"nome": "Visualizador 3D da esponja: aberturas do visualizador", "valor": "504", "slide": 6, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "usuarios unicos que testaram o visualizador; outubro a dezembro de 2025"},
+  {"nome": "Visualizador 3D: aberturas do AR", "valor": "201", "slide": 6, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'40% dos usuarios que visualizaram em 3D, interagiram com a Realidade Aumentada'"},
+  {"nome": "Visualizador 3D: tempo medio de interacao", "valor": "2min", "slide": 6, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Visualizador 3D: adicoes ao carrinho", "valor": "75", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "a partir do visualizador 3D"},
+  {"nome": "Visualizador 3D: CTR", "valor": "2%", "slide": 6, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "o slide rotula como 'CTR do provador virtual' (erro de rotulo: refere-se ao visualizador 3D); slide 7 cita +26k visualizacoes de pagina"},
+  {"nome": "Visualizador 3D: taxa de adicao ao carrinho", "valor": "15%", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'de produtos visualizados e enviados ao carrinho'"},
+  {"nome": "Visualizador 3D: usuarios que interagiram com AR", "valor": "40%", "slide": 7, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "Key Insight #1 do visualizador"}
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {"nome": "Visualizacoes de videos WooW/FOOH da mK 'nos ultimos meses'", "valor": "Mais de 100 milhoes", "slide": null, "observacao": "numero comercial da mK, nao e dado da Boca Rosa"},
+  {"nome": "Views com WooW vs sem WooW (cases)", "valor": "+26X / +17X views", "slide": null, "observacao": "cases de clientes nao identificados"},
+  {"nome": "Case FOOH A", "valor": "CTR +168%; views completos +118%; curtidas +10mil; pessoas atingidas +4.9M; comentarios +500", "slide": null, "observacao": "cliente nao identificado"},
+  {"nome": "Case FOOH B", "valor": "CTR +775%; taxa de engajamento +101%; pessoas atingidas +2.7M", "slide": null, "observacao": "cliente nao identificado"},
+  {"nome": "Simulacao anuncio tradicional vs com WooW", "valor": "ROI 2.5 vs 19.5 (+8X ROI)", "slide": null, "observacao": "simulacao hipotetica (midia R$ 100.000, CPC R$ 10 vs R$ 1,29, ticket R$ 2.500), nao resultado"},
+  {"nome": "Depoimento L'Oreal Divisao de Produtos Profissionais", "valor": "resultados 3X melhores em performance de midia", "slide": null, "observacao": "citacao de Joana Fleury; sem numero auditavel"}
+ ],
+ "notas": "Slides sem numeral de rodape; 'slide' = posicao absoluta com capa = 1 (contagem manual). Divergencias internas: (1) receita estimada do provador = ~23% da receita bruta (slide 3: R$ 4.8MI / R$ 21MI) vs '~25% das vendas totais' (slide 5, Key Insight #4); (2) +1.3M 'usos' no slide 2 vs 'mais de 1 milhao de usuarias' no slide 5; (3) os Key Insights pulam do #2 para o #4 (nao ha #3); (4) o CTR de 2% do slide 6 e rotulado como 'do provador virtual' mas pertence ao visualizador 3D; (5) 84K itens vendidos e R$ 4.8MI sao estimativas por espelhamento da taxa 13,71% (media jan-set), nao dado rastreado; (6) o valor investido que sustenta o ROI de 676% nao aparece no deck. Verificacoes aritmeticas: 4:35 vs 3:08 = +46,3%; 201/504 = ~40%; 75 adicoes / 504 aberturas = ~15%. Preco de proposta (filtro TikTok 'de R$35.000 por ZERO', R$25-40.000, totem AR R$ 15.000/diaria, videos 3D, FOOH R$40-60.000 e variaveis) e proposta comercial, nao performance; nao extraido, sensivel. Slides de caminhos criativos (Stick por cidade: Gyn, Beaga, Jeri, Jampa, Manaus, Salvador) sao imagens/conceito sem metricas."
+}

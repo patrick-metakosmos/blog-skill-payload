@@ -1,0 +1,24 @@
+{
+ "deck_id": "1251k59NwlK1rhMwanJcljykk96uRSkLfcu-ycdwpHrE",
+ "titulo": "[OSKLEN] Metricas do Provador Virtual: Outubro/2025",
+ "cliente": "Osklen",
+ "produto": "mK 3D (Visualizador 3D/AR do Tenis Trail Trkk; o titulo diz 'Provador Virtual')",
+ "periodo": "01 a 31 de outubro de 2025",
+ "status_deck": "sem marcacao de versao; sem numeros de rodape (slide = posicao absoluta, capa = 1); alguns campos corrompidos ('60 60s'); texto do slide de impacto com lacuna ('com , fazendo o com que'); ultimo slide vazio",
+ "metricas": [
+  {"nome": "Aberturas do visualizador (mK3D inicializado)", "valor": "691", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "outubro (01-31)"},
+  {"nome": "Taxa de adicao ao carrinho (produtos visualizados enviados ao carrinho)", "valor": "2,03% (14 checkouts / 691 aberturas)", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "o valor 2,03% aparece de novo solto no slide 5"},
+  {"nome": "Aberturas da Realidade Aumentada", "valor": "337 (48.7% das aberturas envolveram interacao com AR)", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "337 / 691 = 48,8% pelos numeros impressos; o slide imprime 48.7%; slide 6 diz que '48.7% dos usuarios experimentaram o tenis virtualmente'"},
+  {"nome": "CTR (aberturas do mK3D / visualizacoes das paginas cobertas)", "valor": "4,14%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adicoes ao carrinho", "valor": "14", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Tempo medio de interacao com a marca via mK3D", "valor": "60 60s", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "texto corrompido como impresso; provavelmente 60s (nao confirmado)"},
+  {"nome": "Top 1 produto mais inicializado: Tenis Trail Trkk - Verde Forest", "valor": "640 visualizacoes", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "aberturas do mK3D"},
+  {"nome": "Top 2 produto mais inicializado: Tenis Trail Trkk - Branco", "valor": "6 visualizacoes", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Visualizacoes entre variantes - Tenis Trail Trkk Verde Forest", "valor": "840 visualizacoes", "slide": 5, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "slide 4 mostra 640 para o mesmo produto (ver notas)"},
+  {"nome": "Visualizacoes entre variantes - Tenis Osklen Trkk Preto", "valor": "75 visualizacoes", "slide": 5, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Visualizacoes entre variantes - Tenis Trail Trkk Branco", "valor": "61 visualizacoes", "slide": 5, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "slide 4 mostra 6 para o mesmo produto (ver notas)"},
+  {"nome": "Visualizacoes entre variantes - Tenis Osklen Trkk Off-White", "valor": "22 visualizacoes", "slide": 5, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Total de visualizacoes entre as cores (efeito de produto ancora)", "valor": "1016", "slide": 6, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "texto do slide 6; as quatro variantes do slide 5 somam 998 (840+75+61+22), nao 1016"}
+ ],
+ "notas": "O deck tem titulo 'Provador Virtual' mas o conteudo e do visualizador 3D/AR (mK3D) do Tenis Trail Trkk. Divergencias nao reconciliadas: Verde Forest 640 (slide 4) x 840 (slide 5), Branco 6 x 61 (provavel erro de digitacao em um dos dois), total entre cores 1016 (slide 6) x soma 998 das quatro variantes impressas (slide 5), 48.7% de AR x 337/691 = 48,8%. O tempo medio ('60 60s') e ilegivel. O slide 3 (Acessos por dispositivos) e so grafico/imagem: nenhum numero foi lido. A baixa taxa de adicao ao carrinho (2,03%, 14 adicoes) contrasta com a alta adocao de AR (48,7%): o deck nao discute isso. Nao ha comparativo antes/depois nem valor em R$."
+}

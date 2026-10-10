@@ -1,0 +1,18 @@
+{
+ "deck_id": "1-gmNm4byvwZJnr2-IEZgvI4eNz4VchHe1FvPC5lTUhc",
+ "titulo": "Analise de e-commerce [Toy Mania]",
+ "cliente": "Toymania",
+ "produto": "mK 3D",
+ "periodo": "dados ate 16/10/2025; janelas de analise por produto: 01/11/2024 a 16/10/2025, 01/02/2025 a 16/10/2025, 01/09/2025 a 16/10/2025 e 01/01/2025 a 16/10/2025",
+ "status_deck": "sem marcacao de versao; sem numeros de rodape (slide = posicao absoluta, capa = 1); deck e quase todo composto de capturas de tela de GA (imagens) com texto interpretativo curto; sem nenhum numero em texto alem de datas",
+ "metricas": [
+  {"nome": "Compras efetuadas dos produtos com visualizador 3D ativo (Panda, Dinossauro, Andador, Barbie Maquina de Costura)", "valor": "nenhuma compra efetuada (0) desde o inicio do registro de dados de cada produto", "slide": 14, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "texto dos slides 4, 7, 10, 13 e 14; analise datada de 16/10/2025"},
+  {"nome": "Panda (Little Live Pets My Baby Panda) - inicio dos registros de visualizacao", "valor": "setembro de 2025", "slide": 3, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "sem registro de visualizacao de 2022 a agosto de 2025"},
+  {"nome": "Dinossauro (Jurassic World Therizinosaurus - Mattel) - inicio dos registros de visualizacao", "valor": "19/02/2025 (primeiro registro)", "slide": 6, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "sem registro de 2022 a janeiro de 2025"},
+  {"nome": "Andador (Fisher-Price Carro de Snacks 4 em 1 - Mattel) - inicio dos registros de visualizacao", "valor": "setembro de 2025", "slide": 9, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "sem registro de 2022 a agosto de 2025"},
+  {"nome": "Barbie Maquina de Costura Edicao Limitada (Fun Divirta-se) - inicio dos registros de visualizacao", "valor": "novembro de 2024", "slide": 12, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "unico produto do grupo com cerca de 11 meses de dados (de 01/11/2024 a 16/10/2025)"},
+  {"nome": "Produtos com 3D entre os best sellers da empresa", "valor": "entre os 40 produtos best sellers (planilha da propria empresa)", "slide": 15, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "o deck nao sabe se o ranking e das lojas fisicas ou somado ao e-commerce"},
+  {"nome": "Posicao dos produtos com 3D nas listas de mais visualizados (10 itens por periodo e top 50 de 2025)", "valor": "nenhum aparece com destaque nas listas", "slide": 24, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "conclusao textual; as listas em si sao imagens (slides 16 a 23) e nao foram lidas"}
+ ],
+ "notas": "Deck de diagnostico que quase nao traz numeros em texto: as capturas do GA (series de visualizacao por produto, slides 3, 4, 6, 7, 9, 10, 12, 13 e listas de mais visualizados nos slides 16 a 23) sao imagens e NAO foram lidas; portanto nenhum numero de visualizacao/porcentagem do e-commerce foi registrado (o texto diz apenas que as visualizacoes representam 'uma porcentagem muito pequena do total do e-commerce'). Contradicao entre decks: este deck afirma que nenhum dos produtos com 3D teve compra ate 16/10/2025, enquanto o deck 'Metricas do Visualizador 3D - Outubro' (Toymania) mostra 2 vendas da Cafeteira e 1 do Dinossauro e 14 checkouts do Panda em outubro (janela e fonte diferentes: possivel defasagem de data, analise no meio do mes ou bases distintas GA vs mK3D). O deck conclui que nao ha historico para medir o impacto do 3D em conversao (periodo curto no ar). Ranking de numero dos slides: contagem absoluta (capa = 1). Nao ha valores em R$."
+}

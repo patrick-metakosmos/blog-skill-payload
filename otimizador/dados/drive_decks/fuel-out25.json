@@ -1,0 +1,20 @@
+{
+ "deck_id": "1AY0kiKogJb9CnzZUrmzIrdlLnLeRUKhZj463NnqBPto",
+ "titulo": "[FUEL] Métricas do Provador Virtual: Outubro/2025",
+ "cliente": "Fuel",
+ "produto": "mK Fashion+ (Provador Virtual AR/3D, óculos de sol)",
+ "periodo": "Outubro (1-31)/2025 (ano conforme o título do deck)",
+ "status_deck": "deck mensal de Outubro, sem marcação de rascunho; slides sem numeral impresso, numeração abaixo por posição (capa = 1). Rótulos de comparação com erro (ver notas).",
+ "metricas": [
+  {"nome":"Aberturas do PV","valor":"502","slide":2,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"-10,83% vs. setembro (563); recalculado 502/563 = -10,83%, confere"},
+  {"nome":"Tempo médio de interação","valor":"1:40s","slide":2,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":"'-15,25% em relação a agosto (1:58s)': o 1:58s é o valor de SETEMBRO, não de agosto; 100s/118s = -15,25%, confere contra setembro"},
+  {"nome":"Provas virtuais com Realidade Aumentada","valor":"969","slide":2,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"'74,59% de aumento em relação ao mês de setembro (555)'; 969/555 = +74,59%, confere"},
+  {"nome":"CTR","valor":"6,41%","slide":2,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":"usuários que abriram o PV / usuários das páginas cobertas; queda forte frente a 19,6% de setembro no deck anterior (não comentada no deck)"},
+  {"nome":"Adições ao carrinho","valor":"64","slide":2,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"queda frente aos 99 de setembro (comparação não feita no deck)"},
+  {"nome":"Top 10 mais provados","valor":"#1 Storia - Preto 132 provas; #2 Arpoador 53; #3 Leme 49; #4 MC Cabelinho X1 - Preto 48; #5 Vamos Flamengo - Preto 38; #6 Whitefish 29; #7 Raça, amor e paixão - Preto 17; #8 Sou Rubro Negro - Preto 17; #9 Whistler 17; #10 Cassius AI 14","slide":4,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"soma do top 10 = 414 de 969 provas"},
+  {"nome":"Top 10 produtos mais enviados ao carrinho","valor":"#1 Storia - Preto 27 envios; #2 Vamos Flamengo - Preto 9; #3 Sou Rubro Negro - Preto 4; #4 Whitefish 4; #5 Raça, amor e paixão - Preto 3; #6 Grumari 2; #7 Leme 2; #8 Leme 5; #9 ATOM - Prata 1; #10 The Zephyrus - Preto 1","slide":5,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"#7 e #8 trazem 'Leme' repetido com 2 e 5 envios (#8 maior que #7, ordem inconsistente); soma = 58 envios, abaixo dos 64 do total"},
+  {"nome":"Óculos de Sol Storia - Preto: provas e envios ao carrinho","valor":"132 provas; 27 envios","slide":6,"tipo":"outro","sensibilidade":"publicavel_com_aprovacao","observacao":"texto do insight diz '132 visualizações'; os 27 envios são idênticos ao total de setembro, vale confirmar se não é cópia do mês anterior"},
+  {"nome":"Insight: engajamento qualificado","valor":"queda de 10,83% nas aberturas, alta de 74,59% nas provas virtuais com AR","slide":6,"tipo":"comparativo","sensibilidade":"publicavel_com_aprovacao","observacao":"interpretação do deck de que o tráfego de outubro foi mais qualificado; não há dado de tráfego que sustente isso"}
+ ],
+ "notas": "(1) O título diz Outubro/2025, mas a numeração dos meses anteriores no deck irmão não traz ano; a data de hoje (10/10/2026) impede que seja outubro/2026 completo, então 2025 é coerente. (2) Rótulo errado: 'em relação a agosto (1:58s)' refere-se na verdade a setembro. (3) O deck interpreta como 'jornada de compra mais eficiente' o menor tempo médio com mais provas; a leitura é do deck, não dado. (4) Adições ao carrinho caíram de 99 (set) para 64 (out) e o CTR de 19,6% para 6,41%, o que o deck não destaca. (5) O slide 'Acessos por dispositivos' (Outubro 1-31) é apenas imagem, sem texto: NÃO foi lido. (6) Nenhum valor em R$ no deck."
+}

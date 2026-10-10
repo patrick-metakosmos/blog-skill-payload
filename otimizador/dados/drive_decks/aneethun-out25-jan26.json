@@ -1,0 +1,19 @@
+{
+ "deck_id": "1QIO_SRW1rWpfZdeqJWcXwF5-M4HLFen0Rnm3-uocaRg",
+ "titulo": "[ANEETHUN] Provador Virtual: Recap 2025 e novas possibilidades para 2026",
+ "cliente": "Aneethun",
+ "produto": "mK Hair (Provador Virtual de tonalizante / mK Hair + Tone)",
+ "periodo": "16 de outubro de 2025 a 27 de janeiro de 2026 (capa: 'métricas de outubro de 2025 a janeiro de 2026')",
+ "status_deck": "sem marcação de versão no título; slides sem numeração impressa (slide = posição na ordem do deck, capa = 1); o texto cita 'Boca Rosa' em slides copiados de outro deck",
+ "metricas": [
+  {"nome": "Usos do provador (usuários)", "valor": "+6.1K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'com uma média de 4 cores testadas por usuária'; 16/10 a 27/01"},
+  {"nome": "Cores testadas por usuária (média)", "valor": "4", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Provas virtuais", "valor": "+23K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "CTR do provador virtual", "valor": "20%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "insight #2: 'Visibilidade para o PV na PDP = 20% CTR'"},
+  {"nome": "Engajamento: tempo de interação no provador vs sessão no site", "valor": "+74% (2min7s vs 1min13s)", "slide": 2, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "2min7s de interação com a marca via provador vs 1min13s por sessão no site; 127s / 73s = +74%"},
+  {"nome": "Fotos baixadas", "valor": "+3K", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'mais de 3.000 transformações baixadas pelas usuárias'; reaparece no slide 4"},
+  {"nome": "Proposta de renegociação: fee mensal", "valor": "De R$ 8.930 por R$ 7.144 (−20%)", "slide": 3, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "proposta comercial 2026, não resultado de performance"},
+  {"nome": "Proposta de renegociação: plano de provas mensais", "valor": "De 10.000 para 25.000 provas/mês (+150%)", "slide": 3, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "indica que o plano contratado até então era de 10.000 provas/mês; 23K provas em ~3,4 meses"}
+ ],
+ "notas": "(1) Deck sem metricas de conversao, carrinho, vendas, receita ou ROI: so uso, CTR, tempo e fotos baixadas. (2) Slides de ideias (tutoriais, UGC, TikTok, eventos, treinamento de saloes, mK Hair IA) sao propostas, sem dados. (3) Erros de copia: citam 'Boca Rosa' (slides TikTok e Eventos) em deck da Aneethun. (4) Periodo curto (~3,4 meses) e volume pequeno (+6.1K usuarios). (5) Slides em imagem sem texto nao foram lidos."
+}

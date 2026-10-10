@@ -1,0 +1,10 @@
+{
+ "deck_id": "1jYx5gfFltUitXwpkmi6Pv9uJq58Rix00kzDNIc_dJic",
+ "titulo": "[mKBeauty] Descrição de métricas",
+ "cliente": "mK Beauty (documento interno, sem cliente)",
+ "produto": "mK Beauty",
+ "periodo": "não se aplica (glossário da dashboard)",
+ "status_deck": "documento auxiliar à dashboard 'Analytics Dashboard mK Beauty'; sem versão marcada; 8 slides",
+ "metricas": [],
+ "notas": "Deck e um glossario de definicoes das metricas da dashboard (dados globais do e-commerce, dados das paginas cobertas pelo PV, funil e-commerce, funil do Provador Virtual), sem nenhum valor numerico em texto. Nenhuma metrica registrada. Os slides 'Metricas apresentadas:' terminam sem texto, ou seja, os valores/graficos da dashboard aparecem so como imagem e NAO foram lidos. Definicoes uteis para interpretar os outros decks: CTR do PV = percentual de usuarios do e-commerce que abriram o PV; Taxa de conversao do PV = percentual de usuarios que testaram algo no PV e compraram; Eficiencia do PV = taxa de conversao do PV comparada com a taxa de conversao global; % Receita PV / Receita total = proporcao da receita atribuida ao PV; Total de provas = testes realizados, considerando variacoes de produtos e cores; Aberturas unicas e Provas unicas medem alcance e engajamento real. Nota: nos decks de clientes o CTR aparece com definicoes ligeiramente diferentes (ex.: ADCOS 'cliques do botao do PV / visualizacoes das paginas com PV'; Mascavo 2025 'aberturas do PV / sessoes do site'), entao CTRs entre clientes nao sao diretamente comparaveis."
+}

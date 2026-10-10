@@ -1,0 +1,10 @@
+{
+ "deck_id": "11fNR3yQfXZgogcuAgyNreH228h5WGxq__ZwKHlq0cmg",
+ "titulo": "[Zerezes] Provador Virtual: Métricas do lançamento",
+ "cliente": "Zerezes",
+ "produto": "mK Fashion+ (Provador Virtual)",
+ "periodo": "19/05 a 25/05/2026 (primeira semana, lançamento / fase de teste A/B)",
+ "status_deck": "versão esqueleto/parcial: o texto exportado contém apenas a capa e títulos de seção (Métricas de desempenho, Funil de experimentação, Leitura estratégica, Resultado financeiro, Conclusão: Fase de teste A/B); sem números legíveis.",
+ "metricas": [],
+ "notas": "O deck abriu, mas o conteúdo numérico não está em texto: os slides têm só os títulos '__Métricas de desempenho', '__Funil de experimentação', '__Leitura estratégica', '__Resultado financeiro' e '__Conclusão: Fase de teste A/B'. Os números provavelmente estão em gráficos/imagens ou campos não exportados e NÃO foram lidos. Nenhuma métrica extraída. Para a mesma conta, o período seguinte (19/05 a 13/06/2026) está em zerezes-mai-jun26.json."
+}

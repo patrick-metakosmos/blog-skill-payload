@@ -1,0 +1,29 @@
+{
+ "deck_id": "1_7wA9BIrgEvaLHSdQvCorp1eaPEm94LJxErDgQ85z_4",
+ "titulo": "[Zerezes] Provador Virtual: Métricas Maio-Junho",
+ "cliente": "Zerezes",
+ "produto": "mK Fashion+ (Provador Virtual, óculos)",
+ "periodo": "19/05 a 13/06/2026 (~4 semanas)",
+ "status_deck": "sem marcação de status; atribuição via cohort GA4 (antes do Collector mK) e teste A/B com 20% do tráfego. Numeração do rodapé 01 a 08 com salto (não há slide 05 impresso).",
+ "metricas": [
+  {"nome":"Participação na receita das páginas com PV","valor":"30,07%","slide":1,"tipo":"receita","sensibilidade":"publicavel_com_aprovacao","observacao":"'grupo A/B'; considera os 20% de tráfego do teste A/B. Conferência: 125.506,70 / (20% x 2.086.685) = 30,07%."},
+  {"nome":"Provas finalizadas","valor":"12.307","slide":1,"tipo":"uso","sensibilidade":"publicavel_com_aprovacao","observacao":"no período de ~4 semanas"},
+  {"nome":"Aprovação do Provador","valor":"89,97%","slide":1,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":"1.471 likes em 1.635 feedbacks (164 deslikes); confere"},
+  {"nome":"Retorno por prova","valor":"R$ 10,20","slide":1,"tipo":"receita","sensibilidade":"sensivel","observacao":"receita influenciada por prova; 125.506,70 / 12.307 = R$ 10,20"},
+  {"nome":"Produtos ativos (modelos de óculos)","valor":"1.384","slide":3,"tipo":"outro","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Imagens baixadas","valor":"905","slide":3,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Feedbacks recebidos / aprovações (like)","valor":"1.635 / 1.471","slide":3,"tipo":"engajamento","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Adições ao carrinho nas páginas com PV","valor":"79.367","slide":4,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"base do site nas páginas cobertas, não do cohort"},
+  {"nome":"Itens comprados nas páginas com PV","valor":"8.072","slide":4,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":""},
+  {"nome":"Conversão de checkout","valor":"10,17%","slide":4,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"8.072/79.367, confere; esta mesma taxa é aplicada ao cohort para ESTIMAR as compras influenciadas (não é medida no cohort)"},
+  {"nome":"Receita das páginas com PV","valor":"R$ 2.086.685,00","slide":4,"tipo":"receita","sensibilidade":"sensivel","observacao":"não bate com 8.072 itens x R$ 595 (= R$ 4,80 milhões); ver notas"},
+  {"nome":"Ticket médio por item","valor":"R$ 595,00","slide":4,"tipo":"receita","sensibilidade":"sensivel","observacao":""},
+  {"nome":"Adições ao carrinho do cohort PV","valor":"2.074","slide":6,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"base do cohort no GA4"},
+  {"nome":"Compras influenciadas (estimadas)","valor":"210,9","slide":6,"tipo":"conversao","sensibilidade":"publicavel_com_aprovacao","observacao":"2.074 x 10,17%; é estimativa, não compra observada no cohort"},
+  {"nome":"Receita influenciada","valor":"R$ 125.506,70","slide":6,"tipo":"receita","sensibilidade":"sensivel","observacao":"'30,07% da receita das páginas cobertas (base A/B)'; 210,9 x R$ 595 = R$ 125.485,50 (pequena diferença)"},
+  {"nome":"Investimento no período","valor":"R$ 22.366,00","slide":6,"tipo":"investimento","sensibilidade":"sensivel","observacao":"~R$ 1,82 por prova finalizada (cálculo nosso, 22.366/12.307)"},
+  {"nome":"Retorno","valor":"5,61× · +461%","slide":6,"tipo":"investimento","sensibilidade":"sensivel","observacao":"125.506,70 / 22.366"},
+  {"nome":"Leitura de negócio","valor":"Provador influencia 30,07% da receita das páginas cobertas com apenas 20% do tráfego em A/B; R$ 125.506,70 com R$ 22.366,00; 89,97% de aprovação; R$ 10,20 por prova","slide":7,"tipo":"outro","sensibilidade":"sensivel","observacao":"síntese; próximos passos: implementar Collector (CTR, experiência iniciada, finalização), ampliar o A/B além de 20%"}
+ ],
+ "notas": "(1) Atribuição por cohort GA4 + conversão de checkout estimada: a receita influenciada é uma ESTIMATIVA (compras influenciadas = adições do cohort x taxa de checkout de todo o site nas páginas com PV), não compra medida no cohort; frágil para uso público. (2) Inconsistência de base: 'Receita das páginas com PV R$ 2.086.685' não bate com 8.072 itens x R$ 595 (= R$ 4.802.840); R$ 2.086.685 / R$ 595 = ~3.507 itens. A participação de 30,07% só fecha usando a base de 20% do A/B (20% x 2.086.685). (3) Não existe CTR, experiências iniciadas nem taxa de finalização neste deck (o Collector ainda não existia); a própria Zerezes recebe isso nos decks seguintes (Agosto/2026). (4) Salto de numeração (04 para 06). (5) Slide 08 Roadmap (collector, interatividade conversacional, teste A/B) sem métricas. (6) Comparar 'participação 30,07%' com decks posteriores exige cuidado: bases e metodologias diferentes (cohort GA4 vs Collector mK)."
+}

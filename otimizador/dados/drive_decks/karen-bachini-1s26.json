@@ -1,0 +1,36 @@
+{
+ "deck_id": "1a0ON6I2j5utIpIDY_Nd3RMsVY4oUTxoEqLUgM1Vi-qs",
+ "titulo": "[Karen Bachini Beauty] Provador Virtual: Metricas 1o semestre de 2026",
+ "cliente": "Karen Bachini Beauty (grupo M.BOOM)",
+ "produto": "mK Beauty",
+ "periodo": "01/01 a 30/06/2026 (1o semestre 2026)",
+ "status_deck": "relatorio semestral com cohort de GA4; provador ativo em 1 unico produto (Base Cosmos by Karen Bachini) e so no mobile; apos o slide 8 o deck anexa material institucional do mK Veels",
+ "metricas": [
+  {"nome": "Participacao do PV na receita das paginas com PV", "valor": "44,64%", "slide": 1, "tipo": "receita", "sensibilidade": "publicavel_com_aprovacao", "observacao": "cohort GA4; 'so mobile'; R$ 9.017 de receita influenciada; percentual derivado de receita da marca"},
+  {"nome": "CTR do provador", "valor": "97%", "slide": 1, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'engajamento altissimo com o botao'; definicao do CTR nao detalhada (no recap 2025 da mesma marca o CTR era 23%)"},
+  {"nome": "Total de provas", "valor": "125.116", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "seis meses"},
+  {"nome": "Provas por usuaria", "valor": "20", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'uso recorrente do Provador'"},
+  {"nome": "Aberturas unicas", "valor": "32.771", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Provas unicas", "valor": "6.289", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adicoes ao carrinho (last click)", "valor": "1.036", "slide": 3, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "last click, mais conservador que o cohort (1.585)"},
+  {"nome": "Try-ons Janeiro 2026", "valor": "20.510", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Fevereiro 2026", "valor": "14.534", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Marco 2026", "valor": "20.249", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Abril 2026", "valor": "23.662", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Maio 2026", "valor": "23.079", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Junho 2026", "valor": "23.090", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adicoes ao carrinho do cohort (PV)", "valor": "1.585", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "58,2% das adicoes das paginas com PV"},
+  {"nome": "Compras influenciadas pelo PV", "valor": "129", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "44,2% das compras das paginas com PV"},
+  {"nome": "Participacao do PV na receita das paginas com PV (cohort)", "valor": "R$ 9.017 (44,64%)", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "o slide mostra 'R$ 9.017' no card e 'R$ 9.017,10' na composicao"},
+  {"nome": "Ticket medio por item", "valor": "R$ 69,90", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "mesmo ticket do recap 2025"},
+  {"nome": "Investimento no periodo", "valor": "R$ 53.826,00", "slide": 6, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "seis meses"},
+  {"nome": "Receita influenciada", "valor": "R$ 9.017,10", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "129 x R$ 69,90; o slide NAO mostra a linha 'Retorno/ROI' que outros decks mostram; ver notas"}
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {"nome": "Intencao de compra com videos de demonstracao (mK Veels)", "valor": "+144%", "slide": null, "observacao": "slide institucional sem numero; sem fonte"},
+  {"nome": "Probabilidade de compra com avaliacoes/provas sociais", "valor": "+270%", "slide": null, "observacao": "sem fonte"},
+  {"nome": "Usuarios que preferem conteudo de produto em videos curtos", "valor": "78%", "slide": null, "observacao": "sem fonte"},
+  {"nome": "Retorno 'a cada um real investido, a solucao pode retornar ate 10x'", "valor": "ate 10x", "slide": null, "observacao": "promessa comercial do Veels, nao e resultado medido"}
+ ],
+ "notas": "Slide = numeral de rodape 01-08 (capa sem numero). ATENCAO: o slide 6 (Composicao do retorno) lista investimento R$ 53.826,00 e receita influenciada R$ 9.017,10, mas omite a linha de Retorno/ROI que os decks de Boca Rosa e Mantecorp trazem; a receita influenciada informada e menor que o investimento informado no mesmo slide, e o deck conclui 'alavanca de receita' sem apresentar retorno em multiplo. Nao calculei ROI para nao estimar. Divergencia de soma: os seis valores mensais de try-ons somam 125.124 (20.510 + 14.534 + 20.249 + 23.662 + 23.079 + 23.090), enquanto o total declarado e 125.116 (diferenca de 8). O CTR de 97% e muito superior ao de 23% do recap 2025 da mesma marca e ao 74,96% da Boca Rosa; a definicao pode ter mudado entre decks (aqui nao e definida). Cohort (1.585 adicoes, 58,2%) vs last click (1.036) usa metodo diferente, nao comparavel. O slide 5 informa que o contrato cobre todas as marcas do grupo M.BOOM: Karen Bachini Beauty (provador ativo), Mboom Beauty (ativo, novo), PAM! by Pamella (em expansao), Fran by FR (em expansao); 'o mesmo investimento se dilui em portfolio maior'. Slide 8 (roadmap) e 7 (proximos passos) sem metricas."
+}

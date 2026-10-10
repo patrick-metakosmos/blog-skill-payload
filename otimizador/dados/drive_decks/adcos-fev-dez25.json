@@ -1,0 +1,42 @@
+{
+ "deck_id": "1fVblgHspE6NmKRsYa4OTJlfKv9YhtJk2uGW_zuYSePs",
+ "titulo": "[ADCOS] Provador Virtual: Recap 2025 e novas possibilidades para 2026",
+ "cliente": "ADCOS",
+ "produto": "mK Beauty (Provador Virtual de protetor/blush em bastão); o deck também apresenta SkinAI, mK 3D e conteúdo FOOH/IA",
+ "periodo": "10 de fevereiro a 31 de dezembro de 2025",
+ "status_deck": "sem marcação de versão no título; slides sem numeração impressa (slide = posição na ordem do deck, capa = 1); dois cenários de receita (15 e 30 dias de provador no ar por mês)",
+ "metricas": [
+  {"nome": "Usos do provador (usuários únicos provando pelo menos 1 produto)", "valor": "+723K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "10/02 a 31/12/2025"},
+  {"nome": "Provas virtuais", "valor": "+1.1M", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "CTR do provador virtual", "valor": "18,63%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "definição: total de cliques do botão do PV / visualizações das páginas com PV"},
+  {"nome": "Engajamento: tempo de interação no provador vs sessão no site", "valor": "+73% (4m16s vs 2min28s)", "slide": 2, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "256s / 148s = 1,73x; deck diz '1,7x mais tempo' e 'dobra quase o tempo de atenção'"},
+  {"nome": "Adições ao carrinho (usuários únicos que adicionaram ao menos 1 produto)", "valor": "+13K", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "contagem de usuários únicos, não de itens"},
+  {"nome": "Vendas geradas pelo PV (estimadas)", "valor": "1.548", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "estimativa 'ao espelhar a tx de conversão de 11,56% (itens comprados / total de adições ao carrinho) das páginas cobertas'"},
+  {"nome": "Receita bruta total das páginas de produto com provador", "valor": "R$ 3.222.218", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "10/02 a 31/12/2025; mesma base nos dois cenários"},
+  {"nome": "Receita estimada pelo provador (cenário média de 15 dias por mês de provador no ar)", "valor": "R$ 232.432", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "'Considerando média de 15 dias por mês de provador no ar'; limite de 50k provas obriga a desativar na segunda quinzena (slide 11)"},
+  {"nome": "Participação da receita estimada do PV na receita bruta do site (cenário 15 dias)", "valor": "7,21%", "slide": 3, "tipo": "receita", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'aproximadamente 7,21%'; 'com apenas dois produtos, o PV já responde por mais de 7% da receita'"},
+  {"nome": "Receita estimada pelo provador (cenário hipotético de 30 dias por mês no ar)", "valor": "R$ 464.864", "slide": 4, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "projeção ('representaria'), dobra o valor do cenário de 15 dias; não é resultado medido"},
+  {"nome": "Participação da receita estimada do PV na receita bruta (cenário 30 dias)", "valor": "14,4%", "slide": 4, "tipo": "receita", "sensibilidade": "publicavel_com_aprovacao", "observacao": "projeção"},
+  {"nome": "ROI do provador virtual", "valor": "210% (2.1x)", "slide": 5, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "'investimento gerou um retorno aproximadamente 2.1x maior'; base: valor de investimento mensal de 10k; ver notas sobre 111%"},
+  {"nome": "Valor de investimento mensal", "valor": "10k", "slide": 5, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "texto: 'valor de investimento mensal: 10k'"},
+  {"nome": "ROI (insight #3)", "valor": "111% (cada real investido retornou 2x em receita)", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "diverge do 210% do slide 5; provável diferença entre receita/investimento (2,1x) e retorno líquido (+111%)"},
+  {"nome": "SKUs já digitalizados disponíveis (além dos 2 produtos no ar)", "valor": "46 skus", "slide": 7, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'atualmente temos dois produtos no provador, e mais 46 skus já digitalizados'"},
+  {"nome": "Ranking de cores Stick FPS 80 (try-ons, 10/02 a 31/12)", "valor": "Ivory 210.969; Nude 181.943; Peach 174.890; Beige 128.781; Bronze 67.033; Pecan 33.959", "slide": 8, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "soma das 6 cores = 797.575"},
+  {"nome": "Ranking de cores Glowfirm Blush Stick FPS 90 (try-ons, 03/12 a 31/12)", "valor": "Terracota 6.269; Coral Rosé 5.288; Fúcsia 4.988; Total Glowfirm 16.545", "slide": 9, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "soma das 3 cores = 16.545"},
+  {"nome": "Proposta 2026: plano 50k provas/mês (manter)", "valor": "De R$ 10.389 para R$ 8.389", "slide": 11, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "proposta comercial; indica fee atual de R$ 10.389/mês"},
+  {"nome": "Proposta 2026: plano 75k provas/mês (cobertura mês completo)", "valor": "Sem alteração no fee atual de R$ 10.389", "slide": 11, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "proposta comercial"},
+  {"nome": "Proposta 2026: plano 100k provas/mês (ativações 360°)", "valor": "De R$ 23.790 por R$ 12.891", "slide": 11, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "proposta comercial"},
+  {"nome": "Proposta 2026: diagnósticos SkinAI incluídos", "valor": "1500 diagnósticos por mês durante 6 meses", "slide": 11, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "independente do plano escolhido"}
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {"nome": "Visualizações acumuladas dos vídeos WooW/FOOH da mK", "valor": "+100 MILHÕES", "slide": null, "observacao": "'nesses últimos meses'; sem fonte"},
+  {"nome": "Vídeos WooW: lembrança de marca e CTR de anúncios", "valor": "28X mais lembrança de marca; +7X CTR", "slide": null, "observacao": "sem fonte no slide"},
+  {"nome": "Cases FOOH: views com WooW vs sem WooW", "valor": "+26X e +17X", "slide": null, "observacao": "clientes não identificados"},
+  {"nome": "Case FOOH: CTR / views completos / curtidas / alcance / comentários", "valor": "+168% / +118% / +10 MIL / +4.9M / +500", "slide": null, "observacao": "Instagram"},
+  {"nome": "Case FOOH: engajamento orgânico / curtidas / views", "valor": "+8x / 8000 / 654 MIL", "slide": null, "observacao": "Instagram"},
+  {"nome": "Case FOOH: CTR / taxa de engajamento / pessoas atingidas", "valor": "+775% / +101% / +2.7M", "slide": null, "observacao": ""},
+  {"nome": "Simulação hipotética de mídia R$ 100.000: ROI tradicional vs com WooW", "valor": "2.5 vs 19.5 (+8X ROI)", "slide": null, "observacao": "simulação ilustrativa, não resultado medido; sensível (R$)"},
+  {"nome": "Depoimento L'Oréal (Joana Fleury, Diretora Geral, Divisão de Produtos Profissionais)", "valor": "vídeos com resultados 3X melhores em performance de mídia", "slide": null, "observacao": "citação de cliente; exige autorização"}
+ ],
+ "notas": "(1) Contradicao de ROI: slide 5 diz 'ROI de 210%' e '2.1x'; slide 6 (insight #3) diz 'ROI de 111%... cada real investido retornou 2x'. Provavel que 2,1x seja receita/investimento e 111% seja o retorno liquido, mas o deck nao explica. Investimento de R$ 10k/mes durante ~10,7 meses (10/02 a 31/12) = ~R$ 107k; R$ 232.432 / R$ 107k ≈ 2,17x. (2) Soma das cores de Stick FPS 80 (797.575) + Glowfirm (16.545) = 814.120, abaixo do total '+1.1M provas' do slide 2; deck nao reconcilia (podem existir outras cores/produtos). (3) Receita estimada e estimativa por espelhamento da conversao de 11,56% das paginas cobertas, nao atribuicao observada; o cenario de 30 dias (R$ 464.864 / 14,4%) e projecao, nao resultado. (4) '+13K adicoes' sao usuarios unicos, nao itens. (5) 1.548 vendas x ticket nao informado; 13K x 11,56% = ~1.503. (6) Slide 11 mostra o fee atual (R$ 10.389) e o limite de 50k provas que forca desativacao na segunda quinzena: explica o cenario de 15 dias. (7) Slides de ideias 2026 (looks, TikTok, eventos, PDV, animacoes 3D com precos em R$, FOOH, videos com IA, fluxo tatico, condicoes comerciais) sao propostas/institucional e nao foram transcritos (contem valores em R$ sensiveis). (8) Slides em imagem sem texto nao foram lidos."
+}

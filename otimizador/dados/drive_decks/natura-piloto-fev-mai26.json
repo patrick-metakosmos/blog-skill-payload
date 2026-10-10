@@ -1,0 +1,32 @@
+{
+ "deck_id": "1-xoKCH7BuDSw2BdJZ6yXVAGrmuveILKK6682oyNhf1k",
+ "titulo": "[Natura] Provador Virtual: Recap Piloto e novas possibilidades para 2026",
+ "cliente": "Natura",
+ "produto": "mK Beauty (Provador Virtual AR de maquiagem); o deck também apresenta SkinAI e conteúdo FOOH/3D/IA",
+ "periodo": "26/02 a 02/05/2026 (piloto)",
+ "status_deck": "sem marcação de versão no título; slides sem numeração impressa (slide = posição na ordem do deck, capa = 1); recap do piloto seguido de proposta comercial 2026",
+ "metricas": [
+  {"nome": "Usos do provador (usuários)", "valor": "+62K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "26/02 a 02/05/2026; 'com uma média de 15 produtos testados por usuária'"},
+  {"nome": "Produtos testados por usuária (média)", "valor": "15", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Provas virtuais", "valor": "+455K", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'média de 7k provas por dia (+210k por mês)'"},
+  {"nome": "Média de provas por dia / por mês", "valor": "7k / +210k", "slide": 2, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "CTR do provador virtual", "valor": "5%", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "insight #2 do deck: 'pouca visibilidade para o PV na PDP = 5% CTR'"},
+  {"nome": "Tempo médio de interação com a marca via provador", "valor": "3min49s", "slide": 2, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adições ao carrinho (itens enviados ao carrinho pelo PV)", "valor": "5.6K", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Itens vendidos pelo PV (estimados)", "valor": "1K", "slide": 2, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "estimativa 'ao espelhar a tx de conversão de 19% (itens comprados / total de adições ao carrinho) das páginas cobertas pelo provador'"},
+  {"nome": "Conversão do PV vs páginas cobertas pelo PV", "valor": "+25% (3,55% vs 2,83%)", "slide": 2, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "3,55% = vendas do PV / usuários que provaram; 2,83% = itens comprados / itens vistos nas páginas cobertas (bases diferentes); 3,55/2,83 = +25,4%"},
+  {"nome": "Retorno sobre o valor investido no período", "valor": "134%", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "investimento do período não declarado no slide"},
+  {"nome": "Ticket médio com PV", "valor": "R$ 43,25", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": ""},
+  {"nome": "Receita estimada pelo provador", "valor": "R$ 46.739", "slide": 3, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "26/02 a 02/05/2026; estimativa por espelhamento de conversão"},
+  {"nome": "Cobertura do portfólio pelo PV", "valor": "3,56%", "slide": 4, "tipo": "outro", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'apenas 3,56% do portfólio é coberto pelo PV'; plano de +200 digitalizações por mês"}
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {"nome": "Visualizações acumuladas dos vídeos FOOH/WooW da mK", "valor": "Mais de 100 milhões", "slide": null, "observacao": "'nos últimos meses'; sem fonte"},
+  {"nome": "Case FOOH: views com WooW vs sem WooW", "valor": "+26X e +17X", "slide": null, "observacao": "dois cases; clientes não identificados"},
+  {"nome": "Case FOOH: CTR / views completos / curtidas / alcance / comentários", "valor": "+168% / +118% / +10mil / +4.9M / +500", "slide": null, "observacao": "Instagram; cliente não identificado"},
+  {"nome": "Case FOOH: CTR / taxa de engajamento / pessoas atingidas", "valor": "+775% / +101% / +2.7M", "slide": null, "observacao": "cliente não identificado"},
+  {"nome": "Simulação hipotética de mídia R$ 100.000: ROI tradicional vs com WooW", "valor": "2.5 vs 19.5 (+8X ROI)", "slide": null, "observacao": "simulação ilustrativa (CPC R$ 10 vs R$ 1,29; conversão 1%; ticket R$ 2.500), não resultado medido; sensível (R$)"},
+  {"nome": "Depoimento L'Oréal (Joana Fleury, Diretora Geral, Divisão de Produtos Profissionais)", "valor": "vídeos FOOH com resultados 3X melhores em performance de mídia", "slide": null, "observacao": "citação de cliente; exige autorização"}
+ ],
+ "notas": "(1) Investimento do piloto nao declarado: o ROI de 134% e a receita estimada de R$ 46.739 nao permitem verificar a base; nao foi calculado. (2) Divergencia interna: 455K provas / 62K usuarios = ~7,3 provas por usuario, enquanto o deck diz 'media de 15 produtos testados por usuaria' (provas e produtos testados podem ser medidas diferentes). (3) 'Itens vendidos pelo PV' (1K) e receita sao estimativas por espelhamento da conversao de 19% das paginas cobertas, nao atribuicao observada; 5,6K adicoes x 19% = ~1.064. (4) '+25% conversao' compara 3,55% (vendas do PV / usuarios que provaram) com 2,83% (itens comprados / itens vistos); bases diferentes, nao e teste A/B. (5) Slide 5 em diante traz tabela de planos comerciais do mK Beauty (provas mensais 200.000 a ilimitadas, fees mensais em R$, plano anual -30%), proposta do SkinAI (11 parametros de pele, setup R$ 95.000, fees em R$, entrega 60-90 dias) e ideias 2026 (looks, TikTok, eventos, PDV, visualizador 3D); sao propostas, nao metricas de performance, contem valores em R$ sensiveis e nao foram transcritas. (6) Slides de ideias/cases em imagem sem texto nao foram lidos."
+}

@@ -1,0 +1,17 @@
+{
+ "deck_id": "1bBZUZD8UYMWYn0fuebctHHffRwLRU4FIIUPnWd27Xgg",
+ "titulo": "[Petrobras] Analise comparativa de formato de navegacao do jogo",
+ "cliente": "Petrobras",
+ "produto": "mK Labs",
+ "periodo": "sem periodo impresso (teste tecnico de prototipo, sem janela de dados de uso)",
+ "status_deck": "sem marcacao de versao; sem numeros de rodape (slide = posicao absoluta, capa = 1); deck e de decisao tecnica/comercial, nao de performance de usuario; nenhuma metrica de audiencia, conversao ou receita",
+ "metricas": [
+  {"nome": "Tamanho do arquivo por cena - navegacao 360", "valor": "~7-8 MB por cena", "slide": 6, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "teste tecnico entre os dois prototipos; solucao 360 foi a recomendada e aprovada"},
+  {"nome": "Tamanho do arquivo - navegacao 3D livre", "valor": "~100 MB (79 MB 3D + elementos)", "slide": 6, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "mesmo teste"},
+  {"nome": "Tempo de loading - navegacao 360", "valor": "~2 segundos", "slide": 6, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "por cena; repetido no slide 12 ('~2s por cena')"},
+  {"nome": "Tempo de loading - navegacao 3D livre", "valor": "Longo, com travamentos", "slide": 6, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "sem numero em segundos no deck"},
+  {"nome": "Compatibilidade mobile - 360 x 3D", "valor": "360: Total; 3D: Parcial - incompativel com iOS 20.6+", "slide": 6, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "versao de iOS copiada como impressa (provavel erro de digitacao, nao confirmado)"},
+  {"nome": "Qualidade visual - 360 x 3D", "valor": "360: Alta (pre-renderizado); 3D: Baixa (otimizacao forcada)", "slide": 6, "tipo": "comparativo", "sensibilidade": "publicavel_com_aprovacao", "observacao": "qualitativo; iluminacao 360 com multiplos pontos realista x 3D com 1-2 pontos de luz; texturas 360 em alta resolucao x 3D comprimidas com artefatos"}
+ ],
+ "notas": "Deck nao traz metricas de performance de produto: so um comparativo tecnico de dois prototipos (360 pre-renderizado vs 3D em tempo real). O teste de usabilidade com publico real (slide 11) e qualitativo: o deck afirma que a navegacao 360 tem a 'maior taxa de conclusao da experiencia' mas nao informa nenhuma taxa, numero de testadores ou amostra; portanto nada foi registrado como numero. Slides 7 a 10 (Novos renders mobile/desktop) e 13 sao imagens, nao lidos. O deck registra que o Spatial foi descartado por inviabilidade financeira, sem valor em R$. A premissa e experiencia mobile first, embedada no site Petrobras via iframe. Cliente institucional: tratar qualquer uso publico (inclusive o nome Petrobras) com aprovacao."
+}

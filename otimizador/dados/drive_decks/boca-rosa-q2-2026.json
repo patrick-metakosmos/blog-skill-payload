@@ -1,0 +1,38 @@
+{
+ "deck_id": "1uTjO7AOxUDk8aieJ-4lWZggcFtRB5MSH7ouWUncp3mQ",
+ "titulo": "[BOCA ROSA] Provador Virtual: Analise de metricas Q2 2026",
+ "cliente": "Boca Rosa",
+ "produto": "mK Beauty",
+ "periodo": "Abril a Junho 2026 (Q2)",
+ "status_deck": "versao fechada do Q2; sem cohort de GA4 (evento do botao nao configurado), leitura 100% por last click, que o deck chama de 'piso'; apos o slide 9 o deck anexa material institucional (filtro TikTok, Veels, AI Studio)",
+ "metricas": [
+  {"nome": "Participacao do PV na receita das paginas cobertas (last click)", "valor": "24,30%", "slide": 1, "tipo": "receita", "sensibilidade": "publicavel_com_aprovacao", "observacao": "R$ 649.068,74 / R$ 2.670.656,81; percentual derivado de receita da marca; 'quase um quarto da receita'"},
+  {"nome": "CTR do provador", "valor": "74,96%", "slide": 1, "tipo": "engajamento", "sensibilidade": "publicavel_com_aprovacao", "observacao": "'engajamento forte com o botao'"},
+  {"nome": "Total de provas", "valor": "4.458.848", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": "segundo trimestre de 2026"},
+  {"nome": "Provas por usuaria", "valor": "12", "slide": 1, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Aberturas unicas", "valor": "578.061", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Provas unicas", "valor": "381.075", "slide": 3, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Adicoes ao carrinho (last click)", "valor": "78.361", "slide": 3, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "atribuicao last click; o cohort elevaria o retorno atribuido"},
+  {"nome": "Try-ons Abril 2026", "valor": "1.087.554", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Maio 2026", "valor": "1.313.660", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Try-ons Junho 2026", "valor": "2.057.634", "slide": 4, "tipo": "uso", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Receita das paginas com PV", "valor": "R$ 2.670.656,81", "slide": 5, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "abril a junho 2026"},
+  {"nome": "Itens adicionados ao carrinho nas paginas com PV", "valor": "322.424", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Itens comprados nas paginas com PV", "valor": "48.004", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Ticket medio por item", "valor": "R$ 55,63", "slide": 5, "tipo": "receita", "sensibilidade": "sensivel", "observacao": ""},
+  {"nome": "Taxa de conversao do checkout no periodo", "valor": "14,89%", "slide": 5, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "base para estimar itens comprados atribuidos ao PV"},
+  {"nome": "Adicoes ao carrinho atribuidas (last click)", "valor": "78.361", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": ""},
+  {"nome": "Itens comprados pelo Provador (estimado)", "valor": "11.667", "slide": 6, "tipo": "conversao", "sensibilidade": "publicavel_com_aprovacao", "observacao": "ESTIMADO: 78.361 adicoes x conversao do checkout 14,89%, nao compra rastreada"},
+  {"nome": "Receita gerada pelo Provador", "valor": "R$ 649.068,74", "slide": 6, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "11.667 itens x R$ 55,63; 24,30% da receita das paginas cobertas"},
+  {"nome": "Investimento no periodo", "valor": "R$ 187.668,00", "slide": 7, "tipo": "investimento", "sensibilidade": "sensivel", "observacao": "abril a junho 2026"},
+  {"nome": "Retorno (ROI)", "valor": "246% - 3,46x", "slide": 7, "tipo": "receita", "sensibilidade": "sensivel", "observacao": "R$ 649.068,74 / R$ 187.668,00; last click, 'piso'; deck diz que com cohort o retorno tende a ser ainda maior"}
+ ],
+ "metricas_institucionais_nao_cliente": [
+  {"nome": "Intencao de compra com videos de demonstracao (mK Veels)", "valor": "+144%", "slide": null, "observacao": "slide institucional sem numero; sem fonte citada"},
+  {"nome": "Probabilidade de compra com avaliacoes/provas sociais", "valor": "+270%", "slide": null, "observacao": "sem fonte"},
+  {"nome": "Usuarios que preferem conteudo de produto em videos curtos", "valor": "78%", "slide": null, "observacao": "sem fonte"},
+  {"nome": "Retorno 'a cada um real investido, a solucao pode retornar ate 10x'", "valor": "ate 10x", "slide": null, "observacao": "promessa comercial do Veels, nao e resultado medido"},
+  {"nome": "Prazo medio do AI Studio", "valor": "7 a 15 dias uteis", "slide": null, "observacao": "apos aprovacao do briefing completo"}
+ ],
+ "notas": "Slide = numeral de rodape 01-09 (capa sem numero; o slide numerado 08 traz 'Proximos passos' e o 09 'Roadmap'). Conferencia aritmetica: 1.087.554 + 1.313.660 + 2.057.634 = 4.458.848 (confere com o total). O ROI de 246% e last click, sem cohort, e o deck o chama de piso; o ROI do Q3 (378%) usa cohort, metodo diferente (ver boca-rosa-q3-parcial-2026). Itens comprados atribuidos ao PV (11.667) e a receita sao estimativas por taxa de conversao do checkout. Os slides do filtro TikTok e de AI Studio nao trazem metricas de desempenho, so descricoes e briefing; o QR code do filtro e imagem."
+}
