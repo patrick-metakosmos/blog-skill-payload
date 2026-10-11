@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-11",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-11T07:00:03"
+  "inicio": "2026-10-11T07:00:03",
+  "fim": "2026-10-11T07:18:21",
+  "slug": "geo-generative-engine-optimization",
+  "url": "https://metakosmos.com.br/blog/geo-generative-engine-optimization"
 }
