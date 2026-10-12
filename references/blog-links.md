@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **91** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **92** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -65,6 +65,7 @@ Total: **91** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
 | `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
 | `paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou` | Páginas de Produto Imersivas: O Futuro do E-commerce Já Começou | /blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou |
+| `performance-marketing-ecommerce` | Performance marketing e-commerce: o que fazer quando a mídia paga para de escala | /blog/performance-marketing-ecommerce |
 | `por-que-ecommerce-nao-converte` | Por que e-commerce não converte: o diagnóstico que ninguém faz antes de mexer no | /blog/por-que-ecommerce-nao-converte |
 | `provador-virtual-e-realidade-aumentada-o-futuro-do-varejo` | Provador Virtual e Realidade Aumentada: O Futuro do Varejo | /blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo |
 | `provador-virtual-ecommerce-guia-completo` | Provador Virtual para E-commerce: como funciona, quanto custa e por que as maior | /blog/provador-virtual-ecommerce-guia-completo |
