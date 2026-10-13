@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **92** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **93** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -95,4 +95,5 @@ Total: **92** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `visualizador-3d-ar-guia-completo` | Visualizador 3D com Realidade Aumentada: guia +94% | /blog/visualizador-3d-ar-guia-completo |
 | `visualizador-3d-realidade-aumentada` | Visualizador 3D com realidade aumentada: como ver o produto no seu espaço antes  | /blog/visualizador-3d-realidade-aumentada |
 | `visualizador-3d-realidade-aumentada-ecommerce-guia` | Visualizador 3D com Realidade Aumentada para E-commerce: o guia completo para au | /blog/visualizador-3d-realidade-aumentada-ecommerce-guia |
+| `visualizar-sofa-na-sala-online` | Visualizar sofá na sala online: a AR que responde se cabe entre a janela e a TV | /blog/visualizar-sofa-na-sala-online |
 | `your-3d-everywhere` | Your 3D Everywhere: como 1 ativo 3D vira visualizador, AI Shooting e AR | /blog/your-3d-everywhere |
