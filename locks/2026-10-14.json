@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-14",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-14T11:00:04"
+  "inicio": "2026-10-14T11:00:04",
+  "fim": "2026-10-14T11:11:28",
+  "slug": "ecommerce-do-futuro",
+  "url": "https://metakosmos.com.br/blog/ecommerce-do-futuro"
 }
