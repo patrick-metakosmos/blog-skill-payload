@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **93** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **94** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -33,6 +33,7 @@ Total: **93** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `dados-ecommerce-brasil-2026` | Dados e-commerce Brasil 2026: os dados que vão mudar sua estratégia | /blog/dados-ecommerce-brasil-2026 |
 | `dashboard-ecommerce` | Dashboard e-commerce: o que medir e como ler | /blog/dashboard-ecommerce |
 | `digital-product-passport` | Digital Product Passport: a etiqueta digital que a UE torna obrigatória em 2027 | /blog/digital-product-passport |
+| `ecommerce-do-futuro` | E-commerce do futuro: o que muda de 2026 a 2030 | /blog/ecommerce-do-futuro |
 | `escalar-ecommerce` | Escalar e-commerce: crescer sem escalar o custo na mesma proporção | /blog/escalar-ecommerce |
 | `experiencia-de-compra-online-melhorar` | Experiência de compra online melhorar: as alavancas que movem conversão | /blog/experiencia-de-compra-online-melhorar |
 | `experiencia-de-marca-brand-experience` | Experiência de Marca Brand Experience: como a marca vira experiência e não anúnc | /blog/experiencia-de-marca-brand-experience |

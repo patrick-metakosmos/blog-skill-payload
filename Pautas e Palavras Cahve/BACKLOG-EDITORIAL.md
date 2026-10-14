@@ -102,7 +102,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 54 | sex 09/10/26 | P5 | KW | Performance marketing e-commerce: o que fazer quando a mídia paga para de escalar | **81** | `performance marketing e-commerce` | 2800 | Média | Topo | ✅ publicado | 2026-10-12 | performance-marketing-ecommerce |
 | 55 | sáb 10/10/26 | P3 | KW | Visualizar sofá na sala online: a AR que responde se cabe entre a janela e a TV | **79** | `visualizar sofá na sala online` | 2200 | Baixa | Topo | ✅ publicado | 2026-10-13 | visualizar-sofa-na-sala-online |
 | 56 | dom 11/10/26 | P6 | KW | ABComm relatório e-commerce: o que os números dizem sobre a sua operação | **72** | `ABComm relatório e-commerce` | 2800 | Média | Meio | ✅ publicado | 2026-10-10 | abcomm-relatorio-ecommerce |
-| 57 | seg 12/10/26 | P1 | KW | O e-commerce do futuro: o que muda de 2026 a 2030 | 49 | `e-commerce do futuro` | 2900 | Média | Topo | ⬜ a fazer | — | — |
+| 57 | seg 12/10/26 | P1 | KW | O e-commerce do futuro: o que muda de 2026 a 2030 | 49 | `e-commerce do futuro` | 2900 | Média | Topo | ✅ publicado | 2026-10-14 | ecommerce-do-futuro |
 | 58 | ter 13/10/26 | P1 | KW | UX e-commerce melhorar: como a interface esconde ou revela o produto | **68** | `UX e-commerce melhorar` | 2100 | Baixa | Meio | ⬜ a fazer | — | — |
 | 59 | qua 14/10/26 | P5 | KW | Página de produto que converte: a anatomia da PDP que vende | 59 | `página de produto que converte` | 1600 | Baixa | Meio | ⬜ a fazer | — | — |
 | 60 | qui 15/10/26 | P2 | KW | Virtual Try-On: o termo técnico que o mercado global usa e o que ele engloba | **76** | `Virtual Try-On` | 2800 | Média | Topo | ⬜ a fazer | — | — |
