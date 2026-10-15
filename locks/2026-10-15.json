@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-15",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-15T07:00:05"
+  "inicio": "2026-10-15T07:00:05",
+  "fim": "2026-10-15T07:23:45",
+  "slug": "ux-ecommerce-melhorar",
+  "url": "https://metakosmos.com.br/blog/ux-ecommerce-melhorar"
 }
