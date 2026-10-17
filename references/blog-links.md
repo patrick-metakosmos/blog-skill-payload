@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **96** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **97** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -95,6 +95,7 @@ Total: **96** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
 | `videos-ia-campanhas-publicitarias` | Vídeos com IA para campanhas publicitárias: exemplos de marcas brasileiras e com | /blog/videos-ia-campanhas-publicitarias |
 | `videos-publicitarios-com-ia-guia-completo-para-marcas` | Vídeos Publicitários com IA: Guia Completo para Marcas | /blog/videos-publicitarios-com-ia-guia-completo-para-marcas |
+| `virtual-try-on` | Virtual Try-On: o termo que o mercado global usa para o provador virtual que já  | /blog/virtual-try-on |
 | `visualizador-3d-ar-guia-completo` | Visualizador 3D com Realidade Aumentada: guia +94% | /blog/visualizador-3d-ar-guia-completo |
 | `visualizador-3d-realidade-aumentada` | Visualizador 3D com realidade aumentada: como ver o produto no seu espaço antes  | /blog/visualizador-3d-realidade-aumentada |
 | `visualizador-3d-realidade-aumentada-ecommerce-guia` | Visualizador 3D com Realidade Aumentada para E-commerce: o guia completo para au | /blog/visualizador-3d-realidade-aumentada-ecommerce-guia |
