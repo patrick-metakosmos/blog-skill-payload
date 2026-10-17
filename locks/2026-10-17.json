@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-17",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-17T11:00:04"
+  "inicio": "2026-10-17T11:00:04",
+  "fim": "2026-10-17T11:17:07",
+  "slug": "virtual-try-on",
+  "url": "https://metakosmos.com.br/blog/virtual-try-on"
 }
