@@ -1,6 +1,8 @@
 {
   "dia": "2026-10-17",
-  "status": "running",
+  "status": "failed",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-17T07:00:04"
+  "inicio": "2026-10-17T07:00:04",
+  "fim": "2026-10-17T07:12:33",
+  "nota": "agente terminou sem fechar o lock (exit=0)"
 }
