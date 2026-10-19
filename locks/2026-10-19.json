@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-19",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-19T07:00:04"
+  "inicio": "2026-10-19T07:00:04",
+  "fim": "2026-10-19T07:16:00",
+  "slug": "logistica-reversa-ecommerce",
+  "url": "https://metakosmos.com.br/blog/logistica-reversa-ecommerce"
 }
