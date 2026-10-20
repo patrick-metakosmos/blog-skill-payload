@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-20",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-20T07:00:05"
+  "inicio": "2026-10-20T07:00:05",
+  "fim": "2026-10-20T07:15:18",
+  "slug": "fooh-compra-direta",
+  "url": "https://metakosmos.com.br/blog/fooh-compra-direta"
 }
