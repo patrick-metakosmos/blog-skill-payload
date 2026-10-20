@@ -1,6 +1,6 @@
 # Catálogo da Media do Payload (fonte de imagens reais)
 
-Total: **878** mídias. Gerado por `scripts/sync_payload_media.py`.
+Total: **879** mídias. Gerado por `scripts/sync_payload_media.py`.
 
 **Como usar:** no `artigo.html`, referencie a imagem pelo NOME DE ARQUIVO exato da coluna `filename`
 (ex: `<img src="mK3DShop-Flexform.gif" alt="...">`). O publicador resolve o ID na Media.
@@ -378,7 +378,6 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `image.gif` | vertical | 300x534 | 12042 | image |
 | `image.png` | horizontal | 1597x605 | 131 | image |
 | `img artigo-1.png` | horizontal | 1536x1024 | 1958 | aumento de ticket médio |
-| `img artigo.png` | horizontal | 1536x1024 | 1958 | aumento de ticket médio |
 | `IMG_5383.jpg` | vertical | 1170x2532 | 329 | Mascavo galeria |
 | `IMG_5384.jpeg` | vertical | 1170x1687 | 330 | Mascavo galeria |
 | `IMG_5385.jpeg` | quadrada | 1131x1279 | 246 | Mascavo galeria |
@@ -466,6 +465,8 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `loreal-inoa-outdoor-predio-rio-lapa-2.webp` | vertical | 240x426 | 830 | Outdoor da L'Oréal INOA em prédio no Rio de Janeiro, próximo aos Arcos da Lapa |
 | `loreal-inoa-outdoor-predio-rio-lapa.webp` | vertical | 240x426 | 830 | Outdoor da L'Oréal INOA em prédio no Rio de Janeiro, próximo aos Arcos da Lapa |
 | `lorealfooh-gif.gif` | vertical | 480x853 | 10863 | L'Oréal Professionnel GIF |
+| `mapa-lounge-tech-email-fashion-meeting-2026.jpg` | horizontal | 1200x900 | 136 | Mapa do Lounge Tech no Fashion Meeting 2026: a metaKosmos fica na mesa 05, próxi |
+| `mapa-lounge-tech-fashion-meeting-2026.png` | horizontal | 1448x1086 | 1679 | Mapa do Lounge Tech no Fashion Meeting 2026: a metaKosmos fica na mesa 05, próxi |
 | `mariana-camargo-stanley.jpg` | quadrada | 800x800 | 103 | Stanley 1913 depoimento |
 | `Mark.png` | horizontal | 891x497 | 115 | Mark |
 | `mascavo-gif-1.gif` | vertical | 240x426 | 2526 | Mascavo GIF |
@@ -544,7 +545,6 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `metakosmos-post-paginas-produto-imersivas-cadeira3d.webp` | horizontal | 1920x1080 | 15 | Capa institucional da mK sobre o que são páginas de produto imersivas, renderiza |
 | `metakosmos-post-payback-ampulheta-tempo-dinheiro.webp` | horizontal | 1920x1080 | 57 | Capa institucional da mK sobre payback do investimento, ilustração de ampulheta  |
 | `metakosmos-post-poc-cadeiras-neon-3d.webp` | horizontal | 1920x1080 | 120 | Imagem de capa institucional da mK sobre o que acontece após a validação do POC, |
-| `metakosmos-post-poc-scanner-perfume-analise.webp` | horizontal | 1920x1080 | 78 | Capa institucional da mK sobre por que toda implementação começa com um POC, ilu |
 | `metakosmos-post-roi-dial-medidor-3d.webp` | horizontal | 1920x1080 | 70 | Ilustração 3D institucional da mK de um medidor giratório com a palavra ROI, ind |
 | `metakosmos-post-roi-esperado-grafico-crescimento.webp` | horizontal | 1920x1080 | 37 | Capa institucional da mK sobre ROI esperado de projetos bem implementados, gráfi |
 | `metakosmos-producao-video-claquete-monitor-edicao.webp` | horizontal | 1672x941 | 47 | Claquete de cinema em primeiro plano diante de monitor com timeline de edição de |
@@ -753,6 +753,7 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `positivo-notebook-visao-explodida-componentes.webp` | horizontal | 1856x861 | 47 | Ilustração 3D explodida de notebook Positivo mostrando componentes internos, com |
 | `post-mk1.gif` | horizontal | 426x320 | 1903 | post mk1 |
 | `post-mk2.gif` | horizontal | 426x320 | 216 | post mk2 |
+| `provador virtual.jpg` | horizontal | 981x653 | 49 | Capa institucional da mK sobre por que toda implementação começa com um POC, ilu |
 | `provador-selfie.png` | quadrada | 1254x1254 | 742 | provador selfie |
 | `provadorvirtual-antes-depois-moletom-terracota-still-modelo.webp` | horizontal | 1536x1024 | 57 | Antes e depois: moletom terracota em foto still de catálogo e o mesmo moletom ve |
 | `provadorvirtual-conceito-3d-manequins-cards-roupas-celular.webp` | horizontal | 1672x941 | 74 | Ilustração 3D em neon com manequins e cards de roupas ao redor de um celular, co |

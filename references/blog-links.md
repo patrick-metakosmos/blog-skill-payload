@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **99** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **100** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -39,6 +39,7 @@ Total: **99** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de
 | `experiencia-de-marca-brand-experience` | Experiência de Marca Brand Experience: como a marca vira experiência e não anúnc | /blog/experiencia-de-marca-brand-experience |
 | `experiencia-do-cliente-online` | Experiência do cliente online: o que o consumidor sente antes de comprar | /blog/experiencia-do-cliente-online |
 | `experiencia-imersiva-3d-reposicionamento-positivo-ces-2026` | Como a mK usou Experiência Imersiva como pilar de Reposicionamento da Positivo n | /blog/experiencia-imersiva-3d-reposicionamento-positivo-ces-2026 |
+| `fooh-compra-direta` | FOOH com compra direta: o vídeo CGI que vende dentro do próprio vídeo | /blog/fooh-compra-direta |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH (Fake Out of Home): o que é, exemplos e como fazer um vídeo que viraliza | /blog/fooh-guia-completo-fake-out-of-home-viral |
 | `funil-de-conversao-ecommerce` | Funil de conversão e-commerce: onde o dinheiro vaza | /blog/funil-de-conversao-ecommerce |
 | `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |
