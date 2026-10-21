@@ -1,12 +1,13 @@
 # Artigos publicados no blog (Payload)
 
-Total: **100** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **101** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
 | `abandono-carrinho-ecommerce-lacuna-imaginacao` | Abandono de carrinho: por que 98 de 100 não compram | /blog/abandono-carrinho-ecommerce-lacuna-imaginacao |
 | `abcomm-relatorio-ecommerce` | ABComm relatório e-commerce: o que os números dizem sobre a sua operação | /blog/abcomm-relatorio-ecommerce |
 | `agentic-commerce-ia-compra-pelo-consumidor` | Agentic Commerce: quando a IA compra pelo consumidor e o que muda para sua marca | /blog/agentic-commerce-ia-compra-pelo-consumidor |
+| `ai-influencer-brasil` | AI influencer Brasil: avatares CGI vendendo 24 horas por dia em live commerce | /blog/ai-influencer-brasil |
 | `ai-shooting-moda-ia` | AI Shooting para moda: o fim do ensaio caro e travado | /blog/ai-shooting-moda-ia |
 | `aparecer-nas-respostas-do-chatgpt` | Aparecer nas respostas do ChatGPT: o que a sua marca precisa publicar | /blog/aparecer-nas-respostas-do-chatgpt |
 | `ar-moveis-eletrodomesticos-online` | Como usar AR para vender móveis e eletrodomésticos online: o guia para transform | /blog/ar-moveis-eletrodomesticos-online |
