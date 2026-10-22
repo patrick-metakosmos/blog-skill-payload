@@ -110,7 +110,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 62 | sáb 17/10/26 | P5 | KW | Logística reversa e-commerce: o custo por trás da devolução | 59 | `logística reversa e-commerce` | 4900 | Alta | Topo | ✅ publicado | 2026-10-19 | logistica-reversa-ecommerce |
 | 63 | dom 18/10/26 | P4 | Tend | FOOH com compra direta: o vídeo CGI que vende dentro do próprio vídeo <br>_T04 · urgência ALTA · conceito inexistente no BR_ | **69** | `FOOH com compra direta` | 1500 | Muito Baixa | Topo | ✅ publicado | 2026-10-20 | fooh-compra-direta |
 | 64 | seg 19/10/26 | P4 | Tend | AI influencer Brasil: avatares CGI vendendo 24 horas por dia em live commerce <br>_T02 · urgência ALTA · gap 27x_ | **77** | `AI influencer Brasil` | 1500 | Muito Baixa | Topo | ✅ publicado | 2026-10-21 | ai-influencer-brasil |
-| 65 | ter 20/10/26 | P2 | KW | Provador virtual gratuito: o que existe de graça e onde está o limite | **69** | `provador virtual gratuito` | 2400 | Baixa | Topo | ⬜ a fazer | — | — |
+| 65 | ter 20/10/26 | P2 | KW | Provador virtual gratuito: o que existe de graça e onde está o limite | **69** | `provador virtual gratuito` | 2400 | Baixa | Topo | ✅ publicado | 2026-10-22 | provador-virtual-gratuito |
 | 66 | qua 21/10/26 | P7 | KW | Loja phygital: o QR code que vira experiência no PDV | 52 | `loja phygital` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |
 | 67 | qui 22/10/26 | P7 | KW | Personalização IA e-commerce: do banner genérico à vitrine individual | **69** | `personalização IA e-commerce` | 1600 | Baixa | Meio | ⬜ a fazer | — | — |
 | 68 | sex 23/10/26 | P7 | KW | Como aparecer no Google AI Overviews: o que muda no SEO quando o clique some | **76** | `como aparecer no Google AI Overviews` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |

@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **101** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **102** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -76,6 +76,7 @@ Total: **101** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `provador-virtual-e-realidade-aumentada-o-futuro-do-varejo` | Provador Virtual e Realidade Aumentada: O Futuro do Varejo | /blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo |
 | `provador-virtual-ecommerce-guia-completo` | Provador Virtual para E-commerce: como funciona, quanto custa e por que as maior | /blog/provador-virtual-ecommerce-guia-completo |
 | `provador-virtual-ecommerce-moda` | Provador virtual no e-commerce de moda: como transformar os 98 que vão embora em | /blog/provador-virtual-ecommerce-moda |
+| `provador-virtual-gratuito` | Provador virtual gratuito: o que existe de graça e onde está o limite | /blog/provador-virtual-gratuito |
 | `provador-virtual-ia-generativa-ecommerce` | Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce | /blog/provador-virtual-ia-generativa-ecommerce |
 | `provador-virtual-plus-size` | Provador virtual plus size: por que inclusão corporal decide a adoção antes da a | /blog/provador-virtual-plus-size |
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
