@@ -125,10 +125,14 @@ function hover(node, html){
 document.getElementById('atualizado').textContent = 'Atualizado em ' + D.gerado_em;
 const ult = D.ciclos[D.ciclos.length-1];
 const st = document.getElementById('status');
-const nOt = D.otimizados.length;
+const OT = [...D.otimizados].sort((a, b) => (b.data || '').localeCompare(a.data || ''));
+const nOt = D.otimizados.filter(o => o.ciclo === ult.ciclo).length;
+const total = D.otimizados.length;
 const medidos = D.otimizados.filter(o => o.resultado).length;
+const melhoraram = D.otimizados.filter(o => /^Melhorou/.test(o.resultado)).length;
 st.innerHTML = `<span class="pill accent">Ciclo ${ult.ciclo}: ${nOt} artigos otimizados</span>`
-  + (D.medicao && medidos < nOt ? `<span class="pill"><span class="ring"></span>Medição automática em ${dBRy(D.medicao)}</span>` : '')
+  + (medidos ? `<span class="pill">${medidos} medidos: ${melhoraram} melhoraram</span>` : '')
+  + (D.medicao && medidos < total ? `<span class="pill"><span class="ring"></span>Próxima medição automática em ${dBRy(D.medicao)}</span>` : '')
   + `<span class="pill">Ciclo a cada 15 dias</span>`;
 
 /* KPIs */
@@ -239,14 +243,14 @@ document.getElementById('lg-mapa').innerHTML = Object.values(GR).map(g => `<span
 
 /* ciclo */
 document.getElementById('ciclo-eyebrow').textContent = `Ciclo ${ult.ciclo} · aplicado em ${dBRy(ult.data)}`;
-document.getElementById('ciclo-lede').textContent = `${nOt} artigos reescritos e publicados. O "antes" é a média dos 28 dias anteriores à seleção; o "depois" entra aqui quando a medição rodar.`;
-document.getElementById('arts').innerHTML = D.otimizados.map(o => {
+document.getElementById('ciclo-lede').textContent = `${total} artigos reescritos e publicados em ${D.ciclos.length} ciclo${D.ciclos.length > 1 ? 's' : ''}, do mais recente ao mais antigo. O "antes" é a janela anterior à otimização; o "depois" aparece quando a medição roda, comparando janelas iguais (a leitura firme vem com 28 dias de dado).`;
+document.getElementById('arts').innerHTML = OT.map(o => {
   const a = o.antes, au = o.auditoria, maxW = Math.max(3000, au.depois.palavras);
   const res = o.resultado
     ? `<div class="res done">${o.resultado}${o.proximo ? ' · ' + o.proximo : ''}</div>`
     : `<div class="res">Depois: medição em ${D.medicao ? dBRy(D.medicao) : 'breve'}</div>`;
   return `<article class="art">
-    <div class="art-top"><span class="chip"><i style="background:var(${o.balde === 'Decadente' ? '--mark-desc' : '--mark-otim'})"></i>${o.balde}</span><span class="qnote">no ar desde ${o.data ? dBRy(o.data) : '-'}</span></div>
+    <div class="art-top"><span class="chip"><i style="background:var(${o.balde === 'Decadente' ? '--mark-desc' : '--mark-otim'})"></i>${o.balde}</span><span class="qnote">${o.ciclo} · no ar desde ${o.data ? dBRy(o.data) : '-'}</span></div>
     <div style="display:flex;flex-direction:column;gap:4px"><span class="novo">${o.titulo_depois}</span><span class="velho">${o.titulo_antes}</span></div>
     <div class="mets">
       <div class="met"><span class="k">Posição</span><span class="val">${nf1.format(a.posicao)}</span></div>
@@ -276,10 +280,9 @@ document.getElementById('finds').innerHTML = [
 ].map(([big,t,p]) => `<div class="find"><span class="big">${big}</span><h3>${t}</h3><p>${p}</p></div>`).join('');
 
 /* linha do tempo */
-const tl = [
-  {when: dBRy(ult.data), what:`Ciclo ${ult.ciclo}: ${nOt} artigos selecionados, reescritos e publicados`, done:true},
-];
-if (D.medicao) tl.push({when: dBRy(D.medicao), what:'Medição automática do ciclo: o "depois" de cada artigo entra no Log e neste painel', done: medidos === nOt && nOt > 0});
+const tl = D.ciclos.map(c => ({when: dBRy(c.data), what:`Ciclo ${c.ciclo}: ${c.n} artigos selecionados, reescritos e publicados`, done:true}));
+if (medidos) tl.push({when: '22/10/2026', what:`Medição do primeiro ciclo: ${melhoraram} de ${medidos} artigos medidos melhoraram em impressões`, done:true});
+if (D.medicao) tl.push({when: dBRy(D.medicao), what:'Próxima medição automática: o "depois" dos artigos ainda sem resultado entra no Log e neste painel', done:false});
 tl.push({when:'A cada 15 dias', what:'Próximo ciclo: mede o anterior, escolhe novos artigos e repete', done:false});
 document.getElementById('timeline').innerHTML = tl.map(t => `<div class="tl ${t.done?'done':''}"><span class="when">${t.when}</span><span class="what">${t.what}</span></div>`).join('');
 

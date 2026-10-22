@@ -140,7 +140,7 @@ def main():
                        "posicao": atual[u]["posicao"], "impressoes": atual[u]["impressoes"],
                        "cliques": atual[u]["cliques"], "nota": st if grupo == "descartado" else ""})
 
-    medicao = min((datetime.fromisoformat(o["data"]).date() + timedelta(days=15) for o in otimizados if o["data"]),
+    medicao = min((datetime.fromisoformat(o["data"]).date() + timedelta(days=15) for o in otimizados if o["data"] and not o["resultado"]),
                   default=None)
     dados = {
         "gerado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
