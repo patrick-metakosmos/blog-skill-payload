@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **102** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **103** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -22,7 +22,7 @@ Total: **102** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `como-fazer-video-viral-para-marcas` | Como fazer vídeo viral para marcas: o método por trás do acaso | /blog/como-fazer-video-viral-para-marcas |
 | `como-funciona-provador-virtual-ia` | Como funciona um provador virtual com IA: guia 2026 | /blog/como-funciona-provador-virtual-ia |
 | `como-reduzir-abandono-carrinho` | Como reduzir abandono de carrinho: as causas que frete grátis não resolve | /blog/como-reduzir-abandono-carrinho |
-| `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda | /blog/como-reduzir-devolucoes-ecommerce-moda |
+| `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda: causas, custo real e o que funcio | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
 | `como-visualizar-produto-em-casa-antes-de-comprar` | Como visualizar produto em casa antes de comprar: o passo a passo da AR pelo cel | /blog/como-visualizar-produto-em-casa-antes-de-comprar |
 | `comprar-roupa-online-sem-errar-tamanho` | Comprar roupa online sem errar tamanho: o que fazer quando a tabela de medidas m | /blog/comprar-roupa-online-sem-errar-tamanho |
@@ -56,6 +56,7 @@ Total: **102** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `live-shopping-tendencias-brasil` | Live shopping tendências Brasil: o tamanho real da oportunidade até 2030 | /blog/live-shopping-tendencias-brasil |
 | `llms-txt-dinamico-catalogo` | llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real | /blog/llms-txt-dinamico-catalogo |
 | `logistica-reversa-ecommerce` | Logística reversa e-commerce: o custo por trás da devolução | /blog/logistica-reversa-ecommerce |
+| `loja-phygital-qr-code-pdv` | Loja phygital: o QR code que vira experiência no PDV | /blog/loja-phygital-qr-code-pdv |
 | `maquiagem-online-experimentar` | Maquiagem online experimentar: o que dá para testar hoje | /blog/maquiagem-online-experimentar |
 | `margem-de-lucro-ecommerce` | Margem de lucro e-commerce: onde ela é perdida | /blog/margem-de-lucro-ecommerce |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
@@ -64,8 +65,8 @@ Total: **102** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `mk-3d-shop-visualizador-3d-ar` | mK 3D Shop: visualizador 3D com AR para e-commerce | /blog/mk-3d-shop-visualizador-3d-ar |
 | `mk-fashion-provador-virtual-moda-ia` | mK Fashion+: provador virtual de moda com IA | /blog/mk-fashion-provador-virtual-moda-ia |
 | `mk-home-simulador-ia-moveis-decoracao` | mK Home AI: simulador de móveis e decoração com IA | /blog/mk-home-simulador-ia-moveis-decoracao |
-| `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House de projetos imersivos | /blog/mk-labs-creative-house-projetos-imersivos |
-| `mk-shop-the-look-ia-look-completo-ecommerce` | mK Shop the Look: IA que monta look completo no e-commerce | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
+| `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House da metaKosmos para projetos imersivos sob medida | /blog/mk-labs-creative-house-projetos-imersivos |
+| `mk-shop-the-look-ia-look-completo-ecommerce` | Shop the look com IA: como a foto do look vira carrinho completo no e-commerce d | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
 | `mk-skin-ai-diagnostico-pele-ia-ecommerce` | mK Skin AI: diagnóstico de pele com IA por selfie | /blog/mk-skin-ai-diagnostico-pele-ia-ecommerce |
 | `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
 | `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
@@ -99,7 +100,7 @@ Total: **102** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA: o que são, exemplos de marcas e como fazer parecer real | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
 | `videos-ia-campanhas-publicitarias` | Vídeos com IA para campanhas publicitárias: exemplos de marcas brasileiras e com | /blog/videos-ia-campanhas-publicitarias |
-| `videos-publicitarios-com-ia-guia-completo-para-marcas` | Vídeos Publicitários com IA: Guia Completo para Marcas | /blog/videos-publicitarios-com-ia-guia-completo-para-marcas |
+| `videos-publicitarios-com-ia-guia-completo-para-marcas` | Vídeos publicitários com IA: o guia para contratar, produzir e medir | /blog/videos-publicitarios-com-ia-guia-completo-para-marcas |
 | `virtual-try-on` | Virtual Try-On: o termo que o mercado global usa para o provador virtual que já  | /blog/virtual-try-on |
 | `visualizador-3d-ar-guia-completo` | Visualizador 3D com Realidade Aumentada: guia +94% | /blog/visualizador-3d-ar-guia-completo |
 | `visualizador-3d-realidade-aumentada` | Visualizador 3D com realidade aumentada: como ver o produto no seu espaço antes  | /blog/visualizador-3d-realidade-aumentada |
