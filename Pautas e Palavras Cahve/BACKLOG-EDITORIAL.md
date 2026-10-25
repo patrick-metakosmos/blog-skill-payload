@@ -112,7 +112,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 64 | seg 19/10/26 | P4 | Tend | AI influencer Brasil: avatares CGI vendendo 24 horas por dia em live commerce <br>_T02 · urgência ALTA · gap 27x_ | **77** | `AI influencer Brasil` | 1500 | Muito Baixa | Topo | ✅ publicado | 2026-10-21 | ai-influencer-brasil |
 | 65 | ter 20/10/26 | P2 | KW | Provador virtual gratuito: o que existe de graça e onde está o limite | **69** | `provador virtual gratuito` | 2400 | Baixa | Topo | ✅ publicado | 2026-10-22 | provador-virtual-gratuito |
 | 66 | qua 21/10/26 | P7 | KW | Loja phygital: o QR code que vira experiência no PDV | 52 | `loja phygital` | 1600 | Baixa | Topo | ✅ publicado | 2026-10-23 | loja-phygital-qr-code-pdv |
-| 67 | qui 22/10/26 | P7 | KW | Personalização IA e-commerce: do banner genérico à vitrine individual | **69** | `personalização IA e-commerce` | 1600 | Baixa | Meio | ⬜ a fazer | — | — |
+| 67 | qui 22/10/26 | P7 | KW | Personalização IA e-commerce: do banner genérico à vitrine individual | **69** | `personalização IA e-commerce` | 1600 | Baixa | Meio | ✅ publicado | 2026-10-25 | personalizacao-ia-ecommerce-vitrine-individual |
 | 68 | sex 23/10/26 | P7 | KW | Como aparecer no Google AI Overviews: o que muda no SEO quando o clique some | **76** | `como aparecer no Google AI Overviews` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |
 | 69 | sáb 24/10/26 | P4 | KW | Vídeo viral de marca como fazer: o método por trás do que parece acaso | **70** | `vídeo viral de marca como fazer` | 1800 | Baixa | Topo | ⬜ a fazer | — | — |
 | 70 | dom 25/10/26 | P4 | KW | Ativação de marca em evento: o phygital que gera lead | 53 | `ativação de marca em evento` | 1800 | Baixa | Fundo | ⬜ a fazer | — | — |
