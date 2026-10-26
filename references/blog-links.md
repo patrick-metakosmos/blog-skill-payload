@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **104** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **105** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -16,6 +16,7 @@ Total: **104** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `aumentar-confianca-compra-online` | Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em c | /blog/aumentar-confianca-compra-online |
 | `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
 | `checkout-otimizacao` | Checkout otimização: os pontos de atrito que derrubam a venda no fim | /blog/checkout-otimizacao |
+| `como-aparecer-no-google-ai-overviews` | Como aparecer no Google AI Overviews: o que muda no SEO quando o clique some | /blog/como-aparecer-no-google-ai-overviews |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
 | `como-aumentar-taxa-conversao-ecommerce` | Como aumentar taxa de conversão e-commerce: o que fazer quando o tráfego cresce  | /blog/como-aumentar-taxa-conversao-ecommerce |
 | `como-escolher-maquiagem-online` | Como escolher maquiagem online: o método para não errar o tom de base | /blog/como-escolher-maquiagem-online |
