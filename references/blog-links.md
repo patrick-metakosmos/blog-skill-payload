@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **105** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **106** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -99,6 +99,7 @@ Total: **105** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `transformacao-digital-varejo` | Transformação digital varejo: por onde começar sem queimar orçamento | /blog/transformacao-digital-varejo |
 | `ux-ecommerce-melhorar` | UX e-commerce melhorar: como a interface esconde ou revela o produto | /blog/ux-ecommerce-melhorar |
 | `ver-movel-em-casa-antes-de-comprar` | Ver móvel em casa antes de comprar: como a AR responde se cabe no espaço | /blog/ver-movel-em-casa-antes-de-comprar |
+| `video-viral-de-marca-como-fazer` | Vídeo viral de marca como fazer: o método por trás do que parece acaso | /blog/video-viral-de-marca-como-fazer |
 | `videos-com-ia-nova-fronteira-storytelling-marcas` | Vídeos com IA: o que são, exemplos de marcas e como fazer parecer real | /blog/videos-com-ia-nova-fronteira-storytelling-marcas |
 | `videos-fooh-ia-generativa-viralizar-campanhas` | Vídeos WooW!: Como FOOH e IA Generativa Estão Viralizando Campanhas e Vencendo o | /blog/videos-fooh-ia-generativa-viralizar-campanhas |
 | `videos-ia-campanhas-publicitarias` | Vídeos com IA para campanhas publicitárias: exemplos de marcas brasileiras e com | /blog/videos-ia-campanhas-publicitarias |
