@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-28",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-28T07:00:03"
+  "inicio": "2026-10-28T07:00:03",
+  "fim": "2026-10-28T07:15:43",
+  "slug": "ativacao-de-marca-em-evento",
+  "url": "https://metakosmos.com.br/blog/ativacao-de-marca-em-evento"
 }
