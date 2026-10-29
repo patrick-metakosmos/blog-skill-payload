@@ -116,7 +116,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 68 | sex 23/10/26 | P7 | KW | Como aparecer no Google AI Overviews: o que muda no SEO quando o clique some | **76** | `como aparecer no Google AI Overviews` | 1600 | Baixa | Topo | ✅ publicado | 2026-10-26 | como-aparecer-no-google-ai-overviews |
 | 69 | sáb 24/10/26 | P4 | KW | Vídeo viral de marca como fazer: o método por trás do que parece acaso | **70** | `vídeo viral de marca como fazer` | 1800 | Baixa | Topo | ✅ publicado | 2026-10-27 | video-viral-de-marca-como-fazer |
 | 70 | dom 25/10/26 | P4 | KW | Ativação de marca em evento: o phygital que gera lead | 53 | `ativação de marca em evento` | 1800 | Baixa | Fundo | ✅ publicado | 2026-10-28 | ativacao-de-marca-em-evento |
-| 71 | seg 26/10/26 | P1 | KW | Live commerce Brasil: o que funciona e o que ainda trava | 56 | `live commerce Brasil` | 3200 | Média | Topo | ⬜ a fazer | — | — |
+| 71 | seg 26/10/26 | P1 | KW | Live commerce Brasil: o que funciona e o que ainda trava | 56 | `live commerce Brasil` | 3200 | Média | Topo | ✅ publicado | 2026-10-29 | live-commerce-brasil |
 | 72 | ter 27/10/26 | P4 | KW | Ativações digitais: como transformar campanha em experiência | 60 | `Ativações Digitais` | 2100 | Baixa | Topo | ⬜ a fazer | — | — |
 | 73 | qua 28/10/26 | P7 | KW | Chatbot e-commerce: do atendimento à venda | 42 | `chatbot e-commerce` | 4800 | Alta | Topo | ⬜ a fazer | — | — |
 | 74 | qui 29/10/26 | P7 | KW | Metaverso e-commerce: o que sobrou da promessa | 46 | `metaverso e-commerce` | 1800 | Baixa | Topo | ⬜ a fazer | — | — |
