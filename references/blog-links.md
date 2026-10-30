@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **108** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **109** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -14,6 +14,7 @@ Total: **108** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `ar-reduz-abandono-carrinho-ecommerce` | Como a Realidade Aumentada reduz o abandono de carrinho | /blog/ar-reduz-abandono-carrinho-ecommerce |
 | `assistente-virtual-compras` | Assistente virtual compras: o que ele já resolve e onde ainda trava | /blog/assistente-virtual-compras |
 | `ativacao-de-marca-em-evento` | Ativação de marca em evento: o phygital que gera lead | /blog/ativacao-de-marca-em-evento |
+| `ativacoes-digitais` | Ativações digitais: como transformar campanha em experiência | /blog/ativacoes-digitais |
 | `aumentar-confianca-compra-online` | Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em c | /blog/aumentar-confianca-compra-online |
 | `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
 | `checkout-otimizacao` | Checkout otimização: os pontos de atrito que derrubam a venda no fim | /blog/checkout-otimizacao |
