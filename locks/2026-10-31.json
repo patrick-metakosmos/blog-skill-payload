@@ -1,6 +1,9 @@
 {
   "dia": "2026-10-31",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-10-31T07:00:03"
+  "inicio": "2026-10-31T07:00:03",
+  "fim": "2026-10-31T07:18:29",
+  "slug": "chatbot-ecommerce-atendimento-a-venda",
+  "url": "https://metakosmos.com.br/blog/chatbot-ecommerce-atendimento-a-venda"
 }
