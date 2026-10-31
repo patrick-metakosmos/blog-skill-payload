@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **109** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **110** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -17,6 +17,7 @@ Total: **109** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `ativacoes-digitais` | Ativações digitais: como transformar campanha em experiência | /blog/ativacoes-digitais |
 | `aumentar-confianca-compra-online` | Aumentar confiança compra online: os 6 sinais que fazem o consumidor clicar em c | /blog/aumentar-confianca-compra-online |
 | `automacao-de-marketing-ecommerce` | Automação de marketing e-commerce: o que automatizar primeiro e o que deixar hum | /blog/automacao-de-marketing-ecommerce |
+| `chatbot-ecommerce-atendimento-a-venda` | Chatbot e-commerce: do atendimento à venda | /blog/chatbot-ecommerce-atendimento-a-venda |
 | `checkout-otimizacao` | Checkout otimização: os pontos de atrito que derrubam a venda no fim | /blog/checkout-otimizacao |
 | `como-aparecer-no-google-ai-overviews` | Como aparecer no Google AI Overviews: o que muda no SEO quando o clique some | /blog/como-aparecer-no-google-ai-overviews |
 | `como-aumentar-faturamento-ecommerce` | Como aumentar faturamento e-commerce: as 7 alavancas antes de subir o investimen | /blog/como-aumentar-faturamento-ecommerce |
