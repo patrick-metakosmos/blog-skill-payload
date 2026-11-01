@@ -119,7 +119,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 71 | seg 26/10/26 | P1 | KW | Live commerce Brasil: o que funciona e o que ainda trava | 56 | `live commerce Brasil` | 3200 | Média | Topo | ✅ publicado | 2026-10-29 | live-commerce-brasil |
 | 72 | ter 27/10/26 | P4 | KW | Ativações digitais: como transformar campanha em experiência | 60 | `Ativações Digitais` | 2100 | Baixa | Topo | ✅ publicado | 2026-10-30 | ativacoes-digitais |
 | 73 | qua 28/10/26 | P7 | KW | Chatbot e-commerce: do atendimento à venda | 42 | `chatbot e-commerce` | 4800 | Alta | Topo | ✅ publicado | 2026-10-31 | chatbot-ecommerce-atendimento-a-venda |
-| 74 | qui 29/10/26 | P7 | KW | Metaverso e-commerce: o que sobrou da promessa | 46 | `metaverso e-commerce` | 1800 | Baixa | Topo | ⬜ a fazer | — | — |
+| 74 | qui 29/10/26 | P7 | KW | Metaverso e-commerce: o que sobrou da promessa | 46 | `metaverso e-commerce` | 1800 | Baixa | Topo | ✅ publicado | 2026-11-01 | metaverso-ecommerce-o-que-sobrou-da-promessa |
 | 75 | sex 30/10/26 | P5 | KW | Lucratividade e-commerce como melhorar: as margens que vazam sem ninguém ver | **76** | `lucratividade e-commerce como melhorar` | 1400 | Baixa | Meio | ⬜ a fazer | — | — |
 | 76 | sáb 31/10/26 | P1 | KW | Marketing Imersivo: o que é e como ele substitui a publicidade convencional no topo do funil | **92** | `Marketing Imersivo` | 1800 | Baixa | Topo | ✅ publicado | 2026-06-19 | marketing-imersivo-varejo-moda |
 | 77 | dom 01/11/26 | P2 | KW | Experimentar roupa online: como funciona hoje e o que ainda falha | **65** | `experimentar roupa online` | 1800 | Baixa | Topo | ⬜ a fazer | — | — |

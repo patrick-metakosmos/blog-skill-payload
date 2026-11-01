@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **110** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **111** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -66,6 +66,7 @@ Total: **110** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `margem-de-lucro-ecommerce` | Margem de lucro e-commerce: onde ela é perdida | /blog/margem-de-lucro-ecommerce |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
+| `metaverso-ecommerce-o-que-sobrou-da-promessa` | Metaverso e-commerce: o que sobrou da promessa | /blog/metaverso-ecommerce-o-que-sobrou-da-promessa |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
 | `mk-3d-shop-visualizador-3d-ar` | mK 3D Shop: visualizador 3D com AR para e-commerce | /blog/mk-3d-shop-visualizador-3d-ar |
 | `mk-fashion-provador-virtual-moda-ia` | mK Fashion+: provador virtual de moda com IA | /blog/mk-fashion-provador-virtual-moda-ia |
