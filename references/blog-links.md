@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **113** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **114** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -29,6 +29,7 @@ Total: **113** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `como-reduzir-devolucoes-ecommerce-moda` | Como reduzir devoluções no e-commerce de moda: causas, custo real e o que funcio | /blog/como-reduzir-devolucoes-ecommerce-moda |
 | `como-vender-mais-online` | Como vender mais online: o guia para quem já esgotou mídia paga | /blog/como-vender-mais-online |
 | `como-visualizar-produto-em-casa-antes-de-comprar` | Como visualizar produto em casa antes de comprar: o passo a passo da AR pelo cel | /blog/como-visualizar-produto-em-casa-antes-de-comprar |
+| `comprar-oculos-online-com-confianca` | Comprar óculos online com confiança: o que resolve a dúvida de como fica no rost | /blog/comprar-oculos-online-com-confianca |
 | `comprar-roupa-online-sem-errar-tamanho` | Comprar roupa online sem errar tamanho: o que fazer quando a tabela de medidas m | /blog/comprar-roupa-online-sem-errar-tamanho |
 | `comprar-sapato-online-sem-errar-tamanho` | Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca p | /blog/comprar-sapato-online-sem-errar-tamanho |
 | `conteudo-para-tiktok-marcas` | Conteúdo para TikTok marcas: o que produzir por mês para sair da bolha de seguid | /blog/conteudo-para-tiktok-marcas |

@@ -123,7 +123,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 75 | sex 30/10/26 | P5 | KW | Lucratividade e-commerce como melhorar: as margens que vazam sem ninguém ver | **76** | `lucratividade e-commerce como melhorar` | 1400 | Baixa | Meio | ✅ publicado | 2026-11-02 | lucratividade-ecommerce-como-melhorar |
 | 76 | sáb 31/10/26 | P1 | KW | Marketing Imersivo: o que é e como ele substitui a publicidade convencional no topo do funil | **92** | `Marketing Imersivo` | 1800 | Baixa | Topo | ✅ publicado | 2026-06-19 | marketing-imersivo-varejo-moda |
 | 77 | dom 01/11/26 | P2 | KW | Experimentar roupa online: como funciona hoje e o que ainda falha | **65** | `experimentar roupa online` | 1800 | Baixa | Topo | ✅ publicado | 2026-11-03 | experimentar-roupa-online |
-| 78 | seg 02/11/26 | P2 | KW | Comprar óculos online com confiança: o que resolve a dúvida de como fica no rosto | **81** | `comprar óculos online com confiança` | 1800 | Baixa | Topo | ⬜ a fazer | — | — |
+| 78 | seg 02/11/26 | P2 | KW | Comprar óculos online com confiança: o que resolve a dúvida de como fica no rosto | **81** | `comprar óculos online com confiança` | 1800 | Baixa | Topo | ✅ publicado | 2026-11-04 | comprar-oculos-online-com-confianca |
 | 79 | ter 03/11/26 | P3 | KW | Foto de produto com IA: o fim da sessão fotográfica cara | 56 | `foto de produto com IA` | 1800 | Baixa | Meio | ⬜ a fazer | — | — |
 | 80 | qua 04/11/26 | P3 | KW | Configurador de produto online: exemplos por vertical | 53 | `configurador de produto online` | 1800 | Baixa | Meio | ⬜ a fazer | — | — |
 | 81 | qui 05/11/26 | P5 | KW | Testes AB e-commerce: o que testar primeiro na página de produto | **64** | `testes AB e-commerce` | 2200 | Média | Meio | ⬜ a fazer | — | — |
