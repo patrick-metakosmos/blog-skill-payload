@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **114** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **115** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -48,6 +48,7 @@ Total: **114** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `experimentar-roupa-online` | Experimentar roupa online: como funciona hoje e o que ainda falha | /blog/experimentar-roupa-online |
 | `fooh-compra-direta` | FOOH com compra direta: o vídeo CGI que vende dentro do próprio vídeo | /blog/fooh-compra-direta |
 | `fooh-guia-completo-fake-out-of-home-viral` | FOOH (Fake Out of Home): o que é, exemplos e como fazer um vídeo que viraliza | /blog/fooh-guia-completo-fake-out-of-home-viral |
+| `foto-de-produto-com-ia` | Foto de produto com IA: o fim da sessão fotográfica cara | /blog/foto-de-produto-com-ia |
 | `funil-de-conversao-ecommerce` | Funil de conversão e-commerce: onde o dinheiro vaza | /blog/funil-de-conversao-ecommerce |
 | `futuro-do-varejo-digital` | Futuro do varejo digital: o que vem depois do carrinho | /blog/futuro-do-varejo-digital |
 | `geo-generative-engine-optimization` | GEO generative engine optimization: a camada de SEO que nasceu com as IAs | /blog/geo-generative-engine-optimization |

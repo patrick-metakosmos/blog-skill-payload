@@ -124,7 +124,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 76 | sáb 31/10/26 | P1 | KW | Marketing Imersivo: o que é e como ele substitui a publicidade convencional no topo do funil | **92** | `Marketing Imersivo` | 1800 | Baixa | Topo | ✅ publicado | 2026-06-19 | marketing-imersivo-varejo-moda |
 | 77 | dom 01/11/26 | P2 | KW | Experimentar roupa online: como funciona hoje e o que ainda falha | **65** | `experimentar roupa online` | 1800 | Baixa | Topo | ✅ publicado | 2026-11-03 | experimentar-roupa-online |
 | 78 | seg 02/11/26 | P2 | KW | Comprar óculos online com confiança: o que resolve a dúvida de como fica no rosto | **81** | `comprar óculos online com confiança` | 1800 | Baixa | Topo | ✅ publicado | 2026-11-04 | comprar-oculos-online-com-confianca |
-| 79 | ter 03/11/26 | P3 | KW | Foto de produto com IA: o fim da sessão fotográfica cara | 56 | `foto de produto com IA` | 1800 | Baixa | Meio | ⬜ a fazer | — | — |
+| 79 | ter 03/11/26 | P3 | KW | Foto de produto com IA: o fim da sessão fotográfica cara | 56 | `foto de produto com IA` | 1800 | Baixa | Meio | ✅ publicado | 2026-11-05 | foto-de-produto-com-ia |
 | 80 | qua 04/11/26 | P3 | KW | Configurador de produto online: exemplos por vertical | 53 | `configurador de produto online` | 1800 | Baixa | Meio | ⬜ a fazer | — | — |
 | 81 | qui 05/11/26 | P5 | KW | Testes AB e-commerce: o que testar primeiro na página de produto | **64** | `testes AB e-commerce` | 2200 | Média | Meio | ⬜ a fazer | — | — |
 | 82 | sex 06/11/26 | P5 | KW | Omnichannel e-commerce: integrar loja e site sem duplicar operação | **66** | `omnichannel e-commerce` | 4100 | Alta | Topo | ⬜ a fazer | — | — |
