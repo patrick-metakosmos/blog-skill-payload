@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **115** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **116** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -32,6 +32,7 @@ Total: **115** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `comprar-oculos-online-com-confianca` | Comprar óculos online com confiança: o que resolve a dúvida de como fica no rost | /blog/comprar-oculos-online-com-confianca |
 | `comprar-roupa-online-sem-errar-tamanho` | Comprar roupa online sem errar tamanho: o que fazer quando a tabela de medidas m | /blog/comprar-roupa-online-sem-errar-tamanho |
 | `comprar-sapato-online-sem-errar-tamanho` | Comprar sapato online sem errar tamanho: o guia da numeração que muda de marca p | /blog/comprar-sapato-online-sem-errar-tamanho |
+| `configurador-de-produto-online` | Configurador de produto online: exemplos por vertical | /blog/configurador-de-produto-online |
 | `conteudo-para-tiktok-marcas` | Conteúdo para TikTok marcas: o que produzir por mês para sair da bolha de seguid | /blog/conteudo-para-tiktok-marcas |
 | `conteudo-que-viraliza-redes-sociais` | Conteúdo que viraliza redes sociais: os gatilhos por trás de milhões de views or | /blog/conteudo-que-viraliza-redes-sociais |
 | `cro-ecommerce` | CRO e-commerce: o método de otimização de conversão | /blog/cro-ecommerce |
