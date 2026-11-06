@@ -1,6 +1,9 @@
 {
   "dia": "2026-11-06",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-11-06T07:00:03"
+  "inicio": "2026-11-06T07:00:03",
+  "fim": "2026-11-06T07:14:51",
+  "slug": "configurador-de-produto-online",
+  "url": "https://metakosmos.com.br/blog/configurador-de-produto-online"
 }
