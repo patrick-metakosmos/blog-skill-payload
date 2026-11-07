@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **116** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **117** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -105,6 +105,7 @@ Total: **116** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `taxa-de-conversao-ecommerce` | Taxa de conversão e-commerce: o guia completo para 2026 | /blog/taxa-de-conversao-ecommerce |
 | `tecnologia-para-ecommerce` | Tecnologia para e-commerce: o stack que sustenta conversão em 2026 | /blog/tecnologia-para-ecommerce |
 | `tendencias-immersive-commerce-2026-2027` | Tendências de Immersive Commerce 2026: o que vem aí | /blog/tendencias-immersive-commerce-2026-2027 |
+| `testes-ab-ecommerce-pagina-de-produto` | Testes AB e-commerce: o que testar primeiro na página de produto | /blog/testes-ab-ecommerce-pagina-de-produto |
 | `ticket-medio-ecommerce` | Ticket médio e-commerce: como crescer sem dar desconto | /blog/ticket-medio-ecommerce |
 | `transformacao-digital-varejo` | Transformação digital varejo: por onde começar sem queimar orçamento | /blog/transformacao-digital-varejo |
 | `ux-ecommerce-melhorar` | UX e-commerce melhorar: como a interface esconde ou revela o produto | /blog/ux-ecommerce-melhorar |
