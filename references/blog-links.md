@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **117** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **118** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -80,6 +80,7 @@ Total: **117** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `mk-shop-the-look-ia-look-completo-ecommerce` | Shop the look com IA: como a foto do look vira carrinho completo no e-commerce d | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
 | `mk-skin-ai-diagnostico-pele-ia-ecommerce` | mK Skin AI: diagnóstico de pele com IA por selfie | /blog/mk-skin-ai-diagnostico-pele-ia-ecommerce |
 | `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
+| `omnichannel-ecommerce-loja-e-site-sem-duplicar-operacao` | Omnichannel e-commerce: como integrar loja física e site sem duplicar catálogo,  | /blog/omnichannel-ecommerce-loja-e-site-sem-duplicar-operacao |
 | `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
 | `pagina-de-produto-que-converte` | Página de produto que converte: a anatomia da PDP que vende | /blog/pagina-de-produto-que-converte |
 | `paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou` | Páginas de Produto Imersivas: O Futuro do E-commerce Já Começou | /blog/paginas-de-produto-imersivas-o-futuro-do-e-commerce-ja-comecou |
