@@ -129,7 +129,7 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 81 | qui 05/11/26 | P5 | KW | Testes AB e-commerce: o que testar primeiro na página de produto | **64** | `testes AB e-commerce` | 2200 | Média | Meio | ✅ publicado | 2026-11-07 | testes-ab-ecommerce-pagina-de-produto |
 | 82 | sex 06/11/26 | P5 | KW | Omnichannel e-commerce: integrar loja e site sem duplicar operação | **66** | `omnichannel e-commerce` | 4100 | Alta | Topo | ✅ publicado | 2026-11-08 | omnichannel-ecommerce-loja-e-site-sem-duplicar-operacao |
 | 83 | sáb 07/11/26 | P3 | KW | Configurador de produto: quando deixar o cliente montar vende mais | **66** | `Configurador de Produto` | 2200 | Média | Topo | ✅ publicado | 2026-11-06 | configurador-de-produto-online |
-| 84 | dom 08/11/26 | P2 | KW | Testar maquiagem online grátis: como funciona e onde | 52 | `testar maquiagem online grátis` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |
+| 84 | dom 08/11/26 | P2 | KW | Testar maquiagem online grátis: como funciona e onde | 52 | `testar maquiagem online grátis` | 1600 | Baixa | Topo | ✅ publicado | 2026-11-09 | testar-maquiagem-online-gratis |
 | 85 | seg 09/11/26 | P2 | KW | Experiência de compra de moda online: o que o consumidor sente entre a foto e a entrega | **87** | `experiência de compra de moda online` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |
 | 86 | ter 10/11/26 | P1 | KW | Customer experience e-commerce: do primeiro clique ao pós-venda | **63** | `customer experience e-commerce` | 4900 | Alta | Topo | ⬜ a fazer | — | — |
 | 87 | qua 11/11/26 | P5 | KW | ROAS e-commerce melhorar: as alavancas que estão fora da mídia paga | **67** | `ROAS e-commerce melhorar` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
