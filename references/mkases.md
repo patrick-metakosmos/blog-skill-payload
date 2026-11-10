@@ -14,6 +14,7 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `avon-3d` | Avon · Vídeo 3D | /mkases/avon-3d |
 | `avon-ai` | Avon · Vídeo IA | /mkases/avon-ai |
 | `avon-renew` | Avon Renew · Filtro AR Press-kit | /mkases/avon-renew |
+| `baruel-tenys-pe-video-com-ia-sabrina-sato` | Baruel · Vídeo com IA do Tenys Pé com Sabrina Sato | /mkases/baruel-tenys-pe-video-com-ia-sabrina-sato |
 | `bet-nacional` | Bet Nacional | /mkases/bet-nacional |
 | `betnacional` | Betnacional · Vídeo FOOH | /mkases/betnacional |
 | `bio-extratus-fooh` | Bio Extratus · FOOH | /mkases/bio-extratus-fooh |
@@ -21,7 +22,6 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `bio-extratus-video-foo` | Bio Extratus · Vídeo FOOH Proteção+ | /mkases/bio-extratus-video-foo |
 | `bio-extratus-videos` | Bio Extratus · Vídeos FOOH, 3D e IA | /mkases/bio-extratus-videos |
 | `boca-rosa` | Boca Rosa · Provador Virtual AR | /mkases/boca-rosa |
-| `boca-rosa-mk-tint` | Boca Rosa · mK Tint | /mkases/boca-rosa-mk-tint |
 | `caixa-pre-pago-video-fooh` | Caixa · Vídeo FOOH Caixa Pré-Pago | /mkases/caixa-pre-pago-video-fooh |
 | `case-mkase` | Case mKase | /mkases/case-mkase |
 | `case-mkase-03111` | Case mKase · 03111 | /mkases/case-mkase-03111 |
@@ -47,6 +47,7 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `colegio-sigma` | Colégio Sigma · Vídeo IA Volta às Aulas | /mkases/colegio-sigma |
 | `conviva` | Conviva · Tour Virtual 3D Imobiliário | /mkases/conviva |
 | `copra-video-ia` | Copra Alimentos · Vídeo IA | /mkases/copra-video-ia |
+| `feimi-videos-ia-edicoes-inverno` | FEIMI · Quatro vídeos com IA para as edições de inverno | /mkases/feimi-videos-ia-edicoes-inverno |
 | `filtro-ar` | Filtro AR | /mkases/filtro-ar |
 | `flexform-mk-3d-shop` | Flexform · Visualizador 3D | /mkases/flexform-mk-3d-shop |
 | `flora` | Francis Flora · Filtro AR Aquarelas | /mkases/flora |
@@ -55,12 +56,9 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `freeco-fooh` | FreeCo · Campanha FOOH | /mkases/freeco-fooh |
 | `fuel-provador` | Fuel · Provador Virtual 3D/AR | /mkases/fuel-provador |
 | `general-motors` | General Motors · Visualizador 3D/AR | /mkases/general-motors |
-| `globo` | Globo | /mkases/globo |
 | `globo-fake-out-of-home` | TV Globo · Vídeo FOOH | /mkases/globo-fake-out-of-home |
-| `globo-webar-festival-data-lab-ia` | Globo · WebAR Festival Data Lab + IA | /mkases/globo-webar-festival-data-lab-ia |
 | `gregory-provador-virtual-3` | Gregory · mK Fashion+ | /mkases/gregory-provador-virtual-3 |
 | `grendene` | Grendene · Vídeos FOOH & IA | /mkases/grendene |
-| `grendene-fooh` | Grendene · FOOH | /mkases/grendene-fooh |
 | `hapvida-fooh-2` | Hapvida · Vídeos FOOH | /mkases/hapvida-fooh-2 |
 | `hapvida-video-ia` | Hapvida · Vídeos de IA | /mkases/hapvida-video-ia |
 | `heineken` | Heineken | /mkases/heineken |
@@ -99,7 +97,7 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `prio-fooh` | Prio · Vídeo FOOH Corrida PRIO | /mkases/prio-fooh |
 | `provador-virtual-realidade-aumentada-mascavo` | Mascavo · Provador Virtual AR | /mkases/provador-virtual-realidade-aumentada-mascavo |
 | `reenergisa` | (re)energisa · VR e AI em evento | /mkases/reenergisa |
-| `rider-video-ia-slide-ronaldinho-gaucho` | Rider · Vídeo IA Slide Ronaldinho Gaúcho | /mkases/rider-video-ia-slide-ronaldinho-gaucho |
+| `rider-video-ia-colecao-r-high` | Rider · Vídeo com IA da coleção R-High | /mkases/rider-video-ia-colecao-r-high |
 | `serasa` | Serasa Experian · Vídeo FOOH | /mkases/serasa |
 | `sesc-fake-out-of-home` | SESC ES · Vídeos FOOH | /mkases/sesc-fake-out-of-home |
 | `skala` | Skala · Vídeos 3D e FOOH | /mkases/skala |
@@ -111,3 +109,5 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `village-mall` | VillageMall · Vídeo FOOH | /mkases/village-mall |
 | `vr-fertgroup` | Fertgroup · Experiência VR e Webapp AR | /mkases/vr-fertgroup |
 | `wap-fooh` | WAP · Vídeo FOOH | /mkases/wap-fooh |
+| `wepink-video-ia-apresentacao-franquia` | We Pink · Vídeo com IA para apresentação da franquia | /mkases/wepink-video-ia-apresentacao-franquia |
+| `wepink-videos-de-perfume-com-ia` | WePink · Vídeos de perfume com IA | /mkases/wepink-videos-de-perfume-com-ia |

@@ -73,7 +73,6 @@ Total: **119** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
 | `metaverso-ecommerce-o-que-sobrou-da-promessa` | Metaverso e-commerce: o que sobrou da promessa | /blog/metaverso-ecommerce-o-que-sobrou-da-promessa |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
-| `mk-3d-shop-visualizador-3d-ar` | mK 3D Shop: visualizador 3D com AR para e-commerce | /blog/mk-3d-shop-visualizador-3d-ar |
 | `mk-fashion-provador-virtual-moda-ia` | mK Fashion+: provador virtual de moda com IA | /blog/mk-fashion-provador-virtual-moda-ia |
 | `mk-home-simulador-ia-moveis-decoracao` | mK Home AI: simulador de móveis e decoração com IA | /blog/mk-home-simulador-ia-moveis-decoracao |
 | `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House da metaKosmos para projetos imersivos sob medida | /blog/mk-labs-creative-house-projetos-imersivos |
@@ -93,6 +92,7 @@ Total: **119** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `provador-virtual-gratuito` | Provador virtual gratuito: o que existe de graça e onde está o limite | /blog/provador-virtual-gratuito |
 | `provador-virtual-ia-generativa-ecommerce` | Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce | /blog/provador-virtual-ia-generativa-ecommerce |
 | `provador-virtual-plus-size` | Provador virtual plus size: por que inclusão corporal decide a adoção antes da a | /blog/provador-virtual-plus-size |
+| `quanto-custa-provador-virtual` | Quanto custa provador virtual: faixas de preço reais, o que entra na conta e com | /blog/quanto-custa-provador-virtual |
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
 | `quanto-tempo-implementar-provador-virtual` | Quanto tempo leva para implementar provador virtual: o cronograma real de catálo | /blog/quanto-tempo-implementar-provador-virtual |
 | `realidade-aumentada-ecommerce-venda-mais-devolva-menos` | Realidade Aumentada no E-Commerce: Venda Mais e Devolva Menos | /blog/realidade-aumentada-ecommerce-venda-mais-devolva-menos |
