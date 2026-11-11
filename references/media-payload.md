@@ -1,6 +1,6 @@
 # Catálogo da Media do Payload (fonte de imagens reais)
 
-Total: **879** mídias. Gerado por `scripts/sync_payload_media.py`.
+Total: **942** mídias. Gerado por `scripts/sync_payload_media.py`.
 
 **Como usar:** no `artigo.html`, referencie a imagem pelo NOME DE ARQUIVO exato da coluna `filename`
 (ex: `<img src="mK3DShop-Flexform.gif" alt="...">`). O publicador resolve o ID na Media.
@@ -144,6 +144,7 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `AVON-AI-3.gif` | horizontal | 678x296 | 3591 | Avon GIF |
 | `avon-batom-liquido-matte-glitter-effect-2.webp` | horizontal | 612x344 | 2136 | Batom líquido Avon Matte Glitter Effect em still de vídeo publicitário, sobre fu |
 | `avon-batom-liquido-matte-glitter-effect.webp` | horizontal | 612x344 | 2136 | Batom líquido Avon Matte Glitter Effect em still de vídeo publicitário, sobre fu |
+| `b2bgn_rider.png` | horizontal | 2390x544 | 11 | rider |
 | `Beatriz-Guerrer.png.webp` | quadrada | 820x820 | 26 | Beatriz Guerrer.png |
 | `betnacional-1024x576.png` | horizontal | 1024x576 | 10 | Betnacional logo |
 | `betnacional-dirigivel-praia-copacabana-2.webp` | vertical | 320x568 | 1355 | Dirigível com logo Bet Nacional sobrevoando a praia de Copacabana, com pessoas j |
@@ -160,9 +161,17 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `bioextratus-outdoor-praia-defenda-sua-beleza.webp` | horizontal | 2000x1125 | 121 | Outdoor da Bio Extratus 'Defenda sua Beleza' à beira-mar, com mulher correndo em |
 | `boca-rosa-1024x576.png` | horizontal | 1024x576 | 10 | Boca Rosa logo |
 | `boca-rosa-bianca-andrade-estudio-maquiagem.webp` | horizontal | 768x512 | 17 | Bianca Andrade (Boca Rosa) em estúdio de gravação com prateleira de produtos de  |
+| `boca-rosa-depoimento-felipe-site.mp4` | ? | ? | 15146 | Felipe Bernardo, Head de E-commerce da Boca Rosa, fala sobre o provador virtual  |
+| `boca-rosa-provador-bianca.jpg` | vertical | 720x1272 | 56 | Bianca Andrade com o tom Base Média Clara aplicado pelo provador virtual de maqu |
+| `boca-rosa-provador-camera.jpg` | vertical | 720x1272 | 42 | Provador virtual da Boca Rosa: escolha entre carregar uma foto ou usar a câmera  |
+| `boca-rosa-provador-hero.mp4` | ? | ? | 520 | Provador virtual de maquiagem da Boca Rosa em uso: da página do produto à base a |
+| `boca-rosa-provador-pagina.jpg` | vertical | 720x1272 | 43 | Página do Stick Pele Multifuncional da Boca Rosa com o botão Provador virtual |
+| `boca-rosa-provador-thumb.jpg` | horizontal | 1278x720 | 78 | Provador virtual de maquiagem da Boca Rosa: botão na página do produto e Bianca  |
 | `boca-rosa-stick-multifuncional-grade-produtos.webp` | quadrada | 841x946 | 33 | Grade de produtos Stick Multifuncional Boca Rosa em diferentes tonalidades |
 | `Boca-Rosa_Bianca-Andrade-768x512-1.webp` | horizontal | 768x512 | 18 | Boca Rosa Bianca Andrade 768x512 1 |
 | `Borba.jpg` | quadrada | 1265x1253 | 492 | Borba |
+| `botao-destaque.gif` | vertical | 240x520 | 1073 | Animação do botão de destaque do provador na galeria |
+| `bx_share-alt.png` | quadrada | 21x21 | 0 | Compartilhar esta newsletter |
 | `capa-post.jpg` | horizontal | 1920x1080 | 20 | capa post |
 | `Captura-de-tela-2024-06-25-210129.png.webp` | quadrada | 583x615 | 9 | Boca Rosa galeria |
 | `Captura-de-tela-2024-06-25-210139.png.webp` | horizontal | 583x89 | 5 | Boca Rosa galeria |
@@ -196,6 +205,10 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `comentario-vinijr-fooh-betnacional.jpg.webp` | quadrada | 682x608 | 29 | Betnacional logo |
 | `Como-aplicar-paginas-de-produto-imersivas-na-pratica-1024x576.jpg` | horizontal | 1920x1080 | 504 | Como aplicar paginas de produto imersivas na pratica 1024x576 |
 | `COMO.png` | vertical | 1080x1920 | 783 | COMO |
+| `comparacao.gif` | vertical | 240x520 | 1373 | Animação da comparação de peças lado a lado |
+| `Compartilhamento de tela - 2026-11-03 9h55min01s-1.mp4` | ? | ? | 41923 | atesta |
+| `Compartilhamento de tela - 2026-11-03 9h55min01s.mp4` | ? | ? | 41923 | Teste |
+| `compartilhamento.gif` | vertical | 240x520 | 1286 | Animação do compartilhamento de provas pelo WhatsApp |
 | `conviva-tourvirtual.gif` | horizontal | 235x112 | 786 | conviva tourvirtual |
 | `copra-alimentos-corredor-maratona-comemoracao.webp` | vertical | 240x420 | 916 | Corredor comemorando ao cruzar a linha de chegada de maratona patrocinada pela C |
 | `copra-corredor-maratona-produto-sache.webp` | vertical | 720x1280 | 66 | Corredor da maratona Copra segurando sachê do produto, com banners e mascote de  |
@@ -204,6 +217,8 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `Dashboard-de-analytics-consolidado-para-comprovar-ROI-para-diretoria.png` | horizontal | 1124x629 | 47 | Dashboard de analytics consolidado para comprovar ROI para diretoria |
 | `david.jpg.webp` | quadrada | 710x710 | 9 | david.jpg |
 | `DBNjH9hRmIewv1lYpTkccQyIc.webp` | horizontal | 1600x836 | 44 | DBNjH9hRmIewv1lYpTkccQyIc |
+| `depoente-1.jpg` | quadrada | 200x200 | 9 | Julia Plut, Gerente de Marketing da Baruel |
+| `depoente.jpg` | quadrada | 200x200 | 7 | Andressa Guerin, Analista de Marca e Comunicação da Rider |
 | `depoimento-adcos-cliente-retrato.webp` | quadrada | 800x800 | 19 | Foto de depoimento de cliente da Adcos, mulher sorrindo |
 | `depoimento-anasol-cliente-retrato.webp` | quadrada | 800x800 | 29 | Foto de depoimento de cliente da Anasol, homem de barba sorrindo |
 | `depoimento-anderson-cliente-retrato.webp` | quadrada | 769x762 | 11 | Foto de depoimento de cliente, Anderson sorrindo |
@@ -259,6 +274,7 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `ezgif-3474cf25e4a41e.gif` | horizontal | 800x436 | 735 | ezgif 3474cf25e4a41e |
 | `f3cf1365-877c-42ef-8ff2-24896d6c159d.png` | horizontal | 744x261 | 8 | The Westin logo |
 | `Fabio.png.webp` | quadrada | 1080x1080 | 45 | Fabio.png |
+| `favoritos.gif` | vertical | 240x520 | 992 | Animação de provas favoritas no provador virtual mK |
 | `Fernanda-Segalote-Serasa-Experian.jpeg.webp` | quadrada | 710x710 | 14 | Serasa Experian logo |
 | `Fernando-Bernardo-Boca-Rosa.jpeg` | quadrada | 800x800 | 81 | Fernando Bernardo Boca Rosa |
 | `Fernando-Chavarro.png.webp` | quadrada | 820x820 | 10 | Fernando Chavarro.png |
@@ -347,6 +363,10 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `GM-GIF.gif` | horizontal | 426x320 | 1999 | GM GIF |
 | `gregory-modelo-vestido-vermelho-campanha.webp` | horizontal | 1448x1086 | 54 | Modelo da Gregory vestindo vestido vermelho estampado em foto de campanha |
 | `gregory-produto-vestido-bordo-pagina.gif` | horizontal | 388x172 | 628 | Página de produto Gregory com modelo vestindo vestido bordô, preço e botão de co |
+| `gregory-provador-escolha.jpg` | vertical | 480x1036 | 35 | Provador virtual da Gregory: a cliente escolhe uma foto da galeria ou tira na ho |
+| `gregory-provador-hero.mp4` | ? | ? | 202 | Provador virtual com IA da Gregory em uso: da foto da cliente ao blazer aplicado |
+| `gregory-provador-resultado.jpg` | vertical | 480x1036 | 38 | Resultado do provador virtual da Gregory: blazer suede camel aplicado no corpo |
+| `gregory-provador-thumb.jpg` | horizontal | 1280x720 | 52 | Provador virtual de roupas com IA da Gregory: escolha da foto, tela WooW e o loo |
 | `gregory.gif` | horizontal | 388x172 | 628 | gregory |
 | `Guilherme-Monteagudo-Jotacom.jpeg` | quadrada | 800x800 | 59 | Guilherme Monteagudo Jotacom |
 | `Gustavo.jpeg.webp` | quadrada | 800x800 | 23 | Gustavo.jpeg |
@@ -356,11 +376,16 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `hapvida-helicoptero-vista-aerea-salvador.webp` | vertical | 240x426 | 948 | Helicóptero com identidade visual da Hapvida sobrevoando o litoral de Salvador,  |
 | `hapvida-logo-branca.png` | horizontal | 300x168 | 1 | Hapvida logo |
 | `hapvida-time-futebol-perfilado-estadio.webp` | horizontal | 426x240 | 1491 | Time de futebol perfilado no gramado do estádio antes da partida, com uniformes  |
+| `header.png` | horizontal | 181x10 | 0 | Detalhe colorido do título |
 | `heineken-00-garrafa-geladeira-still-produto.webp` | vertical | 720x1280 | 36 | Still de produto da cerveja Heineken 0.0 ao lado de geladeira estilizada aberta, |
 | `heineken-14-logo-black-and-white-scaled.png` | horizontal | 2048x1032 | 11 | Heineken logo |
 | `heineken-tela-ativacao-ponto-de-venda-2.webp` | vertical | 240x426 | 851 | Tela de ativação da Heineken exibindo vídeo do produto sobre pilhas de caixas de |
 | `heineken-tela-ativacao-ponto-de-venda.webp` | vertical | 240x426 | 851 | Tela de ativação da Heineken exibindo vídeo do produto sobre pilhas de caixas de |
 | `heineken.gif` | vertical | 240x426 | 2926 | Heineken GIF |
+| `hero-1.mp4` | ? | ? | 1975 | Vídeo vertical em que o mascote ursinho da FEIMI voa com balões sobre a Avenida  |
+| `hero-2.mp4` | ? | ? | 2352 | Vídeo vertical em que um balão leva uma loja We Pink e conduz o espectador pelo  |
+| `hero-asset.png` | horizontal | 628x387 | 174 | Banner de novidades do provador virtual mK |
+| `hero.mp4` | ? | ? | 2761 | Vídeo vertical de lançamento da coleção Rider R-High, com closes de fivela, velc |
 | `ian.jpg.webp` | quadrada | 710x710 | 17 | ian.jpg |
 | `igor-marinho.jpg.webp` | quadrada | 1080x1080 | 19 | igor marinho.jpg |
 | `ilha-pura-vista-aerea-predios-residenciais-2.webp` | vertical | 240x426 | 1019 | Vista aérea de prédios residenciais em área urbana arborizada à beira d'água, em |
@@ -405,6 +430,8 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `logo-aneethun.webp` | horizontal | 2000x1061 | 23 | Logo da marca Aneethun |
 | `logo-avon-2.webp` | horizontal | 1024x576 | 8 | Logo da marca Avon |
 | `logo-avon.webp` | horizontal | 1024x576 | 8 | Logo da marca Avon |
+| `logo-baruel-branco.svg` | horizontal | 114x48 | 4 | Baruel |
+| `logo-baruel.svg` | horizontal | 114x48 | 4 | Baruel |
 | `logo-betnacional-2.webp` | horizontal | 1024x576 | 11 | Logo da marca Bet Nacional |
 | `logo-betnacional.webp` | horizontal | 1920x1080 | 28 | Logo da marca Bet Nacional |
 | `logo-bioextratus-2.webp` | horizontal | 1920x1080 | 35 | Logo da marca Bio Extratus Cosméticos Naturais |
@@ -582,6 +609,7 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `MK-AGENTES-IA-HERO-MOCKUP.png` | vertical | 602x766 | 90 | MK AGENTES IA HERO MOCKUP |
 | `MK-BEAUTY-3.gif` | quadrada | 878x996 | 6153 | MK BEAUTY 3 |
 | `mk-fashion-3.gif` | quadrada | 238x238 | 881 | mk fashion 3 |
+| `mk-fashion.png` | horizontal | 154x29 | 1 | Logo mK Fashion |
 | `MK-INFOGRAFICO-TINT-scaled.jpg` | vertical | 1440x2560 | 235 | test upload |
 | `MK-MK-3D-ADS_1.png` | horizontal | 518x410 | 46 | MK MK 3D ADS 1 |
 | `MK-MK-3D-ADS_2.png` | horizontal | 518x410 | 58 | MK MK 3D ADS 2 |
@@ -811,6 +839,7 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `provadorvirtual-osklen-shop-the-look-vitrine-produtos.webp` | horizontal | 1138x496 | 3448 | Provador virtual (mK Fashion): demonstração da funcionalidade Shop the Look na l |
 | `provadorvirtual-redley-tenis-visualizador-3d.webp` | quadrada | 238x238 | 441 | Provador virtual (mK Fashion): visualizador 3D de tênis Redley com opções de mod |
 | `provadorvirtual-relogio-ar-pulso-celular.webp` | horizontal | 1920x1080 | 56 | Provador virtual (mK Fashion/AI Shooting): relógio experimentado virtualmente no |
+| `purple-heart.png` | quadrada | 23x23 | 1 | Coração roxo |
 | `Quanto-custa-implementar-um-POC-de-Visualizador-3D.jpg` | horizontal | 1920x1080 | 890 | Quanto custa implementar um POC de Visualizador 3D |
 | `Rafa-e1752193860849.jpg` | quadrada | 174x174 | 9 | Rafa e1752193860849 |
 | `rayban-meta-oculos-inteligentes-apresentacao-zuckerberg.webp` | horizontal | 891x497 | 24 | Mark Zuckerberg apresentando os novos óculos inteligentes Ray-Ban Meta no palco, |
@@ -830,6 +859,9 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `Screenshot-2026-03-02-153758.png` | horizontal | 1083x607 | 240 | Screenshot 2026 03 02 153758 |
 | `Screenshot-2026-03-02-153832.png` | horizontal | 1084x607 | 442 | Screenshot 2026 03 02 153832 |
 | `Screenshot-2026-03-02-154202.png` | horizontal | 1082x605 | 314 | Screenshot 2026 03 02 154202 |
+| `Sem999ulo-1.png` | horizontal | 2555x1431 | 314 | teste |
+| `Sem999ulo-2.png` | horizontal | 2555x1431 | 314 | teste |
+| `Sem999ulo.png` | horizontal | 2555x1431 | 314 | teste |
 | `serasa-gif.gif` | vertical | 320x568 | 2896 | Serasa Experian GIF |
 | `sesc-portico-entrada-letreiro-3d-colorido.webp` | vertical | 720x1280 | 59 | Pórtico de entrada do SESC com letreiro 3D colorido em estilo lúdico |
 | `sesc-vista-aerea-resort-praia.webp` | vertical | 240x426 | 913 | Vista aérea de resort de praia do SESC, com piscinas, área verde e orla |
@@ -838,6 +870,21 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `shop-the-look-mk.gif` | horizontal | 1138x496 | 10425 | shop the look mk |
 | `site-mk.png` | horizontal | 1319x604 | 83 | site mk |
 | `skala-comentario-instagram-pote-creme.webp` | horizontal | 321x97 | 4 | Comentário no Instagram perguntando sobre pote de creme da Skala |
+| `slide1-1.mp4` | ? | ? | 498 | Avião puxando a faixa da feira e o mascote acenando na avenida |
+| `slide1-2.mp4` | ? | ? | 448 | Balão We Pink sobrevoando uma cidade ao amanhecer |
+| `slide1.mp4` | ? | ? | 476 | Sandálias Rider R-High pretas sobre um puff bege |
+| `slide1v-1.mp4` | ? | ? | 201 | Página do Stick Pele da Boca Rosa com o botão Provador virtual |
+| `slide1v.mp4` | ? | ? | 174 | Passo a passo do provador mK Fashion+ na loja da Gregory: escolha da foto |
+| `slide2-1.mp4` | ? | ? | 717 | Mascote da FEIMI voando com balões sobre a avenida |
+| `slide2-2.mp4` | ? | ? | 465 | Mão abrindo a porta de vidro de uma loja We Pink |
+| `slide2.mp4` | ? | ? | 427 | Close do velcro e da tira acolchoada da sandália Rider R-High |
+| `slide2v-1.mp4` | ? | ? | 133 | Provador virtual da Boca Rosa com câmera ao vivo e escolha de tom |
+| `slide2v.mp4` | ? | ? | 154 | Look da Gregory aplicado no corpo da cliente, com seleção de tamanho |
+| `slide3-1.mp4` | ? | ? | 937 | Mascote da FEIMI voando com um guarda-chuva sobre a cidade |
+| `slide3-2.mp4` | ? | ? | 346 | Mão pegando um perfume na prateleira iluminada da loja |
+| `slide3.mp4` | ? | ? | 528 | Close da fivela metálica com a marca Rider em relevo |
+| `slide4-1.mp4` | ? | ? | 481 | Vista aérea de uma rua com pessoas caminhando em direção à loja |
+| `slide4.mp4` | ? | ? | 588 | Sandálias Rider R-High empilhadas sobre formas bege e marrom |
 | `stanley-gif.gif` | vertical | 240x426 | 1902 | Stanley 1913 GIF |
 | `stanley-totem-digital-praia-calor-2.webp` | vertical | 240x426 | 308 | Totem digital na praia com palmeiras exibindo alerta de calor de 40°C, ativação  |
 | `stanley-totem-digital-praia-calor.webp` | vertical | 240x426 | 308 | Totem digital na praia com palmeiras exibindo alerta de calor de 40°C, ativação  |
@@ -846,13 +893,22 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `state-of-immersive-commerce-capa.png` | horizontal | 1275x717 | 350 | state of immersive commerce capa |
 | `statkraft-card-energia-solar-sustentabilidade.webp` | vertical | 203x360 | 315 | Card ilustrado da Statkraft sobre energia solar e sustentabilidade, com ícone de |
 | `Stephanie-Tardin-Loreal.jpeg` | quadrada | 763x763 | 16 | Stephanie Tardin Loreal |
+| `stu.png` | quadrada | 44x46 | 3 | Mascote STU com óculos |
 | `TALES-PINHO.jpg.webp` | quadrada | 500x500 | 5 | TALES PINHO.jpg |
 | `tarja-1024x576.jpg.webp` | horizontal | 1024x576 | 2 | Heineken case hero |
+| `tenys-pe-sabrina-sato-filme.mp4` | ? | ? | 2287 | Vídeo com IA do Tenys Pé com Sabrina Sato: oito tipos de pé até o produto, filme |
+| `tenys-pe-sabrina-sato-thumb.jpg` | horizontal | 1278x720 | 108 | Vídeo com IA do Tenys Pé: salto alto, chuteira e Sabrina Sato com o tênis e o Te |
+| `tenys-pe-sabrina-sato.mp4` | ? | ? | 987 | Sabrina Sato aplica o Tenys Pé no tênis, no vídeo com IA da Baruel |
+| `tenys-pe-tipos-de-pe.mp4` | ? | ? | 1180 | Vídeo com IA do Tenys Pé: pé descalço, salto alto, chuteira e sapato social em s |
+| `tenys-pe-transicoes-ia.mp4` | ? | ? | 1081 | Vídeo com IA do Tenys Pé: sandália, pé no banheiro, sapatilha de balé e nadadeir |
 | `terraco-lounge-vista-cidade-guarda-sois-amarelos.webp` | horizontal | 426x240 | 881 | Terraço lounge com guarda-sóis amarelos, mesas e vista para o horizonte urbano a |
 | `thumb-04.03.png` | horizontal | 1973x1110 | 1712 | thumb 04.03 |
 | `thumb-05.03.jpg` | horizontal | 1920x1080 | 1090 | thumb 05.03 |
+| `thumb-1.jpg` | horizontal | 1280x720 | 59 | Mascote ursinho da FEIMI voando com balões sobre a Avenida Paulista |
+| `thumb-2.jpg` | horizontal | 1280x720 | 32 | Balão We Pink sobre uma cidade ao amanhecer |
 | `thumb-lancamento-Boca-Rosa.jpg` | vertical | 1080x1920 | 32 | thumb lancamento Boca Rosa |
 | `thumb-videos-com-ia.jpg` | horizontal | 1920x1080 | 103 | thumb videos com ia |
+| `thumb.jpg` | horizontal | 1280x720 | 22 | Close da sandália Rider R-High com tiras em velcro |
 | `tiago-p.jpg.webp` | quadrada | 710x710 | 9 | tiago p.jpg |
 | `toymania_sem_fundo.png` | quadrada | 512x512 | 37 | Toymania logo |
 | `ufc-1024x576.png` | horizontal | 1024x576 | 4 | UFC logo |
@@ -885,6 +941,13 @@ Para hero/featured, prefira uma imagem **horizontal**.
 | `wap-av-paulista-vista-aerea-ativacao.webp` | vertical | 240x426 | 1586 | Vista aérea da Avenida Paulista em São Paulo com faixas vermelhas pintadas na vi |
 | `wap-logo-branca.png.webp` | quadrada | 225x225 | 5 | WAP logo |
 | `webappar_globo.gif` | vertical | 166x360 | 1536 | WebApp AR da Globo em Funcionamento |
+| `wepink-crave-quadrado.mp4` | ? | ? | 3839 | WePink Crave: vídeo com IA do mK AI Studio, frasco numa praia tropical com uma p |
+| `wepink-eternal-cherish.mp4` | ? | ? | 2205 | WePink Eternal Cherish: vídeo com IA do mK AI Studio, frasco numa estante de bib |
+| `wepink-heaven-blue-horizontal.mp4` | ? | ? | 1960 | WePink Heaven Blue: vídeo com IA do mK AI Studio, frasco com limão e frutas verm |
+| `wepink-heaven-blue-thumb.jpg` | horizontal | 1280x720 | 78 | WePink Heaven Blue: frasco com limão e frutas vermelhas à beira-mar (thumbnail m |
+| `wepink-heaven-groom.mp4` | ? | ? | 2332 | WePink Heaven Groom: vídeo com IA do mK AI Studio, homem de terno com o frasco |
+| `wepink-heaven.mp4` | ? | ? | 2112 | WePink Heaven: vídeo com IA do mK AI Studio, frasco com lírio-do-vale e pêssego  |
+| `Wepink_logo.png` | horizontal | 1630x417 | 36 | wepink |
 | `westin-fooh-drones-banner-ativacao-2.webp` | horizontal | 426x240 | 1832 | Ativação FOOH do hotel The Westin: pessoas em um deque lançando um banner erguid |
 | `westin-fooh-drones-banner-ativacao.webp` | horizontal | 426x240 | 1832 | Ativação FOOH do hotel The Westin: pessoas em um deque lançando um banner erguid |
 | `WOOW-PLACE-TO-WORK-OPT-2-1024x1024.jpg.webp` | quadrada | 1024x1024 | 21 | WOOW PLACE TO WORK OPT 2 1024x1024.jpg |
