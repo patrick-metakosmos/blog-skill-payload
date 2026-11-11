@@ -1,6 +1,9 @@
 {
   "dia": "2026-11-11",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-11-11T11:00:03"
+  "inicio": "2026-11-11T11:00:03",
+  "fim": "2026-11-11T11:18:34",
+  "slug": "provador-virtual-nuvemshop",
+  "url": "https://metakosmos.com.br/blog/provador-virtual-nuvemshop"
 }
