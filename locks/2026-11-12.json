@@ -1,6 +1,9 @@
 {
   "dia": "2026-11-12",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-11-12T07:00:05"
+  "inicio": "2026-11-12T07:00:05",
+  "fim": "2026-11-12T07:14:44",
+  "slug": "provador-virtual-vtex",
+  "url": "https://metakosmos.com.br/blog/provador-virtual-vtex"
 }
