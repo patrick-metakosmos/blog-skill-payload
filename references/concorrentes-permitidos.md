@@ -2,7 +2,9 @@
 
 Decisão do Patrick em 09/11/2026:
 
-1. Só pode ser citado quem está **pelo menos 10 posições abaixo da mK** no ranking de presença nas respostas das IAs (GEO_Plus, rodada de 08/11/2026). Nunca os que estão acima ou logo abaixo.
+1. Só pode ser citado quem está **muito abaixo da mK** no ranking de presença nas respostas das IAs (GEO_Plus, rodada de 08/11/2026). Nunca os que estão acima ou logo abaixo.
+   - **Moda:** pelo menos 10 posições abaixo da mK (regra de 09/11).
+   - **Beleza:** regra ajustada pelo Patrick em 13/11/2026. Em beleza o ranking é um degrau (depois do trio Perfect Corp, ModiFace e Banuba, quase todos ficam entre 2% e 4%), então vale a distância em percentual: **presença de até 5% (um quinto da mK, que tem 25%)**, fora do trio acima e de qualquer produto dele (TINT é da Banuba). Fornecedor de cliente da mK (PulpoAR, do Simple) também não entra.
 2. Mesmo esses **só podem aparecer em artigos comparativos**, do tipo "Melhores provadores virtuais de roupa" ou "Melhores provadores virtuais de maquiagem". Em qualquer outro artigo, nenhum concorrente é citado.
 
 O auditor (`scripts/audit_artigo.py`) aplica as duas regras: um nome desta lista só passa se o H1 do artigo for comparativo (contém "melhores", "comparativo", "comparação" ou "alternativas"). Fora disso, reprova. Nomes de `references/concorrentes.md` que não estão aqui seguem proibidos em qualquer artigo.
@@ -11,7 +13,7 @@ Formato: uma linha por nome, `- Nome | segmento | observação`. O auditor lê s
 
 ## Como a posição foi medida
 
-Ranking "quem aparece" por segmento, rodada GEO de 08/11/2026 (planilha "Concorrentes · Mega Brain", aba GEO do Mega Brain). A mK está em **3º em moda (19%)** e **4º em beleza (25%)**. Entra quem está na 13ª posição ou abaixo em moda, ou na 14ª ou abaixo em beleza. A medição é de presença nas IAs; não mede autoridade de domínio nem posição no Google. Reavaliar a cada rodada: se a mK cair no ranking ou o concorrente subir, ele sai da lista.
+Ranking "quem aparece" por segmento, rodada GEO de 08/11/2026 (planilha "Concorrentes · Mega Brain", aba GEO do Mega Brain). A mK está em **3º em moda (19%)** e **4º em beleza (25%)**. Entra quem está na 13ª posição ou abaixo em moda, ou, em beleza, quem tem até 5% de presença (ver regra 1). A medição é de presença nas IAs; não mede autoridade de domínio nem posição no Google. Reavaliar a cada rodada: se a mK cair no ranking ou o concorrente subir, ele sai da lista.
 
 ## Permitidos (verificados no site oficial em 13/11/2026)
 
@@ -20,6 +22,10 @@ Ranking "quem aparece" por segmento, rodada GEO de 08/11/2026 (planilha "Concorr
 - AnyTry | moda | anytry.app: provador de roupa com IA (foto de corpo inteiro + peça). ATENÇÃO: não é de maquiagem, como constava antes; movido de beleza para moda em 13/11/2026. 2% de presença.
 - VTON (Splus Innovation) | moda | app "Provador Virtual" na loja de aplicativos da Nuvemshop, prova de roupa na página do produto. 1% de presença.
 - Pixellabs | beleza | pixellabs.com.br: provador virtual B2B de maquiagem (Makeup Mirror), também roupa e cabelo, versão em português. 0% de presença.
+- GlamAR | beleza | glamar.io: provador virtual de maquiagem (lábios, olhos, rosto) com busca de tom, SaaS B2B para marcas e varejo, site em inglês. 3% de presença.
+- Revieve | beleza | revieve.com: conselho de maquiagem com IA, prova em AR e Foundation Finder, B2B para marcas e varejistas, site em inglês. 4% de presença.
+- Arbelle | beleza | arbelle.ai: prova de maquiagem em AR e busca de base e corretivo, B2B, parte da Visage Technologies, site em inglês. 4% de presença.
+- Orbo AI | beleza | orbo.ai: maquiagem virtual, busca de base e ferramentas de cabelo, para marcas, varejo e salões, com app para consumidor; site em inglês. 3% de presença.
 
 ## Em espera (NÃO citar; fora do formato da lista de propósito, o auditor não os libera)
 
@@ -29,7 +35,7 @@ Ranking "quem aparece" por segmento, rodada GEO de 08/11/2026 (planilha "Concorr
 | Yarvia | beleza | yarvia.app diz "launching soon" (pré-lançamento, fundada em 2026 pela VEAUTHY); não há produto no ar nem prova de que seja brasileiro. Reavaliar quando lançar. |
 | Performa.AI | moda | provador é 1 de 10 ferramentas de uma plataforma de performance; só serve se o artigo falar de plataforma, não de provador. |
 | Imediata, Mizui, Pryzmo | moda | as IAs erraram: Imediata é ERP, Mizui é plataforma de cupom e CRM, Pryzmo não tem site. Não são provadores. |
-| Shade Studio (Cart Lab), MaIA/B4A, ARRASEI, Vitraun, MaqAI, Maisonlip, Outwow | beleza | sem site localizável na verificação de 13/11. Faltam nomes de beleza: hoje só 1 verificado. |
+| Shade Studio (Cart Lab), MaIA/B4A, ARRASEI, Vitraun, MaqAI, Maisonlip, Outwow | beleza | sem site localizável na verificação de 13/11. Resolvido em 13/11 com o critério de até 5% (beleza fecha com 5 nomes). |
 
 ## Regras para citar
 
