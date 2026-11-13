@@ -8,7 +8,7 @@ Gerado em 15/08/2026. **Um artigo por termo.** Universo: 332 keywords únicas do
 | Já servidas por post publicado ou rascunho | 39 |
 | Artigos de tendência sem keyword mapeada | 7 |
 | Rascunhos escritos aguardando publicação | 3 |
-| **Total de artigos na fila** | **316** |
+| **Total de artigos na fila** | **317** |
 | Ritmo | 1 por dia, dias corridos |
 | Início | 17/08/2026 |
 | Esgotamento | **28/06/2027** |
@@ -153,225 +153,226 @@ Origem: `Rasc.` = rascunho já escrito · `Pauta` = briefing pronto nos .docx ·
 | 316 | qui 19/11/26 | P2 | SEO | Provador virtual de vestido de noiva: ver o modelo no corpo antes da prova na loja <br>_12/11 (pedido do Patrick): cobre a busca perdida 'qual o melhor provador virtual de vestido de noiva'. O mK Fashion+ faz o mesmo processo por foto; ainda sem mKase de noiva, então descrever a capacidade sem citar cliente nem número. Linkar /mkfashion e o hub de loja de roupas (pauta 309). Nenhum concorrente nomeado._ | **82** | `provador virtual de vestido de noiva` | — | — | Meio | ⬜ a fazer | — | — |
 | 307 | sex 20/11/26 | P2 | SEO | Provador virtual Shopify: como colocar na loja e o que medir <br>_SEO 09/11: Shopify é plataforma, pode citar. Só afirmar integração que a mK realmente entrega._ | 60 | `provador virtual shopify` | — | — | Fundo | ⬜ a fazer | — | — |
 | 308 | sáb 21/11/26 | P2 | SEO | Provador virtual de roupas com foto: a cliente envia a selfie e vê a peça no corpo <br>_SEO 09/11: linkar /mkfashion; não repetir o post experimentar-roupa-online (outra intenção)._ | **82** | `provador virtual de roupas com foto` | — | — | Meio | ⬜ a fazer | — | — |
-| 113 | dom 22/11/26 | P2 | KW | Provador virtual de calçados: como resolver a numeração no online <br>_SEO 09/11: Incluir tênis como H2 ("Provador virtual de tênis"): cobre essa busca sem criar outro post._ | **65** | `provador virtual de calçados` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
-| 101 | seg 23/11/26 | P2 | KW | Cor de batom online experimentar: testar o tom na sua pele pela câmera <br>_SEO 09/11: Incluir H2 "Provador virtual de batom": cobre essa busca sem criar outro post._ | **70** | `cor de batom online experimentar` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
-| 172 | ter 24/11/26 | P2 | KW | Realidade aumentada para esmaltes: testar cor de unha pelo celular <br>_SEO 09/11: Incluir H2 "Provador virtual de esmalte": cobre essa busca sem criar outro post._ | **66** | `realidade aumentada para esmaltes` | 540 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 204 | qua 25/11/26 | P3 | KW | Modelagem 3D para e-commerce: como o catálogo vira ativo <br>_SEO 09/11: Cobre "modelo 3D de produto para e-commerce": usar esse termo em um H2._ | 56 | `modelagem 3D para e-commerce` | 480 | Baixa | Meio | ⬜ a fazer | — | — |
-| 312 | qui 26/11/26 | P3 | SEO | Anúncio 3D: o que é, como funciona e quando rende mais que o anúncio em imagem <br>_SEO 09/11: linkar /mk3d e o visualizador 3D (implementacao-visualizador-3d-ecommerce)._ | **78** | `anúncio 3D` | — | — | Meio | ⬜ a fazer | — | — |
-| 313 | sex 27/11/26 | P4 | SEO | Fotos e vídeos com IA para e-commerce: o que já dá para substituir e o que ainda exige produção real <br>_SEO 09/11: linkar foto-de-produto-com-ia (já publicado) e a página do AI Studio. Intenção diferente da dos posts de vídeo publicitário._ | **100** | `fotos e vídeos com IA para e-commerce` | — | — | Meio | ⬜ a fazer | — | — |
-| 314 | sáb 28/11/26 | P7 | SEO | IA generativa no e-commerce: onde já gera resultado e onde ainda é promessa <br>_SEO 09/11: citar o State of Immersive & Agentic Commerce 2026; linkar /estudo._ | **75** | `ia generativa no e-commerce` | — | — | Topo | ⬜ a fazer | — | — |
-| 315 | dom 29/11/26 | P3 | SEO | Fotos com IA para lookbook: como produzir a coleção inteira sem estúdio <br>_SEO 09/11: linkar ai-shooting-moda-ia e foto-de-produto-com-ia; não repetir o conteúdo deles._ | **71** | `fotos com IA para lookbook` | — | — | Meio | ⬜ a fazer | — | — |
-| 85 | seg 30/11/26 | P2 | KW | Experiência de compra de moda online: o que o consumidor sente entre a foto e a entrega | **87** | `experiência de compra de moda online` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |
-| 86 | ter 01/12/26 | P1 | KW | Customer experience e-commerce: do primeiro clique ao pós-venda | **63** | `customer experience e-commerce` | 4900 | Alta | Topo | ⬜ a fazer | — | — |
-| 87 | qua 02/12/26 | P5 | KW | ROAS e-commerce melhorar: as alavancas que estão fora da mídia paga | **67** | `ROAS e-commerce melhorar` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
-| 88 | qui 03/12/26 | P5 | KW | E-commerce B2C estratégia: o plano para marcas que vendem direto ao consumidor | **78** | `e-commerce B2C estratégia` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
-| 89 | sex 04/12/26 | P5 | KW | Cross-sell e-commerce como fazer: vender o conjunto sem parecer empurrado | **73** | `cross-sell e-commerce como fazer` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
-| 90 | sáb 05/12/26 | P3 | Pauta | Diferença entre foto 360 e visualizador 3D: qual é a melhor aposta <br>_Pauta P3-2 pronta_ | **66** | `diferença entre foto 360 e visualizador 3D` | 420 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 91 | dom 06/12/26 | P4 | KW | Marketing experiencial digital: quando a campanha vira experiência | **66** | `marketing experiencial digital` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
-| 92 | seg 07/12/26 | P7 | KW | Shoppable video como fazer: do roteiro à tag de compra dentro do vídeo | **70** | `shoppable video como fazer` | 980 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 93 | ter 08/12/26 | P6 | KW | Estatísticas e-commerce moda: os números de conversão, devolução e ticket do setor | **82** | `estatísticas e-commerce moda` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
-| 94 | qua 09/12/26 | P6 | KW | E-commerce report Brasil 2026: o retrato do mercado com dados verificáveis | **74** | `e-commerce report Brasil 2026` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
-| 95 | qui 10/12/26 | P7 | KW | AEO answer engine optimization: otimizar para a resposta, não para o link | **73** | `AEO answer engine optimization` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
-| 96 | sex 11/12/26 | P7 | KW | Recomendação de produto IA e-commerce: como a vitrine aprende com o comportamento | **81** | `recomendação de produto IA e-commerce` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
-| 97 | sáb 12/12/26 | P7 | KW | E-commerce 2030 tendências: as tendências que já se desenham | 60 | `e-commerce 2030 tendências` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
-| 98 | dom 13/12/26 | P7 | KW | Machine learning e-commerce: onde o modelo entrega resultado real | **65** | `machine learning e-commerce` | 3600 | Alta | Topo | ⬜ a fazer | — | — |
-| 99 | seg 14/12/26 | P5 | KW | Retenção de clientes loja virtual: o que faz o cliente voltar sem cupom | **71** | `retenção de clientes loja virtual` | 1100 | Baixa | Meio | ⬜ a fazer | — | — |
-| 100 | ter 15/12/26 | P5 | KW | NPS e-commerce: o que o número esconde | 38 | `NPS e-commerce` | 1800 | Média | Meio | ⬜ a fazer | — | — |
-| 102 | qua 16/12/26 | P3 | KW | AR sem aplicativo: por que exigir download matou a adoção | 57 | `AR sem aplicativo` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
-| 103 | qui 17/12/26 | P3 | KW | Decoração AR como funciona: como funciona na prática | 52 | `decoração AR como funciona` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
-| 104 | sex 18/12/26 | P7 | KW | Próxima onda do e-commerce: o que vem depois do carrinho | 56 | `próxima onda do e-commerce` | 1100 | Baixa | Topo | ⬜ a fazer | — | — |
-| 105 | sáb 19/12/26 | P4 | KW | Marketing de vídeo tendências 2026: as tendências de 2026 | 57 | `marketing de vídeo tendências 2026` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
-| 106 | dom 20/12/26 | P2 | KW | Como saber o tamanho certo online: a recomendação que cruza suas medidas com a grade da marca | **93** | `como saber o tamanho certo online` | 1300 | Baixa | Topo | ⬜ a fazer | — | — |
-| 107 | seg 21/12/26 | P5 | KW | CAC e-commerce como reduzir: baixar o custo sem travar o crescimento | **68** | `CAC e-commerce como reduzir` | 980 | Baixa | Meio | ⬜ a fazer | — | — |
-| 108 | ter 22/12/26 | P5 | KW | Upsell e-commerce estratégia: subir o ticket sem irritar o cliente | **66** | `upsell e-commerce estratégia` | 980 | Baixa | Meio | ⬜ a fazer | — | — |
-| 109 | qua 23/12/26 | P5 | KW | Mobile commerce performance: o que trava a venda no celular | 59 | `mobile commerce performance` | 960 | Baixa | Meio | ⬜ a fazer | — | — |
-| 110 | qui 24/12/26 | P6 | KW | Consumidor omnichannel: quem pesquisa no site e compra na loja | **62** | `consumidor omnichannel` | 1600 | Média | Topo | ⬜ a fazer | — | — |
-| 111 | sex 25/12/26 | P4 | KW | Lembrança de marca como aumentar: o dado dos 28x e o que ele exige da campanha | **78** | `lembrança de marca como aumentar` | 1100 | Baixa | Topo | ⬜ a fazer | — | — |
-| 112 | sáb 26/12/26 | P1 | KW | E-commerce imersivo: o que muda na prática quando a loja deixa de ser catálogo | **78** | `e-commerce imersivo` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
-| 114 | dom 27/12/26 | P2 | KW | Moda com inteligência artificial: onde a IA já opera na cadeia | **62** | `moda com inteligência artificial` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
-| 115 | seg 28/12/26 | P7 | KW | QR code interativo varejo: da etiqueta ao AR em um toque | 56 | `QR code interativo varejo` | 940 | Baixa | Meio | ⬜ a fazer | — | — |
-| 116 | ter 29/12/26 | P3 | KW | Aumentar conversão página de produto: o que muda quando o produto vira 3D | **73** | `aumentar conversão página de produto` | 1600 | Média | Meio | ⬜ a fazer | — | — |
-| 117 | qua 30/12/26 | P6 | KW | Tendências varejo digital 2026 dados: o que os números projetam para o ano | **74** | `tendências varejo digital 2026 dados` | 920 | Baixa | Meio | ⬜ a fazer | — | — |
-| 118 | qui 31/12/26 | P5 | KW | Receita recorrente e-commerce: assinatura e recompra como base de caixa | **71** | `receita recorrente e-commerce` | 860 | Baixa | Meio | ⬜ a fazer | — | — |
-| 119 | sex 01/01/27 | P6 | KW | Pesquisa comportamento consumidor digital 2026: o que mudou na decisão de compra | **80** | `pesquisa comportamento consumidor digital 2026` | 890 | Baixa | Meio | ⬜ a fazer | — | — |
-| 121 | sáb 02/01/27 | P2 | Tend | Diagnóstico pele preditivo IA: veja como sua pele estará em 6 meses <br>_T08 · urgência MÉDIA · gap 10x_ | **67** | `diagnóstico pele preditivo IA` | 900 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 122 | dom 03/01/27 | P2 | KW | Rotina de skincare personalizada IA: diagnóstico por selfie e prescrição individual | **83** | `rotina de skincare personalizada IA` | 1100 | Baixa | Meio | ⬜ a fazer | — | — |
-| 123 | seg 04/01/27 | P5 | KW | Como reduzir custo por lead e-commerce: quando o orgânico passa a carregar o funil | **82** | `como reduzir custo por lead e-commerce` | 840 | Baixa | Meio | ⬜ a fazer | — | — |
-| 124 | ter 05/01/27 | P6 | KW | Case e-commerce moda Brasil: as marcas que viraram o jogo da devolução | **70** | `case e-commerce moda Brasil` | 860 | Baixa | Meio | ⬜ a fazer | — | — |
-| 125 | qua 06/01/27 | P3 | KW | Personalizar produto online 3D: deixar o cliente montar antes de comprar | **72** | `personalizar produto online 3D` | 860 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 126 | qui 07/01/27 | P7 | KW | Personal shopper IA: a consultoria de estilo dentro da loja | 59 | `personal shopper IA` | 680 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 127 | sex 08/01/27 | P4 | KW | CGI hiper-realista: o que separa o impressionante do crível | 59 | `CGI Hiper-realista` | 940 | Baixa | Topo | ⬜ a fazer | — | — |
-| 128 | sáb 09/01/27 | P5 | KW | Solução para baixa conversão e-commerce: o que atacar quando o tráfego já é bom | **79** | `solução para baixa conversão e-commerce` | 640 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 129 | dom 10/01/27 | P5 | KW | LTV e-commerce como aumentar: o valor que o cliente entrega ao longo do tempo | **77** | `LTV e-commerce como aumentar` | 760 | Baixa | Meio | ⬜ a fazer | — | — |
-| 130 | seg 11/01/27 | P7 | KW | Agentes de IA para compras: o que já existe hoje | 48 | `agentes de IA para compras` | 640 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 132 | ter 12/01/27 | P3 | KW | Produto interativo online: o que muda quando o cliente manipula | **63** | `produto interativo online` | 980 | Baixa | Meio | ⬜ a fazer | — | — |
-| 133 | qua 13/01/27 | P4 | KW | Filtros AR para influenciadores: o press kit que vira conteúdo espontâneo | **73** | `filtros AR para influenciadores` | 720 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 134 | qui 14/01/27 | P1 | Pauta | Empresas de Immersive Commerce no Brasil: os 5 critérios para avaliar quem contratar <br>_Pauta P1-6 pronta_ | **84** | `empresas de Immersive Commerce no Brasil` | 260 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 135 | sex 15/01/27 | P2 | KW | Trocas e devoluções moda como reduzir: como reduzir sem endurecer a política | **76** | `trocas e devoluções moda como reduzir` | 960 | Baixa | Meio | ⬜ a fazer | — | — |
-| 136 | sáb 16/01/27 | P4 | KW | Filtros AR para Instagram marcas: experimentar o produto direto no story | **72** | `filtros AR para Instagram marcas` | 860 | Baixa | Meio | ⬜ a fazer | — | — |
-| 137 | dom 17/01/27 | P2 | KW | Outfit virtual: montar o look inteiro antes de comprar | 54 | `outfit virtual` | 920 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 138 | seg 18/01/27 | P6 | KW | Estatísticas e-commerce beleza: os números que explicam os 315% de conversão | **76** | `estatísticas e-commerce beleza` | 740 | Baixa | Meio | ⬜ a fazer | — | — |
-| 139 | ter 19/01/27 | P1 | KW | Retail tech Brasil: o mapa das tecnologias que já mudam a venda | **63** | `retail tech Brasil` | 920 | Baixa | Topo | ⬜ a fazer | — | — |
-| 140 | qua 20/01/27 | P3 | KW | WebAR e-commerce: realidade aumentada sem aplicativo no e-commerce | **66** | `WebAR e-commerce` | 920 | Baixa | Topo | ⬜ a fazer | — | — |
-| 141 | qui 21/01/27 | P1 | KW | Social commerce tendências: as tendências que movem venda dentro do feed | **72** | `social commerce tendências` | 1100 | Baixa | Topo | ⬜ a fazer | — | — |
-| 142 | sex 22/01/27 | P7 | KW | Busca generativa e-commerce: quando a resposta substitui a lista de links | **73** | `busca generativa e-commerce` | 580 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 143 | sáb 23/01/27 | P5 | KW | Dependência de mídia paga como reduzir: construir tráfego que não desliga com o orçamento | **89** | `dependência de mídia paga como reduzir` | 680 | Baixa | Topo | ⬜ a fazer | — | — |
-| 144 | dom 24/01/27 | P4 | KW | Buzz marketing digital 2026: gerar conversa sem apelar | 54 | `buzz marketing digital 2026` | 960 | Baixa | Topo | ⬜ a fazer | — | — |
-| 145 | seg 25/01/27 | P4 | KW | Produção criativa com IA Brasil: o que a IA já entrega em qualidade de campanha | **79** | `produção criativa com IA Brasil` | 640 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 146 | ter 26/01/27 | P5 | KW | Integração low-code e-commerce: o fim da objeção de TI | 54 | `integração low-code e-commerce` | 540 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 147 | qua 27/01/27 | P6 | KW | Benchmark e-commerce conversão Brasil: onde a sua taxa está em relação ao setor | **79** | `benchmark e-commerce conversão Brasil` | 680 | Baixa | Meio | ⬜ a fazer | — | — |
-| 148 | qui 28/01/27 | P6 | KW | Case de sucesso e-commerce tecnologia: o que as marcas fizeram e o que mediram | **78** | `case de sucesso e-commerce tecnologia` | 680 | Baixa | Fundo | ⬜ a fazer | — | — |
-| 149 | sex 29/01/27 | P1 | KW | Touchpoints digitais varejo: onde a marca ganha ou perde a venda | **64** | `touchpoints digitais varejo` | 840 | Baixa | Meio | ⬜ a fazer | — | — |
-| 150 | sáb 30/01/27 | P2 | KW | Provador virtual de joias: alto ticket e a prova que faltava | 60 | `provador virtual de joias` | 680 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 151 | dom 31/01/27 | P2 | KW | Personal stylist online IA: consultoria de estilo dentro do e-commerce | **70** | `personal stylist online IA` | 680 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 152 | seg 01/02/27 | P6 | KW | Case e-commerce beleza Brasil: de Mascavo a Época Cosméticos | 60 | `case e-commerce beleza Brasil` | 520 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 153 | ter 02/02/27 | P7 | KW | Conversational commerce IA: vender dentro da conversa | 53 | `conversational commerce IA` | 760 | Baixa | Topo | ⬜ a fazer | — | — |
-| 154 | qua 03/02/27 | P3 | KW | Substituir sessão de fotos com IA: o catálogo pronto sem estúdio | **64** | `substituir sessão de fotos com IA` | 640 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 155 | qui 04/02/27 | P2 | Pauta | Vantagens do provador virtual de maquiagem: comparativo de tecnologias 2026 <br>_Pauta P2-5 pronta_ | **75** | `vantagens do provador virtual de maquiagem` | 210 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 156 | sex 05/02/27 | P4 | KW | OOH digital Brasil: o que o meio virou com telas e dados | 56 | `OOH digital Brasil` | 840 | Baixa | Topo | ⬜ a fazer | — | — |
-| 157 | sáb 06/02/27 | P1 | KW | Inovação digital para grandes marcas: como aprovar, pilotar e escalar | **69** | `inovação digital para grandes marcas` | 760 | Baixa | Topo | ⬜ a fazer | — | — |
-| 158 | dom 07/02/27 | P3 | KW | Realidade aumentada no navegador: como o WebXR funciona | 55 | `realidade aumentada no navegador` | 760 | Baixa | Topo | ⬜ a fazer | — | — |
-| 159 | seg 08/02/27 | P4 | KW | PDV digital interativo: a loja física que virou ponto de experiência | **68** | `PDV digital interativo` | 680 | Baixa | Meio | ⬜ a fazer | — | — |
-| 160 | ter 09/02/27 | P3 | KW | E-commerce 3D Brasil: quem já opera | 35 | `e-commerce 3D Brasil` | 740 | Baixa | Topo | ⬜ a fazer | — | — |
-| 161 | qua 10/02/27 | P6 | KW | ROI realidade aumentada e-commerce: o retorno documentado entre 10x e 40x | **73** | `ROI realidade aumentada e-commerce` | 480 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 162 | qui 11/02/27 | P7 | KW | Super app commerce Brasil: super apps e comércio no Brasil | 58 | `super app commerce Brasil` | 480 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 163 | sex 12/02/27 | P5 | KW | Tecnologia que aumenta conversão e-commerce: as tecnologias que realmente aumentam conversão | **92** | `tecnologia que aumenta conversão e-commerce` | 460 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 164 | sáb 13/02/27 | P3 | KW | Otimizar PDP e-commerce: a página que responde antes da dúvida aparecer | **71** | `otimizar PDP e-commerce` | 720 | Baixa | Meio | ⬜ a fazer | — | — |
-| 165 | dom 14/02/27 | P3 | KW | Projetar produto no ambiente real: como a AR resolve a escala | **61** | `projetar produto no ambiente real` | 580 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 166 | seg 15/02/27 | P4 | KW | FOOH exemplos Brasil: as campanhas que já rodaram por aqui | 58 | `FOOH exemplos Brasil` | 510 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 167 | ter 16/02/27 | P3 | KW | 3D para joias e relógios: o detalhe que a foto não entrega | 58 | `3D para joias e relógios` | 560 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 168 | qua 17/02/27 | P3 | KW | Quanto custa modelagem 3D produto: as faixas de investimento por complexidade | **77** | `quanto custa modelagem 3D produto` | 560 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 169 | qui 18/02/27 | P3 | KW | 3D rendering para e-commerce: a qualidade que converte | 54 | `3D rendering para e-commerce` | 680 | Baixa | Meio | ⬜ a fazer | — | — |
-| 170 | sex 19/02/27 | P5 | KW | VTEX conversão aumento: o que integrar na plataforma para vender mais | **69** | `VTEX conversão aumento` | 420 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 171 | sáb 20/02/27 | P7 | KW | Web3 commerce o que é: o que sobrou de útil da promessa | 55 | `web3 commerce o que é` | 640 | Baixa | Topo | ⬜ a fazer | — | — |
-| 173 | dom 21/02/27 | P3 | KW | Como implementar 3D no e-commerce: o passo a passo | 50 | `como implementar 3D no e-commerce` | 540 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 174 | seg 22/02/27 | P4 | KW | Vídeo 3D para lançamento de produto: o filme sem locação e sem equipe | **69** | `vídeo 3D para lançamento de produto` | 480 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 175 | ter 23/02/27 | P6 | KW | Mercado de AR Brasil: tamanho, adoção e projeção até 2030 | 57 | `mercado de AR Brasil` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 176 | qua 24/02/27 | P7 | KW | IA autônoma e-commerce: quando o sistema decide sem humano no meio | **66** | `IA autônoma e-commerce` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 177 | qui 25/02/27 | P7 | KW | Agentes de IA compras online: como eles leem e escolhem o seu produto | **69** | `agentes de IA compras online` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 178 | sex 26/02/27 | P7 | KW | Voice commerce Brasil: comprar falando, e por que ainda não pegou | **65** | `voice commerce Brasil` | 480 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 179 | sáb 27/02/27 | P7 | Tend | Digital fashion Brasil: as roupas que existem só no digital <br>_T11 · longo prazo_ | 59 | `digital fashion Brasil` | 400 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 180 | dom 28/02/27 | P7 | Tend | Haptic commerce: sentir o produto sem tocá-lo <br>_T12 · longo prazo_ | 45 | `haptic commerce` | 400 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 181 | seg 01/03/27 | P5 | KW | E-commerce enterprise Brasil: o que muda quando a operação passa de nove dígitos | **80** | `e-commerce enterprise Brasil` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 182 | ter 02/03/27 | P7 | KW | O que é MCP Anthropic: o protocolo que conecta agentes ao seu catálogo | **70** | `o que é MCP Anthropic` | 390 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 183 | qua 03/03/27 | P1 | KW | E-commerce de alto ticket conversão: como converter quem pensa três vezes | **73** | `e-commerce de alto ticket conversão` | 480 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 184 | qui 04/03/27 | P3 | KW | Plugin AR para e-commerce: o que instalar e o que evitar | 56 | `plugin AR para e-commerce` | 480 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 185 | sex 05/03/27 | P6 | KW | Empresa inovadora e-commerce Brasil: as empresas mais inovadoras do e-commerce brasileiro | **89** | `empresa inovadora e-commerce Brasil` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 186 | sáb 06/03/27 | P7 | KW | Phygital commerce o que é: a fronteira que sumiu entre loja e site | **66** | `phygital commerce o que é` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 187 | dom 07/03/27 | P7 | KW | Agente de compras inteligente: o comprador que não é gente | 58 | `agente de compras inteligente` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 188 | seg 08/03/27 | P6 | KW | Transformação digital varejo cases: quem fez, o que mudou e o que foi medido | **76** | `transformação digital varejo cases` | 460 | Baixa | Meio | ⬜ a fazer | — | — |
-| 189 | ter 09/03/27 | P4 | KW | Fake OOH como fazer: da ideia ao vídeo publicado | 48 | `fake OOH como fazer` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 190 | qua 10/03/27 | P1 | KW | Como engajar geração Z no e-commerce: o que essa geração exige da marca | **71** | `como engajar geração Z no e-commerce` | 680 | Baixa | Topo | ⬜ a fazer | — | — |
-| 191 | qui 11/03/27 | P1 | KW | Por que minha taxa de conversão não sobe: o gargalo que não é preço nem frete | **77** | `por que minha taxa de conversão não sobe` | 560 | Baixa | Topo | ⬜ a fazer | — | — |
-| 192 | sex 12/03/27 | P7 | KW | Zero click search e-commerce impacto: o impacto no e-commerce | **61** | `zero click search e-commerce impacto` | 360 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 193 | sáb 13/03/27 | P5 | KW | Benchmark conversão e-commerce Brasil 2026: os números por vertical | **67** | `benchmark conversão e-commerce Brasil 2026` | 340 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 194 | dom 14/03/27 | P2 | KW | Recomendação de tamanho e-commerce: como a IA acerta a numeração | **64** | `recomendação de tamanho e-commerce` | 540 | Baixa | Meio | ⬜ a fazer | — | — |
-| 195 | seg 15/03/27 | P4 | KW | Economia da atenção marketing: o jogo dos 3 segundos | 52 | `economia da atenção marketing` | 580 | Baixa | Topo | ⬜ a fazer | — | — |
-| 196 | ter 16/03/27 | P2 | KW | Custo logística reversa moda: a conta que ninguém fecha | 55 | `custo logística reversa moda` | 430 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 197 | qua 17/03/27 | P2 | KW | Fashion tech Brasil: o que já é operação e o que ainda é promessa | **65** | `fashion tech Brasil` | 620 | Baixa | Topo | ⬜ a fazer | — | — |
-| 198 | qui 18/03/27 | P4 | KW | CGI para campanhas de produto: o produto perfeito sem fotografar o produto | **74** | `CGI para campanhas de produto` | 380 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 199 | sex 19/03/27 | P2 | KW | Ticket médio moda como aumentar: vender o look inteiro, não a peça | **66** | `ticket médio moda como aumentar` | 510 | Baixa | Meio | ⬜ a fazer | — | — |
-| 200 | sáb 20/03/27 | P3 | KW | AR para eletrônicos e-commerce: dimensão, encaixe e a dúvida do espaço | **70** | `AR para eletrônicos e-commerce` | 410 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 201 | dom 21/03/27 | P6 | KW | Retorno sobre investimento realidade aumentada varejo: os três vetores que compõem o retorno | **92** | `retorno sobre investimento realidade aumentada varejo` | 320 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 202 | seg 22/03/27 | P7 | KW | Como IA faz compras por mim: o que já acontece hoje sem você ver | **64** | `como IA faz compras por mim` | 320 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 203 | ter 23/03/27 | P1 | KW | Como tirar marca do vale do esquecimento: como tirar sua marca da irrelevância digital | **86** | `como tirar marca do vale do esquecimento` | 480 | Baixa | Topo | ⬜ a fazer | — | — |
-| 205 | qua 24/03/27 | P6 | KW | Resultado AR varejo: os números de quem já implementou | 54 | `resultado AR varejo` | 310 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 206 | qui 25/03/27 | P3 | KW | Realidade aumentada VTEX: como integrar | 39 | `realidade aumentada VTEX` | 380 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 207 | sex 26/03/27 | P5 | KW | Wake e-commerce conversão: o que integrar na plataforma | 55 | `Wake e-commerce conversão` | 280 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 208 | sáb 27/03/27 | P6 | KW | Caso de uso AR no varejo: sete aplicações com resultado medido | **62** | `caso de uso AR no varejo` | 290 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 209 | dom 28/03/27 | P7 | KW | GEO para e-commerce: como funciona na prática | 45 | `GEO para e-commerce como funciona` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 210 | seg 29/03/27 | P7 | KW | E-commerce com agentes de IA: o que muda na sua operação | 56 | `e-commerce com agentes de IA` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 211 | ter 30/03/27 | P1 | Pauta | O que é Phygitech: o conceito que redefine a relação entre marcas e consumidores <br>_Pauta P1-5 pronta_ | **80** | `Phygitech` | 120 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 212 | qua 31/03/27 | P4 | KW | Viral marketing imersivo: quando a imersão é o que faz compartilhar | **67** | `viral marketing imersivo` | 320 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 213 | qui 01/04/27 | P7 | KW | Spatial computing varejo: o catálogo pronto para o Apple Vision Pro | **67** | `spatial computing varejo` | 280 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 214 | sex 02/04/27 | P7 | KW | Frictionless commerce: tirar o atrito de cada etapa da compra | **61** | `frictionless commerce` | 280 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 215 | sáb 03/04/27 | P1 | KW | Como sair da dependência de mídia paga: construir demanda que não desliga | **73** | `como sair da dependência de mídia paga` | 420 | Baixa | Topo | ⬜ a fazer | — | — |
-| 216 | dom 04/04/27 | P3 | KW | Mobile AR e-commerce: a experiência que nasce no celular | 56 | `mobile AR e-commerce` | 340 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 218 | seg 05/04/27 | P4 | KW | Melhores exemplos de vídeos CGI hiper-realistas: e o que aprender com cada um | **77** | `melhores exemplos de vídeos CGI hiper-realistas` | 290 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 219 | ter 06/04/27 | P4 | KW | Press kit digital AR: o material que o influenciador quer postar | **64** | `press kit digital AR` | 280 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 220 | qua 07/04/27 | P6 | KW | Mercado Immersive Commerce global: tamanho, crescimento e onde o Brasil está | **76** | `mercado Immersive Commerce global` | 240 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 221 | qui 08/04/27 | P7 | KW | E-commerce preparado para IA 2026: o checklist antes de os agentes chegarem | **75** | `e-commerce preparado para IA 2026` | 240 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 222 | sex 09/04/27 | P1 | KW | State of Immersive Commerce 2026: o que o primeiro estudo do gênero revelou | **75** | `State of Immersive Commerce 2026` | 290 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 223 | sáb 10/04/27 | P1 | KW | Fotografia estática e-commerce problema: por que a foto não convence mais | **73** | `fotografia estática e-commerce problema` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 224 | dom 11/04/27 | P3 | KW | Digital twin produto e-commerce: o gêmeo digital chega ao varejo | **64** | `digital twin produto e-commerce` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 225 | seg 12/04/27 | P4 | KW | Animação 3D publicitária Brasil: o mercado e como contratar | 59 | `animação 3D publicitária Brasil` | 310 | Baixa | Fundo | ⬜ a fazer | — | — |
-| 226 | ter 13/04/27 | P5 | KW | Como justificar ROI tecnologia imersiva CFO: o framework para a reunião de orçamento | **84** | `como justificar ROI tecnologia imersiva CFO` | 210 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 227 | qua 14/04/27 | P6 | KW | Clientes metaKosmos resultados: o que cada marca mediu depois de implementar | **76** | `clientes metaKosmos resultados` | 210 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 228 | qui 15/04/27 | P6 | KW | Dados provador virtual mercado: tamanho, adoção e performance por vertical | **74** | `dados provador virtual mercado` | 210 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 229 | sex 16/04/27 | P7 | KW | Compra autônoma por IA: quando o agente decide e paga | 53 | `compra autônoma por IA` | 210 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 230 | sáb 17/04/27 | P7 | KW | Agente IA assistant compras online: o assistente que compara e escolhe por você | **79** | `agente IA assistant compras online` | 210 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 231 | dom 18/04/27 | P3 | KW | Foto 360 produto versus 3D diferenças: as diferenças técnicas que importam | **74** | `foto 360 produto versus 3D diferenças` | 260 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 232 | seg 19/04/27 | P2 | KW | Beauty tech Brasil: o mapa da tecnologia aplicada à beleza | 58 | `beauty tech Brasil` | 380 | Baixa | Topo | ⬜ a fazer | — | — |
-| 233 | ter 20/04/27 | P1 | KW | Solução imersiva para e-commerce: como escolher entre 3D, AR e provador virtual | **79** | `solução imersiva para e-commerce` | 240 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 234 | qua 21/04/27 | P6 | KW | Case visualizador 3D móveis: 20 milhões de visualizações na Flexform | **68** | `case visualizador 3D móveis` | 190 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 235 | qui 22/04/27 | P6 | KW | mKases metaKosmos: o método de documentar resultado | 51 | `mKases metaKosmos` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 236 | sex 23/04/27 | P6 | KW | Virtual try-on resultado real: os resultados reais | 50 | `virtual try-on resultado real` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 237 | sáb 24/04/27 | P7 | KW | Futuro do Immersive Commerce: para onde a categoria caminha até 2030 | **68** | `futuro do Immersive Commerce` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 238 | dom 25/04/27 | P7 | KW | Agentic Commerce Brasil: o que as marcas precisam saber | 55 | `Agentic Commerce Brasil` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 239 | seg 26/04/27 | P7 | KW | Como adaptar e-commerce para agentes IA: o passo a passo do catálogo legível | **76** | `como adaptar e-commerce para agentes IA` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 240 | ter 27/04/27 | P4 | KW | Branded content imersivo: conteúdo de marca que o público escolhe ver | **69** | `branded content imersivo` | 240 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 241 | qua 28/04/27 | P3 | KW | Estoque infinito varejo AR: como a AR vende o que não cabe na loja | **66** | `estoque infinito varejo AR` | 220 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 242 | qui 29/04/27 | P2 | KW | Provador virtual moda casos de uso: casos de uso por categoria | **62** | `provador virtual moda casos de uso` | 210 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 243 | sex 30/04/27 | P4 | KW | Material de lançamento produto imersivo: o kit que faz o produto estrear grande | **79** | `material de lançamento produto imersivo` | 190 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 244 | sáb 01/05/27 | P6 | KW | Cases de ROI com tecnologia imersiva: os retornos acima de 10x, documentados | **76** | `cases de ROI com tecnologia imersiva` | 160 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 245 | dom 02/05/27 | P6 | KW | 3D e-commerce resultado caso real: os números de quem colocou o catálogo em 3D | **78** | `3D e-commerce resultado caso real` | 160 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 246 | seg 03/05/27 | P7 | KW | Provador virtual via chatbot: experimentar sem sair da conversa | **63** | `provador virtual via chatbot` | 160 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 247 | ter 04/05/27 | P4 | KW | Como contratar produtora FOOH com IA no Brasil: critérios, prazos e o que pedir na proposta | **91** | `como contratar produtora FOOH com IA no Brasil` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 248 | qua 05/05/27 | P4 | KW | FOOH vs OOH diferença: custo, alcance e mensuração comparados | **61** | `FOOH vs OOH diferença` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 249 | qui 06/05/27 | P2 | KW | Cross-sell fashion e-commerce: como vender o look e não a peça | **62** | `cross-sell fashion e-commerce` | 290 | Baixa | Meio | ⬜ a fazer | — | — |
-| 250 | sex 07/05/27 | P7 | KW | IA autônoma fazendo compras: o cenário que já roda nos Estados Unidos | **69** | `IA autônoma fazendo compras` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 251 | sáb 08/05/27 | P1 | KW | Definição de comércio imersivo: a definição completa do termo no Brasil | **71** | `definição de comércio imersivo` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 252 | dom 09/05/27 | P1 | KW | Lacuna de imaginação consumidor: o conceito que explica por que o consumidor não compra | **87** | `lacuna de imaginação consumidor` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 253 | seg 10/05/27 | P2 | KW | Custo devolução e-commerce de moda calculadora: quanto sua marca perde por mês com devoluções | **93** | `custo devolução e-commerce de moda calculadora` | 180 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 254 | ter 11/05/27 | P3 | KW | AR para alto ticket médio: quanto maior o preço, maior a dúvida | **63** | `AR para alto ticket médio` | 180 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 255 | qua 12/05/27 | P4 | KW | FOOH para marcas de luxo: impacto sem perder a sofisticação | 59 | `FOOH para marcas de luxo` | 160 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 256 | qui 13/05/27 | P4 | KW | Publicidade imersiva o que é: o formato que substitui o anúncio interrompido | **76** | `publicidade imersiva o que é` | 160 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 257 | sex 14/05/27 | P6 | KW | Relatório Immersive Commerce Brasil: os dados proprietários do State of 2026 | **76** | `relatório Immersive Commerce Brasil` | 140 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 258 | sáb 15/05/27 | P7 | KW | Imersivo conversacional e-commerce: a fusão que só a mK opera hoje | **66** | `imersivo conversacional e-commerce` | 140 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 259 | dom 16/05/27 | P7 | KW | Checkout por IA e-commerce: o pagamento que acontece dentro do chat | **67** | `checkout por IA e-commerce` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 260 | seg 17/05/27 | P5 | KW | Framework ROI Immersive Commerce: as três contas que sustentam a decisão | **72** | `framework ROI Immersive Commerce` | 130 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 261 | ter 18/05/27 | P4 | KW | Ativações de marca em XR para eventos: a experiência que a plateia leva no celular | **82** | `ativações de marca em XR para eventos` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 262 | qua 19/05/27 | P4 | KW | Como medir ROI de FOOH: as métricas que vão além da visualização | **64** | `como medir ROI de FOOH` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 263 | qui 20/05/27 | P7 | KW | MCP protocol e-commerce: como o protocolo conecta agentes ao catálogo | **69** | `MCP protocol e-commerce` | 120 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 264 | sex 21/05/27 | P7 | KW | E-commerce conversacional agêntico: a próxima interface de compra | **65** | `e-commerce conversacional agêntico` | 120 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 265 | sáb 22/05/27 | P2 | KW | Prova virtual resultado beleza: os resultados reais das marcas brasileiras | **74** | `prova virtual resultado beleza` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 266 | dom 23/05/27 | P7 | KW | Catálogo 3D para agentes de IA: estruturar o produto para ser lido por máquina | **78** | `catálogo 3D para agentes de IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 267 | seg 24/05/27 | P7 | KW | Catálogo 3D para IA: o ativo que torna a marca visível para agentes | **67** | `catálogo 3D para IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 268 | ter 25/05/27 | P7 | KW | Catálogo 3D para agentes IA: metadados, formato e indexação | 59 | `catálogo 3D para agentes IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 269 | qua 26/05/27 | P7 | KW | Realidade aumentada via agente IA: quando o agente abre a câmera por você | **73** | `realidade aumentada via agente IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 270 | qui 27/05/27 | P4 | KW | 28x mais lembrança de marca: o dado por trás do marketing imersivo | **66** | `28x mais lembrança de marca` | 120 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 271 | sex 28/05/27 | P6 | KW | ROI 40x tecnologia imersiva: como esse retorno é calculado | 58 | `ROI 40x tecnologia imersiva` | 100 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 272 | sáb 29/05/27 | P6 | KW | Mascavo case provador virtual: 2 milhões de provas virtuais no primeiro mês | **75** | `Mascavo case provador virtual` | 90 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 273 | dom 30/05/27 | P6 | KW | Conversão 315% provador virtual beleza: como esse número foi construído | **71** | `conversão 315% provador virtual beleza` | 90 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 274 | seg 31/05/27 | P7 | KW | Como mK usa GEO para dominar IAs: o método aberto, para a sua marca copiar | **74** | `como mK usa GEO para dominar IAs` | 90 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 275 | ter 01/06/27 | P7 | KW | AI shopping agent: o que é e como opera | 39 | `AI shopping agent` | 90 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 276 | qua 02/06/27 | P7 | KW | Instant Checkout AI: o que OpenAI e Stripe lançaram dentro do ChatGPT | **69** | `Instant Checkout AI` | 90 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 277 | qui 03/06/27 | P6 | KW | Flexform case 3D AR: 20 milhões de visualizações em 3D | 54 | `Flexform case 3D AR` | 80 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 278 | sex 04/06/27 | P6 | KW | Redução 61% devoluções provador virtual: a origem do dado | 57 | `redução 61% devoluções provador virtual` | 80 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 279 | sáb 05/06/27 | P7 | KW | UCP universal commerce protocol: o padrão de Google, Shopify e Walmart | **70** | `UCP universal commerce protocol` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 280 | dom 06/06/27 | P7 | KW | AI-ready catalog varejo: preparar o varejo para os agentes | 58 | `AI-ready catalog varejo` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 281 | seg 07/06/27 | P7 | KW | MCP protocol ecommerce: implementação no e-commerce | 51 | `MCP protocol ecommerce` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 282 | ter 08/06/27 | P7 | KW | Try-on dentro do ChatGPT: experimentar a peça sem sair do chat | **62** | `try-on dentro do ChatGPT` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 283 | qua 09/06/27 | P6 | KW | Case mK 315% conversão beleza: o número, a origem e a metodologia | **65** | `case mK 315% conversão beleza` | 75 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 284 | qui 10/06/27 | P1 | KW | Phygitech Brasil: quem opera a fusão entre físico e digital | 59 | `Phygitech Brasil` | 90 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 285 | sex 11/06/27 | P6 | KW | Toymania case 3D e-commerce: 6,2x mais adições ao carrinho | 58 | `Toymania case 3D e-commerce` | 70 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 286 | sáb 12/06/27 | P7 | KW | Agentic Commerce Brasil pioneiros: os pioneiros | 47 | `Agentic Commerce Brasil pioneiros` | 70 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 287 | dom 13/06/27 | P7 | KW | AI buying agent: o comprador que não é gente | 44 | `AI buying agent` | 70 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 288 | seg 14/06/27 | P7 | KW | Agentic AI para varejo: o que muda na operação de quem vende | 60 | `agentic AI para varejo` | 70 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 289 | ter 15/06/27 | P6 | KW | Época Cosméticos case e-commerce: +60% em conversão no primeiro mês | **67** | `Época Cosméticos case e-commerce` | 65 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 290 | qua 16/06/27 | P6 | KW | Gregory case provador virtual moda: provador virtual em todo lançamento | **71** | `Gregory case provador virtual moda` | 60 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 291 | qui 17/06/27 | P7 | KW | ACP agentic commerce protocol OpenAI: o protocolo de commerce da OpenAI e Stripe | **80** | `ACP agentic commerce protocol OpenAI` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 292 | sex 18/06/27 | P7 | KW | Autonomous AI purchase: a compra sem humano no meio | 51 | `autonomous AI purchase` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 293 | sáb 19/06/27 | P7 | KW | Agentic Commerce Protocol: o que o ACP define | 45 | `Agentic Commerce Protocol` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 294 | dom 20/06/27 | P7 | KW | Agentic Commerce: exemplos no Brasil | 36 | `Agentic Commerce exemplos no Brasil` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 295 | seg 21/06/27 | P7 | KW | Protocolo de comércio agêntico: MCP, UCP e ACP explicados | 57 | `protocolo de comércio agêntico` | 50 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 296 | ter 22/06/27 | P7 | KW | OpenAI Stripe commerce: o que a parceria muda | 45 | `OpenAI Stripe commerce` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 297 | qua 23/06/27 | P7 | KW | Provador virtual agêntico: o conceito que a mK está plantando para 2027 | **71** | `provador virtual agêntico` | 40 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 298 | qui 24/06/27 | P7 | KW | AI-ready cataloging: o serviço que prepara o catálogo | 53 | `AI-ready cataloging` | 40 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
-| 299 | sex 25/06/27 | P7 | KW | Catálogo legível por IA: o requisito para existir no comércio agêntico | **70** | `catálogo legível por IA` | 40 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 300 | sáb 26/06/27 | P7 | KW | Anthropic MCP varejo: o protocolo aplicado ao catálogo de produto | **65** | `Anthropic MCP varejo` | 40 | Muito Baixa | Topo | ⬜ a fazer | — | — |
-| 301 | dom 27/06/27 | P7 | KW | State of Immersive Agentic Commerce: o estudo que une as duas fronteiras | **72** | `State of Immersive Agentic Commerce` | 30 | Muito Baixa | Meio | ⬜ a fazer | — | — |
-| 302 | seg 28/06/27 | P7 | KW | Agentic Commerce imersivo: a posição única da mK | 48 | `Agentic Commerce imersivo` | 30 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 317 | dom 22/11/26 | P2 | SEO | Melhores provadores virtuais de roupa para e-commerce: como comparar (comparativo) <br>_Decisão 12/11: fazer comparativo com a regra de `references/concorrentes-permitidos.md` (só os 5 aprovados, 10+ posições abaixo da mK, H1 com "melhores"/"comparativo"). Para moda: Mirage AI, Dressy, Meu Vestir, conferindo o site oficial de cada um na hora de escrever. Critérios claros (recurso, integração, prazo, tipo de resultado), mK incluída; sem preço, sem número de cliente e sem julgamento negativo; sem link para concorrente. Sizebay, Provou Levou e demais acima ou logo abaixo da mK NÃO entram._ | **80** | `melhores provadores virtuais de roupa` | — | — | Meio | ⬜ a fazer | — | — |
+| 113 | seg 23/11/26 | P2 | KW | Provador virtual de calçados: como resolver a numeração no online <br>_SEO 09/11: Incluir tênis como H2 ("Provador virtual de tênis"): cobre essa busca sem criar outro post._ | **65** | `provador virtual de calçados` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
+| 101 | ter 24/11/26 | P2 | KW | Cor de batom online experimentar: testar o tom na sua pele pela câmera <br>_SEO 09/11: Incluir H2 "Provador virtual de batom": cobre essa busca sem criar outro post._ | **70** | `cor de batom online experimentar` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
+| 172 | qua 25/11/26 | P2 | KW | Realidade aumentada para esmaltes: testar cor de unha pelo celular <br>_SEO 09/11: Incluir H2 "Provador virtual de esmalte": cobre essa busca sem criar outro post._ | **66** | `realidade aumentada para esmaltes` | 540 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 204 | qui 26/11/26 | P3 | KW | Modelagem 3D para e-commerce: como o catálogo vira ativo <br>_SEO 09/11: Cobre "modelo 3D de produto para e-commerce": usar esse termo em um H2._ | 56 | `modelagem 3D para e-commerce` | 480 | Baixa | Meio | ⬜ a fazer | — | — |
+| 312 | sex 27/11/26 | P3 | SEO | Anúncio 3D: o que é, como funciona e quando rende mais que o anúncio em imagem <br>_SEO 09/11: linkar /mk3d e o visualizador 3D (implementacao-visualizador-3d-ecommerce)._ | **78** | `anúncio 3D` | — | — | Meio | ⬜ a fazer | — | — |
+| 313 | sáb 28/11/26 | P4 | SEO | Fotos e vídeos com IA para e-commerce: o que já dá para substituir e o que ainda exige produção real <br>_SEO 09/11: linkar foto-de-produto-com-ia (já publicado) e a página do AI Studio. Intenção diferente da dos posts de vídeo publicitário._ | **100** | `fotos e vídeos com IA para e-commerce` | — | — | Meio | ⬜ a fazer | — | — |
+| 314 | dom 29/11/26 | P7 | SEO | IA generativa no e-commerce: onde já gera resultado e onde ainda é promessa <br>_SEO 09/11: citar o State of Immersive & Agentic Commerce 2026; linkar /estudo._ | **75** | `ia generativa no e-commerce` | — | — | Topo | ⬜ a fazer | — | — |
+| 315 | seg 30/11/26 | P3 | SEO | Fotos com IA para lookbook: como produzir a coleção inteira sem estúdio <br>_SEO 09/11: linkar ai-shooting-moda-ia e foto-de-produto-com-ia; não repetir o conteúdo deles._ | **71** | `fotos com IA para lookbook` | — | — | Meio | ⬜ a fazer | — | — |
+| 85 | ter 01/12/26 | P2 | KW | Experiência de compra de moda online: o que o consumidor sente entre a foto e a entrega | **87** | `experiência de compra de moda online` | 1600 | Baixa | Topo | ⬜ a fazer | — | — |
+| 86 | qua 02/12/26 | P1 | KW | Customer experience e-commerce: do primeiro clique ao pós-venda | **63** | `customer experience e-commerce` | 4900 | Alta | Topo | ⬜ a fazer | — | — |
+| 87 | qui 03/12/26 | P5 | KW | ROAS e-commerce melhorar: as alavancas que estão fora da mídia paga | **67** | `ROAS e-commerce melhorar` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
+| 88 | sex 04/12/26 | P5 | KW | E-commerce B2C estratégia: o plano para marcas que vendem direto ao consumidor | **78** | `e-commerce B2C estratégia` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
+| 89 | sáb 05/12/26 | P5 | KW | Cross-sell e-commerce como fazer: vender o conjunto sem parecer empurrado | **73** | `cross-sell e-commerce como fazer` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
+| 90 | dom 06/12/26 | P3 | Pauta | Diferença entre foto 360 e visualizador 3D: qual é a melhor aposta <br>_Pauta P3-2 pronta_ | **66** | `diferença entre foto 360 e visualizador 3D` | 420 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 91 | seg 07/12/26 | P4 | KW | Marketing experiencial digital: quando a campanha vira experiência | **66** | `marketing experiencial digital` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
+| 92 | ter 08/12/26 | P7 | KW | Shoppable video como fazer: do roteiro à tag de compra dentro do vídeo | **70** | `shoppable video como fazer` | 980 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 93 | qua 09/12/26 | P6 | KW | Estatísticas e-commerce moda: os números de conversão, devolução e ticket do setor | **82** | `estatísticas e-commerce moda` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
+| 94 | qui 10/12/26 | P6 | KW | E-commerce report Brasil 2026: o retrato do mercado com dados verificáveis | **74** | `e-commerce report Brasil 2026` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
+| 95 | sex 11/12/26 | P7 | KW | AEO answer engine optimization: otimizar para a resposta, não para o link | **73** | `AEO answer engine optimization` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
+| 96 | sáb 12/12/26 | P7 | KW | Recomendação de produto IA e-commerce: como a vitrine aprende com o comportamento | **81** | `recomendação de produto IA e-commerce` | 1200 | Baixa | Meio | ⬜ a fazer | — | — |
+| 97 | dom 13/12/26 | P7 | KW | E-commerce 2030 tendências: as tendências que já se desenham | 60 | `e-commerce 2030 tendências` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
+| 98 | seg 14/12/26 | P7 | KW | Machine learning e-commerce: onde o modelo entrega resultado real | **65** | `machine learning e-commerce` | 3600 | Alta | Topo | ⬜ a fazer | — | — |
+| 99 | ter 15/12/26 | P5 | KW | Retenção de clientes loja virtual: o que faz o cliente voltar sem cupom | **71** | `retenção de clientes loja virtual` | 1100 | Baixa | Meio | ⬜ a fazer | — | — |
+| 100 | qua 16/12/26 | P5 | KW | NPS e-commerce: o que o número esconde | 38 | `NPS e-commerce` | 1800 | Média | Meio | ⬜ a fazer | — | — |
+| 102 | qui 17/12/26 | P3 | KW | AR sem aplicativo: por que exigir download matou a adoção | 57 | `AR sem aplicativo` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
+| 103 | sex 18/12/26 | P3 | KW | Decoração AR como funciona: como funciona na prática | 52 | `decoração AR como funciona` | 1400 | Baixa | Topo | ⬜ a fazer | — | — |
+| 104 | sáb 19/12/26 | P7 | KW | Próxima onda do e-commerce: o que vem depois do carrinho | 56 | `próxima onda do e-commerce` | 1100 | Baixa | Topo | ⬜ a fazer | — | — |
+| 105 | dom 20/12/26 | P4 | KW | Marketing de vídeo tendências 2026: as tendências de 2026 | 57 | `marketing de vídeo tendências 2026` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
+| 106 | seg 21/12/26 | P2 | KW | Como saber o tamanho certo online: a recomendação que cruza suas medidas com a grade da marca | **93** | `como saber o tamanho certo online` | 1300 | Baixa | Topo | ⬜ a fazer | — | — |
+| 107 | ter 22/12/26 | P5 | KW | CAC e-commerce como reduzir: baixar o custo sem travar o crescimento | **68** | `CAC e-commerce como reduzir` | 980 | Baixa | Meio | ⬜ a fazer | — | — |
+| 108 | qua 23/12/26 | P5 | KW | Upsell e-commerce estratégia: subir o ticket sem irritar o cliente | **66** | `upsell e-commerce estratégia` | 980 | Baixa | Meio | ⬜ a fazer | — | — |
+| 109 | qui 24/12/26 | P5 | KW | Mobile commerce performance: o que trava a venda no celular | 59 | `mobile commerce performance` | 960 | Baixa | Meio | ⬜ a fazer | — | — |
+| 110 | sex 25/12/26 | P6 | KW | Consumidor omnichannel: quem pesquisa no site e compra na loja | **62** | `consumidor omnichannel` | 1600 | Média | Topo | ⬜ a fazer | — | — |
+| 111 | sáb 26/12/26 | P4 | KW | Lembrança de marca como aumentar: o dado dos 28x e o que ele exige da campanha | **78** | `lembrança de marca como aumentar` | 1100 | Baixa | Topo | ⬜ a fazer | — | — |
+| 112 | dom 27/12/26 | P1 | KW | E-commerce imersivo: o que muda na prática quando a loja deixa de ser catálogo | **78** | `e-commerce imersivo` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
+| 114 | seg 28/12/26 | P2 | KW | Moda com inteligência artificial: onde a IA já opera na cadeia | **62** | `moda com inteligência artificial` | 1200 | Baixa | Topo | ⬜ a fazer | — | — |
+| 115 | ter 29/12/26 | P7 | KW | QR code interativo varejo: da etiqueta ao AR em um toque | 56 | `QR code interativo varejo` | 940 | Baixa | Meio | ⬜ a fazer | — | — |
+| 116 | qua 30/12/26 | P3 | KW | Aumentar conversão página de produto: o que muda quando o produto vira 3D | **73** | `aumentar conversão página de produto` | 1600 | Média | Meio | ⬜ a fazer | — | — |
+| 117 | qui 31/12/26 | P6 | KW | Tendências varejo digital 2026 dados: o que os números projetam para o ano | **74** | `tendências varejo digital 2026 dados` | 920 | Baixa | Meio | ⬜ a fazer | — | — |
+| 118 | sex 01/01/27 | P5 | KW | Receita recorrente e-commerce: assinatura e recompra como base de caixa | **71** | `receita recorrente e-commerce` | 860 | Baixa | Meio | ⬜ a fazer | — | — |
+| 119 | sáb 02/01/27 | P6 | KW | Pesquisa comportamento consumidor digital 2026: o que mudou na decisão de compra | **80** | `pesquisa comportamento consumidor digital 2026` | 890 | Baixa | Meio | ⬜ a fazer | — | — |
+| 121 | dom 03/01/27 | P2 | Tend | Diagnóstico pele preditivo IA: veja como sua pele estará em 6 meses <br>_T08 · urgência MÉDIA · gap 10x_ | **67** | `diagnóstico pele preditivo IA` | 900 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 122 | seg 04/01/27 | P2 | KW | Rotina de skincare personalizada IA: diagnóstico por selfie e prescrição individual | **83** | `rotina de skincare personalizada IA` | 1100 | Baixa | Meio | ⬜ a fazer | — | — |
+| 123 | ter 05/01/27 | P5 | KW | Como reduzir custo por lead e-commerce: quando o orgânico passa a carregar o funil | **82** | `como reduzir custo por lead e-commerce` | 840 | Baixa | Meio | ⬜ a fazer | — | — |
+| 124 | qua 06/01/27 | P6 | KW | Case e-commerce moda Brasil: as marcas que viraram o jogo da devolução | **70** | `case e-commerce moda Brasil` | 860 | Baixa | Meio | ⬜ a fazer | — | — |
+| 125 | qui 07/01/27 | P3 | KW | Personalizar produto online 3D: deixar o cliente montar antes de comprar | **72** | `personalizar produto online 3D` | 860 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 126 | sex 08/01/27 | P7 | KW | Personal shopper IA: a consultoria de estilo dentro da loja | 59 | `personal shopper IA` | 680 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 127 | sáb 09/01/27 | P4 | KW | CGI hiper-realista: o que separa o impressionante do crível | 59 | `CGI Hiper-realista` | 940 | Baixa | Topo | ⬜ a fazer | — | — |
+| 128 | dom 10/01/27 | P5 | KW | Solução para baixa conversão e-commerce: o que atacar quando o tráfego já é bom | **79** | `solução para baixa conversão e-commerce` | 640 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 129 | seg 11/01/27 | P5 | KW | LTV e-commerce como aumentar: o valor que o cliente entrega ao longo do tempo | **77** | `LTV e-commerce como aumentar` | 760 | Baixa | Meio | ⬜ a fazer | — | — |
+| 130 | ter 12/01/27 | P7 | KW | Agentes de IA para compras: o que já existe hoje | 48 | `agentes de IA para compras` | 640 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 132 | qua 13/01/27 | P3 | KW | Produto interativo online: o que muda quando o cliente manipula | **63** | `produto interativo online` | 980 | Baixa | Meio | ⬜ a fazer | — | — |
+| 133 | qui 14/01/27 | P4 | KW | Filtros AR para influenciadores: o press kit que vira conteúdo espontâneo | **73** | `filtros AR para influenciadores` | 720 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 134 | sex 15/01/27 | P1 | Pauta | Empresas de Immersive Commerce no Brasil: os 5 critérios para avaliar quem contratar <br>_Pauta P1-6 pronta_ | **84** | `empresas de Immersive Commerce no Brasil` | 260 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 135 | sáb 16/01/27 | P2 | KW | Trocas e devoluções moda como reduzir: como reduzir sem endurecer a política | **76** | `trocas e devoluções moda como reduzir` | 960 | Baixa | Meio | ⬜ a fazer | — | — |
+| 136 | dom 17/01/27 | P4 | KW | Filtros AR para Instagram marcas: experimentar o produto direto no story | **72** | `filtros AR para Instagram marcas` | 860 | Baixa | Meio | ⬜ a fazer | — | — |
+| 137 | seg 18/01/27 | P2 | KW | Outfit virtual: montar o look inteiro antes de comprar | 54 | `outfit virtual` | 920 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 138 | ter 19/01/27 | P6 | KW | Estatísticas e-commerce beleza: os números que explicam os 315% de conversão | **76** | `estatísticas e-commerce beleza` | 740 | Baixa | Meio | ⬜ a fazer | — | — |
+| 139 | qua 20/01/27 | P1 | KW | Retail tech Brasil: o mapa das tecnologias que já mudam a venda | **63** | `retail tech Brasil` | 920 | Baixa | Topo | ⬜ a fazer | — | — |
+| 140 | qui 21/01/27 | P3 | KW | WebAR e-commerce: realidade aumentada sem aplicativo no e-commerce | **66** | `WebAR e-commerce` | 920 | Baixa | Topo | ⬜ a fazer | — | — |
+| 141 | sex 22/01/27 | P1 | KW | Social commerce tendências: as tendências que movem venda dentro do feed | **72** | `social commerce tendências` | 1100 | Baixa | Topo | ⬜ a fazer | — | — |
+| 142 | sáb 23/01/27 | P7 | KW | Busca generativa e-commerce: quando a resposta substitui a lista de links | **73** | `busca generativa e-commerce` | 580 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 143 | dom 24/01/27 | P5 | KW | Dependência de mídia paga como reduzir: construir tráfego que não desliga com o orçamento | **89** | `dependência de mídia paga como reduzir` | 680 | Baixa | Topo | ⬜ a fazer | — | — |
+| 144 | seg 25/01/27 | P4 | KW | Buzz marketing digital 2026: gerar conversa sem apelar | 54 | `buzz marketing digital 2026` | 960 | Baixa | Topo | ⬜ a fazer | — | — |
+| 145 | ter 26/01/27 | P4 | KW | Produção criativa com IA Brasil: o que a IA já entrega em qualidade de campanha | **79** | `produção criativa com IA Brasil` | 640 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 146 | qua 27/01/27 | P5 | KW | Integração low-code e-commerce: o fim da objeção de TI | 54 | `integração low-code e-commerce` | 540 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 147 | qui 28/01/27 | P6 | KW | Benchmark e-commerce conversão Brasil: onde a sua taxa está em relação ao setor | **79** | `benchmark e-commerce conversão Brasil` | 680 | Baixa | Meio | ⬜ a fazer | — | — |
+| 148 | sex 29/01/27 | P6 | KW | Case de sucesso e-commerce tecnologia: o que as marcas fizeram e o que mediram | **78** | `case de sucesso e-commerce tecnologia` | 680 | Baixa | Fundo | ⬜ a fazer | — | — |
+| 149 | sáb 30/01/27 | P1 | KW | Touchpoints digitais varejo: onde a marca ganha ou perde a venda | **64** | `touchpoints digitais varejo` | 840 | Baixa | Meio | ⬜ a fazer | — | — |
+| 150 | dom 31/01/27 | P2 | KW | Provador virtual de joias: alto ticket e a prova que faltava | 60 | `provador virtual de joias` | 680 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 151 | seg 01/02/27 | P2 | KW | Personal stylist online IA: consultoria de estilo dentro do e-commerce | **70** | `personal stylist online IA` | 680 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 152 | ter 02/02/27 | P6 | KW | Case e-commerce beleza Brasil: de Mascavo a Época Cosméticos | 60 | `case e-commerce beleza Brasil` | 520 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 153 | qua 03/02/27 | P7 | KW | Conversational commerce IA: vender dentro da conversa | 53 | `conversational commerce IA` | 760 | Baixa | Topo | ⬜ a fazer | — | — |
+| 154 | qui 04/02/27 | P3 | KW | Substituir sessão de fotos com IA: o catálogo pronto sem estúdio | **64** | `substituir sessão de fotos com IA` | 640 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 155 | sex 05/02/27 | P2 | Pauta | Vantagens do provador virtual de maquiagem: comparativo de tecnologias 2026 <br>_Pauta P2-5 pronta_ | **75** | `vantagens do provador virtual de maquiagem` | 210 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 156 | sáb 06/02/27 | P4 | KW | OOH digital Brasil: o que o meio virou com telas e dados | 56 | `OOH digital Brasil` | 840 | Baixa | Topo | ⬜ a fazer | — | — |
+| 157 | dom 07/02/27 | P1 | KW | Inovação digital para grandes marcas: como aprovar, pilotar e escalar | **69** | `inovação digital para grandes marcas` | 760 | Baixa | Topo | ⬜ a fazer | — | — |
+| 158 | seg 08/02/27 | P3 | KW | Realidade aumentada no navegador: como o WebXR funciona | 55 | `realidade aumentada no navegador` | 760 | Baixa | Topo | ⬜ a fazer | — | — |
+| 159 | ter 09/02/27 | P4 | KW | PDV digital interativo: a loja física que virou ponto de experiência | **68** | `PDV digital interativo` | 680 | Baixa | Meio | ⬜ a fazer | — | — |
+| 160 | qua 10/02/27 | P3 | KW | E-commerce 3D Brasil: quem já opera | 35 | `e-commerce 3D Brasil` | 740 | Baixa | Topo | ⬜ a fazer | — | — |
+| 161 | qui 11/02/27 | P6 | KW | ROI realidade aumentada e-commerce: o retorno documentado entre 10x e 40x | **73** | `ROI realidade aumentada e-commerce` | 480 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 162 | sex 12/02/27 | P7 | KW | Super app commerce Brasil: super apps e comércio no Brasil | 58 | `super app commerce Brasil` | 480 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 163 | sáb 13/02/27 | P5 | KW | Tecnologia que aumenta conversão e-commerce: as tecnologias que realmente aumentam conversão | **92** | `tecnologia que aumenta conversão e-commerce` | 460 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 164 | dom 14/02/27 | P3 | KW | Otimizar PDP e-commerce: a página que responde antes da dúvida aparecer | **71** | `otimizar PDP e-commerce` | 720 | Baixa | Meio | ⬜ a fazer | — | — |
+| 165 | seg 15/02/27 | P3 | KW | Projetar produto no ambiente real: como a AR resolve a escala | **61** | `projetar produto no ambiente real` | 580 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 166 | ter 16/02/27 | P4 | KW | FOOH exemplos Brasil: as campanhas que já rodaram por aqui | 58 | `FOOH exemplos Brasil` | 510 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 167 | qua 17/02/27 | P3 | KW | 3D para joias e relógios: o detalhe que a foto não entrega | 58 | `3D para joias e relógios` | 560 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 168 | qui 18/02/27 | P3 | KW | Quanto custa modelagem 3D produto: as faixas de investimento por complexidade | **77** | `quanto custa modelagem 3D produto` | 560 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 169 | sex 19/02/27 | P3 | KW | 3D rendering para e-commerce: a qualidade que converte | 54 | `3D rendering para e-commerce` | 680 | Baixa | Meio | ⬜ a fazer | — | — |
+| 170 | sáb 20/02/27 | P5 | KW | VTEX conversão aumento: o que integrar na plataforma para vender mais | **69** | `VTEX conversão aumento` | 420 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 171 | dom 21/02/27 | P7 | KW | Web3 commerce o que é: o que sobrou de útil da promessa | 55 | `web3 commerce o que é` | 640 | Baixa | Topo | ⬜ a fazer | — | — |
+| 173 | seg 22/02/27 | P3 | KW | Como implementar 3D no e-commerce: o passo a passo | 50 | `como implementar 3D no e-commerce` | 540 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 174 | ter 23/02/27 | P4 | KW | Vídeo 3D para lançamento de produto: o filme sem locação e sem equipe | **69** | `vídeo 3D para lançamento de produto` | 480 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 175 | qua 24/02/27 | P6 | KW | Mercado de AR Brasil: tamanho, adoção e projeção até 2030 | 57 | `mercado de AR Brasil` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 176 | qui 25/02/27 | P7 | KW | IA autônoma e-commerce: quando o sistema decide sem humano no meio | **66** | `IA autônoma e-commerce` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 177 | sex 26/02/27 | P7 | KW | Agentes de IA compras online: como eles leem e escolhem o seu produto | **69** | `agentes de IA compras online` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 178 | sáb 27/02/27 | P7 | KW | Voice commerce Brasil: comprar falando, e por que ainda não pegou | **65** | `voice commerce Brasil` | 480 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 179 | dom 28/02/27 | P7 | Tend | Digital fashion Brasil: as roupas que existem só no digital <br>_T11 · longo prazo_ | 59 | `digital fashion Brasil` | 400 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 180 | seg 01/03/27 | P7 | Tend | Haptic commerce: sentir o produto sem tocá-lo <br>_T12 · longo prazo_ | 45 | `haptic commerce` | 400 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 181 | ter 02/03/27 | P5 | KW | E-commerce enterprise Brasil: o que muda quando a operação passa de nove dígitos | **80** | `e-commerce enterprise Brasil` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 182 | qua 03/03/27 | P7 | KW | O que é MCP Anthropic: o protocolo que conecta agentes ao seu catálogo | **70** | `o que é MCP Anthropic` | 390 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 183 | qui 04/03/27 | P1 | KW | E-commerce de alto ticket conversão: como converter quem pensa três vezes | **73** | `e-commerce de alto ticket conversão` | 480 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 184 | sex 05/03/27 | P3 | KW | Plugin AR para e-commerce: o que instalar e o que evitar | 56 | `plugin AR para e-commerce` | 480 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 185 | sáb 06/03/27 | P6 | KW | Empresa inovadora e-commerce Brasil: as empresas mais inovadoras do e-commerce brasileiro | **89** | `empresa inovadora e-commerce Brasil` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 186 | dom 07/03/27 | P7 | KW | Phygital commerce o que é: a fronteira que sumiu entre loja e site | **66** | `phygital commerce o que é` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 187 | seg 08/03/27 | P7 | KW | Agente de compras inteligente: o comprador que não é gente | 58 | `agente de compras inteligente` | 380 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 188 | ter 09/03/27 | P6 | KW | Transformação digital varejo cases: quem fez, o que mudou e o que foi medido | **76** | `transformação digital varejo cases` | 460 | Baixa | Meio | ⬜ a fazer | — | — |
+| 189 | qua 10/03/27 | P4 | KW | Fake OOH como fazer: da ideia ao vídeo publicado | 48 | `fake OOH como fazer` | 420 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 190 | qui 11/03/27 | P1 | KW | Como engajar geração Z no e-commerce: o que essa geração exige da marca | **71** | `como engajar geração Z no e-commerce` | 680 | Baixa | Topo | ⬜ a fazer | — | — |
+| 191 | sex 12/03/27 | P1 | KW | Por que minha taxa de conversão não sobe: o gargalo que não é preço nem frete | **77** | `por que minha taxa de conversão não sobe` | 560 | Baixa | Topo | ⬜ a fazer | — | — |
+| 192 | sáb 13/03/27 | P7 | KW | Zero click search e-commerce impacto: o impacto no e-commerce | **61** | `zero click search e-commerce impacto` | 360 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 193 | dom 14/03/27 | P5 | KW | Benchmark conversão e-commerce Brasil 2026: os números por vertical | **67** | `benchmark conversão e-commerce Brasil 2026` | 340 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 194 | seg 15/03/27 | P2 | KW | Recomendação de tamanho e-commerce: como a IA acerta a numeração | **64** | `recomendação de tamanho e-commerce` | 540 | Baixa | Meio | ⬜ a fazer | — | — |
+| 195 | ter 16/03/27 | P4 | KW | Economia da atenção marketing: o jogo dos 3 segundos | 52 | `economia da atenção marketing` | 580 | Baixa | Topo | ⬜ a fazer | — | — |
+| 196 | qua 17/03/27 | P2 | KW | Custo logística reversa moda: a conta que ninguém fecha | 55 | `custo logística reversa moda` | 430 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 197 | qui 18/03/27 | P2 | KW | Fashion tech Brasil: o que já é operação e o que ainda é promessa | **65** | `fashion tech Brasil` | 620 | Baixa | Topo | ⬜ a fazer | — | — |
+| 198 | sex 19/03/27 | P4 | KW | CGI para campanhas de produto: o produto perfeito sem fotografar o produto | **74** | `CGI para campanhas de produto` | 380 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 199 | sáb 20/03/27 | P2 | KW | Ticket médio moda como aumentar: vender o look inteiro, não a peça | **66** | `ticket médio moda como aumentar` | 510 | Baixa | Meio | ⬜ a fazer | — | — |
+| 200 | dom 21/03/27 | P3 | KW | AR para eletrônicos e-commerce: dimensão, encaixe e a dúvida do espaço | **70** | `AR para eletrônicos e-commerce` | 410 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 201 | seg 22/03/27 | P6 | KW | Retorno sobre investimento realidade aumentada varejo: os três vetores que compõem o retorno | **92** | `retorno sobre investimento realidade aumentada varejo` | 320 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 202 | ter 23/03/27 | P7 | KW | Como IA faz compras por mim: o que já acontece hoje sem você ver | **64** | `como IA faz compras por mim` | 320 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 203 | qua 24/03/27 | P1 | KW | Como tirar marca do vale do esquecimento: como tirar sua marca da irrelevância digital | **86** | `como tirar marca do vale do esquecimento` | 480 | Baixa | Topo | ⬜ a fazer | — | — |
+| 205 | qui 25/03/27 | P6 | KW | Resultado AR varejo: os números de quem já implementou | 54 | `resultado AR varejo` | 310 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 206 | sex 26/03/27 | P3 | KW | Realidade aumentada VTEX: como integrar | 39 | `realidade aumentada VTEX` | 380 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 207 | sáb 27/03/27 | P5 | KW | Wake e-commerce conversão: o que integrar na plataforma | 55 | `Wake e-commerce conversão` | 280 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 208 | dom 28/03/27 | P6 | KW | Caso de uso AR no varejo: sete aplicações com resultado medido | **62** | `caso de uso AR no varejo` | 290 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 209 | seg 29/03/27 | P7 | KW | GEO para e-commerce: como funciona na prática | 45 | `GEO para e-commerce como funciona` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 210 | ter 30/03/27 | P7 | KW | E-commerce com agentes de IA: o que muda na sua operação | 56 | `e-commerce com agentes de IA` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 211 | qua 31/03/27 | P1 | Pauta | O que é Phygitech: o conceito que redefine a relação entre marcas e consumidores <br>_Pauta P1-5 pronta_ | **80** | `Phygitech` | 120 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 212 | qui 01/04/27 | P4 | KW | Viral marketing imersivo: quando a imersão é o que faz compartilhar | **67** | `viral marketing imersivo` | 320 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 213 | sex 02/04/27 | P7 | KW | Spatial computing varejo: o catálogo pronto para o Apple Vision Pro | **67** | `spatial computing varejo` | 280 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 214 | sáb 03/04/27 | P7 | KW | Frictionless commerce: tirar o atrito de cada etapa da compra | **61** | `frictionless commerce` | 280 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 215 | dom 04/04/27 | P1 | KW | Como sair da dependência de mídia paga: construir demanda que não desliga | **73** | `como sair da dependência de mídia paga` | 420 | Baixa | Topo | ⬜ a fazer | — | — |
+| 216 | seg 05/04/27 | P3 | KW | Mobile AR e-commerce: a experiência que nasce no celular | 56 | `mobile AR e-commerce` | 340 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 218 | ter 06/04/27 | P4 | KW | Melhores exemplos de vídeos CGI hiper-realistas: e o que aprender com cada um | **77** | `melhores exemplos de vídeos CGI hiper-realistas` | 290 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 219 | qua 07/04/27 | P4 | KW | Press kit digital AR: o material que o influenciador quer postar | **64** | `press kit digital AR` | 280 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 220 | qui 08/04/27 | P6 | KW | Mercado Immersive Commerce global: tamanho, crescimento e onde o Brasil está | **76** | `mercado Immersive Commerce global` | 240 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 221 | sex 09/04/27 | P7 | KW | E-commerce preparado para IA 2026: o checklist antes de os agentes chegarem | **75** | `e-commerce preparado para IA 2026` | 240 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 222 | sáb 10/04/27 | P1 | KW | State of Immersive Commerce 2026: o que o primeiro estudo do gênero revelou | **75** | `State of Immersive Commerce 2026` | 290 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 223 | dom 11/04/27 | P1 | KW | Fotografia estática e-commerce problema: por que a foto não convence mais | **73** | `fotografia estática e-commerce problema` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 224 | seg 12/04/27 | P3 | KW | Digital twin produto e-commerce: o gêmeo digital chega ao varejo | **64** | `digital twin produto e-commerce` | 290 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 225 | ter 13/04/27 | P4 | KW | Animação 3D publicitária Brasil: o mercado e como contratar | 59 | `animação 3D publicitária Brasil` | 310 | Baixa | Fundo | ⬜ a fazer | — | — |
+| 226 | qua 14/04/27 | P5 | KW | Como justificar ROI tecnologia imersiva CFO: o framework para a reunião de orçamento | **84** | `como justificar ROI tecnologia imersiva CFO` | 210 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 227 | qui 15/04/27 | P6 | KW | Clientes metaKosmos resultados: o que cada marca mediu depois de implementar | **76** | `clientes metaKosmos resultados` | 210 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 228 | sex 16/04/27 | P6 | KW | Dados provador virtual mercado: tamanho, adoção e performance por vertical | **74** | `dados provador virtual mercado` | 210 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 229 | sáb 17/04/27 | P7 | KW | Compra autônoma por IA: quando o agente decide e paga | 53 | `compra autônoma por IA` | 210 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 230 | dom 18/04/27 | P7 | KW | Agente IA assistant compras online: o assistente que compara e escolhe por você | **79** | `agente IA assistant compras online` | 210 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 231 | seg 19/04/27 | P3 | KW | Foto 360 produto versus 3D diferenças: as diferenças técnicas que importam | **74** | `foto 360 produto versus 3D diferenças` | 260 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 232 | ter 20/04/27 | P2 | KW | Beauty tech Brasil: o mapa da tecnologia aplicada à beleza | 58 | `beauty tech Brasil` | 380 | Baixa | Topo | ⬜ a fazer | — | — |
+| 233 | qua 21/04/27 | P1 | KW | Solução imersiva para e-commerce: como escolher entre 3D, AR e provador virtual | **79** | `solução imersiva para e-commerce` | 240 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 234 | qui 22/04/27 | P6 | KW | Case visualizador 3D móveis: 20 milhões de visualizações na Flexform | **68** | `case visualizador 3D móveis` | 190 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 235 | sex 23/04/27 | P6 | KW | mKases metaKosmos: o método de documentar resultado | 51 | `mKases metaKosmos` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 236 | sáb 24/04/27 | P6 | KW | Virtual try-on resultado real: os resultados reais | 50 | `virtual try-on resultado real` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 237 | dom 25/04/27 | P7 | KW | Futuro do Immersive Commerce: para onde a categoria caminha até 2030 | **68** | `futuro do Immersive Commerce` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 238 | seg 26/04/27 | P7 | KW | Agentic Commerce Brasil: o que as marcas precisam saber | 55 | `Agentic Commerce Brasil` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 239 | ter 27/04/27 | P7 | KW | Como adaptar e-commerce para agentes IA: o passo a passo do catálogo legível | **76** | `como adaptar e-commerce para agentes IA` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 240 | qua 28/04/27 | P4 | KW | Branded content imersivo: conteúdo de marca que o público escolhe ver | **69** | `branded content imersivo` | 240 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 241 | qui 29/04/27 | P3 | KW | Estoque infinito varejo AR: como a AR vende o que não cabe na loja | **66** | `estoque infinito varejo AR` | 220 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 242 | sex 30/04/27 | P2 | KW | Provador virtual moda casos de uso: casos de uso por categoria | **62** | `provador virtual moda casos de uso` | 210 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 243 | sáb 01/05/27 | P4 | KW | Material de lançamento produto imersivo: o kit que faz o produto estrear grande | **79** | `material de lançamento produto imersivo` | 190 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 244 | dom 02/05/27 | P6 | KW | Cases de ROI com tecnologia imersiva: os retornos acima de 10x, documentados | **76** | `cases de ROI com tecnologia imersiva` | 160 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 245 | seg 03/05/27 | P6 | KW | 3D e-commerce resultado caso real: os números de quem colocou o catálogo em 3D | **78** | `3D e-commerce resultado caso real` | 160 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 246 | ter 04/05/27 | P7 | KW | Provador virtual via chatbot: experimentar sem sair da conversa | **63** | `provador virtual via chatbot` | 160 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 247 | qua 05/05/27 | P4 | KW | Como contratar produtora FOOH com IA no Brasil: critérios, prazos e o que pedir na proposta | **91** | `como contratar produtora FOOH com IA no Brasil` | 180 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 248 | qui 06/05/27 | P4 | KW | FOOH vs OOH diferença: custo, alcance e mensuração comparados | **61** | `FOOH vs OOH diferença` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 249 | sex 07/05/27 | P2 | KW | Cross-sell fashion e-commerce: como vender o look e não a peça | **62** | `cross-sell fashion e-commerce` | 290 | Baixa | Meio | ⬜ a fazer | — | — |
+| 250 | sáb 08/05/27 | P7 | KW | IA autônoma fazendo compras: o cenário que já roda nos Estados Unidos | **69** | `IA autônoma fazendo compras` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 251 | dom 09/05/27 | P1 | KW | Definição de comércio imersivo: a definição completa do termo no Brasil | **71** | `definição de comércio imersivo` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 252 | seg 10/05/27 | P1 | KW | Lacuna de imaginação consumidor: o conceito que explica por que o consumidor não compra | **87** | `lacuna de imaginação consumidor` | 180 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 253 | ter 11/05/27 | P2 | KW | Custo devolução e-commerce de moda calculadora: quanto sua marca perde por mês com devoluções | **93** | `custo devolução e-commerce de moda calculadora` | 180 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 254 | qua 12/05/27 | P3 | KW | AR para alto ticket médio: quanto maior o preço, maior a dúvida | **63** | `AR para alto ticket médio` | 180 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 255 | qui 13/05/27 | P4 | KW | FOOH para marcas de luxo: impacto sem perder a sofisticação | 59 | `FOOH para marcas de luxo` | 160 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 256 | sex 14/05/27 | P4 | KW | Publicidade imersiva o que é: o formato que substitui o anúncio interrompido | **76** | `publicidade imersiva o que é` | 160 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 257 | sáb 15/05/27 | P6 | KW | Relatório Immersive Commerce Brasil: os dados proprietários do State of 2026 | **76** | `relatório Immersive Commerce Brasil` | 140 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 258 | dom 16/05/27 | P7 | KW | Imersivo conversacional e-commerce: a fusão que só a mK opera hoje | **66** | `imersivo conversacional e-commerce` | 140 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 259 | seg 17/05/27 | P7 | KW | Checkout por IA e-commerce: o pagamento que acontece dentro do chat | **67** | `checkout por IA e-commerce` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 260 | ter 18/05/27 | P5 | KW | Framework ROI Immersive Commerce: as três contas que sustentam a decisão | **72** | `framework ROI Immersive Commerce` | 130 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 261 | qua 19/05/27 | P4 | KW | Ativações de marca em XR para eventos: a experiência que a plateia leva no celular | **82** | `ativações de marca em XR para eventos` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 262 | qui 20/05/27 | P4 | KW | Como medir ROI de FOOH: as métricas que vão além da visualização | **64** | `como medir ROI de FOOH` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 263 | sex 21/05/27 | P7 | KW | MCP protocol e-commerce: como o protocolo conecta agentes ao catálogo | **69** | `MCP protocol e-commerce` | 120 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 264 | sáb 22/05/27 | P7 | KW | E-commerce conversacional agêntico: a próxima interface de compra | **65** | `e-commerce conversacional agêntico` | 120 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 265 | dom 23/05/27 | P2 | KW | Prova virtual resultado beleza: os resultados reais das marcas brasileiras | **74** | `prova virtual resultado beleza` | 140 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 266 | seg 24/05/27 | P7 | KW | Catálogo 3D para agentes de IA: estruturar o produto para ser lido por máquina | **78** | `catálogo 3D para agentes de IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 267 | ter 25/05/27 | P7 | KW | Catálogo 3D para IA: o ativo que torna a marca visível para agentes | **67** | `catálogo 3D para IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 268 | qua 26/05/27 | P7 | KW | Catálogo 3D para agentes IA: metadados, formato e indexação | 59 | `catálogo 3D para agentes IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 269 | qui 27/05/27 | P7 | KW | Realidade aumentada via agente IA: quando o agente abre a câmera por você | **73** | `realidade aumentada via agente IA` | 110 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 270 | sex 28/05/27 | P4 | KW | 28x mais lembrança de marca: o dado por trás do marketing imersivo | **66** | `28x mais lembrança de marca` | 120 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 271 | sáb 29/05/27 | P6 | KW | ROI 40x tecnologia imersiva: como esse retorno é calculado | 58 | `ROI 40x tecnologia imersiva` | 100 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 272 | dom 30/05/27 | P6 | KW | Mascavo case provador virtual: 2 milhões de provas virtuais no primeiro mês | **75** | `Mascavo case provador virtual` | 90 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 273 | seg 31/05/27 | P6 | KW | Conversão 315% provador virtual beleza: como esse número foi construído | **71** | `conversão 315% provador virtual beleza` | 90 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 274 | ter 01/06/27 | P7 | KW | Como mK usa GEO para dominar IAs: o método aberto, para a sua marca copiar | **74** | `como mK usa GEO para dominar IAs` | 90 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 275 | qua 02/06/27 | P7 | KW | AI shopping agent: o que é e como opera | 39 | `AI shopping agent` | 90 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 276 | qui 03/06/27 | P7 | KW | Instant Checkout AI: o que OpenAI e Stripe lançaram dentro do ChatGPT | **69** | `Instant Checkout AI` | 90 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 277 | sex 04/06/27 | P6 | KW | Flexform case 3D AR: 20 milhões de visualizações em 3D | 54 | `Flexform case 3D AR` | 80 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 278 | sáb 05/06/27 | P6 | KW | Redução 61% devoluções provador virtual: a origem do dado | 57 | `redução 61% devoluções provador virtual` | 80 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 279 | dom 06/06/27 | P7 | KW | UCP universal commerce protocol: o padrão de Google, Shopify e Walmart | **70** | `UCP universal commerce protocol` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 280 | seg 07/06/27 | P7 | KW | AI-ready catalog varejo: preparar o varejo para os agentes | 58 | `AI-ready catalog varejo` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 281 | ter 08/06/27 | P7 | KW | MCP protocol ecommerce: implementação no e-commerce | 51 | `MCP protocol ecommerce` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 282 | qua 09/06/27 | P7 | KW | Try-on dentro do ChatGPT: experimentar a peça sem sair do chat | **62** | `try-on dentro do ChatGPT` | 80 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 283 | qui 10/06/27 | P6 | KW | Case mK 315% conversão beleza: o número, a origem e a metodologia | **65** | `case mK 315% conversão beleza` | 75 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 284 | sex 11/06/27 | P1 | KW | Phygitech Brasil: quem opera a fusão entre físico e digital | 59 | `Phygitech Brasil` | 90 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 285 | sáb 12/06/27 | P6 | KW | Toymania case 3D e-commerce: 6,2x mais adições ao carrinho | 58 | `Toymania case 3D e-commerce` | 70 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 286 | dom 13/06/27 | P7 | KW | Agentic Commerce Brasil pioneiros: os pioneiros | 47 | `Agentic Commerce Brasil pioneiros` | 70 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 287 | seg 14/06/27 | P7 | KW | AI buying agent: o comprador que não é gente | 44 | `AI buying agent` | 70 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 288 | ter 15/06/27 | P7 | KW | Agentic AI para varejo: o que muda na operação de quem vende | 60 | `agentic AI para varejo` | 70 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 289 | qua 16/06/27 | P6 | KW | Época Cosméticos case e-commerce: +60% em conversão no primeiro mês | **67** | `Época Cosméticos case e-commerce` | 65 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 290 | qui 17/06/27 | P6 | KW | Gregory case provador virtual moda: provador virtual em todo lançamento | **71** | `Gregory case provador virtual moda` | 60 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 291 | sex 18/06/27 | P7 | KW | ACP agentic commerce protocol OpenAI: o protocolo de commerce da OpenAI e Stripe | **80** | `ACP agentic commerce protocol OpenAI` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 292 | sáb 19/06/27 | P7 | KW | Autonomous AI purchase: a compra sem humano no meio | 51 | `autonomous AI purchase` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 293 | dom 20/06/27 | P7 | KW | Agentic Commerce Protocol: o que o ACP define | 45 | `Agentic Commerce Protocol` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 294 | seg 21/06/27 | P7 | KW | Agentic Commerce: exemplos no Brasil | 36 | `Agentic Commerce exemplos no Brasil` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 295 | ter 22/06/27 | P7 | KW | Protocolo de comércio agêntico: MCP, UCP e ACP explicados | 57 | `protocolo de comércio agêntico` | 50 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 296 | qua 23/06/27 | P7 | KW | OpenAI Stripe commerce: o que a parceria muda | 45 | `OpenAI Stripe commerce` | 60 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 297 | qui 24/06/27 | P7 | KW | Provador virtual agêntico: o conceito que a mK está plantando para 2027 | **71** | `provador virtual agêntico` | 40 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 298 | sex 25/06/27 | P7 | KW | AI-ready cataloging: o serviço que prepara o catálogo | 53 | `AI-ready cataloging` | 40 | Muito Baixa | Fundo | ⬜ a fazer | — | — |
+| 299 | sáb 26/06/27 | P7 | KW | Catálogo legível por IA: o requisito para existir no comércio agêntico | **70** | `catálogo legível por IA` | 40 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 300 | dom 27/06/27 | P7 | KW | Anthropic MCP varejo: o protocolo aplicado ao catálogo de produto | **65** | `Anthropic MCP varejo` | 40 | Muito Baixa | Topo | ⬜ a fazer | — | — |
+| 301 | seg 28/06/27 | P7 | KW | State of Immersive Agentic Commerce: o estudo que une as duas fronteiras | **72** | `State of Immersive Agentic Commerce` | 30 | Muito Baixa | Meio | ⬜ a fazer | — | — |
+| 302 | ter 29/06/27 | P7 | KW | Agentic Commerce imersivo: a posição única da mK | 48 | `Agentic Commerce imersivo` | 30 | Muito Baixa | Topo | ⬜ a fazer | — | — |
 | 303 | seg 28/06/27 | P7 | KW | llms.txt dinâmico catálogo: como a IA lê seu estoque em tempo real <br>_Publicado ao vivo · 2.038 palavras de corpo · FAQ 12 · post no LinkedIn feito_ | **65** | `llms.txt dinâmico catálogo` | 20 | Muito Baixa | Topo | ✅ publicado | 2026-09-02 | llms-txt-dinamico-catalogo |
 
 > **212 dos 303 H1 passam de 60 caracteres** (marcados em negrito na coluna `car.`). Isso é esperado e não é problema no H1, que pode ser longo. Só significa que, nesses artigos, o `Título SEO` do metadados precisa de uma versão curta — abrindo pela mesma keyword e cortando o complemento.
