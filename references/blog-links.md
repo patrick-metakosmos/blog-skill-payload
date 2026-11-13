@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **121** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **122** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -92,6 +92,7 @@ Total: **121** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `provador-virtual-gratuito` | Provador virtual gratuito: o que existe de graça e onde está o limite | /blog/provador-virtual-gratuito |
 | `provador-virtual-ia-generativa-ecommerce` | Provador Virtual de Óculos: Como Dobrar as Vendas de Óculos no E-Commerce | /blog/provador-virtual-ia-generativa-ecommerce |
 | `provador-virtual-nuvemshop` | Provador virtual Nuvemshop: como integrar na loja e o que esperar do resultado | /blog/provador-virtual-nuvemshop |
+| `provador-virtual-para-loja-de-roupas` | Provador virtual para loja de roupas: como escolher, implantar e medir o resulta | /blog/provador-virtual-para-loja-de-roupas |
 | `provador-virtual-plus-size` | Provador virtual plus size: por que inclusão corporal decide a adoção antes da a | /blog/provador-virtual-plus-size |
 | `provador-virtual-vtex` | Provador virtual VTEX: como integrar à loja e o que medir | /blog/provador-virtual-vtex |
 | `quanto-custa-provador-virtual` | Quanto custa provador virtual: faixas de preço reais, o que entra na conta e com | /blog/quanto-custa-provador-virtual |
