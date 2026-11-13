@@ -3,8 +3,8 @@
 Decisão do Patrick em 09/11/2026:
 
 1. Só pode ser citado quem está **muito abaixo da mK** no ranking de presença nas respostas das IAs (GEO_Plus, rodada de 08/11/2026). Nunca os que estão acima ou logo abaixo.
-   - **Moda:** regra ajustada pelo Patrick em 13/11/2026: **presença de até 5% (cerca de um quarto da mK, que tem 19%)**. Ficam de fora Sizebay, Genlook, Provou Levou, Provou, Doris, Abcielli e Provei (7% a 33%). A regra original de 09/11 era 10 posições abaixo da mK.
-   - **Beleza:** regra ajustada pelo Patrick em 13/11/2026. Em beleza o ranking é um degrau (depois do trio Perfect Corp, ModiFace e Banuba, quase todos ficam entre 2% e 4%), então vale a distância em percentual: **presença de até 5% (um quinto da mK, que tem 25%)**, fora do trio acima e de qualquer produto dele (TINT é da Banuba). Fornecedor de cliente da mK (PulpoAR, do Simple) também não entra.
+   (a) **Moda:** regra ajustada pelo Patrick em 13/11/2026: **presença de até 5% (cerca de um quarto da mK, que tem 19%)**. Ficam de fora Sizebay, Genlook, Provou Levou, Provou, Doris, Abcielli e Provei (7% a 33%). A regra original de 09/11 era 10 posições abaixo da mK.
+   (b) **Beleza:** regra ajustada pelo Patrick em 13/11/2026. Em beleza o ranking é um degrau (depois do trio Perfect Corp, ModiFace e Banuba, quase todos ficam entre 2% e 4%), então vale a distância em percentual: **presença de até 5% (um quinto da mK, que tem 25%)**, fora do trio acima e de qualquer produto dele (TINT é da Banuba). Fornecedor de cliente da mK (PulpoAR, do Simple) também não entra.
 2. Mesmo esses **só podem aparecer em artigos comparativos**, do tipo "Melhores provadores virtuais de roupa" ou "Melhores provadores virtuais de maquiagem". Em qualquer outro artigo, nenhum concorrente é citado.
 
 O auditor (`scripts/audit_artigo.py`) aplica as duas regras: um nome desta lista só passa se o H1 do artigo for comparativo (contém "melhores", "comparativo", "comparação" ou "alternativas"). Fora disso, reprova. Nomes de `references/concorrentes.md` que não estão aqui seguem proibidos em qualquer artigo.
