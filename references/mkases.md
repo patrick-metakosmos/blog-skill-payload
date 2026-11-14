@@ -1,6 +1,6 @@
 # mKases publicados (Payload)
 
-Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/mkases`.
+Total: **108** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/mkases`.
 
 | slug | título | URL |
 |---|---|---|
@@ -47,6 +47,7 @@ Total: **107** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `colegio-sigma` | Colégio Sigma · Vídeo IA Volta às Aulas | /mkases/colegio-sigma |
 | `conviva` | Conviva · Tour Virtual 3D Imobiliário | /mkases/conviva |
 | `copra-video-ia` | Copra Alimentos · Vídeo IA | /mkases/copra-video-ia |
+| `dumond-provador-virtual-de-calcados` | Dumond · Provador virtual de calçados | /mkases/dumond-provador-virtual-de-calcados |
 | `feimi-videos-ia-edicoes-inverno` | FEIMI · Quatro vídeos com IA para as edições de inverno | /mkases/feimi-videos-ia-edicoes-inverno |
 | `filtro-ar` | Filtro AR | /mkases/filtro-ar |
 | `flexform-mk-3d-shop` | Flexform · Visualizador 3D | /mkases/flexform-mk-3d-shop |
