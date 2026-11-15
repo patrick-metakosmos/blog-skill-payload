@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **123** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **124** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -86,6 +86,7 @@ Total: **123** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `performance-marketing-ecommerce` | Performance marketing e-commerce: o que fazer quando a mídia paga para de escala | /blog/performance-marketing-ecommerce |
 | `personalizacao-ia-ecommerce-vitrine-individual` | Personalização IA e-commerce: do banner genérico à vitrine individual | /blog/personalizacao-ia-ecommerce-vitrine-individual |
 | `por-que-ecommerce-nao-converte` | Por que e-commerce não converte: o diagnóstico que ninguém faz antes de mexer no | /blog/por-que-ecommerce-nao-converte |
+| `provador-virtual-de-maquiagem-para-pele-negra` | Provador virtual de maquiagem para pele negra: como acertar o tom de base sem fi | /blog/provador-virtual-de-maquiagem-para-pele-negra |
 | `provador-virtual-e-realidade-aumentada-o-futuro-do-varejo` | Provador Virtual e Realidade Aumentada: O Futuro do Varejo | /blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo |
 | `provador-virtual-ecommerce-guia-completo` | Provador Virtual para E-commerce: como funciona, quanto custa e por que as maior | /blog/provador-virtual-ecommerce-guia-completo |
 | `provador-virtual-ecommerce-moda` | Provador virtual no e-commerce de moda: como transformar os 98 que vão embora em | /blog/provador-virtual-ecommerce-moda |
