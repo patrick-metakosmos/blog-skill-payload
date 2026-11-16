@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **124** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **125** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -73,6 +73,7 @@ Total: **124** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
 | `metaverso-ecommerce-o-que-sobrou-da-promessa` | Metaverso e-commerce: o que sobrou da promessa | /blog/metaverso-ecommerce-o-que-sobrou-da-promessa |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
+| `mk-beauty-provador-virtual-maquiagem-coloracao-esmaltes` | mK Beauty: provador virtual de maquiagem, coloração e esmaltes | /blog/mk-beauty-provador-virtual-maquiagem-coloracao-esmaltes |
 | `mk-fashion-provador-virtual-moda-ia` | mK Fashion+: provador virtual de moda com IA | /blog/mk-fashion-provador-virtual-moda-ia |
 | `mk-home-simulador-ia-moveis-decoracao` | mK Home AI: simulador de móveis e decoração com IA | /blog/mk-home-simulador-ia-moveis-decoracao |
 | `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House da metaKosmos para projetos imersivos sob medida | /blog/mk-labs-creative-house-projetos-imersivos |
