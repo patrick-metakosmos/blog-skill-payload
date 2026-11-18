@@ -1,6 +1,9 @@
 {
   "dia": "2026-11-18",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-11-18T07:00:03"
+  "inicio": "2026-11-18T07:00:03",
+  "fim": "2026-11-18T07:19:14",
+  "slug": "smart-mirror-pdv-brasil",
+  "url": "https://metakosmos.com.br/blog/smart-mirror-pdv-brasil"
 }
