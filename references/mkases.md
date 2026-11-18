@@ -1,6 +1,6 @@
 # mKases publicados (Payload)
 
-Total: **108** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/mkases`.
+Total: **111** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/mkases`.
 
 | slug | título | URL |
 |---|---|---|
@@ -47,7 +47,9 @@ Total: **108** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `colegio-sigma` | Colégio Sigma · Vídeo IA Volta às Aulas | /mkases/colegio-sigma |
 | `conviva` | Conviva · Tour Virtual 3D Imobiliário | /mkases/conviva |
 | `copra-video-ia` | Copra Alimentos · Vídeo IA | /mkases/copra-video-ia |
+| `decolar-fooh-ia-viagem-disney` | Decolar · FOOH com IA para a viagem Decolar + Disney | /mkases/decolar-fooh-ia-viagem-disney |
 | `dumond-provador-virtual-de-calcados` | Dumond · Provador virtual de calçados | /mkases/dumond-provador-virtual-de-calcados |
+| `fashion-meeting-video-ia-14-festival` | Fashion Meeting · Vídeo com IA para o 14º Festival | /mkases/fashion-meeting-video-ia-14-festival |
 | `feimi-videos-ia-edicoes-inverno` | FEIMI · Quatro vídeos com IA para as edições de inverno | /mkases/feimi-videos-ia-edicoes-inverno |
 | `filtro-ar` | Filtro AR | /mkases/filtro-ar |
 | `flexform-mk-3d-shop` | Flexform · Visualizador 3D | /mkases/flexform-mk-3d-shop |
@@ -69,6 +71,7 @@ Total: **108** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `innerhaus` | Inner Haus · Vídeo FOOH | /mkases/innerhaus |
 | `kapo` | Kapo | /mkases/kapo |
 | `karen-bachini-provador-virtual` | Karen Bachini · Provador Virtual | /mkases/karen-bachini-provador-virtual |
+| `kobana-videos-ia-kadu-febraban-tech` | Kobana · Vídeos com IA do Kadu para o FEBRABAN Tech | /mkases/kobana-videos-ia-kadu-febraban-tech |
 | `l-oreal` | L'Oréal | /mkases/l-oreal |
 | `l-oreal-fooh` | L'Oréal · FOOH | /mkases/l-oreal-fooh |
 | `l-oreal-inoa` | L'Oréal · iNOA | /mkases/l-oreal-inoa |

@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **126** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **127** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -109,6 +109,7 @@ Total: **126** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `roi-marketing-digital-ecommerce` | ROI marketing digital e-commerce: como medir sem se enganar com métrica de vaida | /blog/roi-marketing-digital-ecommerce |
 | `roi-provador-virtual` | ROI do Provador Virtual: dados reais de marcas brasileiras | /blog/roi-provador-virtual |
 | `seo-para-ia-generativa` | SEO para IA generativa: o que muda quando quem lê é a máquina | /blog/seo-para-ia-generativa |
+| `smart-mirror-pdv-brasil` | Smart mirror PDV Brasil: o espelho de loja que virou provador virtual | /blog/smart-mirror-pdv-brasil |
 | `tabela-de-medidas-roupas-online` | Tabela de medidas roupas online: por que ela falha e o que a substitui | /blog/tabela-de-medidas-roupas-online |
 | `taxa-de-conversao-ecommerce` | Taxa de conversão e-commerce: o guia completo para 2026 | /blog/taxa-de-conversao-ecommerce |
 | `tecnologia-para-ecommerce` | Tecnologia para e-commerce: o stack que sustenta conversão em 2026 | /blog/tecnologia-para-ecommerce |
