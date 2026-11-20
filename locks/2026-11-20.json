@@ -1,6 +1,9 @@
 {
   "dia": "2026-11-20",
-  "status": "running",
+  "status": "done",
   "maquina": "PC-PATRICK (patri)",
-  "inicio": "2026-11-20T07:00:04"
+  "inicio": "2026-11-20T07:00:04",
+  "fim": "2026-11-20T07:15:49",
+  "slug": "provador-virtual-shopify",
+  "url": "https://metakosmos.com.br/blog/provador-virtual-shopify"
 }
