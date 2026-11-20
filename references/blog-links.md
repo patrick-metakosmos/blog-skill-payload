@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **128** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **129** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -99,6 +99,7 @@ Total: **128** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `provador-virtual-para-loja-de-roupas` | Provador virtual para loja de roupas: como escolher, implantar e medir o resulta | /blog/provador-virtual-para-loja-de-roupas |
 | `provador-virtual-plus-size` | Provador virtual plus size: por que inclusão corporal decide a adoção antes da a | /blog/provador-virtual-plus-size |
 | `provador-virtual-que-mostra-a-roupa-no-corpo` | Provador virtual que mostra a roupa no corpo: a alternativa aos que só recomenda | /blog/provador-virtual-que-mostra-a-roupa-no-corpo |
+| `provador-virtual-shopify` | Provador Virtual Shopify: como integrar na loja e o que medir no 1º mês | /blog/provador-virtual-shopify |
 | `provador-virtual-vtex` | Provador virtual VTEX: como integrar à loja e o que medir | /blog/provador-virtual-vtex |
 | `quanto-custa-provador-virtual` | Quanto custa provador virtual: faixas de preço reais, o que entra na conta e com | /blog/quanto-custa-provador-virtual |
 | `quanto-custa-realidade-aumentada-ecommerce-roi-2026` | Quanto custa implementar Realidade Aumentada no e-commerce: o guia definitivo de | /blog/quanto-custa-realidade-aumentada-ecommerce-roi-2026 |
