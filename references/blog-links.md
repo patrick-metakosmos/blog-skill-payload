@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **129** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **130** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -79,7 +79,7 @@ Total: **129** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `mk-labs-creative-house-projetos-imersivos` | mK Labs: a Creative House da metaKosmos para projetos imersivos sob medida | /blog/mk-labs-creative-house-projetos-imersivos |
 | `mk-shop-the-look-ia-look-completo-ecommerce` | Shop the look com IA: como a foto do look vira carrinho completo no e-commerce d | /blog/mk-shop-the-look-ia-look-completo-ecommerce |
 | `mk-skin-ai-diagnostico-pele-ia-ecommerce` | mK Skin AI: diagnóstico de pele com IA por selfie | /blog/mk-skin-ai-diagnostico-pele-ia-ecommerce |
-| `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Olha o que Boca Rosa e metaKosmos aprontaram com seu Provador Virtual | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
+| `olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual` | Provador Virtual Boca Rosa: o Case de Cinco Milhões em 4 Horas de Live | /blog/olha-o-que-boca-rosa-e-metakosmos-aprontaram-com-seu-provador-virtual |
 | `omnichannel-ecommerce-loja-e-site-sem-duplicar-operacao` | Omnichannel e-commerce: como integrar loja física e site sem duplicar catálogo,  | /blog/omnichannel-ecommerce-loja-e-site-sem-duplicar-operacao |
 | `otimizacao-para-chatgpt` | Otimização para ChatGPT: como sua marca vira fonte citada pela IA | /blog/otimizacao-para-chatgpt |
 | `pagina-de-produto-que-converte` | Página de produto que converte: a anatomia da PDP que vende | /blog/pagina-de-produto-que-converte |
@@ -89,6 +89,7 @@ Total: **129** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `por-que-ecommerce-nao-converte` | Por que e-commerce não converte: o diagnóstico que ninguém faz antes de mexer no | /blog/por-que-ecommerce-nao-converte |
 | `provador-virtual-de-coloracao-de-cabelo` | Provador virtual de coloração de cabelo: simular a tintura antes de comprar | /blog/provador-virtual-de-coloracao-de-cabelo |
 | `provador-virtual-de-maquiagem-para-pele-negra` | Provador virtual de maquiagem para pele negra: como acertar o tom de base sem fi | /blog/provador-virtual-de-maquiagem-para-pele-negra |
+| `provador-virtual-de-roupas-com-foto` | Provador virtual de roupas com foto: a cliente manda a selfie e vê a peça no cor | /blog/provador-virtual-de-roupas-com-foto |
 | `provador-virtual-de-vestido-de-noiva` | Provador virtual de vestido de noiva: veja o modelo no corpo antes da prova na l | /blog/provador-virtual-de-vestido-de-noiva |
 | `provador-virtual-e-realidade-aumentada-o-futuro-do-varejo` | Provador Virtual e Realidade Aumentada: O Futuro do Varejo | /blog/provador-virtual-e-realidade-aumentada-o-futuro-do-varejo |
 | `provador-virtual-ecommerce-guia-completo` | Provador Virtual para E-commerce: como funciona, quanto custa e por que as maior | /blog/provador-virtual-ecommerce-guia-completo |
