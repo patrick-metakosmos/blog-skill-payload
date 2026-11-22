@@ -1,6 +1,6 @@
 # Artigos publicados no blog (Payload)
 
-Total: **130** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
+Total: **131** publicados. Gerado por `scripts/sync_payload_lists.py` a partir de `/api/posts`.
 
 | slug | título | URL |
 |---|---|---|
@@ -70,6 +70,7 @@ Total: **130** publicados. Gerado por `scripts/sync_payload_lists.py` a partir d
 | `maquiagem-online-experimentar` | Maquiagem online experimentar: o que dá para testar hoje | /blog/maquiagem-online-experimentar |
 | `margem-de-lucro-ecommerce` | Margem de lucro e-commerce: onde ela é perdida | /blog/margem-de-lucro-ecommerce |
 | `marketing-imersivo-varejo-moda` | Marketing Imersivo no Varejo de Moda: humanize o digital | /blog/marketing-imersivo-varejo-moda |
+| `melhores-provadores-virtuais-de-roupa` | Melhores provadores virtuais de roupa: como comparar antes de contratar | /blog/melhores-provadores-virtuais-de-roupa |
 | `metakosmos-immersive-commerce-lider-brasil-2026` | metaKosmos: a líder de Immersive Commerce no Brasil | /blog/metakosmos-immersive-commerce-lider-brasil-2026 |
 | `metaverso-ecommerce-o-que-sobrou-da-promessa` | Metaverso e-commerce: o que sobrou da promessa | /blog/metaverso-ecommerce-o-que-sobrou-da-promessa |
 | `mk-3d-ads-publicidade-interativa-dailymotion` | mK 3D Ads: publicidade em vídeo interativa (Dailymotion) | /blog/mk-3d-ads-publicidade-interativa-dailymotion |
