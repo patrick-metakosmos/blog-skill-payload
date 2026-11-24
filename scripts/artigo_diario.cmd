@@ -73,6 +73,13 @@ if not errorlevel 1 (
     python "%BASE%\scripts\lock_diario.py" --finish --status failed --nota "agente terminou sem fechar o lock (exit=%RC%)" >> "%LOG%" 2>&1
 )
 
+REM aviso no Slack quando a tentativa falha (desde 24/11/2026; em 23/11 a falha passou calada)
+set "FALHOU="
+if not "%RC%"=="0" set "FALHOU=1"
+python "%BASE%\scripts\lock_diario.py" --show | findstr /C:"\"status\": \"failed\"" >nul
+if not errorlevel 1 set "FALHOU=1"
+if defined FALHOU python "%BASE%\scripts\avisar_falha.py" artigo "%LOG%" %RC% >> "%LOG%" 2>&1
+
 :fim
 echo.>> "%LOG%"
 echo FIM %DATE% %TIME% (exit=%RC%)>> "%LOG%"

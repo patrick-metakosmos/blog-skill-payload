@@ -34,7 +34,8 @@ def main():
         "O que foi feito": feito,
         "Backup (para reverter)": f"python scripts/restore_post.py {aplicado['backup']} {pid}",
     })
-    feitas = [l for l in plan.ler_log() if l["URL do artigo"] == url and l.get("O que foi feito", "").strip()]
+    feitas = [l for l in plan.ler_log() if l["URL do artigo"] == url and l.get("O que foi feito", "").strip()
+              and l.get("Balde") != "Controle"]
     ok_inv = plan.atualizar_inventario(url, {
         "Última atualização": quando,
         "Total de otimizações": len(feitas),

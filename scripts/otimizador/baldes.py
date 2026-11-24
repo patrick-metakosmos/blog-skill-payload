@@ -2,12 +2,13 @@
 """Seleção do ciclo quinzenal (etapas 1.1.2.2 e 1.1.2.3 do processo).
 
 Cruza Inventário (Payload) + Search Console + GA4 + Log e separa até
-3 Quick Wins, 2 Decadentes e 2 CTR Baixo. As cotas são TETO: com o volume
+12 Quick Wins, 6 Decadentes, 4 CTR Baixo e 3 Renovações (teto ampliado em 24/11/2026,
+de 8 para 25 por ciclo, a pedido do Patrick). As cotas são TETO: com o volume
 pequeno do blog, um balde sem candidato acima do mínimo fica com vaga sobrando,
 em vez de otimizar artigo por causa de ruído.
 
 Regras de elegibilidade (valem para todos os baldes):
-- artigo com 90+ dias no ar (o Google ainda está acomodando os mais novos);
+- artigo com 60+ dias no ar (era 90 até 24/11/2026; o Google ainda acomoda os mais novos);
 - nenhuma otimização nos últimos 28 dias (senão a medição do "depois" fica suja).
 
 Ordem de atribuição quando um artigo cabe em mais de um balde:
@@ -34,16 +35,16 @@ DADOS = SKILL_DIR / "otimizador" / "dados"
 CICLOS = SKILL_DIR / "otimizador" / "ciclos"
 INVENTARIO = SKILL_DIR / "otimizador" / "inventario.csv"
 
-COTAS = {"Quick Win": 3, "Decadente": 2, "CTR Baixo": 2, "Renovação": 1}
+COTAS = {"Quick Win": 12, "Decadente": 6, "CTR Baixo": 4, "Renovação": 3}
 # Renovação: tráfego relevante + dado parado há muito tempo
 REN_DIAS = 90
 REN_MIN_CLIQUES = 10
-IDADE_MIN_DIAS = 90
+IDADE_MIN_DIAS = 60
 INTERVALO_DIAS = 28
 
 # Quick Win: posição 5-20, ordenado por impressões
 QW_POSICAO = (5.0, 20.0)
-QW_MIN_IMPRESSOES = 200
+QW_MIN_IMPRESSOES = 100  # em 90 dias (era 200 até 24/11/2026)
 # Decadente: queda > 30% nos cliques (90d vs 90d anteriores), com base mínima
 DEC_QUEDA = 0.30
 DEC_MIN_CLIQUES_ANTES = 10
@@ -122,11 +123,18 @@ def carregar_inventario():
         return list(csv.DictReader(f))
 
 
-def otimizacoes_por_url(log):
+CONTROLE = "Controle"
+
+
+def otimizacoes_por_url(log, incluir_controle=True):
     """Só conta como otimização a linha do Log com 'O que foi feito' preenchido;
-    linha só selecionada (ainda não executada) não bloqueia nem soma."""
+    linha só selecionada (ainda não executada) não bloqueia nem soma.
+    Linha do grupo de comparação (Balde "Controle") entra no descanso de 28 dias
+    (o artigo não pode ser mexido enquanto é medido), mas não é otimização."""
     saida = {}
     for l in log:
+        if not incluir_controle and l.get("Balde") == CONTROLE:
+            continue
         feito = data_iso(l.get("Data da otimização", ""))
         if l.get("O que foi feito", "").strip() and feito:
             saida.setdefault(l["URL do artigo"], []).append(feito)
@@ -300,6 +308,7 @@ def diagnostico(item):
 
 def linhas_inventario(hoje, inventario, gsc, ga4, log, escolhidos, motivos_fora):
     otim = otimizacoes_por_url(log)
+    otim_reais = otimizacoes_por_url(log, incluir_controle=False)
     selecionados = {e["url"] for e in escolhidos}
     saida = []
     for art in inventario:
@@ -315,8 +324,9 @@ def linhas_inventario(hoje, inventario, gsc, ga4, log, escolhidos, motivos_fora)
         l["Engajamento médio (s)"] = pagina["engajamento_medio_s"] if pagina else ""
         l["Leads (GA4)"] = entrada["leads"] if entrada else ""
         datas = otim.get(url, [])
-        l["Total de otimizações"] = len(datas)
-        l["Última otimização"] = max(datas).isoformat() if datas else ""
+        reais = otim_reais.get(url, [])
+        l["Total de otimizações"] = len(reais)
+        l["Última otimização"] = max(reais).isoformat() if reais else ""
         l["Status"] = ("Candidato a otimização" if url in selecionados
                        else motivos_fora.get(url, "Ativo"))
         for k in ("ID Payload", "Total de otimizações", "Leads (GA4)"):
