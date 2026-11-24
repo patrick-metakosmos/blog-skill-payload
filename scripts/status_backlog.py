@@ -14,6 +14,8 @@ PASTA = os.path.join(BASE, 'Pautas e Palavras Cahve')
 MD = os.path.join(PASTA, 'BACKLOG-EDITORIAL.md')
 CSV_OUT = os.path.join(PASTA, 'backlog.csv')
 
+PAUSADAS_TXT = os.path.join(PASTA, 'pausadas.txt')
+
 STOP = r'(?:de|do|da|dos|das|no|na|nos|nas|em|com|para|por|e|o|a|os|as|um|uma|que)'
 
 
@@ -23,6 +25,17 @@ def norm(s):
     s = s.replace('-', ' ').replace('/', ' ')
     s = re.sub(r'[^a-z0-9 ]', ' ', s)
     return re.sub(r'\s+', ' ', s).strip()
+
+
+def _pausadas():
+    """Keywords pausadas (24/11/2026): pauta genérica que o Google não indexa. Ver pausadas.txt."""
+    if not os.path.exists(PAUSADAS_TXT):
+        return set()
+    with open(PAUSADAS_TXT, encoding='utf-8') as f:
+        return {norm(l) for l in f if l.strip() and not l.lstrip().startswith('#')}
+
+
+PAUSADAS = _pausadas()
 
 
 def env():
@@ -100,7 +113,7 @@ def main():
 
     linhas = open(MD, encoding='utf-8').read().split('\n')
     saida, csv_rows = [], []
-    placar = {'publicado': 0, 'rascunho': 0, 'a fazer': 0, 'sobreposicao': 0}
+    placar = {'publicado': 0, 'rascunho': 0, 'a fazer': 0, 'sobreposicao': 0, 'pausada': 0}
     cab_feito = False
 
     for ln in linhas:
@@ -138,12 +151,15 @@ def main():
         if status == 'a fazer' and vizinho is not None:
             status = 'sobreposicao'
             achado = vizinho
+        if status == 'a fazer' and norm(kw) in PAUSADAS:
+            status = 'pausada'
         placar[status] += 1
 
         pub = (achado.get('publishedAt') or '')[:10] if achado else ''
         slug = achado.get('slug', '') if achado else ''
         marca = {'publicado': '✅ publicado', 'rascunho': '🟡 rascunho',
                  'a fazer': '⬜ a fazer',
+                 'pausada': '⏸️ pausada (genérica, ver pausadas.txt)',
                  'sobreposicao': '⚠️ termo já citado em outro post'}[status]
         # Reconstroi a linha a partir das 10 colunas de origem (ate Funil) e
         # descarta qualquer trio Status/Publicado/Slug de rodadas anteriores.
